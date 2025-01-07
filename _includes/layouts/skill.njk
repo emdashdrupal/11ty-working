@@ -1,0 +1,21 @@
+
+<!doctype html>
+    <head>
+        <title>{{ title }}</title>
+        <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="/_includes/css/skill.css">
+        <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
+
+
+    </head>
+    <body>
+        {% block content %}
+           <h1> {{ title }} <span class="icon fa-{{ FontAwesomeIcon }}"></span></h1>
+
+            <p>{{ description }}</p>
+            <p>Ed Marsh has experience with {{ title }}:
+    {{ content | safe }}
+            {% endblock %}
+            <a href="../index.html">Back</a>
+        </body>
+</html>

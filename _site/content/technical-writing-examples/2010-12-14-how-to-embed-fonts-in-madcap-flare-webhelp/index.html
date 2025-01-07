@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
+        <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>How to Embed Fonts in MadCap Flare WebHelp</title>
+        <meta name="description" content="">
+        <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="">
+
+        <meta name="generator" content="Eleventy v3.0.0">
+
+    </head>
+    <body>
+        <main id="skip" class="max-w-1">
+            <heading-anchors>
+                <h1>How to Embed Fonts in MadCap Flare WebHelp</h1>
+
+            </heading-anchors>
+            <p>This story is for intermediate to advanced help developers. It requires knowledge of HTML, CSS, and a help authoring tool such as MadCap Flare or Adobe Robohelp.</p>
+<p>Have you ever been bored using Georgia, Tahoma, Verdana, and (sigh...) Arial over and over in your help projects? The <a href="http://www.w3.org/TR/css3-fonts/#the-font-face-rule">font-face property</a> has been available for some time in Cascading Style Sheets (CSS), but browser and font foundry support are only now allowing use of fonts other than those that ship with operating systems and applications, without workarounds like <a href="http://en.wikipedia.org/wiki/Scalable_Inman_Flash_Replacement">sIFR</a> and <a href="http://cufon.shoqolate.com/generate/">cufon</a>.</p>
+<p>New technologies have sprouted up, with Google <a href="http://code.google.com/apis/webfonts/">creating its own font API</a>, and Adobe announcing <a href="http://typekit.com/foundries/adobe">font support through TypeKit</a>. However, you can also save and host freely available font files on your company’s web server, or install on your users’ PCs, and use these fonts in your WebHelp projects. The web site <a href="http://www.fontsquirrel.com/fontface">Font Squirrel creates the CSS for you</a>, using only free, embeddable fonts.</p>
+<p>There are thousands of free fonts out there, but not all font creators support font embedding, so be sure to read any license agreement before using them in your projects.</p>
+<p><a href="http://www.madcapsoftware.com/">MadCap's Flare</a> help authoring tool (HAT) uses CSS to style its WebHelp, so you can easily  embed fonts into your help. This should work similarly in Adobe Robohelp.</p>
+<p>You can use the fonts locally, in addition to on a server. The CSS and font files are quite small, taking up only a few kilobytes each, so it shouldn’t add a lot of overhead to your projects. All major browsers, including Internet Explorer 7, 8, and 9, Firefox, Chrome, Opera, and Safari, currently support using the font-face attribute, but of course they are implemented differently. IE supports the EOT format, while most other browsers support TrueType (TTF) and some OpenType (OTF) format fonts.</p>
+<h3>Downloading Fonts</h3>
+<p>Since 95% of the work is done for you (did I also mention free?), we’ll use <a href="http://www.fontsquirrel.com/fontface">Font Squirrel’s font face kits</a>. These kits include the CSS file for the font, which defines the <code>@font-face</code> properties you need, and the font files. All you need to do is change the path to your fonts on the server or local machine (<em>not</em> the windows/fonts folder), and then <a href="#config">add these CSS files to your Flare project</a>. I like this modular approach to the font files, originally shown to me by <a href="http://www.johnvsc.com">John “VSC” Zavocki</a> at a <a href="http://groups.drupal.org/nyc">Drupal meet-up</a>. It’s easy to use, reduces clutter in your CSS files, and allows you to easily swap fonts by referencing a different CSS file. I downloaded and used the <a href="http://www.fontsquirrel.com/fonts/Gentium-Basic" title="Gentium font download">Gentium serif font</a> for body text, and the <a href="http://www.fontsquirrel.com/fonts/PT-Sans" title="PT Sans font download">PT Sans sans-serif</a> for headings.</p>
+<h3>Modifying CSS Files</h3>
+<p>The only change you need to make in the CSS files is to specify the path to the fonts folder. I keep it simple, and place the fonts folder directly below the stylesheets folder (in Flare, this is in <code>Content/Resources/Stylesheets</code>). You then need to change the path in two places in each font’s CSS file: for the EOT reference and the TTF (or OTF) reference. In this case, you just add the fonts/ path to each URL reference, shown in bold in the following example:</p>
+<pre class="language-css"><code class="language-css"> <span class="token atrule"><span class="token rule">@font-face</span></span> <span class="token punctuation">{</span>
+      <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token string">'Gentium Basic Regular'</span><span class="token punctuation">;</span>
+      <span class="token property">src</span><span class="token punctuation">:</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">'fonts/GenBasR.eot'</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span>
+      <span class="token property">src</span><span class="token punctuation">:</span> <span class="token function">local</span><span class="token punctuation">(</span><span class="token string">'Gentium Basic Regular'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token function">local</span><span class="token punctuation">(</span><span class="token string">'GentiumBasic-Regular'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">'fonts/GenBasR.ttf'</span><span class="token punctuation">)</span></span> <span class="token function">format</span><span class="token punctuation">(</span><span class="token string">'truetype'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+<p>In your project’s master CSS file, you then reference the font-family you want. For example:</p>
+<pre class="language-css"><code class="language-css"> <span class="token selector">body</span> <span class="token punctuation">{</span>
+      <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token string">'Gentium Basic Regular'</span><span class="token punctuation">,</span> Georgia<span class="token punctuation">;</span> serif<span class="token punctuation">;</span>
+      <span class="token property">font-size</span><span class="token punctuation">:</span> 14px<span class="token punctuation">;</span>
+      <span class="token property">font-weight</span><span class="token punctuation">:</span> regular<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+<p>As I learned the frustrating way (&quot;...why won’t this <em>work?!?</em>&quot;<em>)</em>, font names with spaces <em>must</em> be enclosed in <em>single</em>, not double, quotation marks.</p>
+<h3>Configuring Flare</h3>
+<ol>
+<li>Using Windows Explorer, copy the CSS files to the <code>Content/Resources/Stylesheets</code> folder.</li>
+<li>Create a fonts folder below the Stylesheets folder, and copy the font files to it.</li>
+<li>Open your Flare project.</li>
+<li>In Flare, select <strong>Project&gt;Add Stylesheet.</strong>. <img src="/assets/images/addnewstylesheet_thumb.png" alt="addnewstylesheet" title="addnewstylesheet"></li>
+<li>Select <strong>New from existing</strong>, then click Browse (<strong>…</strong>) to locate and import the stylesheet into the project. <img src="//assets/images/flare-import-stylesheet_thumb.png" alt="flare import stylesheet" title="flare import stylesheet"></li>
+<li>Enter the name of the CSS file in the <strong>File Name</strong> text box, and click <strong>Add</strong>.</li>
+<li>On the Flare toolbar, click <strong>Open Master Stylesheet</strong>.</li>
+<li>Click the <strong>Options</strong> drop-down, and select <strong>Link Stylesheet</strong>. <img src="/assets/images/stylesheet-links_thumb.png" alt="stylesheet links" title="stylesheet links"></li>
+<li>Add the font CSS files by clicking the double right arrow to move the file to the right, and click <strong>OK</strong>.</li>
+</ol>
+<blockquote>
+<p>[!NOTE]
+This adds an <code>@import</code> declaration in your master CSS file.</p>
+</blockquote>
+<p>When you build your project, the fonts should appear in the output.</p>
+<p><img src="/assets/images/related_docs-150x150.png" alt="Sample of font embedding" title="related_docs"> This WebHelp topic uses @font-face embedding for Gentium and PT Sans</p>
+<p>Happy fonting! Let me know if this was helpful, or if you have any questions, in the comments.</p>
+
+        </main>
+
+    </body>
+</html>

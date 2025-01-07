@@ -1,0 +1,25 @@
+<!doctype html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/_includes/css/skill.css">
+                <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
+                <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
+                <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
+
+
+    </head>
+    {% block content %}
+        <h2>Ed Marsh skillz</h2>
+
+        <div class="skill-grid">
+            {% for skill in collections.skills %}
+            <div class="max-2xl">
+<div class="skill-tile">
+                    <span class="icon fa-{{ skill.data.FontAwesomeIcon }}"></span>
+                    <a href="{{ skill.url }}">{{skill.data.title}}</a>
+</div>
+</div>
+            {% endfor %}
+    </ul>
+</div>
+{% endblock %}
+</html>

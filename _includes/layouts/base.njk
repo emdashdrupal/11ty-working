@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+    <head>
+        <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
+        <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ title or metadata.title }}</title>
+        <meta name="description" content="{{ description or metadata.description }}">
+        <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+
+        <meta name="generator" content="{{ eleventy.generator }}">
+
+    </head>
+    <body>
+        <main id="skip" class="max-w-1">
+            <heading-anchors>
+                <h1>{{title}}</h1>
+
+            </heading-anchors>
+            {{ content | safe }}
+        </main>
+
+    </body>
+</html>

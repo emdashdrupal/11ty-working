@@ -1,0 +1,21 @@
+<!doctype html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
+<link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
+</head>
+{% block content %}
+<h2> Ed Marsh tech writing samples</h2>
+<div class="max-w-md">
+<p class="max-w-md shadow-md bg-slate-700">As a long-time technical content professional, here are some real-world thoughts and examples of what Ed can do for your business.</p>
+</div>
+    <div class="min-h-14 auto-cols-auto max-w-md shadow-md bg-slate-500">
+
+            <ul>
+        {% for example in collections.examples %}
+
+                <li class="from-gray-700 underline"><a href="{{ example.url }}">{{example.data.title}}</a></li>
+        {% endfor %}</ul>
+</div>
+{% endblock %}
+</html>
