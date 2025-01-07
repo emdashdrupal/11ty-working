@@ -10,6 +10,7 @@
 
     </head>
     <body>
+        {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
         {% block content %}
            <h1> {{ title }} <span class="icon fa-{{ FontAwesomeIcon }}"></span></h1>
 

@@ -1,6 +1,9 @@
 ---
 title: "Metrics and data"
 FontAwesomeIcon: "solid fa-magnifying-glass-chart"
+eleventyNavigation:
+    title: Metrics
+
 ---
 
 Data analysis and metrics are important to yeh.

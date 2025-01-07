@@ -1,4 +1,8 @@
 {
   "tags": "skills",
-  "layout": "/layouts/skill.njk"
+  "layout": "/layouts/skill.njk",
+  "eleventyNavigation":{
+    "key" : "Skills"
+
+  }
 }
