@@ -570,6 +570,10 @@ video {
   top: 2rem;
 }
 
+.left-3 {
+  left: 0.75rem;
+}
+
 .float-left {
   float: left;
 }
@@ -602,17 +606,6 @@ video {
   display: list-item;
 }
 
-.size-min {
-  width: -moz-min-content;
-  width: min-content;
-  height: -moz-min-content;
-  height: min-content;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
 .max-w-1 {
   max-width: 0.25rem;
 }
@@ -627,6 +620,10 @@ video {
 
 .list-disc {
   list-style-type: disc;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .border {
