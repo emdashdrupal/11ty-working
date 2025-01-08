@@ -432,21 +432,6 @@ summary {
 Removes the default spacing and border for appropriate elements.
 */
 
-blockquote,
-dl,
-dd,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-figure,
-p,
-pre {
-  margin: 0;
-}
 
 fieldset {
   margin: 0;
@@ -606,6 +591,18 @@ video {
 
 .top-8 {
   top: 2rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.left-12 {
+  left: 3rem;
+}
+
+.right-6 {
+  right: 1.5rem;
 }
 
 .ml-auto {
