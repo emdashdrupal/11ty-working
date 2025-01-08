@@ -2,6 +2,9 @@
 title: "Structured authoring (DITA)"
 description: "Yeh!"
 FontAwesomeIcon: "solid fa-list"
+eleventyNavigation:
+    title: "Structured language"
+
 ---
 
 - Converted 1500 topic Adobe Robohelp project to structured authoring (DITA XML).

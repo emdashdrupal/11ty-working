@@ -1,6 +1,9 @@
 ---
 title: "Public speaking experience"
 FontAwesomeIcon : "brands fa-teamspeak"
+eleventyNavigation:
+    title: "Public speaking"
+
 ---
 
 - Keynote speaker, 2020 STC New England chapter InterChange regional conference.

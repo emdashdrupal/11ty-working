@@ -1,6 +1,9 @@
 ---
 title : "Podcasting"
 FontAwesomeIcon : "solid fa-podcast"
+eleventyNavigation:
+    title: Podcasting
+
 ---
 
 - Host of LavaCon content strategy conference podcast
