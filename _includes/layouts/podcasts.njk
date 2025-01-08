@@ -20,11 +20,12 @@
             <div class="max-sm">
                 <div class="skill-tile">
                                     <div class="float-left left-3">
+                                        <img
                                         {% if podcast.data.cover %}
-                                        <img src="/assets/images/{{podcast.data.cover }}" alt="{{ podcast.data.coverAlt }}" width="100"/>
+                                        src="/assets/images/{{podcast.data.cover }}" alt="{{ podcast.data.coverAlt }}"
                                         {% else %}
-                                        <img src="/assets/images/content-content-podcast-new-cover.png" alt="Content Content podcast" width="100"/>
-                                        {% endif %}</div>
+                                        src="/assets/images/content-content-podcast-new-cover.png" alt="Content Content podcast"
+                                        {% endif %}/></div>
                     <p><a class="ml-4" href="{{ podcast.url }}">{{ podcast.data.title }}</a></p>
                 </div>
             </div>
