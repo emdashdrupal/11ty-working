@@ -11,10 +11,10 @@
     <div class="skill-grid">
 
         {% for podcast in collections.podcasts %}
-            <div>
-                <img src="{{podcast.data.cover }}"/></div>
+
             <div class="max-sm">
                 <div class="skill-tile">
+                                    <img src="assets/images/{{podcast.data.cover }}" alt="{{ podcast.data.coverAlt }}"/>
                     <a class="ml-4" href="{{ podcast.url }}">{{ podcast.data.title }}</a>
                 </div>
             </div>
