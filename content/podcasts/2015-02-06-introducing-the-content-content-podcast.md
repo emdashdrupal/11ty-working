@@ -2,8 +2,9 @@
 title: "Introducing the Content Content podcast - Offices without tarantulas featuring Sharon Burton &mdash; episode 1"
 date: "2015-02-06"
 categories:
-  - "podcast"
+  - "podcasts"
   - "technical writing"
+tags : "podcasts"
 ---
 
 In our inaugural podcast, technical communication and customer experience consultant Sharon Burton tells us about California law, offices without tarantulas, documenting the obvious, the file name field, buying buckets of DITA at the DITA Store, and the renaissance of content.

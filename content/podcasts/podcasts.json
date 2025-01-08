@@ -1,4 +1,4 @@
 {
-"tag": "podcasts",
-"layout" : "layouts/podcasts.njk"
+"layout" : "layouts/podcasts.njk",
+"tags": "podcasts"
 }
