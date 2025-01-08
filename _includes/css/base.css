@@ -35,3 +35,7 @@ a {
 }
 .language-css
 { font-family: 'Courier New', Courier, monospace;}
+
+li {
+    margin-bottom: 0.9rem;
+}
