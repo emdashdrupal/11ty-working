@@ -7,6 +7,7 @@ categories:
   - "technical writing"
 tags:
   - "dita"
+cover: "content-content-podcast-new-cover.png"
 ---
 
 Content strategy business owner Sarah O'Keefe talks about working with a CMS, content metrics, tekom, packing for flights, and her aversion to the nightshade family.
