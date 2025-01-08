@@ -12,7 +12,7 @@
 
         {% for podcast in collections.podcasts %}
             <div>
-                {{podcast.data.title }}</div>
+                <img src="{{podcast.data.cover }}"/></div>
             <div class="max-sm">
                 <div class="skill-tile">
                     <a class="ml-4" href="{{ podcast.url }}">{{ podcast.data.title }}</a>
