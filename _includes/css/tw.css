@@ -600,16 +600,12 @@ video {
   top: 2.5rem;
 }
 
-.top-3 {
-  top: 0.75rem;
+.top-6 {
+  top: 1.5rem;
 }
 
 .top-8 {
   top: 2rem;
-}
-
-.top-6 {
-  top: 1.5rem;
 }
 
 .ml-auto {
@@ -642,10 +638,6 @@ video {
 
 .max-w-1 {
   max-width: 0.25rem;
-}
-
-.max-w-md {
-  max-width: 28rem;
 }
 
 .max-w-lg {

@@ -2,7 +2,7 @@
 title : "Technical writing"
 FontAwesomeIcon : "solid fa-paragraph"
 eleventyNavigation:
-    title: oop
+    key: Technical writing
 
 ---
 
