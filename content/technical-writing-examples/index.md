@@ -1,7 +1,7 @@
 ---
 title : "Technical writing examples"
 eleventyExcludeFromCollections: true
-layout: '/layouts/tw-examples.njk'
+layout: 'layouts/tw-examples.njk'
 ---
 
 ## Ed Marsh tech writing samples

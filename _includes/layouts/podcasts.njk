@@ -1,0 +1,25 @@
+<!doctype html>
+<head>
+    <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
+</head>
+{% block content %}
+    {% include 'layouts/partials/header.njk' %}
+    <hr/>
+    <h1>Ed Marsh</h1>
+    <h2>Podcasts</h2>
+    <div class="skill-grid">
+
+        {% for podcast in collections.podcasts %}
+            <div>
+                {{podcast.data.title }}</div>
+            <div class="max-sm">
+                <div class="skill-tile">
+                    <a class="ml-4" href="{{ podcast.url }}">{{ podcast.data.title }}</a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
+</html>
