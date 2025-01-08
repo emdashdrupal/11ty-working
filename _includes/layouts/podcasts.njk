@@ -2,6 +2,7 @@
 <head>
     <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/_includes/css/skill.css">
 </head>
 {% block content %}
     {% include 'layouts/partials/header.njk' %}
@@ -14,13 +15,13 @@
 
             <div class="max-sm">
                 <div class="skill-tile">
-                                    <div class="size-min">
+                                    <div class="size-min float-left w-5">
                                         {% if podcast.data.cover %}
                                         <img src="/assets/images/{{podcast.data.cover }}" alt="{{ podcast.data.coverAlt }}" width="100"/>
                                         {% else %}
                                         <img src="/assets/images/content-content-podcast-new-cover.png" alt="Content Content podcast" width="100"/>
-                                        {% endif %}</div>
-                    <a class="ml-4" href="{{ podcast.url }}">{{ podcast.data.title }}</a>
+                                        {% endif %}
+                    <a class="ml-4" href="{{ podcast.url }}">{{ podcast.data.title }}</a></div>
                 </div>
             </div>
         {% endfor %}

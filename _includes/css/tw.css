@@ -570,6 +570,10 @@ video {
   top: 2rem;
 }
 
+.float-left {
+  float: left;
+}
+
 .ml-4 {
   margin-left: 1rem;
 }
@@ -603,6 +607,10 @@ video {
   width: min-content;
   height: -moz-min-content;
   height: min-content;
+}
+
+.w-5 {
+  width: 1.25rem;
 }
 
 .max-w-1 {
