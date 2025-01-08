@@ -6,7 +6,7 @@ categories:
   - "information architecture"
   - "podcast"
   - "technical writing"
-cover: "/assets/images/allie_proff.jpg"
+cover: "allie_proff.jpg"
 coverAlt: "Allie Proff, Content Content podcast episode 17 guest"
 ---
 

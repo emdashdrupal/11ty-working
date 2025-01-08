@@ -4,6 +4,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_includes/css/skill.css");
   eleventyConfig.addPassthroughCopy("_includes/css/base.css");
   eleventyConfig.addPassthroughCopy("_includes/css/tw.css");
+  eleventyConfig.addPassthroughCopy("assets/images");
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 };

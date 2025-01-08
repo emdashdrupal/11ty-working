@@ -5,18 +5,14 @@ categories:
   - "content strategy"
   - "podcast"
   - "technical writing"
-tags: ["content strategy", podcast, "technical writing"]
+tags: ["content strategy", podcasts, "technical writing"]
 cover : "Marcia-365_rt_smlweb.jpg"
 coverAlt : "Marcia Riefer Johnston, guest for episode 5 of the Content Content podcast"
 ---
 
 Tech writer turned content marketer and strategist Marcia Riefer Johnston [(@marciarjohnston)](http://twitter.com/marciarjohnston) discusses her career transitions, her two highly rated books, and her strong love of Strunk and White.
 
-
-
 ## Mentioned during this episode
-
-
 
 - [Undefinable Me: The Story of a 13-Year-Old Girl from the Inner City Who Codes](http://www.mtv.com/news/2226440/teen-programmer-speech/)
 - Keila Banks’s inspiring 10-minute [OSCON](http://www.oscon.com/) keynote

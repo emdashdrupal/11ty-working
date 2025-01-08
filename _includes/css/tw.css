@@ -598,6 +598,13 @@ video {
   display: list-item;
 }
 
+.size-min {
+  width: -moz-min-content;
+  width: min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
 .max-w-1 {
   max-width: 0.25rem;
 }
