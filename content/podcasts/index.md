@@ -2,8 +2,6 @@
 title: "Content Content Podcast"
 description: "The people behind the content"
 date: "2015-06-02"
-eleventyExcludeFromCollections: true
-layout : "layouts/podcasts.njk"
 ---
 
 ## {{ title }}

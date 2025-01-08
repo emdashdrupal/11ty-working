@@ -558,6 +558,10 @@ video {
   position: static;
 }
 
+.left-3 {
+  left: 0.75rem;
+}
+
 .top-10 {
   top: 2.5rem;
 }
@@ -568,10 +572,6 @@ video {
 
 .top-8 {
   top: 2rem;
-}
-
-.left-3 {
-  left: 0.75rem;
 }
 
 .float-left {
@@ -620,10 +620,6 @@ video {
 
 .list-disc {
   list-style-type: disc;
-}
-
-.items-center {
-  align-items: center;
 }
 
 .border {
