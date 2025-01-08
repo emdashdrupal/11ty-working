@@ -6,7 +6,7 @@ categories:
   - "information architecture"
   - "podcast"
   - "technical writing"
-cover : "/assets/images/Andrea_Ames_headshot-300x275.png"
+cover : "Andrea_Ames_headshot-300x275.png"
 coverAlt : "Andrea Ames, Content Content podcast episode 21 guest"
 ---
 

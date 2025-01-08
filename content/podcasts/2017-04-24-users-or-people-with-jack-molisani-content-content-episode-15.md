@@ -12,7 +12,7 @@ tags:
   - "podcast"
   - "technical writing"
   - "technical communication"
-cover : "/assets/images/JackMolisani_50x70.jpg"
+cover : "JackMolisani_50x70.jpg"
 coverAlt : "Episode 15 guest Jack Molisani"
 ---
 

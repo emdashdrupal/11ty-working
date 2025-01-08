@@ -4,7 +4,7 @@ date: "2015-04-28"
 categories:
   - "podcast"
   - "technical writing"
-cover : "/assets/images/Complimentary_sandwich_featuring_Todd_DeLuca_Content_Content_episode_9-mp3-image.jpg"
+cover : "Complimentary_sandwich_featuring_Todd_DeLuca_Content_Content_episode_9-mp3-image.jpg"
 ---
 
 Fellow New Jerseyan Danielle Villegas, the TechCommGeekMom, talks to us about transitioning into technical communication, social media, her blog at [techcommgeekmom.com](http://techcommgeekmom.com "TechCommGeekMom"), content curation, going back to school, and managing it all (or not).

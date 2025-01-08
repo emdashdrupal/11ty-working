@@ -10,7 +10,7 @@ tags:
   - "localization"
   - "podcast"
   - "technical writing"
-cover : "/assets/images/billswallow-300x300.jpg"
+cover : "billswallow-300x300.jpg"
 ---
 
 "Content requires proper care and feeding", says Bill Swallow, director of operations at [Scriptorium](http://www.scriptorium.com). We talk localization, content strategy, local beer, summer's oppressive heat, and more.

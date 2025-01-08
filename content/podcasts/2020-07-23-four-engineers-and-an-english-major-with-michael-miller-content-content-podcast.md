@@ -7,7 +7,7 @@ categories:
   - "technical writing"
 tags:
   - "podcast"
-cover : "/assets/images/mike-miller-with-borg-warner-273x300.png"
+cover : "mike-miller-with-borg-warner-273x300.png"
 coverAlt : "Michael Miller with the Indy 500 Borg-Warner trophy"
 ---
 

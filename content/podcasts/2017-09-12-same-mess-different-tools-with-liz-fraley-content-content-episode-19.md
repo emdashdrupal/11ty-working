@@ -8,7 +8,7 @@ categories:
 tags:
   - "dita"
   - "podcast"
-cover : "/assets/images/LizFraley_web_vert-246x300.jpg"
+cover : "LizFraley_web_vert-246x300.jpg"
 coverAlt : "Liz Fraley, Content Content episode 19 guest"
 ---
 

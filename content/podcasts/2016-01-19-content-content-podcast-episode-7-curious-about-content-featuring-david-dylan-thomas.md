@@ -7,7 +7,7 @@ categories:
   - "technical writing"
 tags:
   - "dita"
-cover : "/assets/images/David-Dylan-Thomas-300x225.jpg"
+cover : "David-Dylan-Thomas-300x225.jpg"
 coverAlt : "David Dylan Thomas, content strategist and moviemaker"
 ---
 

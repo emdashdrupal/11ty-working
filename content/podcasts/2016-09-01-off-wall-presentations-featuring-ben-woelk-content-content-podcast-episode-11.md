@@ -5,7 +5,7 @@ categories:
   - "podcast"
   - "social media"
   - "technical writing"
-cover : "/assets/images/ben_woelk.jpg"
+cover : "ben_woelk.jpg"
 ---
 
 Ben Woelk, technical communicator and Information Security Office Program Manager at the [Rochester Institute of Technology,](http://www.rit.edu) talks about being an introverted leader and how it's changed his career and his passion.

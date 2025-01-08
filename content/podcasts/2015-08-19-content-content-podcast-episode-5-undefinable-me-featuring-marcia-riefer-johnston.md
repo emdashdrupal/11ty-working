@@ -6,7 +6,7 @@ categories:
   - "podcast"
   - "technical writing"
 tags: ["content strategy", podcast, "technical writing"]
-cover : "/assets/images/Marcia-365_rt_smlweb.jpg"
+cover : "Marcia-365_rt_smlweb.jpg"
 coverAlt : "Marcia Riefer Johnston, guest for episode 5 of the Content Content podcast"
 ---
 

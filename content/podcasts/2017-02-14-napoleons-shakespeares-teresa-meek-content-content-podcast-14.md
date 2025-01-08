@@ -7,7 +7,7 @@ categories:
   - "technical writing"
 tags:
   - "content-marketing"
-cover : "/assets/images/teresa_meek.jpg"
+cover : "teresa_meek.jpg"
 coverAlt : "Content marketer Teresa Meek"
 ---
 

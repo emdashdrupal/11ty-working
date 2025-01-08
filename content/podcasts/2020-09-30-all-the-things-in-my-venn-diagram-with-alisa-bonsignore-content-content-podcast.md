@@ -5,7 +5,7 @@ categories:
   - "content strategy"
   - "podcast"
   - "technical writing"
-cover : "/assets/images/alisa-bonsignore.jpg"
+cover : "alisa-bonsignore.jpg"
 ---
 Alisa Bonsignore, strategic communications consultant, talks to Ed Marsh about how she fell into things her entire career, global and career sustainability, and how to have a growth mindset during _this_.
 

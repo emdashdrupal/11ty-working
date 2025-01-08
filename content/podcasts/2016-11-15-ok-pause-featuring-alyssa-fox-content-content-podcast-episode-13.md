@@ -5,7 +5,7 @@ categories:
   - "content strategy"
   - "podcast"
   - "technical writing"
-cover : "/assets/images/Alyssa_Fox_2016.jpg"
+cover : "Alyssa_Fox_2016.jpg"
 coverArt : "Content Content podcast episode 13 guest Alyssa Fox, Director of Information Development and Program Management at Micro Focus"
 ---
 

@@ -9,7 +9,7 @@ categories:
   - "technical writing"
 tags:
   - "podcast"
-cover : "/assets/images/Cruce-Headshot-200x300.jpg"
+cover : "Cruce-Headshot-200x300.jpg"
 coverAlt : "Cruce Saunders of [A], Content Content podcast guest"
 ---
 
