@@ -7,14 +7,17 @@
 
     </head>
     {% block content %}
-        <h2>Ed Marsh skillz</h2>
+    {% include 'layouts/partials/header.njk' %}
+    <hr />
+    <h1>Ed Marsh</h1>
+        <h2>Skillz</h2>
 
         <div class="skill-grid">
             {% for skill in collections.skills %}
-            <div class="max-2xl">
+            <div class="max-sm">
 <div class="skill-tile">
-                    <span class="icon fa-{{ skill.data.FontAwesomeIcon }}"></span>
-                    <a href="{{ skill.url }}">{{skill.data.title}}</a>
+                    <div class="icon fa-{{ skill.data.FontAwesomeIcon }}"></div>
+                    <a class="ml-4" href="{{ skill.url }}">{{skill.data.title}}</a>
 </div>
 </div>
             {% endfor %}
