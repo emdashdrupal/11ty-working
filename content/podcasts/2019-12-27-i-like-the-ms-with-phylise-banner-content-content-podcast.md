@@ -8,7 +8,7 @@ categories:
 tags:
   - "ux"
   - "podcast"
-cover : "/assets/images/Phylise-Banner-head-Shot.jpg"
+cover : "Phylise-Banner-head-Shot.jpg"
 coverAlt : "hylise Banner, learning experience designer and Content Content podcast guest. Photo credit: Susan Blackburn"
 ---
 

@@ -5,7 +5,7 @@ categories:
   - "podcast"
   - "social media"
   - "technical writing"
-cover: "/assets/images/me-and-bernard-aschwanden-conduit-philly-2016-corrected.png"
+cover: "me-and-bernard-aschwanden-conduit-philly-2016-corrected.png"
 coverAlt : "Ed Marsh and Bernard Aschwanden at STC Philadelphia Metro Conduit 2016"
 ---
 

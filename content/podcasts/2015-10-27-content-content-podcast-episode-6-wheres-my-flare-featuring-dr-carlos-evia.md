@@ -7,7 +7,7 @@ categories:
 tags:
   - "dita"
   - "podcast"
-cover: "/assets/images/CarlosEvia.jpeg"
+cover: "CarlosEvia.jpeg"
 coverAlt : "Dr. Carlos Evia, Director of Professional and Technical Writing at Virginia Tech"
 ---
 

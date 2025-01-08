@@ -2,8 +2,10 @@
 <html lang="{{ metadata.language }}">
     <head>
         <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
         <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
-    
+
+
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +17,7 @@
 
     </head>
     <body>
+        {% include 'layouts/partials/header.njk'%}
         <main id="skip" class="max-w-1">
             <heading-anchors>
                 <h1>{{title}}</h1>

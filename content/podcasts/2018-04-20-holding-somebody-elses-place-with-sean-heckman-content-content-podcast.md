@@ -6,7 +6,8 @@ categories:
   - "podcast"
 tags:
   - "lime-rock"
-cover : "/assets/images/sean_heckman.jpg"
+  - "podcasts"
+cover : "sean_heckman.jpg"
 coverAlt : "Sean Heckman, owner of The Media Barons, and co-host of the Dinner with Racers podcast, on the Content Content podcast"
 ---
 

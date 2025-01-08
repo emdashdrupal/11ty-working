@@ -5,7 +5,7 @@ categories:
   - "content strategy"
   - "podcast"
   - "technical writing"
-cover : "/assets/images/tim_esposito_Maine_headshot-287x300.jpg"
+cover : "tim_esposito_Maine_headshot-287x300.jpg"
 coverAlt : "Timothy Esposito, Content Content podcast episode 20 guest"
 ---
 

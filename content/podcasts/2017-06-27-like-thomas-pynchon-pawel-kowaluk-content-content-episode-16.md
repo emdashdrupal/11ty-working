@@ -8,7 +8,7 @@ categories:
 tags:
   - "dita"
   - "madcap flare"
-cover: "/assets/images/pawel_kowaluk-300x300.jpg"
+cover: "pawel_kowaluk-300x300.jpg"
 coverAlt : "Episode 16 guest Pawel Kowaluk"
 ---
 

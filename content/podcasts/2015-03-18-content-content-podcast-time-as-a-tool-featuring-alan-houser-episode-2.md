@@ -4,7 +4,6 @@ date: "2015-03-18"
 categories:
   - "podcast"
   - "technical writing"
-cover: "/assets/images/Complimentary_sandwich_featuring_Todd_DeLuca_Content_Content_episode_9-mp3-image.jpg"
 ---
 
 Alan Houser, technical communication consultant and former Society for Technical Communication President, drops by on a very cold President's Day holiday to talk about his experiences in STC leadership, web standard steering committees, structured authoring and DITA, Markdown, tools, podcasts, and more.

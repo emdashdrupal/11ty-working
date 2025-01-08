@@ -8,7 +8,7 @@ categories:
 tags:
   - "podcast"
   - "content strategy"
-cover : "/assets/images/ann-rockley.jpg"
+cover : "ann-rockley.jpg"
 ---
 
 In this episode "Mother of Content Strategy" Ann Rockley discusses a 30+ year consulting career, pivoting to a new business, and more.

@@ -7,7 +7,7 @@ categories:
   - "technical writing"
 tags:
   - "podcast"
-cover: "/assets/images/SaraFeldman.jpg"
+cover: "SaraFeldman.jpg"
 ---
 
 Sara Feldman, customer success enablement advocate, talks with Ed Marsh about job hunting during a pandemic, achieving outcomes, "pre-charging" before conferences, and more.
