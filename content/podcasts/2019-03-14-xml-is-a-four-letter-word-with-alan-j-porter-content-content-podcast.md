@@ -13,7 +13,7 @@ tags:
   - "dita"
   - "information architecture"
   - "metadata"
-cover: "/assets/images/alanporter_003-300x200.jpg"
+cover: "alanporter_003-300x200.jpg"
 coverAlt : "Alan J. Porter, Content Content podcast guest"
 ---
 

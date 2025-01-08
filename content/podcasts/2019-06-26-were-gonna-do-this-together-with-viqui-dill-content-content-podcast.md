@@ -8,7 +8,7 @@ categories:
   - "technical writing"
 tags:
   - "podcasts"
-cover: "/assets/images/ViquiDill-contentcontent-3.jpg"
+cover: "ViquiDill-contentcontent-3.jpg"
 coverAlt : "Viqui Dill - 2017 STC Technical Communication Summit"
 ---
 

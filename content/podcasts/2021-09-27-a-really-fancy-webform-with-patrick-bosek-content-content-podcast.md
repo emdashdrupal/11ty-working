@@ -11,7 +11,7 @@ tags:
   - "podcast"
   - "technical communication"
   -  "dita"
-cover: "/assets/images/Patrick-Bosekcurrent-social-960x1280.jpg"
+cover: "Patrick-Bosekcurrent-social-960x1280.jpg"
 coverAlt : "Patrick Bosek of Heretto"
 ---
 

@@ -5,7 +5,7 @@ categories:
   - "content strategy"
   - "information architecture"
   - "podcast"
-cover: "/assets/images/Noz-headshot2223px-square-on-white.jpg"
+cover: "Noz-headshot2223px-square-on-white.jpg"
 ---
 
 If you want to hear a great story about a great career, you need to listen to Noz Urbina, the best-dressed man in content strategy. Noz talks to Ed Marsh about how to make content a business asset, literally writing the book on content strategy, and his path to creating his own consultancy and conference.

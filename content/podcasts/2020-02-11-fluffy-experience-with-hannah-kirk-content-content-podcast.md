@@ -6,7 +6,7 @@ categories:
   - "information architecture"
   - "podcast"
   - "technical writing"
-cover: "/assets/images/Hannah-Kirk2.png"
+cover: "Hannah-Kirk2.png"
 ---
 
 Hannah Kirk ([@pinkhairedCS](https://twitter.com/pinkhairedCS)), the Pink-haired Content Strategist, talks to Ed Marsh about conference experiences, how academia compares to Silicon Valley, how kids interact with technology, and reminds Ed how old he is.
