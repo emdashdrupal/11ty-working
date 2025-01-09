@@ -14,6 +14,20 @@
                 <div class="text-xl font-bold">Ed Marsh - Technical writer, content strategist, podcaster</div>
                 <ul class="flex space-x-4">
                     <li><a href="/content" class="hover:text-blue-500">Home</a></li>
+                     <li class="relative">
+                        <a href="#" class="hover:text-blue-500" id="ssgDropdown">Static site transformation</a>
+                        <ul
+                            id="ssgSubmenu"
+                            class="absolute hidden bg-white shadow-md rounded-md mt-2 w-48"
+                            aria-labelledby="ssgDropdown"
+                        >
+                            {% for ssg in collections.ssg %}
+                                <li>
+                                    <a href="{{ ssg.url | url }}" class="block px-4 py-2 hover:bg-gray-100">{{ ssg.data.title }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </li>
                     <li><a href="/content/podcasts/" class="hover:text-blue-500">Podcasts</a></li>
                     <li><a href="/content/technical-writing-examples/" class="hover:text-blue-500">Writing Samples</a></li>
                     <li class="relative">
@@ -39,6 +53,8 @@
     <script>
 const skillsDropdown = document.getElementById('skillsDropdown');
 const skillsSubmenu = document.getElementById('skillsSubmenu');
+const ssgDropdown = document.getElementById('ssgDropdown');
+const ssgSubmenu = document.getElementById('ssgSubmenu');
 
 skillsDropdown.addEventListener('mouseenter', () => {
     skillsSubmenu.classList.remove('hidden');
@@ -48,15 +64,33 @@ skillsSubmenu.addEventListener('mouseenter', () => {
     skillsSubmenu.classList.remove('hidden');
 });
 
-skillsDropdown.addEventListener('mouseleave', () => {
+ssgDropdown.addEventListener('mouseleave', () => {
     const delay = setTimeout(() => {
-        skillsSubmenu.classList.add('hidden');
+        ssgSubmenu.classList.add('hidden');
     }, 100); // Adjust the delay time as needed
 
-    skillsSubmenu.addEventListener('mouseenter', () => {
+    ssgSubmenu.addEventListener('mouseenter', () => {
         clearTimeout(delay);
     });
-});    </script>
+});
+ssgDropdown.addEventListener('mouseenter', () => {
+    ssgSubmenu.classList.remove('hidden');
+});
+
+ssgSubmenu.addEventListener('mouseenter', () => {
+    ssgSubmenu.classList.remove('hidden');
+});
+
+ssgDropdown.addEventListener('mouseleave', () => {
+    const delay = setTimeout(() => {
+        ssgSubmenu.classList.add('hidden');
+    }, 100); // Adjust the delay time as needed
+
+    ssgSubmenu.addEventListener('mouseenter', () => {
+        clearTimeout(delay);
+    });
+});
+</script>
 
 </body>
 </html>
