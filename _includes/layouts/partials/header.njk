@@ -3,16 +3,15 @@
 
     <nav>
         <div class="menu">
-            {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
-            {{ navPages | dump | safe }}
+
             <ul role="menu">
                 <li><a href="/">Home</a></li>
                 <li><a href="/content/podcasts">Podcasts</a>
-                <li><a href="#">Skills</a>
+                <li><a href="/content/skills">Skills</a>
             <ul>
-                        {% for page in navPages %}
+                        {% for each in navPages %}
                             <li>
-                                <a href="{{ page.url }}">{{ page.data.title }}</a>
+                                <a href="{{ each.url }}">{{ each.title }}</a>
                             </li>
                         {% endfor %}
                     </ul>
