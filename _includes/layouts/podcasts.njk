@@ -4,13 +4,15 @@
     <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
     <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
     <link rel="stylesheet" type="text/css" href="/_includes/css/skill.css">
-
+<title>Content Content podcast - Ed Marsh</title>
 </head>
+
 {% block content %}
 
-    <hr/>
-    <h1>Ed Marsh</h1>
-    <h2>Podcasts</h2>
+    {% include 'layouts/partials/header.njk' %}
+
+    <h1>Content Content podcast - Ed Marsh</h1>
+    <p>Content Content is a podcast where you get to know the people behind the content. We interview professionals in technical communication, content strategy, content marketing, information architecture, and others who create, organize, and maintain content online.</p>
     <div class="skill-grid">
 
         {% for podcast in collections.podcasts %}
@@ -18,11 +20,12 @@
             <div class="max-sm">
                 <div class="skill-tile">
                                     <div class="float-left left-3">
+                                        <img
                                         {% if podcast.data.cover %}
-                                        <img src="/assets/images/{{podcast.data.cover }}" alt="{{ podcast.data.coverAlt }}" width="100"/>
+                                        src="/assets/images/{{podcast.data.cover }}" alt="{{ podcast.data.coverAlt }}"
                                         {% else %}
-                                        <img src="/assets/images/content-content-podcast-new-cover.png" alt="Content Content podcast" width="100"/>
-                                        {% endif %}</div>
+                                        src="/assets/images/content-content-podcast-new-cover.png" alt="Content Content podcast"
+                                        {% endif %}/></div>
                     <p><a class="ml-4" href="{{ podcast.url }}">{{ podcast.data.title }}</a></p>
                 </div>
             </div>

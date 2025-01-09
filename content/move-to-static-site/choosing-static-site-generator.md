@@ -3,6 +3,10 @@ title: "Choosing a static site generator"
 date: "2024-11-26"
 tags: ["nah", "content-strategy"]
 categories: "yeh"
+eleventyNavigation:
+  key : SSG
+  parent: Migration
+  order: 1
 ---
 
 - Wanted to avoid Gatsby - requires a team of devs.

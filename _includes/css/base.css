@@ -13,8 +13,7 @@ h1 {
     font-weight: 900;}
 h2 {
     font-size: 1.1rem;
-
-}
+    font-weight: 700;}
 
 pre {
     font: 12px/1.4 Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -34,4 +33,13 @@ a {
 
 li {
     margin-bottom: 0.9rem;
+    list-style-type: square;
+}
+
+ul {
+    margin-top: 0.9rem;
+}
+
+p {
+    margin: 0.5rem;
 }

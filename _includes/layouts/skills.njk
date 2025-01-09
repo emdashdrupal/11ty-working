@@ -17,8 +17,8 @@
             {% for skill in collections.skills %}
             <div class="max-sm">
 <div class="skill-tile">
-                    <div class="icon fa-{{ skill.data.FontAwesomeIcon }}"></div>
-                    <a class="ml-4" href="{{ skill.url }}">{{skill.data.title}}</a>
+                    <div class="float-left icon fa-{{ skill.data.FontAwesomeIcon }}"></div>
+                    <a class="float-right" href="{{ skill.url }}">{{skill.data.title}}</a>
 </div>
 </div>
             {% endfor %}

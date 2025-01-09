@@ -3,6 +3,10 @@ title: "Content strategy and IA in Hugo"
 date: "2024-11-24"
 tags: "nah"
 categories: "yeh"
+eleventyNavigation:
+  key : "content-strategy"
+  parent: Migration
+  order: 3
 ---
 
 ## Front matter
