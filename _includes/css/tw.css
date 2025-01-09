@@ -574,12 +574,20 @@ video {
   top: 2rem;
 }
 
+.float-right {
+  float: right;
+}
+
 .float-left {
   float: left;
 }
 
 .ml-4 {
   margin-left: 1rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
 }
 
 .block {

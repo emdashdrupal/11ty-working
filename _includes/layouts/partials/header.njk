@@ -1,5 +1,5 @@
     <header>
-        <p class="max-2xl bg-slate-300">{% set navPages = collections.all | eleventyNavigation %}</p>
-        {{ navPages | eleventyNavigationToHtml | safe }}
+        <div class="bg-slate-300">{% set navPages = collections.all | eleventyNavigation %}
+{{ navPages | dump | safe }}</div>
     </header>
 
