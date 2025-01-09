@@ -16,14 +16,16 @@
         <meta name="generator" content="{{ eleventy.generator }}">
 
     </head>
-    <body>
+    <body class="body-{{url}}">
         {% include 'layouts/partials/header.njk'%}
         <main id="skip" class="max-w-1">
             <heading-anchors>
                 <h1>{{title}}</h1>
 
             </heading-anchors>
+            <article class="prose lg:prose-xl">
             {{ content | safe }}
+            </article>
         </main>
 
     </body>
