@@ -1109,6 +1109,10 @@ video {
   top: 2rem;
 }
 
+.float-right {
+  float: right;
+}
+
 .float-left {
   float: left;
 }
@@ -1127,8 +1131,8 @@ video {
   margin-left: 1rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.ml-6 {
+  margin-left: 1.5rem;
 }
 
 .block {
