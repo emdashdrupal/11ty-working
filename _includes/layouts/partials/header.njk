@@ -1,5 +1,6 @@
 <header>
-    <div class="bg-slate-300">{% set navPages = collections.all | eleventyNavigation %}
+{% set navPages = collections.all | eleventyNavigation %}
+    <div class="bg-slate-300">
 <nav class="bg-gray-800">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
@@ -95,7 +96,8 @@
     <nav>
         <div class="menu">
             {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
-            <ul role="menubar">
+            {{ navPages | dump | safe }}
+            <ul role="menu">
                 <li><a href="#">Skills</a>
             <ul>
                         {% for page in navPages %}
