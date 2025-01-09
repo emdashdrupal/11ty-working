@@ -9,9 +9,6 @@ tags:
   - "dita"
   - "podcast"
   - "podcasts"
-  eleventyNavigation:
-    key: Sarah
-    parent: Podcast
 ---
 
 Content strategy business owner Sarah O'Keefe talks about working with a CMS, content metrics, tekom, packing for flights, and her aversion to the nightshade family.
