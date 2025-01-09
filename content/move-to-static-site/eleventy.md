@@ -12,7 +12,19 @@ The learning curve was made easy by abstraction; each piece of the puzzle is dis
 
 Since I had a lot of free time, I watched videos, read tutorials and blogs, looked up the pros and cons of each of several approaches for templating, CSS, SSG choice itself, etc.
 
-Once the downtime really started during the holidays, I'd say it took me about three weeks to really start "getting" how all of this works.
+My progression:
+
+- Edit, revise, update, reorganize content
+- Decide how I want to display each piece of content
+- Add blog posts documenting my journey
+- Getting the SSG running
+- Understanding how to display everything via templates
+- Choosing a CSS styling framework
+- Building out logic to display individual pieces on the templates
+- Grids
+
+
+Once the downtime really started during the holidays, I'd say it took me about three weeks to really start "getting" how all of this works. Does that mean it came quickly and easily? No. There were many "why isn't this thing that's supposed to work not working"? Once I realized this is part of the process, it made it easier for me to look at this as a learning experience.
 
 Again, the important part was to structure the content correctly so the system I was building knew what was what.
 
