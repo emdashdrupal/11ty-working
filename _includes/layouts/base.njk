@@ -23,6 +23,8 @@
                 <h1>{{title}}</h1>
 
             </heading-anchors>
+            {% set navPages = collections.all | eleventyNavigation %}
+{{ navPages | dump | safe }}
             {{ content | safe }}
         </main>
 

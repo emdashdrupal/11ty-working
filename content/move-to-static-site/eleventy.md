@@ -1,4 +1,7 @@
-# Moving to Eleventy SSG
+---
+title : "Moving to Eleventy SSG"
+layout : 'layouts/base.njk'
+---
 
 After attempting to use Hugo, I tried a "newer" system: Eleventy (11ty). Why? Surprisingly, a *lack of documentation*. In most cases, this will be a trial and error thing based on your individual needs. I knew I didn't want Gatsby due to prior experience. I wanted a more plug-and-play experience that I could tweak. Wordpress evolved too far for me to 'just tweak'.
 
@@ -23,8 +26,7 @@ My progression:
 - Building out logic to display individual pieces on the templates
 - Grids
 
-
-Once the downtime really started during the holidays, I'd say it took me about three weeks to really start "getting" how all of this works. Does that mean it came quickly and easily? No. There were many "why isn't this thing that's supposed to work not working"? Once I realized this is part of the process, it made it easier for me to look at this as a learning experience.
+<p class="bg-slate-400">Once the downtime really started during the holidays, I'd say it took me about three weeks to really start "getting" how all of this works. Does that mean it came quickly and easily? No. There were many "why isn't this thing that's supposed to work not working"? Once I realized this is part of the process, it made it easier for me to look at this as a learning experience.</p>
 
 Again, the important part was to structure the content correctly so the system I was building knew what was what.
 
