@@ -1,34 +1,62 @@
-<header>
-    {% set navPages = collections.skills | eleventyNavigation %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Marsho</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.1/dist/tailwind.min.css" />
+</head>
+<body class="bg-gray-100">
 
-    <nav class="container mx-auto px-4 py-3">
-            <ul role="menu">
-                <li class="nav-home"><a href="/content">Home</a>
-</li>
-<li class="nav-podcast">
-    <a href="/content/podcasts">Podcasts</a>
-    <li class="nav-writing">
-        <a href="/content/technical-writing-examples">Writing samples</a>
-    <li class="nav-skills relative mr-4">
-        <button class="text-gray-900 hover:text-blue-500 inline-flex items-center">
-            Skills
-            <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-            </svg>
-        </button>
-        <div class="hidden absolute top-full left-0 bg-white rounded-md shadow-md mt-2">
-            <ul class="py-2">
-                {% for skill in navPages %}
-                    <li class="menu-{{ skill.title }} px-4 py-2 hover:bg-gray-100">
-                        <a href="{{ skill.url }}">{{ skill.title }}</a>
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-xl font-bold">Ed Marsh - Technical writer, content strategist, podcaster</div>
+                <ul class="flex space-x-4">
+                    <li><a href="/content" class="hover:text-blue-500">Home</a></li>
+                    <li><a href="/content/podcasts/" class="hover:text-blue-500">Podcasts</a></li>
+                    <li><a href="/content/technical-writing-examples/" class="hover:text-blue-500">Writing Samples</a></li>
+                    <li class="relative">
+                        <a href="#" class="hover:text-blue-500" id="skillsDropdown">Skills</a>
+                        <ul
+                            id="skillsSubmenu"
+                            class="absolute hidden bg-white shadow-md rounded-md mt-2 w-48"
+                            aria-labelledby="skillsDropdown"
+                        >
+                            {% for skill in collections.skills %}
+                                <li>
+                                    <a href="{{ skill.url | url }}" class="block px-4 py-2 hover:bg-gray-100">{{ skill.data.title }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
                     </li>
-                {% endfor %}
-            </ul>
-        </li>
-    </div>
-    <li class="nav-about">
-        <a href="/content/about/about-ed-marsh/">About</a>
-    </li>
-</ul>
-</nav>
-</header>
+                    <li><a href="/content/about/about-ed-marsh" class="hover:text-blue-500">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+const skillsDropdown = document.getElementById('skillsDropdown');
+const skillsSubmenu = document.getElementById('skillsSubmenu');
+
+skillsDropdown.addEventListener('mouseenter', () => {
+    skillsSubmenu.classList.remove('hidden');
+});
+
+skillsSubmenu.addEventListener('mouseenter', () => {
+    skillsSubmenu.classList.remove('hidden');
+});
+
+skillsDropdown.addEventListener('mouseleave', () => {
+    const delay = setTimeout(() => {
+        skillsSubmenu.classList.add('hidden');
+    }, 100); // Adjust the delay time as needed
+
+    skillsSubmenu.addEventListener('mouseenter', () => {
+        clearTimeout(delay);
+    });
+});    </script>
+
+</body>
+</html>
