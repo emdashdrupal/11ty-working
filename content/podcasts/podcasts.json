@@ -1,4 +1,6 @@
 {
 "layout" : "layouts/podcasts.njk",
-"tags": "podcasts"
+"tags": "podcasts",
+"eleventyNavigation": {
+  "parent": "Podcasts"}
 }
