@@ -51,45 +51,31 @@
     </nav>
 
     <script>
-const skillsDropdown = document.getElementById('skillsDropdown');
-const skillsSubmenu = document.getElementById('skillsSubmenu');
-const ssgDropdown = document.getElementById('ssgDropdown');
-const ssgSubmenu = document.getElementById('ssgSubmenu');
+const createDropdownHandlers = (dropdownId, submenuId) => {
+  const dropdown = document.getElementById(dropdownId);
+  const submenu = document.getElementById(submenuId);
 
-skillsDropdown.addEventListener('mouseenter', () => {
-    skillsSubmenu.classList.remove('hidden');
-});
+  dropdown.addEventListener('mouseenter', () => {
+    submenu.classList.remove('hidden');
+  });
 
-skillsSubmenu.addEventListener('mouseenter', () => {
-    skillsSubmenu.classList.remove('hidden');
-});
-
-ssgDropdown.addEventListener('mouseleave', () => {
+  dropdown.addEventListener('mouseleave', () => {
     const delay = setTimeout(() => {
-        ssgSubmenu.classList.add('hidden');
+      submenu.classList.add('hidden');
     }, 100); // Adjust the delay time as needed
 
-    ssgSubmenu.addEventListener('mouseenter', () => {
-        clearTimeout(delay);
+    submenu.addEventListener('mouseenter', () => {
+      clearTimeout(delay);
     });
-});
-ssgDropdown.addEventListener('mouseenter', () => {
-    ssgSubmenu.classList.remove('hidden');
-});
+  });
 
-ssgSubmenu.addEventListener('mouseenter', () => {
-    ssgSubmenu.classList.remove('hidden');
-});
+  submenu.addEventListener('mouseenter', () => {
+    submenu.classList.remove('hidden');
+  });
+};
 
-ssgDropdown.addEventListener('mouseleave', () => {
-    const delay = setTimeout(() => {
-        ssgSubmenu.classList.add('hidden');
-    }, 100); // Adjust the delay time as needed
-
-    ssgSubmenu.addEventListener('mouseenter', () => {
-        clearTimeout(delay);
-    });
-});
+createDropdownHandlers('skillsDropdown', 'skillsSubmenu');
+createDropdownHandlers('ssgDropdown', 'ssgSubmenu');
 </script>
 
 </body>
