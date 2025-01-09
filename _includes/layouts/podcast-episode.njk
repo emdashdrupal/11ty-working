@@ -3,14 +3,15 @@
     <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
     <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
-    <link rel="stylesheet" type="text/css" href="/_includes/css/skill.css">
+
 <title>Content Content podcast - Ed Marsh</title>
 </head>
 
 {% block content %}
-
+{% extends "layouts/base.njk" %}
     {% include 'layouts/partials/header.njk' %}
-{% include 'layouts/partials/podcast-image.njk' %}
+<div class="float-left m-0"> {% include 'layouts/partials/podcast-image.njk' %}</div>
 
-{{content | safe }}{% endblock %}
+<div>
+{{content | safe }}</div>{% endblock %}
 </html>

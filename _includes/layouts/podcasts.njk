@@ -1,15 +1,13 @@
 <!doctype html>
 <head>
-    <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
     <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
     <link rel="stylesheet" type="text/css" href="/_includes/css/skill.css">
 <title>Content Content podcast - Ed Marsh</title>
 </head>
-
+{% include 'layouts/partials/header.njk' %}
 {% block content %}
-
-    {% include 'layouts/partials/header.njk' %}
+<body>
 
     <h1>Content Content podcast - Ed Marsh</h1>
     <p>Content Content is a podcast where you get to know the people behind the content. We interview professionals in technical communication, content strategy, content marketing, information architecture, and others who create, organize, and maintain content online.</p>
@@ -32,5 +30,6 @@
         {% endfor %}
     </div>
 </div>
+</body
 {% endblock %}
 </html>

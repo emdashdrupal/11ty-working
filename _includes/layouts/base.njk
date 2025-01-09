@@ -1,31 +1,27 @@
 <!doctype html>
 <html lang="{{ metadata.language }}">
     <head>
+        <title>{{ title or metadata.title }}</title>
         <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
         <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
-
-
-
+        <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ title or metadata.title }}</title>
         <meta name="description" content="{{ description or metadata.description }}">
-        <link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
-
         <meta name="generator" content="{{ eleventy.generator }}">
 
     </head>
     <body class="body-{{url}}">
         {% include 'layouts/partials/header.njk'%}
+        {{ title }}
         <main id="skip">
             <heading-anchors>
-                <h1>{{title}}</h1>
-
+                <h1>{{title or metadata.title}}</h1>
             </heading-anchors>
-            <article class="prose lg:prose-xl">
-            {{ content | safe }}
-            </article>
+
+                {{ content | safe }}
+
         </main>
 
     </body>
