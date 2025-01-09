@@ -1,1 +1,3 @@
-{ "tags": "move-to-static-site", "layout": "layouts/podcast-episode.njk" }
+{
+    "tags": "ssg"
+}
