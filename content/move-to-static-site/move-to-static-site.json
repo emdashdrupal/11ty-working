@@ -1,2 +1,1 @@
-{ "tags": "move-to-static-site",
-"layout": "layouts/podcast-episode.njk"}
+{ "tags": "move-to-static-site", "layout": "layouts/podcast-episode.njk" }
