@@ -1,7 +1,7 @@
 @startuml
 title "11ty Architecture"
 !theme cerulean
-autonumber
+
 actor "Ed Marsh" as ed
 control "Linux Mint virtual machine" as vm
 collections Markdown as md
@@ -15,28 +15,34 @@ entity JavaScript as js
 database "SSG\n(Eleventy)" as ssg
 participant "Browser" as br
 
-group "Environment setup"
+group Environment setup
+autonumber "e-0"
 ed ->o vm: Creates development environment using VMWare Workstation and Linux Mint Cinnamon
 ed ->o vm: Installs ""Node.js""
 ed ->o  vm : Installs and configures Eleventy
 ed ->o vm : Installs and configures TailwindCSS
 end
-group "Content strategy"
+group Content strategy
+autonumber "c-0"
 ed -> md : Converts Wordpress content to Markdown
-ed -> md: Organizes content in folders
+ed -> md : Conversion cruft cleanup
+ed -> md: Organizes content in folders based on SSG requirements
 ed -> md: Adds frontmatter to Markdown files
 end
 
-group "Site structure"
+group Site structure
+autonumber "s-0"
 ed -> css : Writes custom CSS styles
 ed-> nj : Writes Nunjucks templates
 ed -> js : Adds navbar JavaScript (with help from Gemini)
 end
 
-group "Site generation process"
-md -> html : Nunjucks generates HTML from Markdown using templates ("".njk"")
-nj -> js:  Nunjucks includes JavaScript
-nj -> html : Styling is added to HTML
+group Site generation process
+autonumber "g-0"
+ssg -> html : Nunjucks generates HTML from Markdown using templates ("".njk"")
+ssg -> js:  Nunjucks includes JavaScript
+ssg -> html : Styling is added to HTML
+nb -> ssg: Navbar is added
 hf -> ssg: Header is added
 ff -> ssg: Footer is added
 end

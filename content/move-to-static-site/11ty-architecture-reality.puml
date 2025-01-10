@@ -1,0 +1,70 @@
+@startuml
+title "11ty Architecture"
+!theme cerulean
+
+actor "Ed Marsh" as ed
+control "Linux Mint virtual machine" as vm
+collections Markdown as md
+collections Nunjucks as nj
+entity HTML as html
+entity headerfile as hf
+entity footerfile as ff
+entity navbar as nb
+entity TailwindCSS as css
+entity JavaScript as js
+database "SSG\n(Eleventy)" as ssg
+participant "Browser" as br
+
+group Environment setup
+
+ed ->o vm: Creates development environment using VMWare Workstation and Linux Mint Cinnamon
+ed ->o vm: Installs ""Node.js""
+ed ->o vm: Installs and configures Hugo
+end
+group Content strategy
+
+ed -> ed : Tries numerous conversion tools to get Wordpress content into Markdown
+ed-> ed : Exports Wordpress content as XML file
+ed -> md : Converts Wordpress content to Markdown locally
+ed -> md : Conversion cruft cleanup
+end
+ed -> vm : Tries to understand Hugo site structure
+ed -> vm: Tries to understand Hugo templating
+ed -> md: Organizes content in folders based on SSG requirements
+ed -> md: Adds frontmatter to Markdown files
+ed-> vm : Gives up on Hugo
+ed ->o  vm : Installs and configures Eleventy
+
+ed -> md : Writes additional Markdown content
+ed -> md : Adds more frontmatter to work with Eleventy
+ed -> ed : Tries to learn bare minumum of Nunjucks
+group Site structure
+
+ed -> css : Writes custom CSS styles
+ed-> nj : Writes Nunjucks templates
+ed -> nj : Breaks Nunjucks templates
+ed -> nj : Gets some things to work
+ed -> nj : Tries to create navbar using official Eleventy plugin
+ed -> nj : Fails.
+ed ->o vm : Installs and configures TailwindCSS
+ed -> ed: Tries to understand TailwindCSS
+ed -> nj : Creates "navbar.njk" file
+ed -> ed : Google Gemini helps creates navbar hover JavaScript
+ed -> ed : Implements more CSS including structure
+end
+
+group Site generation process
+
+ssg -> html : Nunjucks generates HTML from Markdown using templates ("".njk"")
+ed -> ssg : Tries to fix stupid things that are breaking
+nb -> ssg: Navbar is added
+ed -> ssg : Tries to fix stupid things that are breaking
+ssg -> js:  Nunjucks includes JavaScript
+ssg -> html : Styling is added to HTML
+ed -> ssg : Tries to fix stupid things that are breaking
+hf -> ssg: Header is added
+ff -> ssg: Footer is added
+end
+ssg -> br : Displays site in browser
+
+@enduml
