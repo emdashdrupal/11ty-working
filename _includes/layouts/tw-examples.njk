@@ -1,23 +1,26 @@
 <!doctype html>
 <head>
-<link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
-<link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
+    <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
 
 </head>
+<body>
+{% include '/partials/header.njk'%}
 {% block content %}
-<div class="max-w-lg">
-    <h1> Ed Marsh tech writing samples</h1>
+    <article class="prose prose-lg">
+        <h1> Ed Marsh tech writing samples</h1>
 
-<p class="top-8">As a long-time technical content professional, here are some real-world thoughts and examples of what Ed can do for your business.</p>
+        <p class="top-4">As a long-time technical content professional, here are some real-world thoughts and examples of what Ed can do for your business.</p>
 
-    <div class="top-8">
+        <ul>
+            {% for example in collections.examples %}
 
-            <ul>
-        {% for example in collections.examples %}
-
-                <li class="list-inside list-item list-disc top-6"><a href="{{ example.url }}">{{example.data.title}}</a></li>
-        {% endfor %}</ul>
-</div>
-</div>
+                <li class="list-inside list-item list-disc top-6">
+                    <a href="{{ example.url }}">{{example.data.title}}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </article>
 {% endblock %}
+</body>
 </html>
