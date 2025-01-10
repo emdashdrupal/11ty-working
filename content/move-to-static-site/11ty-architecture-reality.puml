@@ -60,7 +60,7 @@ group Site generation process
 
 ssg -> html : Nunjucks generates HTML from Markdown using templates ("".njk"")
 ed -> nj : Tries to fix stupid things that are breaking
-nb -> ssg: Navbar is added
+nb -> ssg: Navbar added
 ed -> nj : Tries to fix stupid things that are breaking
 nj -> js:  Nunjucks includes JavaScript
 ed -> html : Styling classes added to HTML
@@ -69,6 +69,7 @@ ed -> html : Tries to fix stupid things that are breaking
 hf -> ssg: Header added
 ff -> ssg: Footer added
 end
+
 ssg -> br : Displays site in browser
 
 ed --> ed : Creates sequence diagrams to document target state and actual state
