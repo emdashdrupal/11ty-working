@@ -8,13 +8,13 @@
 </head>
 <body class="bg-gray-100">
 
-    <nav class="bg-white shadow-md">
+    <nav class="bg-slate-400 shadow-md">
         <div class="container mx-auto px-4">
             <div class="flex justify-between">
                 <div class="text-xl font-bold">Ed Marsh - Technical writer, content strategist, podcaster</div>
                 <ul class="flex space-x-4">
-                    <li><a href="/content" class="hover:text-blue-500">Home</a></li>
-                     <li class="relative">
+                    <li class="list-none"><a href="/content" class="hover:text-blue-500">Home</a></li>
+                     <li class="relative list-none">
                         <a href="/content/move-to-static-site" class="hover:text-blue-500" id="ssgDropdown">Static site transformation</a>
                         <ul
                             id="ssgSubmenu"
@@ -28,9 +28,9 @@
                             {% endfor %}
                         </ul>
                     </li>
-                    <li><a href="/content/podcasts/" class="hover:text-blue-500">Podcasts</a></li>
-                    <li><a href="/content/technical-writing-examples/" class="hover:text-blue-500">Writing Samples</a></li>
-                    <li class="relative">
+                    <li class="list-none"><a href="/content/podcasts/" class="hover:text-blue-500">Podcasts</a></li>
+                    <li class="list-none"><a href="/content/technical-writing-examples/" class="hover:text-blue-500">Writing Samples</a></li>
+                    <li class="relative list-none">
                         <a href="/content/skills/" class="hover:text-blue-500" id="skillsDropdown">Skills</a>
                         <ul
                             id="skillsSubmenu"
@@ -44,7 +44,7 @@
                             {% endfor %}
                         </ul>
                     </li>
-                    <li><a href="/content/about/about-ed-marsh" class="hover:text-blue-500">About</a></li>
+                    <li class="list-none"><a href="/content/about/about-ed-marsh" class="hover:text-blue-500">About</a></li>
                 </ul>
             </div>
         </div>
