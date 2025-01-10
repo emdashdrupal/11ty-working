@@ -1,6 +1,5 @@
 ---
 title: "SSG Templates"
-layout: layouts/base.njk
 eleventyNavigation:
   key : "SSG templates"
   parent: Migration

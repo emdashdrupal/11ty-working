@@ -4,7 +4,7 @@ date: "2010-12-14"
 categories:
   - "technical writing"
 tags: ["css", "madcap flare", "examples"]
-layout : '/layouts/base.njk'
+
 ---
 
 This story is for intermediate to advanced help developers. It requires knowledge of HTML, CSS, and a help authoring tool such as MadCap Flare or Adobe Robohelp.

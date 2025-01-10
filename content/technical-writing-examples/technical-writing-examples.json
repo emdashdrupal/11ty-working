@@ -1,4 +1,3 @@
 {
-"tags": "examples",
-"layout" : "layouts/base.njk"
+"tags": "examples"
 }

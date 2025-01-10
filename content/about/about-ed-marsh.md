@@ -2,7 +2,6 @@
 menus: 'main'
 title: "About Ed Marsh"
 description: "Learn more about Ed's career"
-layout: "/layouts/base.njk"
 ---
 
 
