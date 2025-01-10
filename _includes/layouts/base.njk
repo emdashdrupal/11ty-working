@@ -12,9 +12,9 @@
         <meta name="generator" content="{{ eleventy.generator }}">
 
     </head>
-    <body class="body-{{url}}">
+    <body class="body-{{title or metadata.title}}">
         {% include 'layouts/partials/header.njk'%}
-        {{ title }}
+
         <main id="skip">
             <heading-anchors>
                 <h1>{{title or metadata.title}}</h1>
