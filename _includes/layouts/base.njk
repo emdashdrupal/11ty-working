@@ -16,10 +16,7 @@
         {% include 'layouts/partials/header.njk'%}
 
         <main id="skip">
-            <heading-anchors>
-                <h1>{{title or metadata.title}}</h1>
-            </heading-anchors>
-
+            
                 {{ content | safe }}
 
         </main>
