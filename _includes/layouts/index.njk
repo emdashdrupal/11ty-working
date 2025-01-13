@@ -9,7 +9,7 @@
     </head>
     <body class="bg-gray-100 text-gray-900 font-sans">
         <header class="bg-blue-600 text-white p-4 shadow-md">
-            <h1 class="text-3xl font-bold">Ed Marsh &mdash; technical writer, information architect, content strategist, podcaster, and dabbler in coding</h1>
+            {% include 'layouts/partials/header.njk'%}
         </header>
 
         <main class="container mx-auto mt-8 px-4">
@@ -25,18 +25,18 @@
             <section class="mb-8">
                 <h2 class="text-2xl font-semibold">Latest Content</h2>
                 <section class="md-4">
-                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                        <h2>Content Content podcast</h2>
+                        {% for item in collections.podcasts | reverse   %}
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="bg-white p-4 shadow-md">
 
-                        {% for item in collections.podcasts | reverse %}
-                            <div class="bg-white p-4 shadow-md">
-                               <img src="{{ item.data.cover }}"/>                                 <a href="{{item.url}}">{{ item.data.title |safe }}</a>
+                               <img src="/assets/images/{{ item.data.cover }}" class="float-left"/style="max-width: 100px">                                 <a href="{{item.url}}">{{ item.data.title |safe }} </a>
+                                <p>{{ item.data.description }}</p>
                             </div>
                         {% endfor %}
                     </section>
                     <section class="md-4">
                         <h2>Creating a Static Site</h2>
-                        {% for item in collections.ssg | reverse %}
+                        {% for item in collections.ssg | reverse  %}
                             <div class="bg-white p-4 shadow-md">
 
                                 <h3 class="text-xl font-semibold">
