@@ -1,5 +1,6 @@
 {
 "tags": "ssg",
-"layout": "layouts/podcast-episode.njk"}
+"layout": "/layouts/ssg.njk"
+}
 
 

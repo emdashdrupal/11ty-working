@@ -1,0 +1,25 @@
+<div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 border-2">
+    {% for podcast in collections.podcasts %}
+
+        <div class="flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md">
+            <figure class="flex justify-center items-center rounded-2xl"><img
+                                        {% if podcast.data.cover %}
+                                        src="/assets/images/{{podcast.data.cover }}" alt="{{ podcast.data.coverAlt | safe }}"
+                                        {% else %}
+                                        src="/assets/images/content-content-podcast-new-cover.png" alt="Content Content podcast"
+                                        {% endif %} class="h-48"/>
+            </figure>
+            <div class="flex flex-col p-4 content-evenly">
+                <div class="font-bold   text-[#374151] pb-6">{{ podcast.data.title |safe }}</div>
+                <div class=" text-lg   text-[#374151]">{{podcast.data.description | safe }}</div>
+                <div class="flex pt-6">
+                    <button class="bg-gray-200 text-[#ffffff]  font-bold text-base  p-3 rounded-lg hover:bg-slate-400 active:scale-95 transition-transform transform shadow-md ">
+                        <a href="{{podcast.page.url}}" class="text-gray-700">Listen now</a>
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    {% endfor %}
+</div>

@@ -1,28 +1,27 @@
 <!doctype html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="/_includes/css/skill.css">
-                <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
-                <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
-                <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
+<head>
 
-
-    </head>
+    <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="/_includes/css/skill.css">
+</head>
+<body>
     {% block content %}
-    {% include 'layouts/partials/header.njk' %}
-    <hr />
-    <h1>Ed Marsh</h1>
+        <hr/>
+
         <h2>Skillz</h2>
 
-        <div class="skill-grid">
+        <div class="skill-grid ml-4">
             {% for skill in collections.skills %}
-            <div class="max-sm">
-<div class="skill-tile">
-                    <div class="float-left icon fa-{{ skill.data.FontAwesomeIcon }}"></div>
-                    <a class="float-right" href="{{ skill.url }}">{{skill.data.title}}</a>
-</div>
-</div>
+                <div class="max-sm">
+                    <div class="skill-tile">
+                        <div class="float-left icon fa-{{ skill.data.FontAwesomeIcon }}"></div>
+                        <a class="float-right" href="{{ skill.url }}">{{skill.data.title}}</a>
+                    </div>
+                </div>
             {% endfor %}
     </ul>
 </div>
+</div>
+</body>
 {% endblock %}
 </html>

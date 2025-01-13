@@ -1,5 +1,4 @@
 {
-"layout" : "layouts/podcast-episode.njk",
-"tags": "podcasts",
-"description": "The people behind the content"
+    "layout": "/layouts/podcast-episode.njk",
+    "tags": "podcasts"
 }

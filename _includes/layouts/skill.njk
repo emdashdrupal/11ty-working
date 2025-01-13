@@ -3,20 +3,19 @@
     <title>{{ title }}</title>
     <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
+    <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
     <link rel="stylesheet" type="text/css" href="/_includes/css/skill.css">
-
 </head>
 <body>
-    {% block content %}
-    {% include 'layouts/partials/header.njk' %}
-        <h1>
-            {{ title }}
-            <span class="icon fa-{{ FontAwesomeIcon }}"></span></h1>
 
-        <p>{{ description }}</p>
-        <p>Ed Marsh has experience with {{ title }}:
-    {{ content | safe }}
+    {% block content %}
+
+        <h1>Ed Marsh has experience with {{ title }}
+            <span class="icon fa-{{ FontAwesomeIcon }} float-right"></span></h1>
+    <article class="prose prose-base">
+        {{ content | safe }}
+    </article>
         {% endblock %}
-        <a href="../index.html">Back</a>
+        <a href="../">Back</a>
     </body>
 </html>

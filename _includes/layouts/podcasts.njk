@@ -1,36 +1,16 @@
 <!doctype html>
 <head>
-    <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
     <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
-    <link rel="stylesheet" type="text/css" href="/_includes/css/skill.css">
 <title>Content Content podcast - Ed Marsh</title>
 </head>
+<body>
 
 {% block content %}
-
-    {% include 'layouts/partials/header.njk' %}
-
     <h1>Content Content podcast - Ed Marsh</h1>
-    <p>Content Content is a podcast where you get to know the people behind the content. We interview professionals in technical communication, content strategy, content marketing, information architecture, and others who create, organize, and maintain content online.</p>
-    <div class="skill-grid">
+    <p class="mx-0 my-4">Content Content is a podcast where you get to know the people behind the content. We interview professionals in technical communication, content strategy, content marketing, information architecture, and others who create, organize, and maintain content online.</p>
 
-        {% for podcast in collections.podcasts %}
-
-            <div class="max-sm">
-                <div class="skill-tile">
-                                    <div class="float-left left-3">
-                                        <img
-                                        {% if podcast.data.cover %}
-                                        src="/assets/images/{{podcast.data.cover }}" alt="{{ podcast.data.coverAlt }}"
-                                        {% else %}
-                                        src="/assets/images/content-content-podcast-new-cover.png" alt="Content Content podcast"
-                                        {% endif %}/></div>
-                    <p><a class="ml-4" href="{{ podcast.url }}">{{ podcast.data.title }}</a></p>
-                </div>
-            </div>
-        {% endfor %}
-    </div>
-</div>
+{% include 'layouts/partials/grid.njk' %}
+</body>
 {% endblock %}
 </html>

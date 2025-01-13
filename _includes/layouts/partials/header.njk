@@ -1,81 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eduardo Marsho</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.1/dist/tailwind.min.css" />
-</head>
-<body class="bg-gray-100">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eduardo Marsho</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.1/dist/tailwind.min.css"/>
+    </head>
+    <body class="bg-gray-100">
 
-    <nav class="bg-white shadow-md">
-        <div class="container mx-auto px-4">
-            <div class="flex justify-between items-center py-4">
-                <div class="text-xl font-bold">Ed Marsh - Technical writer, content strategist, podcaster</div>
-                <ul class="flex space-x-4">
-                    <li><a href="/content" class="hover:text-blue-500">Home</a></li>
-                     <li class="relative">
-                        <a href="#" class="hover:text-blue-500" id="ssgDropdown">Static site transformation</a>
-                        <ul
+        <nav class="bg-slate-400 shadow-md mb-6 container mx-auto px-4 flex justify-between">
+            <div class="text-xl font-bold">Ed Marsh &mdash; technical writer, information architect, content strategist, podcaster, and dabbler in coding</div>
+            <ul class="flex space-x-4">
+                <li class="list-none">
+                    <a href="/content" class="hover:text-blue-500">Home</a>
+                </li>
+                <li class="relative list-none">
+                    <a href="/content/move-to-static-site/index" class="hover:text-blue-500" id="ssgDropdown">Static site transformation</a>
+                    <ul
                             id="ssgSubmenu"
-                            class="absolute hidden bg-white shadow-md rounded-md mt-2 w-48"
+                            class="absolute hidden shadow-md rounded-md bg-slate-300"
                             aria-labelledby="ssgDropdown"
                         >
-                            {% for ssg in collections.ssg %}
-                                <li>
-                                    <a href="{{ ssg.url | url }}" class="block px-4 py-2 hover:bg-gray-100">{{ ssg.data.title }}</a>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </li>
-                    <li><a href="/content/podcasts/" class="hover:text-blue-500">Podcasts</a></li>
-                    <li><a href="/content/technical-writing-examples/" class="hover:text-blue-500">Writing Samples</a></li>
-                    <li class="relative">
-                        <a href="#" class="hover:text-blue-500" id="skillsDropdown">Skills</a>
-                        <ul
+                        {% for ssg in collections.ssg %}
+                            <li class="list-none">
+                                <a href="{{ ssg.url | url }}" class="hover:bg-gray-100">{{ ssg.data.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                <li class="list-none">
+                    <a href="/content/podcasts/" class="hover:text-blue-500">Podcasts</a>
+                </li>
+                <li class="list-none">
+                    <a href="/content/technical-writing-examples/" class="hover:text-blue-500">Writing Samples</a>
+                </li>
+                <li class="relative list-none">
+                    <a href="/content/skills/" class="hover:text-blue-500" id="skillsDropdown">Skills</a>
+                    <ul
                             id="skillsSubmenu"
-                            class="absolute hidden bg-white shadow-md rounded-md mt-2 w-48"
+                            class="absolute hidden shadow-md rounded-md bg-slate-300"
                             aria-labelledby="skillsDropdown"
                         >
-                            {% for skill in collections.skills %}
-                                <li>
-                                    <a href="{{ skill.url | url }}" class="block px-4 py-2 hover:bg-gray-100">{{ skill.data.title }}</a>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </li>
-                    <li><a href="/content/about/about-ed-marsh" class="hover:text-blue-500">About</a></li>
-                </ul>
-            </div>
+                        {% for skill in collections.skills %}
+                            <li class="list-none">
+                                <a href="{{ skill.url | url }}" class="block px-4 py-2 hover:bg-gray-100">{{ skill.data.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                <li class="list-none">
+                    <a href="/content/about/about-ed-marsh" class="hover:text-blue-500">About</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    <script>
-const createDropdownHandlers = (dropdownId, submenuId) => {
-  const dropdown = document.getElementById(dropdownId);
-  const submenu = document.getElementById(submenuId);
+<script>
+    const createDropdownHandlers = (dropdownId, submenuId) => {
+        const dropdown = document.getElementById(dropdownId);
+        const submenu = document.getElementById(submenuId);
 
-  dropdown.addEventListener('mouseenter', () => {
-    submenu.classList.remove('hidden');
-  });
+        dropdown.addEventListener('mouseenter', () => {
+            submenu
+                .classList
+                .remove('hidden');
+        });
 
-  dropdown.addEventListener('mouseleave', () => {
-    const delay = setTimeout(() => {
-      submenu.classList.add('hidden');
-    }, 100); // Adjust the delay time as needed
+        dropdown.addEventListener('mouseleave', () => {
+            const delay = setTimeout(() => {
+                submenu
+                    .classList
+                    .add('hidden');
+            }, 100); // Adjust the delay time as needed
 
-    submenu.addEventListener('mouseenter', () => {
-      clearTimeout(delay);
-    });
-  });
+            submenu.addEventListener('mouseenter', () => {
+                clearTimeout(delay);
+            });
+        });
 
-  submenu.addEventListener('mouseenter', () => {
-    submenu.classList.remove('hidden');
-  });
-};
+        submenu.addEventListener('mouseenter', () => {
+            submenu
+                .classList
+                .remove('hidden');
+        });
+    };
 
-createDropdownHandlers('skillsDropdown', 'skillsSubmenu');
-createDropdownHandlers('ssgDropdown', 'ssgSubmenu');
+    createDropdownHandlers('skillsDropdown', 'skillsSubmenu');
+    createDropdownHandlers('ssgDropdown', 'ssgSubmenu');
 </script>
 
 </body>

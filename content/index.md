@@ -1,7 +1,8 @@
 ---
 title: "Bienvenidos a Casa de Fast One"
-layout: '/layouts/base.njk'
+layout: "layouts/index.njk"
 ---
+
 Ed Marsh likes cheese.
 
 

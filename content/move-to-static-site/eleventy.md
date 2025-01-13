@@ -1,6 +1,5 @@
 ---
 title : "Moving to Eleventy SSG"
-layout : 'layouts/base.njk'
 ---
 
 After attempting to use Hugo, I tried a "newer" system: Eleventy (11ty). Why? Surprisingly, a *lack of documentation*. In most cases, this will be a trial and error thing based on your individual needs. I knew I didn't want Gatsby due to prior experience. I wanted a more plug-and-play experience that I could tweak. Wordpress evolved too far for me to 'just tweak'.

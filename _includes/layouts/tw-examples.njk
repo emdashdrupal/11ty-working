@@ -1,23 +1,28 @@
 <!doctype html>
 <head>
-<link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
-<link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
-
-</head>
+    <title>{{ title }}</title>
+    <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
+    <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/_includes/css/skill.css">
+    </head>
+<body>
+    {% include 'layouts/partials/header.njk'%}
 {% block content %}
-<div class="max-w-lg">
-    <h1> Ed Marsh tech writing samples</h1>
+        <h1> Ed Marsh technical writing samples</h1>
+    <article class="prose prose-base">
+        <p class="top-4">As a long-time technical content professional, here are some real-world thoughts and examples of what Ed can do for your business.</p>
 
-<p class="top-8">As a long-time technical content professional, here are some real-world thoughts and examples of what Ed can do for your business.</p>
+        <div class="grid grid-cols-3 grid-rows-3 gap-3 px-3 py-3">
+            {% for example in collections.examples | reverse %}
+            <div class=" bg-gray-300 rounded-xl">
+                <li class="list-item prose prose-blue list-none ml-2">
+                    <a href="{{ example.url }}">{{example.data.title}}</a>
+                </li></div>
+            {% endfor %}
 
-    <div class="top-8">
-
-            <ul>
-        {% for example in collections.examples %}
-
-                <li class="list-inside list-item list-disc top-6"><a href="{{ example.url }}">{{example.data.title}}</a></li>
-        {% endfor %}</ul>
 </div>
-</div>
+ </article>
 {% endblock %}
+</body>
 </html>

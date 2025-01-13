@@ -10,12 +10,11 @@ tags:
   - "madcap flare"
 cover: "pawel_kowaluk-300x300.jpg"
 coverAlt : "Episode 16 guest Pawel Kowaluk"
+description: "Pawel Kowaluk, a technical writer, self-proclaimed [DITA geek](http://dita.org), and [recruiter](http://3di.com.pl), joins us from Krakow, Poland. He talks about the rise of technical communication in Poland, starting a conference, and how to balance a team when hiring."
 ---
 
-Pawel Kowaluk, a technical writer, self-proclaimed [DITA geek](http://dita.org), and [recruiter](http://3di.com.pl), joins us from Krakow, Poland. He talks about the rise of technical communication in Poland, starting a conference, and how to balance a team when hiring.
 
-> [!NOTE]
-> After recording, we became aware that Pawel left the Soap! Conference team after one year. To further clarify, Pawel did not have a role in the formation of MeetContent, though he is an active member of the community. Content Content regrets any confusion or offense to those involved.
+**Note:** After recording, we became aware that Pawel left the Soap! Conference team after one year. To further clarify, Pawel did not have a role in the formation of MeetContent, though he is an active member of the community. Content Content regrets any confusion or offense to those involved.
 
 ## Mentioned during this episode
 

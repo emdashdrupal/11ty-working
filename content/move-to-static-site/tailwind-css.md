@@ -24,3 +24,8 @@ what I don't like about it is that it automatically "resets" each style to zero.
 ```npm
 npx tailwindcss -o _includes/css/tw.css --watch
 ```
+
+## Online tools
+
+[Tailwind Grid generator](https://www.tailwindgen.com/)
+[Tailwind Card generator](https://tailwind-generator.com/card-generator/generator)
