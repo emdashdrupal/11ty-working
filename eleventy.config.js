@@ -32,7 +32,9 @@ module.exports = function (eleventyConfig) {
       return collectionApi.getAll();
     });
   };
-
+  module.exports.config = {
+    markdownTemplateEngine: "njk",
+  };
 
 dir: {
   input: "content";
