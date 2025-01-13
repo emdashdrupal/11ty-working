@@ -9,10 +9,8 @@ tags:
   - "dita"
   - "podcast"
   - "podcasts"
+description: "Content strategy business owner Sarah O'Keefe talks about working with a CMS, content metrics, tekom, packing for flights, and her aversion to the nightshade family."
 ---
-
-Content strategy business owner Sarah O'Keefe talks about working with a CMS, content metrics, tekom, packing for flights, and her aversion to the nightshade family.
-
 ## Mentioned during this episode
 
 

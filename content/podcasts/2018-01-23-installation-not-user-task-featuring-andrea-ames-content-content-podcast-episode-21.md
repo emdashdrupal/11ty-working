@@ -8,9 +8,8 @@ categories:
   - "technical writing"
 cover : "Andrea_Ames_headshot-300x275.png"
 coverAlt : "Andrea Ames, Content Content podcast episode 21 guest"
+description: "Andrea Ames and Ed Marsh discuss the evolution of the technical communication field, the number of job titles for technical communicators, the frustrations of proving your value, and laugh a lot."
 ---
-
-Andrea Ames and Ed Marsh discuss the evolution of the technical communication field, the number of job titles for technical communicators, the frustrations of proving your value, and laugh a lot.
 
 Andrea is the CEO of [Idyll Point Group](https://idyllpointgroup.com?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21), after a long stint in content strategy and content experience strategy at IBM.
 

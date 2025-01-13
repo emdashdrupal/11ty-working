@@ -9,9 +9,8 @@ tags:
   - "podcast"
 cover : "mike-miller-with-borg-warner-273x300.png"
 coverAlt : "Michael Miller with the Indy 500 Borg-Warner trophy"
+description : "[Michael Miller](https://www.linkedin.com/in/michael-miller1227/), an Indianapolis, IN-based technical writer, shares what it's like to be new to the field, his passion for it, the struggles he faces, his goals, and more."
 ---
-
-[Michael Miller](https://www.linkedin.com/in/michael-miller1227/), an Indianapolis, IN-based technical writer, shares what it's like to be new to the field, his passion for it, the struggles he faces, his goals, and more.
 
 
 ## Mentioned during this episode

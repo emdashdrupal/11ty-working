@@ -13,9 +13,8 @@ tags:
   -  "dita"
 cover: "Patrick-Bosekcurrent-social-960x1280.jpg"
 coverAlt : "Patrick Bosek of Heretto"
+description : "In this episode, Heretto CEO Patrick Bosek explains why pure techcomm is going away, why being a CEO is like being an eight year old with a lemonade stand, and more."
 ---
-
-In this episode, Heretto CEO Patrick Bosek explains why pure techcomm is going away, why being a CEO is like being an eight year old with a lemonade stand, and more.
 
 
 > [!TIP]

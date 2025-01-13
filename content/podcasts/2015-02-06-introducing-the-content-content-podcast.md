@@ -4,11 +4,9 @@ date: "2015-02-06"
 categories:
   - "podcasts"
   - "technical writing"
-tags : "podcasts"
-
+description: "In our inaugural podcast, technical communication and customer experience consultant Sharon Burton tells us about California law, offices without tarantulas, documenting the obvious, the file name field, buying buckets of DITA at the DITA Store, and the renaissance of content."
 ---
 
-In our inaugural podcast, technical communication and customer experience consultant Sharon Burton tells us about California law, offices without tarantulas, documenting the obvious, the file name field, buying buckets of DITA at the DITA Store, and the renaissance of content.
 
 ## Mentioned during this episode
 

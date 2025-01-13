@@ -4,10 +4,8 @@ date: "2015-04-28"
 categories:
   - "podcast"
   - "technical writing"
-
+description: "Fellow New Jerseyan Danielle Villegas, the TechCommGeekMom, talks to us about transitioning into technical communication, social media, her blog at [techcommgeekmom.com](http://techcommgeekmom.com \"TechCommGeekMom\"), content curation, going back to school, and managing it all (or not)."
 ---
-
-Fellow New Jerseyan Danielle Villegas, the TechCommGeekMom, talks to us about transitioning into technical communication, social media, her blog at [techcommgeekmom.com](http://techcommgeekmom.com "TechCommGeekMom"), content curation, going back to school, and managing it all (or not).
 
 ## Mentioned during this episode
 
