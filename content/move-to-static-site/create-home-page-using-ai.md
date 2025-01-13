@@ -4,9 +4,18 @@ description: "I try using Google Gemini and GitHub Copilot to create a Nunjucks 
 ---
 
 
+
 ## AI!
 
 Copilot said the Gemini version was well-structured and accurately done.
+
+Prompt:
+
+```txt
+i'm creating a web site using Eleventy, nunjucks, tailwind css, html, and markdown. I'd like your help with a template for the homepage.
+```
+
+And here is the response:
 
 ```njk
 <!DOCTYPE html>
