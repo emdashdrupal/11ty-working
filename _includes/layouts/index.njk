@@ -17,40 +17,52 @@
                 <h2 class="text-2xl font-semibold">About</h2>
                 <p class="mt-2">
           Welcome to my portfolio. I'm Ed Marsh. I'm a technical writer, information architect, content strategist, podcaster, and dabbler in coding. I'm passionate about creating clear, concise, and user-friendly documentation.</p>
-<p class="mt-2">
-          In my free time, I host a podcast where I interview industry experts and discuss the latest trends in tech. Feel free to explore my site and learn more about my work.
+                <p class="mt-2">
+          In my free time, I <a href="podcasts/">host a podcast</a> where I interview industry experts . Feel free to explore my site and learn more about my work.
         </p>
             </section>
 
             <section class="mb-8">
                 <h2 class="text-2xl font-semibold">Latest Content</h2>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {% for item in collections.podcasts | slice(0, 1) %}
-                        <div class="bg-white p-4 shadow-md">
-                            <p>{{ item.data.description }}</p>
-                        </div>
-                    {% endfor %}
+                <section class="md-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <h2>Content Content podcast</h2>
 
-                    {% for item in collections.all %}
-                        <div class="bg-white p-4 shadow-md">
-                            <h3 class="text-xl font-semibold"><a href="{{item.url}}">{{ item.data.title }}</a></h3>
-                            <p>{{ item.data.description }}</p>
-                        </div>
-                    {% endfor %}
+                        {% for item in collections.podcasts %}
+                            <div class="bg-white p-4 shadow-md">
+                                 <a href="{{item.url}}">{{ item.data.title |safe }}</a>
+                            </div>
+                        {% endfor %}
+                    </section>
+                    <section class="md-4">
+                        <h2>Creating a Static Site</h2>
+                        {% for item in collections.ssg %}
+                            <div class="bg-white p-4 shadow-md">
 
-                    {% for item in collections.skills | slice(0, 1) %}
-                        <div class="bg-white p-4 shadow-md">
-                            <h3 class="text-xl font-semibold">{{ item.data.title }}</h3>
-                            <p>{{ item.data.description }}</p>
-                        </div>
-                    {% endfor %}
+                                <h3 class="text-xl font-semibold">
+                                    <a href="{{item.url}}">{{ item.data.title | safe}}</a>
+                                </h3>
+                                <p>{{ item.data.description }}</p>
+                            </div>
+                        {% endfor %}
+                    </section>
+                    <section class="md-4">
+                        <h2>My skills &mdash; how I can help you</h2>
+                        {% for item in collections.skills %}
+
+                            <div class="bg-white p-4 shadow-md">
+                                <h3 class="text-xl font-semibold"> <a href="{{item.url}}">{{ item.data.title |safe }}</a></h3>
+                                <p>{{ item.data.description }}</p>
+                            </div>
+                        {% endfor %}
+                    </section>
                 </div>
             </section>
         </main>
 
         <footer class="bg-gray-800 text-white p-4 mt-8">
 
-            <p>{{ now }} &mdash; &copy; 2025 Ed Marsh's Jerk Store</p>
+            <p><script>new Date.getFullYear();</script> &mdash; &copy; 2025 Ed Marsh's Jerk Store</p>
         </footer>
     </body>
 </html>

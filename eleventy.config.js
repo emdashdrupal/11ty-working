@@ -8,6 +8,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
+      // SSG collection
+      eleventyConfig.addCollection("ssg", function(collectionApi) {
+        return collectionApi.getFilteredByTag("ssg");
+      });
     // Podcasts collection
     eleventyConfig.addCollection("podcasts", function(collectionApi) {
       return collectionApi.getFilteredByTag("podcasts");
