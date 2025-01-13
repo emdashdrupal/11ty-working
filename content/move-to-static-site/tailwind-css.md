@@ -28,3 +28,4 @@ npx tailwindcss -o _includes/css/tw.css --watch
 ## Online tools
 
 [Tailwind Grid generator](https://www.tailwindgen.com/)
+[Tailwind Card generator](https://tailwind-generator.com/card-generator/generator)
