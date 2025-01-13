@@ -12,25 +12,7 @@
     <p>Content Content is a podcast where you get to know the people behind the content. We interview professionals in technical communication, content strategy, content marketing, information architecture, and others who create, organize, and maintain content online.</p>
     <div class="skill-grid">
 
-        {% for podcast in collections.podcasts %}
-
-            <div class="max-sm">
-                <div class="skill-tile">
-                                    <div class="float-left left-3">
-                                        <img
-                                        {% if podcast.data.cover %}
-                                        src="/assets/images/{{podcast.data.cover }}" alt="{{ podcast.data.coverAlt | safe }}"
-                                        {% else %}
-                                        src="/assets/images/content-content-podcast-new-cover.png" alt="Content Content podcast"
-                                        {% endif %}/></div>
-                    <p><a class="ml-4" href="{{ podcast.url }}">{{ podcast.data.title }}</a></p>
-                </div>
-            </div>
-        {% endfor %}
-    </div>
-</div>
-
-
+{% include 'layouts/partials/grid.njk' %}
 </body>
 {% endblock %}
 </html>
