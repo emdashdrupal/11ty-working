@@ -7,7 +7,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets/images");
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
-
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
       // SSG collection
       eleventyConfig.addCollection("ssg", function(collectionApi) {
         return collectionApi.getFilteredByTag("ssg");
