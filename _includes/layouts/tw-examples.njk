@@ -4,23 +4,23 @@
     <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
     <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/_includes/css/skill.css">
     </head>
 <body>
     {% include 'layouts/partials/header.njk'%}
 {% block content %}
-    <article class="prose prose-lg">
-        <h1> Ed Marsh tech writing samples</h1>
-
+        <h1> Ed Marsh technical writing samples</h1>
+    <article class="prose prose-base">
         <p class="top-4">As a long-time technical content professional, here are some real-world thoughts and examples of what Ed can do for your business.</p>
-
-        <ul>
-            {% for example in collections.examples %}
-
-                <li class="list-inside list-item list-disc top-6">
+        <div class="skill-grid ml-2">
+            {% for example in collections.examples | reverse %}
+            <div class="float-left max-sm">
+                <li class="list-item">
                     <a href="{{ example.url }}">{{example.data.title}}</a>
-                </li>
+                </li></div>
             {% endfor %}
-        </ul>
+
+</div>
     </article>
 {% endblock %}
 </body>
