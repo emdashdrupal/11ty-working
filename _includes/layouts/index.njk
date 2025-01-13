@@ -28,15 +28,15 @@
                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                         <h2>Content Content podcast</h2>
 
-                        {% for item in collections.podcasts %}
+                        {% for item in collections.podcasts | reverse %}
                             <div class="bg-white p-4 shadow-md">
-                                 <a href="{{item.url}}">{{ item.data.title |safe }}</a>
+                               <img src="{{ item.data.cover }}"/>                                 <a href="{{item.url}}">{{ item.data.title |safe }}</a>
                             </div>
                         {% endfor %}
                     </section>
                     <section class="md-4">
                         <h2>Creating a Static Site</h2>
-                        {% for item in collections.ssg %}
+                        {% for item in collections.ssg | reverse %}
                             <div class="bg-white p-4 shadow-md">
 
                                 <h3 class="text-xl font-semibold">
