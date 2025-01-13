@@ -1369,6 +1369,10 @@ video {
   top: 1rem;
 }
 
+.col-auto {
+  grid-column: auto;
+}
+
 .col-start-1 {
   grid-column-start: 1;
 }
@@ -1478,6 +1482,14 @@ video {
   height: 8rem;
 }
 
+.h-48 {
+  height: 12rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .w-32 {
   width: 8rem;
 }
@@ -1492,6 +1504,10 @@ video {
 
 .w-80 {
   width: 20rem;
+}
+
+.w-48 {
+  width: 12rem;
 }
 
 .transform {
@@ -1790,6 +1806,16 @@ video {
 @media (min-width: 640px) {
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
