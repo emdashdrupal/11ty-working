@@ -9,7 +9,7 @@ categories:
   - "technical writing"
 cover : "Cruce-Headshot-200x300.jpg"
 coverAlt : "Cruce Saunders of A, Content Content podcast guest"
-description : "In an intense episode focused on [intelligent content](https://thecontentwrangler.com/2011/01/17/what-is-intelligent-content/#), Cruce Saunders of A https://simplea.com and Ed Marsh discuss content in the enterprise and how to make it an asset in the C-suite, job titles in the content world, lightweight markup languages, and much more."
+description : In an intense episode focused on <a href="https://thecontentwrangler.com/2011/01/17/what-is-intelligent-content/#">intelligent content</a>, Cruce Saunders of <a href="https://simplea.com">[A]</a> and Ed Marsh discuss content in the enterprise and how to make it an asset in the C-suite, job titles in the content world, lightweight markup languages, and much more.
 ---
 
 ## Mentioned during this episode

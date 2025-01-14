@@ -16,7 +16,7 @@ tags:
 - "metadata"
 cover: "alanporter_003-300x200.jpg"
 coverAlt : "Alan J. Porter, Content Content podcast guest"
-description : "Alan J. Porter, Head of Strategic Services Practice at A (https://simplea.com), talks to Ed Marsh about why tech writers are now content engineers, why metadata is important, what it's like to document _massive_ hardware, and more."
+description : Alan J. Porter, Head of Strategic Services Practice at <a href="https://simplea.com">[A]</a>, talks to Ed Marsh about why tech writers are now content engineers, why metadata is important, what it's like to document <i>massive</i> hardware, and more.
 ---
 
 Alan is also an accomplished author and critic of comics, pop culture, sci-fi, and more.

@@ -9,11 +9,12 @@ categories:
 tags:
   - "DITA"
 cover : "KeithSR-headshoulders-300x300.jpg"
-description : " Keith Schengili-Roberts, market researcher and DITA Evangelist for [IXIASOFT](http://www.ixiasoft.com/en/), and Ed Marsh discuss the old days of HTML, Archie, Veronica, fax software, and more. We also talk about what the hell a DITA evangelist does."
+description : Keith Schengili-Roberts, market researcher and DITA Evangelist for <a href="http://www.ixiasoft.com/en/">IXIASOFT</a>, and Ed Marsh discuss the old days of HTML, Archie, Veronica, fax software, and more. We also talk about what the hell a DITA evangelist does.
 ---
 
 
 ## Mentioned during this episode
+
 - [I can eat glass test](https://en.wikipedia.org/wiki/I_Can_Eat_Glass)  [Delrina](https://en.wikipedia.org/wiki/Delrina)
 - [The Advanced HTML Companion](https://smile.amazon.com/Advanced-HTML-Companion-Second/dp/0126235422)
 - [The Computer Paper](https://en.wikipedia.org/wiki/The_Computer_Paper)
