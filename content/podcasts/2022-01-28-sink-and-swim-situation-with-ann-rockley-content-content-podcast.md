@@ -1,5 +1,5 @@
 ---
-title: "Sink and swim situation with Ann Rockley &mdash; Content Content podcast"
+title: "Sink and swim situation with Ann Rockley"
 date: "2022-01-28"
 categories:
   - "content strategy"
@@ -9,16 +9,8 @@ tags:
   - "podcast"
   - "content strategy"
 cover : "ann-rockley.jpg"
+description : "In this episode \"Mother of Content Strategy\" Ann Rockley discusses a 30+ year consulting career, pivoting to a new business, and more."
 ---
-
-In this episode "Mother of Content Strategy" Ann Rockley discusses a 30+ year consulting career, pivoting to a new business, and more.
-
-<<<<<<< HEAD
-=======
-![Ann Rockley](/assets/images/ann-rockley.jpg)
->>>>>>> 3d16824 (cleanppppp)
-
-
 
 ## Mentioned during this episode
 <!-- more -->

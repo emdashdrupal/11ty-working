@@ -1,5 +1,5 @@
 ---
-title: "Content Content podcast episode 8 &mdash; fairly random events featuring Sarah O'Keefe"
+title: "Fairly random events featuring Sarah O'Keefe"
 date: "2016-03-11"
 categories:
   - "content strategy"
@@ -9,10 +9,8 @@ tags:
   - "dita"
   - "podcast"
   - "podcasts"
+description: "Content strategy business owner Sarah O'Keefe talks about working with a CMS, content metrics, tekom, packing for flights, and her aversion to the nightshade family."
 ---
-
-Content strategy business owner Sarah O'Keefe talks about working with a CMS, content metrics, tekom, packing for flights, and her aversion to the nightshade family.
-
 ## Mentioned during this episode
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Fluffy experience with Hannah Kirk &mdash; Content Content podcast"
+title: "Fluffy experience with Hannah Kirk"
 date: "2020-02-11"
 categories:
   - "content strategy"
@@ -7,9 +7,8 @@ categories:
   - "podcast"
   - "technical writing"
 cover: "Hannah-Kirk2.png"
+description : "Hannah Kirk ([@pinkhairedCS](https://twitter.com/pinkhairedCS)), the Pink-haired Content Strategist, talks to Ed Marsh about conference experiences, how academia compares to Silicon Valley, how kids interact with technology, and reminds Ed how old he is."
 ---
-
-Hannah Kirk ([@pinkhairedCS](https://twitter.com/pinkhairedCS)), the Pink-haired Content Strategist, talks to Ed Marsh about conference experiences, how academia compares to Silicon Valley, how kids interact with technology, and reminds Ed how old he is.
 
 
 ## Mentioned during this episode

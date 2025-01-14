@@ -1,28 +1,28 @@
 ---
-title: "XML is a four-letter word with Alan J. Porter &mdash; Content Content podcast"
+title: "XML is a four-letter word with Alan J. Porter"
 date: "2019-03-14"
 categories:
-  - "content strategy"
-  - "motorsports"
-  - "podcast"
-  - "technical writing"
+
+- "content strategy"
+- "motorsports"
+- "podcast"
+- "technical writing"
 tags:
-  - "content-marketing"
-  - "content strategy"
-  - "information architecture"
-  - "dita"
-  - "information architecture"
-  - "metadata"
+- "content-marketing"
+- "content strategy"
+- "information architecture"
+- "dita"
+- "information architecture"
+- "metadata"
 cover: "alanporter_003-300x200.jpg"
 coverAlt : "Alan J. Porter, Content Content podcast guest"
+description : "Alan J. Porter, Head of Strategic Services Practice at A (https://simplea.com), talks to Ed Marsh about why tech writers are now content engineers, why metadata is important, what it's like to document _massive_ hardware, and more."
 ---
-
-Alan J. Porter, Head of Strategic Services Practice at [\[A\]](https://simplea.com), talks to Ed Marsh about why tech writers are now content engineers, why metadata is important, what it's like to document _massive_ hardware, and more.
-
 
 Alan is also an accomplished author and critic of comics, pop culture, sci-fi, and more.
 
 ## Mentioned during this episode
+
 - [XyWrite](https://en.wikipedia.org/wiki/XyWrite)
 - [Grif](https://www.xml.com/pub/a/SeyboldReport/ps251901.html)
 - [S1000D](http://public.s1000d.org/Pages/Home.aspx)

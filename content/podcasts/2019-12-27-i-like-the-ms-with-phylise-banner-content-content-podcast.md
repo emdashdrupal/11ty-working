@@ -1,5 +1,5 @@
 ---
-title: "I like the Ms with Phylise Banner &mdash; Content Content podcast"
+title: "I like the Ms with Phylise Banner"
 date: "2019-12-27"
 categories:
   - "podcast"
@@ -10,10 +10,8 @@ tags:
   - "podcast"
 cover : "Phylise-Banner-head-Shot.jpg"
 coverAlt : "hylise Banner, learning experience designer and Content Content podcast guest. Photo credit: Susan Blackburn"
+description : "[Phylise Banner, learning experience designer,](http://www.phylisebanner.com/) talks to Ed Marsh about being a digital native, why eLearning and forms are so bad, what it's like coordinating the online community at a major conference, and her passion for education theory and transportation."
 ---
-
-
-[Phylise Banner, learning experience designer,](http://www.phylisebanner.com/) talks to Ed Marsh about being a digital native, why eLearning and forms are so bad, what it's like coordinating the online community at a major conference, and her passion for education theory and transportation.
 
 ## Mentioned during this episode
 

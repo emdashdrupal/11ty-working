@@ -1,5 +1,5 @@
 ---
-title: "Local needs of content featuring Bill Swallow &mdash; Content Content podcast episode 12"
+title: "Local needs of content featuring Bill Swallow"
 date: "2016-09-30"
 categories:
   - "podcast"
@@ -11,10 +11,8 @@ tags:
   - "podcast"
   - "technical writing"
 cover : "billswallow-300x300.jpg"
+description: "\"Content requires proper care and feeding\", says Bill Swallow, director of operations at [Scriptorium](http://www.scriptorium.com). We talk localization, content strategy, local beer, summer's oppressive heat, and more."
 ---
-
-"Content requires proper care and feeding", says Bill Swallow, director of operations at [Scriptorium](http://www.scriptorium.com). We talk localization, content strategy, local beer, summer's oppressive heat, and more.
-
 
 Released on [International Podcast Day!](https://internationalpodcastday.com/)
 

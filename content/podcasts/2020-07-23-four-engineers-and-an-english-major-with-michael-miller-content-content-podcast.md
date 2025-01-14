@@ -1,5 +1,5 @@
 ---
-title: "Four engineers and an English major with Michael Miller &mdash; Content Content podcast"
+title: "Four engineers and an English major with Michael Miller"
 date: "2020-07-23"
 categories:
   - "motorsports"
@@ -9,18 +9,17 @@ tags:
   - "podcast"
 cover : "mike-miller-with-borg-warner-273x300.png"
 coverAlt : "Michael Miller with the Indy 500 Borg-Warner trophy"
+description : "[Michael Miller](https://www.linkedin.com/in/michael-miller1227/), an Indianapolis, IN-based technical writer, shares what it's like to be new to the field, his passion for it, the struggles he faces, his goals, and more."
 ---
-
-[Michael Miller](https://www.linkedin.com/in/michael-miller1227/), an Indianapolis, IN-based technical writer, shares what it's like to be new to the field, his passion for it, the struggles he faces, his goals, and more.
 
 
 ## Mentioned during this episode
 
 
 
-- [Curse of Knowledge with Tom Johnson &mdash; Content Content podcast](http://edmarsh.com/2015/07/08/content-content-podcast-episode-4-curse-of-knowledge-with-tom-johnson/)
-- [XML is a four-letter word with Alan J. Porter &mdash; Content Content podcast](http://edmarsh.com/2019/03/14/xml-is-a-four-letter-word-with-alan-j-porter-content-content-podcast/)
-- [Time as a tool with Alan Houser &mdash; Content Content podcast](http://edmarsh.com/2015/03/18/content-content-podcast-time-as-a-tool-featuring-alan-houser-episode-2/)
+- [Curse of Knowledge with Tom Johnson](http://edmarsh.com/2015/07/08/content-content-podcast-episode-4-curse-of-knowledge-with-tom-johnson/)
+- [XML is a four-letter word with Alan J. Porter](http://edmarsh.com/2019/03/14/xml-is-a-four-letter-word-with-alan-j-porter-content-content-podcast/)
+- [Time as a tool with Alan Houser](http://edmarsh.com/2015/03/18/content-content-podcast-time-as-a-tool-featuring-alan-houser-episode-2/)
 - [BBEdit](https://www.barebones.com/products/bbedit/)
 - [Genesys](https://www.genesys.com/)
 - [Salesforce](https://www.salesforce.com/)

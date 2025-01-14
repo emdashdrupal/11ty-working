@@ -1,5 +1,5 @@
 ---
-title: "Single source of the truth featuring Bernard Aschwanden &mdash; Content Content podcast episode 10"
+title: "Single source of the truth featuring Bernard Aschwanden"
 date: "2016-07-26"
 categories:
   - "podcast"
@@ -7,10 +7,8 @@ categories:
   - "technical writing"
 cover: "me-and-bernard-aschwanden-conduit-philly-2016-corrected.png"
 coverAlt : "Ed Marsh and Bernard Aschwanden at STC Philadelphia Metro Conduit 2016"
+description: "Bernard Aschwanden, President of Publishing Smarter, STC Immediate Past President, and Ed's twin talks about certification, why your content is not your own, building a house (literally), process vs process, finding his spouse through STC, social networking, and more."
 ---
-
-Bernard Aschwanden, President of Publishing Smarter, STC Immediate Past President, and Ed's twin talks about certification, why your content is not your own, building a house (literally), process vs process, finding his spouse through STC, social networking, and more.
-
 
 ## Mentioned during this episode
 

@@ -1,5 +1,5 @@
 ---
-title: "Content Content podcast episode 6 - Where's my Flare - featuring Dr. Carlos Evia"
+title: "Where's my Flare featuring Dr. Carlos Evia"
 date: "2015-10-27"
 categories:
   - "podcast"
@@ -9,11 +9,8 @@ tags:
   - "podcast"
 cover: "CarlosEvia.jpeg"
 coverAlt : "Dr. Carlos Evia, Director of Professional and Technical Writing at Virginia Tech"
+description: "Dr. Carlos Evia is featured on a jaw-dropping episode of the Content Content podcast. We discuss cutting-edge developments in the DITA world, as well as the similarities and differences between academicians and practitioners of technical communication."
 ---
-
-
-Dr. Carlos Evia is featured on a jaw-dropping episode of the Content Content podcast. We discuss cutting-edge developments in the DITA world, as well as the similarities and differences between academicians and practitioners of technical communication.
-
 Carlos is the Director of Professional and Technical Writing at Virginia Tech, is on the Lightweight DITA Technical Committee, and is an advocate for using multimedia with DITA.
 
 

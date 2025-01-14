@@ -1,5 +1,5 @@
 ---
-title: "Experiences have to be assembled with Cruce Saunders &mdash; Content Content podcast"
+title: "Experiences have to be assembled with Cruce Saunders"
 date: "2018-09-14"
 categories:
   - "content strategy"
@@ -7,13 +7,10 @@ categories:
   - "podcast"
   - "social media"
   - "technical writing"
-tags:
-  - "podcast"
 cover : "Cruce-Headshot-200x300.jpg"
-coverAlt : "Cruce Saunders of [A], Content Content podcast guest"
+coverAlt : "Cruce Saunders of A, Content Content podcast guest"
+description : "In an intense episode focused on [intelligent content](https://thecontentwrangler.com/2011/01/17/what-is-intelligent-content/#), Cruce Saunders of A https://simplea.com and Ed Marsh discuss content in the enterprise and how to make it an asset in the C-suite, job titles in the content world, lightweight markup languages, and much more."
 ---
-
-In an intense episode focused on [intelligent content](https://thecontentwrangler.com/2011/01/17/what-is-intelligent-content/#), Cruce Saunders of [\[ A \]](https://simplea.com) and Ed Marsh discuss content in the enterprise and how to make it an asset in the C-suite, job titles in the content world, lightweight markup languages, and much more.
 
 ## Mentioned during this episode
 

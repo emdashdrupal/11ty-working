@@ -1,5 +1,5 @@
 ---
-title: "Content Content podcast episode 4 - Curse of knowledge with Tom Johnson"
+title: "Curse of knowledge with Tom Johnson"
 date: "2015-07-08"
 categories:
   - "podcast"
@@ -9,9 +9,8 @@ tags:
   - "css"
   - "drupal"
   - "madcap flare"
+description: "In this episode, a truly great and fun conversation with prolific and influential technical writer Tom Johnson. Tom joins us from Silicon Valley to talk about his interesting path to technical communication, failed Career Day booths, being a leader in techcomm, content management systems, DITA, static site generators, and much more."
 ---
-
-In this episode, a truly great and fun conversation with prolific and influential technical writer Tom Johnson. Tom joins us from Silicon Valley to talk about his interesting path to technical communication, failed Career Day booths, being a leader in techcomm, content management systems, DITA, static site generators, and much more.
 
 [Subscribe to the Content Content podcast in iTunes](https://itunes.apple.com/us/podcast/content-content/id978186792?mt=2 "Subscribe to the content content podcast")
 
