@@ -664,6 +664,10 @@ video {
   margin-top: 2rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .block {
   display: block;
 }
@@ -690,6 +694,16 @@ video {
 
 .hidden {
   display: none;
+}
+
+.size-8 {
+  width: 2rem;
+  height: 2rem;
+}
+
+.size-64 {
+  width: 16rem;
+  height: 16rem;
 }
 
 .h-48 {
