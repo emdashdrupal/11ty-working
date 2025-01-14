@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
         <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
     </head>
-    <body class="bg-gray-100 body-{{title or metadata.title | url | slugify}}">
+    <body class="bg-gray-100 body-{{title or metadata.title | slugify}}">
 
         <nav class="bg-slate-400 shadow-md mb-6 container mx-auto px-4 flex justify-between">
             <div class="text-xl font-bold">Ed Marsh &mdash; technical writer, information architect, content strategist, podcaster, and dabbler in coding</div>
@@ -91,6 +91,3 @@
     createDropdownHandlers('skillsDropdown', 'skillsSubmenu');
     createDropdownHandlers('ssgDropdown', 'ssgSubmenu');
 </script>
-
-</body>
-</html>
