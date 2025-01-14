@@ -8,10 +8,9 @@
 {% include "layouts/partials/header.njk" %}
 {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
     {% block content %}
-
-        <h1><span class="icon fa-{{ FontAwesomeIcon }} float-left mr-32"></span>Ed Marsh has experience with {{ title }}
-            </h1>
-    <article class="prose prose-base ">
+<div class="mr-12 float-right"><span class="icon fa-{{ FontAwesomeIcon }} "></span></div>
+        <h1>Ed Marsh has experience with {{ title }}</h1>
+    <article>
         <p>{{ description }}</p>
         {{ content | safe }}
     </article>
