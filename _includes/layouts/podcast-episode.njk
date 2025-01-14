@@ -1,16 +1,16 @@
-<!doctype html>
-
-{% block content %}
 {% extends "layouts/base.njk" %}
-    {% include 'layouts/partials/header.njk' %}
-    {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
-<div class="float-left m-0"> {% include 'layouts/partials/podcast-image.njk' %}</div>
-<div>{{ description | safe }}</div>
-<div>
-{{content | safe }}</div>
+{% include 'layouts/partials/header.njk' %}
+{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+{% block content %}
+    <div class="float-left m-0">
+        {% include 'layouts/partials/podcast-image.njk' %}</div>
+    <div>
+        {{content | safe }}</div>
 
-<div class="flex pt-6">
-                    <button class="bg-gray-700 text-[#ffffff]  font-bold text-base  p-3 rounded-lg hover:bg-slate-400 active:scale-95 transition-transform transform"><a href="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2019/06/Content_Content_podcast_-_Viqui_Dill.mp3" class="text-gray-200">Listen now</a></button>
-                </div>
+    <div class="flex pt-6">
+        <button class="bg-gray-700 text-[#ffffff]  font-bold text-base  p-3 rounded-lg hover:bg-slate-400 active:scale-95 transition-transform transform">
+            <a href="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2019/06/Content_Content_podcast_-_Viqui_Dill.mp3" class="text-gray-200">Listen now</a>
+        </button>
+    </div>
 {% endblock %}
 </html>
