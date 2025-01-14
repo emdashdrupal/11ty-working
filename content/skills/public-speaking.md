@@ -1,8 +1,9 @@
 ---
-title: "Public speaking experience"
+title: "Public speaking"
 FontAwesomeIcon : "brands fa-teamspeak"
 eleventyNavigation:
     title: "Public speaking"
+    parent: "Skills"
 
 ---
 
