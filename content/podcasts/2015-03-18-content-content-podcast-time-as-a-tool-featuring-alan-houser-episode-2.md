@@ -1,5 +1,5 @@
 ---
-title: "Content Content Podcast - Time as a Tool - featuring Alan Houser - episode 2"
+title: "Content Content Podcast &mdash; Time as a Tool &mdash; featuring Alan Houser &mdash; episode 2"
 date: "2015-03-18"
 categories:
   - "podcast"

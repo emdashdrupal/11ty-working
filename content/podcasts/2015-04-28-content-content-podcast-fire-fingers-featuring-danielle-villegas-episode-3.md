@@ -1,5 +1,5 @@
 ---
-title: "Content Content Podcast - Fire fingers featuring Danielle Villegas - episode 3"
+title: "Content Content Podcast &mdash; Fire fingers featuring Danielle Villegas &mdash; episode 3"
 date: "2015-04-28"
 categories:
   - "podcast"

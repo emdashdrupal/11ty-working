@@ -1,5 +1,5 @@
 ---
-title: "Content Content podcast episode 5 - Undefinable Me featuring Marcia Riefer Johnston"
+title: "Content Content podcast episode 5 &mdash; Undefinable Me featuring Marcia Riefer Johnston"
 date: "2015-08-19"
 categories:
   - "content strategy"
