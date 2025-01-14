@@ -1,5 +1,5 @@
 ---
-title: "A Tech Writer's Thoughts on NYC Drupal Camp 2013"
+title: "A Tech Writer's Thoughts on NYC Drupal Camp 201"
 date: "2013-07-17"
 categories:
   - "technical writing"

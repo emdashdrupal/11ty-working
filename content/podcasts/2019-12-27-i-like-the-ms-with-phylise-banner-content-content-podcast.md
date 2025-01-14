@@ -1,5 +1,5 @@
 ---
-title: "I like the Ms with Phylise Banner &mdash; Content Content podcast"
+title: "I like the Ms with Phylise Banner"
 date: "2019-12-27"
 categories:
   - "podcast"

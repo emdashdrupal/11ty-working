@@ -1,5 +1,5 @@
 ---
-title: "I can eat glass with Keith Schengili-Roberts &mdash; Content Content podcast episode 22"
+title: "I can eat glass with Keith Schengili-Roberts"
 date: "2018-03-13"
 categories:
   - "content strategy"

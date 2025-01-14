@@ -1,5 +1,5 @@
 ---
-title: "XML is a four-letter word with Alan J. Porter &mdash; Content Content podcast"
+title: "XML is a four-letter word with Alan J. Porter"
 date: "2019-03-14"
 categories:
 

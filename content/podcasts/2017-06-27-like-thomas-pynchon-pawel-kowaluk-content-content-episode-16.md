@@ -1,5 +1,5 @@
 ---
-title: "Be like Thomas Pynchon with Pawel Kowaluk &mdash; Content Content episode 16"
+title: "Be like Thomas Pynchon with Pawel Kowaluk"
 date: "2017-06-27"
 categories:
   - "content strategy"
@@ -23,7 +23,7 @@ description: "Pawel Kowaluk, a technical writer, self-proclaimed [DITA geek](htt
 - [Soap! Conference](http://soapconf.com)
 - [International Technical Communication Qualifications Foundation (ITCQF)](http://itcqf.org)
 - [Thomas Pynchon](https://en.wikipedia.org/wiki/Thomas_Pynchon)
-- [Poland Madcap Flare User Group](https://www.meetup.com/Poland-MadCap-Flare-User-Group/) [Users or people with Jack Molisani &mdash; Content Content episode 15](http://edmarsh.com/2017/04/24/users-or-people-with-jack-molisani-content-content-episode-15/)
+- [Poland Madcap Flare User Group](https://www.meetup.com/Poland-MadCap-Flare-User-Group/) [Users or people with Jack Molisani5](http://edmarsh.com/2017/04/24/users-or-people-with-jack-molisani-content-content-episode-15/)
 - [Markdown](https://en.wikipedia.org/wiki/Markdown) ["Life begins when you step out of your comfort zone"- Pam Noreault](https://twitter.com/edmarsh/status/861946935112077312)
 - [Daniel Pink's theory of motivation](https://www.tutor2u.net/business/reference/motivation-pink-three-elements-of-intrinsic-motivation)
 - [Society for Technical Communication (STC) Certified Professional Technical Communicator](https://www.stc.org/certification/)

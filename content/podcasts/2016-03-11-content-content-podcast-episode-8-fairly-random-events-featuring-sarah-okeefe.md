@@ -1,5 +1,5 @@
 ---
-title: "Content Content podcast episode 8 &mdash; fairly random events featuring Sarah O'Keefe"
+title: "Fairly random events featuring Sarah O'Keefe"
 date: "2016-03-11"
 categories:
   - "content strategy"

@@ -1,5 +1,5 @@
 ---
-title: "The price is right with Tim Esposito &mdash; Content Content podcast episode 20"
+title: "The price is right with Tim Esposito"
 date: "2017-11-30"
 categories:
   - "content strategy"
@@ -13,7 +13,7 @@ description: "Timothy Esposito is a principal technical writer for Oracle, and c
 ## Mentioned during this episode
 
 - [Tim's site](https://tmesposit.wordpress.com/)
--[Tim on Twitter](https://twitter.com/tmesposit)
+- [Tim on Twitter](https://twitter.com/tmesposit)
 - [Tim's "Bonus materials" page](https://tmesposit.wordpress.com/bonus-materials/)
 - [Kings Canyon](https://www.nps.gov/seki/index.htm)
 - [Yosemite Half Dome](https://www.yosemitehikes.com/yosemite-valley/half-dome/half-dome.htm)

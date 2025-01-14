@@ -1,5 +1,5 @@
 ---
-title: "Users or people with Jack Molisani &mdash; Content Content episode 15"
+title: "Users or people with Jack Molisani"
 date: "2017-04-24"
 categories:
   - "content strategy"

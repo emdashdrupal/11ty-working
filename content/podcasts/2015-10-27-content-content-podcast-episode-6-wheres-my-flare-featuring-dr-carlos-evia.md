@@ -1,5 +1,5 @@
 ---
-title: "Content Content podcast episode 6: Where's my Flare &mdash; featuring Dr. Carlos Evia"
+title: "Where's my Flare featuring Dr. Carlos Evia"
 date: "2015-10-27"
 categories:
   - "podcast"

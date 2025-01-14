@@ -1,5 +1,5 @@
 ---
-title: "Local needs of content featuring Bill Swallow &mdash; Content Content podcast episode 12"
+title: "Local needs of content featuring Bill Swallow"
 date: "2016-09-30"
 categories:
   - "podcast"

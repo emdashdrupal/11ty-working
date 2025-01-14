@@ -1,5 +1,5 @@
 ---
-title: "It's OK to pause featuring Alyssa Fox &mdash; Content Content podcast episode 13"
+title: "It's OK to pause featuring Alyssa Fox"
 date: "2016-11-15"
 categories:
   - "content strategy"

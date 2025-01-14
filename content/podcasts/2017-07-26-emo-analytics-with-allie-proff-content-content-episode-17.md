@@ -1,5 +1,5 @@
 ---
-title: "Emo analytics with Allie Proff &mdash; Content Content episode 17"
+title: "Emo analytics with Allie Proff"
 date: "2017-07-26"
 categories:
   - "content strategy"
@@ -25,8 +25,8 @@ description: "Allie Proff works for [freaking Boeing](http://www.boeing.com/). W
 - [technically eclectic](http://www.technicallyeclectic.com/)
 - [Mailchimp's style guide](http://www.voiceandtone.com/)
 - [Snohomish County Mothers of Multiples (SNOMOMS)](https://snomoms.wordpress.com/)
-- [Be like Thomas Pynchon with Pawel Kowaluk &mdash; Content Content episode 16](http://edmarsh.com/2017/06/27/like-thomas-pynchon-pawel-kowaluk-content-content-episode-16/)
+- [Be like Thomas Pynchon with Pawel Kowaluk6](http://edmarsh.com/2017/06/27/like-thomas-pynchon-pawel-kowaluk-content-content-episode-16/)
 - [Ingress the game](https://www.ingress.com)
 - [Pokemon Go](https://www.pokemongo.com)
 - [Content Content podcast episode 7 &mdash; Curious about content featuring David Dylan Thomas](http://edmarsh.com/2016/01/19/content-content-podcast-episode-7-curious-about-content-featuring-david-dylan-thomas/)
-- [It's OK to pause featuring Alyssa Fox &mdash; Content Content podcast episode 13](http://edmarsh.com/2016/11/15/ok-pause-featuring-alyssa-fox-content-content-podcast-episode-13)
+- [It's OK to pause featuring Alyssa Fox3](http://edmarsh.com/2016/11/15/ok-pause-featuring-alyssa-fox-content-content-podcast-episode-13)

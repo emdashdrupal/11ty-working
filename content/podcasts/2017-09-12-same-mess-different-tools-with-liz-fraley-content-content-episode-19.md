@@ -1,5 +1,5 @@
 ---
-title: "Same mess different tools with Liz Fraley &mdash; Content Content episode 19"
+title: "Same mess different tools with Liz Fraley"
 date: "2017-09-12"
 categories:
   - "podcast"

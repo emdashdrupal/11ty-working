@@ -1,5 +1,5 @@
 ---
-title: "Complimentary sandwich featuring Todd DeLuca &mdash; Content Content episode 9"
+title: "Complimentary sandwich featuring Todd DeLuca"
 date: "2016-05-13"
 categories:
   - "podcast"

@@ -1,5 +1,5 @@
 ---
-title: "Off the wall presentations featuring Ben Woelk &mdash; Content Content podcast episode 11"
+title: "Off the wall presentations featuring Ben Woelk"
 date: "2016-09-01"
 categories:
   - "podcast"

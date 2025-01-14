@@ -1,5 +1,5 @@
 ---
-title: "Value-oriented outcomes with Sara Feldman &mdash; Content Content podcast"
+title: "Value-oriented outcomes with Sara Feldman"
 date: "2020-05-19"
 categories:
   - "podcast"

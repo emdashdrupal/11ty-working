@@ -1,5 +1,5 @@
 ---
-title: "Single source of the truth featuring Bernard Aschwanden &mdash; Content Content podcast episode 10"
+title: "Single source of the truth featuring Bernard Aschwanden"
 date: "2016-07-26"
 categories:
   - "podcast"

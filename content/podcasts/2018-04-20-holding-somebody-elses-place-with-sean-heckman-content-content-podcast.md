@@ -1,5 +1,5 @@
 ---
-title: "Holding somebody else's place with Sean Heckman &mdash; Content Content podcast"
+title: "Holding somebody else's place with Sean Heckman"
 date: "2018-04-20"
 categories:
   - "motorsports"

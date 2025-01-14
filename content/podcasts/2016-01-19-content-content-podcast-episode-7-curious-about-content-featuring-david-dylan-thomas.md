@@ -1,5 +1,5 @@
 ---
-title: "Curious about content featuring David Dylan Thomas &mdash; Content Content podcast episode 7"
+title: "Curious about content featuring David Dylan Thomas"
 date: "2016-01-19"
 categories:
   - "content strategy"

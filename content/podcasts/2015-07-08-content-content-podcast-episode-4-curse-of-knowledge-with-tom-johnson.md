@@ -1,5 +1,5 @@
 ---
-title: "Content Content podcast episode 4 &mdash; Curse of knowledge with Tom Johnson"
+title: "Curse of knowledge with Tom Johnson"
 date: "2015-07-08"
 categories:
   - "podcast"

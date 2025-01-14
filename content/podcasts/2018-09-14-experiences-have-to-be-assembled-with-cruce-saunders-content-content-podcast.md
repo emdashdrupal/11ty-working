@@ -1,5 +1,5 @@
 ---
-title: "Experiences have to be assembled with Cruce Saunders &mdash; Content Content podcast"
+title: "Experiences have to be assembled with Cruce Saunders"
 date: "2018-09-14"
 categories:
   - "content strategy"

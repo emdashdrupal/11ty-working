@@ -1,5 +1,5 @@
 ---
-title: "Napoleons and Shakespeares featuring Teresa Meek &mdash; Content Content podcast episode 14"
+title: "Napoleons and Shakespeares featuring Teresa Meek"
 date: "2017-02-14"
 categories:
   - "podcast"

@@ -1,5 +1,5 @@
 ---
-title: "I have issues with slide decks with Scott Abel &mdash; Content Content podcast"
+title: "I have issues with slide decks with Scott Abel"
 date: "2018-11-20"
 categories:
   - "content strategy"

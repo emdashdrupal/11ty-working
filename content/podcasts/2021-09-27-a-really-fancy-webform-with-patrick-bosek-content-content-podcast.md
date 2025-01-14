@@ -1,5 +1,5 @@
 ---
-title: "A really fancy webform with Patrick Bosek &mdash; Content Content podcast"
+title: "A really fancy webform with Patrick Bosek"
 date: "2021-09-27"
 categories:
   - "content strategy"

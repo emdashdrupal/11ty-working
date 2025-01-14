@@ -1,5 +1,5 @@
 ---
-title: "Not acting like slow computers with Rahel Bailie &mdash; Content Content podcast"
+title: "Not acting like slow computers with Rahel Bailie"
 date: "2021-04-14"
 categories: ["podcast", "content-strategy"]
 tags: ["content-operations", "podcast"]

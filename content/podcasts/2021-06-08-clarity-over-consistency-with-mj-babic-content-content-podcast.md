@@ -1,5 +1,5 @@
 ---
-title: "Clarity over consistency with MJ Babic &mdash; Content Content podcast"
+title: "Clarity over consistency with MJ Babic"
 date: "2021-06-08"
 categories:
   - "podcast"

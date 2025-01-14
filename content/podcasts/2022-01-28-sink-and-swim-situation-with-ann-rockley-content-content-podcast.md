@@ -1,5 +1,5 @@
 ---
-title: "Sink and swim situation with Ann Rockley &mdash; Content Content podcast"
+title: "Sink and swim situation with Ann Rockley"
 date: "2022-01-28"
 categories:
   - "content strategy"
