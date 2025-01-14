@@ -1,7 +1,3 @@
 {
     "layout": "/layouts/podcast-episode.njk",
-    "tags": "podcasts",
-    "eleventyNavigation" : {
-        "key": "Podcasts"
-    }
-}
+    "tags": "podcasts"}

@@ -2,17 +2,17 @@
 <head>
     <title>{{ title }}</title>
     <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
-    <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
     <link rel="stylesheet" type="text/css" href="/_includes/css/skill.css">
 </head>
 <body>
-
+{% include "layouts/partials/header.njk" %}
+{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
     {% block content %}
 
-        <h1>Ed Marsh has experience with {{ title }}
-            <span class="icon fa-{{ FontAwesomeIcon }} float-right"></span></h1>
-    <article class="prose prose-base">
+        <h1><span class="icon fa-{{ FontAwesomeIcon }} float-left mr-32"></span>Ed Marsh has experience with {{ title }}
+            </h1>
+    <article class="prose prose-base ">
+        <p>{{ description }}</p>
         {{ content | safe }}
     </article>
         {% endblock %}

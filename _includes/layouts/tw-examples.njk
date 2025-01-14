@@ -13,14 +13,26 @@
     <article class="prose prose-base">
         <p class="top-4">As a long-time technical content professional, here are some real-world thoughts and examples of what Ed can do for your business.</p>
 
-        <div class="grid grid-cols-3 grid-rows-3 gap-3 px-3 py-3">
-            {% for example in collections.examples | reverse %}
-            <div class=" bg-gray-300 rounded-xl">
-                <li class="list-item prose prose-blue list-none ml-2">
-                    <a href="{{ example.url }}">{{example.data.title}}</a>
-                </li></div>
-            {% endfor %}
 
+<div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 border-2">
+    {% for example in collections.examples | reverse %}
+
+        <div class="flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2">
+
+            <div class="flex flex-col p-4 content-evenly">
+                <div class="font-bold hover:bg-slate-200 text-[#374151] pb-6"><a href="{{page.url}}">{{ example.data.title |safe }}</a></div>
+                <div class=" text-md text-[#374151]">{{example.data.description}}</div>
+                <div class="flex pt-6">
+                    <a href="{{example.page.url}}" class="text-gray-700"><button class="bg-slate-500 text-[#ffffff]  font-bold text-base  p-2 rounded-lg hover:bg-gray-400 active:scale-95 transition-transform transform shadow-md ">
+                        Read more
+                    </button></a>
+                </div>
+
+            </div>
+
+        </div>
+    {% endfor %}
+</div>
 </div>
  </article>
 {% endblock %}

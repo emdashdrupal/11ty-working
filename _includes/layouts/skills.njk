@@ -1,27 +1,16 @@
 <!doctype html>
 <head>
 
-    <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" type="text/css" href="/_includes/css/skill.css">
 </head>
 <body>
     {% block content %}
-        <hr/>
+    {{ collections.skills | eleventyNavigation | eleventyNavigationToHtml | safe }}
 
-        <h2>Skillz</h2>
-
-        <div class="skill-grid ml-4">
-            {% for skill in collections.skills %}
-                <div class="max-sm">
-                    <div class="skill-tile">
-                        <div class="float-left icon fa-{{ skill.data.FontAwesomeIcon }}"></div>
-                        <a class="float-right" href="{{ skill.url }}">{{skill.data.title}}</a>
-                    </div>
-                </div>
-            {% endfor %}
-    </ul>
-</div>
-</div>
+    {% include "layouts/partials/header.njk" %}
+    <h2>Skillz</h2>
+{% include "layouts/partials/skills-grid.njk" %}
 </body>
 {% endblock %}
 </html>

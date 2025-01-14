@@ -4,8 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Eduardo Marsho</title>
+        <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
+        <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
     </head>
-    <body class="bg-gray-100">
+    <body class="bg-gray-100 body-{{title or metadata.title | url | slugify}}">
 
         <nav class="bg-slate-400 shadow-md mb-6 container mx-auto px-4 flex justify-between">
             <div class="text-xl font-bold">Ed Marsh &mdash; technical writer, information architect, content strategist, podcaster, and dabbler in coding</div>
