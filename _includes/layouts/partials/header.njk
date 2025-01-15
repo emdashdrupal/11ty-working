@@ -62,7 +62,7 @@
 {% block content %}
     <main class="container mx-auto mt-8 px-4">
         <h1>{{title or metadata.title}}</h1>
-<p>{{ description or metadata.description }}</p>
+<p class="py-4"><em>{{ description or metadata.description }}</em></p>
 
 {% endblock %}
 

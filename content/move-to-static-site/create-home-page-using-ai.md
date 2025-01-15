@@ -1,6 +1,6 @@
 ---
 title : "Creating a homepage template using AI"
-description: "I try using Google Gemini and GitHub Copilot to create a Nunjucks template for my site's homepage."
+description: "I use Google Gemini and GitHub Copilot to create a Nunjucks template for my static site's homepage."
 ---
 
 ## AI
@@ -72,8 +72,10 @@ And here is the response:
     ```
 
     ```
-    \{\% year %}
+    {% year %}
     ```
+
+  - Understanding the logic I wanted helped me to accurately frame the question to the LLM.
 
 ## Setbacks
 
