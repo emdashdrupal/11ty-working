@@ -7,7 +7,7 @@ categories:
   - "technical writing"
 cover : "tim_esposito_Maine_headshot-287x300.jpg"
 coverAlt : "Timothy Esposito, Content Content podcast episode 20 guest"
-description: "Timothy Esposito is a principal technical writer for Oracle, and current [STC Philadelphia Metro chapter](http://stcpmc.org/) President. We talk about a career of service, Y2k, what it takes to run a successful volunteer organization, hiking, and, of course, beer. Tim is also an STC Associate Fellow."
+description: Timothy Esposito is a principal technical writer for Oracle, and current <a href="http://stcpmc.org/">STC Philadelphia Metro chapter</a> President. We talk about a career of service, Y2K, what it takes to run a successful volunteer organization, hiking, and, of course, beer. Tim is also an STC Associate Fellow.
 ---
 
 ## Mentioned during this episode

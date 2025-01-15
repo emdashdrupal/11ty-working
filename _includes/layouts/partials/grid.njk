@@ -12,9 +12,9 @@
             </figure>
             <div class="flex flex-col p-4 content-evenly">
                 <div class="font-bold hover:bg-slate-200 text-[#374151] pb-6"><a href="{{podcast.page.url}}">{{ podcast.data.title |safe }}</a></div>
-                <div class=" text-md text-[#374151]">{{podcast.data.description}}</div>
+                <div>{{podcast.data.description | safe }}</div>
                 <div class="flex pt-6">
-                    <a href="{{podcast.page.url}}" class="text-gray-700"><button class="bg-slate-500 text-[#ffffff]  font-bold text-base  p-2 rounded-lg hover:bg-gray-400 active:scale-95 transition-transform transform shadow-md ">
+                    <a href="{{podcast.page.url}}" class="text-gray-700 align-bottom place-items-end"><button class="bg-slate-500 text-[#ffffff]  font-bold text-base  p-2 rounded-lg hover:bg-gray-400 active:scale-95 transition-transform transform shadow-md ">
                         Listen now
                     </button></a>
                 </div>

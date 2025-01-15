@@ -29,3 +29,4 @@ npx tailwindcss -o _includes/css/tw.css --watch
 
 [Tailwind Grid generator](https://www.tailwindgen.com/)
 [Tailwind Card generator](https://tailwind-generator.com/card-generator/generator)
+[Tailwind CSS classes](https://shuffle.dev/tailwind/classes)

@@ -9,11 +9,13 @@ html, body {
 }
 
 h1 {
-    font-size: 1.2rem;
-    font-weight: 900;}
+    font-size: 1.25rem;
+    font-weight: 900;
+margin-bottom: 0.5rem;}
 h2 {
     font-size: 1.1rem;
-    font-weight: 700;}
+    font-weight: 700;
+margin: .75rem 0;}
 
 pre {
     font: 12px/1.4 Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -28,11 +30,8 @@ a {
     color: #0074D9;
     text-decoration: none;
 }
-.language-css
-{ font-family: 'Courier New', Courier, monospace;}
-
 li {
-    margin-bottom: 0.9rem;
+    margin-bottom: 0.6rem;
     list-style-type: square;
 }
 

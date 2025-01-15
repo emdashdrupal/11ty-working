@@ -1,68 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
-        <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
+{% include 'layouts/partials/header.njk'%}
 
-    </head>
-    <body class="bg-gray-100 text-gray-900 font-sans">
-        <header class="bg-blue-600 text-white p-4 shadow-md">
-            {% include 'layouts/partials/header.njk'%}
-        </header>
-
-        <main class="container mx-auto mt-8 px-4">
-            <section class="mb-8">
-                <h2 class="text-2xl font-semibold">About</h2>
-                <p class="mt-2">
+<section class="mb-8">
+    <p class="mt-2">
           Welcome to my portfolio. I'm Ed Marsh. I'm a technical writer, information architect, content strategist, podcaster, and dabbler in coding. I'm passionate about creating clear, concise, and user-friendly documentation.</p>
-                <p class="mt-2">
+    <p class="mt-2">
           In my free time, I <a href="podcasts/">host a podcast</a> where I interview industry experts . Feel free to explore my site and learn more about my work.
         </p>
-            </section>
+</section>
 
-            <section class="mb-8">
-                <h2 class="text-2xl font-semibold">Latest Content</h2>
-                <section class="md-4">
-                        {% for item in collections.podcasts | reverse   %}
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                    <div class="bg-white p-4 shadow-md">
+<section class="mb-8 border-2">
+    <h2 class="text-2xl font-semibold">Latest Content</h2>
+    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
+        {% for item in collections.podcasts | reverse %}
+            {% if loop.index <= 4 %}
 
-                               <img src="/assets/images/{{ item.data.cover }}" class="float-left"/style="max-width: 100px">                                 <a href="{{item.url}}">{{ item.data.title |safe }} </a>
-                                <p>{{ item.data.description }}</p>
-                            </div>
-                        {% endfor %}
-                    </section>
-                    <section class="md-4">
-                        <h2>Creating a Static Site</h2>
-                        {% for item in collections.ssg | reverse  %}
-                            <div class="bg-white p-4 shadow-md">
+                <div class="flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2">
 
-                                <h3 class="text-xl font-semibold">
-                                    <a href="{{item.url}}">{{ item.data.title | safe}}</a>
-                                </h3>
-                                <p>{{ item.data.description }}</p>
-                            </div>
-                        {% endfor %}
-                    </section>
-                    <section class="md-4">
-                        <h2>My skills &mdash; how I can help you</h2>
-                        {% for item in collections.skills %}
-
-                            <div class="bg-white p-4 shadow-md">
-                                <h3 class="text-xl font-semibold"> <a href="{{item.url}}">{{ item.data.title |safe }}</a></h3>
-                                <p>{{ item.data.description }}</p>
-                            </div>
-                        {% endfor %}
-                    </section>
+                    <img src="/assets/images/{{ item.data.cover }}" class="float-left"/style="max-width: 100px">
+                    <a href="{{item.url}}">{{ item.data.title |safe }}
+                    </a>
+                    <p>{{ item.data.description }}</p>
                 </div>
-            </section>
-        </main>
+            {% endif %}
+        {% endfor %}
+    </section>
+    <section  class="mb-8 border-2">
+        <h2>Creating a Static Site</h2>
+        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
+            {% for item in collections.ssg | reverse %}
+                <div class="bg-white p-4 shadow-md">
 
-        <footer class="bg-gray-800 text-white p-4 mt-8">
+                    <h3 class="text-xl font-semibold">
+                        <a href="{{item.url}}">{{ item.data.title | safe}}</a>
+                    </h3>
+                    <p>{{ item.data.description }}</p>
+                </div>
+            {% endfor %}
+            </div>
+        </section>
+        <section class="md-8 border-2">
+            <h2>My skills &mdash; how I can help you</h2>
+            <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
+            {% for item in collections.skills %}
 
-            <p>&copy; {% year %} &mdash; Ed Marsh's Jerk Store</p>
-        </footer>
-    </body>
-</html>
+                <div class="bg-white p-4 shadow-md">
+                    <h3 class="text-xl font-semibold">
+                        <a href="{{item.url}}">{{ item.data.title |safe }}</a>
+                    </h3>
+                    <p>{{ item.data.description }}</p>
+                </div>
+            {% endfor %}
+        </section>
+    </div>
+</section>
+{% include 'layouts/partials/footer.njk'%}

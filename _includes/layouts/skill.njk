@@ -1,21 +1,27 @@
-<!doctype html>
-<head>
-    <title>{{ title }}</title>
-    <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
-    <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
-    <link rel="stylesheet" type="text/css" href="/_includes/css/skill.css">
-</head>
-<body>
+{% include "layouts/partials/header.njk" %}
+<link rel="stylesheet" type="text/css" href="/css/skill.css">
+{{ collections.skills | eleventyNavigation | eleventyNavigationToHtml | safe }}
+{% block content %}
+    {% include "layouts/partials/skills-grid.njk" %}
 
-    {% block content %}
+{% include 'layouts/partials/footer.njk'%}
+{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
 
-        <h1>Ed Marsh has experience with {{ title }}
-            <span class="icon fa-{{ FontAwesomeIcon }} float-right"></span></h1>
-    <article class="prose prose-base">
-        {{ content | safe }}
-    </article>
-        {% endblock %}
-        <a href="../">Back</a>
-    </body>
-</html>
+<div class="mr-12 float-right mt-6">
+    <span class="icon fa-{{ FontAwesomeIcon }}"></span></div>
+<article class="mt-6">
+    {{ content | safe }}
+</article>
+{% endblock %}
+<a href="../">Back</a>
+{% set previousPost = collections.skills | getPreviousCollectionItem %}
+{% set nextPost = collections.skills | getNextCollectionItem %}
+
+{% if previousPost %}
+<a href="{{ previousPost.url }}">Previous: {{ previousPost.data.title }}</a>
+{% endif %}
+|
+{% if nextPost %}
+<a href="{{ nextPost.url }}">Next: {{ nextPost.data.title }}</a>
+{% endif %}
+{% include 'layouts/partials/footer.njk'%}

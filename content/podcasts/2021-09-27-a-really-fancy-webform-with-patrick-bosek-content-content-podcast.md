@@ -8,7 +8,6 @@ categories:
   - "technical writing"
 
 tags:
-  - "podcast"
   - "technical communication"
   -  "dita"
 cover: "Patrick-Bosekcurrent-social-960x1280.jpg"

@@ -5,13 +5,11 @@ categories:
   - "podcast"
   - "social media"
   - "technical writing"
-tags:
-  - "podcast"
 cover: "SaraFeldman.jpg"
-description : "Sara Feldman, customer success enablement advocate, talks with Ed Marsh about job hunting during a pandemic, achieving outcomes, \"pre-charging\" before conferences, and more."
+description : "Sara Feldman, customer success enablement advocate, talks with Ed Marsh about job hunting during a pandemic, achieving outcomes, &ldquo;pre-charging&rdquo; before conferences, and more."
 ---
 
-<!-- more -->
+
 ## Mentioned during this episode
 
 - [ESET software](https://www.slideshare.net/theedmarsh/timeless-techcomm-tips-stc-new-england-interchange-keynote-2020)

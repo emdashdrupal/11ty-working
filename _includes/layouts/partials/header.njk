@@ -3,12 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Eduardo Marsho</title>
+        <title>{{title or metadata.title}}</title>
+        <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
+        <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
     </head>
-    <body class="bg-gray-100">
-
+    <body class="bg-gray-100 body-{{title |slugify }}">
+{% block nav %}
         <nav class="bg-slate-400 shadow-md mb-6 container mx-auto px-4 flex justify-between">
-            <div class="text-xl font-bold">Ed Marsh &mdash; technical writer, information architect, content strategist, podcaster, and dabbler in coding</div>
+            <div class="text-l font-medium">Ed Marsh &mdash; technical writer, information architect, content strategist, podcaster</div>
             <ul class="flex space-x-4">
                 <li class="list-none">
                     <a href="/content" class="hover:text-blue-500">Home</a>
@@ -53,7 +56,15 @@
             </ul>
         </div>
     </div>
+{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
 </nav>
+{% endblock %}
+{% block content %}
+    <main class="container mx-auto mt-8 px-4">
+        <h1>{{title or metadata.title}}</h1>
+<p class="py-4"><em>{{ description or metadata.description }}</em></p>
+
+{% endblock %}
 
 <script>
     const createDropdownHandlers = (dropdownId, submenuId) => {
@@ -88,6 +99,3 @@
     createDropdownHandlers('skillsDropdown', 'skillsSubmenu');
     createDropdownHandlers('ssgDropdown', 'ssgSubmenu');
 </script>
-
-</body>
-</html>

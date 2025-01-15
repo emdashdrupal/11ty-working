@@ -1,11 +1,9 @@
 ---
 title : "Creating a homepage template using AI"
-description: "I try using Google Gemini and GitHub Copilot to create a Nunjucks template for my site's homepage."
+description: "I use Google Gemini and GitHub Copilot to create a Nunjucks template for my static site's homepage."
 ---
 
-
-
-## AI!
+## AI
 
 Copilot said the Gemini version was well-structured and accurately done.
 
@@ -62,21 +60,24 @@ And here is the response:
 </html>
 ```
 
+## Breakthroughs
 
-## Breakthroughs!
-
-- Reverse sorting ` | reverse`
+- Reverse sorting `| reverse`
 - Slices &mdash; and slices not working!
 - Collections
 - Shortcode for current year display
+
     ```js
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
     ```
+
     ```
-    \{\% year %}
+    {% year %}
     ```
 
-## Setbacks!
+  - Understanding the logic I wanted helped me to accurately frame the question to the LLM.
+
+## Setbacks
 
 - Continual content/metadata revision
 - Redoing templates over and over and over

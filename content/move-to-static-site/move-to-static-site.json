@@ -1,6 +1,6 @@
 {
 "tags": "ssg",
-"layout": "/layouts/ssg.njk"
+"layout" : "layouts/base.njk"
 }
 
 
