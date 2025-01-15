@@ -5,15 +5,14 @@ categories:
   - "content strategy"
   - "podcast"
   - "technical writing"
-tags:
-  - "podcast"
-  - "content strategy"
+tags: "content strategy"
 cover : "ann-rockley.jpg"
-description : "In this episode \"Mother of Content Strategy\" Ann Rockley discusses a 30+ year consulting career, pivoting to a new business, and more."
+description : In this episode &ldquo;Mother of Content Strategy&rdquo; Ann Rockley discusses a 30+ year consulting career, pivoting to a new business, and more.
+
 ---
 
 ## Mentioned during this episode
-<!-- more -->
+
 - [Society for Technical Communication (STC)](https://www.stc.org)
 
 - [The Rockley Group](https://rockley.com/)

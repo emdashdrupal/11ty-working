@@ -9,7 +9,6 @@ categories:
   - "technical writing"
 tags:
   - "content strategy"
-  - "podcast"
   - "technical writing"
   - "technical communication"
 cover : "JackMolisani_50x70.jpg"

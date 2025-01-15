@@ -8,10 +8,9 @@ categories:
 tags:
   - "content strategy"
   - "localization"
-  - "podcast"
   - "technical writing"
 cover : "billswallow-300x300.jpg"
-description: "\"Content requires proper care and feeding\", says Bill Swallow, director of operations at <a href='http://www.scriptorium.com'>Scriptorium</a>. We talk localization, content strategy, local beer, summer's oppressive heat, and more."
+description: "&ldquo;Content requires proper care and feeding&rdquo;, says Bill Swallow, director of operations at <a href='http://www.scriptorium.com'>Scriptorium</a>. We talk localization, content strategy, local beer, summer&lsquo;s oppressive heat, and more."
 ---
 
 Released on [International Podcast Day!](https://internationalpodcastday.com/)
