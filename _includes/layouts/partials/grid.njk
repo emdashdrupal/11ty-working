@@ -1,7 +1,7 @@
-<div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 border-2">
+<div class="grid col-auto md:grid-cols-3 gap-3 px-3 py-3 border-2">
     {% for podcast in collections.podcasts %}
 
-        <div class="flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2">
+        <div class="flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-lg my-1">
             <figure class="flex justify-center items-center">
                 <a href="{{podcast.page.url}}">
                     <img
@@ -9,7 +9,7 @@
                                         src="/assets/images/{{podcast.data.cover }}" alt="{{ podcast.data.coverAlt | safe }}"
                                         {% else %}
                                         src="/assets/images/content-content-podcast-new-cover.png" alt="Content Content podcast"
-                                        {% endif %} class="h-48 rounded-2xl pointer-events-auto"/>
+                                        {% endif %} class="h-48 rounded-2xl pointer-events-auto shadow-lg"/>
                 </a>
             </figure>
             <div class="flex flex-col p-4 content-evenly">
