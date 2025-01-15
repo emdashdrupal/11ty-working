@@ -604,12 +604,21 @@ video {
   position: relative;
 }
 
+.inset-x-0 {
+  left: 0px;
+  right: 0px;
+}
+
 .top-10 {
   top: 2.5rem;
 }
 
 .top-4 {
   top: 1rem;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .col-auto {
@@ -706,6 +715,10 @@ video {
 
 .h-48 {
   height: 12rem;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .max-w-md {
