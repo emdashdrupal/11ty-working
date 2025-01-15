@@ -1,6 +1,6 @@
 ---
 title : "fucking navigation"
-description : Wherein I re-learn the importance of good developer documentation by having to use actual developer documentation
+description : Wherein I re-learn the importance of good developer documentation by having to use actual developer documentation.
 ---
 
 Why is this forking shirtballs so hard? [Read this](https://www.11ty.dev/docs/plugins/navigation/) and tell me how you're supposed to make a working navigation system with drop-down menus.
