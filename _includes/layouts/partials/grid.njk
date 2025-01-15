@@ -2,21 +2,27 @@
     {% for podcast in collections.podcasts %}
 
         <div class="flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2">
-            <figure class="flex justify-center items-center"><a href="{{podcast.page.url}}">
-            <img
+            <figure class="flex justify-center items-center">
+                <a href="{{podcast.page.url}}">
+                    <img
                                         {% if podcast.data.cover %}
                                         src="/assets/images/{{podcast.data.cover }}" alt="{{ podcast.data.coverAlt | safe }}"
                                         {% else %}
                                         src="/assets/images/content-content-podcast-new-cover.png" alt="Content Content podcast"
-                                        {% endif %} class="h-48 rounded-2xl"/></a>
+                                        {% endif %} class="h-48 rounded-2xl pointer-events-auto"/>
+                </a>
             </figure>
             <div class="flex flex-col p-4 content-evenly">
-                <div class="font-bold hover:bg-slate-200 text-[#374151] pb-6"><a href="{{podcast.page.url}}">{{ podcast.data.title |safe }}</a></div>
+                <div class="font-bold hover:bg-slate-200 text-[#374151] pb-6">
+                    <a href="{{podcast.page.url}}">{{ podcast.data.title |safe }}</a>
+                </div>
                 <div>{{podcast.data.description | safe }}</div>
                 <div class="flex pt-6">
-                    <a href="{{podcast.page.url}}" class="text-gray-700 align-bottom place-items-end"><button class="bg-slate-500 text-[#ffffff]  font-bold text-base  p-2 rounded-lg hover:bg-gray-400 active:scale-95 transition-transform transform shadow-md ">
+                    <a href="{{podcast.page.url}}" class="text-gray-700 align-bottom place-items-end">
+                        <button class="bg-slate-500 text-[#ffffff]  font-bold text-base  p-2 rounded-lg hover:bg-gray-400 active:scale-95 transition-transform transform shadow-md ">
                         Listen now
-                    </button></a>
+                    </button>
+                    </a>
                 </div>
 
             </div>
