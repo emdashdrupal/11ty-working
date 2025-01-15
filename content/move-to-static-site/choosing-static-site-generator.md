@@ -1,8 +1,8 @@
 ---
 title: "Choosing a static site generator"
+description: What I knew I wanted and didn't want out of static site generators.
 date: "2024-11-26"
-tags: ["nah", "content-strategy"]
-categories: "yeh"
+tags: "content-strategy"
 eleventyNavigation:
   key : SSG
   parent: Migration
