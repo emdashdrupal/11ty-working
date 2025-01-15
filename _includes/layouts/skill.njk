@@ -2,9 +2,7 @@
 <link rel="stylesheet" type="text/css" href="/css/skill.css">
 {{ collections.skills | eleventyNavigation | eleventyNavigationToHtml | safe }}
 {% block content %}
-    {% include "layouts/partials/skills-grid.njk" %}
 
-{% include 'layouts/partials/footer.njk'%}
 {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
 
 <div class="mr-12 float-right mt-6">
@@ -13,7 +11,7 @@
     {{ content | safe }}
 </article>
 {% endblock %}
-<a href="../">Back</a>
+<a href="../">All skills</a> | 
 {% set previousPost = collections.skills | getPreviousCollectionItem %}
 {% set nextPost = collections.skills | getNextCollectionItem %}
 
