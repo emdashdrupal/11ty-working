@@ -1,47 +1,52 @@
-            {% include 'layouts/partials/header.njk'%}
+{% include 'layouts/partials/header.njk'%}
 
-            <section class="mb-8">
-                <p class="mt-2">
+<section class="mb-8">
+    <p class="mt-2">
           Welcome to my portfolio. I'm Ed Marsh. I'm a technical writer, information architect, content strategist, podcaster, and dabbler in coding. I'm passionate about creating clear, concise, and user-friendly documentation.</p>
-                <p class="mt-2">
+    <p class="mt-2">
           In my free time, I <a href="podcasts/">host a podcast</a> where I interview industry experts . Feel free to explore my site and learn more about my work.
         </p>
-            </section>
+</section>
 
-            <section class="mb-8">
-                <h2 class="text-2xl font-semibold">Latest Content</h2>
-                <section class="md-4">
-                        {% for item in collections.podcasts | reverse   %}
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+<section class="mb-8">
+    <h2 class="text-2xl font-semibold">Latest Content</h2>
+    <section class="md-4">
+
+            {% for item in collections.podcasts | reverse %}
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                     <div class="bg-white p-4 shadow-md">
 
-                               <img src="/assets/images/{{ item.data.cover }}" class="float-left"/style="max-width: 100px">                                 <a href="{{item.url}}">{{ item.data.title |safe }} </a>
-                                <p>{{ item.data.description }}</p>
-                            </div>
-                        {% endfor %}
-                    </section>
-                    <section class="md-4">
-                        <h2>Creating a Static Site</h2>
-                        {% for item in collections.ssg | reverse  %}
-                            <div class="bg-white p-4 shadow-md">
+                        <img src="/assets/images/{{ item.data.cover }}" class="float-left"/style="max-width: 100px">
+                        <a href="{{item.url}}">{{ item.data.title |safe }}
+                        </a>
+                        <p>{{ item.data.description }}</p>
+                    </div>
+            {% endfor %}
+        </section>
+        <section class="md-4">
+            <h2>Creating a Static Site</h2>
+            {% for item in collections.ssg | reverse %}
+                <div class="bg-white p-4 shadow-md">
 
-                                <h3 class="text-xl font-semibold">
-                                    <a href="{{item.url}}">{{ item.data.title | safe}}</a>
-                                </h3>
-                                <p>{{ item.data.description }}</p>
-                            </div>
-                        {% endfor %}
-                    </section>
-                    <section class="md-4">
-                        <h2>My skills &mdash; how I can help you</h2>
-                        {% for item in collections.skills %}
-
-                            <div class="bg-white p-4 shadow-md">
-                                <h3 class="text-xl font-semibold"> <a href="{{item.url}}">{{ item.data.title |safe }}</a></h3>
-                                <p>{{ item.data.description }}</p>
-                            </div>
-                        {% endfor %}
-                    </section>
+                    <h3 class="text-xl font-semibold">
+                        <a href="{{item.url}}">{{ item.data.title | safe}}</a>
+                    </h3>
+                    <p>{{ item.data.description }}</p>
                 </div>
-            </section>
+            {% endfor %}
+        </section>
+        <section class="md-4">
+            <h2>My skills &mdash; how I can help you</h2>
+            {% for item in collections.skills %}
+
+                <div class="bg-white p-4 shadow-md">
+                    <h3 class="text-xl font-semibold">
+                        <a href="{{item.url}}">{{ item.data.title |safe }}</a>
+                    </h3>
+                    <p>{{ item.data.description }}</p>
+                </div>
+            {% endfor %}
+        </section>
+    </div>
+</section>
 {% include 'layouts/partials/footer.njk'%}
