@@ -8,7 +8,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
-
 };
 dir: {
   input: "content";
