@@ -1,14 +1,17 @@
 ---
 title : 'Styling an Eleventy site using Tailwind CSS'
+description : Wherein I learn how far stylesheets have come since the 1990s.
 ---
 
-Cascading Style Sheets (CSS) have come a long way since the 90s. There are multiple frameworks and templates that will work with Eleventy, which is part of its appeal to me. You *could* create your entire front end with a framework like React or Angular; my wife does that. I do not. So it's good to know a lot of work is done for you.
+There is a lot more to Cascading Style Sheets (CSS) than when I first (and last) wrote CSS. There are multiple frameworks and templates that will work with Eleventy, which is part the appeal of static site generators' to me. You *could* create your front end with a framework like React or Angular; my wife does that. I do not. So it's good to know a lot of work is done for you. But, you also have to take the time to learn how each framework works &mdash; and then how it *actually* works.
+
+Are you sensing a pattern? Because that last sentence is a pattern.
 
 ## Why Tailwind?
 
-My wife said so. There are others like Bootstrap, but the 'buzz' seems to be around Tailwind.
+My wife is a front end developer, and she said so. There are many other CSS frameworks like Bootstrap, but the 'buzz' seems to be around Tailwind.
 
-what I don't like about it is that it automatically "resets" each style to zero. What I do like about CSS is that you can specify the order in which to load your CSS files, so you can set your Tailwind CSS file in your templates' `<head>` section, then override it with your custom CSS.
+What I initially didn't like about it is that it automatically "resets" each style to zero. What I do like about CSS is that you can specify the order in which to load your CSS files, so you can set your Tailwind CSS file in your templates' `<head>` section, then override it with your custom CSS.
 
 ```html
 <head>
