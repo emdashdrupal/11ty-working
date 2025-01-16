@@ -8,6 +8,22 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+  eleventyConfig.addCollection("skills", function (collectionApi) {
+    return collectionApi
+      .getAll()
+      .filter((item) => item.data.tags && item.data.tags.includes("skills"));
+  });
+  eleventyConfig.addCollection("podcasts", function (collectionApi) {
+    return collectionApi
+      .getAll()
+      .filter((item) => item.data.tags && item.data.tags.includes("podcasts"));
+  });
+  eleventyConfig.addCollection("ssg", function (collectionApi) {
+    return collectionApi
+      .getAll()
+      .filter((item) => item.data.tags && item.data.tags.includes("ssg"));
+  });
+
 };
 dir: {
   input: "content";

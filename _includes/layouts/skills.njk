@@ -1,7 +1,6 @@
-{{ collections.skills | eleventyNavigation | eleventyNavigationToHtml | safe }}
 {% include "layouts/partials/header.njk" %}
 {% block content %}
-        {% include "layouts/partials/card.njk" %}
 
+{% include "layouts/partials/card.njk"  %}
 {% endblock %}
 {% include 'layouts/partials/footer.njk'%}
