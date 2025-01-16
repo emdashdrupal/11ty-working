@@ -1,5 +1,4 @@
 {% include "layouts/partials/header.njk" %}
-<link rel="stylesheet" type="text/css" href="/css/skill.css">
 {{ collections.skills | eleventyNavigation | eleventyNavigationToHtml | safe }}
 {% block content %}
 
@@ -11,7 +10,7 @@
     {{ content | safe }}
 </article>
 {% endblock %}
-<a href="../">All skills</a> | 
+<a href="../">All skills</a> |
 {% set previousPost = collections.skills | getPreviousCollectionItem %}
 {% set nextPost = collections.skills | getNextCollectionItem %}
 

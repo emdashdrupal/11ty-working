@@ -1,36 +1,43 @@
 
 html, body {
-    font-family: Ubuntu, 'Arial Narrow', Roboto, 'Helvetica Neue', Helvetica, Arial;
+    font-family: "Schibsted Grotesk", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1rem;
     color: #000;
     padding-left: 3%;
     line-height: 1.3rem;
-    font-size: 18px;
 }
 
 p {
     margin: 0.5rem 0;
+    font-family: Besley, serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    line-height: 1.4rem;
 }
 p:last-of-type {
     margin-bottom: 1.5rem;
 }
 
 h1 {
-    font-size: 1.25rem;
-    font-weight: 900;
+    font-size: 1.45rem;
+    font-weight: 700;
 margin-bottom: 0.5rem;
+margin-top: 0;
+font-family: "Schibsted Grotesk", sans-serif;
 }
 h2 {
-    font-size: 1.1rem;
-    font-weight: 700;
-margin: .75rem 0;}
+    font-size: 1.2rem;
+    font-weight: 600;
+margin: .8rem 0;
+font-family: "Schibsted Grotesk", sans-serif;}
 h3 {
     font-size: 1rem;
     font-weight: 700;
-margin: 1rem 0 .5rem 0;}
+margin: 1rem 0 .5rem 0;
+font-family: "Schibsted Grotesk", sans-serif;}
 
-pre {
-    font: 12px/1.4 Consolas, "Liberation Mono", Menlo, Courier, monospace;
+pre, code, font-mono {
+    font-family: "Reddit Mono", Consolas, Courier, monospace;
     margin: 0;
     padding: 0;
     -moz-tab-size: 2;
@@ -41,13 +48,24 @@ pre {
 a {
     color: #0074D9;
     text-decoration: none;
+    font-family: "Schibsted Grotesk", sans-serif;
 }
 li {
     margin-bottom: 0.6rem;
     list-style-type: square;
+    font-family: Besley, serif;
+font-optical-sizing: auto;
+margin-left: 1%;
 }
 
 ul {
     margin-top: 0.9rem;
 }
 
+th {
+    font-weight: 600;
+    font-family: "Schibsted Grotesk", sans-serif;
+    text-align: left;
+}
+
+table { margin-top: 2%;}
