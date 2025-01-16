@@ -10,6 +10,10 @@ html, body {
 
 p {
     margin: 0.5rem 0;
+    font-family: Besley, serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    line-height: 1.4rem;
 }
 p:last-of-type {
     margin-bottom: 1.5rem;
@@ -45,9 +49,30 @@ a {
 li {
     margin-bottom: 0.6rem;
     list-style-type: square;
+    font-family: Besley, serif;
+list-style-position: inside;
 }
 
 ul {
     margin-top: 0.9rem;
 }
 
+
+.besley-700 {
+  font-family: "Besley", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+};
+.besley-800 {
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  };
+  .besley-900 {
+    font-family: "Besley", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  };
