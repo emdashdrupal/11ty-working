@@ -4,6 +4,7 @@
   "eleventyNavigation" : {
     "key": "{{ title }}",
     "parent": "Skills"
-}
+},
+    "buttonText" : "Learn more"
 
 }

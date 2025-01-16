@@ -1,27 +1,5 @@
 <div class="flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2">
-    <figure class="flex justify-center items-center">
-        {% if item.data.cover %}
-        <a href="{{ item.page.url }}">
-            <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt | safe }}" class="h-48 rounded-2xl pointer-events-auto shadow-lg"/>
-        </a>
-        {% endif %}
-        {% if item.data.FontAwesomeIcon %}
-        <div class="float-left icon fa-{{ item.data.FontAwesomeIcon }}"></div>
-        {% endif %}
-    </figure>
-    <div class="flex flex-col p-4 content-evenly">
-        <div class="font-bold hover:bg-slate-200 text-[#374151] pb-6">
-            <a href="{{ item.page.url }}">{{ item.data.title | safe }}</a>
-        </div>
-        <div class="text-md text-[#374151]">
-            {{ item.data.description | safe }}
-        </div>
-        <div class="flex pt-6">
-            <a href="{{ item.page.url }}" class="text-gray-700">
-                <button class="bg-slate-500 text-[#ffffff] font-bold text-base p-2 rounded-lg hover:bg-gray-400 active:scale-95 transition-transform transform shadow-md">
-                    {{ item.button_text }}
-                </button>
-            </a>
-        </div>
-    </div>
+
+    {% include 'layouts/partials/card.njk' %}
+
 </div>
