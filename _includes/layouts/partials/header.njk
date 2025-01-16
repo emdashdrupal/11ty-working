@@ -10,11 +10,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Reddit+Mono:wght@200..900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 </style>
         <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
         <link
 			href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css"
 			rel="stylesheet"
 		/>
+                <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
         <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
     </head>
     <body class="bg-gray-100 body-{{title |slugify }}">
@@ -71,8 +71,8 @@
 {% block content %}
     <main class="container mx-auto mt-8 px-4">
         <h1>{{title or metadata.title}}</h1>
-        <p class="mb-4 text-lg">
-            <em>{{ description or metadata.description }}</em>
+        <p class="mb-4 text-lg italic">
+            {{ description or metadata.description }}
         </p>
 
     {% endblock %}

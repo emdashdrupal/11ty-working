@@ -5,7 +5,6 @@ html, body {
     color: #000;
     padding-left: 3%;
     line-height: 1.3rem;
-    font-size: 18px;
 }
 
 p {
@@ -38,7 +37,7 @@ margin: 1rem 0 .5rem 0;
 font-family: "Schibsted Grotesk", sans-serif;}
 
 pre, code, font-mono {
-    font: 16px/1.5 "Reddit Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-family: "Reddit Mono", Consolas, Courier, monospace;
     margin: 0;
     padding: 0;
     -moz-tab-size: 2;
@@ -55,7 +54,8 @@ li {
     margin-bottom: 0.6rem;
     list-style-type: square;
     font-family: Besley, serif;
-list-style-position: inside;
+font-optical-sizing: auto;
+margin-left: 1%;
 }
 
 ul {
@@ -69,21 +69,3 @@ th {
 }
 
 table { margin-top: 2%;}
-.besley-700 {
-  font-family: "Besley", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-};
-.besley-800 {
-    font-family: "Besley", serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-  };
-  .besley-900 {
-    font-family: "Besley", serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-  };

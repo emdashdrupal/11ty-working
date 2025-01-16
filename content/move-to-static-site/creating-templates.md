@@ -17,7 +17,6 @@ The `eleventy.config.js` file is the main configuration file for Eleventy. This 
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("_includes/css/skill.css");
   eleventyConfig.addPassthroughCopy("_includes/css/base.css");
   eleventyConfig.addPassthroughCopy("_includes/css/tw.css");
   eleventyConfig.addPassthroughCopy("assets/images");
@@ -37,6 +36,7 @@ dir: {
 |-|-|
 | `syntaxHighlight`| Enables syntax color-coding based on the syntax selected in Markdown.|
 | `addPassthroughCopy`| These are the files that are in your folder structure that you need to copy to the generated site folder for things to display correctly. This includes items like `.css` files and your images folder.|
+| `addPlugin`| Eleventy has official and contributed plugins that add functionality like syntax highlighting and navigation.|
 | `dir` | These are optional parameters that tell Eleventy where to look for items. In this case, all of my content resides in the `content` folder. Includes, which in this case are `.css` files (but others can be added), and my `images` folder.|
 
 ## Learning curve
