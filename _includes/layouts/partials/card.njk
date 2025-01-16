@@ -1,31 +1,32 @@
 {% set collectionName = collectionName | default("skills") %}
 {% set filtered_collections = collections[collectionName] %}
 {% for item in filtered_collections | reverse %}
-  <div class="card flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2">
-    <figure class="hero flex justify-center items-center">
-      {% if item.data.cover %}
-        <a href="{{ item.url }}">
-          <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt | safe }}" class="h-48 rounded-2xl pointer-events-auto shadow-lg"/>
-        </a>
-      {% endif %}
-      {% if item.data.FontAwesomeIcon %}
-        <div class="float-left icon fa-{{ item.data.FontAwesomeIcon }}"></div>
-      {% endif %}
-    </figure>
-    <div class="text-content flex flex-col p-4 content-evenly">
-      <h2 class="title hover:bg-slate-200 pb-6">
-        <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
-      </h2>
-      <div class="description">
-        {{ item.data.description | safe }}
-      </div>
-      <div class="button flex pt-6">
-        <a href="{{ item.url }}" class="text-gray-700">
-          <button class="bg-slate-500 text-[#ffffff] font-bold text-base p-2 rounded-lg hover:bg-gray-400 active:scale-95 transition-transform transform shadow-md">
-            {{ item.data.buttonText }}
-          </button>
-        </a>
-      </div>
+    <div class="card flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2">
+        <figure class="hero">
+            {% if item.data.cover %}
+                <a href="{{ item.url }}">
+                    <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt | safe }}" class="h-48 rounded-2xl pointer-events-auto shadow-lg"/>
+
+                {% endif %}
+                {% if item.data.FontAwesomeIcon %}
+                    <img class="icon fa-{{ item.data.FontAwesomeIcon }} text-2xl h-48 rounded-2xl pointer-events-auto shadow-lg"/>
+                </a>
+            {% endif %}
+        </figure>
+        <div class="text-content flex flex-col p-4 content-evenly">
+            <h2 class="title hover:bg-slate-200 pb-6">
+                <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
+            </h2>
+            <div class="description">
+                {{ item.data.description | safe }}
+            </div>
+            <div class="button flex pt-6">
+                <a href="{{ item.url }}" class="text-gray-700">
+                    <button class="bg-slate-500 text-[#ffffff] font-bold text-base p-2 rounded-lg hover:bg-gray-400 active:scale-95 transition-transform transform shadow-md">
+                        {{ item.data.buttonText }}
+                    </button>
+                </a>
+            </div>
+        </div>
     </div>
-  </div>
 {% endfor %}
