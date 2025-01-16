@@ -1,6 +1,6 @@
 ---
 title: Takeaways
-description: Wherein I find a frustrating process (and situation) is ultimately satisfying in multiple ways.
+description: A frustrating process (and situation) is ultimately satisfying in multiple ways.
 ---
 
 Working in just HTML and CSS was invigorating because I'd done it since the 1990s. There was something simple and pure about it.

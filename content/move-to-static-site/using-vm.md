@@ -1,6 +1,6 @@
 ---
 title : "Creating a virtual machine development environment"
-description: Wherein I find pleasure working in a virtual machine development environment using Linux Mint.
+description: Working in a virtual machine development environment using Linux Mint helped me separate development from my everyday Windows environment. 
 ---
 
 - Separation from your main box.

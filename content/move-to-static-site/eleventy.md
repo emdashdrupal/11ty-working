@@ -1,5 +1,6 @@
 ---
 title : "Moving to Eleventy SSG"
+description : The good news is there are a lot of static site generators to choose from, and that they all work similarly. The bad news is there are a lot of static site generators to choose from, and that they all work similarly.
 ---
 
 After attempting to use Hugo, I tried a "newer" system: Eleventy (11ty). Why? Surprisingly, a *lack of documentation*. In most cases, this will be a trial and error thing based on your individual needs. I knew I didn't want Gatsby due to prior experience. I wanted a more plug-and-play experience that I could tweak. Wordpress evolved too far for me to 'just tweak'.
