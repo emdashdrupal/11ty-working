@@ -1,6 +1,6 @@
 
 html, body {
-    font-family: Ubuntu, 'Arial Narrow', Roboto, 'Helvetica Neue', Helvetica, Arial;
+    font-family: "Schibsted Grotesk", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1rem;
     color: #000;
     padding-left: 3%;
@@ -23,15 +23,18 @@ h1 {
     font-size: 1.25rem;
     font-weight: 900;
 margin-bottom: 0.5rem;
+font-family: "Schibsted Grotesk", sans-serif;
 }
 h2 {
     font-size: 1.1rem;
     font-weight: 700;
-margin: .75rem 0;}
+margin: .75rem 0;
+font-family: "Schibsted Grotesk", sans-serif;}
 h3 {
     font-size: 1rem;
     font-weight: 700;
-margin: 1rem 0 .5rem 0;}
+margin: 1rem 0 .5rem 0;
+font-family: "Schibsted Grotesk", sans-serif;}
 
 pre {
     font: 12px/1.4 Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -45,6 +48,7 @@ pre {
 a {
     color: #0074D9;
     text-decoration: none;
+    font-family: "Schibsted Grotesk", sans-serif;
 }
 li {
     margin-bottom: 0.6rem;
