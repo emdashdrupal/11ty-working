@@ -20,15 +20,16 @@ p:last-of-type {
 }
 
 h1 {
-    font-size: 1.25rem;
-    font-weight: 900;
+    font-size: 1.45rem;
+    font-weight: 700;
 margin-bottom: 0.5rem;
+margin-top: 0;
 font-family: "Schibsted Grotesk", sans-serif;
 }
 h2 {
-    font-size: 1.1rem;
-    font-weight: 700;
-margin: .75rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+margin: .8rem 0;
 font-family: "Schibsted Grotesk", sans-serif;}
 h3 {
     font-size: 1rem;
@@ -36,8 +37,8 @@ h3 {
 margin: 1rem 0 .5rem 0;
 font-family: "Schibsted Grotesk", sans-serif;}
 
-pre, code {
-    font: 16px/1.4 "Reddit Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+pre, code, font-mono {
+    font: 16px/1.5 "Reddit Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     margin: 0;
     padding: 0;
     -moz-tab-size: 2;
@@ -61,7 +62,13 @@ ul {
     margin-top: 0.9rem;
 }
 
+th {
+    font-weight: 600;
+    font-family: "Schibsted Grotesk", sans-serif;
+    text-align: left;
+}
 
+table { margin-top: 2%;}
 .besley-700 {
   font-family: "Besley", serif;
   font-optical-sizing: auto;

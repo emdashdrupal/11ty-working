@@ -16,7 +16,7 @@
     <body class="bg-gray-100 body-{{title |slugify }}">
         {% block nav %}
             <nav class="bg-slate-400 shadow-md mb-6 container mx-auto px-4 flex justify-between">
-                <div class="text-l font-medium">Ed Marsh &mdash; technical writer, information architect, content strategist, podcaster</div>
+                <div class="text-xl font-medium mt-1">Ed Marsh &mdash; technical writer, information architect, content strategist, podcaster</div>
                 <ul class="flex space-x-4">
                     <li class="list-none">
                         <a href="/content" class="hover:text-blue-500">Home</a>
@@ -29,7 +29,7 @@
                             aria-labelledby="ssgDropdown"
                         >
                             {% for ssg in collections.ssg %}
-                                <li class="list-none">
+                                <li class="list-none m-4">
                                     <a href="{{ ssg.url | url }}" class="hover:bg-gray-100">{{ ssg.data.title }}</a>
                                 </li>
                             {% endfor %}
@@ -67,7 +67,7 @@
 {% block content %}
     <main class="container mx-auto mt-8 px-4">
         <h1>{{title or metadata.title}}</h1>
-        <p class="py-4">
+        <p class="mb-4 text-lg">
             <em>{{ description or metadata.description }}</em>
         </p>
 
