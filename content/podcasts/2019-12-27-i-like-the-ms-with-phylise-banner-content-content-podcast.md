@@ -10,6 +10,7 @@ tags:
 cover : "Phylise-Banner-head-Shot.jpg"
 coverAlt : "hylise Banner, learning experience designer and Content Content podcast guest. Photo credit: Susan Blackburn"
 description : <a href="http://www.phylisebanner.com/">Phylise Banner, learning experience designer</a>, talks to Ed Marsh about being a digital native, why eLearning and forms are so bad, what it's like coordinating the online community at a major conference, and her passion for education theory and transportation.
+mp3File: Content_Content_podcast_-_Phylise_Banner.mp3
 ---
 
 ## Mentioned during this episode

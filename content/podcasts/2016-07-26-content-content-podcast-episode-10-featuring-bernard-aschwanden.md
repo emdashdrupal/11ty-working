@@ -8,6 +8,7 @@ categories:
 cover: "me-and-bernard-aschwanden-conduit-philly-2016-corrected.png"
 coverAlt : "Ed Marsh and Bernard Aschwanden at STC Philadelphia Metro Conduit 2016"
 description: "Bernard Aschwanden, President of Publishing Smarter, STC Immediate Past President, and Ed's twin talks about certification, why your content is not your own, building a house (literally), process vs process, finding his spouse through STC, social networking, and more."
+mp3File: Single_source_of_truth_featuring_Bernard_Aschwanden_Content_Content_episode_10.mp3
 ---
 
 ## Mentioned during this episode

@@ -5,6 +5,7 @@ categories:
   - "podcast"
   - "technical writing"
 description: Fellow New Jerseyan Danielle Villegas, the TechCommGeekMom, talks to us about transitioning into technical communication, social media, her blog at <a href="techcommgeekmom.com">TechCommGeekMom</a>, content curation, going back to school, and managing it all (or not).
+mp3File : content_content_episode_3_-_Danielle_Villegas.mp3
 ---
 
 ## Mentioned during this episode

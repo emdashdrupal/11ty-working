@@ -14,6 +14,7 @@ tags:
 cover : "JackMolisani_50x70.jpg"
 coverAlt : "Episode 15 guest Jack Molisani"
 description: "Jack Molisani, president of ProSpring Staffing and Executive Director of The LavaCon Content Strategy Conference talks about technical communication hiring, rebranding, content strategy, and how he's seized opportunities his entire career."
+mp3File: Content_Content_episode-15_-_Jack-Molisani.mp3
 ---
 
 
