@@ -36,8 +36,8 @@ h3 {
 margin: 1rem 0 .5rem 0;
 font-family: "Schibsted Grotesk", sans-serif;}
 
-pre {
-    font: 12px/1.4 Consolas, "Liberation Mono", Menlo, Courier, monospace;
+pre, code {
+    font: 16px/1.4 "Reddit Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     margin: 0;
     padding: 0;
     -moz-tab-size: 2;
