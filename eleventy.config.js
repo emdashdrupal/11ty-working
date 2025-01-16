@@ -8,30 +8,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
-      // SSG collection
-      eleventyConfig.addCollection("ssg", function(collectionApi) {
-        return collectionApi.getFilteredByTag("ssg");
-      });
-    // Podcasts collection
-    eleventyConfig.addCollection("podcasts", function(collectionApi) {
-      return collectionApi.getFilteredByTag("podcasts");
-    });
-
-    // Technical writing collection
-    eleventyConfig.addCollection("examples", function(collectionApi) {
-      return collectionApi.getFilteredByTag("examples");
-    });
-
-    // Skills collection
-    eleventyConfig.addCollection("skills", function(collectionApi) {
-      return collectionApi.getFilteredByTag("skills");
-    });
-
-    // All items collection (optional, if not automatically included)
-    eleventyConfig.addCollection("all", function(collectionApi) {
-      return collectionApi.getAll();
-    });
-  };
+};
 dir: {
   input: "content";
   includes: "_includes";

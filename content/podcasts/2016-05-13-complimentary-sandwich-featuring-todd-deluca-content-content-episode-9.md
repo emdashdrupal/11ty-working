@@ -7,6 +7,7 @@ categories:
   - "technical writing"
 cover : "todd-deluca.png"
 description: "Todd DeLuca, a Pennsylvanian who manages a remote tech writing team, shares with us how volunteering and presenting has elevated his career, what it's like to manage a technical communication team, volunteering with intention, and how to promote yourself and your team within your company."
+mp3File: Complimentary_sandwich_featuring_Todd_DeLuca_Content_Content_episode_9.mp3
 ---
 
 

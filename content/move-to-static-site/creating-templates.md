@@ -1,5 +1,6 @@
 ---
 title: "SSG Templates"
+description: Templates are what makes static site generators work. They take your content and tell the SSG how to display it.
 eleventyNavigation:
   key : "SSG templates"
   parent: Migration

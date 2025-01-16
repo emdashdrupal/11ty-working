@@ -12,6 +12,7 @@ tags:
   - "technical communication"
 cover : "scott_abel.jpeg"
 description: Scott Abel, also known as <a href="https://www.thecontentwrangler.com">The Content Wrangler</a> and the host of <a href="https://informationdevelopmentworld.com/">Information Development World</a>, talks to Ed Marsh about the parallels between music and single sourcing, smooth segues between paragraphs, intelligent content, and content strategy in the medical field.
+mp3File: Content_Content_podcast_Scott_Abel.mp3
 ---
 
 

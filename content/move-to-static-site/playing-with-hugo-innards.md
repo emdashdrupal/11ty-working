@@ -1,5 +1,6 @@
 ---
 title : "Learning how Hugo works"
+description: My first foray into learning static site generators.
 categories: "wordpress"
 tags: ["nah", "content-strategy"]
 date: "2024-11-24"
@@ -70,4 +71,4 @@ And surprise! Documentation quality varies greatly from theme to theme.
 
 ### Templating languages?
 
-The FUD set in. Am I just too out of this technological loop to have to hire someone to do it? Do I really want to decide on Nunjucks, WebC, Liquid, or another template language? Many people also say you can forgo template languages with modern frameworks like React and Angular, but that is a whole separate career and learning curve I don't want/need to get into. 
+The FUD set in. Am I just too out of this technological loop to have to hire someone to do it? Do I really want to decide on Nunjucks, WebC, Liquid, or another template language? Many people also say you can forgo template languages with modern frameworks like React and Angular, but that is a whole separate career and learning curve I don't want/need to get into.

@@ -11,6 +11,7 @@ tags:
 cover: "ViquiDill-contentcontent-3.jpg"
 coverAlt : "Viqui Dill - 2017 STC Technical Communication Summit"
 description : "Viqui Dill, Senior Technical Writer at American Woodmark in Virginia, talks to Ed Marsh how everyone is a project manager in some form, life in the (literal) hardware industry, her day of 500 hugs, what is just-in-time documentation, and more."
+mp3File: Content_Content_podcast_-_Viqui_Dill.mp3
 ---
 
 Viqui is also an accomplished "bad-ass bass player' and a self-proclaimed techcomm evangelist.

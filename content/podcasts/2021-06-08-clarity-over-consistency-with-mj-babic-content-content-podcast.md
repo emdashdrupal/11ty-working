@@ -10,6 +10,7 @@ tags:
   - "ux"
 cover : "1603480107914.jpg"
 description : &ldquo;The best term to use to call what I was doing was UX writing&rdquo; says UX Writer MJ Babic on this episode of the Content Content podcast. MJ's had a diverse career, from marketing, feature articles, science journals, and some tech writing. But her plan is &ldquo;helping people complete their tasks with digital products&rdquo;, and to &ldquo;bring good writing to whatever corner I'm working in at the moment&rdquo;.
+mp3File : content-content-podcast_MJ_Babic.mp3
 ---
 
 
