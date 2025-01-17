@@ -22,6 +22,11 @@ module.exports = function (eleventyConfig) {
       .getAll()
       .filter((item) => item.data.tags && item.data.tags.includes("ssg"));
   });
+  eleventyConfig.addCollection("examples", function (collectionApi) {
+    return collectionApi
+      .getAll()
+      .filter((item) => item.data.tags && item.data.tags.includes("examples"));
+  });
 
 };
 dir: {

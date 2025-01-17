@@ -1,7 +1,7 @@
 ---
 title: "About Ed Marsh"
 description: "Learn more about Ed's career"
-layout : layouts/base.njk
+
 ---
 
 Ed Marsh has always been curious about technology. As a kid, he was the one who pushed buttons to see what happened. This led to some scolding and an award-winning career as a technical writer.

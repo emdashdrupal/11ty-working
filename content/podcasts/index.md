@@ -5,5 +5,5 @@ date: "2015-06-02"
 category: "podcast"
 tags: "podcasts"
 eleventyExcludeFromCollections: true
-layout : layouts/partials/card.njk
+layout : layouts/grid.njk
 ---
