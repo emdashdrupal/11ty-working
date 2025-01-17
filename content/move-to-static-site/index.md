@@ -5,7 +5,6 @@ date: "2024-11-24"
 category: "ssg"
 tags: "ssg"
 eleventyExcludeFromCollections: true
-
+layout : layouts/base.njk
 ---
-
 
