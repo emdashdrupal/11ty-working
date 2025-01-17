@@ -1,5 +1,5 @@
 ---
 eleventyExcludeFromCollections: true
-layout: "layouts/skills.njk"
+layout: "layouts/partials/grid.njk"
 buttonText : "Learn more"
 ---
