@@ -2,7 +2,7 @@
     "buttonText": "Learn more",
     "collectionName": "skills",
     "eleventyNavigation": {
-        "key": "{{ title }}",
+        "key": "Holla",
         "parent": "Skills"
     },
     "layout": "layouts/details.njk",
