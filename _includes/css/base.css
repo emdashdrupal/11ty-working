@@ -7,7 +7,7 @@ html, body {
     line-height: 1.3rem;
 }
 
-p {
+p , .description{
     margin: 0.5rem 0;
     font-family: Besley, serif;
     font-optical-sizing: auto;

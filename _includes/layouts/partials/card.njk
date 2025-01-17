@@ -12,11 +12,11 @@
         <div class="icon fa-{{ item.data.FontAwesomeIcon }} text-2xl"></div>
       {% endif %}
     </figure>
-    <div class="text-content flex flex-col p-4 content-evenly">
+    <div class="flex flex-col p-4">
       <h2 class="title hover:bg-slate-200 pb-6">
         <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
       </h2>
-      <div class="description">
+      <div class="description prose prose-lg">
         {{ item.data.description | safe }}
       </div>
       <div class="button flex pt-6">
