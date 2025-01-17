@@ -1,5 +1,4 @@
 {
 "tags": "examples",
-"layout": "/layouts/base.njk",
 "collectionName": "examples | reverse"
 }
