@@ -5,11 +5,11 @@
     <figure class="hero flex justify-center items-center">
       {% if item.data.cover %}
         <a href="{{ item.url }}">
-          <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt | safe }}" class="h-48 rounded-2xl pointer-events-auto shadow-lg"/>
+          <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt | safe }}" class="h-48 rounded-2xl shadow-lg"/>
         </a>
       {% endif %}
       {% if item.data.FontAwesomeIcon %}
-        <div class="float-left icon fa-{{ item.data.FontAwesomeIcon }}"></div>
+        <div class="icon fa-{{ item.data.FontAwesomeIcon }} text-2xl"></div>
       {% endif %}
     </figure>
     <div class="text-content flex flex-col p-4 content-evenly">
