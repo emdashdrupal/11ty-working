@@ -1,5 +1,7 @@
 {
 "tags": "examples",
 "collectionName": "examples",
-"buttonText": "Learn more"
+"buttonText": "Learn more",
+"layout": "layouts/details.njk"
+
 }
