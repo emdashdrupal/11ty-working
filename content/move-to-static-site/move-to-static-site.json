@@ -1,6 +1,7 @@
 {
 "tags": "ssg",
-"layout" : "layouts/base.njk"
+"collectionName" : "ssg",
+"buttonText" : "Read more"
 }
 
 

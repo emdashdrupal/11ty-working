@@ -1,3 +1,6 @@
 {
-    "layout": "layouts/podcast-episode.njk",
-    "tags": "podcasts"}
+  "collectionName": "podcasts",
+  "buttonText": "Learn more and listen",
+  "tags": "podcasts",
+  "layout": "layouts/details.njk"
+}

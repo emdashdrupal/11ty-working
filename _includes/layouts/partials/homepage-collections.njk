@@ -1,0 +1,23 @@
+<div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 border-2">
+    {% for example in collections.examples | reverse %}
+        {% assign item = example %}
+        {% assign item.button_text = "Read more" %}
+        {% include 'card' %}
+    {% endfor %}
+</div>
+
+<div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 border-2">
+    {% for skill in collections.skills %}
+        {% assign item = skill %}
+        {% assign item.button_text = "Learn more" %}
+        {% include 'card' %}
+    {% endfor %}
+</div>
+
+<div class="flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-lg my-1">
+    {% for podcast in collections.podcasts %}
+        {% assign item = podcast %}
+        {% assign item.button_text = "Listen now" %}
+        {% include 'card' %}
+    {% endfor %}
+</div>

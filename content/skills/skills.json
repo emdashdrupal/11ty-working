@@ -1,9 +1,10 @@
 {
   "tags": "skills",
-  "layout": "/layouts/skill.njk",
+  "collectionName": "skills",
   "eleventyNavigation" : {
     "key": "{{ title }}",
     "parent": "Skills"
-}
+},
+    "buttonText" : "Learn more"
 
 }
