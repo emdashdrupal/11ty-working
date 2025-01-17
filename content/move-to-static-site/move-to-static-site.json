@@ -1,7 +1,9 @@
 {
-"tags": "ssg",
-"collectionName" : "ssg",
-"buttonText" : "Read more"
+    "buttonText": "Read more",
+    "collectionName": "ssg",
+    "eleventyNavigation": {
+        "key": "{{ title }}",
+        "parent": "Static site transformation"
+    },
+    "tags": "ssg"
 }
-
-
