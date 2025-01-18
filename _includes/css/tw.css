@@ -2204,6 +2204,30 @@ video {
   font-style: italic;
 }
 
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.leading-loose {
+  line-height: 2;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
+}
+
 .text-\[\#ffffff\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
