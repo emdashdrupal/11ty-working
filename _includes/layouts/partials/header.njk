@@ -19,53 +19,7 @@
     </head>
     <body class="bg-gray-100 body-{{title |slugify }}">
         {% block nav %}
-            <nav class="bg-slate-400 shadow-md mb-6 container mx-auto px-4 flex justify-between">
-                <div class="text-xl font-medium mt-1">Ed Marsh &mdash; technical writer, information architect, content strategist, podcaster</div>
-                <ul class="flex space-x-4">
-                    <li class="list-none">
-                        <a href="/content" class="hover:text-blue-500">Home</a>
-                    </li>
-                    <li class="relative list-none">
-                        <a href="/content/move-to-static-site/index" class="hover:text-blue-500" id="ssgDropdown">Static site transformation</a>
-                        <ul
-                            id="ssgSubmenu"
-                            class="absolute hidden shadow-md rounded-md bg-slate-300"
-                            aria-labelledby="ssgDropdown"
-                        >
-                            {% for ssg in collections.ssg %}
-                                <li class="list-none m-4">
-                                    <a href="{{ ssg.url | url }}" class="hover:bg-gray-100">{{ ssg.data.title }}</a>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </li>
-                    <li class="list-none">
-                        <a href="/content/podcasts/" class="hover:text-blue-500">Podcasts</a>
-                    </li>
-                    <li class="list-none">
-                        <a href="/content/technical-writing-examples/" class="hover:text-blue-500">Writing Samples</a>
-                    </li>
-                    <li class="relative list-none">
-                        <a href="/content/skills/" class="hover:text-blue-500" id="skillsDropdown">Skills</a>
-                        <ul
-                            id="skillsSubmenu"
-                            class="absolute hidden shadow-md rounded-md bg-slate-300"
-                            aria-labelledby="skillsDropdown"
-                        >
-                            {% for skill in collections.skills %}
-                                <li class="list-none">
-                                    <a href="{{ skill.url | url }}" class="block px-4 py-2 hover:bg-gray-100">{{ skill.data.title }}</a>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </li>
-                    <li class="list-none">
-                        <a href="/content/about/about-ed-marsh" class="hover:text-blue-500">About</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+{% include 'layouts/partials/navbar.njk' %}
 {% endblock %}
 {% block content %}
     <main class="container mx-auto mt-8 px-4">
