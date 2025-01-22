@@ -1893,6 +1893,14 @@ video {
   top: 2.5rem;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
+.z-40 {
+  z-index: 40;
+}
+
 .col-auto {
   grid-column: auto;
 }

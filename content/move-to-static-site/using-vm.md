@@ -3,7 +3,7 @@ title : "Creating a virtual development environment"
 description: Working in a Linux virtual environment helped me focus, learn, and separate from my everyday Windows environment.
 ---
 
-- Separation from your main box. I love Windows and always have. YMMV. But trying to get a Linux environment running, then trying to configure my bread-and-butter machine to work with things I wasn't yet comfortable with added complexity and concern.
+- Compartmentalization. I love Windows and always have. YMMV. But trying to get a Linux environment running, then trying to configure my bread-and-butter machine to work with things I wasn't yet comfortable with added complexity and concern.
 - Choosing a virtual machine (VM) host &mdash; I was surprised to learn VMWare Workstation performed far quicker than VirtualBox, which I used exclusively for years.
 - Closer to the metal. Sure, you can run Linux in Windows with [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/about), but that's command-line Linux server. This is far easier &mdash; and has a GUI!
 - Not MacOS. This is important to me. The only Apple product I've ever owned was an iPad 3 and I hated every minute of it.
