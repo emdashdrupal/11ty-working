@@ -2,7 +2,7 @@
 
 <nav class="bg-slate-400 shadow-md mb-6 container mx-auto px-4 flex justify-between">
     <div class="text-xl font-medium mt-1">Ed Marsh &mdash; technical writer, information architect, content strategist, podcaster</div>
-    <ul class="flex space-x-4">
+    <ul class="flex space-x-4 font-sans">
         {{ listItem('/content', 'Home') }}
         {{ dropdown('ssgDropdown', 'Static site transformation', collections.ssg) }}
         {{ listItem('/content/podcasts/', 'Podcasts') }}
