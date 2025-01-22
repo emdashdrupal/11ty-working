@@ -1,4 +1,14 @@
 {% include 'layouts/partials/header.njk' %}
+    <figure class="hero flex float-right ">
+      {% if cover %}
+        <a href="{{ item.url }}">
+          <img src="/assets/images/{{ cover}}" alt="{{ item.data.coverAlt | safe }}" class="h-48 rounded-2xl pointer-events-auto shadow-lg"/>
+        </a>
+      {% endif %}
+      {% if FontAwesomeIcon %}
+        <div class="float-left grow icon fa-{{ item.data.FontAwesomeIcon }}"></div>
+      {% endif %}
+    </figure>
 
 {{ content | safe }}
 

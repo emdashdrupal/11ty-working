@@ -6,5 +6,7 @@ category: "ssg"
 tags: "ssg"
 eleventyExcludeFromCollections: true
 layout : layouts/grid.njk
+eleventyNavigation:
+    key: yek
 ---
 

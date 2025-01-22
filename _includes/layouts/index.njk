@@ -2,14 +2,28 @@
 
 <section class="mb-8">
     <p class="mt-2">
-          Welcome to my portfolio. I'm Ed Marsh. I'm a technical writer, information architect, content strategist, podcaster, and dabbler in coding. I'm passionate about creating clear, concise, and user-friendly documentation.</p>
+          Welcome to my portfolio. I'm Ed Marsh. I'm a technical writer, information architect, content strategist, podcaster. I've dabbled in code my entire career. I'm passionate about making a difference through clear, well-organized, user-friendly documentation.</p>
     <p class="mt-2">
-          In my free time, I <a href="podcasts/">host a podcast</a> where I interview industry experts . Feel free to explore my site and learn more about my work.
+          I (used to) <a href="podcasts/">host a podcast</a> where I interview content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more.
         </p>
 </section>
+    <section  class="mb-8 border-2">
+        <h2>Creating a static site</h2>
+        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
+            {% for item in collections.ssg | reverse %}
+                <div class="bg-white p-4 shadow-md">
+
+                    <h3 class="text-xl font-semibold">
+                        <a href="{{item.url}}">{{ item.data.title | safe}}</a>
+                    </h3>
+                    <p>{{ item.data.description }}</p>
+                </div>
+            {% endfor %}
+            </div>
+        </section>
 
 <section class="mb-8 border-2">
-    <h2 class="text-2xl font-semibold">Latest Content</h2>
+    <h2 class="text-2xl font-semibold">Latest podcasts</h2>
     <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
         {% for item in collections.podcasts | reverse %}
             {% if loop.index <= 4 %}
@@ -24,20 +38,6 @@
             {% endif %}
         {% endfor %}
     </section>
-    <section  class="mb-8 border-2">
-        <h2>Creating a Static Site</h2>
-        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
-            {% for item in collections.ssg | reverse %}
-                <div class="bg-white p-4 shadow-md">
-
-                    <h3 class="text-xl font-semibold">
-                        <a href="{{item.url}}">{{ item.data.title | safe}}</a>
-                    </h3>
-                    <p>{{ item.data.description }}</p>
-                </div>
-            {% endfor %}
-            </div>
-        </section>
         <section class="md-8 border-2">
             <h2>My skills &mdash; how I can help you</h2>
             <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">

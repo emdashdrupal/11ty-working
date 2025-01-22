@@ -7,7 +7,7 @@ html, body {
     line-height: 1.3rem;
 }
 
-p {
+p , .description{
     margin: 0.5rem 0;
     font-family: Besley, serif;
     font-optical-sizing: auto;
@@ -26,9 +26,8 @@ margin-top: 0;
 font-family: "Schibsted Grotesk", sans-serif;
 }
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
-margin: .8rem 0;
 font-family: "Schibsted Grotesk", sans-serif;}
 h3 {
     font-size: 1rem;
@@ -48,7 +47,7 @@ pre, code, font-mono {
 a {
     color: #0074D9;
     text-decoration: none;
-    font-family: "Schibsted Grotesk", sans-serif;
+
 }
 li {
     margin-bottom: 0.6rem;
@@ -69,3 +68,41 @@ th {
 }
 
 table { margin-top: 2%;}
+
+blockquote::before {
+    content: ">";
+    font-size: 1rem;
+    color: #0074D9;
+}
+
+blockquote {
+        margin: 1rem 0;
+    padding-left: 1rem;
+    border-left: 3px solid #0074D9;
+}
+
+/* Ensure the dropdown menu is hidden by default */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the dropdown menu when the parent item is hovered */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
