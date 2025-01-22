@@ -1,6 +1,6 @@
 
 html, body {
-    font-family: "Schibsted Grotesk", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1rem;
     color: #000;
     padding-left: 3%;
@@ -23,17 +23,17 @@ h1 {
     font-weight: 700;
 margin-bottom: 0.5rem;
 margin-top: 0;
-font-family: "Schibsted Grotesk", sans-serif;
+font-family: "Poppins", sans-serif;
 }
 h2 {
     font-size: 1.3rem;
     font-weight: 600;
-font-family: "Schibsted Grotesk", sans-serif;}
+font-family: "Poppins", sans-serif;}
 h3 {
     font-size: 1rem;
     font-weight: 700;
 margin: 1rem 0 .5rem 0;
-font-family: "Schibsted Grotesk", sans-serif;}
+font-family: "Poppins", sans-serif;}
 
 pre, code, font-mono {
     font-family: "Reddit Mono", Consolas, Courier, monospace;
@@ -63,7 +63,7 @@ ul {
 
 th {
     font-weight: 600;
-    font-family: "Schibsted Grotesk", sans-serif;
+    font-family: "Poppins", sans-serif;
     text-align: left;
 }
 
@@ -105,4 +105,8 @@ blockquote {
 
 .dropdown-menu a:hover {
     background-color: #f1f1f1;
+}
+
+.font-sans, .dropdown-toggle {
+    font-family: "Poppins", Ubuntu, sans-serif;
 }

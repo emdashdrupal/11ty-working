@@ -1,47 +1,13 @@
-            <nav class="bg-slate-400 shadow-md mb-6 container mx-auto px-4 flex justify-between">
-                <div class="text-xl font-medium mt-1">Ed Marsh &mdash; technical writer, information architect, content strategist, podcaster</div>
-                <ul class="flex space-x-4">
-                    <li class="list-none font-sans">
-                        <a href="/content">Home</a>
-                    </li>
-                    <li class="relative list-none font-sans">
-                        <a href="/content/move-to-static-site/index" id="ssgDropdown">Static site transformation</a>
-                        <ul
-                            id="ssgSubmenu"
-                            class="absolute hidden shadow-md rounded-md bg-slate-300"
-                            aria-labelledby="ssgDropdown"
-                        >
-                            {% for ssg in collections.ssg %}
-                                <li class="list-none m-4 font-sans">
-                                    <a href="{{ ssg.url | url }}" class="hover:bg-gray-100">{{ ssg.data.title }}</a>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </li>
-                    <li class="list-none font-sans">
-                        <a href="/content/podcasts/">Podcasts</a>
-                    </li>
-                    <li class="list-none font-sans">
-                        <a href="/content/technical-writing-examples/">Writing Samples</a>
-                    </li>
-                    <li class="relative list-none font-sans">
-                        <a href="/content/skills/" id="skillsDropdown">Skills</a>
-                        <ul
-                            id="skillsSubmenu"
-                            class="absolute hidden shadow-md rounded-md bg-slate-300"
-                            aria-labelledby="skillsDropdown"
-                        >
-                            {% for skill in collections.skills %}
-                                <li class="list-none font-sans">
-                                    <a href="{{ skill.url | url }}" class="block px-4 py-2 hover:bg-gray-100">{{ skill.data.title }}</a>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </li>
-                    <li class="list-none font-sans">
-                        <a href="/content/about/about-ed-marsh">About</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+{% from "layouts/partials/macros.njk" import dropdown, listItem %}
+
+<nav class="bg-slate-400 shadow-md mb-6 container mx-auto px-4 flex justify-between">
+    <div class="text-xl font-medium mt-1">Ed Marsh &mdash; technical writer, information architect, content strategist, podcaster</div>
+    <ul class="flex space-x-4 font-sans">
+        {{ listItem('/content', 'Home') }}
+        {{ dropdown('ssgDropdown', 'Static site transformation', collections.ssg) }}
+        {{ listItem('/content/podcasts/', 'Podcasts') }}
+        {{ listItem('/content/technical-writing-examples/', 'Writing samples') }}
+        {{ dropdown('skillsDropdown', 'Skills', collections.skills) }}
+        {{ listItem('/content/about/about-ed-marsh', 'About') }}
+    </ul>
+</nav>
