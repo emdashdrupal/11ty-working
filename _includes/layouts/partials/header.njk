@@ -29,37 +29,3 @@
 
     {% endblock %}
 
-    <script>
-        const createDropdownHandlers = (dropdownId, submenuId) => {
-            const dropdown = document.getElementById(dropdownId);
-            const submenu = document.getElementById(submenuId);
-
-            dropdown.addEventListener('mouseenter', () => {
-                submenu
-                    .classList
-                    .remove('hidden');
-            });
-
-            dropdown.addEventListener('mouseleave', () => {
-                const delay = setTimeout(() => {
-                    submenu
-                        .classList
-                        .add('hidden');
-                }, 100); // Adjust the delay time as needed
-
-                submenu.addEventListener('mouseenter', () => {
-                    clearTimeout(delay);
-                });
-            });
-
-            submenu.addEventListener('mouseenter', () => {
-                submenu
-                    .classList
-                    .remove('hidden');
-            });
-        };
-
-        createDropdownHandlers('skillsDropdown', 'skillsSubmenu');
-        createDropdownHandlers('ssgDropdown', 'ssgSubmenu');
-    </script>
-            <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>
