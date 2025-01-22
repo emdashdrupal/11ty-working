@@ -1,21 +1,7 @@
 {% include 'layouts/partials/header.njk' %}
-    <figure class="hero flex float-right ">
-      {% if cover %}
-        <a href="{{ item.url }}">
-          <img src="/assets/images/{{ cover}}" alt="{{ item.data.coverAlt | safe }}" class="h-48 rounded-2xl pointer-events-auto shadow-lg"/>
-        </a>
-      {% endif %}
-             {% if collections.podcasts and not item.data.cover %}
-        <a href="{{ item.url }}">
-          <img src="/assets/images/content-content-podcast-new-cover.png" alt="{{ item.data.coverAlt | safe }}" class="h-48 rounded-2xl shadow-lg"/>
-        </a>
-      {% endif %}
-
-      {% if FontAwesomeIcon %}
-        <div class="float-left grow icon fa-{{ item.data.FontAwesomeIcon }}"></div>
-      {% endif %}
-    </figure>
-
+<figure class="hero float-right">
+{% include 'layouts/partials/hero-image.njk' %}
+</figure>
 {{ content | safe }}
 
 {% include 'layouts/partials/footer.njk' %}

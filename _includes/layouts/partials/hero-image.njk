@@ -1,15 +1,11 @@
-<figure class="hero flex">
-    {% if item.data.FontAwesomeIcon %}
-        <div class="float-left grow icon fa-{{ item.data.FontAwesomeIcon }}"></div>
-    {% endif %}
-
-    {% if collections.podcasts and item.data.cover %}
+{% if item.data.FontAwesomeIcon or FontAwesomeIcon %}
+    <div class="icon fa-{{ item.data.FontAwesomeIcon  or FontAwesomeIcon }} text-2xl"></div>
+{% endif %}
         <a href="{{ item.url }}">
-            <img src="/assets/images/{{ item.data.cover}}" alt="{{ item.data.coverAlt | safe }}" class="h-48 rounded-2xl pointer-events-auto shadow-lg"/>
-        </a>
-    {% elif not item.data.cover %}
-        <a href="{{ item.url }}">
+    {% if cover or item.data.cover %}
+            <img src="/assets/images/{{ cover or item.data.cover }}" alt="{{ item.data.coverAlt | safe }}" class="h-48 rounded-2xl shadow-lg"/>
+            {% endif %}
+    {% if not cover or item.data.cover%}
             <img src="/assets/images/content-content-podcast-new-cover.png" alt="Content Content podcast with Ed Marsh" class="h-48 rounded-2xl shadow-lg"/>
-        {% endif %}
-
-    </figure>
+        </a>
+    {% endif %}
