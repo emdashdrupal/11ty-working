@@ -20,3 +20,12 @@
     <a href="{{ url }}">{{ label }}</a>
 </li>
 {% endmacro %}
+
+{% macro gridItem(item) %}
+<div class="bg-white p-4 shadow-md">
+    <h3 class="text-xl font-semibold">
+        <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
+    </h3>
+    <p>{{ item.data.description }}</p>
+</div>
+{% endmacro %}

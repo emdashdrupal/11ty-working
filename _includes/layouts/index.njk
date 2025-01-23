@@ -1,4 +1,5 @@
 {% include 'layouts/partials/header.njk'%}
+{% from "layouts/partials/macros.njk" import gridItem %}
 
 <section class="mb-8">
     <p class="mt-2">
@@ -13,10 +14,7 @@
             {% for item in collections.ssg | reverse %}
                 <div class="bg-white p-4 shadow-md">
 {% include 'layouts/partials/hero-image.njk' %}
-                    <h3 class="text-xl font-semibold">
-                        <a href="{{item.url}}">{{ item.data.title | safe}}</a>
-                    </h3>
-                    <p>{{ item.data.description }}</p>
+                     {{ gridItem(item) }}
                 </div>
             {% endfor %}
             </div>
@@ -31,10 +29,7 @@
                 <div class="flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2">
 
                    {% include 'layouts/partials/hero-image.njk' %}
-                    <a href="{{item.url}}">{{ item.data.title |safe }}
-                    </a>
-                    <p>{{ item.data.description }}</p>
-                </div>
+                     {{ gridItem(item) }}                </div>
             {% endif %}
         {% endfor %}
     </section>
@@ -45,10 +40,8 @@
 
                 <div class="bg-white p-4 shadow-md">
                     {% include 'layouts/partials/hero-image.njk' %}
-                    <h3 class="text-xl font-semibold">
-                        <a href="{{item.url}}">{{ item.data.title |safe }}</a>
-                    </h3>
-                    <p>{{ item.data.description }}</p>
+                   
+                                        {{ gridItem(item) }}
                 </div>
             {% endfor %}
         </section>
