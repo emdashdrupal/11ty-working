@@ -11,8 +11,9 @@
     <section class="mb-8 border-2">
         <h2 class="px-3 py-2">Creating a static site</h2>
         <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
-            {% for item in collections.ssg | reverse %}
-                <div class="bg-white p-4 shadow-md">
+            {% for item in collections.ssg %}
+                                <div class="flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2 place-content-center">
+
 {% include 'layouts/partials/hero-image.njk' %}
                      {{ gridItem(item) }}
                 </div>
@@ -24,9 +25,10 @@
     <h2 class="px-3 py-2">Latest podcasts</h2>
     <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
         {% for item in collections.podcasts | reverse %}
-            {% if loop.index <= 4 %}
+                                           {% if loop.index <= 4 %}
 
-                <div class="flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2">
+                <div class="flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2 place-content-center">
+
 
                    {% include 'layouts/partials/hero-image.njk' %}
                      {{ gridItem(item) }}                </div>
@@ -38,9 +40,9 @@
             <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
             {% for item in collections.skills %}
 
-                <div class="bg-white p-4 shadow-md">
+                 <div class="flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2 place-content-center">
                     {% include 'layouts/partials/hero-image.njk' %}
-                   
+
                                         {{ gridItem(item) }}
                 </div>
             {% endfor %}
