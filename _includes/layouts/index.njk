@@ -7,12 +7,12 @@
           I (used to) <a href="podcasts/">host a podcast</a> where I interview content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more.
         </p>
 </section>
-    <section  class="mb-8 border-2">
-        <h2>Creating a static site</h2>
+    <section class="mb-8 border-2">
+        <h2 class="px-3 py-2">Creating a static site</h2>
         <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
             {% for item in collections.ssg | reverse %}
                 <div class="bg-white p-4 shadow-md">
-
+{% include 'layouts/partials/hero-image.njk' %}
                     <h3 class="text-xl font-semibold">
                         <a href="{{item.url}}">{{ item.data.title | safe}}</a>
                     </h3>
@@ -23,14 +23,14 @@
         </section>
 
 <section class="mb-8 border-2">
-    <h2 class="text-2xl font-semibold">Latest podcasts</h2>
+    <h2 class="px-3 py-2">Latest podcasts</h2>
     <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
         {% for item in collections.podcasts | reverse %}
             {% if loop.index <= 4 %}
 
                 <div class="flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2">
 
-                    <img src="/assets/images/{{ item.data.cover }}" class="float-left"/style="max-width: 100px">
+                   {% include 'layouts/partials/hero-image.njk' %}
                     <a href="{{item.url}}">{{ item.data.title |safe }}
                     </a>
                     <p>{{ item.data.description }}</p>
@@ -39,11 +39,12 @@
         {% endfor %}
     </section>
         <section class="md-8 border-2">
-            <h2>My skills &mdash; how I can help you</h2>
+            <h2 class="px-3 py-2">My skills &mdash; how I can help you</h2>
             <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
             {% for item in collections.skills %}
 
                 <div class="bg-white p-4 shadow-md">
+                    {% include 'layouts/partials/hero-image.njk' %}
                     <h3 class="text-xl font-semibold">
                         <a href="{{item.url}}">{{ item.data.title |safe }}</a>
                     </h3>
