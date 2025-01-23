@@ -17,7 +17,6 @@ mp3File: content-content-podcast-patrick-bosek.mp3
 ---
 
 
-> [!TIP]
 > This episode was recorded before Patrick's company changed its name to Heretto.
 
 

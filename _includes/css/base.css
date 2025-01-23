@@ -70,7 +70,7 @@ th {
 table { margin-top: 2%;}
 
 blockquote::before {
-    content: ">";
+    content: "> Note";
     font-size: 1rem;
     color: #0074D9;
 }
@@ -79,6 +79,7 @@ blockquote {
         margin: 1rem 0;
     padding-left: 1rem;
     border-left: 3px solid #0074D9;
+    border-right: 2px solid #0074D9;
 }
 
 /* Ensure the dropdown menu is hidden by default */
