@@ -1,5 +1,4 @@
 {% include 'layouts/partials/header.njk'%}
-{% from "layouts/partials/macros.njk" import gridItem %}
 
 <section class="mb-8" id="intro">
     <p class="mt-2">
@@ -12,27 +11,26 @@
         <h2 class="px-3 py-2">Creating a static site</h2>
         <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
             {% set collectionName = "ssg" %}
-            {% for item in collectionName %}
                 {% include 'layouts/partials/card.njk' %}
-            {% endfor %}
         </div>
     </section>
     <section class="mb-8 border-2" id="grid-middle">
-        <h2 class="px-3 py-2">Skillz</h2>
+        <h2 class="px-3 py-2">My skills &mdash; how I can help you</h2>
         <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
             {% set collectionName = "skills" %}
-            {% for item in collectionName %}
                 {% include 'layouts/partials/card.njk' %}
-            {% endfor %}
         </div>
     </section>
     <section class="mb-8 border-2" id="grid-end">
         <h2 class="px-3 py-2">Podcasts</h2>
         <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
             {% set collectionName = "podcasts" %}
-            {% for item in collectionName %}
+            {% for item in collectionName | reverse %}
+             {% if loop.index <= 4 %}
                 {% include 'layouts/partials/card.njk' %}
+                {% endif %}
             {% endfor %}
         </div>
     </section>
+    </div>
 {% include 'layouts/partials/footer.njk'%}
