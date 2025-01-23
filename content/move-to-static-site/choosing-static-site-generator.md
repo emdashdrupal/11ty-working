@@ -7,6 +7,7 @@ eleventyNavigation:
   key : SSG
   parent: Migration
   order: 1
+FontAwesomeIcon: 'solid fa-file-waveform'
 ---
 
 - Based on experience, wanted to avoid Gatsby &mdash; too complex requires a team of devs.

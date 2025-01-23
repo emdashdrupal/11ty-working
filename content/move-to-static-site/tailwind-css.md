@@ -1,6 +1,7 @@
 ---
 title : 'Styling an Eleventy site using Tailwind CSS'
 description : Wherein I learn how far stylesheets have come since the 1990s.
+FontAwesomeIcon: 'brands fa-css'
 ---
 
 There is a lot more to Cascading Style Sheets (CSS) than when I first (and last) wrote CSS. There are multiple frameworks and templates that will work with Eleventy, which is part the appeal of static site generators' to me. You *could* create your front end with a framework like React or Angular; my wife does that. I do not. So it's good to know a lot of work is done for you. But, you also have to take the time to learn how each framework works &mdash; and then how it *actually* works.

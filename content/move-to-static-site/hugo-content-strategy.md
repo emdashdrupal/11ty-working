@@ -6,6 +6,7 @@ eleventyNavigation:
   key : "content-strategy"
   parent: Skills
   order: 3
+FontAwesomeIcon: 'solid fa-folder-tree'
 ---
 
 ## Front matter
@@ -18,4 +19,4 @@ Out of the box: `tags` and `categories`. These *collections* are very powerful t
 
 This includes things like looping through podcast posts and displaying them all in a grid with their photo, title, description, and link. On each individual podcast page, the link to the mp3 is programmatically generated.
 
-Eventually I made the grid collection-agnostic, but while I was building out the site there were several grid template pages. 
+Eventually I made the grid collection-agnostic, but while I was building out the site there were several grid template pages.

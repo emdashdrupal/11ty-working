@@ -4,6 +4,7 @@ description: My first foray into learning static site generators.
 categories: "wordpress"
 tags: ["nah", "content-strategy"]
 date: "2024-11-24"
+FontAwesomeIcon: 'solid fa-school'
 ---
 
 This largely applies to any static site generator (SSG).
