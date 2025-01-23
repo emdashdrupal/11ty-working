@@ -1,36 +1,24 @@
 {% set collectionName = collectionName | default("skills") %}
 {% set filtered_collections = collections[collectionName] %}
-{% for item in filtered_collections | reverse %}
-  <div class="card flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2">
-    <figure class="hero flex justify-center items-center">
-      {% if item.data.cover %}
-        <a href="{{ item.url }}">
-          <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt | safe }}" class="h-48 rounded-2xl shadow-lg"/>
-        </a>
-      {% endif %}
-       {% if collections.podcasts and not item.data.cover %}
-        <a href="{{ item.url }}">
-          <img src="/assets/images/content-content-podcast-new-cover.png" alt="{{ item.data.coverAlt | safe }}" class="h-48 rounded-2xl shadow-lg"/>
-        </a>
-      {% endif %}
-      {% if item.data.FontAwesomeIcon %}
-        <div class="icon fa-{{ item.data.FontAwesomeIcon }} text-2xl"></div>
-      {% endif %}
-    </figure>
-    <div class="flex flex-col p-4">
-      <h2 class="card-title leading-7 hover:bg-slate-200 pb-6">
-        <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
-      </h2>
-      <div class="description prose prose-md">
-        {{ item.data.description | safe }}
-      </div>
-      <div class="button flex pt-6">
-        <a href="{{ item.url }}" class="text-gray-700">
-          <button class="bg-slate-500 text-[#ffffff] font-bold text-base p-2 rounded-lg hover:bg-gray-400 active:scale-95 transition-transform transform shadow-md">
-            {{ item.data.buttonText }}
-          </button>
-        </a>
-      </div>
+{% for item in filtered_collections %}
+    <div class="card flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2">
+        <figure class="hero flex justify-center items-center">
+            {% include 'layouts/partials/hero-image.njk' %}
+        </figure>
+        <div class="flex flex-col p-4">
+            <h2 class="card-title leading-7 hover:bg-slate-200 pb-6">
+                <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
+            </h2>
+            <div class="description prose prose-md">
+                {{ item.data.description | safe }}
+            </div>
+            <div class="button flex pt-6">
+                <a href="{{ item.url }}" class="text-gray-700">
+                    <button class="bg-slate-500 text-[#ffffff] font-bold text-base p-2 rounded-lg hover:bg-gray-400 active:scale-95 transition-transform transform shadow-md">
+                        {{ item.data.buttonText }}
+                    </button>
+                </a>
+            </div>
+        </div>
     </div>
-  </div>
 {% endfor %}

@@ -1,6 +1,7 @@
 ---
 title : "Seemingly simple things shouldn't be so hard"
 description : Learning how modern development <i>actually</i> works reinforced the importance of good developer documentation &mdash; by having to use actual developer documentation.
+FontAwesomeIcon: 'regular fa-thumbs-down'
 ---
 
 Why is this forking shirtballs so hard? [Read this](https://www.11ty.dev/docs/plugins/navigation/) and tell me how you're supposed to make a working navigation system with drop-down menus.

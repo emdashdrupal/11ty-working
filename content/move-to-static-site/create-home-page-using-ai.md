@@ -1,7 +1,10 @@
 ---
 title : "Creating a homepage template using AI"
-description: "I use Google Gemini and GitHub Copilot to create a Nunjucks template for my static site's homepage."
+description: "I use Google Gemini and GitHub Copilot to create Nunjucks templates for my static site."
+FontAwesomeIcon: 'solid fa-brain'
 ---
+
+The nice thing about AI is that if you want good answers, that you have to think through your logic. it's helpful to write it down regardless of the language you do (or don't) know. This has made me think more and more about prompt engineering (is that still a thing?) and how technical writers can educate regular folks how best to use AI.
 
 ## AI
 

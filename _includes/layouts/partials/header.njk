@@ -15,6 +15,7 @@
 		/>
                 <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
         <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
+        <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
     </head>
     <body class="bg-gray-100 body-{{title |slugify }}">
         {% block nav %}
@@ -23,43 +24,9 @@
 {% block content %}
     <main class="container mx-auto mt-8 px-4">
         <h1>{{title or metadata.title}}</h1>
-        <p class="mb-4 text-lg italic">
+        <p class="mb-4 text-lg font-sans prose max-w-prose">
             {{ description or metadata.description }}
         </p>
 
     {% endblock %}
 
-    <script>
-        const createDropdownHandlers = (dropdownId, submenuId) => {
-            const dropdown = document.getElementById(dropdownId);
-            const submenu = document.getElementById(submenuId);
-
-            dropdown.addEventListener('mouseenter', () => {
-                submenu
-                    .classList
-                    .remove('hidden');
-            });
-
-            dropdown.addEventListener('mouseleave', () => {
-                const delay = setTimeout(() => {
-                    submenu
-                        .classList
-                        .add('hidden');
-                }, 100); // Adjust the delay time as needed
-
-                submenu.addEventListener('mouseenter', () => {
-                    clearTimeout(delay);
-                });
-            });
-
-            submenu.addEventListener('mouseenter', () => {
-                submenu
-                    .classList
-                    .remove('hidden');
-            });
-        };
-
-        createDropdownHandlers('skillsDropdown', 'skillsSubmenu');
-        createDropdownHandlers('ssgDropdown', 'ssgSubmenu');
-    </script>
-            <script src="https://kit.fontawesome.com/a285d034b2.js" crossorigin="anonymous"></script>

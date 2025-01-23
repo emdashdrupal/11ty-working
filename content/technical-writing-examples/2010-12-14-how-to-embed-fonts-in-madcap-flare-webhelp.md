@@ -60,8 +60,7 @@ As I learned the frustrating way ("...why won’t this _work?!?_"_)_, font names
 8. Click the **Options** drop-down, and select **Link Stylesheet**. ![stylesheet links](/assets/images/stylesheet-links_thumb.png "stylesheet links")
 9. Add the font CSS files by clicking the double right arrow to move the file to the right, and click **OK**.
 
->[!NOTE]
->This adds an `@import` declaration in your master CSS file.
+> This adds an `@import` declaration in your master CSS file.
 
 When you build your project, the fonts should appear in the output.
 

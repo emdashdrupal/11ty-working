@@ -5,6 +5,7 @@ eleventyNavigation:
   key : "SSG templates"
   parent: Migration
   order: 2
+FontAwesomeIcon: 'solid fa-file-code'
 ---
 
 For someone who started creating web sites in the mid-1990s, it's incredibly fun to build out a site using just HTML and CSS!
