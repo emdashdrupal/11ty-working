@@ -1,52 +1,38 @@
 {% include 'layouts/partials/header.njk'%}
 {% from "layouts/partials/macros.njk" import gridItem %}
 
-<section class="mb-8">
+<section class="mb-8" id="intro">
     <p class="mt-2">
           Welcome to my portfolio. I'm Ed Marsh. I'm a technical writer, information architect, content strategist, podcaster. I've dabbled in code my entire career. I'm passionate about making a difference through clear, well-organized, user-friendly documentation.</p>
     <p class="mt-2">
           I (used to) <a href="podcasts/">host a podcast</a> where I interview content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more.
         </p>
 </section>
-    <section class="mb-8 border-2">
+    <section class="mb-8 border-2" id="grid-start">
         <h2 class="px-3 py-2">Creating a static site</h2>
         <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
-            {% for item in collections.ssg %}
-                                <div class="flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2 place-content-center">
-
-{% include 'layouts/partials/hero-image.njk' %}
-                     {{ gridItem(item) }}
-                </div>
+            {% set collectionName = "ssg" %}
+            {% for item in collectionName %}
+                {% include 'layouts/partials/card.njk' %}
             {% endfor %}
-            </div>
-        </section>
-
-<section class="mb-8 border-2">
-    <h2 class="px-3 py-2">Latest podcasts</h2>
-    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
-        {% for item in collections.podcasts | reverse %}
-                                           {% if loop.index <= 4 %}
-
-                <div class="flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2 place-content-center">
-
-
-                   {% include 'layouts/partials/hero-image.njk' %}
-                     {{ gridItem(item) }}                </div>
-            {% endif %}
-        {% endfor %}
+        </div>
     </section>
-        <section class="md-8 border-2">
-            <h2 class="px-3 py-2">My skills &mdash; how I can help you</h2>
-            <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
-            {% for item in collections.skills %}
-
-                 <div class="flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2 place-content-center">
-                    {% include 'layouts/partials/hero-image.njk' %}
-
-                                        {{ gridItem(item) }}
-                </div>
+    <section class="mb-8 border-2" id="grid-middle">
+        <h2 class="px-3 py-2">Skillz</h2>
+        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
+            {% set collectionName = "skills" %}
+            {% for item in collectionName %}
+                {% include 'layouts/partials/card.njk' %}
             {% endfor %}
-        </section>
-    </div>
-</section>
+        </div>
+    </section>
+    <section class="mb-8 border-2" id="grid-end">
+        <h2 class="px-3 py-2">Podcasts</h2>
+        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
+            {% set collectionName = "podcasts" %}
+            {% for item in collectionName %}
+                {% include 'layouts/partials/card.njk' %}
+            {% endfor %}
+        </div>
+    </section>
 {% include 'layouts/partials/footer.njk'%}

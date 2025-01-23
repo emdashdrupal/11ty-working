@@ -1,4 +1,4 @@
-{% set collectionName = collectionName | default("skills") %}
+{% set collectionName = collectionName  %}
 {% set filtered_collections = collections[collectionName] %}
 {% for item in filtered_collections %}
     <div class="card flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2">
