@@ -1451,6 +1451,24 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#f0f3bd\] {
+  --tw-text-opacity: 1;
+  color: rgb(240 243 189 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#ff3bd\] {
+  color: #ff3bd;
+}
+
+.text-\[\#fof3bd\] {
+  color: #fof3bd;
+}
+
+.text-\[\#c64191\] {
+  --tw-text-opacity: 1;
+  color: rgb(198 65 145 / var(--tw-text-opacity, 1));
+}
+
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
