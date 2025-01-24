@@ -12,6 +12,7 @@ p , .description{
     font-family: Besley, serif;
     font-optical-sizing: auto;
     font-weight: 400;
+    color: #000;
     line-height: 1.4rem;
 }
 p:last-of-type {
@@ -45,7 +46,7 @@ pre, code, font-mono {
 }
 
 a {
-    color: #0074D9;
+    color: #94a3b8;
     text-decoration: none;
 
 }
@@ -114,4 +115,8 @@ blockquote {
 
 .text-4xl {
     font-size: 3rem;
+}
+
+.icon {
+    color: #083d77
 }
