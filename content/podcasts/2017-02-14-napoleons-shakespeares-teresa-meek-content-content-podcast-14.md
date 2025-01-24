@@ -1,11 +1,11 @@
 ---
-title: "Napoleons and Shakespeares featuring Teresa Meek"
+title : "Napoleons and Shakespeares featuring Teresa Meek"
 date: "2017-02-14"
 categories:
   - "podcast"
   - "social media"
   - "technical writing"
-tags:
+tags :
   - "content-marketing"
 cover : "teresa_meek.jpg"
 coverAlt : "Content marketer Teresa Meek"

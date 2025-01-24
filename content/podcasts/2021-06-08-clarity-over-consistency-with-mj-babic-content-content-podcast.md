@@ -1,11 +1,11 @@
 ---
-title: "Clarity over consistency with MJ Babic"
+title : "Clarity over consistency with MJ Babic"
 date: "2021-06-08"
 categories:
   - "podcast"
   - "technical writing"
   - "user experience"
-tags:
+tags :
   - "UX writing"
   - "ux"
 cover : "1603480107914.jpg"

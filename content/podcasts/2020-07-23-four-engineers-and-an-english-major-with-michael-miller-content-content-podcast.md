@@ -1,5 +1,5 @@
 ---
-title: "Four engineers and an English major with Michael Miller"
+title : "Four engineers and an English major with Michael Miller"
 date: "2020-07-23"
 categories:
   - "motorsports"

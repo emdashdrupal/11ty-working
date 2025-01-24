@@ -1,5 +1,5 @@
 ---
-title: "Users or people with Jack Molisani"
+title : "Users or people with Jack Molisani"
 date: "2017-04-24"
 categories:
   - "content strategy"
@@ -7,7 +7,7 @@ categories:
   - "podcast"
   - "social media"
   - "technical writing"
-tags:
+tags :
   - "content strategy"
   - "technical writing"
   - "technical communication"

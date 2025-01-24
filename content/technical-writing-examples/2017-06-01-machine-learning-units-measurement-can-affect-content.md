@@ -1,5 +1,5 @@
 ---
-title: "Machine learning and units of measurement can affect your content"
+title : "Machine learning and units of measurement can affect your content"
 date: "2017-06-01"
 categories:
   - "content strategy"
@@ -7,7 +7,7 @@ categories:
   - "technical writing"
   - "user experience"
 
-tags: ["ai", "machine-learning", "examples", "ux", "usability"]
+tags : ["ai", "machine-learning", "examples", "ux", "usability"]
 ---
 
 "OK, Google, how long does it take to blanch broccoli?"

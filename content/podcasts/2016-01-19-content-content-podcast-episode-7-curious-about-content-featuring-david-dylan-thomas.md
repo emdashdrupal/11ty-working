@@ -1,11 +1,11 @@
 ---
-title: "Curious about content featuring David Dylan Thomas"
+title : "Curious about content featuring David Dylan Thomas"
 date: "2016-01-19"
 categories:
   - "content strategy"
   - "podcast"
   - "technical writing"
-tags:
+tags :
   - "dita"
 cover : "David-Dylan-Thomas-300x225.jpg"
 coverAlt : "David Dylan Thomas, content strategist and moviemaker"

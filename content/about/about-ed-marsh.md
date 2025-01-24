@@ -1,5 +1,5 @@
 ---
-title: "About Ed Marsh"
+title : "About Ed Marsh"
 description : "Learn more about Ed's career."
 layout : layouts/details.njk
 

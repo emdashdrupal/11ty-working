@@ -1,5 +1,5 @@
 ---
-title: "A really fancy webform with Patrick Bosek"
+title : "A really fancy webform with Patrick Bosek"
 date: "2021-09-27"
 categories:
   - "content strategy"
@@ -7,7 +7,7 @@ categories:
   - "podcast"
   - "technical writing"
 
-tags:
+tags :
   - "technical communication"
   -  "dita"
 cover: "Patrick-Bosekcurrent-social-960x1280.jpg"

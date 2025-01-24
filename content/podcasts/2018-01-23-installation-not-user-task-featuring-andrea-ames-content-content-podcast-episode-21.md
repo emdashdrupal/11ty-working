@@ -1,5 +1,5 @@
 ---
-title: "Installation is not a user task featuring Andrea Ames"
+title : "Installation is not a user task featuring Andrea Ames"
 date: "2018-01-23"
 categories:
   - "content strategy"

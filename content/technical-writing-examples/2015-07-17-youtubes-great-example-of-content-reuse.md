@@ -1,12 +1,12 @@
 ---
-title: "YouTube's great example of content reuse"
+title : "YouTube's great example of content reuse"
 date: "2015-07-17"
 categories:
   - "content strategy"
   - "technical writing"
 
   - "user experience"
-tags:
+tags :
   - "usability"
   - "examples"
 ---

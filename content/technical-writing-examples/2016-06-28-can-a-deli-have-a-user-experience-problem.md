@@ -1,10 +1,10 @@
 ---
-title: "Can a deli have a user experience problem?"
+title : "Can a deli have a user experience problem?"
 date: "2016-06-28"
 categories:
 
   - "user experience"
-tags: ["ux", "usability", "examples"]
+tags : ["ux", "usability", "examples"]
 ---
 
 A delicatessen near my office makes great sandwiches. However, the process they have in place to order a sandwich is at best a tedious process, and at worst baffling to customers. Is this a bad real-world user experience?

@@ -1,5 +1,5 @@
 ---
-title: How it is supposed to work. How I ended up getting it to work.
+title : How it is supposed to work. How I ended up getting it to work.
 description: Diagrams are fun
 FontAwesomeIcon: 'solid fa-person-digging'
 ---

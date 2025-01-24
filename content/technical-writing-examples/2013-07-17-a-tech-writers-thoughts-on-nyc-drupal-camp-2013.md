@@ -1,10 +1,10 @@
 ---
-title: "A Tech Writer's Thoughts on NYC Drupal Camp 201"
+title : "A Tech Writer's Thoughts on NYC Drupal Camp 201"
 date: "2013-07-17"
 categories:
   - "technical writing"
 
-tags:
+tags :
   - "drupal"
   - "examples"
 ---

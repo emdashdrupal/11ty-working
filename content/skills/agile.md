@@ -1,5 +1,5 @@
 ---
-title: "Agile methodologies"
+title : "Agile methodologies"
 description : "Agile is a software development methodology that features working on small tasks and deploying frequently."
 FontAwesomeIcon: "brands fa-github"
 eleventyNavigation:

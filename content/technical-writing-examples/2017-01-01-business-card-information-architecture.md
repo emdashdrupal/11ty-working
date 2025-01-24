@@ -1,5 +1,5 @@
 ---
-title: "Business card information architecture"
+title : "Business card information architecture"
 date: "2017-01-01"
 categories:
   - "content strategy"
@@ -7,7 +7,7 @@ categories:
   - "technical writing"
 
   - "user experience"
-tags:
+tags :
   - "technical communication"
   -  "ux"
   -  "examples"

@@ -1,11 +1,11 @@
 ---
-title: "I like the Ms with Phylise Banner"
+title : "I like the Ms with Phylise Banner"
 date: "2019-12-27"
 categories:
   - "podcast"
   - "technical writing"
   - "user experience"
-tags:
+tags :
   - "ux"
 cover : "Phylise-Banner-head-Shot.jpg"
 coverAlt : "hylise Banner, learning experience designer and Content Content podcast guest. Photo credit: Susan Blackburn"

@@ -1,5 +1,5 @@
 ---
-title: "Fluffy experience with Hannah Kirk"
+title : "Fluffy experience with Hannah Kirk"
 date: "2020-02-11"
 categories:
   - "content strategy"

@@ -1,11 +1,11 @@
 ---
-title: "Be like Thomas Pynchon with Pawel Kowaluk"
+title : "Be like Thomas Pynchon with Pawel Kowaluk"
 date: "2017-06-27"
 categories:
   - "content strategy"
   - "podcast"
   - "technical writing"
-tags:
+tags :
   - "dita"
   - "madcap flare"
 cover: "pawel_kowaluk-300x300.jpg"

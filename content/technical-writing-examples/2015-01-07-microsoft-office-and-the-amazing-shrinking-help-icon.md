@@ -1,10 +1,10 @@
 ---
-title: "Microsoft Office and the amazing shrinking help icon"
+title : "Microsoft Office and the amazing shrinking help icon"
 date: "2015-01-07"
 categories:
   - "technical writing"
   - "user experience"
-tags:
+tags :
   - "usability"
   - "examples"
 ---

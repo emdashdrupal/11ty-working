@@ -1,11 +1,11 @@
 ---
-title: "Local needs of content featuring Bill Swallow"
+title : "Local needs of content featuring Bill Swallow"
 date: "2016-09-30"
 categories:
   - "podcast"
   - "technical writing"
   - "content strategy"
-tags:
+tags :
   - "content strategy"
   - "localization"
   - "technical writing"

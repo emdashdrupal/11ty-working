@@ -1,9 +1,9 @@
 ---
-title: "Structured authoring (DITA)"
+title : "Structured authoring (DITA)"
 description : "Adding structure to your content ensures consistency across every piece, makes it easier to manipulate programmatically, and improves SEO for your readers."
 FontAwesomeIcon: "solid fa-list"
 eleventyNavigation:
-    title: "Structured language"
+    title : "Structured language"
     parent: Skills
 ---
 

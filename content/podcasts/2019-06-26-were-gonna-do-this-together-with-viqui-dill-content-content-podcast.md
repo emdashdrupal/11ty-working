@@ -1,12 +1,12 @@
 ---
-title: "We're gonna do this together with Viqui Dill"
+title : "We're gonna do this together with Viqui Dill"
 date: "2019-06-26"
 categories:
   - "information architecture"
   - "podcast"
   - "social media"
   - "technical writing"
-tags:
+tags :
   - "podcasts"
 cover: "ViquiDill-contentcontent-3.jpg"
 coverAlt : "Viqui Dill - 2017 STC Technical Communication Summit"

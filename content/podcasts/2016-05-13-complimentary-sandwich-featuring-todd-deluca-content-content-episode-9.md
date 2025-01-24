@@ -1,5 +1,5 @@
 ---
-title: "Complimentary sandwich featuring Todd DeLuca"
+title : "Complimentary sandwich featuring Todd DeLuca"
 date: "2016-05-13"
 categories:
   - "podcast"
