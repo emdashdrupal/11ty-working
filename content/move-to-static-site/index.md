@@ -9,4 +9,3 @@ layout : layouts/grid.njk
 eleventyNavigation:
     key: yek
 ---
-
