@@ -25,13 +25,9 @@
     <h2 class="px-3 py-2">Podcasts</h2>
     <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
         {% set collectionName = "podcasts" %}
-        {% for item in collectionName | reverse %}
-            {% if loop.index <= 4 %}
-
-                {% include 'layouts/partials/card.njk' %}
-            {% endif %}
-        {% endfor %}
-
+        {% if collections.podcasts.loop.index <5 %}
+            {% include 'layouts/partials/card.njk' %}
+        {% endif %}
     </div>
 </section>
 </div>

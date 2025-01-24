@@ -111,3 +111,7 @@ blockquote {
 .font-sans, .dropdown-toggle {
     font-family: "Poppins", Ubuntu, sans-serif;
 }
+
+.text-4xl {
+    font-size: 3rem;
+}
