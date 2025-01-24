@@ -1,4 +1,4 @@
-{% set collectionName = collectionName  %}
+{% set collectionName = collectionName %}
 {% set filtered_collections = collections[collectionName] %}
 {% for item in filtered_collections %}
     <div class="card flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2">
@@ -14,7 +14,7 @@
             </div>
             <div class="button flex pt-6">
                 <a href="{{ item.url }}" class="text-gray-700">
-                    <button class="bg-slate-500 text-[#ffffff] font-bold text-base p-2 rounded-lg hover:bg-gray-400 active:scale-95 transition-transform transform shadow-md">
+                    <button class="bg-slate-500 text-[#ffffff] text-base p-2 rounded-lg hover:bg-gray-400 active:scale-95 transition-transform transform shadow-md">
                         {{ item.data.buttonText }}
                     </button>
                 </a>

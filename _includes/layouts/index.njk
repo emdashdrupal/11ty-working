@@ -7,30 +7,32 @@
           I (used to) <a href="podcasts/">host a podcast</a> where I interview content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more.
         </p>
 </section>
-    <section class="mb-8 border-2" id="grid-start">
-        <h2 class="px-3 py-2">Creating a static site</h2>
-        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
-            {% set collectionName = "ssg" %}
-                {% include 'layouts/partials/card.njk' %}
-        </div>
-    </section>
-    <section class="mb-8 border-2" id="grid-middle">
-        <h2 class="px-3 py-2">My skills &mdash; how I can help you</h2>
-        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
-            {% set collectionName = "skills" %}
-                {% include 'layouts/partials/card.njk' %}
-        </div>
-    </section>
-    <section class="mb-8 border-2" id="grid-end">
-        <h2 class="px-3 py-2">Podcasts</h2>
-        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
-            {% set collectionName = "podcasts" %}
-            {% for item in collectionName | reverse %}
-             {% if loop.index <= 4 %}
-                {% include 'layouts/partials/card.njk' %}
-                {% endif %}
-            {% endfor %}
-        </div>
-    </section>
+<section class="mb-8 border-2" id="grid-start">
+    <h2 class="px-3 py-2">Creating a static site</h2>
+    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
+        {% set collectionName = "ssg" %}
+        {% include 'layouts/partials/card.njk' %}
     </div>
+</section>
+<section class="mb-8 border-2" id="grid-middle">
+    <h2 class="px-3 py-2">My skills &mdash; how I can help you</h2>
+    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
+        {% set collectionName = "skills" %}
+        {% include 'layouts/partials/card.njk' %}
+    </div>
+</section>
+<section class="mb-8 border-2" id="grid-end">
+    <h2 class="px-3 py-2">Podcasts</h2>
+    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
+        {% set collectionName = "podcasts" %}
+        {% for item in collectionName | reverse %}
+            {% if loop.index <= 4 %}
+
+                {% include 'layouts/partials/card.njk' %}
+            {% endif %}
+        {% endfor %}
+
+    </div>
+</section>
+</div>
 {% include 'layouts/partials/footer.njk'%}
