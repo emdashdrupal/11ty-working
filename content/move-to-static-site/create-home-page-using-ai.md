@@ -1,6 +1,6 @@
 ---
 title : "Creating a homepage template using AI"
-description: "I use Google Gemini and GitHub Copilot to create Nunjucks templates for my static site."
+description : "I use Google Gemini and GitHub Copilot to create Nunjucks templates for my static site."
 FontAwesomeIcon: 'solid fa-brain'
 ---
 

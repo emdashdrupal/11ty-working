@@ -7,7 +7,7 @@ categories:
 tags: "dita"
 cover: "CarlosEvia.jpeg"
 coverAlt : "Dr. Carlos Evia, Director of Professional and Technical Writing at Virginia Tech"
-description: "Dr. Carlos Evia is featured on a jaw-dropping episode of the Content Content podcast. We discuss cutting-edge developments in the DITA world, as well as the similarities and differences between academicians and practitioners of technical communication."
+description : "Dr. Carlos Evia is featured on a jaw-dropping episode of the Content Content podcast. We discuss cutting-edge developments in the DITA world, as well as the similarities and differences between academicians and practitioners of technical communication."
 mp3File: Wheres_my_flare_featuring_Carlos_Evia-Content_Content_podcast_episode_6.mp3
 ---
 
