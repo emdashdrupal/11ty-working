@@ -12,6 +12,7 @@ p , .description{
     font-family: Besley, serif;
     font-optical-sizing: auto;
     font-weight: 400;
+    color: #000;
     line-height: 1.4rem;
 }
 p:last-of-type {
@@ -30,7 +31,7 @@ h2 {
     font-weight: 600;
 font-family: "Poppins", sans-serif;}
 h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 700;
 margin: 1rem 0 .5rem 0;
 font-family: "Poppins", sans-serif;}
@@ -45,7 +46,7 @@ pre, code, font-mono {
 }
 
 a {
-    color: #0074D9;
+    color: #083d77;
     text-decoration: none;
 
 }
@@ -110,4 +111,18 @@ blockquote {
 
 .font-sans, .dropdown-toggle {
     font-family: "Poppins", Ubuntu, sans-serif;
+}
+
+.text-4xl {
+    font-size: 3rem;
+}
+
+.icon {
+    color: #94a3b8;
+
+}
+
+button {
+ color: #f0f361;
+    background-color: #083d77;
 }
