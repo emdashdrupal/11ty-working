@@ -1,5 +1,7 @@
 {
     "buttonText": "Learn more and listen",
+    "description" : "<p class=mt-2>I (used to) <a href='podcasts/'>host a podcast</a> where I interview content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more. </p>",
+
     "collectionName": "podcasts",
     "layout": "layouts/details.njk",
     "tags": "podcasts",

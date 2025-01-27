@@ -28,10 +28,13 @@
 <section class="mb-8 border-2" id="grid-end">
     <h2 class="px-3 py-2">Podcasts</h2>
     <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3 ">
-        {% set collectionName = "podcasts" %}
-        {% if loop.index <= 5 %}
+        {% set collectionName = "collections.podcasts" %}
+        {% for item in collectionName %}
+        {% if loop.index <= 4 %}
+        <p>butts</p>
             {% include 'layouts/partials/card.njk' %}
         {% endif %}
+        {% endfor %}
     </div>
 </section>
 </div>
