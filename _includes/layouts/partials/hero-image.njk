@@ -1,7 +1,6 @@
-<figure>
 {% if item.data.FontAwesomeIcon or FontAwesomeIcon %}
 
-    <div class="icon fa-{{ item.data.FontAwesomeIcon or FontAwesomeIcon }} text-4xl fill-slate-800 hover:bg-slate-200" alt="Icon representing the card"></div>
+    <div class="icon fa-{{ item.data.FontAwesomeIcon or FontAwesomeIcon }} text-4xl fill-slate-800 hover:bg-slate-200" aria-label="Icon representing the card"></div>
 {% endif %}
 
 {% if collectionName == 'podcasts' %}
@@ -15,4 +14,3 @@
         </a>
 
 {% endif %}
-</figure>

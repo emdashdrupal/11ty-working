@@ -24,7 +24,7 @@
 {% block content %}
     <main class="container mx-auto mt-8">
         <h1 class="text-2xl">{{title or metadata.title}}</h1>
-        <p class="mb-4 text-lg font-sans prose max-w-prose">
+        <p id="Page description" class="mb-4 text-lg font-sans prose max-w-prose">
             {{ description or metadata.description }}
         </p>
 
