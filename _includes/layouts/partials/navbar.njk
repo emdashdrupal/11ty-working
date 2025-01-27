@@ -2,12 +2,12 @@
 
 <nav class="bg-slate-400 shadow-md mb-6 container mx-auto px-4 flex justify-between">
     <div class="text-xl font-medium mt-1">Ed Marsh &mdash; technical writer, information architect, content strategist, podcaster</div>
-    <ul class="flex space-x-4 font-sans">
+    <ul class="flex space-x-8 font-sans">
         {{ listItem('/content', 'Home') }}
-        {{ dropdown('ssgDropdown', 'Static site transformation >', collections.ssg, '/content/move-to-static-site') }}
+        {{ dropdown('ssgDropdown', 'Static site transformation', collections.ssg, '/content/move-to-static-site') }}
         {{ listItem('/content/podcasts/', 'Podcasts') }}
         {{ listItem('/content/technical-writing-examples/', 'Writing samples') }}
-        {{ dropdown('skillsDropdown', 'Skills"', collections.skills, '/content/skills') }}
+        {{ dropdown('skillsDropdown', 'Skills', collections.skills, '/content/skills') }}
         {{ listItem('/content/about/about-ed-marsh', 'About') }}
     </ul>
 </nav>
