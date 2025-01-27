@@ -1,9 +1,15 @@
 {% include 'layouts/partials/header.njk' %}
 
 <section class="mb-8" id="intro">
-    <p class="mt-2 mb-4 font-sans prose max-w-prose">
-        I (used to) <a href="podcasts/">host a podcast</a> where I interview content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more.
-    </p>
+
+    <div class="mt-2 mb-4 font-sans prose max-w-prose">
+        <p>Hi, I'm Ed Marsh. I'm a technical writer, information architect, and content strategist. I help organizations create and manage content that is clear, concise, and consistent. I also help organizations move from a traditional CMS to a static site generator (SSG) to improve performance, security, and cost.</p>
+        <div class="flex justify-end">
+        <img src="/assets/images/me-head-shot-corrected-blue-backgrd-from-mike-225x300.jpg" alt="Ed Marsh" class="rounded-lg">
+    </div>
+    <p>Welcome to my portfolio, I'm Ed Marsh. I'm a technical writer, information architect, content strategist, and podcaster. I've also <a href="content/skills/code/">dabbled in code</a> my entire career. I'm passionate about making a difference through clear, well-organized, user-friendly documentation. I've worked in a variety of industries, including software, hardware, telecommunications, and financial services. I've also worked with a variety of tools, including FrameMaker, RoboHelp, Flare, Confluence, and Oxygen XML Editor.</p>
+        <p>I (used to) <a href="podcasts/">host a podcast</a> where I interview content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more.</p>
+    </div>
 </section>
 
 <section class="mb-8 border-2" id="grid-start">
@@ -31,11 +37,13 @@
     <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
         {% set collectionName = "podcasts" %}
         {% for item in collections.podcasts | reverse %}
-        {% if loop.index <= 4 %}
-            {% include 'layouts/partials/card.njk' %}
-        {% endif %}
+            {% if loop.index <= 4 %}
+                {% include 'layouts/partials/card.njk' %}
+            {% endif %}
         {% endfor %}
-        <h3 class="float-end italic"><a href="/content/podcasts/" c>More podcasts</a></h3>
+        <h3 class="float-end italic">
+            <a href="/content/podcasts/" c>More podcasts</a>
+        </h3>
     </div>
 </section>
 
