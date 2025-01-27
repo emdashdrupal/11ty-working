@@ -1,9 +1,9 @@
 ---
-title: "Metrics and data"
-description: Find out how your content is performing so you can report and improve
+title : "Metrics and data"
+description: Find out how your content is performing so you can report and improve.
 FontAwesomeIcon: "solid fa-magnifying-glass-chart"
 eleventyNavigation:
-    title: Metrics
+    title : Metrics
 
 ---
 

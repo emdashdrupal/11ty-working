@@ -1,9 +1,9 @@
 ---
-title: "Net Neutrality is important for content creators"
+title : "Net Neutrality is important for content creators"
 date: "2017-07-13"
 categories:
   - "social media"
-tags: "examples"
+tags : "examples"
 ---
 
 Today, July 12, is [Net Neutrality Day](https://www.battleforthenet.com/july12/). This is an important time for all people who use the internet, but particularly for those who use it to create content. For a good run-down of what's happening, see [Ars Technica](https://arstechnica.com/tech-policy/2017/07/how-title-ii-goes-beyond-net-neutrality-to-protect-internet-users-from-isps).

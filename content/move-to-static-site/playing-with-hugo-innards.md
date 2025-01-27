@@ -2,7 +2,7 @@
 title : "Learning how Hugo works"
 description: My first foray into learning static site generators.
 categories: "wordpress"
-tags: ["nah", "content-strategy"]
+tags : ["nah", "content-strategy"]
 date: "2024-11-24"
 FontAwesomeIcon: 'solid fa-school'
 ---

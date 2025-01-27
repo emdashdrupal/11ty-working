@@ -1,10 +1,10 @@
 ---
-title: "Is the Table of Contents Dead Online?"
+title : "Is the Table of Contents Dead Online?"
 date: "2013-06-06"
 categories:
   - "technical writing"
 
-tags: ["adobe-robohelp", "madcap flare", "examples"]
+tags : ["adobe-robohelp", "madcap flare", "examples"]
 ---
 
 In the past two days, I've had two experiences at work that make me wonder if search has killed the table of contents (TOC).

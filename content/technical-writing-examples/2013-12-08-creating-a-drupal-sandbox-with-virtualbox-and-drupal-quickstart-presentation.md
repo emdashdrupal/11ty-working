@@ -1,7 +1,7 @@
 ---
-title: "Creating a Drupal sandbox with VirtualBox and Drupal Quickstart (Presentation)"
+title : "Creating a Drupal sandbox with VirtualBox and Drupal Quickstart (Presentation)"
 date: "2013-12-08"
-tags: ["drupal", "how-to", "examples", "presentation"]
+tags : ["drupal", "how-to", "examples", "presentation"]
 ---
 
 I'm a fan enthusiast of [Drupal](http://drupal.org "Drupal"). I've been part of the community for [four years now](https://drupal.org/user/623158 "My profile on drupal.org"), and the amazingly supportive community is what keeps me engaged, as [I wrote after attending the Drupal NYCCamp earlier in 2013](http://edmarsh.com/2013/07/17/a-tech-writers-thoughts-on-nyc-drupal-camp-2013/ "A Tech Writer's Thoughts on NYC Drupal Camp 2013").

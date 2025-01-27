@@ -1,10 +1,10 @@
 ---
-title: "Holding somebody else's place with Sean Heckman"
+title : "Holding somebody else's place with Sean Heckman"
 date: "2018-04-20"
 categories:
   - "motorsports"
   - "podcast"
-tags:
+tags :
   - "lime-rock"
   - "podcasts"
 cover : "sean_heckman.jpg"

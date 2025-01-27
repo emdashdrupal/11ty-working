@@ -1,10 +1,10 @@
 ---
-title: "Time as a Tool featuring Alan Houser"
+title : "Time as a Tool featuring Alan Houser"
 date: "2015-03-18"
 categories:
   - "podcast"
   - "technical writing"
-description: "Alan Houser, technical communication consultant and former Society for Technical Communication President, drops by on a very cold President's Day holiday to talk about his experiences in STC leadership, web standard steering committees, structured authoring and DITA, Markdown, tools, podcasts, and more."
+description : "Alan Houser, technical communication consultant and former Society for Technical Communication President, drops by on a very cold President's Day holiday to talk about his experiences in STC leadership, web standard steering committees, structured authoring and DITA, Markdown, tools, podcasts, and more."
 mp3File: content-content-podcast-episode-2-alan-houser.mp3
 ---
 

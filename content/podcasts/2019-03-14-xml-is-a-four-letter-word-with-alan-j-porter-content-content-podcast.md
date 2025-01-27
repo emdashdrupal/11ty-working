@@ -1,5 +1,5 @@
 ---
-title: "XML is a four-letter word with Alan J. Porter"
+title : "XML is a four-letter word with Alan J. Porter"
 date: "2019-03-14"
 categories:
 
@@ -7,7 +7,7 @@ categories:
 - "motorsports"
 - "podcast"
 - "technical writing"
-tags:
+tags :
 - "content-marketing"
 - "content strategy"
 - "information architecture"

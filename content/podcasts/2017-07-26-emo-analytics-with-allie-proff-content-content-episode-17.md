@@ -1,5 +1,5 @@
 ---
-title: "Emo analytics with Allie Proff"
+title : "Emo analytics with Allie Proff"
 date: "2017-07-26"
 categories:
   - "content strategy"

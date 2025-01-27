@@ -1,11 +1,11 @@
 ---
-title: "Same mess different tools with Liz Fraley"
+title : "Same mess different tools with Liz Fraley"
 date: "2017-09-12"
 categories:
   - "podcast"
   - "social media"
   - "technical writing"
-tags:
+tags :
   - "dita"
 cover : "LizFraley_web_vert-246x300.jpg"
 coverAlt : "Liz Fraley, Content Content episode 19 guest"

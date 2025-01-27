@@ -1,5 +1,5 @@
 ---
-title: "The price is right with Tim Esposito"
+title : "The price is right with Tim Esposito"
 date: "2017-11-30"
 categories:
   - "content strategy"

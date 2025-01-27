@@ -1,5 +1,5 @@
 ---
-title: Takeaways
+title : Takeaways
 description: A frustrating process (and situation) is ultimately satisfying in multiple ways.
 FontAwesomeIcon: 'solid fa-plane-departure'
 ---

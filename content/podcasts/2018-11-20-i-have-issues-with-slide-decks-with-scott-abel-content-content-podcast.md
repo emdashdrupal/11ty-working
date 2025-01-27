@@ -1,12 +1,12 @@
 ---
-title: "I have issues with slide decks with Scott Abel"
+title : "I have issues with slide decks with Scott Abel"
 date: "2018-11-20"
 categories:
   - "content strategy"
   - "information architecture"
   - "podcast"
   - "technical writing"
-tags:
+tags :
   - "content strategy"
   - "information architecture"
   - "technical communication"

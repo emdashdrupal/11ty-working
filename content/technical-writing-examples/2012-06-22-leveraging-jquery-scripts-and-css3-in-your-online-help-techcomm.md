@@ -1,10 +1,10 @@
 ---
-title: "Leveraging jQuery scripts and CSS3 in your Online Help #techcomm"
+title : "Leveraging jQuery scripts and CSS3 in your Online Help #techcomm"
 date: "2012-06-22"
 categories:
   - "technical writing"
 
-tags: ["how to", "madcap flare", "examples", "html", "css", "adobe robohelp"]
+tags : ["how to", "madcap flare", "examples", "html", "css", "adobe robohelp"]
 coverImage: "search.png"
 ---
 

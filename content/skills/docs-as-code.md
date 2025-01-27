@@ -3,7 +3,7 @@ title : "Docs-as-code"
 description : "Docs-as-code works with developer-focused tools like Markdown, Git, and VS Code."
 FontAwesomeIcon: "solid fa-code"
 eleventyNavigation:
-    title: "Docs as code"
+    title : "Docs as code"
     parent: Skills
 ---
 

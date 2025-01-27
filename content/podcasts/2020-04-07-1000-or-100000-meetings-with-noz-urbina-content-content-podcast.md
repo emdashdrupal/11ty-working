@@ -1,5 +1,5 @@
 ---
-title: "1,000 or 100,000 meetings with Noz Urbina"
+title : "1,000 or 100,000 meetings with Noz Urbina"
 date: "2020-04-07"
 categories:
   - "content strategy"

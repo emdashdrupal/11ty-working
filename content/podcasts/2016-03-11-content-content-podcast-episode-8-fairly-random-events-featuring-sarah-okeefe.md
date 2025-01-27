@@ -1,13 +1,13 @@
 ---
-title: "Fairly random events featuring Sarah O'Keefe"
+title : "Fairly random events featuring Sarah O'Keefe"
 date: "2016-03-11"
 categories:
   - "content strategy"
   - "podcast"
   - "technical writing"
-tags:
+tags :
   - "dita"
-description: "Content strategy business owner Sarah O'Keefe talks about working with a CMS, content metrics, tekom, packing for flights, and her aversion to the nightshade family."
+description : "Content strategy business owner Sarah O'Keefe talks about working with a CMS, content metrics, tekom, packing for flights, and her aversion to the nightshade family."
 mp3File: Solving_content_problems_featuring_Sarah_OKeefe_Content_Content_podcast_episode_8.mp3
 ---
 ## Mentioned during this episode

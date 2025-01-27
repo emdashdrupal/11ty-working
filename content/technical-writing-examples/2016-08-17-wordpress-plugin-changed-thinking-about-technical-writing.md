@@ -1,11 +1,11 @@
 ---
-title: "What technical writers can learn from a WordPress plugin"
+title : "What technical writers can learn from a WordPress plugin"
 date: "2016-08-17"
 categories:
   - "content strategy"
   - "technical writing"
 
-tags:
+tags :
   - "wordpress"
   - "examples"
 ---

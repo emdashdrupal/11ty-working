@@ -1,5 +1,5 @@
 ---
-title: "All the things in my Venn diagram with Alisa Bonsignore"
+title : "All the things in my Venn diagram with Alisa Bonsignore"
 date: "2020-09-30"
 categories:
   - "content strategy"
