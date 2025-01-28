@@ -3,5 +3,7 @@
 {% include 'layouts/partials/hero-image.njk' %}
 </figure>
 {{ content | safe }}
-
+{% if collectionName == "podcasts" %}
+<button id="mp3Link"><a href="https://edmarsh.com/assets/podcasts/{{mp3File}}">Listen now</a></button>
+{% endif %}
 {% include 'layouts/partials/footer.njk' %}
