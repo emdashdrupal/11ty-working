@@ -10,13 +10,11 @@ tags :
   - "examples"
 ---
 
-I'm evaluating WordPress plugins for our [STC chapter's web site](http://www.stcnymetro.org/) migration. I use WordPress for edmarsh.com, but the requirements for a personal blog as opposed to a full-on web site &mdash; particularly plugins &mdash; are quite different.
+I'm evaluating WordPress plugins for our [STC chapter's web site](http://www.stcnymetro.org/) migration. I use WordPress for `edmarsh.com`, but the requirements for a personal blog as opposed to a full-on web site &mdash; particularly plugins &mdash; are quite different.
 
 ![The Yoast SEO WordPress plugin's keyword tab shows writers how their content compares to other sites using the selected keyword](/assets/images/yoast_seo_keyword_tab-300x186.png) The Yoast SEO WordPress plugin's keyword tab shows writers how their content compares to other sites using the selected keyword
 
 A post recently appeared on Facebook, advertising the [57 best WordPress plugins](https://sumome.com/stories/best-wordpress-plugins). The list felt a bit too self-promotional, but there were some good selections, and I implemented a few. The very first plugin on the list, [Yoast SEO](https://yoast.com/wordpress/plugins/seo/), changed the way I feel about writing, particularly for the web.
-
-
 
 ## What does the Yoast SEO WordPress plugin do?
 
@@ -26,13 +24,13 @@ Search Engine Optimization, or SEO, is a term long associated with derision. Som
 
 Yoast came with a new term for me, called the _1Mil/1K Club_, where a plugin has 1 million installations and 1000 5-star ratings.
 
-Once installed, a new section appears on all the post and page creation pages within WordPress. Two icons appear in the Publish section of the page; another appears in the Administration header. A whole new section appears below your text entry field. Two tabs &mdash; one for readability and one for SEO &mdash; help you identify issues with green/yellow/red icons. An eye icon appears next to the issues that it can highlight in your text, such as passive voice usage.
+Once installed, a new section appears on all the post and page creation pages within WordPress. Two icons appear in the **Publish** section of the page; another appears in the **Administration** header. A whole new section appears below your text entry field. Two tabs &mdash; one for readability and one for SEO &mdash; help you identify issues with green/yellow/red icons. An eye icon appears next to the issues that it can highlight in your text, such as passive voice usage.
 
 ## Why I now think differently about technical writing
 
-I first pointed Yoast to my [About page.](http://edmarsh.com/about/)  The plugin quickly illustrated how poorly organized the page was to achieve my goals, which is to tell people what I do. Yoast showed that the About page didn't say anything about _**me**_ if it came up in search results. It also indicated I should use more headings to break up the text, and ensure there aren't too many words per heading.
+I first pointed Yoast to my [About page](http://edmarsh.com/about/). The plugin quickly illustrated how poorly organized the page was to achieve my goals, which is to tell people what I do. Yoast showed that the About page didn't say anything about _me_ if it came up in search results. It also indicated I should use more headings to break up the text, and ensure there aren't too many words per heading.
 
-I found the "Snippet preview" on the Keyword tab helpful for the first sentence. This preview displays what users will see on Google when searching. It is also helpful for creating the short bursts of text that Twitter requires, which are automatically sent by another WordPress plugin.
+I found the &ldquo;Snippet preview&rdquo; on the Keyword tab helpful for the first sentence. This preview displays what users will see on Google when searching. It's also helpful for creating the short bursts of text that Twitter requires, which are automatically sent by another WordPress plugin.
 
 ![The Yoast SEO plugin snippet preview shows you how your post appears on Google.](/assets/images/yoast_seo_snippet_preview2-300x246.png) The Yoast SEO plugin snippet preview shows you how your post appears on Google. Using Yoast, you can customize how the results appear.
 
@@ -50,6 +48,6 @@ Yes, technical writing is different than web writing, but there are some things 
 
 However, consider that these are automated suggestions. I certainly haven't followed every single suggestion; some are frankly awkward. The focus keyword on the keyword tab doesn't consider plurals as part of the focus keyword. But using Yoast, I now think differently about how I write, both in my work and my blog.
 
-The downside? Continually re-crafting your writing and blog posts. I'm at revision 33 34 35 46 already. Prior to installing the Yoast SEO plugin, most of my blog posts had fewer than a dozen revisions!
+The downside? Continually re-crafting your writing and blog posts. I'm at revision ~~33 34 35~~ 46 already. Prior to installing the Yoast SEO plugin, most of my blog posts had fewer than a dozen revisions!
 
 What do you think about technical writing and tools like Yoast SEO?

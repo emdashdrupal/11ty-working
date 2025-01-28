@@ -50,7 +50,7 @@ a {
     text-decoration: none;
 
 }
-li {
+ul li {
     margin-bottom: 0.6rem;
     list-style-type: square;
     font-family: Besley, serif;
@@ -60,6 +60,14 @@ margin-left: 1%;
 
 ul {
     margin-top: 0.9rem;
+}
+
+ol li {
+    margin-bottom: 0.6rem;
+    list-style-type: decimal;
+    font-family: Besley, serif;
+font-optical-sizing: auto;
+margin-left: 1%;
 }
 
 th {

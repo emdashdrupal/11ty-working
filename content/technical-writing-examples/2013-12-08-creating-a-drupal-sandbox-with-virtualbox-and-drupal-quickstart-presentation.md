@@ -16,11 +16,11 @@ When I decided to create the site, instead of creating it on a web server with a
 
  Drupal is considered a Web content management system (WCMS), like WordPress or Joomla!, but I think of it as more of a framework for creating Web sites. Starting with the free, open-source Drupal core, you then add additional functionality through modules. For example, you can install modules to create a slideshow, translate pages, or work with Google Maps.
 
-Drupal's strength - and its weakness - is in its flexibility. Drupal is a powerful framework, but it takes some time to climb the learning curve.
+Drupal's strength &mdash; and its weakness &mdash; is in its flexibility. Drupal is a powerful framework, but it takes some time to climb the learning curve.
 
 ## What is a Virtual Machine?
 
-A virtual machine, also known as a VM, allows you to run one or multiple instances of various operating systems in their own window. Most Web sites are now running in virtualization, allowing several sites to run off of a single server. In my instance, the VM I'm using is running Drupal 7 on Ubuntu Linux in a Windows 8 host environment. This allows me to turn on and off the VM at will, just like an application.
+A virtual machine, also known as a *VM*, allows you to run one or multiple instances of various operating systems in their own window. Most Web sites are now running in virtualization, allowing several sites to run off of a single server. In my instance, the VM I'm using is running Drupal 7 on Ubuntu Linux in a Windows 8 host environment. This allows me to turn on and off the VM at will, just like an application.
 
 ### What is VirtualBox?
 
@@ -30,13 +30,13 @@ VirtualBox is another free, open-source application provided by Oracle. VirtualB
 
 Drupal Quickstart is a complete Drupal development environment in a single, downloadable 1.2GB file. Quickstart, and its newer sibling, [DrupalPro](http://drupal.org/project/drupalpro), include:
 
-- a working version of Ubuntu Linux
-- the AMP stack (Apache Web server, MySQL database, and PHP scripting language) required to run Drupal
-- development tools Netbeans and Eclipse
-- the Git version control system that is most frequently used with Drupal
+- A working version of Ubuntu Linux
+- The AMP stack (Apache Web server, MySQL database, and PHP scripting language) required to run Drupal
+- Development tools Netbeans and Eclipse
+- The Git version control system that is most frequently used with Drupal
 - [Drush, the Drupal command line administration tool](http://drush.org)
-- "make" files that you use to create instances of Drupal. The default comes with make files for Drupal versions 6, 7, and 8, or you can create your own makefile like I did using [drushmake.me](http://drushmake.me). Creating your own makefile allows you to automatically install common modules and themes (skins), as well as any optional modules you require.
+- `make` files that you use to create instances of Drupal. The default comes with make files for Drupal versions 6, 7, and 8, or you can create your own makefile like I did using [drushmake.me](http://drushmake.me). Creating your own makefile allows you to automatically install common modules and themes (skins), as well as any optional modules you require.
 
-What's great about Quickstart is that because it's all virtual, if you make a mistake (and I've made plenty!) you can just fire up a new version of Drupal, or a completely new version of the VM, if you need to. You can delete the broken versions using the Drush command line too, and learn and improve your site as you go. Once the site is developed to your liking, you can also use Drush to export the site and import it to your live Web server.
+What's great about Quickstart is that because it's all virtual, if you make a mistake (and I've made plenty!) you can just fire up a new version of Drupal, or a completely new version of the VM if you need to. You can delete the broken versions using the Drush command line too, and learn and improve your site as you go. Once the site is developed to your liking, you can also use Drush to export the site and import it to your live Web server.
 
 Stay tuned, once I complete and launch my new site, I'll be creating a new blog post on my experience with Drupal and Quickstart. Have questions about anything? Let me know in the comments.
