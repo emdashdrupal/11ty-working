@@ -1,13 +1,14 @@
 ---
-title : "Learning how Hugo works"
+title : "Learning how  static site generators work"
 description: My first foray into learning static site generators.
-categories: "wordpress"
-tags : ["nah", "content-strategy"]
+tags : ["ssg", "content-strategy", "hugo", "static site generators"]
 date: "2024-11-24"
 FontAwesomeIcon: 'solid fa-school'
 ---
 
 This largely applies to any static site generator (SSG).
+
+You're literally building out every single part of a web site. I don't really recommend doing this yourself, because the further you go into the process, the more you realize you have to learn and absorb. I won't deny it's fun, but there's a reason there are so many aspects and specialists who build websites.
 
 ## Setting up a theme
 

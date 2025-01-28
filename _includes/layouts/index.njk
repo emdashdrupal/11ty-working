@@ -1,12 +1,15 @@
 {% include 'layouts/partials/header.njk' %}
 
 <section class="mb-8" id="intro">
-    <p class="mt-2">
-        Welcome to my portfolio. I'm Ed Marsh. I'm a technical writer, information architect, content strategist, and podcaster. I've also dabbled in code my entire career. I'm passionate about making a difference through clear, well-organized, user-friendly documentation.
-    </p>
-    <p class="mt-2">
-        I (used to) <a href="podcasts/">host a podcast</a> where I interview content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more.
-    </p>
+
+    <div class="flex justify-end float-right ml-2">
+        <img src="/assets/images/me-head-shot-corrected-blue-backgrd-from-mike-225x300.jpg" alt="Ed Marsh" class="rounded-lg">
+    </div><div class="mt-2 mb-4 prose max-w-prose">
+        <p><span class="text-xl font-sans">Hi, I'm Ed Marsh</span>. Welcome to my portfolio. I'm a technical writer, information architect, content strategist, and podcaster. I help organizations create and manage content that is clear, concise, and consistent. Throughout my career, I've dabbled in code and am passionate about making a difference through clear, well-organized, user-friendly documentation.</p>
+
+        <p>I've worked in a variety of industries, including software and financial services, and with a variety of tools, including VS Code, RoboHelp, Flare, Confluence, and Oxygen XML Editor. I'm dedicated to helping organizations achieve their content goals through effective content strategy and technical communication.</p>
+        <p>I (used to) <a href="podcasts/">host a podcast</a> where I interview content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more.</p>
+    </div>
 </section>
 
 <section class="mb-8 border-2" id="grid-start">
@@ -34,11 +37,13 @@
     <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
         {% set collectionName = "podcasts" %}
         {% for item in collections.podcasts | reverse %}
-        {% if loop.index <= 4 %}
-            {% include 'layouts/partials/card.njk' %}
-        {% endif %}
+            {% if loop.index <= 4 %}
+                {% include 'layouts/partials/card.njk' %}
+            {% endif %}
         {% endfor %}
-        <h3 class="float-right italic"><a href="/content/podcasts/" class="card bg-gray-200 text-center">More podcasts</a></h3>
+        <h3 class="float-end italic">
+            <a href="/content/podcasts/" c>More podcasts</a>
+        </h3>
     </div>
 </section>
 
