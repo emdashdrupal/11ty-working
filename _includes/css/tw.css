@@ -1325,6 +1325,11 @@ video {
   fill: #1e293b;
 }
 
+.object-bottom {
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
 .p-2 {
   padding: 0.5rem;
 }

@@ -1,6 +1,7 @@
 ---
 title : Why I did what I did
 description: How did this project come about, and why I put myself through this.
+FontAwesomeIcon: solid fa-person-circle-question
 ---
 
 # what's my goal?
