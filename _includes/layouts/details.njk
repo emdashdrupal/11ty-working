@@ -6,5 +6,5 @@
 <button id="mp3Link" type="button" class="p-2 rounded-lg active:scale-95 transition-transform transform shadow-md hover:bg-green-700" aria-label="Listen to the {{ title }} podcast"><a href="/assets/podcasts/{{mp3File}}">Listen now</a></button>
 {% endif %}
 {{ content | safe }}
-
+{% include 'layouts/partials/next-previous.njk' %}
 {% include 'layouts/partials/footer.njk' %}
