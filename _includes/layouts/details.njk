@@ -1,4 +1,5 @@
 {% include 'layouts/partials/header.njk' %}
+{% if collectionName == "podcasts" %}
 <figure class="hero flex justify-end float-right ml-2">
 {% include 'layouts/partials/hero-image.njk' %}
 </figure>
@@ -8,6 +9,7 @@
 <div class="container xl:max-w-3xl md:max-w-lg sm:max-w-md ">
 {{ content | safe }}
 </div>
+{% endif %}
 
 {% include 'layouts/partials/next-previous.njk' %}
 {% include 'layouts/partials/footer.njk' %}
