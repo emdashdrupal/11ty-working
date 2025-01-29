@@ -50,7 +50,7 @@ mp3File: Undescribable_Me_featuring_Marcia_Riefer_Johnston-Content_Content_podca
 
 - [Robert Rose](http://robertrose.me/)
 
-- [Content Content podcast episode 3 featuring Danielle Villegas](../podcasts/2015-04-28-content-content-podcast-fire-fingers-featuring-danielle-villegas-episode-3/)
+- [Content Content podcast episode 3 featuring Danielle Villegas](../2015-04-28-content-content-podcast-fire-fingers-featuring-danielle-villegas-episode-3/)
 
 - [Dair Communications](http://www.daircomm.com/)
 
