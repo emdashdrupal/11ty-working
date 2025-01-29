@@ -6,10 +6,10 @@
             <span class="fa-solid fa-arrow-left-long"></span> Previous <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
 
             {% if nextPost %}
-            <div class="float-right">
-        Next <span class="fa-solid fa-arrow-right-long"></span>
-                <a href="{{ nextPost.url }}">{{ nextPost.data.title }}
-                </a>
+                <div class="float-right">
+
+                    <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a> Next
+                    <span class="fa-solid fa-arrow-right-long"></span>
                 </div>
             </div>
         {% endif %}

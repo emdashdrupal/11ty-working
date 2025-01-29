@@ -17,7 +17,7 @@
         <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
         <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
     </head>
-    <body class="bg-gray-100 body-{{title |slugify }}">
+    <body class="bg-gray-100 body-{{title | slugify }}">
         {% block nav %}
 {% include 'layouts/partials/navbar.njk'  %}
 {% endblock %}
@@ -25,7 +25,7 @@
     <main class="container mx-auto mt-8">
         <h1 class="text-2xl">{{title or metadata.title}}</h1>
         {% if page.date %}
-            <p class="font-sans">Updated: {{ page.date }}</p>
+            <p class="font-sans text-sm">Updated: {{ page.date.toUTCString()}}</p>
         {% endif %}
         <p id="Page description" class="mb-4 text-lg font-sans prose max-w-prose">
             {{ description or metadata.description }}

@@ -1,5 +1,5 @@
-
-html, body {
+html,
+body {
     font-family: "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1rem;
     color: #000;
@@ -7,36 +7,46 @@ html, body {
     line-height: 1.3rem;
 }
 
-p , .description{
+p,
+.description {
     margin: 0.5rem 0;
     font-family: Besley, serif;
+    font-size: 104%;
     font-optical-sizing: auto;
     font-weight: 400;
     color: #000;
-    line-height: 1.4rem;
+    line-height: 1.6rem;
 }
+
 p:last-of-type {
     margin-bottom: 1.5rem;
 }
 
 h1 {
     font-size: 1.45rem;
-    font-weight: 700;
-margin-bottom: 0.5rem;
-margin-top: 0;
-font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    font-family: "Poppins", sans-serif;
 }
+
 h2 {
     font-size: 1.3rem;
     font-weight: 600;
-font-family: "Poppins", sans-serif;}
+    margin: 2rem 0 1em 0;
+    font-family: "Poppins", sans-serif;
+}
+
 h3 {
     font-size: 1.2rem;
     font-weight: 700;
-margin: 1rem 0 .5rem 0;
-font-family: "Poppins", sans-serif;}
+    margin: 1rem 0 .5rem 0;
+    font-family: "Poppins", sans-serif;
+}
 
-pre, code, font-mono {
+pre,
+code,
+font-mono {
     font-family: "Reddit Mono", Consolas, Courier, monospace;
     margin: 0;
     padding: 0;
@@ -50,12 +60,13 @@ a {
     text-decoration: none;
 
 }
+
 ul li {
     margin-bottom: 0.6rem;
     list-style-type: square;
     font-family: Besley, serif;
-font-optical-sizing: auto;
-margin-left: 1%;
+    font-optical-sizing: auto;
+    margin-left: 1%;
 }
 
 ul {
@@ -66,8 +77,8 @@ ol li {
     margin-bottom: 0.6rem;
     list-style-type: decimal;
     font-family: Besley, serif;
-font-optical-sizing: auto;
-margin-left: 1%;
+    font-optical-sizing: auto;
+    margin-left: 1%;
 }
 
 th {
@@ -76,7 +87,9 @@ th {
     text-align: left;
 }
 
-table { margin-top: 2%;}
+table {
+    margin-top: 2%;
+}
 
 blockquote::before {
     content: "> Note";
@@ -85,7 +98,7 @@ blockquote::before {
 }
 
 blockquote {
-        margin: 1rem 0;
+    margin: 1rem 0;
     padding-left: 1rem;
     border-left: 3px solid #0074D9;
     border-right: 2px solid #0074D9;
@@ -97,7 +110,7 @@ blockquote {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     padding-top: 0px;
     top: 1.1rem;
@@ -119,7 +132,8 @@ blockquote {
     background-color: #f1f1f1;
 }
 
-.font-sans, .dropdown-toggle {
+.font-sans,
+.dropdown-toggle {
     font-family: "Poppins", Ubuntu, sans-serif;
 }
 
@@ -133,6 +147,6 @@ blockquote {
 }
 
 button {
- color: #f0f361;
+    color: #f0f361;
     background-color: #083d77;
 }
