@@ -1,5 +1,5 @@
 ---
-title : "Leveraging jQuery scripts and CSS3 in your Online Help #techcomm"
+title : "Leveraging jQuery scripts and CSS3 in your Online Help"
 date: "2012-06-22"
 categories:
   - "technical writing"

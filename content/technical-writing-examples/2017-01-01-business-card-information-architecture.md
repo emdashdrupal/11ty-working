@@ -20,7 +20,7 @@ At the end of a very long 2016, I scanned all of the business cards I collected 
 
 Business cards are no longer just a way to creatively and memorably share our contact information. They're also another data point that can be scanned, shared, analyzed, and retained in various ways.
 
-I [love Evernote](http://edmarsh.com/2013/11/06/evernote-the-ultimate-conference-tool/), and organize a large part of my life with it. It also performs optical character recognition (OCR) on items like business cards, so you can categorize and search for information.
+I [love Evernote](../3-11-06-evernote-the-ultimate-conference-tool/), and organize a large part of my life with it. It also performs optical character recognition (OCR) on items like business cards, so you can categorize and search for information.
 
 Once I started taking photos of the cards, I found that you can link your Evernote account to your LinkedIn account. This is a pretty cool feature, because you're always synched with your contacts' information. This process also highlighted the information architecture issues with some of the cards:
 

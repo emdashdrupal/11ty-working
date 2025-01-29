@@ -36,5 +36,5 @@ mp3File: Content-Content-podcast-episode-19-Liz-Fraley.mp3
 - [Ixiasoft](http://www.ixiasoft.com/en/)
 - [STC Summit](https://summit.stc.org)
 - [Scott Prentice](http://leximation.com/aboutscott.php)
-- [Alan Houser](http://edmarsh.com/2015/03/18/content-content-podcast-time-as-a-tool-featuring-alan-houser-episode-2/)
+- [Alan Houser](../5-03-18-content-content-podcast-time-as-a-tool-featuring-alan-houser-episode-2/)
 - [George Lakoff - _Moral Politics_](https://www.amazon.com/Moral-Politics-Liberals-Conservatives-Think/dp/0226467716)

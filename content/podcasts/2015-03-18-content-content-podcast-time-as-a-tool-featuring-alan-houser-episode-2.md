@@ -10,7 +10,7 @@ mp3File: content-content-podcast-episode-2-alan-houser.mp3
 
 ## Mentioned during this episode
 
-- [Content Content podcast, episode 1 featuring Sharon Burton](http://edmarsh.com/2015/02/06/introducing-the-content-content-podcast/ "Introducing the Content Content podcast &mdash; Offices without tarantulas featuring Sharon Burton &mdash; episode 1")
+- [Content Content podcast, episode 1 featuring Sharon Burton](../2015-02-06-introducing-the-content-content-podcast/ "Introducing the Content Content podcast &mdash; Offices without tarantulas featuring Sharon Burton &mdash; episode 1")
 
 - [Alan Houser on Twitter](http://twitter.com/arh "Alan Houser Twitter")
 

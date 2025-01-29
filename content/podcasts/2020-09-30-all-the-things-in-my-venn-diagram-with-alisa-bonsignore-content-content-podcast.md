@@ -17,5 +17,5 @@ mp3File : Content_Content_podcast_Alisa_Bonsignore.mp3
 - [Alisa on Twitter](https://twitter.com/clearwriter)
 - [American Medical Writers Association](https://www.amwa.org/)
 - [Melissa Breker](https://twitter.com/melissabreker?lang=en)
-- [Content Content podcast with Ben Woelk](http://edmarsh.com/2016/09/01/off-wall-presentations-featuring-ben-woelk-content-content-podcast-episode-11/)
-- [Content Content podcast with Andrea Ames](http://edmarsh.com/2018/01/23/installation-not-user-task-featuring-andrea-ames-content-content-podcast-episode-21)
+- [Content Content podcast with Ben Woelk](../6-09-01-off-wall-presentations-featuring-ben-woelk-content-content-podcast-episode-11/)
+- [Content Content podcast with Andrea Ames](../8-01-23-installation-not-user-task-featuring-andrea-ames-content-content-podcast-episode-21)

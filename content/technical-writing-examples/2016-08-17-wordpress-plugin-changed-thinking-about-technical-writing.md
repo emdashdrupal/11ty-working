@@ -20,7 +20,7 @@ A post recently appeared on Facebook, advertising the [57 best WordPress plugins
 
 ![Yoast SEO plugin shows you how your page rating in your Publish settings](/assets/images/yoast_seo_publish_location-214x300.png) Yoast SEO plugin shows your page rating in your Publish settings, as well as in the Administration banner
 
-Search Engine Optimization, or SEO, is a term long associated with derision. Some ([like me, in 2009](http://edmarsh.com/2009/08/19/tips-for-working-with-web-designers/)) think SEO consultants are a bunch of scammers trying to guarantee your site will automatically reach the top-10 in Google (it won't). I installed this plugin on edmarsh.com to see what it would do for my content, and while I still don't trust SEO consultants, the results surprised me.
+Search Engine Optimization, or SEO, is a term long associated with derision. Some ([like me, in 2009](../9-08-19-tips-for-working-with-web-designers/)) think SEO consultants are a bunch of scammers trying to guarantee your site will automatically reach the top-10 in Google (it won't). I installed this plugin on edmarsh.com to see what it would do for my content, and while I still don't trust SEO consultants, the results surprised me.
 
 Yoast came with a new term for me, called the _1Mil/1K Club_, where a plugin has 1 million installations and 1000 5-star ratings.
 

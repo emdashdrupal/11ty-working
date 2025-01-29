@@ -12,7 +12,7 @@ tags :
   - "reuse"
 ---
 
-I found a brilliant and surprising example of content reuse when I wanted to upload the [latest Content Content podcast](http://edmarsh.com/2015/07/08/content-content-podcast-episode-4-curse-of-knowledge-with-tom-johnson/) to YouTube. I'd never uploaded a podcast to YouTube before, so I tried to upload the `.mp3` file directly. YouTube quickly told me that wasn't allowed.
+I found a brilliant and surprising example of content reuse when I wanted to upload the [latest Content Content podcast](../5-07-08-content-content-podcast-episode-4-curse-of-knowledge-with-tom-johnson/) to YouTube. I'd never uploaded a podcast to YouTube before, so I tried to upload the `.mp3` file directly. YouTube quickly told me that wasn't allowed.
 
 ![YouTube lets you know that you can't upload mp3 files, and guides you to instructions to create a video file](/assets/images/youtube_no_audio_only.png) YouTube lets you know that you can't upload mp3 files, and guides you to instructions to create a video file
 
