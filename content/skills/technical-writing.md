@@ -5,4 +5,4 @@ FontAwesomeIcon : "solid fa-paragraph"
 ---
 
 
-See [examples of my work](/content/technical-writing-examples)
+See [examples of my work](/technical-writing-examples)
