@@ -2,9 +2,6 @@
 title : "Docs-as-code"
 description : "Docs-as-code works with developer-focused tools like Markdown, Git, and VS Code."
 FontAwesomeIcon: "solid fa-code"
-eleventyNavigation:
-    title : "Docs as code"
-    parent: Skills
 ---
 
 If you're writing developer-focused (or generated) content, there's a good chance you're working in a docs-as-code environment. Docs-as-code typically uses these tools to auto-generate documentation:

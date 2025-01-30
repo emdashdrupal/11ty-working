@@ -3,10 +3,6 @@ title : "Choosing a static site generator"
 description: What I knew I wanted (ease-of-use) and didn't want ("ease of use") out of static site generators.
 date: "2024-11-26"
 tags : "content-strategy"
-eleventyNavigation:
-  key : SSG
-  parent: Migration
-  order: 1
 FontAwesomeIcon: 'solid fa-file-waveform'
 ---
 

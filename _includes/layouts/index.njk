@@ -1,7 +1,5 @@
 {% include 'layouts/partials/header.njk' %}
 
-{% from "layouts/partials/macros/section.njk" import gridSection %}
-
 <main>
   <section class="mb-8" id="intro">
     <div class="flex justify-end float-right ml-2">
@@ -14,20 +12,46 @@
     <div class="mt-2 mb-4 prose max-w-prose">
       <p><span class="text-xl font-sans">Hi, I'm Ed Marsh</span>. I'm a technical writer, information architect, content strategist, community builder, and podcaster. I help organizations create and manage technical content that is clear, concise, and consistent. Throughout my career, I've dabbled in code and am passionate about making a difference through clear, well-organized, user-friendly documentation.</p>
 
-      <p>I've worked in software and financial services with a variety of tools, including RoboHelp, Flare, Confluence, VS Code, Git, Jira, and oXygen XML Editor. I'm dedicated to helping organizations achieve their content goals through effective content strategy and structure.</p>
+      <p>I've worked in software and financial services with a variety of tools, including RoboHelp, Flare, Confluence, VS Code, Markdown, Git, Jira, and oXygen XML Editor. I'm dedicated to helping organizations achieve their content goals through effective content strategy and structure.</p>
       <p>I (used to) <a href="podcasts/">host a podcast</a> where I interview content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more.</p>
     </div>
   </section>
 
-  {% for section in sections %}
-    {{ gridSection(
-        title=section.title,
-        collectionName=section.collectionName,
-        collections=collections,
-        limit=section.limit,
-        showMoreLink=section.showMoreLink
-    ) }}
-  {% endfor %}
+  <section class="mb-8 border-2" id="ssg">
+    <h2 class="px-3 py-2">Creating a static site</h2>
+    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
+      {% set collectionName = "ssg" %}
+      {% for item in collections.ssg %}
+        {% include 'layouts/partials/card.njk' %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="mb-8 border-2" id="skills">
+    <h2 class="px-3 py-2">My skills &mdash; how I can help you</h2>
+    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
+      {% set collectionName = "skills" %}
+      {% for item in collections.skills %}
+        {% include 'layouts/partials/card.njk' %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="mb-8 border-2" id="podcasts">
+    <h2 class="px-3 py-2">Recent podcasts</h2>
+    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
+      {% set collectionName = "podcasts" %}
+      {% for item in collections.podcasts | reverse  %}
+       {% if loop.index0 <= 3 %}
+                {% include 'layouts/partials/card.njk' %}
+            {% endif %}
+      {% endfor %}
+
+      <div class="col-span-full text-right italic">
+        <a href="/content/podcasts/">More podcasts</a>
+      </div>
+    </div>
+  </section>
 </main>
 
 {% include 'layouts/partials/footer.njk' %}
