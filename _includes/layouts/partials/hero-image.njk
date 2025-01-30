@@ -1,18 +1,24 @@
 {% if item.data.FontAwesomeIcon or FontAwesomeIcon %}
-
-    <div class="icon fa-{{ item.data.FontAwesomeIcon or FontAwesomeIcon }} text-4xl fill-slate-800 hover:bg-slate-200" aria-label="Icon representing the card"></div>
+    <div
+        class="icon fa-{{ item.data.FontAwesomeIcon or FontAwesomeIcon }} text-4xl fill-slate-800 hover:bg-slate-200"
+        aria-label="Icon representing {{ item.data.title }}"
+        title="Icon representing {{ item.data.title }}"
+    ></div>
 {% endif %}
 
 {% if collectionName == 'podcasts' %}
-    <a href="{{ item.url }}">
+    <a href="{{ item.url }}" title="Listen to {{ item.data.title }}">
         <img
         {% if cover or item.data.cover %}
-            src="/assets/images/{{ cover or item.data.cover }}" alt="{{ item.data.coverAlt | safe }}"
-{% endif %}
-            {% if not cover and not item.data.cover %}
-                src="/assets/images/content-content-podcast-new-cover.png" alt="Content Content podcast with Ed Marsh"
-            {% endif %}
+            src="/assets/images/{{ cover or item.data.cover }}"
+            alt="{{ item.data.coverAlt | safe }}"
+            title="{{ item.data.coverAlt | safe }}"
+        {% endif %}
+        {% if not cover and not item.data.cover %}
+            src="/assets/images/content-content-podcast-new-cover.png"
+            alt="Content Content podcast with Ed Marsh"
+            title="Content Content podcast with Ed Marsh"
+        {% endif %}
             class="h-48 rounded-2xl shadow-lg"/>
-        </a>
-
+    </a>
 {% endif %}

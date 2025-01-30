@@ -32,7 +32,12 @@
 
 {% macro renderButton(url, buttonText, title="") %}
 <div class="button flex pt-6">
-    <a href="{{ url }}" role="button" class="inline-block">
+    <a
+        href="{{ url }}"
+        role="button"
+        class="inline-block"
+        title="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
+    >
         <button
             type="button"
             class="p-2 rounded-lg active:scale-95 transition-transform transform shadow-md flex ml-2"
