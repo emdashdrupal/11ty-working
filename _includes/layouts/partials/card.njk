@@ -1,20 +1,13 @@
-<div class="card flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2">
-    <figure class="hero flex justify-center items-center">
-        {% include 'layouts/partials/hero-image.njk' %}
-    </figure>
-    <div class="flex flex-col p-4">
-        <h2 class="card-title leading-7 hover:bg-slate-200 pb-6">
-            <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
-        </h2>
-        <div class="description prose prose-md">
-            {{ item.data.description | safe }}
-        </div>
-        <div class="button flex pt-6">
-            <a href="{{ item.url }}">
-                <button type="button" class="p-2 rounded-lg active:scale-95 transition-transform transform shadow-md flex ml-2" aria-label="Learn more about Ed's {{ item.data.title }}">
-                    {{ item.data.buttonText }}
-                </button>
-            </a>
-        </div>
-    </div>
-</div>
+{% from "layouts/partials/macros.njk" import card %}
+
+{% set heroImage %}
+    {% include 'layouts/partials/hero-image.njk' %}
+{% endset %}
+
+{{ card(
+    url=item.url,
+    title=item.data.title,
+    description=item.data.description,
+    buttonText=item.data.buttonText,
+    heroImage=heroImage
+) }}

@@ -29,3 +29,30 @@
     <p>{{ item.data.description }}</p>
 </div>
 {% endmacro %}
+
+{% macro renderButton(url, buttonText, title="") %}
+<div class="button flex pt-6">
+    <a href="{{ url }}">
+        <button type="button" class="p-2 rounded-lg active:scale-95 transition-transform transform shadow-md flex ml-2" aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
+            {{ buttonText }}
+        </button>
+    </a>
+</div>
+{% endmacro %}
+
+{% macro card(url, title, description, buttonText, heroImage) %}
+<div class="card flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2">
+    <figure class="hero flex justify-center items-center">
+        {{ heroImage | safe }}
+    </figure>
+    <div class="flex flex-col p-4">
+        <h2 class="card-title leading-7 hover:bg-slate-200 pb-6">
+            <a href="{{ url }}">{{ title | safe }}</a>
+        </h2>
+        <div class="description prose prose-md">
+            {{ description | safe }}
+        </div>
+        {{ renderButton(url, buttonText, title) }}
+    </div>
+</div>
+{% endmacro %}

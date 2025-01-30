@@ -4,7 +4,12 @@
 {% include 'layouts/partials/hero-image.njk' %}
 </figure>
 {% if collectionName == "podcasts" %}
-<button id="mp3Link" type="button" class="p-2 rounded-lg active:scale-95 transition-transform transform shadow-md flex justify-end object-bottom ml-2" aria-label="Listen to the {{ title }} podcast"><a href="/assets/podcasts/{{mp3File}}">Listen now</a></button>
+{% from "layouts/partials/macros.njk" import renderButton %}
+{{ renderButton(
+    url="/assets/podcasts/" + mp3File,
+    buttonText="Listen now",
+    title=title + " podcast"
+) }}
 {% endif %}
 {% endif %}
 <div class="container xl:max-w-3xl md:max-w-lg sm:max-w-md ">

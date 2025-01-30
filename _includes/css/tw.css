@@ -1113,6 +1113,10 @@ video {
   grid-column: auto;
 }
 
+.col-span-full {
+  grid-column: 1 / -1;
+}
+
 .float-end {
   float: inline-end;
 }
@@ -1386,6 +1390,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .font-sans {
