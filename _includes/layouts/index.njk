@@ -41,8 +41,10 @@
     <h2 class="px-3 py-2">Recent podcasts</h2>
     <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
       {% set collectionName = "podcasts" %}
-      {% for item in collections.podcasts | reverse | limit(4) %}
-        {% include 'layouts/partials/card.njk' %}
+      {% for item in collections.podcasts | reverse  %}
+       {% if loop.index0 <= 3 %}
+                {% include 'layouts/partials/card.njk' %}
+            {% endif %}
       {% endfor %}
 
       <div class="col-span-full text-right italic">

@@ -161,11 +161,12 @@ blockquote {
 }
 
 button {
-    background-color: var(--russian-violet);
-    color: var(--ecru)
+    background-color: var(--cadet-gray);
+    color: white
 }
 
 button:hover {
-    background-color: var(--ecru);
-    color: var(--tyrian-purple);
+    background-color: var(--midnight-green);
+    color: var(--ecru)
+
 }

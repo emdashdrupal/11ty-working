@@ -15,7 +15,16 @@ He created his [first web site](https://web.archive.org/web/19991008110914/http:
 
 Ed started his career as a tech writer in New York City for small- and mid-size software companies. In 2011, he joined Goldman Sachs as a technical writer and eLearning developer in Jersey City, NJ and New York City, rising to the position of Vice President. Working in this enterprise environment taught Ed the importance of working across silos, managing risk, and governance.
 
-He is experienced in, and passionate about, information architecture and content strategy. As a technical writer, he has created online help, multimedia, podcasts, eLearning modules, cheat sheets, technical illustrations, printed manuals, and PDF documentation.
+He is experienced in, and passionate about, information architecture and content strategy. As a technical writer, he has created:
+
+- Online help
+- Multimedia
+- Podcasts
+- eLearning modules
+- Cheat sheets
+- Technical illustrations
+- Printed manuals
+- PDF documentation.
 
 ## Philanthropy
 
@@ -23,7 +32,7 @@ Ed has always believed in giving back:
 
 - In 2015, Ed created, hosted, and produced the [Content Content podcast](/content/podcasts/), interviewing technical communicators, content strategists, and other content professionals.
 - Presented at [local meetups, regional, and international conferences](http://www.slideshare.net/theedmarsh/).
-  - His most recent presentation was [So, you want to be a technical writer?](https://www.brighttalk.com/webcast/9273/608187?utm_source=brighttalk-sharing&utm_medium=web&utm_campaign=linkshare)
+  - His most recent presentation is [So, you want to be a technical writer?](https://www.brighttalk.com/webcast/9273/608187?utm_source=brighttalk-sharing&utm_medium=web&utm_campaign=linkshare)
   - [Pros and Cons of Using Markdown for Technical Documentation Panel Discussion](https://www.brighttalk.com/webcast/9273/608016)
   - [Blogs, Vlogs, and Podcasts, STC Rochester Spectrum conference, 2023](https://stc-rochester.org/conference-session-descriptions/)
 - Podcast guest:
