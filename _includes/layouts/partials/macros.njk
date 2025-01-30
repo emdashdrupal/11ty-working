@@ -1,72 +1,76 @@
 {% macro dropdown(id, label, items, homepageUrl) %}
-<li class="relative list-none font-sans dropdown">
-    <a href="{{ homepageUrl }}" id="{{ id }}" class="dropdown-toggle text-gray-800">{{ label }}</a>
-    <ul
+    <li class="relative list-none font-sans dropdown">
+        <a href="{{ homepageUrl }}" id="{{ id }}" class="dropdown-toggle text-gray-800">{{ label }}</a>
+        <ul
         id="{{ id }}Submenu"
         class="absolute hidden shadow-md rounded-md bg-medium-blue dropdown-menu"
         aria-labelledby="{{ id }}"
     >
-        {% for item in items %}
-            <li class="list-none font-sans">
-                <a href="{{ item.url | url }}" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">{{ item.data.title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
-</li>
+            {% for item in items %}
+                <li class="list-none font-sans">
+                    <a href="{{ item.url | url }}" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">{{ item.data.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </li>
 {% endmacro %}
 
 {% macro listItem(url, label) %}
-<li class="list-none font-sans text-gray-800">
-    <a class="text-gray-800"href="{{ url }}">{{ label }}</a>
-</li>
+    <li class="list-none font-sans text-gray-800">
+        <a class="text-gray-800"href="{{ url }}">{{ label }}</a>
+    </li>
 {% endmacro %}
 
 {% macro gridItem(item) %}
-<div class="bg-whitish p-4">
-    <h3 class"text-gray-800">
-        <a class="text-gray-800" href="{{ item.url }}">{{ item.data.title | safe }}</a>
-    </h3>
-    <p>{{ item.data.description }}</p>
-</div>
+    <div class="bg-whitish p-4">
+        <h3 class"text-gray-800">
+            <a class="text-gray-800" href="{{ item.url }}">{{ item.data.title | safe }}</a>
+        </h3>
+        <p>{{ item.data.description }}</p>
+    </div>
 {% endmacro %}
 
-{% macro renderButton(url, buttonText, title="") %}
-<div class="button flex pt-6">
-    <a
+{% macro renderButton(url, buttonText, title = "") %}
+    <div class="button flex pt-6">
+        <a
         href="{{ url }}"
         role="button"
         class="inline-block"
         title="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
     >
-        <button
+            <button
             type="button"
             class="p-2 rounded-lg active:scale-95 transition-transform transform shadow-md flex ml-2"
             aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
         >
-            <span class="sr-only">{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}</span>
-            {{ buttonText }}
-        </button>
-    </a>
-</div>
+                <span class="sr-only">
+                    {% if title %}Learn more about {{ title }}
+                    {% else %}{{ buttonText }}
+                    {% endif %}
+                </span>
+                {{ buttonText }}
+            </button>
+        </a>
+    </div>
 {% endmacro %}
 
 {% macro card(url, title, description, buttonText, heroImage) %}
-<article
+    <article
     class="card flex flex-col rounded-xl bg-whitish shadow-xl max-w-md my-2 h-full"
     role="article"
     aria-labelledby="card-title-{{ title | slugify }}"
 >
-    <figure class="hero flex justify-center items-center" role="img" aria-label="{% if heroImage %}Hero image for {{ title }}{% endif %}">
-        {{ heroImage | safe }}
-    </figure>
-    <div class="flex flex-col p-4 h-full">
-        <h2 id="card-title-{{ title | slugify }}" class="card-title leading-7 hover:bg-slate-200 pb-6">
-            <a href="{{ url }}" aria-label="Read more about {{ title }}">{{ title | safe }}</a>
-        </h2>
-        <div class="description prose prose-md flex-grow">
-            {{ description | safe }}
+        <figure class="hero flex justify-center items-center" role="img" aria-label="{% if heroImage %}Hero image for {{ title }}{% endif %}">
+            {{ heroImage | safe }}
+        </figure>
+        <div class="flex flex-col p-4 h-full">
+            <h2 id="card-title-{{ title | slugify }}" class="card-title leading-7 hover:bg-cadet-gray pb-6">
+                <a href="{{ url }}" aria-label="Read more about {{ title }}">{{ title | safe }}</a>
+            </h2>
+            <div class="description prose prose-md flex-grow">
+                {{ description | safe }}
+            </div>
+            {{ renderButton(url, buttonText, title) }}
         </div>
-        {{ renderButton(url, buttonText, title) }}
-    </div>
-</article>
+    </article>
 {% endmacro %}

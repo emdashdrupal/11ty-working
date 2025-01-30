@@ -16,7 +16,7 @@ Andrea is the CEO of [Idyll Point Group](https://idyllpointgroup.com?utm_source=
 
 ## Mentioned during this episode
 
- [Idyll Point Group on Facebook](https://www.facebook.com/IdyllPointGroup/?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)
+- [Idyll Point Group on Facebook](https://www.facebook.com/IdyllPointGroup/?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)
 - [Andrea’s _Content Hacker_ podcast](https://www.idyllpointgroup.com/podcast?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)
 - [Don Day and Michael Priestley on the beginnings of DITA part 1 - DITAWriter](http://www.ditawriter.com/don-day-and-michael-priestley-on-the-beginnings-of-dita-part-1?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)
 - [Don Day and Michael Priestley on the beginnings of DITA part 2 - DITAWriter](http://www.ditawriter.com/don-day-and-michael-priestly-on-the-beginnings-of-dita-part-2?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)
@@ -24,10 +24,9 @@ Andrea is the CEO of [Idyll Point Group](https://idyllpointgroup.com?utm_source=
 - [Amy Porterfield's podcast](http://www.amyporterfield.com/amy-porterfield-podcast?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)
 - [Michael Hyatt's _Lead to Win_ podcast](https:michaelhyatt.com/leadtowin?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)
 - [Michael Hyatt talks about his fear of speaking](https://michaelhyatt.com/podcast-afraid-to-set-goals?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)
-- [Poker with Andrea, Joe Pulizzi, Vishal Khanna, and Carlos Abler](http://wqusability.com?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21></a>Whitney Quesenbery
-<div></div>
+- [Whitney Quesenbery](https://whitneyq.com?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)
 <h3>Enterprise Marketer podcasts</h3>
-<a href=)
+
 - [Poker with Andrea Fryrear, Robert Rose, Buddy Scalera, and Matthew Balogh](https://enterprisemarketer.com/podcasts/enterprise-marketer-podcast-conference/icc-show-50-poker-game?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)
 - [Andrea on the Enterprise Marketer podcast](https://enterprisemarketer.com/podcasts/enterprise-marketer-podcast-conference/52-andrea-ames?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)
 - [STC IDL (Instructional Design and Learning) SIG](www.stcidlsig.org?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)
