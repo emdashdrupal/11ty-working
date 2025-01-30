@@ -3,7 +3,6 @@ title : "Is the Table of Contents Dead Online?"
 date: "2013-06-06"
 categories:
   - "technical writing"
-
 tags : ["adobe-robohelp", "madcap flare", "examples"]
 ---
 
@@ -17,6 +16,6 @@ In the second instance, a new contact with whom I was working became confused be
 
 I'm pretty sure the TOC isn't going away anytime soon, especially as the breadcrumbs in RoboHelp are based on the TOC hierarchy, but it does seem like they have become less useful.
 
-**Update:** As I was going through our server usage statistics for the month of May, approximately _97%_ _of hits came from search_; the remaining 3% were direct hits to topics. The TOC may well be dead.
+> **Update:** As I was going through our server usage statistics for the month of May, approximately _97%_ _of hits came from search_; the remaining 3% were direct hits to topics. The TOC may well be dead.
 
 Have you seen similar issues? Do people in your organization still use the TOC, or is search their primary navigation tool?

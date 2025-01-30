@@ -22,7 +22,7 @@
 {% endmacro %}
 
 {% macro gridItem(item) %}
-<div class="bg-white p-4">
+<div class="bg-whitish p-4">
     <h3 class"text-gray-800">
         <a class="text-gray-800" href="{{ item.url }}">{{ item.data.title | safe }}</a>
     </h3>
@@ -52,7 +52,7 @@
 
 {% macro card(url, title, description, buttonText, heroImage) %}
 <article
-    class="card flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2 h-full"
+    class="card flex flex-col rounded-xl bg-whitish shadow-xl max-w-md my-2 h-full"
     role="article"
     aria-labelledby="card-title-{{ title | slugify }}"
 >

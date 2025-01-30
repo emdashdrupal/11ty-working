@@ -11,17 +11,69 @@
     --green-blue: #4b788a;
   }
 
-  .bg-grey-green {
-    background-color: var(--grey-green);
+  /* Text color classes */
+  .text-blue {
+    color: var(--blue);
+  }
+  .text-white {
+    color: var(--white);
+  }
+  .text-midnight-green {
+    color: var(--midnight-green);
+  }
+  .text-light-blue {
+    color: var(--light-blue);
+  }
+  .text-cadet-gray {
+    color: var(--cadet-gray);
+  }
+  .text-ecru {
+    color: var(--ecru);
+  }
+  .text-whitish {
+    color: var(--whitish);
+  }
+  .text-grey-green {
+    color: var(--grey-green);
+  }
+  .text-medium-blue {
+    color: var(--medium-blue);
+  }
+  .text-green-blue {
+    color: var(--green-blue);
+  }
+
+  /* Background color classes */
+  .bg-blue {
+    background-color: var(--blue);
+  }
+  .bg-white {
+    background-color: var(--white);
+  }
+  .bg-midnight-green {
+    background-color: var(--midnight-green);
+  }
+  .bg-light-blue {
+    background-color: var(--light-blue);
   }
   .bg-cadet-gray {
     background-color: var(--cadet-gray);
   }
-
+  .bg-ecru {
+    background-color: var(--ecru);
+  }
+  .bg-whitish {
+    background-color: var(--whitish);
+  }
+  .bg-grey-green {
+    background-color: var(--grey-green);
+  }
   .bg-medium-blue {
     background-color: var(--medium-blue);
   }
-
+  .bg-green-blue {
+    background-color: var(--green-blue);
+  }
 
 html,
 body {
@@ -81,7 +133,7 @@ font-mono {
 }
 
 a {
-    color: var(--medium-blue);
+    color: var(--green-blue);
     text-decoration: none;
 }
 
@@ -121,7 +173,7 @@ table {
 
 blockquote::before {
     content: "> Note";
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: var(--cadet-gray);
 }
 
