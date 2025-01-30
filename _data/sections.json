@@ -1,0 +1,16 @@
+{
+  "ssg": {
+    "title": "Creating a static site",
+    "collectionName": "ssg"
+  },
+  "skills": {
+    "title": "My skills — how I can help you",
+    "collectionName": "skills"
+  },
+  "podcasts": {
+    "title": "Recent podcasts",
+    "collectionName": "podcasts",
+    "limit": 4,
+    "showMoreLink": "/content/podcasts/"
+  }
+}

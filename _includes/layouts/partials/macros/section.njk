@@ -1,0 +1,18 @@
+{% macro gridSection(title, collectionName, collections, limit=0, showMoreLink="") %}
+<section class="mb-8 border-2" id="{{ collectionName }}">
+    <h2 class="px-3 py-2">{{ title }}</h2>
+    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
+        {% for item in collections[collectionName] | reverse %}
+            {% if not limit or loop.index0 < limit %}
+                {% include 'layouts/partials/card.njk' %}
+            {% endif %}
+        {% endfor %}
+
+        {% if showMoreLink %}
+        <div class="col-span-full text-right italic">
+            <a href="{{ showMoreLink }}">More {{ collectionName }}</a>
+        </div>
+        {% endif %}
+    </div>
+</section>
+{% endmacro %}
