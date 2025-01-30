@@ -23,12 +23,12 @@
 {% endblock %}
 {% block content %}
     <main class="container mx-auto mt-8">
-        <h1 class="text-2xl">{{title or metadata.title}}</h1>
+        <h1 id={{title | slugify}}>{{title or metadata.title}}</h1>
         {% if page.date %}
             <p class="font-sans text-sm">Updated: {{ page.date.toUTCString()}}</p>
         {% endif %}
         {% if description or metadata.description %}
-        <p id="page-description" class="mb-4 text-lg font-sans prose max-w-prose">
+        <p id="page-description" class="mb-4 text-lg font-sans">
             {{ description or metadata.description | safe }}
         </p>
         {% endif %}
