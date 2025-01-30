@@ -1,18 +1,27 @@
 :root {
     --blue: #1e90ff;
-    --tailwind-blue: #0074D9;
     --white: #ffffff;
     --midnight-green: #0b5563;
     --light-blue: #0074D9;
     --cadet-gray: #94a3b8;
     --ecru : #aba361;
-    --russian-violet: #42033d;
-    --tyrian-purple: #680e4b;
     --whitish: #f7f7f8;
     --grey-green: #96a396;
     --medium-blue: #678bb1;
     --green-blue: #4b788a;
   }
+
+  .bg-grey-green {
+    background-color: var(--grey-green);
+  }
+  .bg-cadet-gray {
+    background-color: var(--cadet-gray);
+  }
+
+  .bg-medium-blue {
+    background-color: var(--medium-blue);
+  }
+
 
 html,
 body {
@@ -72,7 +81,7 @@ font-mono {
 }
 
 a {
-    color: var(--green-blue);
+    color: var(--medium-blue);
     text-decoration: none;
 }
 
@@ -160,7 +169,7 @@ blockquote {
 }
 
 .icon {
-    color: var(--green-blue);
+    color: var(--cadet-gray);
 
 }
 
