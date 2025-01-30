@@ -52,18 +52,18 @@
 
 {% macro card(url, title, description, buttonText, heroImage) %}
 <article
-    class="card flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2"
+    class="card flex flex-col rounded-xl bg-[#ffffff] shadow-xl max-w-md my-2 h-full"
     role="article"
     aria-labelledby="card-title-{{ title | slugify }}"
 >
     <figure class="hero flex justify-center items-center" role="img" aria-label="{% if heroImage %}Hero image for {{ title }}{% endif %}">
         {{ heroImage | safe }}
     </figure>
-    <div class="flex flex-col p-4">
+    <div class="flex flex-col p-4 h-full">
         <h2 id="card-title-{{ title | slugify }}" class="card-title leading-7 hover:bg-slate-200 pb-6">
             <a href="{{ url }}" aria-label="Read more about {{ title }}">{{ title | safe }}</a>
         </h2>
-        <div class="description prose prose-md">
+        <div class="description prose prose-md flex-grow">
             {{ description | safe }}
         </div>
         {{ renderButton(url, buttonText, title) }}
