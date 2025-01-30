@@ -48,7 +48,7 @@ mp3File : content_content_episode_3_-_Danielle_Villegas.mp3
 
 - [Adobe Audition for podcasters YouTube playlist](https://www.youtube.com/playlist?list=PL6wGbZVVzENl4a7UbF52s36bxQZC-SzM-)
 
-- [Deconstructing a Twitter Post](http://edmarsh.com/2009/12/08/deconstructing-a-twitter-post-2/ "Deconstructing a Twitter Post")
+- [Deconstructing a Twitter Post](../2009-12-08-deconstructing-a-twitter-post-2/ "Deconstructing a Twitter Post")
 
 - [contentcontent.info](http://contentcontent.info "content content dot info")
 

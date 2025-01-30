@@ -20,13 +20,19 @@ You're literally building out every single part of a web site. I don't really re
 
 If you've ever converted content from one format to another, you know the most tedious part is cleaning up all the legacy stuff like proprietary formatting.
 
-things like `![](http://img.zemanta.com/pixy.gif?x-id=5bc6676b-470d-892c-8856-27ad9e359ca8)`
+things like
 
-Thankfully the conversion tool i used made it fairly easy, but there were certainly WordPress artifacts:
+```html
+![](http://img.zemanta.com/pixy.gif?x-id=5bc6676b-470d-892c-8856-27ad9e359ca8)
+```
 
-`\[powerpress\_playlist limit=20 images=true image="http://edmarsh.com/wp-content/uploads/2016/05/Complimentary\_sandwich\_featuring\_Todd\_DeLuca\_Content\_Content\_episode\_9-mp3-image-300x300.jpg" links=true\]`
+Thankfully the conversion tool I used made it fairly easy, but there were plenty of WordPress artifacts I had to clean up.It's good to know regex and global search and replace, but there is still a manual aspect to this process:
 
-it's good to know regex and global search and replace, but there is still a manual aspect to this process.
+```html
+`\[powerpress\_playlist limit=20 images=true image="http://edmarsh.com/wp-content/uploads/2016/05/Complimentary\_sandwich\_featuring\_Todd\_DeLuca\_Content\_Content\_episode\_9-mp3-image-300x300.jpg" links=true\]
+```
+
+I can't remember the conversion tool I used, but it's easy to try several and figure out which is best for your use case.
 
 what to do with broken links?
 
@@ -39,9 +45,9 @@ start with what i have and know to better understand hugo as i go
 
 ### Should it stay or should it go
 
-finding my old blog and the nostalgia of not only the posts, but of how the internet used to be. i've struggled to decide whether or not i want all that personal info out there in 2024. Complicating things is the crossover between topics that were technically technical on my blog, and the personal things. For example, later in this series i mention that I was using versions of linux 10 years ago, but you can't confirm that because it's essentially been wiped from the internet outside of the Wayback Machine.
+Finding my old blog and the nostalgia of not only the posts, but of how the internet used to be. i've struggled to decide whether or not i want all that personal info out there in 2024. Complicating things is the crossover between topics that were technically technical on my blog, and the personal things. For example, later in this series i mention that I was using versions of linux 10 years ago, but you can't confirm that because it's essentially been wiped from the internet outside of the Wayback Machine.
 
-Then I cleaned up a bunch of metadata and went through it again and archived it. Once I get a handle on all of this, maybe i'll bring back some relevant posts. But removing that burden of randomness allowed me to focus on the important parts of the site &mdash; and in 2024 that's not my 16-year-old blog from LiveJournal and LiveScribe.
+Then I cleaned up a bunch of metadata and went through it again and archived it. Once I get a handle on all of this, maybe I'll bring back some relevant posts. But removing that burden of randomness allowed me to focus on the important parts of the site &mdash; and in 2024 that's not my 16-year-old blog from LiveJournal and LiveScribe.
 
 ## Cart, meet horse
 

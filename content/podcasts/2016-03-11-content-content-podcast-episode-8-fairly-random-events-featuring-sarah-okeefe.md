@@ -20,7 +20,7 @@ mp3File: Solving_content_problems_featuring_Sarah_OKeefe_Content_Content_podcast
 - [North Carolina Research Triangle](https://en.wikipedia.org/wiki/Research_Triangle?wprov=sfla1)
 - [Net promoter score](http://netpromoter.com)
 - [Learning DITA](http://learningdita.com)
-- [Content Content podcast episode 7 Curious about content featuring David Dylan Thomas/](http://edmarsh.com/2016/01/19/content-content-podcast-episode-7-curious-about-content-featuring-david-dylan-thomas/)
+- [Content Content podcast episode 7 Curious about content featuring David Dylan Thomas/](../6-01-19-content-content-podcast-episode-7-curious-about-content-featuring-david-dylan-thomas/)
 - [Sturm und DITA-Drang at tekom](http://www.scriptorium.com/2015/11/sturm-und-dita-drang-at-tekom/)
 - [Ravelry knitting community](http://ravelry.com)
 - [Head Fi headphone community](http://head-fi.org)

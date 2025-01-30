@@ -13,7 +13,7 @@ I wanted to create an Outlook 2013 email rule to respond to emails sent to a spe
 
 Then, in the top-right corner, it appeared. Sort of. Now don't get me started about the ALL CAPS MENUS in Office 2013 (and also Adobe's Creative Suite), but it's surprising how the help icon is almost an afterthought.
 
-![Microsoft Office 2013 window bar - can you see the help icon?](/assets/images/outlook_help_icon_location-1600x48.png) Microsoft Office 2013 window bar - can you find the help icon? Also, Why all caps menus, why?!
+![Microsoft Office 2013 window bar - can you see the help icon?](/assets/images/outlook_help_icon_location-1600x48.png) Microsoft Office 2013 window bar &mdash; can you find the help icon? Also, Why all caps menus, why?!
 
 So why the change? Do people need help less, or are they just looking at help less? Are they Googling more? Or is it because flat design is in?
 
