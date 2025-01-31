@@ -1,13 +1,31 @@
 const syntaxHighlightPlugin = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
-const md = new markdownIt();
+
+// Create markdown-it instance with custom configuration
+const mdOptions = {
+  html: true,        // Enable HTML tags in source
+  breaks: true,      // Convert '\n' in paragraphs into <br>
+  linkify: true,     // Autoconvert URL-like text to links
+  typographer: true  // Enable smartquotes and other typographic replacements
+};
+
+const md = new markdownIt(mdOptions)
+  .use(require('markdown-it-anchor'))  // Add anchor links to headings
+  .use(require('markdown-it-attrs'));  // Add attribute support
 
 module.exports = function (eleventyConfig) {
-  // Add markdown filter
-  eleventyConfig.addFilter("markdown", function(value) {
-    if (!value) return '';
-    return md.render(value);
+  // Set markdown-it as the markdown processor
+  eleventyConfig.setLibrary("md", md);
+
+  // Add markdown filter with type checking
+  eleventyConfig.addFilter("markdown", function(content) {
+    if (!content) {
+      return '';
+    }
+    // Ensure content is a string
+    const stringContent = String(content);
+    return md.render(stringContent);
   });
 
   // Add plugins

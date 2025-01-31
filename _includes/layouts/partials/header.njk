@@ -30,7 +30,7 @@
         {% endif %}
         {% if description or metadata.description %}
         <p id="page-description" class="mb-4 text-lg font-sans">
-            {{ description or metadata.description | safe }}
+            {{ description or metadata.description | markdown | safe }}
         </p>
         {% endif %}
     {% endblock %}
