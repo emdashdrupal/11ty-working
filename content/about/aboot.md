@@ -2,6 +2,7 @@
 title: "About Ed Marsh"
 description: "Technical writer, information architect, content strategist, and community builder with over two decades of experience in making complex information accessible."
 layout: layouts/details.njk
+category: "About"
 ---
 
 I've always been curious about technology. As a kid, I was the one who pushed all the buttons to see what would happen. That curiosity led to an award-winning career in technical communication.

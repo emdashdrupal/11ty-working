@@ -2,5 +2,6 @@
     "buttonText": "Learn more",
     "collectionName": "skills",
     "layout": "layouts/details.njk",
-    "tags": "skills"
+    "tags": "skills",
+    "category": "Skills"
 }

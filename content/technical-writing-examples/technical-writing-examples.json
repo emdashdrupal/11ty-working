@@ -2,5 +2,6 @@
     "buttonText": "Learn more",
     "collectionName": "examples",
     "layout": "layouts/details.njk",
-    "tags": "examples"
+    "tags": "examples",
+    "category": "Writing samples"
 }
