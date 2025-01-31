@@ -4,4 +4,4 @@ FontAwesomeIcon: "solid fa-file-shield"
 description : "Content without governance is an organizational nightmare, unsustainable, and impossible to maintain."
 ---
 
-<p>Every content site in your company needs a goal, organization, style, and yeh.</p>
+Every content site in your company needs a goal, organization, style, and yeh.
