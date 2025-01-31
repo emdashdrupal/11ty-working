@@ -40,3 +40,4 @@ dir: {
 ## Learning curve
 
 Who knew the hardest part would be to figure out pathing?
+$$

@@ -21,6 +21,7 @@
         {% block nav %}
 {% include 'layouts/partials/navbar.njk' %}
 {% endblock %}
+{% include 'layouts/partials/breadcrumb.njk' %}
 {% block content %}
     <main class="container mx-auto mt-8">
         <h1 id={{title | slugify}}>{{title or metadata.title}}</h1>

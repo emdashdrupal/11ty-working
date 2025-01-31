@@ -3,5 +3,6 @@
     "buttonText": "Read more",
     "collectionName": "ssg",
     "tags": "ssg",
-    "layout": "layouts/details.njk"
+    "layout": "layouts/details.njk",
+    "category": "Static site transformation"
 }
