@@ -6,11 +6,11 @@ layout: layouts/details.njk
 
 I've always been curious about technology. As a kid, I was the one who pushed all the buttons to see what would happen. That curiosity led to an award-winning career in technical communication.
 
-## Career Journey
+## Career journey
 
-My web journey started in the mid-1990s with my [first website](https://web.archive.org/web/19991008110914/http://www.geocities.com/SoHo/Cafe/8299/frameset.html). Since then, I've evolved with technology - from self-hosting WordPress to building this site with Eleventy in 2024. This evolution reflects my commitment to understanding and documenting technology.
+My web journey started in the mid-1990s with my [first website](https://web.archive.org/web/19991008110914/http://www.geocities.com/SoHo/Cafe/8299/frameset.html). Since then, I've evolved with technology &mdash; from self-hosting WordPress to building this site with Eleventy in 2024. This evolution reflects my commitment to understanding and documenting technology.
 
-My career started in New York City's software industry in 1994 as a &ldquo;technical writing assistant&rdquo; (I didn't know what technical writing was at the time). I learned how to be a technical writer at Information Builders (now part of Tibco). After a stint as a solo technical writer for a financial services technical provider where I spent time on a trading floor and in data centers, I progressed to Goldman Sachs, where I advanced to Vice President as a technical writer and eLearning developer. Working in small, medium, and enterprise environments taught me crucial lessons about:
+My career started in New York City's software industry in 1994 as a &ldquo;technical writing assistant&rdquo; (I didn't know what technical writing was at the time). I learned how to be a technical writer at Information Builders (now part of Tibco) as part of a large technical documentation team. After a stint as a solo technical writer for a financial services technical provider where I spent time on a trading floor and in data centers, I progressed to Goldman Sachs, where I advanced to Vice President as a technical writer and eLearning developer. Working in small, medium, and enterprise environments taught me crucial lessons about:
 
 - Cross-functional collaboration
 - Risk management
@@ -30,7 +30,7 @@ I specialize in making complex information accessible through:
 - [Technical podcasting](/skills/podcasting/)
 - [Clear epics and user stories](/skills/agile/)
 
-## Community Impact
+## Community impact
 
 I believe in giving back to the technical communication community:
 
@@ -42,16 +42,15 @@ I believe in giving back to the technical communication community:
 
 ### Notable contributions
 
-- STC Associate Fellow
+- Society for Technical Communication (STC) Associate Fellow
 - Award-winning newsletter editor for STC NY Metro Chapter
 - Creator of contentcontent.info (2011-2021)
 - Founding member of Drupal - Northern NJ user group
-- Active mentor in technical communication
 
-## Education Impact
+## Educational impact
 
-- I've mentored
-- As the former director of the Secaucus High School Marching Band and co-founder of the Cacophony Percussion Ensemble, I led the band to represent New Jersey in Washington DC's National July 4th Parade. In 2006, [School Band and Orchestra](http://www.sbomagazine.com/) magazine recognized me as one of "50 Directors Who Make a Difference."
+- I've mentored dozens of people in and out of the technical communication field.
+- As the former director of the Secaucus High School Marching Band and co-founder of the Cacophony Percussion Ensemble, the band represented New Jersey in Washington DC's National July 4th Parade. In 2006, [School Band and Orchestra](http://www.sbomagazine.com/) magazine recognized me as one of &ldquo;50 Directors Who Make a Difference&rdquo;.
 
 ## Personal
 
@@ -62,10 +61,10 @@ A proud New Jersey native, I'm passionate about:
 - IndyCar racing
 - Web design and development
 - Technical communication
-- The Oxford comma
+- The Oxford (serial) comma
 - Proper punctuation (especially the semicolon and ellipsis&hellip;)
 
-## Recent Projects
+## Recent projects
 
 I recently completed migrating this site from WordPress to Eleventy, documenting the entire process to help others understand:
 
@@ -74,4 +73,4 @@ I recently completed migrating this site from WordPress to Eleventy, documenting
 - Information architecture
 - Modern web development practices
 
-Want to learn more about my approach to technical communication and content strategy? Check out my [skills overview](/skills/) or [writing samples](/technical-writing-examples/).
+Want to learn more about my approach? Check out my [skills overview](/skills/) or [writing samples](/technical-writing-examples/).
