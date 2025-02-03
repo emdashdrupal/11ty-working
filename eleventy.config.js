@@ -18,6 +18,14 @@ module.exports = function (eleventyConfig) {
   // Set markdown-it as the markdown processor
   eleventyConfig.setLibrary("md", md);
 
+  // Add a frontmatter markdown filter
+  eleventyConfig.addFilter("frontmatterMarkdown", function(content) {
+    if (!content) return '';
+    // Process as markdown and strip surrounding <p> tags
+    const processed = md.render(content.toString());
+    return processed.replace(/^<p>(.*)<\/p>$/s, '$1');
+  });
+
   // Add markdown filter with type checking
   eleventyConfig.addFilter("markdown", function(content) {
     if (!content) {
