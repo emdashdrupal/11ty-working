@@ -7,13 +7,9 @@ cover : "rahel_bailie_headshot.jpg"
 description : "We return from a hiatus with content strategist Rahel Bailie! She joins Ed Marsh to talk about an uneven history of content strategy, object-oriented content, how her career has led her across two continents, and the history of women in technical communication."
 mp3File: Content_Content_podcast_Rahel_Bailie.mp3
 ---
-
-
 Her [_Content Strategy_ book](https://smile.amazon.com/Content-Strategy-Connecting-Business-Benefits/dp/1937434168/ref=sr_1_1?dchild=1&keywords=rahel+bailie&qid=1618343360&sr=8-1) with [Noz Urbina](https://edmarsh.com/2020/04/07/1000-or-100000-meetings-with-noz-urbina-content-content-podcast/) remains one of Ed's most highlighted (highlit?) reads. We discuss Content Operations (ContentOps or DocOps), introducing efficiency, and more. I hope you laugh as much as we did.
-- [Download](http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2021/04/Content_Content_podcast_Rahel_Bailie.mp3)
 
 ## Mentioned during this episode
-
 
 - [Scott Abel, the Content Wrangler](../8-11-20-i-have-issues-with-slide-decks-with-scott-abel-content-content-podcast/)
 - [An uneven history of content strategy](https://rahelab.medium.com/an-uneven-history-of-content-strategy-d514cfd7eee5)

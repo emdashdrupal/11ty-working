@@ -29,9 +29,7 @@
             <p class="font-sans text-sm">Updated: {{ page.date.toUTCString()}}</p>
         {% endif %}
         {% if description  %}
-        <p id="page-description" class="mb-4 description">
-            {{ description | markdown | safe }}
-        </p>
+        <div id="page-description" class="mb-4 description">{{ description | markdown | safe }}</div>
         {% endif %}
     {% endblock %}
 

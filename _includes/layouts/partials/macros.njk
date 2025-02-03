@@ -40,7 +40,7 @@
     >
             <button
             type="button"
-            class="p-2 rounded-lg active:scale-95 transition-transform transform shadow-md flex ml-2"
+            class="p-2 rounded-lg active:scale-95 transition-transform transform shadow-md flex mb-6 mt-0"
             aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
         >
                 <span class="sr-only">
@@ -56,7 +56,7 @@
 
 {% macro card(url, title, description, buttonText, heroImage) %}
     <article
-    class="card flex flex-col rounded-xl bg-whitish shadow-xl max-w-md my-2 h-full"
+    class="card container flex flex-col rounded-xl shadow-xl max-w-md my-2 h-full border-gray-200 border-2 pt-4"
     role="article"
     aria-labelledby="card-title-{{ title | slugify }}"
 >
