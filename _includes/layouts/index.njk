@@ -1,57 +1,68 @@
 {% include 'layouts/partials/header.njk' %}
 
 <main>
-  <section class="mb-8" id="intro">
-    <div class="flex justify-end float-right ml-2">
-      <img
+    <section class="mb-8" id="intro">
+        <div class="flex justify-end float-right ml-2">
+            <img
         src="/assets/images/me-head-shot-corrected-blue-backgrd-from-mike-225x300.jpg"
         alt="Ed Marsh, photo courtesy Arclight Images"
         class="rounded-lg"
       >
-    </div>
-    <div class="mt-2 mb-4 prose max-w-prose">
-      <p><span class="text-xl font-sans">Hi, I'm Ed Marsh</span>. Welcome to my portfolio. I'm a technical writer, information architect, content strategist, and podcaster. I help organizations create and manage content that is clear, concise, and consistent. Throughout my career, I've dabbled in code and am passionate about making a difference through clear, well-organized, user-friendly documentation.</p>
+        </div>
+        <div class="mt-2 mb-4 prose max-w-prose">
+            <p class="font-sans text-lg">
+                <span class="text-xl font-semibold">Hi, I'm Ed Marsh</span>. I'm a technical writer, information architect, content strategist, community builder, and podcaster. I help organizations create and manage technical content that is clear, concise, and consistent. Throughout my career, I've dabbled in code and am passionate about making a difference through clear, well-organized, user-friendly documentation.</p>
 
-      <p>I've worked in a variety of industries, including software and financial services, and with a variety of tools, including VS Code, RoboHelp, Flare, Confluence, and oXygen XML Editor. I'm dedicated to helping organizations achieve their content goals through effective content strategy and structure.</p>
-      <p>I (used to) <a href="podcasts/">host a podcast</a> where I interview content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more.</p>
-    </div>
-  </section>
+            <p>I've worked in software and financial services with a variety of tools, including RoboHelp, Flare, Confluence, VS Code, Markdown, Git, Jira, and oXygen XML Editor. I'm dedicated to helping organizations achieve their content goals through effective content strategy and structure.</p>
+            <p>I (used to) <a href="podcasts/">host a podcast</a> where I interview content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more.</p>
+        </div>
+    </section>
 
-  <section class="mb-8 border-2" id="ssg">
-    <h2 class="px-3 py-2">Creating a static site</h2>
-    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
-      {% set collectionName = "ssg" %}
-      {% for item in collections.ssg %}
-        {% include 'layouts/partials/card.njk' %}
-      {% endfor %}
-    </div>
-  </section>
+    <section class="mb-8 border-2" id="ssg">
+        <h2 class="px-3 py-2">Creating a static site</h2>
+        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
+            {% set collectionName = "ssg" %}
+            {% for item in collections.ssg %}
+                {% if loop.index0 <= 3 %}
+                    {% include 'layouts/partials/card.njk' %}
+                {% endif %}
+            {% endfor %}
+            <div class="col-span-full text-xl font-bold italic">
+                <a href="/move-to-static-site/">Full series</a>
+            </div>
+        </div>
+    </section>
 
-  <section class="mb-8 border-2" id="skills">
-    <h2 class="px-3 py-2">My skills &mdash; how I can help you</h2>
-    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
-      {% set collectionName = "skills" %}
-      {% for item in collections.skills %}
-        {% include 'layouts/partials/card.njk' %}
-      {% endfor %}
-    </div>
-  </section>
+    <section class="mb-8 border-2" id="skills">
+        <h2 class="px-3 py-2">My skills &mdash; how I can help you</h2>
+        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
+            {% set collectionName = "skills" %}
+            {% for item in collections.skills %}
+                {% if loop.index0 <= 3 %}
+                    {% include 'layouts/partials/card.njk' %}
+                {% endif %}
+            {% endfor %}
+            <div class="col-span-full text-xl font-bold italic">
+                <a href="/skills/">See all my skills</a>
+            </div>
+        </div>
+    </section>
 
-  <section class="mb-8 border-2" id="podcasts">
-    <h2 class="px-3 py-2">Recent podcasts</h2>
-    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
-      {% set collectionName = "podcasts" %}
-      {% for item in collections.podcasts | reverse  %}
-       {% if loop.index0 <= 3 %}
-                {% include 'layouts/partials/card.njk' %}
-            {% endif %}
-      {% endfor %}
+    <section class="mb-8 border-2" id="podcasts">
+        <h2 class="px-3 py-2">Recent podcasts</h2>
+        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
+            {% set collectionName = "podcasts" %}
+            {% for item in collections.podcasts | reverse %}
+                {% if loop.index0 <= 3 %}
+                    {% include 'layouts/partials/card.njk' %}
+                {% endif %}
+            {% endfor %}
 
-      <div class="col-span-full text-right italic">
-        <a href="/content/podcasts/">More podcasts</a>
-      </div>
-    </div>
-  </section>
+            <div class="col-span-full text-xl font-bold italic">
+                <a href="/podcasts/">More podcasts</a>
+            </div>
+        </div>
+    </section>
 </main>
 
 {% include 'layouts/partials/footer.njk' %}

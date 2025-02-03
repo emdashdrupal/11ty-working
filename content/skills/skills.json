@@ -1,10 +1,7 @@
 {
     "buttonText": "Learn more",
     "collectionName": "skills",
-    "eleventyNavigation": {
-        "key": "Holla",
-        "parent": "Skills"
-    },
     "layout": "layouts/details.njk",
-    "tags": "skills"
+    "tags": "skills",
+    "category": "Skills"
 }

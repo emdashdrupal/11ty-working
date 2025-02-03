@@ -72,7 +72,6 @@ it can be &mdash; *if* you choose the "right" theme.
 
 Some require certain versions of Hugo to work correctly. Some require other libraries you have to download and install. Some require you to copy files from a sample folder to the root of your project.
 
-
 Ultimately, the easiest way to install themes &mdash; a requirement for working in Hugo &mdash; is to change directories to the `themes` folder, then clone the theme repository. In some cases, you'll have to move the folder hierarchy around. Then you add `theme = 'themename'` to your `hugo.toml` file.
 
 And surprise! Documentation quality varies greatly from theme to theme.

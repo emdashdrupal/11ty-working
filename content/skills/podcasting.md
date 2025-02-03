@@ -2,9 +2,6 @@
 title : "Podcasting"
 description: Podcasts have become an important content offering. I've been a host, producer, and guest.
 FontAwesomeIcon : "solid fa-podcast"
-eleventyNavigation:
-    title : Podcasting
-
 ---
 
 - Host of LavaCon content strategy conference podcast

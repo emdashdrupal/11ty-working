@@ -1,7 +1,6 @@
 ---
 title : "Technical writing examples"
 description: This what Ed do.
-category : example
 layout : layouts/grid.njk
 eleventyExcludeFromCollections : true
 ---

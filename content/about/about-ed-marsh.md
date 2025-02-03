@@ -2,7 +2,7 @@
 title : "About Ed Marsh"
 description : "Learn more about Ed's career."
 layout : layouts/details.njk
-
+category: "About"
 ---
 
 Ed Marsh has always been curious about technology. As a kid, he was the one who pushed buttons to see what happened. This led to some scolding and an award-winning career as a technical writer.
@@ -30,7 +30,7 @@ He is experienced in, and passionate about, information architecture and content
 
 Ed has always believed in giving back:
 
-- In 2015, Ed created, hosted, and produced the [Content Content podcast](/content/podcasts/), interviewing technical communicators, content strategists, and other content professionals.
+- In 2015, Ed created, hosted, and produced the [Content Content podcast](/podcasts/), interviewing technical communicators, content strategists, and other content professionals.
 - Presented at [local meetups, regional, and international conferences](http://www.slideshare.net/theedmarsh/).
   - His most recent presentation is [So, you want to be a technical writer?](https://www.brighttalk.com/webcast/9273/608187?utm_source=brighttalk-sharing&utm_medium=web&utm_campaign=linkshare)
   - [Pros and Cons of Using Markdown for Technical Documentation Panel Discussion](https://www.brighttalk.com/webcast/9273/608016)

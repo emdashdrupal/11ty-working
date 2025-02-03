@@ -12,10 +12,12 @@
 ) }}
 {% endif %}
 {% endif %}
-<div class="container xl:max-w-3xl md:max-w-lg sm:max-w-md ">
-{{ content | safe }}
-</div>
+<div class="container xl:max-w-3xl md:max-w-lg sm:max-w-md prose">
 
+    {% if content %}
+        {{ content | markdown | safe }}
+    {% endif %}
+</div>
 
 {% include 'layouts/partials/next-previous.njk' %}
 {% include 'layouts/partials/footer.njk' %}

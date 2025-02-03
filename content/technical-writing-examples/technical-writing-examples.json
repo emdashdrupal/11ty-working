@@ -1,10 +1,7 @@
 {
     "buttonText": "Learn more",
     "collectionName": "examples",
-    "eleventyNavigation": {
-        "key": "{{ title }}",
-        "parent": "Writing samples"
-    },
     "layout": "layouts/details.njk",
-    "tags": "examples"
+    "tags": "examples",
+    "category": "Writing samples"
 }

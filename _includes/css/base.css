@@ -1,17 +1,78 @@
 :root {
     --blue: #1e90ff;
-    --tailwind-blue: #0074D9;
     --white: #ffffff;
     --midnight-green: #0b5563;
     --light-blue: #0074D9;
     --cadet-gray: #94a3b8;
     --ecru : #aba361;
-    --russian-violet: #42033d;
-    --tyrian-purple: #680e4b;
     --whitish: #f7f7f8;
     --grey-green: #96a396;
     --medium-blue: #678bb1;
     --green-blue: #4b788a;
+  }
+
+  /* Text color classes */
+  .text-blue {
+    color: var(--blue);
+  }
+  .text-white {
+    color: var(--white);
+  }
+  .text-midnight-green {
+    color: var(--midnight-green);
+  }
+  .text-light-blue {
+    color: var(--light-blue);
+  }
+  .text-cadet-gray {
+    color: var(--cadet-gray);
+  }
+  .text-ecru {
+    color: var(--ecru);
+  }
+  .text-whitish {
+    color: var(--whitish);
+  }
+  .text-grey-green {
+    color: var(--grey-green);
+  }
+  .text-medium-blue {
+    color: var(--medium-blue);
+  }
+  .text-green-blue {
+    color: var(--green-blue);
+  }
+
+  /* Background color classes */
+  .bg-blue {
+    background-color: var(--blue);
+  }
+  .bg-white {
+    background-color: var(--white);
+  }
+  .bg-midnight-green {
+    background-color: var(--midnight-green);
+  }
+  .bg-light-blue {
+    background-color: var(--light-blue);
+  }
+  .bg-cadet-gray {
+    background-color: var(--cadet-gray);
+  }
+  .bg-ecru {
+    background-color: var(--ecru);
+  }
+  .bg-whitish {
+    background-color: var(--whitish);
+  }
+  .bg-grey-green {
+    background-color: var(--grey-green);
+  }
+  .bg-medium-blue {
+    background-color: var(--medium-blue);
+  }
+  .bg-green-blue {
+    background-color: var(--green-blue);
   }
 
 html,
@@ -23,8 +84,7 @@ body {
     line-height: 1.3rem;
 }
 
-p,
-.description {
+p {
     margin: 0.5rem 0 1rem 0;
     font-family: Besley, serif;
     font-size: 104%;
@@ -34,8 +94,19 @@ p,
     line-height: 1.6rem;
 }
 
-p:last-of-type {
-    margin-bottom: 1.5rem;
+p.description {
+    margin: 0.5rem 0;
+    font-family: Roboto, "Poppins", Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 104%;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #000;
+    line-height: 1.6rem;
+}
+
+#page-description > p {
+    font-family: Roboto, "Poppins", Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 }
 
 h1 {
@@ -72,12 +143,13 @@ font-mono {
 }
 
 a {
-    color: var(--green-blue);
+    color: var(--cadet-gray);
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    background-color: var(--cadet-gray);
 }
 
 ul li {
@@ -86,6 +158,7 @@ ul li {
     font-family: Besley, serif;
     font-optical-sizing: auto;
     margin-left: 1%;
+    line-height: 1.5rem;
 }
 
 ul {
@@ -112,7 +185,7 @@ table {
 
 blockquote::before {
     content: "> Note";
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: var(--cadet-gray);
 }
 
@@ -152,7 +225,7 @@ blockquote {
 
 .font-sans,
 .dropdown-toggle {
-    font-family: "Poppins", Ubuntu, sans-serif;
+    font-family:  "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .text-4xl {
@@ -165,12 +238,12 @@ blockquote {
 }
 
 button {
-    background-color: var(--medium-blue);
+    background-color: var(--light-blue);
     color: var(--whitish)
 }
 
 button:hover {
-    background-color: var(--grey-green);
+    background-color: var(--medium-blue);
     color: var(--whitish)
 
 }
@@ -185,4 +258,8 @@ button:hover {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
+}
+
+.prose {
+    color: black;
 }

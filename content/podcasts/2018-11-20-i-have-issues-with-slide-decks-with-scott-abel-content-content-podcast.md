@@ -18,8 +18,6 @@ mp3File: Content_Content_podcast_Scott_Abel.mp3
 
 ## Mentioned during this episode
 
-
-
 - [Ann Rockley](http://rockley.com/)
 
 - [_Managing Enterprise content_](https://smile.amazon.com/dp/B00794UE74/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)

@@ -1,8 +1,10 @@
-  <nav aria-label="Breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="/content">Home</a></li>
-      {% for ancestor in page.data.navigation.ancestors %}
-        <li class="breadcrumb-item"><a href="{{ url or page.url }}">{{ data.title or title }}</a></li>
-      {% endfor %}
-      <li class="breadcrumb-item active" aria-current="page"><a href="{{ url or page.url }}">{{ data.title or title }}</a></li>
-    </ol>
+<nav aria-label="Breadcrumb" class="container shadow-md p-2 rounded-sm mx-auto">
+  <span class="fa-solid fa-house"></span>
+  <a href="/">Home</a>
+  {% if category %}
+    <span class="fa-solid fa-chevron-right mx-2"></span>
+    <a href="/{{ category | slugify }}">{{ category }}</a>
+  {% endif %}
+  <span class="fa-solid fa-chevron-right mx-2"></span>
+  <span class="text-gray-600" aria-current="page">{{ title }}</span>
+</nav>

@@ -21,15 +21,15 @@
         {% block nav %}
 {% include 'layouts/partials/navbar.njk' %}
 {% endblock %}
+{% include 'layouts/partials/breadcrumb.njk' %}
 {% block content %}
     <main class="container mx-auto mt-8">
-        <h1 class="text-2xl">{{title or metadata.title}}</h1>
+        <h1 id={{title | slugify}}>{{title or metadata.title}}</h1>
         {% if page.date %}
             <p class="font-sans text-sm">Updated: {{ page.date.toUTCString()}}</p>
         {% endif %}
-        <p id="Page description" class="mb-4 text-lg font-sans prose max-w-prose">
-            {{ description or metadata.description }}
-        </p>
-
+        {% if description  %}
+        <div id="page-description" class="mb-4 description">{{ description | markdown | safe }}</div>
+        {% endif %}
     {% endblock %}
 

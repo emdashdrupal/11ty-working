@@ -1,9 +1,9 @@
 {% if item.data.FontAwesomeIcon or FontAwesomeIcon %}
-    <div
-        class="icon fa-{{ item.data.FontAwesomeIcon or FontAwesomeIcon }} text-4xl fill-slate-800 hover:bg-slate-200"
+    <a href="{{ item.url }}"><div
+        class="icon fa-{{ item.data.FontAwesomeIcon or FontAwesomeIcon }} text-4xl hover:bg-grey-green"
         aria-label="Icon representing {{ item.data.title }}"
         title="Icon representing {{ item.data.title }}"
-    ></div>
+    ></div></a>
 {% endif %}
 
 {% if collectionName == 'podcasts' %}

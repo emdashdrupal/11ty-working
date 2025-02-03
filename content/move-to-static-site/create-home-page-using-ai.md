@@ -74,7 +74,7 @@ And here is the response:
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
     ```
 
-    ```
+    ```njk
     {% year %}
     ```
 

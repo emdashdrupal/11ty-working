@@ -4,7 +4,7 @@ description: Working in a Linux virtual environment helped me focus, learn, and 
 FontAwesomeIcon: solid fa-vr-cardboard
 ---
 
-I've been toying with VMs [since at least 2014](/content/technical-writing-examples/2013-12-08-creating-a-drupal-sandbox-with-virtualbox-and-drupal-quickstart-presentation/).
+I've been toying with VMs [since at least 2014](/technical-writing-examples/2013-12-08-creating-a-drupal-sandbox-with-virtualbox-and-drupal-quickstart-presentation/).
 
 - Compartmentalization. I love Windows and always have. YMMV. But trying to configure my bread-and-butter machine to work with things I wasn't yet comfortable with added complexity and concern.
 - Free! From the VM host [VMWare Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) to the operating system, the only thing it will cost you is some time (and disk space).

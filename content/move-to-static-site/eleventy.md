@@ -27,7 +27,7 @@ My progression:
 - Building out logic to display individual pieces on the templates
 - Grids
 
-<p class="bg-slate-400">Once the downtime really started during the holidays, I'd say it took me about three weeks to really start "getting" how all of this works. Does that mean it came quickly and easily? No. There were many "why isn't this thing that's supposed to work not working"? Once I realized this is part of the process, it made it easier for me to look at this as a learning experience.</p>
+Once the downtime really started during the holidays, I'd say it took me about three weeks to really start "getting" how all of this works. Does that mean it came quickly and easily? No. There were many "why isn't this thing that's supposed to work not working"? Once I realized this is part of the process, it made it easier for me to look at this as a learning experience.
 
 Again, the important part was to structure the content correctly so the system I was building knew what was what.
 
