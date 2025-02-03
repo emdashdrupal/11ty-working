@@ -225,7 +225,7 @@ blockquote {
 
 .font-sans,
 .dropdown-toggle {
-    font-family: "Poppins", Ubuntu, sans-serif;
+    font-family:  "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .text-4xl {
@@ -238,12 +238,12 @@ blockquote {
 }
 
 button {
-    background-color: var(--medium-blue);
+    background-color: var(--light-blue);
     color: var(--whitish)
 }
 
 button:hover {
-    background-color: var(--grey-green);
+    background-color: var(--medium-blue);
     color: var(--whitish)
 
 }
