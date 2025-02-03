@@ -84,8 +84,7 @@ body {
     line-height: 1.3rem;
 }
 
-p,
-.description {
+p {
     margin: 0.5rem 0 1rem 0;
     font-family: Besley, serif;
     font-size: 104%;
@@ -95,6 +94,15 @@ p,
     line-height: 1.6rem;
 }
 
+.description {
+    margin: 0.5rem 0 1rem 0;
+    font-family: "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 104%;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #000;
+    line-height: 1.6rem;
+}
 p:last-of-type {
     margin-bottom: 1.5rem;
 }
