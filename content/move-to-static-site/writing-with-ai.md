@@ -26,7 +26,7 @@ The homepage displays featured content from different collections (Static Site G
 
 To display a piece of content in a featured section, add `featured: true` to its frontmatter:
 
-```yaml
+\`\`\`yaml
 ---
 title: "Your Post Title"
 description: "Post description"
@@ -46,7 +46,7 @@ The homepage uses a reusable macro to create consistent featured sections. Each 
 
 The macro is defined in `_includes/layouts/index.njk`:
 
-```nunjucks
+\`\`\`nunjucks
 {% macro featuredSection(title, collectionName, viewAllLink, viewAllText) %}
     <section class="mb-8 border-2" id="{{ collectionName }}">
         <h2 class="px-3 py-2">{{ title }}</h2>
@@ -71,7 +71,7 @@ To add a new featured section to the homepage:
 2. Add `featured: true` to the content you want to display
 3. Add a new section to `index.njk`:
 
-```nunjucks
+\`\`\`nunjucks
 {{ featuredSection(
     "Section Title",
     "collectionName",
@@ -91,7 +91,7 @@ To add a new featured section to the homepage:
 
 Here's how the "Skills" section is implemented:
 
-```nunjucks
+\`\`\`nunjucks
 {{ featuredSection(
     "My skills — how I can help you",
     "skills",
