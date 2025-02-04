@@ -3,6 +3,7 @@ title : "Static site takeaways"
 description: "A frustrating process (and situation) is ultimately satisfying in multiple ways."
 FontAwesomeIcon: "solid fa-plane-departure"
 featured: true
+featuredOrder: 1
 ---
 
 Working in just HTML and CSS was invigorating because I'd done it since the 1990s. There was something simple, pure, and frankly *nostalgic* about it.

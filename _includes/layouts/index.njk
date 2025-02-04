@@ -23,7 +23,7 @@
         <h2 class="px-3 py-2">How I can help you</h2>
         <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
             {% set collectionName = "skills" %}
-            {% for item in collections.skills %}
+            {% for item in collections[collectionName] %}
                 {% if item.data.featured == true %}
                     {% include 'layouts/partials/card.njk' %}
                 {% endif %}

@@ -4,6 +4,5 @@
     "collectionName": "ssg",
     "tags": "ssg",
     "layout": "layouts/details.njk",
-    "category": "Static site transformation",
-    "featured": "false"
+    "category": "Static site transformation"
 }
