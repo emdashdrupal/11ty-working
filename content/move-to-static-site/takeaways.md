@@ -1,9 +1,8 @@
 ---
-title : Takeaways
-description: A frustrating process (and situation) is ultimately satisfying in multiple ways.
-FontAwesomeIcon: 'solid fa-plane-departure'
+title : "Takeaways"
+description: "A frustrating process (and situation) is ultimately satisfying in multiple ways."
+FontAwesomeIcon: "solid fa-plane-departure"
 featured: true
-featuredOrder: 4
 ---
 
 Working in just HTML and CSS was invigorating because I'd done it since the 1990s. There was something simple and pure about it.

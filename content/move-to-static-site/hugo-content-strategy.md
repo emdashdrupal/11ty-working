@@ -1,10 +1,8 @@
 ---
-title : "Content strategy and Information Architecture for static site generators"
-description: Structuring content is always important. Working as a "developer", I can appreciate why using metadata (front matter) is critical.
-date: "2024-11-24"
-FontAwesomeIcon: 'solid fa-folder-tree'
+title : Content strategy and Information Architecture for static site generators
+description: Structuring content is always important. Working as a developer, I can appreciate why using metadata (front matter) is critical.
+FontAwesomeIcon: solid fa-folder-tree
 featured: true
-featuredOrder: 3
 ---
 
 ## Front matter

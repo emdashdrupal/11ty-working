@@ -1,7 +1,6 @@
 ---
-title: "Asking AI to write documentation"
-description: "I decided to ask AI to do my job for code it's written."
-date: "2025-02-04"
+title: Asking AI to write documentation
+description: I decided to ask AI to do my job for code it's written.
 featured: true
 ---
 
