@@ -38,7 +38,7 @@
         <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
             {% set collectionName = "skills" %}
             {% for item in collections.skills %}
-                {% if loop.index0 <= 3 %}
+                {% if item.data.featured == true %}
                     {% include 'layouts/partials/card.njk' %}
                 {% endif %}
             {% endfor %}
