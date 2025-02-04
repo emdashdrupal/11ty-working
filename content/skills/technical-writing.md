@@ -11,4 +11,4 @@ featuredOrder: 1
 - **Librarian**: Knowing what information users need, and where to find it.
 - **Translator**: Tech writers interact with a bunch of folks with differing commands of the English language, as well as those whose priority or focus isn't on the writing. We get it, we're all busy. That's were tech writers and editors come in.
 
-30+ years of experience means I've touched on all aspects of technical communication. See [examples of my work](/technical-writing-examples)
+30+ years of experience means I've touched on all aspects of technical communication. See [examples of my work](/technical-writing-examples).

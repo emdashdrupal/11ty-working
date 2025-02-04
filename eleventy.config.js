@@ -18,7 +18,7 @@ module.exports = function (eleventyConfig) {
   // Set markdown-it as the markdown processor
   eleventyConfig.setLibrary("md", md);
 
-  
+
   // Add markdown filter with type checking
   eleventyConfig.addFilter("markdown", function(content) {
     if (!content) {
@@ -37,10 +37,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
   // Add passthrough copies
-  eleventyConfig.addPassthroughCopy("_includes/css/base.css");
-  eleventyConfig.addPassthroughCopy("_includes/css/tw.css");
-  eleventyConfig.addPassthroughCopy("assets/images");
-  eleventyConfig.addPassthroughCopy("assets/podcasts");
+  eleventyConfig.addPassthroughCopy({
+    "_includes/css/base.css": "css/base.css",
+    "_includes/css/tw.css": "css/tw.css",
+    "assets/images": "assets/images",
+    "assets/podcasts": "assets/podcasts"
+  });
 
   // Add collections
   eleventyConfig.addCollection("skills", function (collectionApi) {
