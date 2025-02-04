@@ -22,11 +22,9 @@
         <h2 class="px-3 py-2">Creating a static site</h2>
         <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
             {% set collectionName = "ssg" %}
-            {% for item in collections.ssg %}
+            {% for item in collections[collectionName] %}
                 {% if item.data.featured == true %}
-                    {% if loop.index0 <= 3 %}
                         {% include 'layouts/partials/card.njk' %}
-                    {% endif %}
                 {% endif %}
             {% endfor %}
             <div class="col-span-full text-xl font-bold italic">
@@ -39,7 +37,7 @@
         <h2 class="px-3 py-2">My skills &mdash; how I can help you</h2>
         <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
             {% set collectionName = "skills" %}
-            {% for item in collections.skills %}
+            {% for item in collections[collectionName] %}
                 {% if item.data.featured == true %}
                     {% include 'layouts/partials/card.njk' %}
                 {% endif %}
