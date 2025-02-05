@@ -143,13 +143,12 @@ font-mono {
 }
 
 a {
-    color: var(--cadet-gray);
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    background-color: var(--cadet-gray);
+
 }
 
 ul li {
