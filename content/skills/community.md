@@ -1,6 +1,6 @@
 ---
 title: Community building
-description: In any organization, there are documentation advocates. As tech writers, we need to seek out and nurture this community
+description: Every organization has documentation advocates. Tech writers seek out and nurture this community to retain knowledge within your organization.
 FontAwesomeIcon: 'solid fa-people-group'
 featured: true
 featuredOrder: 3
