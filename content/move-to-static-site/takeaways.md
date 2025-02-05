@@ -13,3 +13,7 @@ Working with a static site generator also made *writing* fun again (note I'm wri
 I didn't need a reminder about the importance of structure, metadata, reuse, and strategy, but it all felt natural &mdash; almost like I've done it for over 30 years.
 
 Trying to work with documentation for several different pieces of software reminds me that yes, I too hate to RTFM. But there is a difference between good docs and bad docs, and it's obvious. There is lots of opportunities for technical writers to improve developer documentation &mdash; if businesses are willing to pay for it. In my experience, they're often not until it's too late.
+
+## Accessibility
+
+The other nice thing about creating sites from HTML is that you can control how it's generated, and be sure to use the built-in elements to make my site accessible.
