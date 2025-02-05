@@ -19,6 +19,21 @@
         </div>
     </section>
 
+    <section class="mb-8 border-2" id="skills">
+        <h2 class="px-3 py-2">How I can help you</h2>
+        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
+            {% set collectionName = "skills" %}
+            {% for item in collections[collectionName] %}
+                {% if item.data.featured == true and item.data.featuredOrder > 0 |sort(collections[collectionName].data.featuredOrder) %}
+                    {% include 'layouts/partials/card.njk' %}
+                {% endif %}
+            {% endfor %}
+            <div class="col-span-full text-xl font-bold italic">
+                <a href="/skills/">See all my skills</a>
+            </div>
+        </div>
+    </section>
+
     <section class="mb-8 border-2" id="ssg">
         <h2 class="px-3 py-2">Creating a static site</h2>
         <p class="description">I converted my blog from an old WordPress site to a static site. Here's what I learned about the process, and how I can help you organize and structure your content.</p>
@@ -35,20 +50,6 @@
         </div>
     </section>
 
-    <section class="mb-8 border-2" id="skills">
-        <h2 class="px-3 py-2">How I can help you</h2>
-        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
-            {% set collectionName = "skills" %}
-            {% for item in collections[collectionName] %}
-                {% if item.data.featured == true and item.data.featuredOrder > 0 |sort(collections[collectionName].data.featuredOrder) %}
-                    {% include 'layouts/partials/card.njk' %}
-                {% endif %}
-            {% endfor %}
-            <div class="col-span-full text-xl font-bold italic">
-                <a href="/skills/">See all my skills</a>
-            </div>
-        </div>
-    </section>
 
     <section class="mb-8 border-2" id="podcasts">
         <h2 class="px-3 py-2">Recent podcasts</h2>
