@@ -14,11 +14,9 @@ mp3File: Content_Content_podcast_Michael_Miller.mp3
 
 ## Mentioned during this episode
 
-
-
-- [Curse of Knowledge with Tom Johnson](../5-07-08-content-content-podcast-episode-4-curse-of-knowledge-with-tom-johnson/)
-- [XML is a four-letter word with Alan J. Porter](../9-03-14-xml-is-a-four-letter-word-with-alan-j-porter-content-content-podcast/)
-- [Time as a tool with Alan Houser](../5-03-18-content-content-podcast-time-as-a-tool-featuring-alan-houser-episode-2/)
+- [Curse of Knowledge with Tom Johnson](../2015-07-08-content-content-podcast-episode-4-curse-of-knowledge-with-tom-johnson)
+- [XML is a four-letter word with Alan J. Porter](../2019-03-14-xml-is-a-four-letter-word-with-alan-j-porter-content-content-podcast)
+- [Time as a tool with Alan Houser](../2015-03-18-content-content-podcast-time-as-a-tool-featuring-alan-houser-episode-2)
 - [BBEdit](https://www.barebones.com/products/bbedit/)
 - [Genesys](https://www.genesys.com/)
 - [Salesforce](https://www.salesforce.com/)

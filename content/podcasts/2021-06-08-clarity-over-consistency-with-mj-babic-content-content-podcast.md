@@ -17,7 +17,6 @@ MJ's had a diverse career, from marketing, feature articles, science journals, a
 
 ## Mentioned during this episode
 
-
 - [MJ on LinkedIn](https://www.linkedin.com/in/maryjeanbabic/)
 - [usertesting.com](http://usertesting.com)
 - [A List Apart](https://alistapart.com/)

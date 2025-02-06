@@ -16,10 +16,7 @@ mp3File: Content_Content_podcast_-_Viqui_Dill.mp3
 
 Viqui is also an accomplished &lsquo;bad-ass bass player&rsquo; and a self-proclaimed techcomm evangelist.
 
-
 ## Mentioned during this episode
-
-
 
 - [Gully Washer](https://www.merriam-webster.com/dictionary/gully%20washer)
 - [American Woodmark](https://woodmarkcabinetry.com/)
