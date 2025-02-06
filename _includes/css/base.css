@@ -251,7 +251,10 @@ blockquote {
 
 .icon {
     color: var(--green-blue);
+}
 
+button:hover {
+    background-color: var(--medium-blue);
 }
 
 .sr-only {
