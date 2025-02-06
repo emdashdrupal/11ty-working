@@ -4,76 +4,94 @@
     --midnight-green: #0b5563;
     --light-blue: #0074D9;
     --cadet-gray: #94a3b8;
-    --ecru : #aba361;
+    --ecru: #aba361;
     --whitish: #f7f7f8;
     --grey-green: #96a396;
     --medium-blue: #678bb1;
     --green-blue: #4b788a;
-  }
+}
 
-  /* Text color classes */
-  .text-blue {
+/* Text color classes */
+.text-blue {
     color: var(--blue);
-  }
-  .text-white {
-    color: var(--white);
-  }
-  .text-midnight-green {
-    color: var(--midnight-green);
-  }
-  .text-light-blue {
-    color: var(--light-blue);
-  }
-  .text-cadet-gray {
-    color: var(--cadet-gray);
-  }
-  .text-ecru {
-    color: var(--ecru);
-  }
-  .text-whitish {
-    color: var(--whitish);
-  }
-  .text-grey-green {
-    color: var(--grey-green);
-  }
-  .text-medium-blue {
-    color: var(--medium-blue);
-  }
-  .text-green-blue {
-    color: var(--green-blue);
-  }
+}
 
-  /* Background color classes */
-  .bg-blue {
+.text-white {
+    color: var(--white);
+}
+
+.text-midnight-green {
+    color: var(--midnight-green);
+}
+
+.text-light-blue {
+    color: var(--light-blue);
+}
+
+.text-cadet-gray {
+    color: var(--cadet-gray);
+}
+
+.text-ecru {
+    color: var(--ecru);
+}
+
+.text-whitish {
+    color: var(--whitish);
+}
+
+.text-grey-green {
+    color: var(--grey-green);
+}
+
+.text-medium-blue {
+    color: var(--medium-blue);
+}
+
+.text-green-blue {
+    color: var(--green-blue);
+}
+
+/* Background color classes */
+.bg-blue {
     background-color: var(--blue);
-  }
-  .bg-white {
+}
+
+.bg-white {
     background-color: var(--white);
-  }
-  .bg-midnight-green {
+}
+
+.bg-midnight-green {
     background-color: var(--midnight-green);
-  }
-  .bg-light-blue {
+}
+
+.bg-light-blue {
     background-color: var(--light-blue);
-  }
-  .bg-cadet-gray {
+}
+
+.bg-cadet-gray {
     background-color: var(--cadet-gray);
-  }
-  .bg-ecru {
+}
+
+.bg-ecru {
     background-color: var(--ecru);
-  }
-  .bg-whitish {
+}
+
+.bg-whitish {
     background-color: var(--whitish);
-  }
-  .bg-grey-green {
+}
+
+.bg-grey-green {
     background-color: var(--grey-green);
-  }
-  .bg-medium-blue {
+}
+
+.bg-medium-blue {
     background-color: var(--medium-blue);
-  }
-  .bg-green-blue {
+}
+
+.bg-green-blue {
     background-color: var(--green-blue);
-  }
+}
 
 html,
 body {
@@ -104,7 +122,7 @@ p.description {
     line-height: 1.6rem;
 }
 
-#page-description > p {
+#page-description>p {
     font-family: Roboto, "Poppins", Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 }
@@ -224,7 +242,7 @@ blockquote {
 
 .font-sans,
 .dropdown-toggle {
-    font-family:  "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .text-4xl {
@@ -233,17 +251,6 @@ blockquote {
 
 .icon {
     color: var(--green-blue);
-
-}
-
-button {
-    background-color: var(--light-blue);
-    color: var(--whitish)
-}
-
-button:hover {
-    background-color: var(--medium-blue);
-    color: var(--whitish)
 
 }
 
