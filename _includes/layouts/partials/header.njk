@@ -27,7 +27,7 @@
             <main class="container px-4">
                 <h1 id={{title | slugify}}>{{title or metadata.title}}</h1>
                 {% if page.date %}
-                    <p class="font-sans text-sm">Updated: {{ page.date.toUTCString()}}</p>
+                    <p class="font-sans text-sm">Updated: {{ page.date.toDateString()}}</p>
                 {% endif %}
                 {% if description %}
                     <div id="page-description" class="mb-4 description">{{ description | markdown | safe }}</div>
