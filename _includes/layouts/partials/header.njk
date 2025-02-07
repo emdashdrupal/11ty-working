@@ -18,18 +18,18 @@
         <link rel="stylesheet" type="text/css" href="/css/base.css">
         <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
     </head>
-    <body class="body-{{title | slugify }}">
+    <body class="body-{{title | slugify }} container mx-auto">
         {% block nav %}
             {% include 'layouts/partials/navbar.njk' %}
         {% endblock %}
         {% include 'layouts/partials/breadcrumb.njk' %}
         {% block content %}
-            <main class="container mx-auto px-4 max-w-3xl">
-                <h1 class="text-center" id={{title | slugify}}>{{title or metadata.title}}</h1>
+            <main class="container px-4">
+                <h1 id={{title | slugify}}>{{title or metadata.title}}</h1>
                 {% if page.date %}
-                    <p class="font-sans text-sm text-center">Updated: {{ page.date.toUTCString()}}</p>
+                    <p class="font-sans text-sm">Updated: {{ page.date.toUTCString()}}</p>
                 {% endif %}
                 {% if description %}
-                    <div id="page-description" class="mb-4 description text-center">{{ description | markdown | safe }}</div>
+                    <div id="page-description" class="mb-4 description">{{ description | markdown | safe }}</div>
                 {% endif %}
             {% endblock %}
