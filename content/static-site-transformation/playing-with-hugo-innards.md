@@ -1,8 +1,7 @@
 ---
 title : "Learning how  static site generators work"
 description: My first foray into learning static site generators.
-tags : ["ssg", "content-strategy", "hugo", "static site generators"]
-date: "2024-11-24"
+# date: "2024-11-24"
 FontAwesomeIcon: 'solid fa-school'
 ---
 
