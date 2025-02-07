@@ -3,7 +3,7 @@ title : "Choosing a static site generator"
 description: What I knew I wanted (ease-of-use) and didn't want ("ease of use") out of static site generators.
 date: "2024-11-26"
 tags : "content-strategy"
-FontAwesomeIcon: 'solid fa-file-waveform'
+FontAwesomeIcon: "solid fa-file-waveform"
 ---
 
 - Based on experience, wanted to avoid Gatsby &mdash; too complex requires a team of devs.

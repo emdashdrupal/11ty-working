@@ -7,29 +7,29 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <style>
-@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Mono:wght@200..900&display=swap');</style>
+            @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Mono:wght@200..900&display=swap');
+        </style>
 
         <link
 			href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css"
 			rel="stylesheet"
 		/>
-                <link rel="stylesheet" type="text/css" href="/_includes/css/tw.css">
-        <link rel="stylesheet" type="text/css" href="/_includes/css/base.css">
+        <link rel="stylesheet" type="text/css" href="/css/tw.css">
+        <link rel="stylesheet" type="text/css" href="/css/base.css">
         <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
     </head>
     <body class="body-{{title | slugify }}">
         {% block nav %}
-{% include 'layouts/partials/navbar.njk' %}
-{% endblock %}
-{% include 'layouts/partials/breadcrumb.njk' %}
-{% block content %}
-    <main class="container mx-auto mt-8">
-        <h1 id={{title | slugify}}>{{title or metadata.title}}</h1>
-        {% if page.date %}
-            <p class="font-sans text-sm">Updated: {{ page.date.toUTCString()}}</p>
-        {% endif %}
-        {% if description  %}
-        <div id="page-description" class="mb-4 description">{{ description | markdown | safe }}</div>
-        {% endif %}
-    {% endblock %}
-
+            {% include 'layouts/partials/navbar.njk' %}
+        {% endblock %}
+        {% include 'layouts/partials/breadcrumb.njk' %}
+        {% block content %}
+            <main class="container mx-auto mt-8">
+                <h1 id={{title | slugify}}>{{title or metadata.title}}</h1>
+                {% if page.date %}
+                    <p class="font-sans text-sm">Updated: {{ page.date.toUTCString()}}</p>
+                {% endif %}
+                {% if description %}
+                    <div id="page-description" class="mb-4 description">{{ description | markdown | safe }}</div>
+                {% endif %}
+            {% endblock %}

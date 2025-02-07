@@ -1,7 +1,9 @@
 ---
 title: Project management
-description: Being a technical writer means you need to coordinate with a bunch of people from many parts of the business.
+description: Technical content is often used throughout many parts of your business. As writers, we coordinate with subject matter experts &mdash; from developers, to product managers, to support teams, and senior management.
+FontAwesomeIcon: solid fa-people-roof
+featured: true
+featuredOrder: 4
 ---
 
 Yeh.
-

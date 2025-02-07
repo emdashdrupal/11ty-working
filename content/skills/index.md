@@ -1,6 +1,6 @@
 ---
 title : Ed Marsh skillset
-description: Content Content is a podcast where you get to know the people behind the content. We interview professionals in technical communication, content strategy, content marketing, information architecture, and others who create, organize, and maintain content online.
+description: Content is easy to create. It's also complex to coordinate, organize, and maintain. Here's how I can help you.
 tags : "skills"
 eleventyExcludeFromCollections : true
 layout: "layouts/grid.njk"
