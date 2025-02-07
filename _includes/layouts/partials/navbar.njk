@@ -1,13 +1,18 @@
 {% from "layouts/partials/macros.njk" import dropdown, listItem %}
 
-<nav id="navbar" class="bg-medium-blue shadow-md mb-6 container flex flex-auto mx-auto py-6 px-4">
-    <div class="text-xl mt-1 flex justify-between"><span class="font-semibold">Ed Marsh</span> &mdash; <span class="font-normal text-lg">technical writer, information architect, content strategist, podcaster</span></div>
-    <ul class="font-sans flex flex-auto mx-auto">
-        {{ listItem('/', 'Home') }}
-        {{ dropdown('ssgDropdown', 'Static site transformation', collections.ssg, '/static-site-transformation/') }}
-        {{ listItem('/podcasts/', 'Podcasts') }}
-        {{ listItem('/technical-writing-examples/', 'Writing samples') }}
-        {{ dropdown('skillsDropdown', 'Skills', collections.skills, '/skills') }}
-        {{ listItem('/about/about-ed-marsh', 'About') }}
-    </ul>
+<nav class="bg-green-blue shadow-md mb-6">
+    <div class="container mx-auto px-4 max-w-3xl">
+        <div class="text-xl mt-1">
+            <span class="font-semibold">Ed Marsh</span> &mdash;
+            <span class="font-normal text-lg">technical writer, information architect, content strategist, podcaster</span>
+        </div>
+        <ul class="font-sans flex space-x-4">
+            {{ listItem('/', 'Home') }}
+            {{ dropdown('ssgDropdown', 'Static site transformation', collections.ssg, '/static-site-transformation/') }}
+            {{ listItem('/podcasts/', 'Podcasts') }}
+            {{ listItem('/technical-writing-examples/', 'Writing samples') }}
+            {{ dropdown('skillsDropdown', 'Skills', collections.skills, '/skills') }}
+            {{ listItem('/about/about-ed-marsh', 'About') }}
+        </ul>
+    </div>
 </nav>
