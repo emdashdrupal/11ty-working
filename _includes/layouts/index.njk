@@ -24,7 +24,7 @@
         <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
             {% set collectionName = "skills" %}
             {% for item in collections[collectionName] %}
-                {% if item.data.featured == true %}
+                {% if item.data.featured == true and item.data.featuredOrder > 0 |sort(collections[collectionName].data.featuredOrder) %}
                     {% include 'layouts/partials/card.njk' %}
                 {% endif %}
             {% endfor %}
