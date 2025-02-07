@@ -40,7 +40,7 @@
     >
             <button
             type="button"
-            class="p-2 rounded-lg active:scale-95 transition-transform transform shadow-md flex mt-0 hover:rounded-lg"
+            class="p-2 rounded-lg active:scale-95 transition-transform transform shadow-md flex mt-0 text-whitish bg-green-blue"
             aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
         >
                 <span class="sr-only">
@@ -64,7 +64,7 @@
             {{ heroImage | safe }}
         </figure>
         <div class="flex flex-col p-4 h-full">
-            <h2 id="card-title-{{ title | slugify }}" class="card-title leading-7 hover:bg-cadet-gray pb-6">
+            <h2 id="card-title-{{ title | slugify }}" class="card-title leading-7 pb-6">
                 <a href="{{ url }}" aria-label="Read more about {{ title }}">{{ title | safe }}</a>
             </h2>
             <div class="description prose prose-md flex-grow">
