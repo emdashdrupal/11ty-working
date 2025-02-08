@@ -18,18 +18,23 @@
         <link rel="stylesheet" type="text/css" href="/css/base.css">
         <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
     </head>
-    <body class="body-{{title | slugify }} mx-auto prose max-w-max">
-        {% block nav %}
-            {% include 'layouts/partials/navbar.njk' %}
-        {% endblock %}
-        {% include 'layouts/partials/breadcrumb.njk' %}
-        {% block content %}
-            <main class="container px-4">
-                <h1 id={{title | slugify}}>{{title or metadata.title}}</h1>
-                {% if page.date %}
-                    <p class="text-sm">Updated: {{ page.date.toDateString()}}</p>
-                {% endif %}
-                {% if description %}
-                    <div id="page-description" class="mb-4 description">{{ description | markdown | safe }}</div>
-                {% endif %}
+    <body class="min-h-screen bg-gray-50">
+        <div class="max-w-3xl mx-auto px-4">
+            {% block nav %}
+                {% include 'layouts/partials/navbar.njk' %}
             {% endblock %}
+            {% include 'layouts/partials/breadcrumb.njk' %}
+            {% block content %}
+                <main>
+                    <h1 class="text-3xl font-bold mb-4">{{title or metadata.title}}</h1>
+                    {% if page.date %}
+                        <p class="text-sm text-gray-600 mb-4">Updated: {{ page.date.toDateString()}}</p>
+                    {% endif %}
+                    {% if description %}
+                        <div class="prose mb-8">{{ description | markdown | safe }}</div>
+                    {% endif %}
+                </main>
+            {% endblock %}
+        </div>
+    </body>
+</html>

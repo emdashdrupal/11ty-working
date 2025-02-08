@@ -1,12 +1,13 @@
 {% from "layouts/partials/macros.njk" import dropdown, listItem %}
 
-<nav class="bg-green-blue shadow-md mb-6">
-    <div class="container mx-auto px-4 max-w-3xl">
-        <div class="text-xl mt-1">
-            <span class="font-semibold">Ed Marsh</span> &mdash;
-            <span class="font-normal text-lg">technical writer, information architect, content strategist, podcaster</span>
+<nav class="bg-medium-blue -mx-4 px-4 py-4 mb-6">
+    <div class="flex flex-col space-y-4">
+        <div class="text-xl">
+            <span class="font-semibold text-whitish">Ed Marsh</span>
+            <span class="text-whitish">&mdash;</span>
+            <span class="font-normal text-lg text-whitish">technical writer, information architect, content strategist, podcaster</span>
         </div>
-        <ul class="font-sans flex space-x-4 text-whitish">
+        <ul class="font-sans flex flex-wrap gap-4 text-whitish">
             {{ listItem('/', 'Home') }}
             {{ dropdown('ssgDropdown', 'Static site transformation', collections.ssg, '/static-site-transformation/') }}
             {{ listItem('/podcasts/', 'Podcasts') }}

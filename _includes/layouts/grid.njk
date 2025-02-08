@@ -1,10 +1,13 @@
 {% include "layouts/partials/header.njk" %}
-{% set collectionName = collectionName %}
-{% set filtered_collections = collections[collectionName] %}
-<div class="grid col-auto md:grid-cols-3 gap-3 px-3 py-3 border-2">
-{% for item in filtered_collections %}
-{% include "layouts/partials/card.njk" %}
-{% endfor %}
+
+<div class="max-w-3xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+        {% set collectionName = collectionName %}
+        {% set filtered_collections = collections[collectionName] %}
+        {% for item in filtered_collections %}
+            {% include "layouts/partials/card.njk" %}
+        {% endfor %}
+    </div>
 </div>
 
 {% include "layouts/partials/footer.njk" %}
