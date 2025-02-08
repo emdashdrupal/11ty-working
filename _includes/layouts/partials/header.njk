@@ -25,7 +25,7 @@
         {% include 'layouts/partials/breadcrumb.njk' %}
         {% block content %}
             <main class="container px-4">
-                <h1 class="prose prose-xl" id={{title | slugify}}>{{title or metadata.title}}</h1>
+                <h1 id={{title | slugify}}>{{title or metadata.title}}</h1>
                 {% if page.date %}
                     <p class="text-sm">Updated: {{ page.date.toDateString()}}</p>
                 {% endif %}
