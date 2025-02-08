@@ -4,5 +4,6 @@
   "collectionName": "podcasts",
   "layout": "layouts/details.njk",
   "tags": "podcasts",
-  "category": "Podcasts"
+  "category": "Podcasts",
+  "categoryFontAwesomeIcon": "solid fa-podcast"
 }

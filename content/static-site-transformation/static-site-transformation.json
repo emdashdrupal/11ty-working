@@ -5,5 +5,5 @@
     "tags": "ssg",
     "layout": "layouts/details.njk",
     "category": "Static site transformation",
-    "FontAwesomeIcon": "solid fa-truck-fast"
+    "categoryFontAwesomeIcon": "solid fa-truck-fast"
 }

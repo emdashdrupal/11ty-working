@@ -3,8 +3,8 @@
   <a href="/">Home</a>
   {% if category %}
     <span class="fa-solid fa-chevron-right mx-2"></span>
-    {% if FontAwesomeIcon %}
-      <span class="fa-{{ FontAwesomeIcon }} mx-2"></span>
+    {% if categoryFontAwesomeIcon %}
+      <span class="fa-{{ categoryFontAwesomeIcon }} mx-2"></span>
     {% endif %}
     <a href="/{{ category | slugify }}">{{ category }}</a>
   {% endif %}
