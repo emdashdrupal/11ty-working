@@ -1,8 +1,8 @@
 {% include 'layouts/partials/header.njk' %}
 
 <main>
-    <section class="mb-8" id="intro">
-        <div class="flex justify-end float-right ml-2">
+    <section id="intro">
+        <div class="flex justify-end float-right">
             <img
         src="/assets/images/me-head-shot-corrected-blue-backgrd-from-mike-225x300.jpg"
         alt="Ed Marsh, photo courtesy Arclight Images"
@@ -15,13 +15,13 @@
                 <span class="text-xl font-semibold">Hi, I'm Ed Marsh</span>. I'm a technical writer, information architect, content strategist, community builder, and podcaster. I help organizations create and manage technical content that is clear, concise, and consistent. Throughout my career, I've dabbled in code and am passionate about making a difference through clear, well-organized, user-friendly documentation.</p>
 
             <p>I've worked in software and financial services with a variety of tools, including RoboHelp, Flare, Confluence, VS Code, Markdown, Git, Jira, and oXygen XML Editor. I'm dedicated to helping organizations achieve their content goals through effective content strategy and structure.</p>
-            <p>I (used to) <a href="podcasts/">host a podcast</a> where I interview content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more.</p>
+            <p>I <a href="podcasts/">hosted a podcast</a> where I interviewed content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more.</p>
         </div>
     </section>
 
-    <section class="mb-8 border-2" id="skills">
-        <h2 class="px-3 py-2">How I can help you</h2>
-        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
+    <section class="border-2" id="skills">
+        <h2 class="px-3">How I can help you</h2>
+        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3">
             {% set collectionName = "skills" %}
             {% for item in collections[collectionName] %}
                 {% if item.data.featured == true and item.data.featuredOrder > 0 |sort(collections[collectionName].data.featuredOrder) %}
@@ -34,10 +34,10 @@
         </div>
     </section>
 
-    <section class="mb-8 border-2" id="ssg">
-        <h2 class="px-3 py-2">Creating a static site</h2>
-        <p class="description">I converted my blog from an old WordPress site to a static site. Here's what I learned about the process, and how I can help you organize and structure your content.</p>
-        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
+    <section class="border-2" id="ssg">
+        <h2 class="px-3">Creating a static site</h2>
+        <p class="description px-3">I converted my blog from an old WordPress site to a static site. Here's what I learned about the process, and how I can help you organize and structure your content.</p>
+        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3">
             {% set collectionName = "ssg" %}
             {% for item in collections[collectionName] %}
                 {% if item.data.featured == true %}
@@ -51,9 +51,9 @@
     </section>
 
 
-    <section class="mb-8 border-2" id="podcasts">
-        <h2 class="px-3 py-2">Recent podcasts</h2>
-        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
+    <section class="border-2" id="podcasts">
+        <h2 class="px-3">Recent podcasts</h2>
+        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3">
             {% set collectionName = "podcasts" %}
             {% for item in collections.podcasts | reverse %}
                 {% if loop.index0 <= 3 %}

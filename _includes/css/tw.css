@@ -1759,6 +1759,11 @@ video {
   list-style-type: none;
 }
 
+.columns-auto {
+  -moz-columns: auto;
+       columns: auto;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -1950,6 +1955,10 @@ video {
 
 .leading-7 {
   line-height: 1.75rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
 }
 
 .text-gray-600 {
