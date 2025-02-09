@@ -4,5 +4,5 @@
   "layout": "layouts/details.njk",
   "tags": "skills",
   "category": "Skills",
-  "categoryFontAwesomeIcon": "solid fa-podcast"
+  "categoryFontAwesomeIcon": "solid fa-user-check"
 }
