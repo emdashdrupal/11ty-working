@@ -31,7 +31,7 @@
                         <p class="text-sm text-gray-600 mb-4">Updated: {{ page.date.toDateString()}}</p>
                     {% endif %}
                     {% if description %}
-                        <div class="prose mb-8">{{ description | markdown | safe }}</div>
+                        <div class="prose">{{ description | markdown | safe }}</div>
                     {% endif %}
                 </main>
             {% endblock %}

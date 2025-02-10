@@ -1,46 +1,30 @@
    {# Calendar Section #}
 
-    <section class="bg-white p-6 rounded-lg shadow-md">
-        <h2 class="text-2xl font-bold mb-4">Schedule a Meeting</h2>
-        <p class="mb-4 text-gray-600">Choose a time that works for you to discuss your content strategy needs.</p>
-        <!-- Google Calendar Appointment Scheduling begin -->
-<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-<script>
-(function() {
-  var target = document.currentScript;
-  window.addEventListener('load', function() {
-    calendar.schedulingButton.load({
-      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1CBWdgGqhLcE1ESu06P0r2-035wBc_jmj5EITbEmOXP5Zir_405nPRA5dBDMDEyZzc-S8AeI4D?gv=true',
-      color: '#039BE5',
-      label: 'Book an appointment',
-      target,
-    });
-  });
-})();
-</script>
-<!-- end Google Calendar Appointment Scheduling -->
+    <section class="bg-whitish p-6 rounded-lg shadow-md">
+        <h2>Schedule an online meeting</h2>
+        <p class="text-gray-600">Choose a time that works for discuss your content needs.</p>
+        {% include 'layouts/partials/goocal-button.html' %}
 
    </section>
 
     {# Contact Info Section #}
     <section class="space-y-8">
         {# Social Links #}
-        <div class="bg-white p-6 rounded-lg shadow-md">
-            <h2 class="text-2xl font-bold mb-4">Connect With Me</h2>
-            <div class="flex flex-col space-y-4 columns-3">
-                <a href="https://www.linkedin.com/in/edmarsh/"
-                   class="columns-1 flex items-center space-x-3 text-blue-600 hover:text-blue-800 transition-colors">
+        <div class="bg-whitish p-6 rounded-lg shadow-md">
+            <h2>Connect With Me</h2>
+            <div class="grid grid-cols-3 gap-4">
+                <a href="https://www.linkedin.com/in/ed-marsh/"
+                   class="flex items-center justify-center space-x-3 text-blue-600 hover:text-blue-800 transition-colors">
                     <i class="fab fa-linkedin text-2xl"></i>
                     <span>LinkedIn Profile</span>
                 </a>
                 <a href="https://twitter.com/edmarsh"
-                   class="flex items-center space-x-3 text-blue-400 hover:text-blue-600 transition-colors">
+                   class="flex items-center justify-center space-x-3 text-blue-400 hover:text-blue-600 transition-colors">
                     <i class="fab fa-twitter text-2xl"></i>
                     <span>Twitter/X</span>
                 </a>
-                <a href="https://github.com/emdashdrupal"
-                   class="flex items-center space-x-3 text-gray-800 hover:text-gray-600 transition-colors">
+                <a href="https://github.com/edmarsh"
+                   class="flex items-center justify-center space-x-3 text-gray-800 hover:text-gray-600 transition-colors">
                     <i class="fab fa-github text-2xl"></i>
                     <span>GitHub</span>
                 </a>
@@ -48,8 +32,8 @@
         </div>
 
         {# Contact Form #}
-        <form class="bg-white p-6 rounded-lg shadow-md space-y-4" name="contact" method="POST" data-netlify="true">
-            <h2 class="text-2xl font-bold mb-4">Send a Message</h2>
+        <form class="bg-whitish p-6 rounded-lg shadow-md space-y-4" name="contact" method="POST" data-netlify="true">
+            <h2>Send a Message</h2>
             <div>
                 <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
                 <input type="text"
@@ -71,9 +55,9 @@
                 <select id="subject"
                         name="subject"
                         class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
-                    <option value="consultation">Content Strategy Consultation</option>
-                    <option value="podcast">Podcast Guest/Interview</option>
-                    <option value="speaking">Speaking Engagement</option>
+                    <option value="consultation">Free initial consultation</option>
+                    <option value="podcast">Podcast guest/interview</option>
+                    <option value="speaking">Speaking engagement</option>
                     <option value="other">Other</option>
                 </select>
             </div>
@@ -83,28 +67,10 @@
                          name="message"
                          rows="4"
                          required
-                         class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"></textarea>
+                         class="mt-1 block w-full rounded-md border-gray-600 shadow-sm focus:border-blue-500 focus:ring-blue-500"></textarea>
             </div>
             <button type="submit"
                     class="w-full bg-medium-blue text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors">
                 Send Message
             </button>
         </form>
-
-        {# Quick Contact Info #}
-        <div class="bg-white p-6 rounded-lg shadow-md">
-            <h2 class="text-2xl font-bold mb-4">Quick Contact</h2>
-            <div class="space-y-3">
-                <p class="flex items-center space-x-3">
-                    <i class="fas fa-envelope text-gray-600"></i>
-                    <a href="mailto:ed@edmarsh.com" class="text-blue-600 hover:text-blue-800">ed@edmarsh.com</a>
-                </p>
-                <p class="flex items-center space-x-3">
-                    <i class="fas fa-rss text-gray-600"></i>
-                    <a href="/feed.xml" class="text-blue-600 hover:text-blue-800">RSS Feed</a>
-                </p>
-            </div>
-        </div>
-    </section>
-</div>
-
