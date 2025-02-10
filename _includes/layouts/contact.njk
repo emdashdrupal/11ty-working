@@ -1,24 +1,36 @@
-{% extends 'layouts/details.njk' %}
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-    {# Calendar Section #}
+   {# Calendar Section #}
+
     <section class="bg-white p-6 rounded-lg shadow-md">
         <h2 class="text-2xl font-bold mb-4">Schedule a Meeting</h2>
         <p class="mb-4 text-gray-600">Choose a time that works for you to discuss your content strategy needs.</p>
-        <iframe
-            src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1CBWdgGqhLcE1ESu06P0r2-035wBc_jmj5EITbEmOXP5Zir_405nPRA5dBDMDEyZzc-S8AeI4D?gv=true"
-            class="max-w-full border-0"
-            frameborder="0">
-        </iframe>
-    </section>
+        <!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1CBWdgGqhLcE1ESu06P0r2-035wBc_jmj5EITbEmOXP5Zir_405nPRA5dBDMDEyZzc-S8AeI4D?gv=true',
+      color: '#039BE5',
+      label: 'Book an appointment',
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+
+   </section>
 
     {# Contact Info Section #}
     <section class="space-y-8">
         {# Social Links #}
         <div class="bg-white p-6 rounded-lg shadow-md">
             <h2 class="text-2xl font-bold mb-4">Connect With Me</h2>
-            <div class="flex flex-col space-y-4">
-                <a href="https://www.linkedin.com/in/ed-marsh/"
-                   class="flex items-center space-x-3 text-blue-600 hover:text-blue-800 transition-colors">
+            <div class="flex flex-col space-y-4 columns-3">
+                <a href="https://www.linkedin.com/in/edmarsh/"
+                   class="columns-1 flex items-center space-x-3 text-blue-600 hover:text-blue-800 transition-colors">
                     <i class="fab fa-linkedin text-2xl"></i>
                     <span>LinkedIn Profile</span>
                 </a>
@@ -27,7 +39,7 @@
                     <i class="fab fa-twitter text-2xl"></i>
                     <span>Twitter/X</span>
                 </a>
-                <a href="https://github.com/edmarsh"
+                <a href="https://github.com/emdashdrupal"
                    class="flex items-center space-x-3 text-gray-800 hover:text-gray-600 transition-colors">
                     <i class="fab fa-github text-2xl"></i>
                     <span>GitHub</span>

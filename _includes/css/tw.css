@@ -1623,6 +1623,10 @@ video {
   grid-column: 1 / -1;
 }
 
+.col-start-auto {
+  grid-column-start: auto;
+}
+
 .float-right {
   float: right;
 }
@@ -1739,6 +1743,10 @@ video {
   width: 100%;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -1784,6 +1792,10 @@ video {
   max-width: 100%;
 }
 
+.flex-auto {
+  flex: 1 1 auto;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
@@ -1799,6 +1811,16 @@ video {
 .columns-auto {
   -moz-columns: auto;
        columns: auto;
+}
+
+.columns-3 {
+  -moz-columns: 3;
+       columns: 3;
+}
+
+.columns-1 {
+  -moz-columns: 1;
+       columns: 1;
 }
 
 .grid-cols-1 {
