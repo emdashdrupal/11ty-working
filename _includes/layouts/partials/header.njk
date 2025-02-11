@@ -28,7 +28,7 @@
                 <main>
                     <h1 class="text-3xl font-bold mb-4">{{title or metadata.title}}</h1>
                     {% if page.date %}
-                        <p class="text-sm text-gray-600 mb-4">Updated: {{ page.date.toDateString()}}</p>
+                        <p class="text-sm font-sans text-gray-600 mb-4">Updated: {{ page.date.toDateString()}}</p>
                     {% endif %}
                     {% if description %}
                         <div class="prose">{{ description | markdown | safe }}</div>
