@@ -42,7 +42,6 @@ The homepage displays featured content from different collections (Static Site G
 - Understand how featured content is displayed
 - Modify the featured sections
 
-
 ## Marking Content as Featured
 
 To display a piece of content in a featured section, add `featured: true` to its frontmatter:
@@ -53,7 +52,6 @@ title: "Your Post Title"
 description: "Post description"
 featured: true
 ---
-
 
 Any content without `featured: true` will still appear in the full collection but won't display on the homepage.
 
@@ -99,8 +97,6 @@ To add a new featured section to the homepage:
     "View All Text"
 ) \}\}
 
-
-
 ### Parameters
 
 - `title`: The heading displayed above the section
@@ -119,7 +115,6 @@ Here's how the "Skills" section is implemented:
     "/skills/",
     "See all my skills"
 )\}\}
-
 
 ## Related Files
 
