@@ -1285,6 +1285,14 @@ video {
   max-width: 12rem;
 }
 
+.max-w-6xl {
+  max-width: 72rem;
+}
+
+.max-w-none {
+  max-width: none;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
@@ -1455,12 +1463,26 @@ video {
   padding-bottom: 1rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 
 .font-sans {
@@ -1689,5 +1711,11 @@ video {
 @media (min-width: 1024px) {
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
