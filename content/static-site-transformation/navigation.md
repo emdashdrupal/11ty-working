@@ -8,7 +8,7 @@ Why is this forking shirtballs so hard? [Read this](https://www.11ty.dev/docs/pl
 
 > The very important takeaway for technical writers is that there are so many options to contribute to open source documentation. Static site generators are a great place to start. It also is a value-add for you since SSGs are popular for documentation.
 
-- Tooltips. I have to build those? Using multiple technologies? In 2025?!?
+- Tooltips. I have to build those? Using multiple technologies? In 2025?!? (Long story short: No, but I had to do some things to get it to work. RN I don't recall what.
 
 - Rendering formatting like links and italics in a metadata field proved challenging.
 
