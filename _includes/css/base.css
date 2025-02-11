@@ -164,6 +164,10 @@ a {
     text-decoration: none;
 }
 
+p > a {
+    color: var(--green-blue);
+}
+
 a:hover {
     text-decoration: underline;
 

@@ -24,7 +24,7 @@ He is experienced in, and passionate about, information architecture and content
 - Cheat sheets
 - Technical illustrations
 - Printed manuals
-- PDF documentation.
+- PDF documentation
 
 ## Philanthropy
 
