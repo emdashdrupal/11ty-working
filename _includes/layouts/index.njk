@@ -10,7 +10,7 @@
     </div>
     <div class="prose max-w-prose mx-auto">
         <p class="font-sans text-lg">
-            <span class="text-xl font-semibold">Hi, I'm Ed Marsh</span>. I'm a technical writer, information architect, content strategist, community builder, and podcaster. I'm passionate about helping organizations create and manage technical content that is clear, concise, and consistent through effective content strategy and structure.</p>
+            <span class="text-xl font-semibold">Hi, I'm Ed Marsh</span>. I'm a technical writer, content strategist, community builder, and podcaster. I'm passionate about helping organizations create and manage content that is clear, concise, and consistent through structure and effective content strategy. In turn, your content performs better, particularly with AI and large language models (LLMs).</p>
 
         <p>I've worked in software and financial services with a variety of tools, including:</p>
         <ul>
@@ -19,6 +19,7 @@
             <li>Markdown</li>
             <li>Git</li>
             <li>Jira</li>
+            <li>Adobe Creative Cloud</li>
             <li>Adobe RoboHelp</li>
             <li>MadCap Flare</li>
             <li>oXygen XML Editor</li>
@@ -31,7 +32,7 @@
 
 <section class="border-2 max-w-4xl mx-auto" id="skills">
     <h2 class="px-3">How I can help you</h2>
-<p class="description px-3">Here are a few ways I can help your organization. <a href="/skills/">See all my skills</a>.</p>
+<p class="description px-3">Here are a few ways I can help your organization. <a href="/skills/">See all the ways I can help</a>.</p>
     <div class="grid col-auto sm:grid-cols-4 gap-3 px-3">
         {% set collectionName = "skills" %}
         {% for item in collections[collectionName] %}
@@ -44,7 +45,7 @@
 
 <section class="border-2 max-w-4xl mx-auto" id="ssg">
     <h2 class="px-3">Creating a static site</h2>
-    <p class="description px-3">I converted my old WordPress site to a static site. Here's what I learned about the process, and how these lessons learned can help you organize and structure your content to meet your goals.</p>
+    <p class="description px-3">I converted my WordPress site to a static site with [Eleventy](https://www.11ty.dev/). Here's what I learned about the process, and how these lessons learned can help you organize and structure your content to meet your goals.</p>
     <div class="grid col-auto sm:grid-cols-4 gap-3 px-3">
         {% set collectionName = "ssg" %}
         {% for item in collections[collectionName] %}
@@ -60,7 +61,7 @@
 
 <section class="border-2 max-w-4xl mx-auto" id="podcasts">
     <h2 class="px-3">Recent podcasts</h2>
-    <p class="description px-3">I <a href="podcasts/">hosted the Content Content podcast</a> where I interviewed content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more.</p>
+    <p class="description px-3">I <a href="podcasts/">hosted (scheduled, recorded, edited, produced, published, promoted, and reviewed metrics for) the Content Content podcast</a>, where I interviewed content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more.</p>
     <div class="grid col-auto sm:grid-cols-4 gap-3 px-3">
         {% set collectionName = "podcasts" %}
         {% for item in collections.podcasts | reverse %}
@@ -70,7 +71,7 @@
         {% endfor %}
 
         <div class="col-span-full text-xl font-bold italic">
-            <a href="/podcasts/">More podcasts</a>
+            <a href="/podcasts/">All podcasts</a>
         </div>
     </div>
 </section>
