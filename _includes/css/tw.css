@@ -1245,6 +1245,14 @@ video {
   height: 100%;
 }
 
+.max-h-64 {
+  max-height: 16rem;
+}
+
+.max-h-48 {
+  max-height: 12rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -1267,6 +1275,14 @@ video {
 
 .max-w-prose {
   max-width: 65ch;
+}
+
+.max-w-64 {
+  max-width: 16rem;
+}
+
+.max-w-48 {
+  max-width: 12rem;
 }
 
 .flex-grow {
