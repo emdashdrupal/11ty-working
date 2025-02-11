@@ -11,3 +11,5 @@ Why is this forking shirtballs so hard? [Read this](https://www.11ty.dev/docs/pl
 - Tooltips. I have to build those? Using multiple technologies? In 2025?!?
 
 - Rendering formatting like links and italics in a metadata field proved challenging.
+
+Turns out things wre still hard, but AI helped, and so did becoming familiar not only with the codebase, but also my own content. Ultimately I didn't use the built-in navigation features because I couldn't make heads or tails of it, and it was far easier to have AI help me with the logic of the code and drop-downs.
