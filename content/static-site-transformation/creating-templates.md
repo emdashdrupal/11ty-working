@@ -40,4 +40,15 @@ dir: {
 ## Learning curve
 
 Who knew the hardest part would be to figure out pathing?
-$$
+
+
+Ultimately, I ended up with three main page templates: `index.njk` for the homepage, grid pages for the interior landing pages, and details pages for the longform content. These were supported by multiple "partial" templates for:
+
+- The navigation (menu) bar.
+- The breadcrumb trail.
+- The cards that populated the grid pages.
+- The "hero image" that displayed the relevant podcast headshot of the guest (or in the case of the earlier episodes without headshots, the Content Content podcast logo), or for the static stie and examples pages, the relevant font awesome icon i chose (and referenced using metadata).
+- The header and footer
+- "Macros" that helped build the cards and drop-down menus.
+
+You can view all of these in the repo. I tried as much as possible to not repeat myself to be consistent in both content and code, but I'm sure there's still a lot of optimization left on the table. This is where having [AI like GitHub Copilot helped out](writing-with-ai.md).
