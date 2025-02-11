@@ -1,5 +1,5 @@
 ---
-title : "SSG Templates"
+title : "Learning about SSG templates"
 description: Templates are what makes static site generators work. They take your content and tell the SSG how to display it.
 FontAwesomeIcon: 'solid fa-file-code'
 ---
@@ -39,7 +39,8 @@ dir: {
 
 ## Learning curve
 
-Who knew the hardest part would be to figure out pathing?
+Who knew the hardest part would be to figure out pathing? Well, I'm guessing most developers probably did. Between figuring out relative pathing the way the SSG wants it, and how to reference items using dot notation, this was my biggest source of confusion and frustration. I'm sure everyone in their career has had a "Why won't this *work*" moment; trying to learn everything at once and figuring out why one change broke everything was *annoying*.
+
 
 
 Ultimately, I ended up with three main page templates: `index.njk` for the homepage, grid pages for the interior landing pages, and details pages for the longform content. These were supported by multiple "partial" templates for:
