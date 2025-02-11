@@ -1663,6 +1663,11 @@ video {
   margin-right: -1rem;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -1759,6 +1764,10 @@ video {
   width: 24rem;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -1802,6 +1811,10 @@ video {
 
 .max-w-full {
   max-width: 100%;
+}
+
+.max-w-72 {
+  max-width: 18rem;
 }
 
 .flex-auto {
