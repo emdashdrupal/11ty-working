@@ -41,7 +41,7 @@ Ed has always believed in giving back:
   - I'd rather be writing [Evolution of podcasting](https://idratherbewriting.com/blog/evolution-of-podcasting-podcast-ed-marsh)
 - Society for Technical Communication (STC) Associate Fellow
 - Volunteer newsletter editor for the [Society for Technical Communication](http://www.stc.org) (STC) [NY Metro Chapter](http://www.stcnymetro.org), which won an [Apex Award in 2013](http://www.apexawards.com/A2013_Win.List.pdf).
-- Created a content-related news aggregation site in 2011, [contentcontent.info (wayback archive)](https://web.archive.org/web/20210303183334/http://contentcontent.info/), that stood for 10 years. He is also one of the founding members of the former Drupal - Northern NJ user group.
+- Created a content-related news aggregation site in 2011, [contentcontent.info (wayback archive)](https://web.archive.org/web/20210303183334/http://contentcontent.info/), that stood for 10 years. He is also one of the founding members of the former Drupal Northern NJ user group.
 
 He's also mentored many people inside and out of his field.
 
