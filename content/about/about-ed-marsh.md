@@ -24,13 +24,13 @@ He is experienced in, and passionate about, information architecture and content
 - Cheat sheets
 - Technical illustrations
 - Printed manuals
-- PDF documentation.
+- PDF documentation
 
 ## Philanthropy
 
 Ed has always believed in giving back:
 
-- In 2015, Ed created, hosted, and produced the [Content Content podcast](/podcasts/), interviewing technical communicators, content strategists, and other content professionals.
+- In 2015, Ed created, hosted, and produced the [Content Content podcast](/content/podcasts), interviewing technical communicators, content strategists, and other content professionals.
 - Presented at [local meetups, regional, and international conferences](http://www.slideshare.net/theedmarsh/).
   - His most recent presentation is [So, you want to be a technical writer?](https://www.brighttalk.com/webcast/9273/608187?utm_source=brighttalk-sharing&utm_medium=web&utm_campaign=linkshare)
   - [Pros and Cons of Using Markdown for Technical Documentation Panel Discussion](https://www.brighttalk.com/webcast/9273/608016)
@@ -39,9 +39,9 @@ Ed has always believed in giving back:
   - [Content Journeys](https://creators.spotify.com/pod/show/contentjourneys/episodes/Content-Journeys---014---Content-Podcasting-e160pu0)
   - [Content Strategy Experts](https://www.scriptorium.com/2018/02/full-transcript-podcasting-strategy-podcast-guest-ed-marsh/)
   - I'd rather be writing [Evolution of podcasting](https://idratherbewriting.com/blog/evolution-of-podcasting-podcast-ed-marsh)
-- STC Associate Fellow
+- Society for Technical Communication (STC) Associate Fellow
 - Volunteer newsletter editor for the [Society for Technical Communication](http://www.stc.org) (STC) [NY Metro Chapter](http://www.stcnymetro.org), which won an [Apex Award in 2013](http://www.apexawards.com/A2013_Win.List.pdf).
-- Created a content-related news aggregation site in 2011, [contentcontent.info (wayback archive)](https://web.archive.org/web/20210303183334/http://contentcontent.info/), that stood for 10 years. He is also one of the founding members of the former Drupal - Northern NJ user group.
+- Created a content-related news aggregation site in 2011, [contentcontent.info (wayback archive)](https://web.archive.org/web/20210303183334/http://contentcontent.info/), that stood for 10 years. He is also one of the founding members of the former Drupal Northern NJ user group.
 
 He's also mentored many people inside and out of his field.
 

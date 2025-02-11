@@ -113,7 +113,7 @@ p {
 }
 
 p.description {
-    margin: 0.5rem 0;
+    margin: 0.5rem 0.25rem;
     font-family: Roboto, "Poppins", Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 104%;
     font-optical-sizing: auto;
@@ -128,7 +128,7 @@ p.description {
 }
 
 h1 {
-    font-size: 1.45rem;
+    font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
     margin-top: 0;
@@ -164,9 +164,14 @@ a {
     text-decoration: none;
 }
 
+p > a {
+    color: var(--green-blue);
+}
+
 a:hover {
     text-decoration: underline;
-
+    background-color: var(--medium-blue);
+    color: var(--whitish);
 }
 
 ul li {
@@ -269,6 +274,3 @@ button:hover {
     border: 0;
 }
 
-.prose {
-    color: black;
-}

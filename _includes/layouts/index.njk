@@ -1,71 +1,78 @@
 {% include 'layouts/partials/header.njk' %}
 
-<main>
-    <section class="mb-8" id="intro">
-        <div class="flex justify-end float-right ml-2">
-            <img
-        src="/assets/images/me-head-shot-corrected-blue-backgrd-from-mike-225x300.jpg"
+<section id="intro">
+    <div class="float-right rounded-lg max-w-48">
+        <img
+        src="/assets/images/ed-marsh.jpg"
         alt="Ed Marsh, photo courtesy Arclight Images"
         title="Ed Marsh, photo courtesy Arclight Images"
-        class="rounded-lg"
       >
+    </div>
+    <div class="prose max-w-prose mx-auto">
+        <p class="font-sans text-lg">
+            <span class="text-xl font-semibold">Hi, I'm Ed Marsh</span>. I'm a technical writer, information architect, content strategist, community builder, and podcaster. I'm passionate about helping organizations create and manage technical content that is clear, concise, and consistent through effective content strategy and structure.</p>
+
+        <p>I've worked in software and financial services with a variety of tools, including:</p>
+        <ul>
+            <li>Confluence</li>
+            <li>VS Code</li>
+            <li>Markdown</li>
+            <li>Git</li>
+            <li>Jira</li>
+            <li>Adobe RoboHelp</li>
+            <li>MadCap Flare</li>
+            <li>oXygen XML Editor</li>
+            <li>OpenAPI (Swagger)</li>
+        </ul>
+
+
+        {% include 'layouts/partials/goocal-button.html' %}</div>
+</section>
+
+<section class="border-2 max-w-4xl mx-auto" id="skills">
+    <h2 class="px-3">How I can help you</h2>
+<p class="description px-3">Here are a few ways I can help your organization. <a href="/skills/">See all my skills</a>.</p>
+    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3">
+        {% set collectionName = "skills" %}
+        {% for item in collections[collectionName] %}
+            {% if item.data.featured == true and item.data.featuredOrder > 0 | sort(collections[collectionName].data.featuredOrder) %}
+                {% include 'layouts/partials/card.njk' %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
+
+<section class="border-2 max-w-4xl mx-auto" id="ssg">
+    <h2 class="px-3">Creating a static site</h2>
+    <p class="description px-3">I converted my old WordPress site to a static site. Here's what I learned about the process, and how these lessons learned can help you organize and structure your content to meet your goals.</p>
+    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3">
+        {% set collectionName = "ssg" %}
+        {% for item in collections[collectionName] %}
+            {% if item.data.featured == true %}
+                {% include 'layouts/partials/card.njk' %}
+            {% endif %}
+        {% endfor %}
+        <div class="col-span-full text-xl font-bold italic">
+            <a href="/static-site-transformation/">Full series</a>
         </div>
-        <div class="mt-2 mb-4 prose max-w-prose">
-            <p class="font-sans text-lg">
-                <span class="text-xl font-semibold">Hi, I'm Ed Marsh</span>. I'm a technical writer, information architect, content strategist, community builder, and podcaster. I help organizations create and manage technical content that is clear, concise, and consistent. Throughout my career, I've dabbled in code and am passionate about making a difference through clear, well-organized, user-friendly documentation.</p>
+    </div>
+</section>
 
-            <p>I've worked in software and financial services with a variety of tools, including RoboHelp, Flare, Confluence, VS Code, Markdown, Git, Jira, and oXygen XML Editor. I'm dedicated to helping organizations achieve their content goals through effective content strategy and structure.</p>
-            <p>I (used to) <a href="podcasts/">host a podcast</a> where I interview content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more.</p>
+<section class="border-2 max-w-4xl mx-auto" id="podcasts">
+    <h2 class="px-3">Recent podcasts</h2>
+    <p class="description px-3">I <a href="podcasts/">hosted the Content Content podcast</a> where I interviewed content creators &mdash; the people behind the content &mdash; in technical communication, content strategy, content marketing, implementation, and more.</p>
+    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3">
+        {% set collectionName = "podcasts" %}
+        {% for item in collections.podcasts | reverse %}
+            {% if loop.index0 <= 3 %}
+                {% include 'layouts/partials/card.njk' %}
+            {% endif %}
+        {% endfor %}
+
+        <div class="col-span-full text-xl font-bold italic">
+            <a href="/podcasts/">More podcasts</a>
         </div>
-    </section>
-
-    <section class="mb-8 border-2" id="skills">
-        <h2 class="px-3 py-2">How I can help you</h2>
-        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
-            {% set collectionName = "skills" %}
-            {% for item in collections[collectionName] %}
-                {% if item.data.featured == true and item.data.featuredOrder > 0 |sort(collections[collectionName].data.featuredOrder) %}
-                    {% include 'layouts/partials/card.njk' %}
-                {% endif %}
-            {% endfor %}
-            <div class="col-span-full text-xl font-bold italic">
-                <a href="/skills/">See all my skills</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="mb-8 border-2" id="ssg">
-        <h2 class="px-3 py-2">Creating a static site</h2>
-        <p class="description">I converted my blog from an old WordPress site to a static site. Here's what I learned about the process, and how I can help you organize and structure your content.</p>
-        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
-            {% set collectionName = "ssg" %}
-            {% for item in collections[collectionName] %}
-                {% if item.data.featured == true %}
-                        {% include 'layouts/partials/card.njk' %}
-                {% endif %}
-            {% endfor %}
-            <div class="col-span-full text-xl font-bold italic">
-                <a href="/static-site-transformation/">Full series</a>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="mb-8 border-2" id="podcasts">
-        <h2 class="px-3 py-2">Recent podcasts</h2>
-        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
-            {% set collectionName = "podcasts" %}
-            {% for item in collections.podcasts | reverse %}
-                {% if loop.index0 <= 3 %}
-                    {% include 'layouts/partials/card.njk' %}
-                {% endif %}
-            {% endfor %}
-
-            <div class="col-span-full text-xl font-bold italic">
-                <a href="/podcasts/">More podcasts</a>
-            </div>
-        </div>
-    </section>
-</main>
+    </div>
+</section>
 
 {% include 'layouts/partials/footer.njk' %}

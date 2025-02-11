@@ -4,5 +4,6 @@
     "collectionName": "ssg",
     "tags": "ssg",
     "layout": "layouts/details.njk",
-    "category": "Static site transformation"
+    "category": "Static site transformation",
+    "categoryFontAwesomeIcon": "solid fa-truck-fast"
 }
