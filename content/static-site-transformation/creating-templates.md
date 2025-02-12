@@ -41,15 +41,13 @@ dir: {
 
 Who knew the hardest part would be to figure out pathing? Well, I'm guessing most developers probably did. Between figuring out relative pathing the way the SSG wants it, and how to reference items using dot notation, this was my biggest source of confusion and frustration. I'm sure everyone in their career has had a "Why won't this *work*" moment; trying to learn everything at once and figuring out why one change broke everything was *annoying*.
 
-
-
-Ultimately, I ended up with three main page templates: `index.njk` for the homepage, grid pages for the interior landing pages, and details pages for the longform content. These were supported by multiple "partial" templates for:
+I ended up with three main page templates: `index.njk` for the homepage, grid pages for the interior landing pages, and details pages for the longform content. These were supported by multiple "partial" templates for:
 
 - The navigation (menu) bar.
 - The breadcrumb trail.
 - The cards that populated the grid pages.
-- The "hero image" that displayed the relevant podcast headshot of the guest (or in the case of the earlier episodes without headshots, the Content Content podcast logo), or for the static stie and examples pages, the relevant font awesome icon i chose (and referenced using metadata).
-- The header and footer
+- The "hero image" that displayed the relevant podcast headshot of the guest (or in the case of the earlier episodes without headshots, the Content Content podcast logo), or for the static stie and examples pages, the relevant font awesome icon I chose (and referenced using metadata).
+- The header and footer.
 - "Macros" that helped build the cards and drop-down menus.
 
 You can view all of these in the repo. I tried as much as possible to not repeat myself to be consistent in both content and code, but I'm sure there's still a lot of optimization left on the table. This is where having [AI like GitHub Copilot helped out](writing-with-ai.md).
