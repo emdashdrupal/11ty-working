@@ -1,6 +1,6 @@
 ---
 title: "About Ed Marsh"
-description: "Technical writer, information architect, content strategist, and community builder with over two decades of experience in making complex information accessible."
+description: "Technical writer, information architect, content strategist, and community builder, making complex information accessible over three decades."
 layout: layouts/details.njk
 category: "About"
 ---
@@ -9,7 +9,7 @@ I've always been curious about technology. As a kid, I was the one who pushed al
 
 ## Career journey
 
-My web journey started in the mid-1990s with my [first website](https://web.archive.org/web/19991008110914/http://www.geocities.com/SoHo/Cafe/8299/frameset.html). Since then, I've evolved with technology &mdash; from self-hosting WordPress to building this site with Eleventy in 2024. This evolution reflects my commitment to understanding and documenting technology.
+My web journey started in the mid-1990s with my [first website](https://web.archive.org/web/19991008110914/http://www.geocities.com/SoHo/Cafe/8299/frameset.html). Since then, I've evolved with technology &mdash; from self-hosting WordPress to building this site with Eleventy starting in 2024. This evolution reflects my commitment to understanding and documenting technology. Continually evolving has been a foundation of my adult life &mdash; from learning how to be a technical communicator, to learning how to teach music to middle- and high-school students, to content strategy, governance, and yadda yadda.
 
 My career started in New York City's software industry in 1994 as a &ldquo;technical writing assistant&rdquo; (I didn't know what technical writing was at the time). I learned how to be a technical writer at Information Builders (now part of Tibco) as part of a large technical documentation team. After a stint as a solo technical writer for a financial services technical provider where I spent time on a trading floor and in data centers, I progressed to Goldman Sachs, where I advanced to Vice President as a technical writer and eLearning developer. Working in small, medium, and enterprise environments taught me crucial lessons about:
 
@@ -60,14 +60,12 @@ A proud New Jersey native, I'm passionate about:
 - Craft beer (former homebrewer)
 - Culinary experimentation
 - IndyCar racing
-- Web design and development
-- Technical communication
 - The Oxford (serial) comma
 - Proper punctuation (especially the semicolon and ellipsis&hellip;)
 
 ## Recent projects
 
-I recently completed migrating this site from WordPress to Eleventy, documenting the entire process to help others understand:
+I recently migrated this site from WordPress to Eleventy, documenting the entire process to help others understand:
 
 - Static site generators
 - Content strategy
