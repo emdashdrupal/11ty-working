@@ -6,125 +6,20 @@ featured: true
 FontAwesomeIcon: solid fa-keyboard
 ---
 
+Everyone in tech is asking the same question: Is AI going to take my job? The answer for coders is "not yet". For those on the more creative end, including technical writers, it's a bit more grey. So over the course of this project, I asked GitHub Copilot to do my job and document my codebase.
+
+I've always dabbled in code. My problem has always been that I (think!) I understand the logic, but I don't know how to express that in code. My first forays into using large language models like Google Gemini (nee Bard) was to ask questions about how to write code for various automation tasks in Windows Powershell and Python. Fast-forward a year or two, and GitLab Copilot is baked into VS Code.
+
 My prompt was to `think like a technical writer and create a markdown file that documents this process`.
-
-## Explanation
-
-This is how the AI explained the process:
-
-```txt
-This documentation:
-
-- Explains the concept clearly
-- Provides practical examples
-- Includes all necessary code snippets
-- Uses consistent formatting
-- Follows a logical structure
-- Includes related files and notes sections
-```
 
 ## Output
 
-This is the documentation the LLM wrote. I've had to escape several characters to get this to work without rendering as code, so it's not pretty.
+Because the output includes a mix of Markdown, template code, and HTML code, it's nearly impossible to embed. I've instead [created a separate page](/static-site-transformation/ai-doc-output/) and excluded it from collections using the `eleventyExcludeFromCollections: true` parameter in my front matter.
 
-<pre>
----
-title: "Managing Featured Content on the Homepage"
-description: "How to control which content appears in featured sections on the homepage"
-date: "2024-03-19"
----
+Overall, it's pretty impressive that it can get to this level of granularity. But I think the result is only a high level overview, and parts are not entirely correct &mdash; partially as a result of my lack of coding experience. For example, the Featured content section is technically correct. However, at the time I asked the question it wasn't working.
 
-## Overview
+There's still a need for a person to review and verify.
 
-The homepage displays featured content from different collections (Static Site Generator posts, Skills, and Podcasts) in a grid layout. This guide explains how to:
+## Conclusions
 
-- Mark content as featured
-- Understand how featured content is displayed
-- Modify the featured sections
-
-## Marking Content as Featured
-
-To display a piece of content in a featured section, add `featured: true` to its frontmatter:
-
-\`\`\`yaml
----
-title: "Your Post Title"
-description: "Post description"
-featured: true
----
-
-Any content without `featured: true` will still appear in the full collection but won't display on the homepage.
-
-\## How Featured Content is Displayed
-
-The homepage uses a reusable macro to create consistent featured sections. Each section:
-
-- Displays featured items in a 4-column grid
-- Includes a title
-- Provides a link to view the full collection
-
-The macro is defined in `_includes/layouts/index.njk`:
-
-\`\`\`nunjucks
-
-\{% macro featuredSection(title, collectionName, viewAllLink, viewAllText) %}
-    <section class="mb-8 border-2" id="{{ collectionName }}">
-        <h2 class="px-3 py-2">{{ title }}</h2>
-        <div class="grid col-auto sm:grid-cols-4 gap-3 px-3 py-3">
-            {% set items = collections[collectionName] | selectattr("data.featured") %}
-            {% for item in items %}
-                {% include 'layouts/partials/card.njk' %}
-            {% endfor %}
-            <div class="col-span-full text-xl font-bold italic">
-                <a href="{{ viewAllLink }}">{{ viewAllText }}</a>
-            </div>
-        </div>
-    </section>
-\{% endmacro %}
-
-## Adding a Featured Section
-To add a new featured section to the homepage:
-
-1. Ensure your content is in a collection
-2. Add `featured: true` to the content you want to display
-3. Add a new section to `index.njk`:
-
-\`\`\`nunjucks
-\{\{ featuredSection(
-    "Section Title",
-    "collectionName",
-    "/collection-url/",
-    "View All Text"
-) \}\}
-
-### Parameters
-
-- `title`: The heading displayed above the section
-- `collectionName`: The name of the collection to pull content from
-- `viewAllLink`: URL to the full collection page
-- `viewAllText`: Text for the "view all" link
-
-## Example
-
-Here's how the "Skills" section is implemented:
-
-\`\`\`nunjucks
-\{\{ featuredSection(
-    "My skills — how I can help you",
-    "skills",
-    "/skills/",
-    "See all my skills"
-)\}\}
-
-## Related Files
-
-- `_includes/layouts/index.njk`: Main template file containing the featured sections
-- `_includes/layouts/partials/card.njk`: Template for individual content cards
-- Collection content files (e.g., `content/skills/*.md`): Where `featured: true` is set
-
-## Notes
-
-- Featured content maintains its original order within the collection
-- The grid automatically adjusts to screen size
-- Each section is independently managed through its collection's frontmatter
-</pre>
+There's plenty to learn from this output, especially because it's only going to get better. I also think there's some opportunity for technical communicators to take a shell like this and improve it. There's huge potential for tech writers to use AI to describe the code, and translate it into useful info (and fix passive voice!).
