@@ -22,4 +22,4 @@ There's still a need for a person to review and verify.
 
 ## Conclusions
 
-There's plenty to learn from this output, especially because it's only going to get better. I also think there's some opportunity for technical communicators to take a shell like this and improve it. There's huge potential for tech writers to use AI to describe the code, and translate it into useful info (and fix passive voice!).
+There's plenty to learn from this output, especially because it's only going to get better. I think there's opportunity for technical communicators to take a shell like this and improve it. There's huge potential for tech writers to use AI to describe the code, and translate it into useful info (and fix passive voice!).
