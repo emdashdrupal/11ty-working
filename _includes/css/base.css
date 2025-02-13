@@ -97,7 +97,7 @@
 html,
 body {
     font-family:
-    font-size: 1rem;
+        font-size: 1rem;
     color: #000;
     padding-left: 3%;
     line-height: 1.3rem;
@@ -113,8 +113,13 @@ p {
     line-height: 1.6rem;
 }
 
-.description, .description>p {
-    margin: 0.5rem 0.25rem;
+.card-description {
+    font-family: Besley, serif;
+}
+
+.description,
+.description>p {
+
     font-family: var(--sans-serif);
     font-size: 104%;
     font-optical-sizing: auto;
@@ -125,7 +130,6 @@ p {
 
 #page-description>p {
     font-family: var(--sans-serif);
-
 }
 
 h1 {
@@ -165,7 +169,7 @@ a {
     text-decoration: none;
 }
 
-p > a {
+p>a {
     color: var(--green-blue);
 }
 
@@ -261,6 +265,7 @@ blockquote {
 
 button:hover {
     background-color: var(--medium-blue);
+    border-radius: 1px;
 }
 
 .sr-only {
@@ -274,4 +279,3 @@ button:hover {
     white-space: nowrap;
     border: 0;
 }
-
