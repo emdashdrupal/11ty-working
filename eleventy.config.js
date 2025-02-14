@@ -1,4 +1,4 @@
-const syntaxHighlightPlugin = require("@11ty/eleventy-plugin-syntaxhighlight");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const timeToRead = require('eleventy-plugin-time-to-read');
@@ -20,7 +20,6 @@ module.exports = function (eleventyConfig) {
   // Set markdown-it as the markdown processor
   eleventyConfig.setLibrary("md", md);
 
-
   // Add markdown filter with type checking
   eleventyConfig.addFilter("markdown", function(content) {
     if (!content) {
@@ -32,7 +31,23 @@ module.exports = function (eleventyConfig) {
   });
 
   // Add plugins
-  eleventyConfig.addPlugin(syntaxHighlightPlugin);
+  eleventyConfig.addPlugin(syntaxHighlight, {
+
+    // Change which Eleventy template formats use syntax highlighters
+    templateFormats: ["njk"], // default
+
+    // e.g. Use syntax highlighters in njk and md Eleventy templates (not liquid)
+    // templateFormats: ["njk", "md"],
+
+
+    // Added in 3.0, set to true to always wrap lines in `<span class="highlight-line">`
+    // The default (false) only wraps when line numbers are passed in.
+    alwaysWrapLineHighlights: true,
+
+    // Added in 3.0.2, set to false to opt-out of pre-highlight removal of leading
+    // and trailing whitespace
+    trim: true,
+});
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(timeToRead);
 

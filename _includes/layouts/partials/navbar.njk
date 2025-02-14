@@ -1,14 +1,14 @@
 {% from "layouts/partials/macros.njk" import dropdown, listItem %}
 
-<nav class="bg-green-blue mx-auto px-4 py-4">
-    <div class="flex flex-col space-y-4">
+<nav class="container bg-green-blue mx-auto">
+    <div class="space-y-4 px-4">
         <div class="text-xl">
             <span class="font-semibold text-whitish">Ed Marsh</span>
             <span class="font-normal text-lg text-whitish">&mdash; Putting the technical in technical communication since 1994</span>
         </div>
-        <ul class="font-sans flex flex-wrap text-whitish">
+        <ul class="container font-sans flex flex-wrap text-whitish">
             {{ listItem('/', 'Home') }}
-            {{ dropdown('ssgDropdown', 'Website transformation', collections.ssg, '/static-site-transformation/') }}
+            {{ dropdown('ssgDropdown', 'Website transformation \>', collections.ssg, '/static-site-transformation/') }}
             {{ listItem('/podcasts/', 'Podcasts') }}
             {{ listItem('/technical-writing-examples/', 'Writing samples') }}
             {{ dropdown('skillsDropdown', 'Skills >', collections.skills, '/skills') }}

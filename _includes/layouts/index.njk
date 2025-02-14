@@ -8,7 +8,7 @@
         title="Ed Marsh, photo courtesy Arclight Images"
       >
     </div>
-    <div class="prose max-w-prose mx-auto">
+    <div class="prose">
         <p class="font-sans text-lg">
             <span class="text-xl font-semibold">Hi, I'm Ed Marsh</span>. I'm a technical writer, content strategist, community builder, and podcaster. I'm passionate about helping organizations create and manage content that is clear, concise, and consistent through structure and effective content strategy. In turn, your content performs better, particularly with AI and large language models (LLMs).</p>
 
@@ -26,54 +26,54 @@
             <li>OpenAPI (Swagger)</li>
         </ul>
 
-
         {% include 'layouts/partials/goocal-button.html' %}</div>
+</div>
 </section>
 
-<section class="border-2 max-w-4xl mx-auto" id="skills">
-    <h2 class="px-3">How I can help you</h2>
+<section class="border-2 mx-auto" id="skills">
+<h2 class="px-3">How I can help you</h2>
 <p class="description px-3">Here are a few ways I can help your organization. <a href="/skills/">See all the ways I can help</a>.</p>
-    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3">
-        {% set collectionName = "skills" %}
-        {% for item in collections[collectionName] %}
-            {% if item.data.featured == true and item.data.featuredOrder > 0 | sort(collections[collectionName].data.featuredOrder) %}
-                {% include 'layouts/partials/card.njk' %}
-            {% endif %}
-        {% endfor %}
-    </div>
+<div class="grid col-auto sm:grid-cols-4 gap-3 px-3">
+    {% set collectionName = "skills" %}
+    {% for item in collections[collectionName] %}
+        {% if item.data.featured == true and item.data.featuredOrder > 0 | sort(collections[collectionName].data.featuredOrder) %}
+            {% include 'layouts/partials/card.njk' %}
+        {% endif %}
+    {% endfor %}
+</div>
 </section>
 
-<section class="border-2 max-w-4xl mx-auto" id="ssg">
-    <h2 class="px-3">Creating a static site</h2>
-    <p class="description px-3">I converted my WordPress site to a static site with the <a href="https://www.11ty.dev/">Eleventy static site generator</a>. Here's what I learned about the process, and how these lessons learned can help you organize and structure your content to meet your goals.</p>
-    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3">
-        {% set collectionName = "ssg" %}
-        {% for item in collections[collectionName] %}
-            {% if item.data.featured == true %}
-                {% include 'layouts/partials/card.njk' %}
-            {% endif %}
-        {% endfor %}
-        <div class="col-span-full text-xl font-bold italic">
-            <a href="/static-site-transformation/">Full series</a>
-        </div>
+<section class="border-2 mx-auto" id="ssg">
+<h2 class="px-3">Creating a static site</h2>
+<p class="description px-3">I converted my WordPress site to a static site with the <a href="https://www.11ty.dev/">Eleventy static site generator</a>. Here's what I learned about the process, and how these lessons learned can help you organize and structure your content to meet your goals.</p>
+<div class="grid col-auto sm:grid-cols-4 gap-3 px-3">
+    {% set collectionName = "ssg" %}
+    {% for item in collections[collectionName] %}
+        {% if item.data.featured == true %}
+            {% include 'layouts/partials/card.njk' %}
+        {% endif %}
+    {% endfor %}
+    <div class="col-span-full text-xl font-bold italic">
+        <a href="/static-site-transformation/">Full series</a>
     </div>
+</div>
 </section>
 
-<section class="border-2 max-w-4xl mx-auto" id="podcasts">
-    <h2 class="px-3">Recent podcasts</h2>
-    <p class="description px-3">I hosted (scheduled, recorded, edited, produced, published, promoted, and reviewed metrics for) the <a href="podcasts/">Content Content podcast</a>, where I interviewed "the people behind the content" in technical communication, content strategy, content marketing, implementation, and more.</p>
-    <div class="grid col-auto sm:grid-cols-4 gap-3 px-3">
-        {% set collectionName = "podcasts" %}
-        {% for item in collections.podcasts | reverse %}
-            {% if loop.index0 <= 3 %}
-                {% include 'layouts/partials/card.njk' %}
-            {% endif %}
-        {% endfor %}
+<section class="border-2 mx-auto" id="podcasts">
+<h2 class="px-3">Recent podcasts</h2>
+<p class="description px-3">I hosted (scheduled, recorded, edited, produced, published, promoted, and reviewed metrics for) the <a href="podcasts/">Content Content podcast</a>, where I interviewed "the people behind the content" in technical communication, content strategy, content marketing, implementation, and more.</p>
+<div class="grid col-auto sm:grid-cols-4 gap-3 px-3">
+    {% set collectionName = "podcasts" %}
+    {% for item in collections.podcasts | reverse %}
+        {% if loop.index0 <= 3 %}
+            {% include 'layouts/partials/card.njk' %}
+        {% endif %}
+    {% endfor %}
 
-        <div class="col-span-full text-xl font-bold italic">
-            <a href="/podcasts/">All podcasts</a>
-        </div>
+    <div class="col-span-full text-xl font-bold italic">
+        <a href="/podcasts/">All podcasts</a>
     </div>
+</div>
 </section>
 
 {% include 'layouts/partials/footer.njk' %}
