@@ -17,3 +17,7 @@ Trying to work with documentation for several different pieces of software remin
 ## Accessibility
 
 The other nice thing about creating sites from HTML is that you can control how it's generated, and be sure to use the built-in elements to make my site accessible.
+
+## Final thoughts
+
+Like any project, learning and implementing is a process. I often think I can skip steps in the process, especially when one of my end goals for this project is to promote myself while looking for a job. You can tell the early writing of these pages by the sheer amount of frustration in my (written) voice. 

@@ -15,7 +15,9 @@
     <div class="order-2 md:order-2 h-full">
         <div class="bg-white p-6 rounded-lg shadow-md h-full">
             <h2 class="text-2xl font-bold mb-4">Send a message</h2>
-            <form class="space-y-4" name="contact" method="POST" data-netlify="true">
+            <form class="space-y-4" name="contact" method="POST" data-netlify="true" netlify>
+                <input type="hidden" name="subject"
+  value="Yeh message" />
                 <div>
                     <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
                     <input type="text" id="name" name="name" required
