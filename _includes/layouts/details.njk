@@ -26,12 +26,24 @@
             {% include "layouts/partials/presos.njk" %}
         </div>
     {% endif %}
-    <div class="md:col-span-1">
-        {% include "layouts/partials/tools.njk" %}
-    </div>
+    {% if collectionName == "podcasts" %}
+        {% from "layouts/partials/macros.njk" import renderButton %}
+        {{ renderButton(
+    url="/assets/podcasts/" + mp3File,
+    buttonText="Download",
+    title=title + " podcast"
+) }}
+    {% endif %}
+{% endif %}
+<div class="container mx-auto">
+    {% if content %}
+        {{ content | markdown | safe }}
+    {% endif %}
 </div>
-    {% if layout == "layouts/details.njk" %}
-        {% include 'layouts/partials/next-previous.njk' %}
+
+<audio controls>
+	<source src="/assets/podcasts/{{mp3File}}" type="audio/mp3">
+</audio>
     {% endif %}
 </article>
 

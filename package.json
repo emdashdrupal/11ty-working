@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy-navigation": "^0.3.5",
-    "@stackbit/cms-git": "^1.0.34",
+    "@stackbit/cms-git": "^1.0.17",
     "@stackbit/types": "^2.1.14",
     "@tailwindcss/typography": "^0.5.16",
     "autoprefixer": "^10.4.20",
