@@ -1,0 +1,21 @@
+{
+	"siteId": "bd88baa1-cc8c-42c4-be0e-96d38dc13aa6",
+	"geolocation": {
+		"data": {
+			"city": "Passaic",
+			"country": {
+				"code": "US",
+				"name": "United States"
+			},
+			"subdivision": {
+				"code": "NJ",
+				"name": "New Jersey"
+			},
+			"timezone": "America/New_York",
+			"latitude": 40.8565,
+			"longitude": -74.1231,
+			"postalCode": "07055"
+		},
+		"timestamp": 1747410892422
+	}
+}
