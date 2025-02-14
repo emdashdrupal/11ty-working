@@ -9,6 +9,7 @@
     --grey-green: #96a396;
     --medium-blue: #678bb1;
     --green-blue: #4b788a;
+    --sans-serif: "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* Text color classes */
@@ -95,8 +96,8 @@
 
 html,
 body {
-    font-family: "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 1rem;
+    font-family:
+        font-size: 1rem;
     color: #000;
     padding-left: 3%;
     line-height: 1.3rem;
@@ -112,9 +113,14 @@ p {
     line-height: 1.6rem;
 }
 
-p.description {
-    margin: 0.5rem 0.25rem;
-    font-family: Roboto, "Poppins", Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+.card-description {
+    font-family: Besley, serif;
+}
+
+.description,
+.description>p {
+
+    font-family: var(--sans-serif);
     font-size: 104%;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -123,8 +129,7 @@ p.description {
 }
 
 #page-description>p {
-    font-family: Roboto, "Poppins", Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
+    font-family: var(--sans-serif);
 }
 
 h1 {
@@ -132,21 +137,21 @@ h1 {
     font-weight: 600;
     margin-bottom: 0.5rem;
     margin-top: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--sans-serif);
 }
 
 h2 {
     font-size: 1.3rem;
     font-weight: 600;
     margin: 2rem 0 1em 0;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--sans-serif);
 }
 
 h3 {
     font-size: 1.2rem;
     font-weight: 700;
     margin: 1rem 0 .5rem 0;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--sans-serif);
 }
 
 pre,
@@ -164,7 +169,7 @@ a {
     text-decoration: none;
 }
 
-p > a {
+p>a {
     color: var(--green-blue);
 }
 
@@ -197,7 +202,7 @@ ol li {
 
 th {
     font-weight: 600;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--sans-serif);
     text-align: left;
 }
 
@@ -247,7 +252,7 @@ blockquote {
 
 .font-sans,
 .dropdown-toggle {
-    font-family: "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: var(--sans-serif);
 }
 
 .text-4xl {
@@ -260,6 +265,7 @@ blockquote {
 
 button:hover {
     background-color: var(--medium-blue);
+    border-radius: 1px;
 }
 
 .sr-only {
@@ -273,4 +279,3 @@ button:hover {
     white-space: nowrap;
     border: 0;
 }
-

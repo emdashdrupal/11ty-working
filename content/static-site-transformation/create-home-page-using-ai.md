@@ -16,7 +16,7 @@ Prompt:
 i'm creating a web site using Eleventy, nunjucks, tailwind css, html, and markdown. I'd like your help with a template for the homepage.
 ```
 
-And here is the response:
+And here is the response (note some charadters are escaped with backslashes so they display instead of execute):
 
 ```njk
 <!DOCTYPE html>

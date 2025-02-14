@@ -1,6 +1,8 @@
 const syntaxHighlightPlugin = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
+const timeToRead = require('eleventy-plugin-time-to-read');
+
 
 // Create markdown-it instance with custom configuration
 const mdOptions = {
@@ -32,6 +34,7 @@ module.exports = function (eleventyConfig) {
   // Add plugins
   eleventyConfig.addPlugin(syntaxHighlightPlugin);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  eleventyConfig.addPlugin(timeToRead);
 
   // Add shortcodes
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
