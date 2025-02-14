@@ -18,6 +18,8 @@
   },
   "devDependencies": {
     "@11ty/eleventy-navigation": "^0.3.5",
+    "@stackbit/cms-git": "^1.0.34",
+    "@stackbit/types": "^2.1.14",
     "@tailwindcss/typography": "^0.5.16",
     "autoprefixer": "^10.4.20",
     "markdown-it-anchor": "^9.2.0",
