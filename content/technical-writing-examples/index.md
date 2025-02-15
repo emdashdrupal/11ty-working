@@ -3,6 +3,7 @@ title : "Technical writing examples"
 description: This what Ed do.
 layout : layouts/grid.njk
 eleventyExcludeFromCollections : true
+FontAwesomeIcon: 'solid fa-hat-wizard'
 ---
 
 title : "Content Content Podcast: The people behind the content"

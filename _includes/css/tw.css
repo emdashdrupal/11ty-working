@@ -1248,14 +1248,6 @@ video {
   max-width: 12rem;
 }
 
-.max-w-4xl {
-  max-width: 56rem;
-}
-
-.max-w-prose {
-  max-width: 65ch;
-}
-
 .flex-grow {
   flex-grow: 1;
 }
