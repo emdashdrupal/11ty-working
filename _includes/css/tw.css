@@ -1772,6 +1772,10 @@ video {
   max-width: 65ch;
 }
 
+.flex-auto {
+  flex: 1 1 auto;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
