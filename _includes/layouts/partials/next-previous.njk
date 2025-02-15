@@ -2,16 +2,14 @@
     {% set previousPost = collections[collectionName] | getPreviousCollectionItem(item) %}
     {% set nextPost = collections[collectionName] | getNextCollectionItem(item) %}
     {% if previousPost %}
-        <div class="container p-4 rounded-md shadow-md my-6 flex flex-wrap bg-slate-300">
-            <a href="{{ previousPost.url }}">
-                <span class="fa-solid fa-arrow-left-long"></span> Previous | {{ previousPost.data.title }}</a>
+        <div class="leading-6 mb-3">
+            <span class="fa-solid fa-arrow-left-long text-grey-green"></span> Previous | <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
             {% if nextPost %}
                 <div class="float-right">
 
                     <a href="{{ nextPost.url }}">
-                        {{ nextPost.data.title }} | Next
-                    <span class="fa-solid fa-arrow-right-long"></a>
-                    </span>
+                        {{ nextPost.data.title }}</a> | Next
+                    <span class="fa-solid fa-arrow-right-long text-grey-green"></span>
                 </div>
             </div>
         {% endif %}
