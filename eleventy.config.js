@@ -34,11 +34,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight, {
 
     // Change which Eleventy template formats use syntax highlighters
-    templateFormats: ["njk"], // default
-
-    // e.g. Use syntax highlighters in njk and md Eleventy templates (not liquid)
-    // templateFormats: ["njk", "md"],
-
+    templateFormats: ["njk", "md"], // default
 
     // Added in 3.0, set to true to always wrap lines in `<span class="highlight-line">`
     // The default (false) only wraps when line numbers are passed in.

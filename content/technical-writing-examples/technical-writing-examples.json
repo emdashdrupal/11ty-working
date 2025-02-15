@@ -3,7 +3,5 @@
     "collectionName": "examples",
     "layout": "layouts/details.njk",
     "tags": "examples",
-    "category": "Writing samples",
-    "FontAwesomeIcon": "solid fa-hat-wizard"
-
+    "category": "Writing samples"
 }

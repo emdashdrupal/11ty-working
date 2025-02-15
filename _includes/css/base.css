@@ -281,6 +281,4 @@ button:hover {
 }
 code[class*="language-"], pre[class*="language-"] {
 font-family: "Reddit Mono", Consolas, Courier, monospace;
-    color:#000;
-    text-shadow: none;
 }
