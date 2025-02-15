@@ -1,6 +1,9 @@
         </main>
 
-        <footer class="p-4 mt-2 mb-0 rounded-bl-md rounded-tl-2xl">
+        <footer class="container p-4 my-2 rounded-bl-md  shadow-md">
+                                {% if layout == "layouts/details.njk" %}
+                                {% include 'layouts/partials/next-previous.njk' %}
+                                {% endif %}
             <div id="copyright">&copy; 2008&ndash;{% year %} &mdash; Ed Marsh's Jerk Store</div>
         </footer>
     </body>
