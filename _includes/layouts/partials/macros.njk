@@ -37,6 +37,11 @@
         role="button"
         download="{{ mp3File }}"
         class="inline-block font-sans"
+        {% if title %}
+            aria-label="Learn more about {{ title }}"
+        {% else %}
+            aria-label="{{ buttonText }}"
+        {% endif %}
         title="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
     >
             <button
