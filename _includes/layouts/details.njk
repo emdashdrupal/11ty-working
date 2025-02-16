@@ -1,14 +1,15 @@
 {% include 'layouts/partials/header.njk' %}
+
 {% if collectionName == "podcasts" %}
     <figure class="hero flex justify-end float-right ml-2">
         {% include 'layouts/partials/hero-image.njk' %}
     </figure>
 {% endif %}
-<div class="container prose">
+
     {% if content %}
         {{ content | markdown | safe }}
     {% endif %}
-</div>
+
     {% if collectionName == "podcasts" %}
         {% from "layouts/partials/macros.njk" import renderButton %}
         {{ renderButton(
@@ -21,5 +22,5 @@
 	<source src="/assets/podcasts/{{mp3File}}" type="audio/mp3">
 </audio>
     {% endif %}
-
+</article>
 {% include 'layouts/partials/footer.njk' %}

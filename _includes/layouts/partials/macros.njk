@@ -61,9 +61,8 @@
 {% endmacro %}
 
 {% macro card(url, title, description, buttonText, heroImage) %}
-    <article
+    <div
     class="card flex flex-col rounded-xl shadow-xl my-2 h-full border-gray-200 border-2 pt-4"
-    role="article"
     aria-labelledby="card-title-{{ title | slugify }}"
 >
         <figure class="hero flex justify-center items-center" role="img" aria-label="{% if heroImage %}Hero image for {{ title }}{% endif %}">
@@ -78,5 +77,5 @@
             </div>
             {{ renderButton(url, buttonText, title) }}
         </div>
-    </article>
+    </div>
 {% endmacro %}
