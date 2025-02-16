@@ -19,13 +19,13 @@
         <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
     </head>
     <body class="bg-whitish container mx-auto">
-        <div class="">
             {% block nav %}
                 {% include 'layouts/partials/navbar.njk' %}
                 {% include 'layouts/partials/breadcrumb.njk' %}
             {% endblock %}
             {% block content %}
                 <main>
+                    <article>
                     <h1 class="text-3xl font-bold mb-4">{{title or metadata.title}}</h1>
                     {% if layout == "layouts/details.njk" %}
                         <p class="text-sm font-sans text-gray-600 mb-4">Updated: {{ page.date.toDateString()}} | {{ 'text' | timeToRead }} read time</p>
