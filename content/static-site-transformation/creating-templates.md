@@ -51,3 +51,7 @@ I ended up with three main page templates: `index.njk` for the homepage, grid pa
 - "Macros" that helped build the cards and drop-down menus.
 
 You can view all of these in the repo. I tried as much as possible to not repeat myself to be consistent in both content and code, but I'm sure there's still a lot of optimization left on the table. This is where having [AI like GitHub Copilot helped out](writing-with-ai.md).
+
+## Structure
+
+The more i worked with it, the more i realized structure mattered &mdash; not only the content but the classes and IDs that are assigned to elements. These things make it easier to 'grab' data from content. For example, I wanted the button macro to download mp3 files on the podcast pages. However, the initial logic I wrote set the button to download *every* button item, which meant you weren't going to a page, but downloading it. I was able to isolate the button to only download on podcast pages, but first attempts made it download both the HTML and MP3 files. The tricky part was figuring out the granular logic.
