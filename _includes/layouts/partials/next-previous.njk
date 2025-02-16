@@ -2,7 +2,7 @@
     {% set previousPost = collections[collectionName] | getPreviousCollectionItem(item) %}
     {% set nextPost = collections[collectionName] | getNextCollectionItem(item) %}
     {% if previousPost %}
-        <div class="leading-6 mb-3">
+        <div class="leading-6">
             <span class="fa-solid fa-arrow-left-long text-grey-green"></span> <a href="{{ previousPost.url }}">Previous | {{ previousPost.data.title }}</a>
             {% if nextPost %}
                 <div class="float-right">
