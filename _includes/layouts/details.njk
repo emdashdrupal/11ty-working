@@ -1,22 +1,26 @@
 {% include 'layouts/partials/header.njk' %}
+
 {% if collectionName == "podcasts" %}
     <figure class="hero flex justify-end float-right ml-2">
         {% include 'layouts/partials/hero-image.njk' %}
     </figure>
+{% endif %}
+
+    {% if content %}
+        {{ content | markdown | safe }}
+    {% endif %}
+
     {% if collectionName == "podcasts" %}
         {% from "layouts/partials/macros.njk" import renderButton %}
         {{ renderButton(
     url="/assets/podcasts/" + mp3File,
-    buttonText="Listen now",
+    buttonText="Download",
     title=title + " podcast"
 ) }}
-    {% endif %}
-{% endif %}
-<div class="container mx-auto">
-    {% if content %}
-        {{ content | markdown | safe }}
-    {% endif %}
-</div>
 
-{% include 'layouts/partials/next-previous.njk' %}
+<audio controls>
+	<source src="/assets/podcasts/{{mp3File}}" type="audio/mp3">
+</audio>
+    {% endif %}
+</article>
 {% include 'layouts/partials/footer.njk' %}

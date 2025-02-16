@@ -4,11 +4,11 @@
         <ul
         id="{{ id }}-submenu"
         class="absolute hidden shadow-md rounded-md bg-medium-blue dropdown-menu"
-        aria-labelledby="{{ id }}"
+        aria-label="drop-down menu for {{ label }}"
     >
             {% for item in items %}
                 <li class="list-none font-sans">
-                    <a href="{{ item.url | url }}" class="block px-4 py-2 hover:bg-gray-100">{{ item.data.title }}</a>
+                    <a aria-labelledby="{{item.data.title}}" href="{{ item.url | url }}" class="block px-4 py-2 hover:bg-gray-100">{{ item.data.title }}</a>
                 </li>
             {% endfor %}
         </ul>
@@ -16,14 +16,14 @@
 {% endmacro %}
 
 {% macro listItem(url, label) %}
-    <li class="list-none font-sans">
+    <li class="list-none font-sans" aria-labelledby="{{ label }}">
         <a href="{{ url }}">{{ label }}</a>
     </li>
 {% endmacro %}
 
 {% macro gridItem(item) %}
     <div class="bg-whitish p-4">
-        <h3>
+        <h3 aria-labelledby="{{ item.data.title }}">
             <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
         </h3>
         <p>{{ item.data.description }}</p>
@@ -35,7 +35,13 @@
         <a
         href="{{ url }}"
         role="button"
+        download="{{ mp3File }}"
         class="inline-block font-sans"
+        {% if title %}
+            aria-label="Learn more about {{ title }}"
+        {% else %}
+            aria-label="{{ buttonText }}"
+        {% endif %}
         title="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
     >
             <button
@@ -55,9 +61,8 @@
 {% endmacro %}
 
 {% macro card(url, title, description, buttonText, heroImage) %}
-    <article
+    <div
     class="card flex flex-col rounded-xl shadow-xl my-2 h-full border-gray-200 border-2 pt-4"
-    role="article"
     aria-labelledby="card-title-{{ title | slugify }}"
 >
         <figure class="hero flex justify-center items-center" role="img" aria-label="{% if heroImage %}Hero image for {{ title }}{% endif %}">
@@ -72,5 +77,5 @@
             </div>
             {{ renderButton(url, buttonText, title) }}
         </div>
-    </article>
+    </div>
 {% endmacro %}
