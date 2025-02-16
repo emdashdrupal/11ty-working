@@ -1117,6 +1117,10 @@ video {
   top: 2.5rem;
 }
 
+.isolate {
+  isolation: isolate;
+}
+
 .order-1 {
   order: 1;
 }
