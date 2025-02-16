@@ -4,11 +4,11 @@
         <ul
         id="{{ id }}-submenu"
         class="absolute hidden shadow-md rounded-md bg-medium-blue dropdown-menu"
-        aria-labelledby="{{ id }}"
+        aria-label="drop-down menu for {{ label }}"
     >
             {% for item in items %}
                 <li class="list-none font-sans">
-                    <a href="{{ item.url | url }}" class="block px-4 py-2 hover:bg-gray-100">{{ item.data.title }}</a>
+                    <a aria-labelledby="{{item.data.title}}" href="{{ item.url | url }}" class="block px-4 py-2 hover:bg-gray-100">{{ item.data.title }}</a>
                 </li>
             {% endfor %}
         </ul>
@@ -16,14 +16,14 @@
 {% endmacro %}
 
 {% macro listItem(url, label) %}
-    <li class="list-none font-sans">
+    <li class="list-none font-sans" aria-labelledby="{{ label }}">
         <a href="{{ url }}">{{ label }}</a>
     </li>
 {% endmacro %}
 
 {% macro gridItem(item) %}
     <div class="bg-whitish p-4">
-        <h3>
+        <h3 aria-labelledby="{{ item.data.title }}">
             <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
         </h3>
         <p>{{ item.data.description }}</p>
