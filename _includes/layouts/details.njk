@@ -3,22 +3,23 @@
     <figure class="hero flex justify-end float-right ml-2">
         {% include 'layouts/partials/hero-image.njk' %}
     </figure>
-    {% if collectionName == "podcasts" %}
-        {% from "layouts/partials/macros.njk" import renderButton %}
-        {{ renderButton(
-    url="/assets/podcasts/" + mp3File,
-    buttonText="Listen now",
-    title=title + " podcast"
-) }}
-
-<audio controls>
-	<source src="/assets/podcasts/{{mp3File}}" type="audio/ogg">
-</audio>
-    {% endif %}
 {% endif %}
 <div class="container prose">
     {% if content %}
         {{ content | markdown | safe }}
     {% endif %}
 </div>
+    {% if collectionName == "podcasts" %}
+        {% from "layouts/partials/macros.njk" import renderButton %}
+        {{ renderButton(
+    url="/assets/podcasts/" + mp3File,
+    buttonText="Download",
+    title=title + " podcast"
+) }}
+
+<audio controls>
+	<source src="/assets/podcasts/{{mp3File}}" type="audio/mp3">
+</audio>
+    {% endif %}
+
 {% include 'layouts/partials/footer.njk' %}
