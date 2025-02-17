@@ -8,7 +8,7 @@
     >
             {% for item in items %}
                 <li class="list-none font-sans">
-                    <a aria-labelledby="{{item.data.title}}" href="{{ item.url | url }}" class="block px-4 py-2 hover:bg-gray-100">{{ item.data.title }}</a>
+                    <a aria-labelledby="{{item.data.title}}" href="{{ item.url | url }}" class="block  hover:bg-gray-100">{{ item.data.title }}</a>
                 </li>
             {% endfor %}
         </ul>
@@ -31,12 +31,9 @@
 {% endmacro %}
 
 {% macro renderButton(url, buttonText, title = "") %}
-    <div class="button flex pt-6">
+
         <a
         href="{{ url }}"
-        {% if collections[collectionName]=="podcasts" %}
-        download = "{{mp3File}}"
-        {% endif %}
         role="button"
         class="inline-block font-sans"
         {% if title %}
@@ -48,7 +45,10 @@
     >
             <button
             type="button"
-            class="p-2 rounded-lg active:scale-95 transition-transform transform shadow-md flex mt-0 text-whitish bg-green-blue hover:rounded-lg"
+            {% if collections.podcasts %}
+        download
+        {% endif %}
+            class="p-2 rounded-lg transition-transform transform shadow-md flex mt-0 text-whitish bg-green-blue active:rounded-lg"
             aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
         >
                 <span class="sr-only">
@@ -59,7 +59,7 @@
                 {{ buttonText }}
             </button>
         </a>
-    </div>
+
 {% endmacro %}
 
 {% macro card(url, title, description, buttonText, heroImage) %}

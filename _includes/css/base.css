@@ -180,7 +180,6 @@ a:hover {
 }
 
 ul li {
-    margin-bottom: 0.4rem;
     list-style-type: square;
     font-family: Besley, serif;
     font-optical-sizing: auto;
