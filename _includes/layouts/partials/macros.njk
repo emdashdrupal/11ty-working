@@ -7,7 +7,7 @@
         aria-label="drop-down menu for {{ label }}"
     >
             {% for item in items %}
-                <li class="list-none font-sans block hover:bg-gray-100">
+                <li class="list-none font-sans block">
                     <a aria-labelledby="{{item.data.title}}" href="{{ item.url | url }}">{{ item.data.title }}</a>
                 </li>
             {% endfor %}
