@@ -1,14 +1,14 @@
 {% macro dropdown(id, label, items, homepageUrl) %}
     <li class="relative list-none font-sans dropdown">
-        <a href="{{ homepageUrl }}" id="{{ id }}" class="dropdown-toggle">{{ label }}</a>
+        <a href="{{ homepageUrl }}" class="dropdown-toggle">{{ label }}</a>
         <ul
         id="{{ id }}-submenu"
         class="absolute hidden shadow-md rounded-md bg-medium-blue dropdown-menu"
         aria-label="drop-down menu for {{ label }}"
     >
             {% for item in items %}
-                <li class="list-none font-sans">
-                    <a aria-labelledby="{{item.data.title}}" href="{{ item.url | url }}" class="block  hover:bg-gray-100">{{ item.data.title }}</a>
+                <li class="list-none font-sans block hover:bg-gray-100">
+                    <a aria-labelledby="{{item.data.title}}" href="{{ item.url | url }}">{{ item.data.title }}</a>
                 </li>
             {% endfor %}
         </ul>
@@ -35,7 +35,7 @@
         <a
         href="{{ url }}"
         role="button"
-        class="inline-block font-sans"
+        class="font-sans"
         {% if title %}
             aria-label="Learn more about {{ title }}"
         {% else %}
@@ -48,7 +48,7 @@
             {% if collections.podcasts %}
         download
         {% endif %}
-            class="p-2 rounded-lg transition-transform transform shadow-md flex mt-0 text-whitish bg-green-blue active:rounded-lg"
+            class="p-2 rounded-lg transition-transform transform shadow-md mt-0 text-whitish bg-green-blue"
             aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
         >
                 <span class="sr-only">
