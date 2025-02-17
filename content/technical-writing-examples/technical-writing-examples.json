@@ -3,5 +3,6 @@
     "collectionName": "examples",
     "layout": "layouts/details.njk",
     "tags": "examples",
-    "category": "Writing samples"
+    "category": "Technical writing examples",
+    "FontAwesomeIcon": "regular fa-pen-to-square"
 }
