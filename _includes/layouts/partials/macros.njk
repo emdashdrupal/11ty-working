@@ -57,6 +57,9 @@
 
         <a
         href="{{ url }}"
+        {% if collections[collectionName]=="podcasts" %}
+        download = "{{mp3File}}"
+        {% endif %}
         role="button"
         class="font-sans"
         {% if title %}
@@ -97,6 +100,10 @@
             <h2 id="card-title-{{ title | slugify }}" class="card-title leading-8">
                 <a href="{{ url }}" aria-label="Read more about {{ title }}">{{ title | safe }}</a>
             </h2>
+
+        <figure class="hero flex my-1 mx-auto" role="img" aria-label="{% if heroImage %}Hero image for {{ title }}{% endif %}">
+            {{ heroImage | safe }}
+        </figure>
             <div class="card-description flex-grow">
                 {{ description | markdown | safe }}
             </div>
