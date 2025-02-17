@@ -34,6 +34,9 @@
     <div class="button flex pt-6">
         <a
         href="{{ url }}"
+        {% if collections[collectionName]=="podcasts" %}
+        download = "{{mp3File}}"
+        {% endif %}
         role="button"
         class="inline-block font-sans"
         {% if title %}
@@ -61,20 +64,20 @@
 
 {% macro card(url, title, description, buttonText, heroImage) %}
     <div
-    class="card flex flex-col rounded-xl shadow-xl my-2 h-full border-gray-200 border-2 pt-4"
+    class="card flex flex-col rounded-xl shadow-md h-full border-gray-200 border-2"
     aria-labelledby="card-title-{{ title | slugify }}"
->
-        <figure class="hero flex justify-center items-center" role="img" aria-label="{% if heroImage %}Hero image for {{ title }}{% endif %}">
-            {{ heroImage | safe }}
-        </figure>
-        <div class="flex flex-col p-4 h-full">
+>        <div class="flex flex-col h-full">
             <h2 id="card-title-{{ title | slugify }}" class="card-title leading-8">
                 <a href="{{ url }}" aria-label="Read more about {{ title }}">{{ title | safe }}</a>
             </h2>
+
+        <figure class="hero flex my-1 mx-auto" role="img" aria-label="{% if heroImage %}Hero image for {{ title }}{% endif %}">
+            {{ heroImage | safe }}
+        </figure>
             <div class="card-description flex-grow">
                 {{ description | markdown | safe }}
             </div>
-            {{ renderButton(url, buttonText, title) }}
+            <p>{{ renderButton(url, buttonText, title) }}</p>
         </div>
     </div>
 {% endmacro %}
