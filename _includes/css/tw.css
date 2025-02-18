@@ -1260,6 +1260,14 @@ video {
   max-width: 12rem;
 }
 
+.max-w-none {
+  max-width: none;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
+}
+
 .flex-auto {
   flex: 1 1 auto;
 }
