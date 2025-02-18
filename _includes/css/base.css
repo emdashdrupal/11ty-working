@@ -11,6 +11,7 @@
     --green-blue: #4b788a;
     --sans-serif: "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --serif: "Besley", serif;
+    --monospace: "Reddit Mono", Consolas, Courier, monospace;
 }
 
 /* Text color classes */
@@ -152,7 +153,7 @@ h3 {
 pre,
 code,
 font-mono {
-    font-family: "Reddit Mono", Consolas, Courier, monospace;
+    font-family: var(--monospace)
     margin: 0;
     padding: 0;
     tab-size: 2;
@@ -273,5 +274,5 @@ button:hover {
     border: 0;
 }
 code[class*="language-"], pre[class*="language-"] {
-font-family: "Reddit Mono", Consolas, Courier, monospace;
+font-family: var(--monospace)
 }
