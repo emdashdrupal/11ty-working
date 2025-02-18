@@ -248,6 +248,7 @@ blockquote {
 .dropdown-menu a:hover {
     background-color: var(--green-blue);
     color: white;
+    border-radius: 6px;
 }
 
 .font-sans,
@@ -265,7 +266,7 @@ blockquote {
 
 button:hover {
     background-color: var(--medium-blue);
-    border-radius: 1px;
+    border-radius: 6px;
 }
 
 .sr-only {
