@@ -230,10 +230,9 @@ blockquote {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     padding-top: 0px;
-    top: 1.1rem;
 }
 
-/* Show the dropdown menu when the parent item is hovered */
+/* Show the dropdown menu when the parent item is hovered DO NOT DELETE*/
 .dropdown:hover .dropdown-menu {
     display: block;
 }
