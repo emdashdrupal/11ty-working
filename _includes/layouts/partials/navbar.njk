@@ -11,10 +11,8 @@ listItem %}
         <span class="font-semibold text-whitish">Ed Marsh</span>
         <span class="font-normal text-lg text-whitish">&mdash; Putting the technical in technical communication since 1994</span>
         <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<span id="search" class="float-right"></span>
-
     </div>
-    <ul class="font-sans flex flex-wrap text-whitish mb-1 justify-between" aria-label="Main navigation menu">
+    <ul class="font-sans flex flex-wrap text-whitish mb-1 justify-evenly" aria-label="Main navigation menu">
         {{ listItem('/', 'Home') }}
         {{ dropdown('ssgDropdown', 'Website transformation \>', collections.ssg, '/static-site-transformation/') }}
         {{ listItem('/podcasts/', 'Podcasts') }}
@@ -23,4 +21,5 @@ listItem %}
         {{ listItem('/about/about-ed-marsh', 'About') }}
         {{ listItem('/contact/', 'Contact') }}
     </ul>
+    <span id="search" class="float-right h-2"></span>
 </nav>
