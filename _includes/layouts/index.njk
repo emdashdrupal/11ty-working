@@ -46,6 +46,10 @@
 <section class="border-2 mx-auto" id="ssg">
 <h2 class="px-3">Creating a static site</h2>
 <p class="description px-3">I converted my WordPress site to a static site with the <a href="https://www.11ty.dev/">Eleventy static site generator</a>. Here's what I learned about the process, and how these lessons learned can help you organize and structure your content to meet your goals.</p>
+    <div class="col-span-full text-xl font-bold italic p-4">
+        <a href="/static-site-transformation/">Check out the full series</a>
+    </div>
+
 <div class="grid col-auto sm:grid-cols-4 gap-3 px-3">
     {% set collectionName = "ssg" %}
     {% for item in collections[collectionName] %}
@@ -53,9 +57,6 @@
             {% include 'layouts/partials/card.njk' %}
         {% endif %}
     {% endfor %}
-    <div class="col-span-full text-xl font-bold italic">
-        <a href="/static-site-transformation/">Full series</a>
-    </div>
 </div>
 </section>
 

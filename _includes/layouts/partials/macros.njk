@@ -1,14 +1,14 @@
 {% macro dropdown(id, label, items, homepageUrl) %}
     <li class="relative list-none font-sans dropdown">
-        <a href="{{ homepageUrl }}" id="{{ id }}" class="dropdown-toggle">{{ label }}</a>
+        <a href="{{ homepageUrl }}" class="dropdown-toggle">{{ label }}</a>
         <ul
         id="{{ id }}-submenu"
         class="absolute hidden shadow-md rounded-md bg-medium-blue dropdown-menu"
         aria-label="drop-down menu for {{ label }}"
     >
             {% for item in items %}
-                <li class="list-none font-sans">
-                    <a aria-labelledby="{{item.data.title}}" href="{{ item.url | url }}" class="block px-4 py-2 hover:bg-gray-100">{{ item.data.title }}</a>
+                <li class="list-none font-sans block">
+                    <a aria-labelledby="{{item.data.title}}" href="{{ item.url | url }}">{{ item.data.title }}</a>
                 </li>
             {% endfor %}
         </ul>
@@ -31,14 +31,11 @@
 {% endmacro %}
 
 {% macro renderButton(url, buttonText, title = "") %}
-    <div class="button flex pt-6">
+
         <a
         href="{{ url }}"
-        {% if collections[collectionName]=="podcasts" %}
-        download = "{{mp3File}}"
-        {% endif %}
         role="button"
-        class="inline-block font-sans"
+        class="font-sans"
         {% if title %}
             aria-label="Learn more about {{ title }}"
         {% else %}
@@ -48,7 +45,10 @@
     >
             <button
             type="button"
-            class="p-2 rounded-lg active:scale-95 transition-transform transform shadow-md flex mt-0 text-whitish bg-green-blue hover:rounded-lg"
+            {% if collections.podcasts %}
+        download
+        {% endif %}
+            class="p-2 rounded-lg transition-transform transform shadow-md mt-0 text-whitish bg-green-blue"
             aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
         >
                 <span class="sr-only">
@@ -59,7 +59,7 @@
                 {{ buttonText }}
             </button>
         </a>
-    </div>
+
 {% endmacro %}
 
 {% macro card(url, title, description, buttonText, heroImage) %}
