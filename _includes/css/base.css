@@ -10,6 +10,8 @@
     --medium-blue: #678bb1;
     --green-blue: #4b788a;
     --sans-serif: "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --serif: "Besley", serif;
+    --monospace: "Reddit Mono", Consolas, Courier, monospace;
 }
 
 /* Text color classes */
@@ -96,25 +98,20 @@
 
 html,
 body {
-    font-family:
-        font-size: 1rem;
+    font-size: 1rem;
     color: #000;
-    padding-left: 3%;
     line-height: 1.3rem;
 }
 
 p {
-    margin: 0.5rem 0 1rem 0;
-    font-family: Besley, serif;
+    font-family:
     font-size: 104%;
-    font-optical-sizing: auto;
-    font-weight: 400;
     color: #000;
     line-height: 1.6rem;
 }
 
 .card-description {
-    font-family: Besley, serif;
+    font-family: var(--serif);
 }
 
 .description,
@@ -123,7 +120,6 @@ p {
     font-family: var(--sans-serif);
     font-size: 104%;
     font-optical-sizing: auto;
-    font-weight: 400;
     color: #000;
     line-height: 1.6rem;
 }
@@ -157,11 +153,9 @@ h3 {
 pre,
 code,
 font-mono {
-    font-family: "Reddit Mono", Consolas, Courier, monospace;
+    font-family: var(--monospace)
     margin: 0;
     padding: 0;
-    -moz-tab-size: 2;
-    -o-tab-size: 2;
     tab-size: 2;
 }
 
@@ -180,9 +174,8 @@ a:hover {
 }
 
 ul li {
-    margin-bottom: 0.4rem;
     list-style-type: square;
-    font-family: Besley, serif;
+    font-family: var(--serif);
     font-optical-sizing: auto;
     margin-left: 1%;
     line-height: 1.5rem;
@@ -195,7 +188,7 @@ ul {
 ol li {
     margin-bottom: 0.6rem;
     list-style-type: decimal;
-    font-family: Besley, serif;
+    font-family: var(--serif);
     font-optical-sizing: auto;
     margin-left: 1%;
 }
@@ -213,13 +206,13 @@ table {
 blockquote::before {
     content: "> Note";
     font-size: 1.25rem;
-    color: var(--cadet-gray);
+    color: var(--midnight-green);
 }
 
 blockquote {
     margin: 1rem 0;
     padding-left: 1rem;
-    border-left: 3px solid var(--cadet-gray);
+    border-left: 6px solid var(--cadet-gray);
 }
 
 /* Ensure the dropdown menu is hidden by default */
@@ -231,23 +224,24 @@ blockquote {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     padding-top: 0px;
-    top: 1.1rem;
 }
 
-/* Show the dropdown menu when the parent item is hovered */
+/* DO NOT DELETE Show the dropdown menu when the parent item is hovered */
 .dropdown:hover .dropdown-menu {
     display: block;
 }
 
 .dropdown-menu a {
     color: black;
-    padding: 12px 16px;
+    padding: 12px;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-menu a:hover {
-    background-color: #f1f1f1;
+    background-color: var(--green-blue);
+    color: white;
+    border-radius: 6px;
 }
 
 .font-sans,
@@ -265,7 +259,7 @@ blockquote {
 
 button:hover {
     background-color: var(--medium-blue);
-    border-radius: 1px;
+    border-radius: 6px;
 }
 
 .sr-only {
@@ -280,5 +274,5 @@ button:hover {
     border: 0;
 }
 code[class*="language-"], pre[class*="language-"] {
-font-family: "Reddit Mono", Consolas, Courier, monospace;
+font-family: var(--monospace)
 }
