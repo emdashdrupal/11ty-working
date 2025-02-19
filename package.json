@@ -26,5 +26,7 @@
     "markdown-it-attrs": "^4.3.1",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17"
-  }
+  },
+  "postbuild": "npx -y pagefind --site _site"
+
 }
