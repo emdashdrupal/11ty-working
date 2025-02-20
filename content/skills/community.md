@@ -12,4 +12,4 @@ In my experience, there are people in every organization that are interested and
 - Started a regular "content creators catchup" that brought cross-divisional tech writers, UXers, and other folks involved with content together to share and learn from each other.
 - Created custom monthly metric emails to let stakeholders know how their content is performing, and where there may be gaps or opportunities.
 - Spoken at [user groups and conferences](public-speaking.md).
-- Created a podcast dedicated to giving back to the community.
+- Created a podcast dedicated to giving back to the [technical writing community](/content/podcasts/).
