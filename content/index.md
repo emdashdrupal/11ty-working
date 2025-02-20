@@ -1,5 +1,5 @@
 ---
-title : Ed Marsh is a technical communicator and community builder
+title : Ed Marsh builds community around technical content
 layout : layouts/index.njk
 ---
 
