@@ -1,5 +1,5 @@
 ---
-title : Bienvenidos a Casa de Fast One
+title : Ed Marsh is a technical communicator and community builder
 layout : layouts/index.njk
 ---
 

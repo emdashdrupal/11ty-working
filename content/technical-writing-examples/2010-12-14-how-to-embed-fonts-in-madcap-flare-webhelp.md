@@ -66,4 +66,4 @@ When you build your project, the fonts should appear in the output.
 
 ![Sample of font embedding](/assets/images/related_docs-150x150.png "related_docs") This WebHelp topic uses @font-face embedding for Gentium and PT Sans.
 
-Happy fonting! Let me know if this was helpful, or if you have any questions, in the comments.
+Happy fonting! Let me know if this was helpful.
