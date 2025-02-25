@@ -1,5 +1,5 @@
 ---
-title : Ed Marsh builds communities around technical content
+title : Ed Marsh creates content and community
 layout : layouts/index.njk
 ---
 
