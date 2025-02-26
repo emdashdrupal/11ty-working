@@ -104,7 +104,7 @@ body {
 }
 
 p {
-    font-family:
+    font-family: var(--serif);
     font-size: 104%;
     color: #000;
     line-height: 1.6rem;
