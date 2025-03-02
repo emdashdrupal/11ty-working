@@ -82,3 +82,30 @@
         </div>
     </div>
 {% endmacro %}
+
+
+{% macro renderSkillTools(skill, tools) %}
+    <div class="skill-tools mt-8">
+        <h2 class="text-xl font-bold mb-4">Tools I use</h2>
+        <ul class="tool-list grid gap-4 grid-cols-1 md:grid-cols-2">
+        {% if skill.tools %}
+            {% for toolRef in skill.tools %}
+                {% if toolRef.includes('.') %}
+                    {% set parts = toolRef.split('.') %}
+                    {% set category = parts[0] %}
+                    {% set toolId = parts[1] %}
+                    {% if tools[category] and tools[category][toolId] %}
+                        {% set toolData = tools[category][toolId] %}
+                        <li class="flex items-center gap-2 p-2 bg-gray-50 rounded-lg">
+                            <a href="{{ toolData.url }}" class="text-blue-600 hover:underline">
+                                {{ toolData.name }}
+                            </a>
+                            <span class="text-sm text-gray-600">({{ toolData.category }})</span>
+                        </li>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        </ul>
+    </div>
+{% endmacro %}

@@ -1,0 +1,270 @@
+{
+  "skills": {
+    "technical-writing": {
+      "title": "Technical writing",
+      "description": "Technical writers are a Venn diagram of detective, translator, and librarian.",
+      "icon": "solid fa-paragraph",
+      "featured": true,
+      "featuredOrder": 1,
+      "tools": [
+        "cms.confluence",
+        "editors.vscode",
+        "editors.flare",
+        "adobe.framemaker"
+      ],
+      "technologies": [
+        "markup.Markdown",
+        "markup.DITA",
+        "markup.HTML",
+        "development.Static site generators"
+      ]
+    },
+    "content-strategy": {
+      "title": "Content strategy",
+      "description": "Developing and implementing content strategies that align with business goals",
+      "icon": "solid fa-sitemap",
+      "featured": true,
+      "featuredOrder": 2,
+      "tools": {
+        "planning": ["Jira", "Confluence", "Excel"],
+        "analytics": ["Kibana", "Elasticsearch", "Google Analytics"]
+      },
+      "technologies": [
+        "Information architecture",
+        "Content modeling",
+        "Search optimization"
+      ]
+    },
+    "docs-as-code": {
+      "title": "Docs as code",
+      "description": "Managing documentation using software development tools and practices",
+      "icon": "solid fa-code",
+      "featured": true,
+      "featuredOrder": 3,
+      "tools": {
+        "editors": ["VS Code", "Eclipse", "UltraEdit"],
+        "version_control": ["Git", "GitHub", "GitLab"],
+        "build": ["Eleventy", "Jekyll", "Hugo"]
+      },
+      "technologies": [
+        "Markdown",
+        "YAML",
+        "JSON",
+        "Static site generators",
+        "CI/CD pipelines"
+      ]
+    },
+    "elearning": {
+      "title": "eLearning development",
+      "description": "Creating interactive learning experiences",
+      "icon": "solid fa-graduation-cap",
+      "tools": {
+        "authoring": ["Adobe Captivate", "Camtasia"],
+        "lms": "Keystone"
+      },
+      "technologies": ["SCORM", "HTML5", "JavaScript"]
+    },
+    "multimedia": {
+      "title": "Multimedia content",
+      "description": "Creating engaging visual and audio content",
+      "icon": "solid fa-photo-film",
+      "featured": false,
+      "tools": [
+        "multimedia.premiere",
+        "multimedia.camtasia",
+        "multimedia.audition",
+        "multimedia.audacity"
+      ],
+      "technologies": [
+        "multimedia.Video editing",
+        "multimedia.Audio production",
+        "multimedia.Screen recording",
+        "multimedia.Image optimization"
+      ]
+    },
+    "podcasting": {
+      "title": "Technical podcasting",
+      "description": "Creating and hosting technical content podcasts",
+      "icon": "solid fa-microphone",
+      "featured": false,
+      "tools": [
+        "multimedia.audition",
+        "multimedia.audacity",
+        "podcasting.zencastr",
+        "podcasting.libsyn"
+      ],
+      "technologies": [
+        "podcasting.RSS feeds",
+        "podcasting.Digital audio",
+        "multimedia.Audio production"
+      ]
+    },
+    "agile": {
+      "title": "Agile documentation",
+      "description": "Writing clear epics and user stories",
+      "icon": "solid fa-people-group",
+      "featured": false,
+      "tools": [
+        "collaboration.jira",
+        "cms.confluence",
+        "collaboration.teams",
+        "collaboration.slack"
+      ],
+      "technologies": [
+        "agile.Sprint planning",
+        "agile.User stories",
+        "methodologies.Agile",
+        "methodologies.Scrum"
+      ]
+    }
+  },
+  "tools": {
+    "cms": {
+      "confluence": {
+        "name": "Confluence",
+        "category": "Content Management",
+        "url": "https://www.atlassian.com/software/confluence"
+      },
+      "wordpress": {
+        "name": "WordPress",
+        "category": "Content Management",
+        "url": "https://wordpress.org"
+      },
+      "drupal": {
+        "name": "Drupal",
+        "category": "Content Management",
+        "url": "https://www.drupal.org"
+      },
+      "sharepoint": {
+        "name": "SharePoint",
+        "category": "Content Management",
+        "url": "https://www.microsoft.com/sharepoint"
+      }
+    },
+    "editors": {
+      "vscode": {
+        "name": "VS Code",
+        "category": "Text Editor",
+        "url": "https://code.visualstudio.com"
+      },
+      "flare": {
+        "name": "MadCap Flare",
+        "category": "Help Authoring",
+        "url": "https://www.madcapsoftware.com/products/flare"
+      },
+      "oxygen": {
+        "name": "oXygen XML Editor",
+        "category": "XML Editor",
+        "url": "https://www.oxygenxml.com"
+      }
+    },
+    "adobe": {
+      "framemaker": {
+        "name": "Adobe FrameMaker",
+        "category": "Desktop Publishing",
+        "url": "https://www.adobe.com/products/framemaker.html"
+      },
+      "robohelp": {
+        "name": "Adobe RoboHelp",
+        "category": "Help Authoring",
+        "url": "https://www.adobe.com/products/robohelp.html"
+      },
+      "captivate": {
+        "name": "Adobe Captivate",
+        "category": "eLearning",
+        "url": "https://www.adobe.com/products/captivate.html"
+      }
+    },
+    "collaboration": {
+      "teams": {
+        "name": "Microsoft Teams",
+        "category": "Communication",
+        "url": "https://www.microsoft.com/teams"
+      },
+      "slack": {
+        "name": "Slack",
+        "category": "Communication",
+        "url": "https://slack.com"
+      },
+      "jira": {
+        "name": "Jira",
+        "category": "Project Management",
+        "url": "https://www.atlassian.com/software/jira"
+      }
+    },
+    "multimedia": {
+      "premiere": {
+        "name": "Adobe Premiere Pro",
+        "category": "Video Editing",
+        "url": "https://www.adobe.com/products/premiere.html"
+      },
+      "camtasia": {
+        "name": "Camtasia",
+        "category": "Screen Recording",
+        "url": "https://www.techsmith.com/video-editor.html"
+      },
+      "audition": {
+        "name": "Adobe Audition",
+        "category": "Audio Editing",
+        "url": "https://www.adobe.com/products/audition.html"
+      },
+      "audacity": {
+        "name": "Audacity",
+        "category": "Audio Editing",
+        "url": "https://www.audacityteam.org"
+      }
+    },
+    "podcasting": {
+      "zencastr": {
+        "name": "Zencastr",
+        "category": "Podcast Recording",
+        "url": "https://zencastr.com"
+      },
+      "libsyn": {
+        "name": "Libsyn",
+        "category": "Podcast Hosting",
+        "url": "https://libsyn.com"
+      }
+    }
+  },
+  "technologies": {
+    "markup": [
+      "Markdown",
+      "DITA",
+      "HTML",
+      "CSS",
+      "YAML",
+      "JSON"
+    ],
+    "development": [
+      "JavaScript",
+      "Static site generators",
+      "CI/CD pipelines"
+    ],
+    "methodologies": [
+      "Agile",
+      "Scrum",
+      "Kanban",
+      "Information architecture",
+      "Content modeling"
+    ],
+    "multimedia": [
+      "Video editing",
+      "Audio production",
+      "Screen recording",
+      "Image optimization"
+    ],
+    "podcasting": [
+      "RSS feeds",
+      "Digital audio",
+      "Audio compression",
+      "ID3 tags"
+    ],
+    "agile": [
+      "Sprint planning",
+      "User stories",
+      "Backlog management",
+      "Release planning"
+    ]
+  }
+}

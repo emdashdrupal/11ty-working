@@ -6,20 +6,31 @@
     </figure>
 {% endif %}
 
+<article class="prose max-w-none">
     {% if content %}
         {{ content | markdown | safe }}
     {% endif %}
+
+    {% if collectionName == "skills" %}
+        {% from "layouts/partials/macros.njk" import renderSkillTools %}
+        {% set skillId = page.fileSlug %}
+        {% if site-taxonomy.skills[skillId].tools %}
+            {{ renderSkillTools(site-taxonomy.skills[skillId], site-taxonomy.tools) }}
+        {% endif %}
+    {% endif %}
+
     {% if collectionName == "podcasts" %}
         {% from "layouts/partials/macros.njk" import renderButton %}
         {{ renderButton(
-    url="/assets/podcasts/" + mp3File,
-    buttonText="Download",
-    title=title + " podcast"
-) }}
+            url="/assets/podcasts/" + mp3File,
+            buttonText="Download",
+            title=title + " podcast"
+        ) }}
 
-<audio controls>
-	<source src="/assets/podcasts/{{mp3File}}" type="audio/mp3">
-</audio>
+        <audio controls>
+            <source src="/assets/podcasts/{{mp3File}}" type="audio/mp3">
+        </audio>
     {% endif %}
 </article>
+
 {% include 'layouts/partials/footer.njk' %}
