@@ -1,0 +1,88 @@
+{
+  "authoring_tools": {
+    "documentation": {
+      "madcap_flare": {
+        "name": "MadCap Flare",
+        "category": "Help Authoring",
+        "url": "https://www.madcapsoftware.com/products/flare/",
+        "used_in": ["technical-writing", "docs-as-code"]
+      },
+      "oxygen": {
+        "name": "oXygen XML Editor",
+        "category": "XML Editor",
+        "url": "https://www.oxygenxml.com/",
+        "used_in": ["technical-writing", "dita"]
+      },
+      "framemaker": {
+        "name": "Adobe FrameMaker",
+        "category": "Desktop Publishing",
+        "url": "https://www.adobe.com/products/framemaker.html",
+        "used_in": ["technical-writing"]
+      },
+      "robohelp": {
+        "name": "Adobe RoboHelp",
+        "category": "Help Authoring",
+        "url": "https://www.adobe.com/products/robohelp.html",
+        "used_in": ["technical-writing"]
+      }
+    },
+    "code_editors": {
+      "vscode": {
+        "name": "VS Code",
+        "category": "Text Editor",
+        "url": "https://code.visualstudio.com",
+        "used_in": ["docs-as-code", "technical-writing"]
+      }
+    }
+  },
+  "cms": {
+    "confluence": {
+      "name": "Confluence",
+      "category": "Wiki",
+      "url": "https://www.atlassian.com/software/confluence",
+      "used_in": ["technical-writing", "content-strategy"]
+    },
+    "drupal": {
+      "name": "Drupal",
+      "category": "CMS",
+      "url": "https://www.drupal.org",
+      "used_in": ["content-strategy"]
+    },
+    "wordpress": {
+      "name": "WordPress",
+      "category": "CMS",
+      "url": "https://wordpress.org",
+      "used_in": ["content-strategy"]
+    }
+  },
+  "multimedia": {
+    "audio": {
+      "audition": {
+        "name": "Adobe Audition",
+        "category": "Audio Editing",
+        "url": "https://www.adobe.com/products/audition.html",
+        "used_in": ["podcasting", "multimedia"]
+      },
+      "audacity": {
+        "name": "Audacity",
+        "category": "Audio Editing",
+        "url": "https://www.audacityteam.org",
+        "used_in": ["podcasting"]
+      }
+    },
+    "graphics": {
+      "photoshop": {
+        "name": "Adobe Photoshop",
+        "category": "Image Editing",
+        "url": "https://www.adobe.com/products/photoshop.html",
+        "used_in": ["multimedia"]
+      },
+      "snagit": {
+        "name": "Snagit",
+        "category": "Screen Capture",
+        "url": "https://www.techsmith.com/screen-capture.html",
+        "used_in": ["technical-writing", "multimedia"]
+      }
+    }
+  }
+}

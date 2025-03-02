@@ -1,0 +1,55 @@
+{
+  "markup_languages": {
+    "markdown": {
+      "name": "Markdown",
+      "category": "Markup",
+      "used_in": ["docs-as-code", "technical-writing"]
+    },
+    "dita": {
+      "name": "DITA",
+      "category": "XML",
+      "used_in": ["technical-writing"]
+    },
+    "html": {
+      "name": "HTML",
+      "category": "Markup",
+      "used_in": ["technical-writing", "docs-as-code"]
+    }
+  },
+  "version_control": {
+    "git": {
+      "name": "Git",
+      "category": "Version Control",
+      "used_in": ["docs-as-code"]
+    },
+    "github": {
+      "name": "GitHub",
+      "category": "Version Control Platform",
+      "used_in": ["docs-as-code"]
+    }
+  },
+  "static_site": {
+    "eleventy": {
+      "name": "Eleventy",
+      "category": "Static Site Generator",
+      "used_in": ["docs-as-code"]
+    },
+    "jekyll": {
+      "name": "Jekyll",
+      "category": "Static Site Generator",
+      "used_in": ["docs-as-code"]
+    }
+  },
+  "search": {
+    "elasticsearch": {
+      "name": "Elasticsearch",
+      "category": "Search Engine",
+      "used_in": ["content-strategy"]
+    },
+    "kibana": {
+      "name": "Kibana",
+      "category": "Search Analytics",
+      "used_in": ["content-strategy"]
+    }
+  }
+}

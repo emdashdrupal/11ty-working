@@ -1,0 +1,39 @@
+{
+  "technical_writing": {
+    "title": "Technical writing",
+    "description": "Technical writers are a Venn diagram of detective, translator, and librarian",
+    "icon": "solid fa-paragraph",
+    "featured": true,
+    "featuredOrder": 1,
+    "deliverables": [
+      "API documentation",
+      "User guides",
+      "Online help",
+      "Training materials"
+    ]
+  },
+  "content_strategy": {
+    "title": "Content strategy",
+    "description": "Developing and implementing content strategies that align with business goals",
+    "icon": "solid fa-sitemap",
+    "featured": true,
+    "featuredOrder": 2
+  },
+  "docs_as_code": {
+    "title": "Docs as code",
+    "description": "Managing documentation using software development tools and practices",
+    "icon": "solid fa-code",
+    "featured": true,
+    "featuredOrder": 3
+  },
+  "information_architecture": {
+    "title": "Information architecture",
+    "description": "Organizing content for optimal findability",
+    "icon": "solid fa-sitemap"
+  },
+  "podcasting": {
+    "title": "Technical podcasting",
+    "description": "Creating and hosting technical content podcasts",
+    "icon": "solid fa-microphone"
+  }
+}
