@@ -81,8 +81,19 @@ And here is the response (note some sections are escaped with comments so they d
 
   - Understanding the logic I wanted helped me to accurately frame the question to the LLM.
 
+### Data modeling
+
+think like a programmer. i want a json file with the following structure:
+- Skill title
+  - description
+  - Tools used
+  - Technologies used
+
+  tools and technologies will need to be pulled into several templates, so explain how i can assign them to multiple skills
+
 ## Setbacks
 
 - Continual content/metadata revision
 - Redoing templates over and over and over
 - Trying to abstract templates in templates
+

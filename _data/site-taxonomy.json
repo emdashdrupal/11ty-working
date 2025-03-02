@@ -1,0 +1,127 @@
+{
+  "skills": {
+    "technical-writing": {
+      "title": "Technical writing",
+      "description": "Technical writers are a Venn diagram of detective, translator, and librarian.",
+      "icon": "solid fa-paragraph",
+      "featured": true,
+      "featuredOrder": 1,
+      "tools": {
+        "cms": ["Confluence", "WordPress", "Drupal", "SharePoint"],
+        "editors": [
+          "VS Code",
+          "MadCap Flare",
+          "oXygen XML Editor",
+          "Adobe FrameMaker",
+          "Adobe RoboHelp"
+        ],
+        "version_control": ["Git", "GitHub", "GitLab"]
+      },
+      "technologies": [
+        "Markdown",
+        "DITA",
+        "HTML",
+        "CSS",
+        "Static site generators"
+      ]
+    },
+    "content-strategy": {
+      "title": "Content strategy",
+      "description": "Developing and implementing content strategies that align with business goals",
+      "icon": "solid fa-sitemap",
+      "featured": true,
+      "featuredOrder": 2,
+      "tools": {
+        "planning": ["Jira", "Confluence", "Excel"],
+        "analytics": ["Kibana", "Elasticsearch", "Google Analytics"]
+      },
+      "technologies": [
+        "Information architecture",
+        "Content modeling",
+        "Search optimization"
+      ]
+    },
+    "docs-as-code": {
+      "title": "Docs as code",
+      "description": "Managing documentation using software development tools and practices",
+      "icon": "solid fa-code",
+      "featured": true,
+      "featuredOrder": 3,
+      "tools": {
+        "editors": ["VS Code", "Eclipse", "UltraEdit"],
+        "version_control": ["Git", "GitHub", "GitLab"],
+        "build": ["Eleventy", "Jekyll", "Hugo"]
+      },
+      "technologies": [
+        "Markdown",
+        "YAML",
+        "JSON",
+        "Static site generators",
+        "CI/CD pipelines"
+      ]
+    },
+    "elearning": {
+      "title": "eLearning development",
+      "description": "Creating interactive learning experiences",
+      "icon": "solid fa-graduation-cap",
+      "tools": {
+        "authoring": ["Adobe Captivate", "Camtasia"],
+        "lms": "Keystone"
+      },
+      "technologies": ["SCORM", "HTML5", "JavaScript"]
+    },
+    "multimedia": {
+      "title": "Multimedia content",
+      "description": "Creating engaging visual and audio content",
+      "icon": "solid fa-photo-film",
+      "tools": {
+        "video": ["Adobe Premiere Pro", "Camtasia"],
+        "audio": ["Adobe Audition", "Audacity"],
+        "graphics": [
+          "Adobe Photoshop",
+          "Adobe Illustrator",
+          "GIMP",
+          "Inkscape",
+          "Greenshot",
+          "Snagit"
+        ]
+      },
+      "technologies": [
+        "Video editing",
+        "Audio production",
+        "Screen recording",
+        "Screen capture",
+        "Image optimization"
+      ]
+    },
+    "podcasting": {
+      "title": "Technical podcasting",
+      "description": "Creating and hosting technical content podcasts",
+      "icon": "solid fa-microphone",
+      "tools": {
+        "recording": ["Adobe Audition", "Audacity", "Zencastr"]
+      },
+      "technologies": [
+        "Audio production",
+        "RSS feeds",
+        "Podcast hosting",
+        "Digital distribution"
+      ]
+    },
+    "agile": {
+      "title": "Agile documentation",
+      "description": "Writing clear epics and user stories",
+      "icon": "solid fa-people-group",
+      "tools": {
+        "project": ["Jira", "Miro", "BPMN"],
+        "collaboration": ["Confluence", "Microsoft Teams", "Slack"]
+      },
+      "technologies": [
+        "Agile methodologies",
+        "Scrum",
+        "Kanban",
+        "Sprint planning"
+      ]
+    }
+  }
+}
