@@ -276,3 +276,7 @@ button:hover {
 code[class*="language-"], pre[class*="language-"] {
 font-family: var(--monospace)
 }
+
+.hero > a:hover {
+    background-color: white;
+}
