@@ -6,8 +6,11 @@
     </figure>
 {% endif %}
 
-    {% if content %}
-        {{ content | markdown | safe }}
+{% if content %}
+    {{ content | markdown | safe }}
+{% endif %}
+{% if collectionName == "skills" %}
+    {% include 'layouts/partials/goocal-button.html' %}
     {% endif %}
     {% if collectionName == "podcasts" %}
         {% from "layouts/partials/macros.njk" import renderButton %}
@@ -17,9 +20,9 @@
     title=title + " podcast"
 ) }}
 
-<audio controls>
-	<source src="/assets/podcasts/{{mp3File}}" type="audio/mp3">
-</audio>
+        <audio controls>
+            <source src="/assets/podcasts/{{mp3File}}" type="audio/mp3">
+        </audio>
     {% endif %}
 </article>
 {% include 'layouts/partials/footer.njk' %}
