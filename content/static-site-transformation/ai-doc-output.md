@@ -2,6 +2,9 @@
 title: AI-generated documentation for my site
 description: I [asked AI to generate documentation](/static-site-transformation/writing-with-ai/) for my site's codebase. Here's the output.
 eleventyExcludeFromCollections: true
+eleventyNavigation:
+    key: "AI Docs"
+    parent: "Static site transformation"
 ---
 
 ```yaml

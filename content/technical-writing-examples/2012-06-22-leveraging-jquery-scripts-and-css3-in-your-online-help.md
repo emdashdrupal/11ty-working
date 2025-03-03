@@ -76,5 +76,3 @@ Of course, just because you _can_ implement these, it doesn't mean you _should_;
 - **Other visual goodies**: We replaced the standard RoboHelp search icon with a free image I found online. ![Search icon](/assets/images/search.png "search") You can easily change this and other icons using the built-in Skin Editor.
 
     We also created a blue, speckled repeating background that goes behind the main content section, which is white. The design was conceived with [the 960.gs grid](http://www.960.gs "960 grid system") in mind, another popular design framework.
-
-Have questions about how to implement these in your help? Let me know in the comments.

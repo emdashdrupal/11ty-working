@@ -39,4 +39,4 @@ Drupal Quickstart is a complete Drupal development environment in a single, down
 
 What's great about Quickstart is that because it's all virtual, if you make a mistake (and I've made plenty!) you can just fire up a new version of Drupal, or a completely new version of the VM if you need to. You can delete the broken versions using the Drush command line tool, and learn and improve your site as you go. Once the site is developed to your liking, you can also use Drush to export the site and import it to your live Web server.
 
-Stay tuned, once I complete and launch my new site, I'll be creating a new blog post on my experience with Drupal and Quickstart. Have questions about anything? Let me know in the comments.
+Stay tuned, once I complete and launch my new site, I'll be creating a new blog post on my experience with Drupal and Quickstart.

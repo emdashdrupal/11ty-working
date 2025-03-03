@@ -23,4 +23,3 @@ For context, here is how the help icon appears in Office 2010 and 2013. In Offic
 
 ![Help icon sizes in Office 2010 and Office 2013](/assets/images/microsoft-office-help-icon-sizes-office-2010-vs-office-20131.png) Help icon sizes in Office 2010 and Office 2013
 
-Is the help icon going the way of Clippy and the Help menu, or is this just a design choice? Let us know what you think in the comments.

@@ -30,4 +30,3 @@ When I selected the mp3 format answer, the same topic appeared that I found befo
 
 The smart folks at YouTube decided to _reuse the content_, aiding the user and saving them at least one click, and certainly reducing search time. It's a great example of thinking through what people are looking for and how to react to that.
 
-Have you seen other good examples of reuse on the Web? Let us know in the comments.

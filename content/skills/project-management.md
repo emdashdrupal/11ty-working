@@ -4,6 +4,10 @@ description: Technical content is often used throughout many parts of your busin
 FontAwesomeIcon: solid fa-people-roof
 featured: true
 featuredOrder: 4
+eleventyNavigation:
+    key: Project management
+    parent: Skills
+
 ---
 
 Yeh.

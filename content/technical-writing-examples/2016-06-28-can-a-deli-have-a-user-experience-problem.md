@@ -25,4 +25,4 @@ If the cashier forgets to stamp the ticket as paid &mdash; which happened to me 
 
 ## What do you think?
 
-While I'm sure this multi-step process makes sense to the business owners, and possibly reduces theft, I think it's needlessly complicated. Is this a user experience fail? How would you correct it? Let us know what you think in the comments.
+While I'm sure this multi-step process makes sense to the business owners, and possibly reduces theft, I think it's needlessly complicated. Is this a user experience fail? How would you correct it?
