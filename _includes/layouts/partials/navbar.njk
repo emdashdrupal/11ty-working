@@ -6,20 +6,19 @@ listItem %}
         new PagefindUI({element: "#search", showSubResults: true});
     });
 </script>
-<nav class="container bg-green-blue flex-auto" aria-label="Ed Marsh introduction and site navigation menu">
-    <div class="text-xl px-4" id="navbar-intro">
-        <span class="font-semibold text-whitish">Ed Marsh</span>
-        <span class="font-normal text-lg text-whitish">&mdash; Putting the technical in technical communication since 1994</span>
-        <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+
+<nav class="container bg-green-blue" aria-label="Ed Marsh introduction and site navigation menu">
+    <div class="px-4 text-whitish" id="navbar-intro">
+        <span class="text-xl font-semibold">Ed Marsh creates successful technical content by building community</span>
+        <ul class="flex" aria-label="Main navigation menu">
+            {{ listItem('/', 'Home') }}
+            {{ dropdown('ssgDropdown', 'Website transformation \>', collections.ssg, '/static-site-transformation/') }}
+            {{ listItem('/podcasts/', 'Podcasts') }}
+            {{ listItem('/technical-writing-examples/', 'Writing samples') }}
+            {{ dropdown('skillsDropdown', 'Skills >', collections.skills, '/skills') }}
+            {{ listItem('/about/about-ed-marsh', 'About') }}
+            {{ listItem('/contact/', 'Contact') }}
+        </ul>
+        <span id="search" class="float-right h-2"></span>
     </div>
-    <ul class="font-sans flex flex-wrap text-whitish mb-1 justify-evenly" aria-label="Main navigation menu">
-        {{ listItem('/', 'Home') }}
-        {{ dropdown('ssgDropdown', 'Website transformation \>', collections.ssg, '/static-site-transformation/') }}
-        {{ listItem('/podcasts/', 'Podcasts') }}
-        {{ listItem('/technical-writing-examples/', 'Writing samples') }}
-        {{ dropdown('skillsDropdown', 'Skills >', collections.skills, '/skills') }}
-        {{ listItem('/about/about-ed-marsh', 'About') }}
-        {{ listItem('/contact/', 'Contact') }}
-    </ul>
-    <span id="search" class="float-right h-2"></span>
 </nav>

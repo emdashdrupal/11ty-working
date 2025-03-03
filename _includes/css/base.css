@@ -104,7 +104,7 @@ body {
 }
 
 p {
-    font-family:
+    font-family: var(--serif);
     font-size: 104%;
     color: #000;
     line-height: 1.6rem;
@@ -139,7 +139,7 @@ h1 {
 h2 {
     font-size: 1.3rem;
     font-weight: 600;
-    margin: 2rem 0 1em 0;
+    margin: 1rem 0 0.5em 0;
     font-family: var(--sans-serif);
 }
 
@@ -153,7 +153,7 @@ h3 {
 pre,
 code,
 font-mono {
-    font-family: var(--monospace)
+    font-family: var(--monospace);
     margin: 0;
     padding: 0;
     tab-size: 2;
@@ -312,4 +312,7 @@ font-family: var(--monospace)
   background-color: transparent;
   color: var(--color-red);
   font-weight: 700;
+}
+.hero > a:hover {
+    background-color: white;
 }
