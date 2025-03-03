@@ -272,12 +272,12 @@ button:hover {
     white-space: nowrap;
     border: 0;
 }
-code[class*="language-"], pre[class*="language-"] {
-font-family: var(--monospace)
-}
 
+code[class*="language-"],
+pre[class*="language-"] {
+    font-family: var(--monospace)
+}
 
 .hero > a:hover {
     background-color: white;
 }
-
