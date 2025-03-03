@@ -3,7 +3,6 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const timeToRead = require('eleventy-plugin-time-to-read');
 
-
 // Create markdown-it instance with custom configuration
 const mdOptions = {
   html: true,        // Enable HTML tags in source
@@ -16,7 +15,7 @@ const md = new markdownIt(mdOptions)
   .use(require('markdown-it-anchor'))  // Add anchor links to headings
   .use(require('markdown-it-attrs'));  // Add attribute support
 
-module.exports = function (eleventyConfig) {
+module.exports = function(eleventyConfig) {
   // Set markdown-it as the markdown processor
   eleventyConfig.setLibrary("md", md);
 
@@ -25,70 +24,54 @@ module.exports = function (eleventyConfig) {
     if (!content) {
       return '';
     }
-    // Ensure content is a string
-    const stringContent = String(content);
-    return md.render(stringContent);
+    return md.render(String(content));
   });
 
   // Add plugins
   eleventyConfig.addPlugin(syntaxHighlight, {
-
-    // Change which Eleventy template formats use syntax highlighters
-    templateFormats: ["njk", "md"], // default
-
-    // Added in 3.0, set to true to always wrap lines in `<span class="highlight-line">`
-    // The default (false) only wraps when line numbers are passed in.
+    templateFormats: ["njk", "md"],
     alwaysWrapLineHighlights: true,
-
-    // Added in 3.0.2, set to false to opt-out of pre-highlight removal of leading
-    // and trailing whitespace
-    trim: true,
-});
+    trim: true
+  });
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(timeToRead);
 
   // Add shortcodes
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
-  // Add passthrough copies
+  // Add passthrough copy for assets
   eleventyConfig.addPassthroughCopy({
-    "_includes/css/base.css": "css/base.css",
-    "_includes/css/tw.css": "css/tw.css",
-    "assets/images": "assets/images",
-    "assets/podcasts": "assets/podcasts"
+    "assets/": "assets/",
+    "_includes/css/": "css/"
   });
+
+  // Watch target for CSS files
+  eleventyConfig.addWatchTarget("./_includes/css/");
 
   // Add collections
-  eleventyConfig.addCollection("skills", function (collectionApi) {
-    return collectionApi
-      .getAll()
-      .filter((item) => item.data.tags && item.data.tags.includes("skills"));
-  });
-  eleventyConfig.addCollection("podcasts", function (collectionApi) {
-    return collectionApi
-      .getAll()
-      .filter((item) => item.data.tags && item.data.tags.includes("podcasts"));
-  });
-  eleventyConfig.addCollection("ssg", function (collectionApi) {
-    return collectionApi
-      .getAll()
-      .filter((item) => item.data.tags && item.data.tags.includes("ssg"));
-  });
-  eleventyConfig.addCollection("examples", function (collectionApi) {
-    return collectionApi
-      .getAll()
-      .filter((item) => item.data.tags && item.data.tags.includes("examples"));
+  const collections = ["skills", "podcasts", "ssg", "examples"];
+
+  collections.forEach(collection => {
+    eleventyConfig.addCollection(collection, collectionApi =>
+      collectionApi
+        .getAll()
+        .filter(item => item.data.tags && item.data.tags.includes(collection))
+    );
   });
 
-  // Return directory configuration LAST
+  // Return configuration object
   return {
     dir: {
       input: "content",
-      includes: "../_includes",
+      includes: "../_includes",  // Relative to input directory
+      layouts: "../_includes/layouts",  // Relative to input directory
+      data: "_data",
       output: "_site"
     },
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
-    templateFormats: ["md", "njk"]
+    templateFormats: ["md", "njk"],
+    pathPrefix: "/",  // Added for proper URL handling
+    passthroughFileCopy: true  // Ensure passthrough copy works
   };
 };
