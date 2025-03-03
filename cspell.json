@@ -5,12 +5,16 @@
     "dictionaries": [],
     "words": [
         "Besley",
+        "Eleventy",
         "endfor",
         "endmacro",
         "labelledby",
+        "podcaster",
         "Schibsted",
         "Secaucus"
     ],
-    "ignoreWords": [],
+    "ignoreWords": [
+        "goocal"
+    ],
     "import": []
 }
