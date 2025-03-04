@@ -1,3 +1,9 @@
+<script src="/pagefind/pagefind-ui.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({element: "#search", showSubResults: false, showImages: false});
+    });
+</script>
 {% from "layouts/partials/macros.njk" import dropdown,
 listItem %}
 
@@ -13,5 +19,6 @@ listItem %}
             {{ listItem('/about/about-ed-marsh', 'About') }}
             {{ listItem('/contact/', 'Contact') }}
         </ul>
+        <span id="search" class="float-right"></span>
     </div>
 </nav>

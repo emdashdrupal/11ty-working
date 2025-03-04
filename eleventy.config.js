@@ -34,14 +34,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight, {
 
     // Change which Eleventy template formats use syntax highlighters
-    templateFormats: ["njk", "md"], // default
-
-    // Added in 3.0, set to true to always wrap lines in `<span class="highlight-line">`
-    // The default (false) only wraps when line numbers are passed in.
+    templateFormats: ["njk", "md"],
     alwaysWrapLineHighlights: true,
-
-    // Added in 3.0.2, set to false to opt-out of pre-highlight removal of leading
-    // and trailing whitespace
     trim: true,
 });
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
@@ -88,7 +82,7 @@ module.exports = function (eleventyConfig) {
       output: "_site"
     },
     markdownTemplateEngine: "njk",
-    htmlTemplateEngine: "njk",
-    templateFormats: ["md", "njk"]
+    htmlTemplateEngine:["njk", "html"],
+    templateFormats: ["md", "njk", "html"]
   };
 };

@@ -16,23 +16,32 @@
 		/>
         <link rel="stylesheet" type="text/css" href="/css/tw.css">
         <link rel="stylesheet" type="text/css" href="/css/base.css">
+        <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+        <link href="/pagefind/pagefind-overrides.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
     </head>
     <body class="bg-whitish container mx-auto">
-            {% block nav %}
-                {% include 'layouts/partials/navbar.njk' %}
-                {% include 'layouts/partials/breadcrumb.njk' %}
-            {% endblock %}
-            {% block content %}
-                <main>
-                    <article {% if layout == "layouts/details.njk" %}class="prose"{% endif %}>
+        {% block nav %}
+            {% include 'layouts/partials/navbar.njk' %}
+            {% include 'layouts/partials/breadcrumb.njk' %}
+        {% endblock %}
+        {% block content %}
+            <main>
+
+                <article data-pagefind-body {% if layout == "layouts/details.njk" %}class="prose"{% endif %}>
                     <h1 class="text-3xl font-bold mb-4">{{title or metadata.title}}</h1>
                     {% if layout == "layouts/details.njk" %}
                         <p class="text-sm font-sans text-gray-600 mb-4">Updated: {{ page.date.toDateString()}} | {{ 'text' | timeToRead }} read time</p>
                     {% endif %}
 
                     {% if description %}
-                        <div class="description prose font-sans">{{ description | markdown | safe }}</div>
+                        <div data-pagefind-weight="6" class="description prose font-sans">{{ description |
+                            markdown | safe }}</div>
                     {% endif %}
 
-                {% endblock %}
+                {% if description %}
+                    <div data-pagefind-weight="2" class="description prose font-sans">{{ description |
+                            markdown | safe }}</div>
+                {% endif %}
+
+            {% endblock %}
