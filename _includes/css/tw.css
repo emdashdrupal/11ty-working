@@ -1125,6 +1125,10 @@ video {
   isolation: isolate;
 }
 
+.z-30 {
+  z-index: 30;
+}
+
 .order-1 {
   order: 1;
 }
@@ -1167,13 +1171,9 @@ video {
   margin-right: auto;
 }
 
-.my-1 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .mb-3 {
@@ -1240,10 +1240,6 @@ video {
   display: none;
 }
 
-.h-2 {
-  height: 0.5rem;
-}
-
 .h-48 {
   height: 12rem;
 }
@@ -1262,10 +1258,6 @@ video {
 
 .max-w-48 {
   max-width: 12rem;
-}
-
-.flex-auto {
-  flex: 1 1 auto;
 }
 
 .flex-grow {
@@ -1306,14 +1298,6 @@ video {
 
 .justify-center {
   justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
-}
-
-.justify-evenly {
-  justify-content: space-evenly;
 }
 
 .gap-2 {
@@ -1418,6 +1402,11 @@ video {
   padding: 1.5rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1426,6 +1415,11 @@ video {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .font-sans {
@@ -1468,10 +1462,6 @@ video {
 
 .font-medium {
   font-weight: 500;
-}
-
-.font-normal {
-  font-weight: 400;
 }
 
 .font-semibold {
@@ -1632,3 +1622,4 @@ video {
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
+}
