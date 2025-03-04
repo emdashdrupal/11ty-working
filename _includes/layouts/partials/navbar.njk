@@ -1,12 +1,11 @@
 <script src="/pagefind/pagefind-ui.js"></script>
-{% from "layouts/partials/macros.njk" import dropdown,
-listItem %}
-<script src="/pagefind/pagefind-ui.js"></script>
 <script>
     window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({element: "#search", showSubResults: true});
+        new PagefindUI({element: "#search", showSubResults: true, showImages: false});
     });
 </script>
+{% from "layouts/partials/macros.njk" import dropdown,
+listItem %}
 
 <nav class="container bg-green-blue" aria-label="Ed Marsh introduction and site navigation menu">
     <div class="px-4 text-whitish" id="navbar-intro">
@@ -20,6 +19,6 @@ listItem %}
             {{ listItem('/about/about-ed-marsh', 'About') }}
             {{ listItem('/contact/', 'Contact') }}
         </ul>
-        <span id="search" class="float-right h-2"></span>
+        <span id="search" class="float-right"></span>
     </div>
 </nav>
