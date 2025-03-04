@@ -281,3 +281,7 @@ pre[class*="language-"] {
 .hero > a:hover {
     background-color: white;
 }
+
+#copyright > a {
+    color: var(--whitish);
+}
