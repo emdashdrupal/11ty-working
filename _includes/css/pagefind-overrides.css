@@ -1,0 +1,35 @@
+@media {
+                :root {
+                    --pagefind-ui-primary: #eeeeee;
+                    --pagefind-ui-text: #000;
+                    --pagefind-ui-background: var(--bg-whitish);
+                    --pagefind-ui-border: var(--blue-green);
+                    --pagefind-ui-border-radius: 4px;
+                    --pagefind-ui-tag: yellow;
+                    --pagefind-ui-border-width: 2px;
+                    --pagefind-ui-scale: 0.7;
+                    --pagefind-ui-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
+            }
+            .pagefind-ui__results-area.svelte-e9gkc3 {
+                min-width: min(calc(400px * var(--pagefind-ui-scale)), 100%);
+                flex: 1000;
+                margin-top: 0;
+                background-color: rgba(75, 120, 138, 0.5);
+            }
+            .pagefind-ui__result.svelte-*{
+                padding: 0 3px 0 6px;
+                margin-top: 0;
+                font-size: 1.5rem;
+
+            }
+            .pagefind-ui__message.svelte-e9gkc3*,  {
+                padding: 0;
+                margin-top: 12px;
+                font-size: 1.5rem;
+            }
+            .pagefind-ui__result.svelte-j9e30.svelte-j9e30 {
+	gap: min(calc(30px * var(--pagefind-ui-scale)), 3%);
+	padding: calc(1px * var(--pagefind-ui-scale)) 0 calc(60px * var(--pagefind-ui-scale));
+	border-top: 0;
+}
