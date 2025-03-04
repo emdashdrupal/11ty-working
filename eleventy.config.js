@@ -49,7 +49,7 @@ module.exports = function (eleventyConfig) {
     "_includes/css/base.css": "css/base.css",
     "_includes/css/tw.css": "css/tw.css",
     "_includes/css/pagefind-overrides.css": "css/pagefind-overrides.css",
-    "_includes/css/pagefind-overrides.css": "_site/pagefind/pagefind-overrides.css",
+    "_includes/css/pagefind-overrides.css": "pagefind/pagefind-overrides.css",
     "assets/images": "assets/images",
     "assets/podcasts": "assets/podcasts"
   });
