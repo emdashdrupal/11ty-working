@@ -3,7 +3,6 @@
     --midnight-green: #0b5563;
     --light-blue: #0074D9;
     --cadet-gray: #94a3b8;
-    --ecru: #aba361;
     --whitish: #f7f7f8;
     --grey-green: #96a396;
     --medium-blue: #678bb1;
@@ -11,7 +10,6 @@
     --sans-serif: "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --serif: "Besley", serif;
     --monospace: "Reddit Mono", Consolas, Courier, monospace;
-    --silver-lake-blue: #678bb1ff;
     --jet: #3c3744ff;
     --chamoisee: #8f754fff;
 
@@ -205,13 +203,23 @@ table {
 blockquote::before {
     content: "> Note";
     font-size: 1.25rem;
+    font-style: normal;
     color: var(--midnight-green);
 }
 
 blockquote {
     margin: 1rem 0;
     padding-left: 1rem;
-    border-left: 2px solid var(--cadet-gray);
+    border-left: 3px solid var(--jet);
+}
+
+blockquote p {
+    font-family: var(--serif);
+    font-size: 1.0rem;
+    line-height: 1.2rem;
+    font-style: normal;
+    color: var(--jet);
+
 }
 
 .prose :where(blockquote p:first-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::before {
@@ -262,7 +270,9 @@ blockquote {
 
 button:hover {
     background-color: var(--green-blue);
+    color: var(--jet);
     border-radius: 6px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2)
 }
 
 .sr-only {
