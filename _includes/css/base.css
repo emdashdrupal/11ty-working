@@ -522,7 +522,7 @@ pre[class*="language-"] {
     background-color: white;
 }
 
-footer > p > a {
+footer > div > p {
     color: var(--whitish);
 }
 
