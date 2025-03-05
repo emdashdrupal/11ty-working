@@ -27,6 +27,6 @@ mp3File : Content_Content_podcast_Cruce-Saunders.mp3
 - [Ashland](http://www.ashlandproductions.org/)
 - [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub](https://github.com)
-- [Towards a smaller world podcast](https://simplea.com/Resources/Podcasts)
+- [Towards a smarter world podcast](https://simplea.com/Resources/Podcasts)
 - [\[A\] on Twitter](https://twitter.com/simpleateam)
 - [Cruce on Twitter](https://twitter.com/mrcruce)

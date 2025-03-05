@@ -11,6 +11,10 @@
     --sans-serif: "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --serif: "Besley", serif;
     --monospace: "Reddit Mono", Consolas, Courier, monospace;
+    --silver-lake-blue: #678bb1ff;
+    --jet: #3c3744ff;
+    --chamoisee: #8f754fff;
+
 }
 
 /* Text color classes */
@@ -207,7 +211,11 @@ blockquote::before {
 blockquote {
     margin: 1rem 0;
     padding-left: 1rem;
-    border-left: 6px solid var(--cadet-gray);
+    border-left: 2px solid var(--cadet-gray);
+}
+
+.prose :where(blockquote p:first-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::before {
+    content: none;
 }
 
 /* Ensure the dropdown menu is hidden by default */
@@ -217,13 +225,13 @@ blockquote {
     background-color: var(--whitish);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
     padding-top: 0px;
 }
 
 /* DO NOT DELETE Show the dropdown menu when the parent item is hovered */
 .dropdown:hover .dropdown-menu {
     display: block;
+    z-index: 100;
 }
 
 .dropdown-menu a {
@@ -249,11 +257,11 @@ blockquote {
 }
 
 .icon {
-    color: var(--green-blue);
+    color: var(--medium-blue);
 }
 
 button:hover {
-    background-color: var(--medium-blue);
+    background-color: var(--green-blue);
     border-radius: 6px;
 }
 
@@ -274,14 +282,23 @@ pre[class*="language-"] {
     font-family: var(--monospace)
 }
 
-.hero > a:hover {
+.hero>a:hover {
     background-color: white;
 }
 
-footer > div > p {
-    color: var(--whitish);
-}
-footer > div > p > a {
+footer>div>p {
     color: var(--whitish);
 }
 
+footer>div>p>a {
+    color: var(--whitish);
+}
+
+.card-description a {
+    color: var(--green-blue);
+}
+
+.card-description a:hover {
+    color: var(--whitish);
+    background-color: var(--green-blue);
+}
