@@ -162,10 +162,6 @@ a {
     text-decoration: none;
 }
 
-p>a {
-    color: var(--green-blue);
-}
-
 a:hover {
     text-decoration: underline;
     background-color: var(--medium-blue);
@@ -282,6 +278,10 @@ pre[class*="language-"] {
     background-color: white;
 }
 
-footer > p > a {
+footer > div > p {
     color: var(--whitish);
 }
+footer > div > p > a {
+    color: var(--whitish);
+}
+

@@ -1,12 +1,36 @@
 </main>
 
-<footer class="container p-4 mt-6 rounded-md shadow-md flex flex-wrap bg-medium-blue">
-{% if layout == "layouts/details.njk" %}
-    {% include 'layouts/partials/next-previous.njk' %}
-{% endif %}
-<p>Ed Marsh is a technical writer, content strategist, and community builder. He creates successful technical content by building community. <a href="/contact/">Contact Ed</a> to discuss your content needs.</p>
-<p>&copy; 2008&ndash;{% year %}. Created with <a href="https://www.11ty.dev">the Eleventy static site generator</a>, <a href="https://tailwindcss.com">Tailwind CSS</a>, <a href="https://mozilla.github.io/nunjucks">Nunjucks templating language</a>, <a href="https://linuxmint.com">Linux Mint Cinnamon</a>, <a href="https://github.com">GitHub</a>, <a href="https://netlify.com">Netlify hosting</a>, and a custom theme.
-<img title="Netlify build status" alt="Netlify build status" src="https://api.netlify.com/api/v1/badges/bd88baa1-cc8c-42c4-be0e-96d38dc13aa6/deploy-status?branch=master"/></p>
+<footer class="container p-4 mt-6 rounded-md shadow-md bg-medium-blue">
+    {% if layout == "layouts/details.njk" %}
+        {% include 'layouts/partials/next-previous.njk' %}
+    {% endif %}
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-whitish">
+        <p class="text-center md:text-left">
+            Ed Marsh is a technical writer, content strategist, and community builder. He creates successful technical content by building community.
+        </p>
+
+        <p class="text-center">
+            <a href="/contact/" class="hover:text-gray-200 underline">Contact Ed</a> to discuss your content needs.
+        </p>
+
+        <div class="text-center md:text-right text-sm">
+            <p>&copy; 2008&ndash;{% year %}. Created with
+                <a href="https://www.11ty.dev" class="hover:text-gray-200 underline">Eleventy</a>,
+                <a href="https://tailwindcss.com" class="hover:text-gray-200 underline">Tailwind CSS</a>,
+                <a href="https://mozilla.github.io/nunjucks" class="hover:text-gray-200 underline">Nunjucks</a>,
+                <a href="https://linuxmint.com" class="hover:text-gray-200 underline">Linux Mint</a>,
+                <a href="https://github.com" class="hover:text-gray-200 underline">GitHub</a>, and
+                <a href="https://netlify.com" class="hover:text-gray-200 underline">Netlify</a>.
+            </p>
+            <img
+                class="inline-block mt-2"
+                title="Netlify build status"
+                alt="Netlify build status"
+                src="https://api.netlify.com/api/v1/badges/bd88baa1-cc8c-42c4-be0e-96d38dc13aa6/deploy-status?branch=master"
+            />
+        </div>
+    </div>
 </footer>
 </body>
 </html>
