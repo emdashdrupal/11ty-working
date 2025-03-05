@@ -6,7 +6,7 @@ const timeToRead = require('eleventy-plugin-time-to-read');
 
 // Create markdown-it instance with custom configuration
 const mdOptions = {
-  html: true,        // Enable HTML tags in source
+  html: false,        // Enable HTML tags in source
   breaks: true,      // Convert '\n' in paragraphs into <br>
   linkify: true,     // Autoconvert URL-like text to links
   typographer: true  // Enable smartquotes and other typographic replacements
