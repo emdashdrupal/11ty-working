@@ -282,6 +282,6 @@ pre[class*="language-"] {
     background-color: white;
 }
 
-#copyright > a {
+footer > p > a {
     color: var(--whitish);
 }
