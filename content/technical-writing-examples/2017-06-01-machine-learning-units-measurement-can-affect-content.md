@@ -10,9 +10,9 @@ categories:
 tags : ["ai", "machine-learning", "examples", "ux", "usability"]
 ---
 
-&ldquo;OK, Google, how long does it take to blanch broccoli?&rdquo;
+"OK, Google, how long does it take to blanch broccoli?"
 
-&ldquo;For florets that are approximately 1 1/2 across, cook for about three minutes.&rdquo;
+"For florets that are approximately 1 1/2 across, cook for about three minutes."
 
 Google's voice AI ignored the inch mark. As I was breaking up my broccoli for lunch, I looked on my phone's screen and confirmed the inch marker was there.
 

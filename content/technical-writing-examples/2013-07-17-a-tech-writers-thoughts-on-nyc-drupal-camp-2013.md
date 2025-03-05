@@ -9,13 +9,13 @@ tags :
   - "examples"
 ---
 
-&ldquo;Sprints include writing docs! We need more people like you in the community, come and network!" was [Jon Pugh's](http://twitter.com/jonpugh) reply to [my tweet](https://twitter.com/edmarsh/status/355368137350332416), when I was wondering if coming to this year's New York Drupal Camp was right for content people like me.
+"Sprints include writing docs! We need more people like you in the community, come and network!" was [Jon Pugh's](http://twitter.com/jonpugh) reply to [my tweet](https://twitter.com/edmarsh/status/355368137350332416), when I was wondering if coming to this year's New York Drupal Camp was right for content people like me.
 
 [NYC Camp 2013](http://nyccamp.org) was my third Drupal Camp, and from a content professional's perspective, the best out of the three.
 
 ## What is Drupal?
 
-[Drupal](http://drupal.org) is an open-source, Web-based Content Management System (CMS or WCMS). Its competitors include free tools [WordPress](http://wordpress.com) and [Joomla!](http://www.joomla.org/), and proprietary systems [Adobe CQ5](http://www.adobe.com/solutions/web-experience-management.html) and [Microsoft SharePoint](https://office.microsoft.com/en-us/sharepoint/), among others. Unlike WordPress, which was initially developed as a blogging platform, Drupal is more of a framework to create web sites, on which additional functionality, called *modules*, can be added. Most modules are created by developers in the Drupal community, though the most useful often make it into the base installation, known as &ldquo;Drupal core&rdquo;.
+[Drupal](http://drupal.org) is an open-source, Web-based Content Management System (CMS or WCMS). Its competitors include free tools [WordPress](http://wordpress.com) and [Joomla!](http://www.joomla.org/), and proprietary systems [Adobe CQ5](http://www.adobe.com/solutions/web-experience-management.html) and [Microsoft SharePoint](https://office.microsoft.com/en-us/sharepoint/), among others. Unlike WordPress, which was initially developed as a blogging platform, Drupal is more of a framework to create web sites, on which additional functionality, called *modules*, can be added. Most modules are created by developers in the Drupal community, though the most useful often make it into the base installation, known as "Drupal core".
 
 While not designed specifically to handle technical content, it can be used for this purpose; the highly regarded [NPR "Create Once, Publish Everywhere" (COPE)](http://blog.programmableweb.com/2009/10/13/cope-create-once-publish-everywhere/) that is the current benchmark of structured authoring and content reuse was created in Drupal, and [our own Tom Johnson is using it](http://idratherbewriting.com/tag/drupal/). More sites you may have heard of using Drupal include the [Grammys web site](http://www.grammy.com/), and [whitehouse.gov](http://whitehouse.gov).
 

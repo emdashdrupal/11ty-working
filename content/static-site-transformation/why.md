@@ -1,5 +1,5 @@
 ---
-title : The &ldquo;why&rdquo; behind this project
+title : The "why" behind this project
 description: How this personal project come about, and why I decided to put myself in the role of every part of web development.
 FontAwesomeIcon: solid fa-person-circle-question
 featured: true

@@ -18,7 +18,7 @@ mp3File: Curious_about_content_featuring_David_Dylan_Thomas_Content_Content_podc
 - [Dave's _Developing Philly_ documentary webseries](http://developingphilly.com/)
 - [Lessons from the Future of Content: Part One &mdash; Tools Are Cheap, Time Is Expensive](https://medium.com/@movie_pundit/7-lessons-from-the-future-of-content-part-one-tools-are-cheap-time-is-expensive-f65224adaa06#.pczwj5w0u7)
 - [Content Camp Philly](http://contentcampphilly.com/)
-- [VIDEO: Agile Living: How I Learned to Stop Worrying and Never Be &ldquo;Done&rdquo;](https://www.youtube.com/watch?v=qGA9S1ALRkg)
+- [VIDEO: Agile Living: How I Learned to Stop Worrying and Never Be "Done"](https://www.youtube.com/watch?v=qGA9S1ALRkg)
 - [Significant Objects](http://significantobjects.com)
 - [Confab content strategy conference](http://confabevents.com)
 - [Philly content strategy meetups](http://www.meetup.com/Philly-Content-Strategy/)

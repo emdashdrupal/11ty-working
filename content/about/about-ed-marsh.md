@@ -11,7 +11,7 @@ I've always been curious about technology. As a kid, I was the one who pushed al
 
 My web journey started in the mid-1990s with my [first website](https://web.archive.org/web/19991008110914/http://www.geocities.com/SoHo/Cafe/8299/frameset.html). Since then, I've evolved with technology &mdash; from self-hosting WordPress to building this site with Eleventy starting in 2024. This evolution reflects my commitment to understanding and documenting technology. Continually evolving has been a foundation of my adult life &mdash; from learning how to be a technical communicator, to learning how to teach music to middle- and high-school students, to content strategy, governance, and yadda yadda.
 
-My career started in New York City's software industry in 1994 as a &ldquo;technical writing assistant&rdquo; (I didn't know what technical writing was at the time). I learned how to be a technical writer at Information Builders (now part of Tibco) as part of a large documentation team. After a stint as a solo technical writer for a financial services technical provider, where I spent time on a trading floor and in data centers, I progressed to Goldman Sachs. I worked in two divisions &mdash; creating both user- and developer-facing content &mdash;, and advanced to Vice President. Working in small, medium, and enterprise environments taught me crucial lessons about:
+My career started in New York City's software industry in 1994 as a "technical writing assistant" (I didn't know what technical writing was at the time). I learned how to be a technical writer at Information Builders (now part of Tibco) as part of a large documentation team. After a stint as a solo technical writer for a financial services technical provider, where I spent time on a trading floor and in data centers, I progressed to Goldman Sachs. I worked in two divisions &mdash; creating both user- and developer-facing content &mdash;, and advanced to Vice President. Working in small, medium, and enterprise environments taught me crucial lessons about:
 
 - Cross-functional collaboration
 - Risk management
@@ -67,7 +67,7 @@ I believe in giving back to the technical communication community:
 ## Educational impact
 
 - I've mentored dozens of people in and out of the technical communication field.
-- As the former director of the Secaucus High School Marching Band and co-founder of the Cacophony Percussion Ensemble, the band represented New Jersey in Washington DC's National July 4th Parade. In 2006, [School Band and Orchestra](http://www.sbomagazine.com/) magazine recognized me as one of &ldquo;50 Directors Who Make a Difference&rdquo;.
+- As the former director of the Secaucus High School Marching Band and co-founder of the Cacophony Percussion Ensemble, the band represented New Jersey in Washington DC's National July 4th Parade. In 2006, [School Band and Orchestra](http://www.sbomagazine.com/) magazine recognized me as one of "50 Directors Who Make a Difference".
 
 ## Personal
 

@@ -15,7 +15,7 @@ mp3File: Undescribable_Me_featuring_Marcia_Riefer_Johnston-Content_Content_podca
 - [Undefinable Me: The Story of a 13-Year-Old Girl from the Inner City Who Codes](http://www.mtv.com/news/2226440/teen-programmer-speech/)
 - Keila Banks' inspiring 10-minute [OSCON](http://www.oscon.com/) keynote
 
-- [Malaphors](http://malaphors.com/) (&ldquo;Unintentional blended idioms and phrases&mdash;It's the cream of the cake!" by David Hatfield, the Malaphor King)
+- [Malaphors](http://malaphors.com/) ("Unintentional blended idioms and phrases&mdash;It's the cream of the cake!" by David Hatfield, the Malaphor King)
 
 - [What Is Intelligent Content?](http://contentmarketinginstitute.com/intelligent-content/what-is-intelligent-content/) (includes links to my six-pack of articles delving into each element of Ann Rockley's classic definition)
 
