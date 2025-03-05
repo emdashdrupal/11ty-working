@@ -7,7 +7,7 @@ categories:
   - "podcast"
   - "technical writing"
 cover: "Hannah-Kirk2.png"
-description : <a href="https://twitter.com/pinkhairedCS">Hannah Kirk (@pinkhairedCS)</a>, the Pink-haired Content Strategist, talks to Ed Marsh about conference experiences, how academia compares to Silicon Valley, how kids interact with technology, and reminds Ed how old he is.
+description : "[Hannah Kirk (@pinkhairedCS)](https://twitter.com/pinkhairedCS), the Pink-haired Content Strategist, talks to Ed Marsh about conference experiences, how academia compares to Silicon Valley, how kids interact with technology, and reminds Ed how old he is."
 mp3File: Content_Content_podcast_Hannah_Kirk-1.mp3
 ---
 

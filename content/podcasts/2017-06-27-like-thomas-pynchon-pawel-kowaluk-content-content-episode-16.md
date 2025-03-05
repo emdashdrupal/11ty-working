@@ -24,7 +24,7 @@ mp3File: content_content_podcast_episode_16_-_pawel_kowaluk.mp3
 - [Soap! Conference](http://soapconf.com)
 - [International Technical Communication Qualifications Foundation (ITCQF)](http://itcqf.org)
 - [Thomas Pynchon](https://en.wikipedia.org/wiki/Thomas_Pynchon)
-- [Poland Madcap Flare User Group](https://www.meetup.com/Poland-MadCap-Flare-User-Group/) [Users or people with Jack Molisani5](../7-04-24-users-or-people-with-jack-molisani-content-content-episode-15/)
+- [Poland Madcap Flare User Group](https://www.meetup.com/Poland-MadCap-Flare-User-Group/) [Users or people with Jack Molisani](../7-04-24-users-or-people-with-jack-molisani-content-content-episode-15/)
 - [Markdown](https://en.wikipedia.org/wiki/Markdown) ["Life begins when you step out of your comfort zone"- Pam Noreault](https://twitter.com/edmarsh/status/861946935112077312)
 - [Daniel Pink's theory of motivation](https://www.tutor2u.net/business/reference/motivation-pink-three-elements-of-intrinsic-motivation)
 - [Society for Technical Communication (STC) Certified Professional Technical Communicator](https://www.stc.org/certification/)
