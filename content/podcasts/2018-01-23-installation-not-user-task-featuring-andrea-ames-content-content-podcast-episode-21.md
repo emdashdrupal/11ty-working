@@ -17,7 +17,7 @@ Andrea is the CEO of [Idyll Point Group](https://idyllpointgroup.com?utm_source=
 ## Mentioned during this episode
 
 - [Idyll Point Group on Facebook](https://www.facebook.com/IdyllPointGroup/?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)
-- [Andrea&rsquo;s _Content Hacker_ podcast](https://www.idyllpointgroup.com/podcast?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)
+- [Andrea's _Content Hacker_ podcast](https://www.idyllpointgroup.com/podcast?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)
 - [Don Day and Michael Priestley on the beginnings of DITA part 1 - DITAWriter](http://www.ditawriter.com/don-day-and-michael-priestley-on-the-beginnings-of-dita-part-1?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)
 - [Don Day and Michael Priestley on the beginnings of DITA part 2 - DITAWriter](http://www.ditawriter.com/don-day-and-michael-priestly-on-the-beginnings-of-dita-part-2?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)
 - [STC Intercom magazine editorial calendar](https://www.stc.org/intercom/editorial-calendar?utm_source=edmarshdotcom&utm_medium=podcast&utm_campaign=contentcontentepisode21)

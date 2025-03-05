@@ -10,7 +10,7 @@ tags :
   - "madcap flare"
 cover: "pawel_kowaluk-300x300.jpg"
 coverAlt : "Episode 16 guest Pawel Kowaluk"
-description: Pawel Kowaluk, a technical writer, self-proclaimed <a href="https://dita.org">DITA geek</a>, and <a href="https://3di.com.pl">recruiter at 3di</a>, joins us from Krakow, Poland. He talks about the rise of technical communication in Poland, starting a conference, and how to balance a team when hiring.
+description: Pawel Kowaluk, a technical writer, self-proclaimed [DITA geek](https://dita.org), and [recruiter at 3di](https://3di.com.pl), joins us from Krakow, Poland. He talks about the rise of technical communication in Poland, starting a conference, and how to balance a team when hiring.
 mp3File: content_content_podcast_episode_16_-_pawel_kowaluk.mp3
 ---
 

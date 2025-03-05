@@ -11,21 +11,21 @@ This story is for intermediate to advanced help developers. It requires knowledg
 
 Have you ever been bored using Georgia, Tahoma, Verdana, and (sigh...) Arial over and over in your help projects? The [font-face property](http://www.w3.org/TR/css3-fonts/#the-font-face-rule) has been available for some time in Cascading Style Sheets (CSS), but browser and font foundry support are only now allowing use of fonts other than those that ship with operating systems and applications, without workarounds like [sIFR](http://en.wikipedia.org/wiki/Scalable_Inman_Flash_Replacement) and [cufon](http://cufon.shoqolate.com/generate/).
 
-New technologies have sprouted up, with Google [creating its own font API](http://code.google.com/apis/webfonts/), and Adobe announcing [font support through TypeKit](http://typekit.com/foundries/adobe). However, you can also save and host freely available font files on your company&rsquo;s web server, or install on your users&rsquo; PCs, and use these fonts in your WebHelp projects. The web site [Font Squirrel creates the CSS for you](http://www.fontsquirrel.com/fontface), using only free, embeddable fonts.
+New technologies have sprouted up, with Google [creating its own font API](http://code.google.com/apis/webfonts/), and Adobe announcing [font support through TypeKit](http://typekit.com/foundries/adobe). However, you can also save and host freely available font files on your company's web server, or install on your users' PCs, and use these fonts in your WebHelp projects. The web site [Font Squirrel creates the CSS for you](http://www.fontsquirrel.com/fontface), using only free, embeddable fonts.
 
 There are thousands of free fonts out there, but not all font creators support font embedding, so be sure to read any license agreement before using them in your projects.
 
 [MadCap's Flare](http://www.madcapsoftware.com/) help authoring tool (HAT) uses CSS to style its WebHelp, so you can easily  embed fonts into your help. This should work similarly in Adobe Robohelp.
 
-You can use the fonts locally, in addition to on a server. The CSS and font files are quite small, taking up only a few kilobytes each, so it shouldn&rsquo;t add a lot of overhead to your projects. All major browsers, including Internet Explorer 7, 8, and 9, Firefox, Chrome, Opera, and Safari, currently support using the font-face attribute, but of course they are implemented differently. IE supports the EOT format, while most other browsers support TrueType (TTF) and some OpenType (OTF) format fonts.
+You can use the fonts locally, in addition to on a server. The CSS and font files are quite small, taking up only a few kilobytes each, so it shouldn't add a lot of overhead to your projects. All major browsers, including Internet Explorer 7, 8, and 9, Firefox, Chrome, Opera, and Safari, currently support using the font-face attribute, but of course they are implemented differently. IE supports the EOT format, while most other browsers support TrueType (TTF) and some OpenType (OTF) format fonts.
 
 ## Downloading Fonts
 
-Since 95% of the work is done for you (did I also mention free?), we&rsquo;ll use [Font Squirrel&rsquo;s font face kits](http://www.fontsquirrel.com/fontface). These kits include the CSS file for the font, which defines the `@font-face` properties you need, and the font files. All you need to do is change the path to your fonts on the server or local machine (_not_ the windows/fonts folder), and then [add these CSS files to your Flare project](#configuring-flare). I like this modular approach to the font files, originally shown to me by [John "VSC" Zavocki](http://www.johnvsc.com) at a [Drupal meet-up](http://groups.drupal.org/nyc). It&rsquo;s easy to use, reduces clutter in your CSS files, and allows you to easily swap fonts by referencing a different CSS file. I downloaded and used the [Gentium serif font](http://www.fontsquirrel.com/fonts/Gentium-Basic "Gentium font download") for body text, and the [PT Sans sans-serif](http://www.fontsquirrel.com/fonts/PT-Sans "PT Sans font download") for headings.
+Since 95% of the work is done for you (did I also mention free?), we'll use [Font Squirrel's font face kits](http://www.fontsquirrel.com/fontface). These kits include the CSS file for the font, which defines the `@font-face` properties you need, and the font files. All you need to do is change the path to your fonts on the server or local machine (_not_ the windows/fonts folder), and then [add these CSS files to your Flare project](#configuring-flare). I like this modular approach to the font files, originally shown to me by [John "VSC" Zavocki](http://www.johnvsc.com) at a [Drupal meet-up](http://groups.drupal.org/nyc). It's easy to use, reduces clutter in your CSS files, and allows you to easily swap fonts by referencing a different CSS file. I downloaded and used the [Gentium serif font](http://www.fontsquirrel.com/fonts/Gentium-Basic "Gentium font download") for body text, and the [PT Sans sans-serif](http://www.fontsquirrel.com/fonts/PT-Sans "PT Sans font download") for headings.
 
 ## Modifying CSS Files
 
-The only change you need to make in the CSS files is to specify the path to the fonts folder. I keep it simple, and place the fonts folder directly below the stylesheets folder (in Flare, this is in `Content/Resources/Stylesheets`). You then need to change the path in two places in each font&rsquo;s CSS file: for the EOT reference and the TTF (or OTF) reference. In this case, you just add the fonts/ path to each URL reference, shown in bold in the following example:
+The only change you need to make in the CSS files is to specify the path to the fonts folder. I keep it simple, and place the fonts folder directly below the stylesheets folder (in Flare, this is in `Content/Resources/Stylesheets`). You then need to change the path in two places in each font's CSS file: for the EOT reference and the TTF (or OTF) reference. In this case, you just add the fonts/ path to each URL reference, shown in bold in the following example:
 
 ```css
  @font-face {
@@ -36,7 +36,7 @@ The only change you need to make in the CSS files is to specify the path to the 
 }
 ```
 
-In your project&rsquo;s master CSS file, you then reference the font-family you want. For example:
+In your project's master CSS file, you then reference the font-family you want. For example:
 
 ```css
  body {
@@ -46,7 +46,7 @@ In your project&rsquo;s master CSS file, you then reference the font-family you 
 }
 ```
 
-As I learned the frustrating way ("...why won&rsquo;t this _work?!?_"_)_, font names with spaces _must_ be enclosed in _single_, not double, quotation marks.
+As I learned the frustrating way ("...why won't this _work?!?_"_)_, font names with spaces _must_ be enclosed in _single_, not double, quotation marks.
 
 ## Configuring Flare
 
