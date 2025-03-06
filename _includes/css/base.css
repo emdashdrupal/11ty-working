@@ -471,7 +471,7 @@ blockquote p {
 }
 
 button:hover {
-    background-color: var(--grey-green);
+    background-color: var(--success-500);
     color: var(--jet);
     border-radius: 6px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2)
@@ -522,4 +522,36 @@ footer>div>p>a {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     line-height: 1.3333333;
+}
+
+/* Code block copy button */
+.code-wrapper {
+  position: relative;
+}
+
+.copy-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--medium-blue);
+  border: none;
+  border-radius: 0.25rem;
+  color: var(--whitish);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.code-wrapper:hover .copy-button {
+  opacity: 1;
+}
+
+.copy-button:hover {
+  background-color: var(--green-blue);
+}
+
+.copy-button.copied {
+  background-color: var(--success);
+  color: var(--jet);
 }
