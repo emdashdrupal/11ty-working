@@ -1,15 +1,15 @@
 <nav aria-label="Breadcrumb" class="shadow-md p-2 rounded-sm mb-4">
-  <span class="fa-solid fa-house"></span>
+  <span class="fa-solid fa-house text-chartreuse"></span>
   <a href="/">Home</a>
   {% if category %}
     <span class="fa-solid fa-chevron-right mx-2 text-sm text-slate-500"></span>
     {% if categoryFontAwesomeIcon %}
-      <span class="fa-{{ categoryFontAwesomeIcon }} mx-2"></span>
+      <span class="fa-{{ categoryFontAwesomeIcon }} mx-2 text-chartreuse"></span>
     {% endif %}
     <a href="/{{ category | slugify }}">{{ category }}</a>
   {% endif %}
   <span class="fa-solid fa-chevron-right mx-2 text-sm text-slate-500"></span>
   <span class="text-gray-600" aria-current="page">{% if FontAwesomeIcon %}
-      <span class="fa-{{ FontAwesomeIcon }} mx-2"></span>
+      <span class="fa-{{ FontAwesomeIcon }} mx-2 text-chartreuse"></span>
     {% endif %}{{ title }}</span>
 </nav>

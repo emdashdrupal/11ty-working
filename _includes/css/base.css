@@ -11,8 +11,7 @@
     --serif: "Besley", serif;
     --monospace: "Reddit Mono", Consolas, Courier, monospace;
     --jet: #3c3744ff;
-    --chamoisee: #8f754fff;
-
+    --chartreuse: #C7EF00;
 }
 
 /* Text color classes */
@@ -36,10 +35,6 @@
     color: var(--cadet-gray);
 }
 
-.text-ecru {
-    color: var(--ecru);
-}
-
 .text-whitish {
     color: var(--whitish);
 }
@@ -54,6 +49,14 @@
 
 .text-green-blue {
     color: var(--green-blue);
+}
+
+.text-chartreuse {
+    color: var(--chartreuse);
+}
+
+.bg-chartreuse {
+    background-color: var(--chartreuse);
 }
 
 /* Background color classes */
@@ -75,10 +78,6 @@
 
 .bg-cadet-gray {
     background-color: var(--cadet-gray);
-}
-
-.bg-ecru {
-    background-color: var(--ecru);
 }
 
 .bg-whitish {
@@ -129,26 +128,24 @@ p {
     font-family: var(--sans-serif);
 }
 
+h1, h2, h3 {
+    font-family: var(--sans-serif);
+    font-weight: 600;
+    margin: 1rem 0 0.5rem 0;
+}
+
 h1 {
     font-size: 1.3rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
     margin-top: 0;
-    font-family: var(--sans-serif);
 }
 
 h2 {
     font-size: 1.3rem;
-    font-weight: 600;
-    margin: 1rem 0 0.5em 0;
-    font-family: var(--sans-serif);
 }
 
 h3 {
     font-size: 1.2rem;
     font-weight: 700;
-    margin: 1rem 0 .5rem 0;
-    font-family: var(--sans-serif);
 }
 
 pre,
@@ -310,4 +307,13 @@ footer>div>p>a {
 .card-description a:hover {
     color: var(--whitish);
     background-color: var(--grey-green);
+}
+
+.prose :where(h2):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+	color: var(--tw-prose-headings);
+	font-weight: 700;
+	font-size: 1.5em;
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+	line-height: 1.3333333;
 }
