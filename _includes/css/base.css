@@ -167,6 +167,12 @@
 .bg-blue {
     background-color: var(--blue);
 }
+.bg-chartreuse {
+    background-color: var(--chartreuse);
+}
+.bg-success {
+    background-color: var(--success);
+}
 
 .bg-chartreuse {
     background-color: var(--chartreuse);
