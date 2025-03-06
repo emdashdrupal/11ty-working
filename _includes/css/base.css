@@ -3,7 +3,6 @@
     --midnight-green: #0b5563;
     --light-blue: #0074D9;
     --cadet-gray: #94a3b8;
-    --ecru: #aba361;
     --whitish: #f7f7f8;
     --grey-green: #96a396;
     --medium-blue: #678bb1;
@@ -11,11 +10,45 @@
     --sans-serif: "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --serif: "Besley", serif;
     --monospace: "Reddit Mono", Consolas, Courier, monospace;
+    --jet: #3c3744ff;
+    --chartreuse: #C7EF00;
+    --success: #bef9c6;
+    --bg-jet-100: #0c0b0e;
+    --bg-jet-200: #18161b;
+    --bg-jet-300: #242129;
+    --bg-jet-400 : #302b37;
+    --bg-jet-500 : #3c3744;
+    --bg-jet-600 : #635c71;
+    --bg-jet-700 : #8a819d;
+    --bg-jet-800 : #b2acc3;
+    --bg-jet-900 : #d9d6e1;
+    --text-jet-100: #0c0b0e;
+    --text-jet-200: #18161b;
+    --text-jet-300: #242129;
+    --text-jet-400 : #302b37;
+    --text-jet-500 : #3c3744;
+    --text-jet-600 : #635c71;
+    --text-jet-700 : #8a819d;
+    --text-jet-800 : #b2acc3;
+    --text-jet-900 : #d9d6e1;
+    --success-100: #26f03c;
+    --success-200: #4cf25d;
+    --success-300: #71f47e;
+    --success-400: #97f69f;
+    --success-500: #bef9c6;
+    --success-600: #cdfad2;
+    --success-700: #dcfbde;
+    --success-800: #ebfdeb;
+    --success-900: #f5fef6;
 }
 
 /* Text color classes */
 .text-blue {
     color: var(--blue);
+}
+
+.text-jet {
+    color: var(--jet);
 }
 
 .text-white {
@@ -34,10 +67,6 @@
     color: var(--cadet-gray);
 }
 
-.text-ecru {
-    color: var(--ecru);
-}
-
 .text-whitish {
     color: var(--whitish);
 }
@@ -54,13 +83,173 @@
     color: var(--green-blue);
 }
 
+.text-jet-100 {
+    color: #0c0b0e;
+}
+
+.text-jet-200 {
+    color: #18161b;
+}
+
+.text-jet-300 {
+    color: #242129;
+}
+
+.text-jet-400 {
+    color: #302b37;
+}
+
+.text-jet-500 {
+    color: #3c3744;
+}
+
+.text-jet-600 {
+    color: #635c71;
+}
+
+.text-jet-700 {
+    color: #8a819d;
+}
+
+.text-jet-800 {
+    color: #b2acc3;
+}
+
+.text-jet-900 {
+    color: #d9d6e1;
+}
+
+.text-chartreuse {
+    color: var(--chartreuse);
+}
+
+.text-success {
+    color: var(--success);
+}
+
+.text-success-100 {
+    color: var(--success-100);
+}
+
+.text-success-200 {
+    color: var(--success-200);
+}
+
+.text-success-300 {
+    color: var(--success-300);
+}
+
+.text-success-400 {
+    color: var(--success-400);
+}
+
+.text-success-500 {
+    color: var(--success-500);
+}
+
+.text-success-600 {
+    color: var(--success-600);
+}
+
+.text-success-700 {
+    color: var(--success-700);
+}
+
+.text-success-800 {
+    color: var(--success-800);
+}
+
+.text-success-900 {
+    color: var(--success-900);
+}
+
 /* Background color classes */
 .bg-blue {
     background-color: var(--blue);
 }
 
+.bg-chartreuse {
+    background-color: var(--chartreuse);
+}
+
+.bg-success {
+    background-color: var(--success);
+}
+
+.bg-success-100 {
+    background-color: var(--success-100);
+}
+
+.bg-success-200 {
+    background-color: var(--success-200);
+}
+
+.bg-success-300 {
+    background-color: var (--success-300);
+}
+
+.bg-success-400 {
+    background-color: var(--success-400);
+}
+
+.bg-success-500 {
+    background-color: var(--success-500);
+}
+
+.bg-success-600 {
+    background-color: var(--success-600);
+}
+
+.bg-success-700 {
+    background-color: var(--success-700);
+}
+
+.bg-success-800 {
+    background-color: var(--success-800);
+}
+
+.bg-success-900 {
+    background-color: var(--success-900);
+}
+
 .bg-white {
     background-color: var(--white);
+}
+
+.bg-jet-100 {
+    background-color: #0c0b0e;
+}
+
+.bg-jet-200 {
+    background-color: #18161b;
+}
+
+.bg-jet-300 {
+    background-color: #242129;
+}
+
+.bg-jet-400 {
+    background-color: #302b37;
+}
+
+.bg-jet-500 {
+    background-color: #3c3744;
+}
+
+.bg-jet-600 {
+    background-color: #635c71;
+}
+
+.bg-jet-700 {
+    background-color: #8a819d;
+}
+
+.bg-jet-800 {
+    background-color: #b2acc3;
+}
+
+.bg-jet-900 {
+    background-color: #d9d6e1;
 }
 
 .bg-midnight-green {
@@ -73,10 +262,6 @@
 
 .bg-cadet-gray {
     background-color: var(--cadet-gray);
-}
-
-.bg-ecru {
-    background-color: var(--ecru);
 }
 
 .bg-whitish {
@@ -127,26 +312,26 @@ p {
     font-family: var(--sans-serif);
 }
 
+h1,
+h2,
+h3 {
+    font-family: var(--sans-serif);
+    font-weight: 600;
+    margin: 1rem 0 0.5rem 0;
+}
+
 h1 {
     font-size: 1.3rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
     margin-top: 0;
-    font-family: var(--sans-serif);
 }
 
 h2 {
     font-size: 1.3rem;
-    font-weight: 600;
-    margin: 1rem 0 0.5em 0;
-    font-family: var(--sans-serif);
 }
 
 h3 {
     font-size: 1.2rem;
     font-weight: 700;
-    margin: 1rem 0 .5rem 0;
-    font-family: var(--sans-serif);
 }
 
 pre,
@@ -162,14 +347,9 @@ a {
     text-decoration: none;
 }
 
-p>a {
-    color: var(--green-blue);
-}
-
-a:hover {
-    text-decoration: underline;
-    background-color: var(--medium-blue);
-    color: var(--whitish);
+a:hover, footer>div>p>a:hover {
+    color: var(--text-jet-200);
+    background-color: var(--success-800);
 }
 
 ul li {
@@ -205,42 +385,76 @@ table {
 blockquote::before {
     content: "> Note";
     font-size: 1.25rem;
+    font-style: normal;
     color: var(--midnight-green);
 }
 
 blockquote {
     margin: 1rem 0;
     padding-left: 1rem;
-    border-left: 6px solid var(--cadet-gray);
+    border-left: 3px solid var(--jet);
 }
 
-/* Ensure the dropdown menu is hidden by default */
+blockquote p {
+    font-family: var(--serif);
+    font-size: 1.0rem;
+    line-height: 1.2rem;
+    font-style: normal;
+    color: var(--jet);
+
+}
+
+.prose :where(blockquote p:first-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::before {
+    content: none;
+}
+
+/* Replace the existing dropdown menu styles with these updated ones */
+
 .dropdown-menu {
     display: none;
     position: absolute;
     background-color: var(--whitish);
-    min-width: 160px;
+    min-width: 200px;  /* Increased width */
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    padding-top: 0px;
+    padding: 0.5rem 0;  /* Added padding */
+    margin-top: 0.5rem;  /* Added margin to create space */
+    border-radius: 6px;
+    /* Add a negative top margin to create overlap */
+    transform: translateY(-2px);
 }
 
-/* DO NOT DELETE Show the dropdown menu when the parent item is hovered */
-.dropdown:hover .dropdown-menu {
-    display: block;
+/* Create a hover area above the dropdown */
+.dropdown {
+    padding-bottom: 1rem;  /* Add padding to create hover space */
+}
+
+.dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -10px;  /* Create invisible bridge to menu */
+    left: 0;
+    right: 0;
+    height: 10px;
 }
 
 .dropdown-menu a {
-    color: black;
-    padding: 12px;
+    color: var(--text-jet-500);
+    padding: 0.75rem 1rem;  /* Increased padding */
     text-decoration: none;
     display: block;
+    transition: all 0.2s ease;
 }
 
 .dropdown-menu a:hover {
-    background-color: var(--green-blue);
-    color: white;
-    border-radius: 6px;
+    background-color: var(--success-600);
+    color: var(--text-jet-200);
+}
+
+/* Ensure dropdown stays visible when hovering */
+.dropdown:hover .dropdown-menu,
+.dropdown-menu:hover {
+    display: block;
+    z-index: 100;
 }
 
 .font-sans,
@@ -253,12 +467,14 @@ blockquote {
 }
 
 .icon {
-    color: var(--green-blue);
+    color: var(--medium-blue);
 }
 
 button:hover {
-    background-color: var(--medium-blue);
+    background-color: var(--success-500);
+    color: var(--jet);
     border-radius: 6px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2)
 }
 
 .sr-only {
@@ -278,10 +494,64 @@ pre[class*="language-"] {
     font-family: var(--monospace)
 }
 
-.hero > a:hover {
+.hero>a:hover {
     background-color: white;
 }
 
-#copyright > a {
+footer>div>p {
     color: var(--whitish);
+}
+
+footer>div>p>a {
+    color: var(--whitish);
+}
+
+.card-description a {
+    color: var(--grey-green);
+}
+
+.card-description a:hover {
+    color: var(--whitish);
+    background-color: var (--grey-green);
+}
+
+.prose :where(h2):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+    color: var(--tw-prose-headings);
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.3333333;
+}
+
+/* Code block copy button */
+.code-wrapper {
+  position: relative;
+}
+
+.copy-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--medium-blue);
+  border: none;
+  border-radius: 0.25rem;
+  color: var(--whitish);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.code-wrapper:hover .copy-button {
+  opacity: 1;
+}
+
+.copy-button:hover {
+  background-color: var(--green-blue);
+}
+
+.copy-button.copied {
+  background-color: var(--success);
+  color: var(--jet);
 }

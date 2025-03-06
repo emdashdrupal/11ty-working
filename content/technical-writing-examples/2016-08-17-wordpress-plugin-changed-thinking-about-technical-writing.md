@@ -30,7 +30,7 @@ Once installed, a new section appears on all the post and page creation pages wi
 
 I first pointed Yoast to my [About page](http://edmarsh.com/about/). The plugin quickly illustrated how poorly organized the page was to achieve my goals, which is to tell people what I do. Yoast showed that the About page didn't say anything about _me_ if it came up in search results. It also indicated I should use more headings to break up the text, and ensure there aren't too many words per heading.
 
-I found the &ldquo;Snippet preview&rdquo; on the Keyword tab helpful for the first sentence. This preview displays what users will see on Google when searching. It's also helpful for creating the short bursts of text that Twitter requires, which are automatically sent by another WordPress plugin.
+I found the "Snippet preview" on the Keyword tab helpful for the first sentence. This preview displays what users will see on Google when searching. It's also helpful for creating the short bursts of text that Twitter requires, which are automatically sent by another WordPress plugin.
 
 ![The Yoast SEO plugin snippet preview shows you how your post appears on Google.](/assets/images/yoast_seo_snippet_preview2-300x246.png) The Yoast SEO plugin snippet preview shows you how your post appears on Google. Using Yoast, you can customize how the results appear.
 

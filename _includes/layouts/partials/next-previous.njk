@@ -1,18 +1,24 @@
 {% if collections[collectionName] %}
     {% set previousPost = collections[collectionName] | getPreviousCollectionItem(item) %}
     {% set nextPost = collections[collectionName] | getNextCollectionItem(item) %}
-    <div class="leading-8 mx-2 p-1">
-        {% if previousPost %}
-                <span class="flex fa-solid fa-arrow-left-long text-grey-green"></span>
-                <a href="{{ previousPost.url }}">Previous | {{ previousPost.data.title }}</a>
-        {% endif %}
-        {% if nextPost %}
-            <span class="flex float-end">
-                <a href="{{ nextPost.url }}">
-                    {{ nextPost.data.title }} | Next</a>
-                <span class="fa-solid fa-arrow-right-long text-grey-green"></span>
-            </span>
-        </div>
-    {% endif %}
 
+    <div class="flex justify-between items-center w-full mb-4">
+        <div class="flex-1">
+            {% if previousPost %}
+                <a href="{{ previousPost.url }}" class="flex items-center gap-2 text-whitish hover:text-jet-200 hover:bg-success-700">
+                    <span class="fa-solid fa-arrow-left-long"></span>
+                    <span>Previous | {{ previousPost.data.title }}</span>
+                </a>
+            {% endif %}
+        </div>
+
+        <div class="flex-1 text-right">
+            {% if nextPost %}
+                <a href="{{ nextPost.url }}" class="flex items-center justify-end gap-2 text-whitish hover:text-jet-200 hover:bg-success-700">
+                    <span>{{ nextPost.data.title }} | Next</span>
+                    <span class="fa-solid fa-arrow-right-long"></span>
+                </a>
+            {% endif %}
+        </div>
+    </div>
 {% endif %}

@@ -1,13 +1,37 @@
 </main>
 
-<footer class="container p-4 mt-6 rounded-md shadow-md flex flex-wrap bg-medium-blue">
+<footer class="container p-4 mt-6 rounded-md shadow-md bg-medium-blue">
+    {% set hoverclass="hover:text-jet-200 hover:bg-success-700 underline" %}
     {% if layout == "layouts/details.njk" %}
-<p class="mb-3">{% include 'layouts/partials/next-previous.njk' %}</p>
-{% endif %}
+        {% include 'layouts/partials/next-previous.njk' %}
+    {% endif %}
 
-<p id="copyright" class="container clear-both">&copy; 2008&ndash;{% year %}. Created with <a href="https://www.11ty.dev">the Eleventy static site generator</a>, <a href="https://tailwindcss.com">Tailwind CSS</a>, <a href="https://mozilla.github.io/nunjucks">Nunjucks templating language</a>, <a href="https://linuxmint.com">Linux Mint Cinnamon</a>, <a href="https://github.com">GitHub</a>, <a href="https://netlify.com">Netlify hosting</a>, and a custom theme.
-<img title="Netlify build status" alt="Netlify build status" src="https://api.netlify.com/api/v1/badges/bd88baa1-cc8c-42c4-be0e-96d38dc13aa6/deploy-status?branch=master" /></p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-whitish">
+        <p class="text-center md:text-left">
+            Ed Marsh creates successful technical content by building community.
+        </p>
+
+        <p class="text-center">
+            <a href="/contact/" class="{{ hoverclass }}">Contact Ed</a> to discuss your content needs.
+        </p>
+
+        <div class="text-center md:text-right text-sm">
+            <p>&copy; 2008&ndash;{% year %}. Created with
+                <a href="https://www.11ty.dev" class="{{ hoverclass }}">Eleventy</a>,
+                <a href="https://tailwindcss.com" class="{{ hoverclass }}">Tailwind CSS</a>,
+                <a href="https://mozilla.github.io/nunjucks" class="{{ hoverclass }}">Nunjucks</a>,
+                <a href="https://linuxmint.com" class="{{ hoverclass }}">Linux Mint</a>,
+                <a href="https://github.com" class="{{ hoverclass }}">GitHub</a>, and
+                <a href="https://netlify.com" class="hover:{{ hoverclass }}">Netlify</a>.
+            </p>
+            <img
+                class="inline-block mt-2"
+                title="Netlify build status"
+                alt="Netlify build status"
+                src="https://api.netlify.com/api/v1/badges/bd88baa1-cc8c-42c4-be0e-96d38dc13aa6/deploy-status?branch=master"
+            />
+        </div>
+    </div>
 </footer>
-</div>
 </body>
 </html>

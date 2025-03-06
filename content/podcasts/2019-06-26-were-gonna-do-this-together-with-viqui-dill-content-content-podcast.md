@@ -14,7 +14,7 @@ description : "Viqui Dill, Senior Technical Writer at American Woodmark in Virgi
 mp3File: Content_Content_podcast_-_Viqui_Dill.mp3
 ---
 
-Viqui is also an accomplished &lsquo;bad-ass bass player&rsquo; and a self-proclaimed techcomm evangelist.
+Viqui is also an accomplished 'bad-ass bass player' and a self-proclaimed techcomm evangelist.
 
 ## Mentioned during this episode
 
