@@ -12,6 +12,7 @@
     --monospace: "Reddit Mono", Consolas, Courier, monospace;
     --jet: #3c3744ff;
     --chartreuse: #C7EF00;
+    --success: #bef9c6;
 }
 
 /* Text color classes */
@@ -55,13 +56,19 @@
     color: var(--chartreuse);
 }
 
-.bg-chartreuse {
-    background-color: var(--chartreuse);
+.text-success {
+    color: var(--success);
 }
 
 /* Background color classes */
 .bg-blue {
     background-color: var(--blue);
+}
+.bg-chartreuse {
+    background-color: var(--chartreuse);
+}
+.bg-success {
+    background-color: var(--success);
 }
 
 .bg-white {
