@@ -5,7 +5,7 @@
     <div class="flex justify-between items-center w-full mb-4">
         <div class="flex-1">
             {% if previousPost %}
-                <a href="{{ previousPost.url }}" class="flex items-center gap-2 text-whitish hover:text-gray-200">
+                <a href="{{ previousPost.url }}" class="flex items-center gap-2 text-whitish hover:text-jet-200 hover:bg-success-700">
                     <span class="fa-solid fa-arrow-left-long"></span>
                     <span>Previous | {{ previousPost.data.title }}</span>
                 </a>
@@ -14,7 +14,7 @@
 
         <div class="flex-1 text-right">
             {% if nextPost %}
-                <a href="{{ nextPost.url }}" class="flex items-center justify-end gap-2 text-whitish hover:text-gray-200">
+                <a href="{{ nextPost.url }}" class="flex items-center justify-end gap-2 text-whitish hover:text-jet-200 hover:bg-success-700">
                     <span>{{ nextPost.data.title }} | Next</span>
                     <span class="fa-solid fa-arrow-right-long"></span>
                 </a>

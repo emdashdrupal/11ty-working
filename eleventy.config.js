@@ -51,7 +51,7 @@ module.exports = function (eleventyConfig) {
     "_includes/css/pagefind-overrides.css": "css/pagefind-overrides.css",
     "assets/images": "assets/images",
     "assets/podcasts": "assets/podcasts",
-    "_includes/js": "js"
+    "_includes/js/copyCode.js": "js/copyCode.js"
   });
 
   // Add collections
