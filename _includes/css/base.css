@@ -166,7 +166,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    background-color: var(--medium-blue);
+    background-color: var(--grey-green);
     color: var(--whitish);
 }
 
@@ -250,7 +250,7 @@ blockquote p {
 }
 
 .dropdown-menu a:hover {
-    background-color: var(--green-blue);
+    background-color: var(--grey-green);
     color: white;
     border-radius: 6px;
 }
@@ -269,7 +269,7 @@ blockquote p {
 }
 
 button:hover {
-    background-color: var(--green-blue);
+    background-color: var(--grey-green);
     color: var(--jet);
     border-radius: 6px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2)
@@ -305,10 +305,10 @@ footer>div>p>a {
 }
 
 .card-description a {
-    color: var(--green-blue);
+    color: var(--grey-green);
 }
 
 .card-description a:hover {
     color: var(--whitish);
-    background-color: var(--green-blue);
+    background-color: var(--grey-green);
 }
