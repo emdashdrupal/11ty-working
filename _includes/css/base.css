@@ -185,7 +185,7 @@
 }
 
 .bg-success-300 {
-    background-color: var(--success-300);
+    background-color: var (--success-300);
 }
 
 .bg-success-400 {
@@ -408,33 +408,53 @@ blockquote p {
     content: none;
 }
 
-/* Ensure the dropdown menu is hidden by default */
+/* Replace the existing dropdown menu styles with these updated ones */
+
 .dropdown-menu {
     display: none;
     position: absolute;
     background-color: var(--whitish);
-    min-width: 160px;
+    min-width: 200px;  /* Increased width */
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    padding-top: 0px;
+    padding: 0.5rem 0;  /* Added padding */
+    margin-top: 0.5rem;  /* Added margin to create space */
+    border-radius: 6px;
+    /* Add a negative top margin to create overlap */
+    transform: translateY(-2px);
 }
 
-/* DO NOT DELETE Show the dropdown menu when the parent item is hovered */
-.dropdown:hover .dropdown-menu {
-    display: block;
-    z-index: 100;
+/* Create a hover area above the dropdown */
+.dropdown {
+    padding-bottom: 1rem;  /* Add padding to create hover space */
+}
+
+.dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -10px;  /* Create invisible bridge to menu */
+    left: 0;
+    right: 0;
+    height: 10px;
 }
 
 .dropdown-menu a {
-    color: black;
-    padding: 12px;
+    color: var(--text-jet-500);
+    padding: 0.75rem 1rem;  /* Increased padding */
     text-decoration: none;
     display: block;
+    transition: all 0.2s ease;
 }
 
 .dropdown-menu a:hover {
     background-color: var(--grey-green);
-    color: white;
-    border-radius: 6px;
+    color: var(--whitish);
+}
+
+/* Ensure dropdown stays visible when hovering */
+.dropdown:hover .dropdown-menu,
+.dropdown-menu:hover {
+    display: block;
+    z-index: 100;
 }
 
 .font-sans,

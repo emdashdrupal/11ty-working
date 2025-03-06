@@ -1,14 +1,16 @@
 {% macro dropdown(id, label, items, homepageUrl) %}
-    <li class="relative list-none font-sans dropdown z-30">
-        <a href="{{ homepageUrl }}" class="dropdown-toggle">{{ label }}</a>
+    <li class="relative list-none font-sans dropdown">
+        <a href="{{ homepageUrl }}" class="dropdown-toggle px-3 py-2">{{ label }}</a>
         <ul
-        id="{{ id }}-submenu"
-        class="absolute hidden shadow-md rounded-md bg-medium-blue dropdown-menu"
-        aria-label="drop-down menu for {{ label }}"
-    >
+            id="{{ id }}-submenu"
+            class="absolute hidden shadow-md rounded-md bg-medium-blue dropdown-menu"
+            aria-label="drop-down menu for {{ label }}"
+        >
             {% for item in items %}
                 <li class="list-none font-sans block">
-                    <a aria-labelledby="{{item.data.title}}" href="{{ item.url | url }}">{{ item.data.title }}</a>
+                    <a class="block w-full" aria-labelledby="{{item.data.title}}" href="{{ item.url | url }}">
+                        {{ item.data.title }}
+                    </a>
                 </li>
             {% endfor %}
         </ul>
