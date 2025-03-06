@@ -347,7 +347,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover, footer>div>p>a:hover {
     color: var(--text-jet-200);
     background-color: var(--success-800);
 }
@@ -446,8 +446,8 @@ blockquote p {
 }
 
 .dropdown-menu a:hover {
-    background-color: var(--grey-green);
-    color: var(--whitish);
+    background-color: var(--success-600);
+    color: var(--text-jet-200);
 }
 
 /* Ensure dropdown stays visible when hovering */
