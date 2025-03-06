@@ -167,9 +167,11 @@
 .bg-blue {
     background-color: var(--blue);
 }
+
 .bg-chartreuse {
     background-color: var(--chartreuse);
 }
+
 .bg-success {
     background-color: var(--success);
 }
@@ -318,7 +320,9 @@ p {
     font-family: var(--sans-serif);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: var(--sans-serif);
     font-weight: 600;
     margin: 1rem 0 0.5rem 0;
