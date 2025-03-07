@@ -437,6 +437,12 @@ blockquote p {
     height: 10px;
 }
 
+.navmenu > li > a:hover {
+    background-color: var(--success-500);
+    color: var(--jet);
+    border-radius: 6px;
+}
+
 .dropdown-menu a {
     color: var(--text-jet-500);
     padding: 0.75rem 1rem;  /* Increased padding */
@@ -448,6 +454,7 @@ blockquote p {
 .dropdown-menu a:hover {
     background-color: var(--success-600);
     color: var(--text-jet-200);
+    border-radius: 6px;
 }
 
 /* Ensure dropdown stays visible when hovering */

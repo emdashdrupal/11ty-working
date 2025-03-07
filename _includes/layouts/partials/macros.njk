@@ -18,8 +18,8 @@
 {% endmacro %}
 
 {% macro listItem(url, label) %}
-    <li class="list-none font-sans" aria-labelledby="{{ label }}">
-        <a href="{{ url }}">{{ label }}</a>
+    <li class="nav-menu list-none font-sans" aria-labelledby="{{ label }}">
+        <a class="hover:rounded-md hover:p-1" href="{{ url }}">{{ label }}</a>
     </li>
 {% endmacro %}
 
