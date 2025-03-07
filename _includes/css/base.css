@@ -312,11 +312,10 @@ ul li {
   border-radius: 6px;
 }
 
-.dropdown:hover .dropdown-menu, .dropdown-menu >li:hover,
+.dropdown:hover .dropdown-menu,
 .dropdown-menu:hover {
   display: block;
   z-index: 100;
-  border-radius: 6px;
 }
 
 /* Utility Classes */
