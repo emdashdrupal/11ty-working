@@ -1,5 +1,5 @@
-{% macro dropdown(id, label, items, homepageUrl) %}
-    <li class="relative list-none font-sans dropdown">
+{% macro dropdown(id, label, items) %}
+    <li class="relative list-none font-sans dropdown ml-0 mb-0">
         <a href="{{ homepageUrl }}" class="dropdown-toggle px-3 py-2">{{ label }}</a>
         <ul
             id="{{ id }}-submenu"
@@ -18,8 +18,13 @@
 {% endmacro %}
 
 {% macro listItem(url, label) %}
-    <li class="navbar-item list-none font-sans" aria-labelledby="{{ label }}">
-        <a class="rounded-sm" href="{{ url }}">{{ label }}</a>
+    <li class="relative list-none font-sans">
+        <a
+            href="{{ url }}"
+            class="px-3 py-2 inline-flex items-center text-whitish hover:text-jet-200 hover:bg-success-800"
+        >
+            {{ label }}
+        </a>
     </li>
 {% endmacro %}
 
