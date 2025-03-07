@@ -1,5 +1,12 @@
-<nav aria-label="Breadcrumb" class="shadow-md p-2 rounded-sm mb-4">
-    <span class="fa-solid fa-house text-grey-green "></span>
+<script src="/pagefind/pagefind-ui.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({element: "#search", showSubResults: false, showImages: false});
+    });
+</script>
+
+<nav aria-label="breadcrumb" class="shadow-md p-2 rounded-sm mb-4">
+    <span class="fa-solid fa-house text-grey-green"></span>
     <a href="/">Home</a>
     {% if category %}
         <span class="fa-solid fa-chevron-right mx-2 text-sm text-jet-700"></span>
