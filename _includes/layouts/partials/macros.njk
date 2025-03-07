@@ -1,6 +1,6 @@
 {% macro dropdown(id, label, items, homepageUrl) %}
     <li class="relative list-none font-sans dropdown">
-        <a href="{{ homepageUrl }}" class="dropdown-toggle px-3 py-2">{{ label }}</a>
+        <a href="{{ homepageUrl }}" class="dropdown-toggle px-3 py-2 hover:rounded-md">{{ label }}</a>
         <ul
             id="{{ id }}-submenu"
             class="absolute hidden shadow-md rounded-md bg-medium-blue dropdown-menu"
