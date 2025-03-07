@@ -419,7 +419,7 @@ blockquote p {
 /* Dropdown menu styles */
 .dropdown {
     position: relative;
-    padding-bottom: 1rem;
+    display: inline-block;
 }
 
 .dropdown-menu {
@@ -427,45 +427,37 @@ blockquote p {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: var(--whitish);
     min-width: 220px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    background-color: var(--whitish);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     border-radius: 0.5rem;
-    opacity: 0;
-    transform: translateY(-10px);
-    transition: opacity 0.2s ease, transform 0.2s ease;
-    padding: 0.5rem 0;
+    margin-top: 0.25rem;
     z-index: 50;
 }
 
-/* Hover area extension */
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Add padding to create hover space */
+.dropdown::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+
+/* Prevent dropdown from disappearing when moving to menu */
 .dropdown-menu::before {
     content: '';
     position: absolute;
-    top: -16px;
+    top: -10px;
     left: 0;
     right: 0;
-    height: 16px;
-}
-
-.dropdown-menu.show {
-    display: block;
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.dropdown-menu a {
-    color: var(--text-jet-500);
-    padding: 0.75rem 1.25rem;
-    display: block;
-    transition: all 0.2s ease;
-}
-
-.dropdown-menu a:hover,
-.dropdown-menu a:focus {
-    background-color: var(--grey-green);
-    color: var(--whitish);
-    outline: none;
+    height: 10px;
 }
 
 /* Mobile styles */
@@ -499,7 +491,7 @@ blockquote p {
 }
 
 .icon {
-    color: var(--medium-blue);
+    color: var (--medium-blue);
 }
 
 button:hover {

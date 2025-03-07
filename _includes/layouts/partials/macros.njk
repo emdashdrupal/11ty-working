@@ -1,16 +1,16 @@
-{% macro dropdown(id, label, items) %}
+{% macro dropdown(id, label, items, homepageUrl) %}
     <li class="relative list-none font-sans dropdown">
-        <button
-            type="button"
+        <a
+            href="{{ homepageUrl }}"
             id="{{ id }}-button"
-            class="dropdown-toggle px-3 py-2 inline-flex items-center"
+            class="px-3 py-2 inline-flex items-center text-whitish hover:text-jet-200 hover:bg-success-800"
             aria-expanded="false"
             aria-haspopup="true"
             aria-controls="{{ id }}-menu"
         >
             {{ label }}
             <span class="ml-1" aria-hidden="true">▼</span>
-        </button>
+        </a>
 
         <ul
             id="{{ id }}-menu"
@@ -23,7 +23,7 @@
                 <li role="none">
                     <a
                         href="{{ item.url | url }}"
-                        class="block w-full"
+                        class="block w-full px-4 py-2 text-jet hover:text-whitish hover:bg-medium-blue"
                         role="menuitem"
                         tabindex="-1"
                         data-index="{{ loop.index0 }}"
@@ -37,8 +37,10 @@
 {% endmacro %}
 
 {% macro listItem(url, label) %}
-    <li class="list-none font-sans" aria-labelledby="{{ label }}">
-        <a href="{{ url }}">{{ label }}</a>
+    <li class="list-none font-sans">
+        <a href="{{ url }}" class="px-3 py-2 inline-flex items-center text-whitish hover:text-jet-200 hover:bg-success-800">
+            {{ label }}
+        </a>
     </li>
 {% endmacro %}
 
