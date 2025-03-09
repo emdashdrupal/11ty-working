@@ -7,9 +7,15 @@ featured: true
 
 ## Content types
 
+I created three main content types (page types):
+
+- The homepage, which gives my intro and a headshot, and galleries of the four most important, or recent, items that have been updated in three categories: podcasts, skills, and this series of blog posts.
+- Grid pages, which drill down into things like skills, blog posts, and my podcast episodes.
+- Details pages, which are the landing pages for each podcast episode, and the meat of the other content pages.
+
 ## Metadata
 
-Most technical writers and content strategists are familiar with metadata (often referred to in the SSG world as *front matter*). You can use it to define page titles, keywords, tags, and categories right out of the box. The real power comes by adding custom metadata; highly structured content expands the possibilities of the template engine and site generator.
+Most technical writers and content strategists are familiar with metadata (often referred to in the SSG world as *front matter* and/or *frontmatter*). You can use it to define page titles, keywords, tags, and categories right out of the box. The real power comes by adding custom metadata; highly structured content expands the possibilities of the template engine and site generator.
 
 ### Taxonomies
 

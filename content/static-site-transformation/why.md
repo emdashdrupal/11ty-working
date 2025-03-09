@@ -55,11 +55,3 @@ I've played around with static site generators, and in a prior role our output w
 I quickly learned that when you decide to build a website from scratch, even with an SSG, you're building it from *scratch*. There are starter themes and frameworks, but I figured I had the time and inclination to learn some newer tech and play the role of a developer while revamping the content and content strategy of my site.
 
 the problem ended up being i wanted to play with all the toys and build the site, and the focus on the content came last. This explains so much why a content-first approach is so often ignored by developers.
-
-## Initial content strategy
-
-I ended up with three main content types:
-
-- The homepage, which gives my intro and a headshot, and galleries of the four most important, or recent, items that have been updated in three categories: podcasts, skills, and this series of blog posts.
-- Grid pages, which drill down into things like skills, blog posts, and my podcast episodes.
-- Details pages, which are the landing pages for each podcast episode, and the meat of the other content pages.
