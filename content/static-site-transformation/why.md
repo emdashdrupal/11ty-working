@@ -1,6 +1,6 @@
 ---
-title : The "why" behind this project
-description: How this personal project come about, and why I decided to put myself in the role of every part of web development.
+title : The "why" behind my SSG conversion project
+description: Why I decided to put myself in the role of every part of web development to update my personal website.
 FontAwesomeIcon: solid fa-person-circle-question
 featured: true
 featuredOrder: 1
@@ -20,6 +20,7 @@ Ultimately, my goal was to:
 - Update a 10-year-old website.
 - Reduce hosting costs.
 - Reduce the overhead of maintaining a content management system. I haven't blogged in some time, and my podcast has been on hiatus since 2022.
+- Archive old content like those early days of blog posts.
 - Add value by developing with SSGs. This isn't a skill a lot of technical writers have.
 - Understand how to structure content not only for SSGs, but other programmatic use.
 - Review all the content on my site and see if and how it's promoting my career in the best light.
