@@ -14,7 +14,7 @@ The content strategy was to blog about the process, and to put that content out 
 
 ## Goals
 
-Ultimately, my goal was to:
+My goal were to:
 
 - Quickly revamp my website to enhance my chances at getting hired.
 - Update a 10-year-old website.
@@ -40,15 +40,18 @@ Turns out, when you decide to build a website from scratch, even with an SSG, th
 
 ## My use case
 
-Home - displays posts across all content
-About
-List of skills of all the ways I can help a potential client/employer
-Podcast
-Tech writing examples - gallery page
-speaking engagements/presentations
-Blog (etc) - gallery page
-Podcast pages  - gallery page
-sidebar displays other recent podcasts or those with similar tags
-photo galleries (?)
-Contact
-Resume(?)
+Here was my initial structure that I modified as I built things out
+- Home - promotes posts across all of the content types &mdash; podcast, writing samples, skills, and this SSG series.
+- About
+- List of skills of all the ways I can help a potential client/employer
+- Podcast
+- Tech writing examples - gallery page
+- Speaking engagements/presentations
+- Blog (etc) - gallery page
+- Podcast pages  - gallery page
+- sidebar displays other recent podcasts or those with similar tags
+- photo galleries (?)
+- Contact
+- Resume(?)
+
+Most of them ended up in the finished product. Some I may include after I publish version 1.0. I definitely intend to keep this site more updated than the last one, but I wanted it to be as feature-complete as possible on publish day.
