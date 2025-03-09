@@ -232,13 +232,9 @@ ul li {
 }
 
 .card-description a {
-  color: var(--grey-green);
+  color: var(--medium-blue);
 }
 
-.card-description a:hover {
-  background-color: var(--grey-green);
-  color: var(--whitish);
-}
 
 /* Code Block Copy Button */
 .code-wrapper {

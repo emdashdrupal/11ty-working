@@ -77,4 +77,13 @@ And surprise! Documentation quality varies greatly from theme to theme.
 
 ### Templating languages?
 
-The FUD set in. Am I just too out of this technological loop to have to hire someone to do it? Do I really want to decide on Nunjucks, WebC, Liquid, or another template language? Many people also say you can forgo template languages with modern frameworks like React and Angular, but that is a whole separate career and learning curve I don't want/need to get into.
+The FUD set in. Am I just too out of this technological loop to have to hire someone to do it? Do I really want to decide on Nunjucks, WebC, Liquid, or another template language?
+
+You can also forego template languages with modern frameworks like React and Angular, but that is a whole separate career and learning curve I don't want/need to get into.
+
+Ultimately I went with Nunjucks because it was modern, had out of the box support, is relatively easy to learn, and is widely used.
+
+
+## Wins
+
+Setting up an RSS feed was easy. On the second try. When I read the docs. 
