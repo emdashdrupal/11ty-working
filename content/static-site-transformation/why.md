@@ -29,18 +29,10 @@ My goal were to:
 - Enjoy writing again.
 - Do something for *me*.
 
-## The what
-
-Turns out, when you decide to build a website from scratch, even with an SSG, that you're building it from *scratch*. Sure there are starter themes and frameworks, but everyone's use case is different. In my case, I ended up with three main content types:
-
-- The homepage, which gives my intro and a headshot, then galleries of the four most important, or recent, items that have been updated.
-- Grid pages, which drill down into things like skills, blog posts, and my podcast episodes.
-- Details pages, which are the landing pages for each podcast episode, and the meat of the other content pages.
-
-
 ## My use case
 
-Here was my initial structure that I modified as I built things out
+Here are my initial structure thoughts that changed as I built things out:
+
 - Home - promotes posts across all of the content types &mdash; podcast, writing samples, skills, and this SSG series.
 - About
 - List of skills of all the ways I can help a potential client/employer
@@ -49,9 +41,18 @@ Here was my initial structure that I modified as I built things out
 - Speaking engagements/presentations
 - Blog (etc) - gallery page
 - Podcast pages  - gallery page
-- sidebar displays other recent podcasts or those with similar tags
+- A sidebar that displays a tag cloud
 - photo galleries (?)
 - Contact
 - Resume(?)
 
 Most of them ended up in the finished product. Some I may include after I publish version 1.0. I definitely intend to keep this site more updated than the last one, but I wanted it to be as feature-complete as possible on publish day.
+
+## The what
+
+Turns out, when you decide to build a website from scratch, even with an SSG, that you're building it from *scratch*. Sure there are starter themes and frameworks, but everyone's use case is different. In my case, I ended up with three main content types:
+
+- The homepage, which gives my intro and a headshot, then galleries of the four most important, or recent, items that have been updated.
+- Grid pages, which drill down into things like skills, blog posts, and my podcast episodes.
+- Details pages, which are the landing pages for each podcast episode, and the meat of the other content pages.
+
