@@ -1,18 +1,30 @@
-{% macro dropdown(id, label, items) %}
-    <li class="relative list-none font-sans dropdown ml-0 mb-0">
-        <a href="{{ homepageUrl }}" class="dropdown-toggle pr-3">{{ label }}</a><span class="ml-1" aria-hidden="true">▼</span>
+{% macro dropdown(id, label, items, homepageUrl) %}
+    <li class="relative list-none font-sans dropdown">
+        <a
+            href="{{ homepageUrl }}"
+            id="{{ id }}-button"
+            class="px-3 py-2 inline-flex items-center text-whitish hover:text-jet-200 hover:bg-success-800"
+            aria-expanded="false"
+            aria-haspopup="true"
+            aria-controls="{{ id }}-menu"
+        >
+            {{ label }}<span class="ml-1" aria-hidden="true">▼</span>
+        </a>
         <ul
-            id="{{ id }}-submenu"
+            id="{{ id }}-menu"
+            class="dropdown-menu"
             role="menu"
-            class="px-3 py-2 inline-flex items-center text-whitish hover:text-jet-200 hover:bg-success-800 absolute hidden shadow-md rounded-md bg-medium-blue dropdown-menu"
-            aria-label="drop-down menu for {{ label }}"
+            aria-labelledby="{{ id }}-button"
         >
             {% for item in items %}
-                <li role="none" class="list-none font-sans block">
-                    <a class="block w-full px-4 py-2 text-jet hover:text-whitish hover:bg-medium-blue"
+                <li role="none" class="list-none font-sans">
+                    <a
+                        href="{{ item.url | url }}"
+                        class="block w-full px-4 py-2 text-jet hover:text-whitish hover:bg-medium-blue"
                         role="menuitem"
                         tabindex="-1"
-                        data-index="{{ loop.index0 }}" aria-labelledby="{{item.data.title}}" href="{{ item.url | url }}">
+                        data-index="{{ loop.index0 }}"
+                    >
                         {{ item.data.title }}
                     </a>
                 </li>

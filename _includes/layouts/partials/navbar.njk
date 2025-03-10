@@ -1,10 +1,11 @@
-{% from "layouts/partials/macros.njk" import dropdown,
-listItem %}
+{% from "layouts/partials/macros.njk" import dropdown, listItem %}
 
 <nav class="container bg-medium-blue" aria-label="Ed Marsh introduction and site navigation menu">
-    <div class="px-4 py-0 text-whitish m-0 flex flex-row flex-wrap" id="navbar-intro">
-        <span class="text-xl font-semibold"><a href="/">Ed Marsh</a> creates successful technical content by building community</span>
-        <ul id="navbar" class="flex flex-row flex-wrap text-left mt-1 ml-0 content-evenly" aria-label="Main navigation menu">
+    <div class="px-4 py-2 text-whitish flex flex-col md:flex-row justify-between" id="navbar-intro">
+        <span class="text-xl font-semibold md:w-1/3 mb-4 md:mb-0">
+            Ed Marsh creates successful technical content by building community
+        </span>
+        <ul class="flex flex-wrap md:w-2/3 gap-2 justify-end" aria-label="Main navigation menu">
             {{ dropdown('ssgDropdown', 'Website transformation', collections.ssg, '/static-site-transformation/') }}
             {{ listItem('/podcasts/', 'Podcasts') }}
             {{ listItem('/technical-writing-examples/', 'Writing samples') }}

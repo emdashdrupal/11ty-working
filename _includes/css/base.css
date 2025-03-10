@@ -174,7 +174,7 @@ ul li {
 .bg-success-400 { background-color: var(--success-400); }
 .bg-success-500 { background-color: var(--success-500); }
 .bg-success-600 { background-color: var(--success-600); }
-.bg-success-700 { background-color: var(--success-700); }
+.bg-success-700 { background-color: var (--success-700); }
 .bg-success-800 { background-color: var(--success-800); }
 .bg-success-900 { background-color: var(--success-900); }
 .bg-white { background-color: var(--white); }
@@ -279,16 +279,17 @@ ul li {
 }
 
 .dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    min-width: 220px;
-    background-color: var(--whitish);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    border-radius: 0.5rem;
-    margin-top: 0.25rem;
-    z-index: 50;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 220px;
+  background-color: var(--whitish);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  border-radius: 0.5rem;
+  margin-top: 0.25rem;
+  z-index: 50;
+  padding: 0.5rem 0;
 }
 
 .dropdown-menu::before {
@@ -302,12 +303,12 @@ ul li {
 
 /* Add padding to create hover space */
 .dropdown::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    right: 0;
-    height: 10px;
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  height: 10px;
 }
 
 .dropdown-menu a {
@@ -347,6 +348,27 @@ ul li {
     .dropdown-menu a {
         padding: 1rem 1.5rem;
         color: var(--whitish);
+    }
+    #navbar-intro {
+        flex-direction: column;
+    }
+
+    #navbar-intro span {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    #navbar-intro ul {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .dropdown-menu {
+        position: static;
+        width: 100%;
+        box-shadow: none;
+        margin: 0;
     }
 }
 /* Utility Classes */
