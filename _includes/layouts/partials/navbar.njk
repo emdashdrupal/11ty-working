@@ -5,10 +5,10 @@ listItem %}
     <div class="px-4 py-0 text-whitish m-0 flex flex-row flex-wrap" id="navbar-intro">
         <span class="text-xl font-semibold"><a href="/">Ed Marsh</a> creates successful technical content by building community</span>
         <ul id="navbar" class="flex flex-row flex-wrap text-left mt-1 ml-0 content-evenly" aria-label="Main navigation menu">
-            {{ dropdown('ssgDropdown', 'Website transformation \>', collections.ssg, '/static-site-transformation/') }}
+            {{ dropdown('ssgDropdown', 'Website transformation', collections.ssg, '/static-site-transformation/') }}
             {{ listItem('/podcasts/', 'Podcasts') }}
             {{ listItem('/technical-writing-examples/', 'Writing samples') }}
-            {{ dropdown('skillsDropdown', 'Skills >', collections.skills, '/skills') }}
+            {{ dropdown('skillsDropdown', 'Skills', collections.skills, '/skills') }}
             {{ listItem('/about/about-ed-marsh', 'About') }}
             {{ listItem('/contact/', 'Contact') }}
         </ul>

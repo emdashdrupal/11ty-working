@@ -1,14 +1,18 @@
 {% macro dropdown(id, label, items) %}
     <li class="relative list-none font-sans dropdown ml-0 mb-0">
-        <a href="{{ homepageUrl }}" class="dropdown-toggle pr-3">{{ label }}</a>
+        <a href="{{ homepageUrl }}" class="dropdown-toggle pr-3">{{ label }}</a><span class="ml-1" aria-hidden="true">▼</span>
         <ul
             id="{{ id }}-submenu"
-            class="absolute hidden shadow-md rounded-md bg-medium-blue dropdown-menu"
+            role="menu"
+            class="px-3 py-2 inline-flex items-center text-whitish hover:text-jet-200 hover:bg-success-800 absolute hidden shadow-md rounded-md bg-medium-blue dropdown-menu"
             aria-label="drop-down menu for {{ label }}"
         >
             {% for item in items %}
-                <li class="list-none font-sans block">
-                    <a class="block w-full" aria-labelledby="{{item.data.title}}" href="{{ item.url | url }}">
+                <li role="none" class="list-none font-sans block">
+                    <a class="block w-full px-4 py-2 text-jet hover:text-whitish hover:bg-medium-blue"
+                        role="menuitem"
+                        tabindex="-1"
+                        data-index="{{ loop.index0 }}" aria-labelledby="{{item.data.title}}" href="{{ item.url | url }}">
                         {{ item.data.title }}
                     </a>
                 </li>
@@ -21,7 +25,7 @@
     <li class="relative list-none font-sans">
         <a
             href="{{ url }}"
-            class="inline-flex text-whitish hover:text-jet-200 hover:bg-success-800"
+            class="px-3 py-2 inline-flex items-center  text-whitish hover:text-jet-200 hover:bg-success-800"
         >
             {{ label }}
         </a>
