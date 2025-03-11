@@ -81,26 +81,15 @@ module.exports = function (eleventyConfig) {
     "_includes/js/copyCode.js": "js/copyCode.js"
   });
 
-  // Add collections
-  eleventyConfig.addCollection("skills", function (collectionApi) {
-    return collectionApi
-      .getAll()
-      .filter((item) => item.data.tags && item.data.tags.includes("skills"));
-  });
-  eleventyConfig.addCollection("podcasts", function (collectionApi) {
-    return collectionApi
-      .getAll()
-      .filter((item) => item.data.tags && item.data.tags.includes("podcasts"));
-  });
-  eleventyConfig.addCollection("ssg", function (collectionApi) {
-    return collectionApi
-      .getAll()
-      .filter((item) => item.data.tags && item.data.tags.includes("ssg"));
-  });
-  eleventyConfig.addCollection("examples", function (collectionApi) {
-    return collectionApi
-      .getAll()
-      .filter((item) => item.data.tags && item.data.tags.includes("examples"));
+  // Add collections more efficiently
+  const collections = ["skills", "podcasts", "ssg", "examples"];
+
+  collections.forEach(collection => {
+    eleventyConfig.addCollection(collection, collectionApi =>
+      collectionApi
+        .getAll()
+        .filter(item => item.data.tags && item.data.tags.includes(collection))
+    );
   });
 
   // Return directory configuration LAST
