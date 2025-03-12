@@ -1,0 +1,9 @@
+{% for presentation in presentations.presentations %}
+  <div class="presentation">
+    <a href="{{ presentation.link }}" class="text-medium-blue hover:text-jet-200">
+      {{ presentation.title }}
+    </a>
+    <span class="text-sm text-jet-600">({{ presentation.year }})</span>
+    <p class="text-sm">{{ presentation.venue }} - {{ presentation.type }}</p>
+  </div>
+{% endfor %}
