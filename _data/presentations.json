@@ -4,12 +4,12 @@
       "year": "2020",
       "link": "https://www.slideshare.net/slideshow/timeless-techcomm-tips-stc-new-england-interchange-keynote-2020/232601548",
       "category": "technical-writing",
-      "venue": "STC New England Interchange keynote",
+      "venue": "STC New England Interchange conference keynote",
       "type": "presentation"
     },
     {
       "title": "Creating Beautiful Online Content with Web Fonts",
-      "year": "",
+      "year": "2017",
       "link": "https://www.stc.org/intercom/2017/11/creating-beautiful-online-content-with-web-fonts/",
       "category": ["design", "marketing", "content-strategy"],
       "venue": "STC Intercom magazine",
@@ -43,7 +43,7 @@
       "title": "Drive your docs with data",
       "year": "2018",
       "link": "https://www.slideshare.net/slideshow/data-driven-content-march-2018-stc-idl-sig/90840245",
-      "category": ["technical-writing", "metrics"],
+      "category": ["technical-writing", "metrics", "content-strategy"],
       "venue": "STC Instructional Design and Learning special interest group",
       "type": "webinar"
     },
@@ -64,7 +64,7 @@
       "type": "article"
     },
     {
-      "title": "S, you want to be a technical writer?",
+      "title": "So, you want to be a technical writer?",
       "year": "2024",
       "link": "https://www.brighttalk.com/webcast/9273/608187",
       "category": ["technical-writing", "metrics", "content-strategy", "marketing"],
