@@ -110,5 +110,13 @@
       "category": ["content-strategy","technical-writing", "podcasting"],
       "venue": "Scriptorium Content Strategy Exports podcast",
       "type": "podcast"
-    }
+    },
+    {
+        "title": "Content podcasting",
+        "year": "2018",
+        "link": "https://creators.spotify.com/pod/show/contentjourneys/episodes/Content-Journeys---014---Content-Podcasting-e160pu0",
+        "category": ["content-strategy","technical-writing", "podcasting"],
+        "venue": "Content Journeys podcast",
+        "type": "podcast"
+      }
   ]
