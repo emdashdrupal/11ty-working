@@ -13,5 +13,6 @@ FontAwesomeIcon : "solid fa-podcast"
 
 ## Related presentations
 
-- [Should you care about podcasting?](https://www.slideshare.net/slideshow/should-you-care-about-podcasting-stc-rocky-mountain-chapter-2020/231579247)
-- Blogs, Vlogs, and Podcasts panel discussion, STC Rochester Spectrum conference, 2023
+- [Should you care about podcasting?](https://www.slideshare.net/slideshow/should-you-care-about-podcasting-stc-rocky-mountain-chapter-2020/231579247).
+- [Podcasting for fun and/or profit](https://www.stc.org/intercom/2022/03/podcasting-for-fun-and-or-profit/), 2022.
+- Blogs, Vlogs, and Podcasts panel discussion, STC Rochester Spectrum conference, 2023.
