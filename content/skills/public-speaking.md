@@ -5,6 +5,7 @@ FontAwesomeIcon : "brands fa-teamspeak"
 eleventyNavigation:
     key: Public speaking
     parent: Skills
+categories: ["public-speaking", "marketing"]
 ---
 
 ## Presentations

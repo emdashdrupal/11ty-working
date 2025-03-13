@@ -7,7 +7,7 @@ featuredOrder: 4
 eleventyNavigation:
     key: Project management
     parent: Skills
-
+categories: project-management
 ---
 
 Yeh.

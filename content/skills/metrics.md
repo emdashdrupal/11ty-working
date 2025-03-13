@@ -2,6 +2,7 @@
 title : "Metrics and data"
 description: Find out how your content is performing so you can report and improve.
 FontAwesomeIcon: "solid fa-magnifying-glass-chart"
+categories: metrics
 ---
 
 Every organization wants to know how its content is performing. Content strategists and technical writers also want to know those metrics so they can plan and ensure the content they create is relevant and highly used topics are addressed.

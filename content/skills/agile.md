@@ -5,7 +5,7 @@ FontAwesomeIcon: "brands fa-github"
 eleventyNavigation:
     key: Agile
     parent: Skills
-
+categories: ["agile", "docs-as-code"]
 ---
 
 - Defined user story guidelines that were adopted division-wide within three months of onboarding.
