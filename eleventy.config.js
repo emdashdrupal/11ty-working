@@ -43,6 +43,25 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  // Add filter for tools categories
+  eleventyConfig.addFilter("filterToolsByCategory", function(tools, category) {
+    if (!category || !tools) return [];
+
+    return tools.filter(tool => {
+      if (!tool.category) return false;
+      const categories = Array.isArray(tool.category)
+        ? tool.category
+        : [tool.category];
+      return categories.includes(category);
+    });
+  });
+
+  // Add filter for filtering categories
+  eleventyConfig.addFilter("reject", function(array, value) {
+    if (!array) return [];
+    return array.filter(item => item !== value);
+  });
+
   // Add plugins
   eleventyConfig.addPlugin(syntaxHighlight, {
 
