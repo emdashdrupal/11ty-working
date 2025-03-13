@@ -1,0 +1,82 @@
+[
+    {
+      "title": "Photoshop",
+      "publisher": "Adobe",
+      "category": ["technical-writing", "image-editing"]
+    },
+    {
+        "title": "FrameMaker",
+        "publisher": "Adobe",
+        "category": ["technical-writing", "page-layout", "structured-authoring"]
+      },
+      {
+        "title": "RoboHelp",
+        "publisher": "Adobe",
+        "category": ["technical-writing", "help-authoring-tool"]
+      },
+      {
+        "title": "Audition",
+        "publisher": "Adobe",
+        "category": ["podcasting", "audio-editing", "audio-production"]
+      },
+      {
+        "title": "InDesign",
+        "publisher": "Adobe",
+        "category": ["technical-writing", "page-layout"]
+      },
+      {
+        "title": "Jira",
+        "publisher": "Atlassian",
+        "category": ["docs-as-code", "product-management"]
+      },
+      {
+        "title": "Confluence",
+        "publisher": "Atlassian",
+        "category": ["technical-writing", "knowledge-management"]
+      },
+      {
+        "title": "Kibana",
+        "publisher": "Elasticsearch",
+        "category": "metrics"
+      },
+      {
+        "title": "Flare",
+        "publisher": "MadCap",
+        "category": ["technical-writing", "help-authoring-tool"]
+      },
+      {
+        "title": "XML Editor",
+        "publisher": "oXygen",
+        "category": ["technical-writing", "structured-authoring", "help-authoring-tool"]
+      },
+      {
+        "title": "VS Code",
+        "publisher": "Microsoft",
+        "category": ["technical-writing", "docs-as-code", "coding-experience"]
+      },
+      {
+        "title": "WordPress",
+        "publisher": "Automattic",
+        "category": ["content-management", "coding-experience"]
+      },
+            {
+        "title": "WordPress",
+        "publisher": "Automattic",
+        "category": ["content-management", "coding-experience"]
+      }
+      {
+        "title": "Drupal",
+        "publisher": "Drupal",
+        "category": ["content-management", "coding-experience"]
+      },
+      {
+        "title": "SQL Server",
+        "publisher": "Microsoft/IBM",
+        "category": ["metrics", "coding-experience"]
+      },
+      {
+        "title": "Git/GitHub/GitLab",
+        "publisher": "Microsoft",
+        "category": ["docs-as-code", "coding-experience"]
+      }
+  ]
