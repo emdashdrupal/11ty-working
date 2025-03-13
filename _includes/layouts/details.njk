@@ -11,7 +11,9 @@
 {% if content %}
     {{ content | markdown | safe }}
 {% endif %}
+</article>
 {% if collectionName == "skills" %}
+
     {% include 'layouts/partials/goocal-button.html' %}
 {% endif %}
 {% if collectionName == "podcasts" %}
@@ -25,5 +27,4 @@
         <source src="/assets/podcasts/{{mp3File}}" type="audio/mp3">
     </audio>
 {% endif %}
-</article>
 {% include 'layouts/partials/footer.njk' %}

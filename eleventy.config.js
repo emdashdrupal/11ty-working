@@ -31,6 +31,15 @@ module.exports = function (eleventyConfig) {
     return md.render(stringContent);
   });
 
+  eleventyConfig.addFilter("filterByCategory", function(presentations, category) {
+    return presentations.filter(presentation => {
+      const categories = Array.isArray(presentation.category)
+        ? presentation.category
+        : [presentation.category];
+      return categories.includes(category);
+    });
+  });
+
   // Add plugins
   eleventyConfig.addPlugin(syntaxHighlight, {
 
@@ -99,7 +108,8 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: "content",
       includes: "../_includes",
-      output: "_site"
+      output: "_site",
+      "data" : "_data"
     },
     markdownTemplateEngine: "njk",
     htmlTemplateEngine:["njk", "html"],

@@ -166,7 +166,7 @@ ul li {
     font-optical-sizing: auto;
     line-height: 1.5rem;
     list-style-type: square;
-    margin-left: 1%;
+    color: black;
 }
 
 /* Background Colors - Alphabetical */
@@ -410,12 +410,7 @@ ul li {
 }
 
 .card-description a {
-    color: var(--grey-green);
-}
-
-.card-description a:hover {
-    background-color: var(--grey-green);
-    color: var(--whitish);
+  color: var(--medium-blue);
 }
 
 /* Code Block Copy Button */
