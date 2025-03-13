@@ -13,6 +13,3 @@ Data analysis and metrics are important to yeh.
 - Analyzed metrics to create custom quarterly reports for senior management
 - Wrote SQL queries to analyze actual performance of legacy help system.
 
-## Related presentations
-
-[Drive your docs with data](https://www.slideshare.net/slideshow/data-driven-content-march-2018-stc-idl-sig/90840245)

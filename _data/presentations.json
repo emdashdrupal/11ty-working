@@ -3,7 +3,7 @@
       "title": "Timeless TechComm Tips",
       "year": "2020",
       "link": "https://www.slideshare.net/slideshow/timeless-techcomm-tips-stc-new-england-interchange-keynote-2020/232601548",
-      "category": "technical-writing",
+      "category": ["technical-writing", "public-speaking"],
       "venue": "STC New England Interchange conference keynote",
       "type": "presentation"
     },
@@ -19,7 +19,7 @@
       "title": "Blogs, Vlogs, and Podcasts",
       "year": "2023",
       "link": "",
-      "category": "podcasting",
+      "category": ["podcasting", "public-speaking"],
       "venue": "STC Rochester Spectrum conference",
       "type": "panel discussion"
     },
@@ -27,7 +27,7 @@
       "title": "Adding value as a technical communicator",
       "year": "2020",
       "link": "https://www.slideshare.net/theedmarsh/2020-adding-value-as-a-technical-communicator-stc-idl-sig",
-      "category": "technical-writing",
+      "category": ["technical-writing" , "public-speaking"],
       "venue": "STC Instructional Design and Learning special interest group",
       "type": "webinar"
     },
@@ -35,23 +35,23 @@
       "title": "Should you care about podcasting?",
       "year": "2020",
       "link": "https://www.slideshare.net/slideshow/should-you-care-about-podcasting-stc-rocky-mountain-chapter-2020/231579247",
-      "category": "podcasting",
+      "category": ["podcasting", "public-speaking"],
       "venue": "STC Rocky Mountain chapter",
       "type": "webinar"
     },
     {
       "title": "Drive your docs with data",
       "year": "2018",
-      "link": "https://www.slideshare.net/slideshow/data-driven-content-march-2018-stc-idl-sig/90840245",
-      "category": ["technical-writing", "metrics", "content-strategy"],
+      "link": "https://www.youtube.com/watch?v=VwsrzbV47tk",
+      "category": ["technical-writing", "metrics", "content-strategy", "public-speaking"],
       "venue": "STC Instructional Design and Learning special interest group",
-      "type": "webinar"
+      "type": "webinar (video)"
     },
     {
       "title": "Pros and Cons of using Markdown for tech docs",
       "year": "2024",
       "link": "(https://www.brighttalk.com/webcast/9273/608016",
-      "category": ["technical-writing", "markdown", "docs-as-code"],
+      "category": ["technical-writing", "markdown", "docs-as-code", "public-speaking"],
       "venue": "Content Wrangler webcast",
       "type": "panel discussion"
     },
@@ -67,7 +67,7 @@
       "title": "So, you want to be a technical writer?",
       "year": "2024",
       "link": "https://www.brighttalk.com/webcast/9273/608187",
-      "category": ["technical-writing", "metrics", "marketing"],
+      "category": ["technical-writing", "metrics", "marketing", "docs-as-code", "public-speaking"],
       "venue": "Content Wrangler webcast",
       "type": "webinar"
     },
@@ -83,15 +83,15 @@
       "title": "The evolution of podcasting",
       "year": "2024",
       "link": "https://idratherbewriting.com/blog/evolution-of-podcasting-podcast-ed-marsh",
-      "category": ["technical-writing", "podcasting"],
-      "venue": "I'd rather be writing podcast",
-      "type": "podcast"
+      "category": "podcasting",
+      "venue": "I'd rather be writing",
+      "type": "podcast guest"
     },
     {
       "title": "Creating a Drupal sandbox using VirtualBox and Drupal Quickstart",
       "year": "2010",
       "link": "https://www.slideshare.net/slideshow/creating-a-drupal-sandbox-using-virtualbox-and-drupal-quickstart/28217861",
-      "category": ["content-strategy","technical-writing"],
+      "category": ["content-strategy", "coding-experience", "public-speaking"],
       "venue": "Drupal NJ user group",
       "type": "presentation"
     },
@@ -99,7 +99,7 @@
       "title": "Social media for technical communicators",
       "year": "2016",
       "link": "https://www.slideshare.net/theedmarsh/social-media-fortechcommconduit2016",
-      "category": ["technical-writing", "social-media"],
+      "category": ["technical-writing", "social-media", "public-speaking"],
       "venue": "STC Philadelphia Metro chapter Conduit conference",
       "type": "presentation"
     },
@@ -109,7 +109,7 @@
       "link": "https://www.scriptorium.com/2018/02/full-transcript-podcasting-strategy-podcast-guest-ed-marsh/",
       "category": ["content-strategy", "podcasting"],
       "venue": "Scriptorium Content Strategy Exports podcast",
-      "type": "podcast"
+      "type": "podcast guest"
     },
     {
         "title": "Content podcasting",
@@ -117,6 +117,6 @@
         "link": "https://creators.spotify.com/pod/show/contentjourneys/episodes/Content-Journeys---014---Content-Podcasting-e160pu0",
         "category": ["podcasting"],
         "venue": "Content Journeys podcast",
-        "type": "podcast"
+        "type": "podcast guest"
       }
   ]
