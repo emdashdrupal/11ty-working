@@ -34,3 +34,9 @@ Using metadata and collections enables reuse. Copy-pasted content across pages i
 ## Exploration
 
 There was a *lot* of experimenting and seeing what was what. Once I grasped *how* to use the metadata programmatically, it opened my eyes how much structured front matter makes a difference in how content is used, sorted, filtered, and displayed.
+
+Then I added two json files of related webinars, podcasts, and other talks i've done, as well as the tools used for each of the skills. it was fun, adn refresheing, and again, holy cow structured content.
+
+Being on this side of the equation makes it clear how much structuring your content helps your developers.
+
+It also helped me narrow my focus on skills, as well as tell a story across all of my content.
