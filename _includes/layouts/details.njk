@@ -27,5 +27,13 @@
         <source src="/assets/podcasts/{{mp3File}}" type="audio/mp3">
     </audio>
 {% endif %}
-{% include 'layouts/partials/presos.njk' %}
+
+{% set pageCategory = categories %}
+{% set filteredPresentations = presentations | filterByCategory(pageCategory) %}
+
+{% if filteredPresentations.length > 0 %}
+<h2>Related Presentations</h2>
+{% include "layouts/partials/presos.njk" %}
+{% endif %}
+
 {% include 'layouts/partials/footer.njk' %}

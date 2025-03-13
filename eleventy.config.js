@@ -31,7 +31,10 @@ module.exports = function (eleventyConfig) {
     return md.render(stringContent);
   });
 
+  // Improve the filterByCategory filter
   eleventyConfig.addFilter("filterByCategory", function(presentations, category) {
+    if (!category || !presentations) return [];
+
     return presentations.filter(presentation => {
       const categories = Array.isArray(presentation.category)
         ? presentation.category
@@ -67,6 +70,11 @@ module.exports = function (eleventyConfig) {
         }
     }
 });
+
+  // Make presentations data available globally
+  eleventyConfig.addGlobalData("presentations", () => {
+    return require("./_data/presentations.json");
+  });
 
   // Add shortcodes
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);

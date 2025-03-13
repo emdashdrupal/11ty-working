@@ -4,6 +4,7 @@ description: Technical writers are a Venn diagram of detective, translator, and 
 FontAwesomeIcon : "solid fa-paragraph"
 featured: true
 featuredOrder: 1
+categories: "technical-writing"
 ---
 ![Venn diagram](/assets/images/tech-writer-venn.png)
 
@@ -32,10 +33,3 @@ featuredOrder: 1
 - VS Code
 - WordPress
 - Drupal
-
-## Related presentations
-
-- [Timeless techcomm tips](https://www.slideshare.net/slideshow/timeless-techcomm-tips-stc-new-england-interchange-keynote-2020/232601548), 2020.
-- [Adding value as a technical communicator](https://www.slideshare.net/theedmarsh/2020-adding-value-as-a-technical-communicator-stc-idl-sig), 2020.
-- [Pros and Cons of using Markdown for tech docs panel discussion](https://www.brighttalk.com/webcast/9273/608016), March, 2024.
-- [So you want to be a technical writer](https://www.brighttalk.com/webcast/9273/608187), June, 2024.
