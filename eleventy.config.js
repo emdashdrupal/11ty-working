@@ -71,9 +71,11 @@ module.exports = function (eleventyConfig) {
     }
 });
 
-  // Make presentations data available globally
   eleventyConfig.addGlobalData("presentations", () => {
     return require("./_data/presentations.json");
+  });
+  eleventyConfig.addGlobalData("tools", () => {
+    return require("./_data/tools.json");
   });
 
   // Add shortcodes
