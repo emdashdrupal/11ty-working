@@ -10,11 +10,6 @@
 {% if content %}
     {{ content | markdown | safe }}
 {% endif %}
-</article>
-{% if collectionName == "skills" %}
-
-{% include 'layouts/partials/goocal-button.html' %}
-{% endif %}
 {% if collectionName == "podcasts" %}
 {% from "layouts/partials/macros.njk" import renderButton %}
 {{ renderButton(
@@ -42,5 +37,10 @@
     {% include "layouts/partials/tools.njk" %}
   </div>
 </div>
+</article>
+{% if collectionName == "skills" %}
+
+{% include 'layouts/partials/goocal-button.html' %}
+{% endif %}
 
 {% include 'layouts/partials/footer.njk' %}
