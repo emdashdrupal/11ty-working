@@ -5,9 +5,9 @@
 <h2>Related tool experience</h2>
 <ul class="tools-list">
   {% for tool in filteredTools %}
-    <li class="mb-4">
+    <li>
 
-      {{ tool.title }} <span class="text-jet-600"> by {{ tool.publisher }}</span>
+      {{ tool.title }} <span class="text-jet-600 text-sm"> by {{ tool.publisher }}</span>
     </li>
   {% endfor %}
 </ul>

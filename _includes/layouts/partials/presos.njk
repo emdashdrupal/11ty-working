@@ -1,5 +1,5 @@
 {% for presentation in filteredPresentations | sort(false, false, 'year') | reverse %}
-  <ul class="presentation mb-4">
+  <ul class="presentation">
     <li>
     {% if presentation.link %}
       <a href="{{ presentation.link }}">
@@ -8,8 +8,8 @@
     {% else %}
       <i class="text-lg">{{ presentation.title }}</i> {{ presentation.type }}
     {% endif %}
-    <span class="text-sm text-jet-600">({{ presentation.year }})</span>
-    <p class="text-sm">{{ presentation.venue }} </p>
+
+    <p class="text-sm">{{ presentation.venue }}, <span class="text-sm text-jet-600">{{ presentation.year }}</span></p>
     </li>
   </ul>
 {% endfor %}
