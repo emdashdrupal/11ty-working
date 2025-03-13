@@ -6,10 +6,8 @@
 <ul class="tools-list">
   {% for tool in filteredTools %}
     <li class="mb-4">
-      {% if tool.publisher %}
-        <span class="text-medium-blue">{{ tool.publisher }}</span>
-      {% endif %}
-      <span class="text-jet-600">{{ tool.title }}</span>
+
+      {{ tool.title }} <span class="text-jet-600"> by {{ tool.publisher }}</span>
     </li>
   {% endfor %}
 </ul>

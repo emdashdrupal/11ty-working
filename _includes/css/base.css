@@ -53,6 +53,7 @@
 /* Base Elements - Alphabetical */
 a {
     text-decoration: none;
+    color: var(--medium-blue);)
 }
 
 a:hover,

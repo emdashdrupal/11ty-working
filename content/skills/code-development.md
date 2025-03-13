@@ -2,6 +2,7 @@
 title : Coding experience
 description : Wherein I've dabbled in code for my career.
 FontAwesomeIcon : solid fa-terminal
+categories: "coding-experience"
 ---
 
 - Created my first web site in the 1990s.

@@ -44,7 +44,8 @@
     {
         "category": [
             "docs-as-code",
-            "product-management"
+            "product-management",
+            "agile"
         ],
         "publisher": "Atlassian",
         "title": "Jira"
@@ -102,22 +103,23 @@
             "coding-experience"
         ],
         "publisher": "Drupal",
-        "title": "Drupal"
+        "title": "Drupal CMS"
     },
     {
         "category": [
             "metrics",
             "coding-experience"
         ],
-        "publisher": "Microsoft/IBM",
+        "publisher": "Microsoft",
         "title": "SQL Server"
     },
     {
         "category": [
             "docs-as-code",
-            "coding-experience"
+            "coding-experience",
+            "community-building"
         ],
-        "publisher": "Microsoft",
-        "title": "Git/GitHub/GitLab"
+        "publisher": "GitHub/Microsoft",
+        "title": "GitHub/GitLab"
     }
 ]
