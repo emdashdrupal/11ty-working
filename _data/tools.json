@@ -1,82 +1,123 @@
 [
     {
-      "title": "Photoshop",
-      "publisher": "Adobe",
-      "category": ["technical-writing", "image-editing"]
+        "category": [
+            "technical-writing",
+            "image-editing"
+        ],
+        "publisher": "Adobe",
+        "title": "Photoshop"
     },
     {
-        "title": "FrameMaker",
+        "category": [
+            "technical-writing",
+            "page-layout",
+            "structured-authoring"
+        ],
         "publisher": "Adobe",
-        "category": ["technical-writing", "page-layout", "structured-authoring"]
-      },
-      {
-        "title": "RoboHelp",
+        "title": "FrameMaker"
+    },
+    {
+        "category": [
+            "technical-writing",
+            "help-authoring-tool"
+        ],
         "publisher": "Adobe",
-        "category": ["technical-writing", "help-authoring-tool"]
-      },
-      {
-        "title": "Audition",
+        "title": "RoboHelp"
+    },
+    {
+        "category": [
+            "podcasting",
+            "audio-editing",
+            "audio-production"
+        ],
         "publisher": "Adobe",
-        "category": ["podcasting", "audio-editing", "audio-production"]
-      },
-      {
-        "title": "InDesign",
+        "title": "Audition"
+    },
+    {
+        "category": [
+            "technical-writing",
+            "page-layout"
+        ],
         "publisher": "Adobe",
-        "category": ["technical-writing", "page-layout"]
-      },
-      {
-        "title": "Jira",
+        "title": "InDesign"
+    },
+    {
+        "category": [
+            "docs-as-code",
+            "product-management"
+        ],
         "publisher": "Atlassian",
-        "category": ["docs-as-code", "product-management"]
-      },
-      {
-        "title": "Confluence",
+        "title": "Jira"
+    },
+    {
+        "category": [
+            "technical-writing",
+            "knowledge-management"
+        ],
         "publisher": "Atlassian",
-        "category": ["technical-writing", "knowledge-management"]
-      },
-      {
-        "title": "Kibana",
+        "title": "Confluence"
+    },
+    {
+        "category": "metrics",
         "publisher": "Elasticsearch",
-        "category": "metrics"
-      },
-      {
-        "title": "Flare",
+        "title": "Kibana"
+    },
+    {
+        "category": [
+            "technical-writing",
+            "help-authoring-tool"
+        ],
         "publisher": "MadCap",
-        "category": ["technical-writing", "help-authoring-tool"]
-      },
-      {
-        "title": "XML Editor",
+        "title": "Flare"
+    },
+    {
+        "category": [
+            "technical-writing",
+            "structured-authoring",
+            "help-authoring-tool"
+        ],
         "publisher": "oXygen",
-        "category": ["technical-writing", "structured-authoring", "help-authoring-tool"]
-      },
-      {
-        "title": "VS Code",
+        "title": "XML Editor"
+    },
+    {
+        "category": [
+            "technical-writing",
+            "docs-as-code",
+            "coding-experience"
+        ],
         "publisher": "Microsoft",
-        "category": ["technical-writing", "docs-as-code", "coding-experience"]
-      },
-      {
-        "title": "WordPress",
+        "title": "VS Code"
+    },
+    {
+        "category": [
+            "content-management",
+            "coding-experience"
+        ],
         "publisher": "Automattic",
-        "category": ["content-management", "coding-experience"]
-      },
-            {
-        "title": "WordPress",
-        "publisher": "Automattic",
-        "category": ["content-management", "coding-experience"]
-      }
-      {
-        "title": "Drupal",
+        "title": "WordPress"
+    },
+    {
+        "category": [
+            "content-management",
+            "coding-experience"
+        ],
         "publisher": "Drupal",
-        "category": ["content-management", "coding-experience"]
-      },
-      {
-        "title": "SQL Server",
+        "title": "Drupal"
+    },
+    {
+        "category": [
+            "metrics",
+            "coding-experience"
+        ],
         "publisher": "Microsoft/IBM",
-        "category": ["metrics", "coding-experience"]
-      },
-      {
-        "title": "Git/GitHub/GitLab",
+        "title": "SQL Server"
+    },
+    {
+        "category": [
+            "docs-as-code",
+            "coding-experience"
+        ],
         "publisher": "Microsoft",
-        "category": ["docs-as-code", "coding-experience"]
-      }
-  ]
+        "title": "Git/GitHub/GitLab"
+    }
+]
