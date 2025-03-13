@@ -1,8 +1,8 @@
-{% set pageCategory = category %}
+{% set pageCategory = categories %}
 {% set filteredTools = tools | filterToolsByCategory(pageCategory) %}
 
 {% if filteredTools.length > 0 %}
-<h2>Tools and Technologies</h2>
+<h2>Related tool experience</h2>
 <ul class="tools-list">
   {% for tool in filteredTools %}
     <li class="mb-4">
@@ -10,13 +10,6 @@
         <span class="text-medium-blue">{{ tool.publisher }}</span>
       {% endif %}
       <span class="text-jet-600">{{ tool.title }}</span>
-      {% if tool.category.length > 1 %}
-        <span class="text-sm text-jet-400">
-          (Also used for:
-          {% set otherCategories = tool.category | reject(pageCategory) %}
-          {{ otherCategories | join(', ') }})
-        </span>
-      {% endif %}
     </li>
   {% endfor %}
 </ul>
