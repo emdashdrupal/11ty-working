@@ -1,4 +1,4 @@
-{% for presentation in filteredPresentations %}
+{% for presentation in filteredPresentations | sort(false, false, 'year') | reverse %}
   <div class="presentation mb-4">
     {% if presentation.link %}
       <a href="{{ presentation.link }}" class="text-medium-blue hover:text-jet-200">
