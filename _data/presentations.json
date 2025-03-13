@@ -27,7 +27,7 @@
       "title": "Adding value as a technical communicator",
       "year": "2020",
       "link": "https://www.slideshare.net/theedmarsh/2020-adding-value-as-a-technical-communicator-stc-idl-sig",
-      "category": ["technical-writing" , "public-speaking"],
+      "category": ["technical-writing" , "public-speaking", "metrics"],
       "venue": "STC Instructional Design and Learning special interest group",
       "type": "webinar"
     },
@@ -76,8 +76,8 @@
       "year": "2016-2019",
       "link": "https://lavacon.org/category/podcast/",
       "category": ["content-strategy", "podcasting"],
-      "venue": "STC Instructional Design and Learning special interest group",
-      "type": "podcast"
+      "venue": "Lavacon bi-annual content strategy conference",
+      "type": "podcast host and producer"
     },
     {
       "title": "The evolution of podcasting",

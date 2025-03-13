@@ -35,6 +35,15 @@
     },
     {
         "category": [
+            "podcasting",
+            "audio-editing",
+            "audio-production"
+        ],
+        "publisher": "Open-source",
+        "title": "Audacity"
+    },
+    {
+        "category": [
             "technical-writing",
             "page-layout"
         ],
