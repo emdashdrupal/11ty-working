@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {% for presentation in filteredPresentations | sort(false, false, 'year') | reverse %}
     <ul class="presentation">
         <li>
@@ -16,14 +15,4 @@
             <p class="text-sm mt-0">{{ presentation.venue }}, <span class="text-sm text-jet-600">{{ presentation.year }}</span></p>
         </li>
     </ul>
-=======
-{% for presentation in presentations.presentations %}
-  <div class="presentation">
-    <a href="{{ presentation.link }}" class="text-medium-blue hover:text-jet-200">
-      {{ presentation.title }}
-    </a>
-    <span class="text-sm text-jet-600">({{ presentation.year }})</span>
-    <p class="text-sm">{{ presentation.venue }} - {{ presentation.type }}</p>
-  </div>
->>>>>>> 7f284ef (Content march 9 (#39))
 {% endfor %}
