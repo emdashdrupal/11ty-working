@@ -67,7 +67,7 @@
       "title": "So, you want to be a technical writer?",
       "year": "2024",
       "link": "https://www.brighttalk.com/webcast/9273/608187",
-      "category": ["technical-writing", "metrics", "content-strategy", "marketing"],
+      "category": ["technical-writing", "metrics", "marketing"],
       "venue": "Content Wrangler webcast",
       "type": "webinar"
     },
@@ -99,7 +99,7 @@
       "title": "Social media for technical communicators",
       "year": "2016",
       "link": "https://www.slideshare.net/theedmarsh/social-media-fortechcommconduit2016",
-      "category": ["content-strategy","technical-writing", "podcasting"],
+      "category": ["technical-writing", "social-media"],
       "venue": "STC Philadelphia Metro chapter Conduit conference",
       "type": "presentation"
     },
@@ -107,7 +107,7 @@
       "title": "Podcasting strategy",
       "year": "2018",
       "link": "https://www.scriptorium.com/2018/02/full-transcript-podcasting-strategy-podcast-guest-ed-marsh/",
-      "category": ["content-strategy","technical-writing", "podcasting"],
+      "category": ["content-strategy", "podcasting"],
       "venue": "Scriptorium Content Strategy Exports podcast",
       "type": "podcast"
     },
@@ -115,7 +115,7 @@
         "title": "Content podcasting",
         "year": "2018",
         "link": "https://creators.spotify.com/pod/show/contentjourneys/episodes/Content-Journeys---014---Content-Podcasting-e160pu0",
-        "category": ["content-strategy","technical-writing", "podcasting"],
+        "category": ["podcasting"],
         "venue": "Content Journeys podcast",
         "type": "podcast"
       }
