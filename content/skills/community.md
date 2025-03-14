@@ -4,6 +4,7 @@ description: I'll seek out and nurture community to help retain knowledge in you
 FontAwesomeIcon: 'solid fa-people-group'
 featured: true
 featuredOrder: 3
+categories: community-building
 ---
 
 In my experience, there are people in every organization that are interested and invested in good documentation. When you find them, you make them your advocates, your sounding board, and your champions.

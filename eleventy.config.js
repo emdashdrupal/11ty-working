@@ -31,13 +31,35 @@ module.exports = function (eleventyConfig) {
     return md.render(stringContent);
   });
 
+  // Improve the filterByCategory filter
   eleventyConfig.addFilter("filterByCategory", function(presentations, category) {
+    if (!category || !presentations) return [];
+
     return presentations.filter(presentation => {
       const categories = Array.isArray(presentation.category)
         ? presentation.category
         : [presentation.category];
       return categories.includes(category);
     });
+  });
+
+  // Add filter for tools categories
+  eleventyConfig.addFilter("filterToolsByCategory", function(tools, category) {
+    if (!category || !tools) return [];
+
+    return tools.filter(tool => {
+      if (!tool.category) return false;
+      const categories = Array.isArray(tool.category)
+        ? tool.category
+        : [tool.category];
+      return categories.includes(category);
+    });
+  });
+
+  // Add filter for filtering categories
+  eleventyConfig.addFilter("reject", function(array, value) {
+    if (!array) return [];
+    return array.filter(item => item !== value);
   });
 
   // Add plugins
@@ -68,6 +90,13 @@ module.exports = function (eleventyConfig) {
     }
 });
 
+  eleventyConfig.addGlobalData("presentations", () => {
+    return require("./_data/presentations.json");
+  });
+  eleventyConfig.addGlobalData("tools", () => {
+    return require("./_data/tools.json");
+  });
+
   // Add shortcodes
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
@@ -81,26 +110,15 @@ module.exports = function (eleventyConfig) {
     "_includes/js/copyCode.js": "js/copyCode.js"
   });
 
-  // Add collections
-  eleventyConfig.addCollection("skills", function (collectionApi) {
-    return collectionApi
-      .getAll()
-      .filter((item) => item.data.tags && item.data.tags.includes("skills"));
-  });
-  eleventyConfig.addCollection("podcasts", function (collectionApi) {
-    return collectionApi
-      .getAll()
-      .filter((item) => item.data.tags && item.data.tags.includes("podcasts"));
-  });
-  eleventyConfig.addCollection("ssg", function (collectionApi) {
-    return collectionApi
-      .getAll()
-      .filter((item) => item.data.tags && item.data.tags.includes("ssg"));
-  });
-  eleventyConfig.addCollection("examples", function (collectionApi) {
-    return collectionApi
-      .getAll()
-      .filter((item) => item.data.tags && item.data.tags.includes("examples"));
+  // Add collections more efficiently
+  const collections = ["skills", "podcasts", "ssg", "examples"];
+
+  collections.forEach(collection => {
+    eleventyConfig.addCollection(collection, collectionApi =>
+      collectionApi
+        .getAll()
+        .filter(item => item.data.tags && item.data.tags.includes(collection))
+    );
   });
 
   // Return directory configuration LAST
@@ -109,10 +127,10 @@ module.exports = function (eleventyConfig) {
       input: "content",
       includes: "../_includes",
       output: "_site",
-      "data" : "_data"
+      data: "_data"
     },
     markdownTemplateEngine: "njk",
-    htmlTemplateEngine:["njk", "html"],
+    htmlTemplateEngine: "njk",
     templateFormats: ["md", "njk", "html"]
   };
 };

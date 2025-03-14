@@ -1,0 +1,14 @@
+{% set pageCategory = categories %}
+{% set filteredTools = tools | filterToolsByCategory(pageCategory) %}
+
+{% if filteredTools.length > 0 %}
+<h2>Tools/technologies used</h2>
+<ul class="tools-list">
+  {% for tool in filteredTools %}
+    <li>
+
+      {{ tool.title }} <span class="text-jet-600 text-sm"> by {{ tool.publisher }}</span>
+    </li>
+  {% endfor %}
+</ul>
+{% endif %}
