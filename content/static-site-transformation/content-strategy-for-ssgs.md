@@ -40,3 +40,11 @@ Then I added two json files of related webinars, podcasts, and other talks i've 
 Being on this side of the equation makes it clear how much structuring your content helps your developers.
 
 It also helped me narrow my focus on skills, as well as tell a story across all of my content.
+
+## Separating content from presentation
+
+- Using metadata reduces input errors.
+- you can restrict what's entered via pipelines and/or linters
+- make it easier for people to contribute, and have a consistent voice.
+- Portable, multi-channel
+- Reuse
