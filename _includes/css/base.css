@@ -525,14 +525,6 @@ ul li {
         color: var(--whitish);
     }
 
-    #navbar {
-        margin-top: 0;
-    }
-
-    #navbar-intro {
-        flex-direction: column;
-    }
-
     .dropdown-menu {
         position: static;
         width: 100%;
