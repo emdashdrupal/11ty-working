@@ -10,28 +10,29 @@
     {{ content | markdown | safe }}
 {% endif %}
 {% if collectionName == "podcasts" %}
-{% from "layouts/partials/macros.njk" import renderButton %}
-{{ renderButton(
+    {% from "layouts/partials/macros.njk" import renderButton %}
+    {{ renderButton(
     url="/assets/podcasts/" + mp3File,
     buttonText="Download",
     title=title + " podcast"
 ) }}
-<audio controls>
-    <source src="/assets/podcasts/{{mp3File}}" type="audio/mp3">
-</audio>
+    <audio controls>
+        <source src="/assets/podcasts/{{mp3File}}" type="audio/mp3">
+    </audio>
 {% endif %}
 
 {% set pageCategory = categories %}
 {% set filteredPresentations = presentations | filterByCategory(pageCategory) %}
 
 <div class="grid grid-cols-3 md:grid-cols-3 gap-8">
-        {% if filteredPresentations.length > 0 %}    <div class="md:col-span-2">
+    {% if filteredPresentations.length > 0 %}
+        <div class="md:col-span-2">
 
             <h2>Related examples</h2>
             {% include "layouts/partials/presos.njk" %}
 
-    </div>
-{% endif %}
+        </div>
+    {% endif %}
     <div class="md:col-span-1">
         {% include "layouts/partials/tools.njk" %}
     </div>
