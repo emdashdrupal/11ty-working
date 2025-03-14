@@ -6,7 +6,6 @@
         {% include 'layouts/partials/hero-image.njk' %}
     </figure>
 {% endif %}
-
 {% if content %}
     {{ content | markdown | safe }}
 {% endif %}
@@ -37,7 +36,6 @@
         {% include "layouts/partials/tools.njk" %}
     </div>
 </div>
-
 </article>
 
 {% if collectionName == "skills" %}
