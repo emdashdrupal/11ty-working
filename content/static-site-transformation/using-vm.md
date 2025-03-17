@@ -22,3 +22,7 @@ I've been toying with VMs [since at least 2014](/technical-writing-examples/2013
 Each VM and distro I tested were straightforward in terms of setup and had lots of handholding, as well as [pretty good documentation](https://linuxmint.com/documentation.php).
 
 All this said, there is a steep learning curve to working with Linux. No matter what anyone tells you about desktop Linux environments, you still need to install and configure things by command line. Like a VPN. Or NodeJS. Or running an SSG server.
+
+## And then one day &hellip;
+
+One day in mid-March I opened my VM to find I no longer had internet connectivity. My host computer had access, other VMs I was testing had connectivity, so *something* happened to just my working version. An hour or so searching and the answer was&hellip; well, I'm not 100% sure. Somehow the VM's connectivity was changed in the overall settings, which I dnn't recall doing. It's *possible* that it broke from a major Linux update. Regardless, it was time lost when in general, Windows just *works*. 
