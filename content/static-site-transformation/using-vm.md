@@ -25,4 +25,4 @@ All this said, there is a steep learning curve to working with Linux. No matter 
 
 ## And then one day &hellip;
 
-One day in mid-March I opened my VM to find I no longer had internet connectivity. My host computer had access, other VMs I was testing had connectivity, so *something* happened to just my working version. An hour or so searching and the answer was&hellip; well, I'm not 100% sure. Somehow the VM's connectivity was changed in the overall settings, which I dnn't recall doing. It's *possible* that it broke from a major Linux update. Regardless, it was time lost when in general, Windows just *works*. 
+One day in mid-March I opened my VM to find I no longer had internet connectivity. My host computer had access, other VMs I was testing had connectivity, so *something* happened to just my working version. An hour or so searching and the answer was&hellip; well, I'm not 100% sure. Somehow the VM's connectivity was changed in the overall settings, which I dnn't recall doing. It's *possible* that it broke from a major Linux update. Regardless, it was time lost trying to find the right magic commands.
