@@ -556,7 +556,8 @@ ul li {
 }
 
 .icon {
-    color: var(--success-500);
+    color: var(--success-600);
+    text-shadow: 1px 1px 1px var(--text-jet-700);
 }
 
 .hero>a:hover {
