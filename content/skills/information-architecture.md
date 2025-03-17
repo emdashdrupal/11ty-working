@@ -4,5 +4,5 @@ description: The way your content is presented and organized says a lot about ho
 FontAwesomeIcon: "solid fa-sitemap"
 categories: information-architecture
 featured: true
-featuredOrder: 1
+featuredOrder: 2
 ---

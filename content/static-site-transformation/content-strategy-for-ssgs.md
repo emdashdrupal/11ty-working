@@ -3,6 +3,7 @@ title : Content strategy and information architecture for static site generators
 description: Structuring content is always important. Working as a developer, I can appreciate even more why using metadata (front matter) is critical.
 FontAwesomeIcon: solid fa-folder-tree
 featured: true
+featuredOrder: 1
 ---
 
 ## Content types

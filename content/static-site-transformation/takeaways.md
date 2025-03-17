@@ -3,7 +3,7 @@ title : "Static site takeaways"
 description: "A frustrating process (and situation) is ultimately satisfying in multiple ways."
 FontAwesomeIcon: "solid fa-plane-departure"
 featured: true
-featuredOrder: 4
+featuredOrder: 3
 ---
 
 Working in just HTML and CSS was invigorating because I'd done it since the 1990s. There was something simple, pure, and frankly *nostalgic* about it.
@@ -20,4 +20,4 @@ The other nice thing about creating sites from HTML is that you can control how 
 
 ## Final thoughts
 
-Like any project, learning and implementing is a process. I often think I can skip steps in the process, especially when one of my end goals for this project is to promote myself while looking for a job. You can tell the early writing of these pages by the sheer amount of frustration in my (written) voice. When you're not a full-time developer, writing code and building a website is more fun than video games. It's also a lot easier to control everything when you're a one-man shop. I did not do testing. I 
+Like any project, learning and implementing is a process. I often think I can skip steps in the process, especially when one of my end goals for this project is to promote myself while looking for a job. You can tell the early writing of these pages by the sheer amount of frustration in my (written) voice. When you're not a full-time developer, writing code and building a website is more fun than video games. It's also a lot easier to control everything when you're a one-man shop. I did not do testing. I
