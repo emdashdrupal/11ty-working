@@ -1,8 +1,6 @@
 ---
 title: Asking AI to write documentation
 description: I decided to ask AI to do my job for code it's written.
-featuredOrder: 3
-featured: true
 FontAwesomeIcon: solid fa-keyboard
 ---
 

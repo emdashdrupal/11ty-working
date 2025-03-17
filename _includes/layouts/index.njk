@@ -20,8 +20,10 @@
 <p class="description px-3 prose text-jet-100">Here are the biggest ways I can help your organization. <a href="/skills/">See all the ways I can help</a>.</p>
 <div class="grid col-auto sm:grid-cols-4 gap-2 px-3">
     {% set collectionName = "skills" %}
-    {% for item in collections[collectionName] %}
-        {% if item.data.featured == true and item.data.featuredOrder > 0 | sort(collections[collectionName].data.featuredOrder) %}
+    {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
+    {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
+    {% for item in sortedFeatured %}
+        {% if loop.index0 < 4 %}
             {% include 'layouts/partials/card.njk' %}
         {% endif %}
     {% endfor %}
@@ -37,8 +39,10 @@
 
 <div class="grid col-auto sm:grid-cols-4 gap-2 px-2">
     {% set collectionName = "ssg" %}
-    {% for item in collections[collectionName] %}
-        {% if item.data.featured == true %}
+    {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
+    {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
+    {% for item in sortedFeatured %}
+        {% if loop.index0 < 4 %}
             {% include 'layouts/partials/card.njk' %}
         {% endif %}
     {% endfor %}
