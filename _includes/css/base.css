@@ -556,7 +556,7 @@ ul li {
 }
 
 .icon {
-    color: var(--medium-blue);
+    color: var(--success-500);
 }
 
 .hero>a:hover {
