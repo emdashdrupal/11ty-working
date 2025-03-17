@@ -5,11 +5,10 @@ layout: layouts/details.njk
 category: "about"
 ---
 
-Even though my job title has always been *technical writer*, I've made making complex information accessible for over three decades by incorporating information architecture, content strategy, and community.
+Even though my job title has always been *technical writer*, I've made complex information accessible for over three decades by incorporating information architecture, content strategy, and community.
 
 I endorse the Oxford (serial) comma.
 
-I was a high school marching band instructor for 14 years, including six as director. I co-founded a percussion ensemble, writing original scores.
 
 ## Career journey
 
@@ -71,7 +70,12 @@ I believe in giving back to the technical communication community:
 ## Educational impact
 
 - I've mentored dozens of people in and out of the technical communication field.
-- As the former director of the Secaucus High School Marching Band and co-founder of the Cacophony Percussion Ensemble, the band represented New Jersey in Washington DC's National July 4th Parade. In 2006, [School Band and Orchestra](http://www.sbomagazine.com/) magazine recognized me as one of "50 Directors Who Make a Difference".
+- I was a high school marching band instructor for 14 years, including six as director.
+  - As the former director of the Secaucus High School Marching Band and co-founder of the Cacophony Percussion Ensemble, the band represented New Jersey in Washington DC's National July 4th Parade.
+  - I co-founded a percussion ensemble called Cacophony, writing original scores.
+  - I created and maintained the band's website starting in 1996. The band performed in an Ikea video because they found our website.
+  - In 2006, [School Band and Orchestra](http://www.sbomagazine.com/) magazine recognized me as one of "50 Directors Who Make a Difference", representing New Jersey.
+
 
 ## Personal
 
