@@ -53,7 +53,8 @@
 /* Base Elements - Alphabetical */
 a {
     text-decoration: none;
-    color: var(--medium-blue);)
+    color: var(--medium-blue);
+    )
 }
 
 a:hover,
@@ -81,6 +82,10 @@ blockquote p {
     font-size: 1.0rem;
     font-style: normal;
     line-height: 1.2rem;
+}
+
+button {
+    box-shadow: 1.5px 1px 1.5px var(--text-jet-600);
 }
 
 button:hover {
@@ -411,7 +416,7 @@ ul li {
 }
 
 .card-description a {
-  color: var(--medium-blue);
+    color: var(--medium-blue);
 }
 
 /* Code Block Copy Button */
@@ -557,7 +562,7 @@ ul li {
 
 .icon {
     color: var(--success-600);
-    text-shadow: 1px 1px 1px var(--text-jet-700);
+    text-shadow: 1.5px 1px 1.5px var(--text-jet-400);
 }
 
 .hero>a:hover {

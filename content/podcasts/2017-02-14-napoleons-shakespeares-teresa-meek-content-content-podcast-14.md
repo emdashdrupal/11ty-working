@@ -1,15 +1,15 @@
 ---
-title : "Napoleons and Shakespeares featuring Teresa Meek"
-date: "2017-02-14"
+title : Napoleons and Shakespeares featuring Teresa Meek
+date: 2017-02-14
 categories:
   - "podcast"
   - "social media"
   - "technical writing"
 tags :
   - "content-marketing"
-cover : "teresa_meek.jpg"
-coverAlt : "Content marketer Teresa Meek"
-description : "Content Marketer Teresa Meek has had a varied career path in journalism, real estate, and more, but always focused on writing. She is currently based in Seattle, Washington, from where she talked about how content marketing and technical writing have similarities, her brief career in technical writing, how to transition to content marketing, and more."
+cover : teresa_meek.jpg
+coverAlt : Content marketer Teresa Meek
+description : Content Marketer Teresa Meek's career path includes journalism, real estate, and more, but always focused on writing. She joins Ed Marsh from Seattle, WA, where we talk about how content marketing and technical writing have similarities, her brief career in technical writing, how to transition to content marketing, and more.
 mp3File: Content_Content_episode_14_-_Teresa_Meek.mp3
 ---
 
