@@ -1,11 +1,15 @@
 ---
 title: "About Ed Marsh"
-description: "Technical writer, information architect, content strategist, and community builder, making complex information accessible over three decades."
+description: I've always been curious about technology. As a kid, I was the one who pushed all the buttons to see what would happen. That curiosity led to some scolding and an award-winning career in technical communication.
 layout: layouts/details.njk
-category: "About"
+category: "about"
 ---
 
-I've always been curious about technology. As a kid, I was the one who pushed all the buttons to see what would happen. That curiosity led to an award-winning career in technical communication.
+Even though my job title has always been *technical writer*, I've made making complex information accessible for over three decades by incorporating information architecture, content strategy, and community.
+
+I endorse the Oxford (serial) comma.
+
+I was a high school marching band instructor for 14 years, including six as director. I co-founded a percussion ensemble, writing original scores.
 
 ## Career journey
 
@@ -76,7 +80,6 @@ A proud New Jersey native, I'm passionate about:
 - Craft beer (former homebrewer)
 - Culinary experimentation
 - IndyCar racing
-- The Oxford (serial) comma
 - Proper punctuation (especially the semicolon and ellipsis&hellip;)
 
 ## Recent projects
