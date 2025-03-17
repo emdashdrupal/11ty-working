@@ -1,14 +1,15 @@
 ---
-title: "About Ed Marsh"
+title: About Ed Marsh
 description: I've always been curious about technology. As a kid, I was the one who pushed all the buttons to see what would happen. That curiosity led to some scolding and an award-winning career in technical communication.
 layout: layouts/details.njk
-category: "about"
+FontAwesomeIcon: solid fa-person-circle-question
 ---
 
 Even though my job title has always been *technical writer*, I've made complex information accessible for over three decades by incorporating information architecture, content strategy, and community.
 
-I endorse the Oxford (serial) comma.
+As a drummer, I'm a fan of structured content. As a former drumline instructor, my goal is to get several snare drummers to sound like one &mdash; through structure.
 
+I endorse the Oxford (serial) comma.
 
 ## Career journey
 
@@ -28,13 +29,13 @@ I specialize in making complex information accessible through:
 
 - [Information architecture](/skills/information-architecture/)
 - [Content strategy](/skills/content-strategy/)
-- [Technical documentation](/skills/technical-writing/)
+- [Software documentation](/skills/technical-writing/) for clients, end users, and developers.
 - [eLearning development](/skills/elearning/)
 - [Multimedia content](/skills/multimedia/)
 - [Technical podcasting](/skills/podcasting/)
-- [Clear epics and user stories](/skills/agile/)
+- [Standardized epics and user stories](/skills/agile/)
 
-As a technical communicator, I've created:
+I've created:
 
 - Online help
 - Multimedia
@@ -48,7 +49,7 @@ As a technical communicator, I've created:
 
 ## Community impact
 
-I believe in giving back to the technical communication community:
+I believe in giving back:
 
 - Created and hosted the [Content Content podcast](/podcasts/), featuring interviews with industry professionals.
 - Regular [speaker at conferences and meetups](http://www.slideshare.net/theedmarsh/):
@@ -64,27 +65,29 @@ I believe in giving back to the technical communication community:
 
 - Society for Technical Communication (STC) Associate Fellow.
 - Award-winning newsletter editor for STC NY Metro Chapter.
-- Creator of [contentcontent.info (Wayback archive)](https://web.archive.org/web/20210303183334/http://contentcontent.info/) (2011-2021), a content-related news aggregation site.
+- Creator of a content-related news aggregation site, [contentcontent.info (Wayback archive)](https://web.archive.org/web/20210303183334/http://contentcontent.info/) (2011-2021).
 - Founding member of Drupal Northern NJ user group.
 
 ## Educational impact
 
-- I've mentored dozens of people in and out of the technical communication field.
+- I've mentored dozens of people:
+  - Former students.
+  - Children of former colleagues.
+  - Colleagues.
 - I was a high school marching band instructor for 14 years, including six as director.
-  - As the former director of the Secaucus High School Marching Band and co-founder of the Cacophony Percussion Ensemble, the band represented New Jersey in Washington DC's National July 4th Parade.
+  - The band represented New Jersey in Washington DC's National July 4th Parade.
   - I co-founded a percussion ensemble called Cacophony, writing original scores.
   - I created and maintained the band's website starting in 1996. The band performed in an Ikea video because they found our website.
   - In 2006, [School Band and Orchestra](http://www.sbomagazine.com/) magazine recognized me as one of "50 Directors Who Make a Difference", representing New Jersey.
-
 
 ## Personal
 
 A proud New Jersey native, I'm passionate about:
 
-- Craft beer (former homebrewer)
-- Culinary experimentation
-- IndyCar racing
 - Proper punctuation (especially the semicolon and ellipsis&hellip;)
+- Craft beer (former homebrewer).
+- Making restaurant-quality food at home with local ingredients.
+- IndyCar racing.
 
 ## Recent projects
 
