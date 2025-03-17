@@ -1,11 +1,12 @@
 ---
-title : Content strategy and information architecture for static site generators
-description: Structuring content is always important. Working as a developer, I can appreciate even more why using metadata (front matter) is critical.
+title : Creating the content strategy and information architecture
+description:  Working as a writer, content strategist, and developer helped me understand how to orchestrate between the three roles.
 FontAwesomeIcon: solid fa-folder-tree
 featured: true
 featuredOrder: 1
 ---
 
+Structuring content is always important. I appreciate even more why using metadata (front matter) is critical.
 ## Content types
 
 I created three main content types (page types):

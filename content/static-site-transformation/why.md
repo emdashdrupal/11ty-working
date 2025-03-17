@@ -1,6 +1,6 @@
 ---
 title : The "why" behind my SSG conversion project
-description: Why I decided to put myself in the role of every part of web development to update my personal website.
+description: Why I put myself in *every* role of building a website.
 FontAwesomeIcon: solid fa-person-circle-question
 featured: true
 featuredOrder: 0
