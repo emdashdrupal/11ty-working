@@ -3,7 +3,7 @@ title : The "why" behind my SSG conversion project
 description: Why I decided to put myself in the role of every part of web development to update my personal website.
 FontAwesomeIcon: solid fa-person-circle-question
 featured: true
-featuredOrder: 1
+featuredOrder: 0
 ---
 
 Frankly, it was strategic. My contract ended at the end of 2024. I needed a job. To get a job, you need writing samples. Mine were woefully out of date, as was my WordPress site. I didn't realize *just* how out of date it was until I got deep into this project.

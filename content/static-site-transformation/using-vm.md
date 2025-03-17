@@ -2,6 +2,8 @@
 title : "Creating a virtual development environment"
 description: Working in a Linux virtual environment helped me focus, learn, and separate from my everyday Windows environment.
 FontAwesomeIcon: solid fa-vr-cardboard
+featured: true
+featuredOrder: 2
 ---
 
 I've been toying with VMs [since at least 2014](/technical-writing-examples/2013-12-08-creating-a-drupal-sandbox-with-virtualbox-and-drupal-quickstart-presentation/). Why?
