@@ -14,20 +14,31 @@ The content strategy was to blog about the process, and to put that content out 
 
 ## Goals
 
-My goal were to:
+My goals were to:
 
-- Quickly revamp my website to enhance my chances at getting hired.
-- Update a 10-year-old website.
-- Reduce hosting costs.
-- Reduce the overhead of maintaining a content management system. I haven't blogged in some time, and my podcast has been on hiatus since 2022.
-- Archive old content like those early days of blog posts.
+### Technical goals
+
+- Update a 10-year-old design.
+- Retire a complex site using WordPress that didn't get much traffic and needed maintenance.
+- Quickly ("quickly") revamp my website to enhance my chances at getting hired.
 - Add value by developing with SSGs. This isn't a skill a lot of technical writers have.
-- Understand how to structure content not only for SSGs, but other programmatic use.
-- Review all the content on my site and see if and how it's promoting my career in the best light.
-- Learn newer technologies (that [leverage old ones like HTML and CSS](../creating-templates))!
+- Learn newer technologies (that [leverage old ones like HTML and CSS](../creating-templates)).
+
+### Content goals
+
 - Have a steady stream of blog content that I can drive traffic to and show as writing samples.
+- Review all the content on my site and see if and how it's promoting my career in the best light.
+- Decide whether to archive old content, like those early days of blog posts.
+- Understand how to structure content not only for SSGs, but other programmatic use.
 - Enjoy writing again.
 - Do something for *me*.
+
+## Cost goals
+
+This is both in terms of financial and personal/time costs:
+
+- Reduce the overhead of maintaining a content management system. I haven't blogged in some time, and my podcast has been on hiatus since 2022.
+- Reduce hosting costs. SSGs can be hosted in many places that WordPress sites can't, which gave me flexibility to move to a zero-cost host. That doesn't mean there are zero costs to hosting the site, but getting rid of an annual hosting fee could allow me to allocate those resources elsewhere.
 
 ## My use case
 

@@ -24,4 +24,4 @@ There's still a need for a person to review and verify.
 
 There's plenty to learn from this output, especially because it's only going to get better. I think there's opportunity for technical communicators to take a shell like this generated documentation and improve it. There's huge potential for tech writers to use AI to describe the code, and translate it into useful info (and fix passive voice!).
 
-I'm not proud of how much i relied on a chatbot to program this website. But I'm also not a developer, and my goal wasn't to become one, but to facilitate the content I wanted to focus on.
+I'm not proud of how much I relied on a chatbot to program this website. But I'm also not a developer, and my goal wasn't to become one, but to facilitate the content I wanted to focus on.
