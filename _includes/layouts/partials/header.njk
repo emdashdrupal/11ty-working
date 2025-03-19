@@ -19,6 +19,19 @@
         <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
         <link href="/pagefind/pagefind-overrides.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
+
+        <!-- Google analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-21YG9R142H"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-21YG9R142H');
+        </script>
+
     </head>
     <body class="bg-whitish container mx-auto">
         {% block nav %}
@@ -39,4 +52,4 @@
                             markdown | safe }}</div>
                     {% endif %}
 
-            {% endblock %}
+                {% endblock %}
