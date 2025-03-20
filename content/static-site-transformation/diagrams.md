@@ -4,7 +4,7 @@ description: Diagrams are fun.
 FontAwesomeIcon: 'solid fa-person-digging'
 ---
 
-Learning how modern development <i>actually</i> works reinforced the importance of good developer documentation &mdash; by having to use actual developer documentation.
+Learning how modern development *actually* works reinforced the importance of good developer documentation &mdash; by having to use actual developer documentation.
 
 ![SSG site architecture](/assets/images/11ty-architecture.png)
 
