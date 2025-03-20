@@ -61,4 +61,4 @@ Most of them ended up in the finished product. Some I may include after I publis
 
 ## The what
 
-[Choosing a static site generator](choosing-static-site-generator.md)
+[Choosing a static site generator](choosing-static-site-generator)
