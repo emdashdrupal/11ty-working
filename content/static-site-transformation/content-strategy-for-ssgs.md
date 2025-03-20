@@ -1,10 +1,12 @@
 ---
-title : Content strategy and information architecture for static site generators
-description: Structuring content is always important. Working as a developer, I can appreciate even more why using metadata (front matter) is critical.
+title : Creating the content strategy and information architecture
+description:  Working as a writer, content strategist, and developer helped me understand how to orchestrate between the three roles.
 FontAwesomeIcon: solid fa-folder-tree
 featured: true
 featuredOrder: 1
 ---
+
+Structuring content is always important. I appreciate even more why using metadata (front matter) is critical.
 
 ## Content types
 
@@ -36,7 +38,7 @@ Using metadata and collections enables reuse. Copy-pasted content across pages i
 
 There was a *lot* of experimenting and seeing what was what. Once I grasped *how* to use the metadata programmatically, it opened my eyes how much structured front matter makes a difference in how content is used, sorted, filtered, and displayed.
 
-Then I added two json files of related webinars, podcasts, and other talks i've done, as well as the tools used for each of the skills. it was fun, adn refresheing, and again, holy cow structured content.
+Then I added two json files of related webinars, podcasts, and other talks i've done, as well as the tools used for each of the skills. it was fun, and refreshing, and again, holy cow structured content.
 
 Being on this side of the equation makes it clear how much structuring your content helps your developers.
 
@@ -49,3 +51,9 @@ It also helped me narrow my focus on skills, as well as tell a story across all 
 - make it easier for people to contribute, and have a consistent voice.
 - Portable, multi-channel
 - Reuse
+
+## Publishing cadence for the SSG series
+
+As part of my site rollout, I wanted to have four solid blog posts ready on debut, with the plan to roll out the others in either small batches or individually to keep traffic coming to my site, and to show recruiters and employers that I was still actively updating my site and the series.
+
+This meant I needed to set up a way to tell the SSG to display *these four* blog posts and skills I want to highlight. I created `featured` and `featuredOrder` metadata fields, so it's easy to implement and maintain.

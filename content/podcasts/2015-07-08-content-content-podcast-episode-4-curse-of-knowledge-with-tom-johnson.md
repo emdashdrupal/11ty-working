@@ -9,7 +9,7 @@ tags :
   - "css"
   - "drupal"
   - "madcap flare"
-description: In this episode, a truly great and fun conversation with prolific and influential technical writer Tom Johnson. Tom joins us from Silicon Valley to talk about his interesting path to technical communication, failed Career Day booths, being a leader in techcomm, content management systems, DITA, static site generators, and much more.
+description: A truly great and fun conversation with prolific and influential technical writer Tom Johnson. Tom joins us from Silicon Valley to talk about his interesting path to technical communication, failed Career Day booths, being a leader in techcomm, content management systems, DITA, static site generators, and much more.
 mp3File: Content_Content_podcast_S1E4_Curse_of_knowledge_with_Tom_Johnson.mp3
 ---
 

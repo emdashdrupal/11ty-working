@@ -14,6 +14,8 @@ My prompt was to `think like a technical writer and create a markdown file that 
 
 Because the output includes a mix of Markdown, template code, and HTML, it's nearly impossible to embed on this page and have it display corrected. I've instead [created a separate page](/static-site-transformation/ai-doc-output/) and excluded it from collections using the `eleventyExcludeFromCollections: true` parameter in my front matter; this means it won't display on any of the grid-based pages.
 
+This is a good example of what AI can do for you, but also where humans are invaluable. A large language model (LLM) can't tell if a code example displays correctly.
+
 It's pretty impressive that AI can get to this level of granularity. But I think the result is only a high level overview, and parts are not entirely correct &mdash; partially as a result of my lack of coding experience. For example, the Featured content section is technically correct. However, at the time I asked the question it wasn't working.
 
 There's still a need for a person to review and verify.
@@ -21,3 +23,5 @@ There's still a need for a person to review and verify.
 ## Conclusions
 
 There's plenty to learn from this output, especially because it's only going to get better. I think there's opportunity for technical communicators to take a shell like this generated documentation and improve it. There's huge potential for tech writers to use AI to describe the code, and translate it into useful info (and fix passive voice!).
+
+I'm not proud of how much I relied on a chatbot to program this website. But I'm also not a developer, and my goal wasn't to become one, but to facilitate the content I wanted to focus on.
