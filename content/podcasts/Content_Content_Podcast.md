@@ -1,6 +1,4 @@
----
-title: Content Content podcast pitch page
----
+# Content Content podcast pitch page
 
 This podcast series, hosted by Ed Marsh, features in-depth interviews with professionals in content strategy, technical communication, information architecture, and other content creators. As host, I explore the human stories behind the content &mdash; getting insights from industry leaders about their career journeys, challenges overcome, and where they see our industry heading.
 
