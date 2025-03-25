@@ -1,13 +1,13 @@
 ---
 title: Community building
-description: There are people in your organization invested in retaining institutional knowledge.
+description: No matter the size of your organization, there are people interested and invested in good documentation. I have a history of finding them, making them beta testers, and champions for documentation.
 FontAwesomeIcon: 'solid fa-people-group'
 featured: true
 featuredOrder: 3
 categories: community-building
 ---
 
-I've found that no matter the size of your org, there are people interested and invested in good documentation. When you find them, you make them your advocates, your sounding board, and your champions.
+There are people in your organization invested in retaining institutional knowledge.
 
 ## How I've built community
 

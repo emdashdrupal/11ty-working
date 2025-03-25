@@ -1,6 +1,6 @@
 ---
 title : Ed Marsh skillset
-description: Content is easy to create, but it's complex to coordinate, organize, and maintain. Here's how I can help you.
+description: Content is easy to create, but it's complex to coordinate, organize, and maintain. This section features my extensive experience with content and its related tools.
 tags : "skills"
 eleventyExcludeFromCollections : true
 layout: "layouts/grid.njk"

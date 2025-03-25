@@ -1,0 +1,111 @@
+# https://edmar.sh llms.txt
+
+> This website showcases Ed Marsh's expertise in technical communication, content strategy, and community building, offering services to improve documentation practices and enhance user experiences.
+
+- [Content and Community](https://edmar.sh/): Ed Marsh offers technical writing, content strategy, and community building.
+- [Contact Ed Marsh](https://edmar.sh/contact/): Connect with Ed Marsh for content strategy discussions.
+- [Content Content Podcast](https://edmar.sh/podcasts/): Explore insights from content professionals through engaging interviews.
+- [Ed Marsh Skills Overview](https://edmar.sh/skills/): Explore Ed Marsh's diverse skills in content management.
+- [Wordpress to Static Site](https://edmar.sh/static-site-transformation/): Documenting the transition from Wordpress to static site generators.
+- [Technical Writing Samples](https://edmar.sh/technical-writing-examples/): Explore diverse technical writing samples and insights.
+- [About Ed Marsh](https://edmar.sh/about/about-ed-marsh/): Ed Marsh's journey in technical communication and education.
+
+
+## edmar.sh sitespeak.ai
+
+- [Embedding Fonts in WebHelp](https://edmarsh.com/2010/12/13/how-to-embed-fonts-in-madcap-flare-webhelp/): Guide for embedding custom fonts in MadCap Flare WebHelp projects.
+- - [Modernizing Online Help](https://edmarsh.com/2012/06/22/leveraging-jquery-scripts-and-css3-in-your-online-help-techcomm/): The page discusses modernizing online help through the use of jQuery and CSS3 technologies.
+
+- [Drupal Sandbox Setup](https://edmarsh.com/2013/12/08/creating-a-drupal-sandbox-with-virtualbox-and-drupal-quickstart-presentation/): To share a presentation about setting up a Drupal development environment using VirtualBox and Drupal Quickstart.
+- - [Drupal and Tech Communication](https://edmarsh.com/category/technology/technical-writing/how-to/): To share insights and resources for using Drupal and improving technical communication practices.
+- - [Microsoft Office Help Icon](https://edmarsh.com/2015/01/07/microsoft-office-and-the-amazing-shrinking-help-icon/): Discusses the design changes of the help icon in Microsoft Office 2013 compared to 2010.
+- [YouTube Content Reuse Example](https://edmarsh.com/2015/07/16/youtubes-great-example-of-content-reuse/): Highlighting YouTube's effective content reuse practices to improve user experience.
+- - [Yoast SEO Insights](https://edmarsh.com/2016/08/17/wordpress-plugin-changed-thinking-about-technical-writing/): Exploring the impact of the Yoast SEO plugin on technical writing and content improvement.
+- [Yoast SEO and Writing](http://edmarsh.com/2016/08/17/wordpress-plugin-changed-thinking-about-technical-writing/): Discusses the impact of the Yoast SEO plugin on technical writing and web content organization.
+- - [Is TOC Still Relevant?](https://edmarsh.com/2013/06/05/is-the-table-of-contents-dead-online/): The article discusses the declining relevance of the Table of Contents in favor of search functionality.
+- - [Deli User Experience Issues](https://edmarsh.com/2016/06/28/can-a-deli-have-a-user-experience-problem/): Examining the confusing user experience in a delicatessen's ordering process.
+- [Podcast on Job Hunting](https://edmar.sh/podcasts/2020-05-19-value-oriented-outcomes-with-sara-feldman-content-content-podcast/): Discussing job hunting and achieving outcomes during a pandemic with Sara Feldman.
+- [Podcast with Danielle Villegas](https://edmar.sh/podcasts/2015-04-28-content-content-podcast-fire-fingers-featuring-danielle-villegas-episode-3/): Discussing technical communication and content curation with Danielle Villegas through an engaging podcast format.
+- [Technical Communication Insights](https://edmar.sh/podcasts/2017-06-27-like-thomas-pynchon-pawel-kowaluk-content-content-episode-16/): Discussing technical communication and community-building in Poland through a podcast episode with Pawel Kowaluk.
+- [Measurement in Machine Learning](https://edmar.sh/technical-writing-examples/2017-06-01-machine-learning-units-measurement-can-affect-content/): Discusses the impact of measurement units on content interpretation in machine learning and user interaction.
+- [Podcast Episode Overview](https://edmar.sh/podcasts/2015-10-27-content-content-podcast-episode-6-wheres-my-flare-featuring-dr-carlos-evia/): Episode discussing advancements in DITA and technical communication with Dr. Carlos Evia.
+- [Structured Authoring Skills](https://edmar.sh/skills/dita/): Showcases skills in structured authoring and DITA for improving technical content consistency and SEO.
+- [Podcast: Time as a Tool](https://edmar.sh/podcasts/2015-03-18-content-content-podcast-time-as-a-tool-featuring-alan-houser-episode-2/): Discusses technical communication insights from Alan Houser in a podcast format.
+- [Project Management Skills](https://edmar.sh/skills/project-management/): This webpage showcases project management skills related to creating technical content.
+- [Contact Ed Marsh](https://edmar.sh/contact/): Connect with Ed Marsh for content strategy discussions.
+- [Podcast with Patrick Bosek](https://edmar.sh/podcasts/2021-09-27-a-really-fancy-webform-with-patrick-bosek-content-content-podcast/): Discusses insights from Patrick Bosek on tech communication and leadership.
+- [Static Site Transformation](https://edmar.sh/static-site-transformation/why/): To share the motivations and goals behind a static site generation project for personal and professional development.
+- [Mod Wiki Update](https://edmar.sh/technical-writing-examples/carto-wiki/): Showcases an updated mod wiki for a game.
+- [AI Documentation Overview](https://edmar.sh/static-site-transformation/ai-doc-output/): Offering AI-generated technical documentation for a static site using Eleventy and other technologies.
+- [Help Icon Design Changes](https://edmar.sh/technical-writing-examples/2015-01-07-microsoft-office-and-the-amazing-shrinking-help-icon/): Discusses the design changes of the help icon in Microsoft Office 2013 compared to Office 2010.
+- [Content Strategy Podcast](https://edmar.sh/podcasts/2016-01-19-content-content-podcast-episode-7-curious-about-content-featuring-david-dylan-thomas/): Discussing content strategy trends and insights through a podcast episode featuring David Dylan Thomas.
+- [UX Writing Insights](https://edmar.sh/podcasts/2021-06-08-clarity-over-consistency-with-mj-babic-content-content-podcast/): Discussing UX writing insights with MJ Babic on improving user experience through clarity in digital products.
+- [Understanding Docs-as-Code](https://edmar.sh/skills/docs-as-code/): Explains the docs-as-code approach for creating developer-oriented documentation using Markdown and version control tools.
+- [Ed Marsh's Skills Overview](https://edmar.sh/skills): Showcase Ed Marsh's diverse skillset in technical content creation and community building.
+- [Ed Marsh's Podcasting Journey](https://edmar.sh/skills/podcasting/): Showcases Ed Marsh's podcasting experience and contributions in technical communication and content strategy.
+- [Choosing Static Site Generator](https://edmar.sh/static-site-transformation/choosing-static-site-generator/): To guide readers in choosing the right static site generator based on individual needs and preferences.
+- [Podcast with Todd DeLuca](https://edmar.sh/podcasts/2016-05-13-complimentary-sandwich-featuring-todd-deluca-content-content-episode-9/): Interview with Todd DeLuca about career growth through volunteering and managing a technical communication team.
+- [Deploying a Static Site](https://edmar.sh/static-site-transformation/deploying-site/): Instructions for deploying a static site using Netlify and Eleventy.
+- [Podcast with Tim Esposito](https://edmar.sh/podcasts/2017-11-30-price-right-tim-esposito-content-content-podcast-episode-20/): Discusses Tim Esposito's career and insights in technical writing, community service, and personal interests.
+- [Content Strategy for SSGs](https://edmar.sh/static-site-transformation/content-strategy-for-ssgs/): This page outlines a structured content strategy for static site generators, emphasizing metadata, content organization, and reuse.
+- [Podcast Episode Overview](https://edmar.sh/podcasts/2018-03-13-i-can-eat-glass-with-keith-schengili-roberts-content-content-podcast-episode-22/): Discusses podcast episode topics related to HTML, DITA, and market research with Keith Schengili-Roberts.
+- [Drupal Sandbox Setup Guide](https://edmar.sh/technical-writing-examples/2013-12-08-creating-a-drupal-sandbox-with-virtualbox-and-drupal-quickstart-presentation/): To share a guide on setting up a Drupal sandbox using VirtualBox and the Drupal Quickstart project.
+- [Podcast Episode Overview](https://edmar.sh/podcasts/2018-11-20-i-have-issues-with-slide-decks-with-scott-abel-content-content-podcast/): Discusses content strategy and single sourcing in a podcast format with Scott Abel.
+- [I Like the Ms Podcast](https://edmar.sh/podcasts/2019-12-27-i-like-the-ms-with-phylise-banner-content-content-podcast/): Discussion of digital education and community involvement by Phylise Banner on the I Like the Ms podcast.
+- [Using a Virtual Environment](https://edmar.sh/static-site-transformation/using-vm/): Guide on setting up and using a virtual development environment for Linux.
+- [Content Content Podcast](https://edmar.sh/podcasts/): A podcast featuring interviews with professionals about their experiences in content creation and technical communication.
+- [Deli User Experience Issues](https://edmar.sh/technical-writing-examples/2016-06-28-can-a-deli-have-a-user-experience-problem/): Analyzing user experience challenges in a deli's ordering process.
+- [Introverted Leadership Insights](https://edmar.sh/podcasts/2016-09-01-off-wall-presentations-featuring-ben-woelk-content-content-podcast-episode-11/): Discusses introverted leadership through an interview with Ben Woelk, highlighting its impact on his career.
+- [Podcast Episode with Bernard](https://edmar.sh/podcasts/2016-07-26-content-content-podcast-episode-10-featuring-bernard-aschwanden/): Discusses insights on content management and professional networking with Bernard Aschwanden in a podcast format.
+- [AI Homepage Creation Guide](https://edmar.sh/static-site-transformation/create-home-page-using-ai/): Guide to creating AI-generated homepage templates using Nunjucks and Eleventy.
+- [Emo Analytics Discussion](https://edmar.sh/podcasts/2017-07-26-emo-analytics-with-allie-proff-content-content-episode-17/): Discusses emotive analytics and the role of technology in storytelling with Allie Proff.
+- [Podcast with Noz Urbina](https://edmar.sh/podcasts/2020-04-07-1000-or-100000-meetings-with-noz-urbina-content-content-podcast/): A podcast episode featuring Noz Urbina discussing his career and insights on content strategy.
+- [Podcast with Teresa Meek](https://edmar.sh/podcasts/2017-02-14-napoleons-shakespeares-teresa-meek-content-content-podcast-14/): Discussing content marketing and writing with Teresa Meek on the podcast.
+- [Podcast with Alisa Bonsignore](https://edmar.sh/podcasts/2020-09-30-all-the-things-in-my-venn-diagram-with-alisa-bonsignore-content-content-podcast/): Discussing career paths and growth mindset with Alisa Bonsignore on the Content Content podcast.
+- [Role of Technical Writers](https://edmar.sh/skills/technical-writing/): This page highlights the role and skills of technical writers, emphasizing their importance in communication and content creation.
+- [Podcast with Ann Rockley](https://edmar.sh/podcasts/2022-01-28-sink-and-swim-situation-with-ann-rockley-content-content-podcast/): Discusses Ann Rockley's insights on content strategy and her consulting career.
+- [Understanding Static Site Generators](https://edmar.sh/static-site-transformation/playing-with-hugo-innards/): Exploring the process of learning to use static site generators, specifically Hugo.
+- [Podcast with Michael Miller](https://edmar.sh/podcasts/2020-07-23-four-engineers-and-an-english-major-with-michael-miller-content-content-podcast/): Exploring the experiences of technical writer Michael Miller in the context of engineering and writing.
+- [AI and Technical Writing](https://edmar.sh/static-site-transformation/writing-with-ai/): Explores the effectiveness of AI in generating technical documentation and the importance of human review.
+- [Podcast with Viqui Dill](https://edmar.sh/podcasts/2019-06-26-were-gonna-do-this-together-with-viqui-dill-content-content-podcast/): Interview with Viqui Dill discussing project management and documentation in the hardware industry.
+- [Embedding Fonts in WebHelp](https://edmar.sh/technical-writing-examples/2010-12-14-how-to-embed-fonts-in-madcap-flare-webhelp/): Guide for embedding fonts in MadCap Flare WebHelp projects using CSS.
+- [Importance of Content Governance](https://edmar.sh/skills/governance/): Highlights the importance of content governance in organizations for sustainability and maintenance.
+- [Technical Communication Podcast](https://edmar.sh/podcasts/2018-01-23-installation-not-user-task-featuring-andrea-ames-content-content-podcast-episode-21/): Discussing technical communication with insights from Andrea Ames.
+- [Coding Experience Overview](https://edmar.sh/skills/code-development/): Showcases Ed Marsh's coding experience and projects throughout his career.
+- [Technical Communication Services](https://edmar.sh): Ed Marsh offers expertise in technical writing, content strategy, and community building to improve organizational communication.
+- [Technical Writing Opportunities](https://edmar.sh/static-site-transformation/writing-opportunities/): Showcasing writing opportunities for technical writers using open-source documentation.
+- [Content Performance Analysis](https://edmar.sh/skills/metrics/): Explains how to analyze content performance using metrics for improvement.
+- [Technical Writing Samples](https://edmar.sh/technical-writing-examples/): Showcases technical writing samples and contributions to highlight professional expertise.
+- [Community Building Strategies](https://edmar.sh/skills/community/): Highlighting strategies for building a strong community around technical content and documentation.
+- [Tailwind CSS with Eleventy](https://edmar.sh/static-site-transformation/tailwind-css/): Guide on using Tailwind CSS with Eleventy for web styling.
+- [Public Speaking Engagements](https://edmar.sh/skills/public-speaking/): Showcases Ed Marsh's public speaking engagements and contributions to technical communication.
+- [Enhancing Online Help Systems](https://edmar.sh/technical-writing-examples/2012-06-22-leveraging-jquery-scripts-and-css3-in-your-online-help/): To share techniques for enhancing online help systems using jQuery and CSS3.
+- [Content Content Podcast](https://edmar.sh/podcasts/2016-03-11-content-content-podcast-episode-8-fairly-random-events-featuring-sarah-okeefe/): Discussing content strategy and random events with Sarah O'Keefe in a podcast format.
+- [Podcast on Content Strategy](https://edmar.sh/podcasts/2016-11-15-ok-pause-featuring-alyssa-fox-content-content-podcast-episode-13/): Discusses the importance of pausing in information processing and explores various topics in content strategy.
+- [Yoast SEO and Technical Writing](https://edmar.sh/technical-writing-examples/2016-08-17-wordpress-plugin-changed-thinking-about-technical-writing/): Exploring how the Yoast SEO plugin impacts technical writing practices.
+- [About Ed Marsh](https://edmar.sh/about/about-ed-marsh): Showcase Ed Marsh's career, expertise, and contributions in technical communication and community engagement.
+- [Podcast with Jack Molisani](https://edmar.sh/podcasts/2017-04-24-users-or-people-with-jack-molisani-content-content-episode-15/): Discusses technical communication insights and career advice with Jack Molisani in a podcast format.
+- [Content Content Podcast Intro](https://edmar.sh/podcasts/2015-02-06-introducing-the-content-content-podcast/): Introduce the inaugural episode of the Content Content podcast featuring discussions on content and technical communication.
+- [Podcast Episode Overview](https://edmar.sh/podcasts/2015-07-08-content-content-podcast-episode-4-curse-of-knowledge-with-tom-johnson/): Discussing insights from the podcast episode with Tom Johnson on technical communication and related topics.
+- [Fluffy Experience Podcast](https://edmar.sh/podcasts/2020-02-11-fluffy-experience-with-hannah-kirk-content-content-podcast/): A podcast episode discussing technology, academia, and personal experiences with guest Hannah Kirk.
+- [Podcast with Sean Heckman](https://edmar.sh/podcasts/2018-04-20-holding-somebody-elses-place-with-sean-heckman-content-content-podcast/): Explore Sean Heckman's diverse career and insights through an engaging podcast episode.
+- [Open Source Contributions](https://edmar.sh/technical-writing-examples/open-source-contributions/): Showcase recent open source contributions and technical writing efforts.
+- [Podcast on Content Needs](https://edmar.sh/podcasts/2016-09-30-local-needs-content-featuring-bill-swallow-content-content-podcast-episode-12/): Discusses local content needs and strategies with industry expert Bill Swallow through a podcast episode.
+- [Agile Methodologies Overview](https://edmar.sh/skills/agile/): Explaining Agile methodologies and their application in software development.
+- [Podcast Episode: Undefinable Me](https://edmar.sh/podcasts/2015-08-19-content-content-podcast-episode-5-undefinable-me-featuring-marcia-riefer-johnston/): Discusses Marcia Riefer Johnston's career in content marketing and writing in a podcast format.
+- [Creating SSG Templates](https://edmar.sh/static-site-transformation/creating-templates/): Guidelines for creating templates in static site generators like Eleventy.
+- [Exploring Eleventy SSG](https://edmar.sh/static-site-transformation/eleventy/): To share a personal journey and insights about transitioning to Eleventy static site generator.
+- [Podcast on Content Strategy](https://edmar.sh/podcasts/2021-04-14-not-acting-like-slow-computers-with-rahel-bailie-content-content-podcast/): Discussing content strategy and operations with Rahel Bailie in a podcast format.
+- [Content Strategy Assistance](https://edmar.sh/skills/content-strategy/): Guide organizations in assessing and improving their content strategy through audits and data-driven insights.
+- [Importance of Net Neutrality](https://edmar.sh/technical-writing-examples/2017-07-13-net-neutrality-important-content-creators/): Advocates for net neutrality to protect equal internet access for content creators.
+- [Static Site Transformation](https://edmar.sh/static-site-transformation/): Documenting the process of transitioning from WordPress to a static site generator.
+- [Is the TOC Dead?](https://edmar.sh/technical-writing-examples/2013-06-06-is-the-table-of-contents-dead-online/): Explores the relevance of the table of contents in online navigation compared to search functionality.
+- [Tech Writing at Drupal Camp](https://edmar.sh/technical-writing-examples/2013-07-17-a-tech-writers-thoughts-on-nyc-drupal-camp-2013/): The article shares insights from a tech writer attending the NYC Drupal Camp, highlighting the importance of content professionals.
+- [Podcast on Intelligent Content](https://edmar.sh/podcasts/2018-09-14-experiences-have-to-be-assembled-with-cruce-saunders-content-content-podcast/): Discussing intelligent content and its enterprise applications with insights from Cruce Saunders.
+- [Static Site Takeaways](https://edmar.sh/static-site-transformation/takeaways/): Reflecting on the experience of creating static sites and the joys of using HTML and CSS.
+- [Business Card Design Tips](https://edmar.sh/technical-writing-examples/2017-01-01-business-card-information-architecture/): To highlight the importance of information architecture in designing business cards for better scanning and recognition.
+- [Content Engineering Insights](https://edmar.sh/podcasts/2019-03-14-xml-is-a-four-letter-word-with-alan-j-porter-content-content-podcast/): Discusses the evolution of technical writing and highlights the significance of XML in content engineering.
+- [YouTube's Content Reuse](https://edmar.sh/technical-writing-examples/2015-07-17-youtubes-great-example-of-content-reuse/): Highlighting YouTube's effective content reuse strategy for better user experience in technical writing.
+- [Information Architecture Overview](https://edmar.sh/skills/information-architecture/): Discusses the importance of information architecture in content presentation and organization for businesses.
+- [Static Site Generator Insights](https://edmar.sh/static-site-transformation/diagrams/): Sharing insights on using static site generators and challenges faced in development documentation.
+- [Podcast on Technical Writing](https://edmar.sh/podcasts/2017-09-12-same-mess-different-tools-with-liz-fraley-content-content-episode-19/): Discusses structured authoring and technical writing insights from Liz Fraley.

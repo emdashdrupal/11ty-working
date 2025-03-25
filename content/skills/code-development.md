@@ -1,6 +1,6 @@
 ---
 title : Coding experience
-description : Wherein I've dabbled in code for my career.
+description : I've dabbled in code over the course of my career to automate tasks, create websites, and convert structured content to HTML.
 FontAwesomeIcon : solid fa-terminal
 categories: "coding-experience"
 ---
