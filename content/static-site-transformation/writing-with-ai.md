@@ -14,7 +14,7 @@ My prompt was to `think like a technical writer and create a markdown file that 
 
 This is a good example of what AI can do for you, but also where humans are invaluable. A large language model (LLM) can't tell if a code example displays correctly.
 
-> Because the output includes a mix of Markdown, template code, and HTML, it's nearly impossible to embed on this page and have it display correctly. I [created a separate page](/static-site-transformation/ai-doc-output/) and excluded it from collections using the `eleventyExcludeFromCollections: true` parameter in my front matter; this means it won't display on any of the grid-based pages.
+> Because the output includes a mix of Markdown, template code, and HTML, it's nearly impossible to embed on this page and have it display correctly. I [created a separate page](/static-site-transformation/ai-doc-output) and excluded it from collections using the `eleventyExcludeFromCollections: true` parameter in my front matter; this means it won't display on any of the grid-based pages.
 
 It's pretty impressive that AI can get to this level of granularity. But I think the result is only a high level overview, and parts are not entirely correct &mdash; partially as a result of my lack of coding experience. For example, the Featured content section is technically correct. However, at the time I asked the question it wasn't working.
 
