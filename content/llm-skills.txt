@@ -1,0 +1,18 @@
+- [Agile Methodologies Overview](https://edmar.sh/skills/agile/): Explaining Agile methodologies and their application in software development.
+- [Coding Experience Overview](https://edmar.sh/skills/code-development/): Showcases Ed Marsh's coding experience and projects throughout his career.
+- [Content Performance Analysis](https://edmar.sh/skills/metrics/): Explains how to analyze content performance using metrics for improvement.
+- [Content Strategy Assistance](https://edmar.sh/skills/content-strategy/): Guide organizations in assessing and improving their content strategy through audits and data-driven insights.
+- [Importance of Content Governance](https://edmar.sh/skills/governance/): Highlights the importance of content governance in organizations for sustainability and maintenance.
+- [Information Architecture Overview](https://edmar.sh/skills/information-architecture/): Discusses the importance of information architecture in content presentation and organization for businesses.
+- [Understanding Structured Authoring](https://edmar.sh/skills/dita/): The webpage discusses the benefits and tools for implementing structured authoring using DITA.
+- [Role of Technical Writers](https://edmar.sh/skills/technical-writing/): This page outlines the role and skills of a technical writer in producing effective communication.
+- [Agile Methodologies Overview](https://edmar.sh/skills/agile/): Discusses agile methodologies in software development including user story guidelines and tools used.
+- [Community Building Strategies](https://edmar.sh/skills/community/): To share strategies for fostering community and collaboration among technical content creators.
+- [Content Strategy Consultation](https://edmar.sh/skills/content-strategy/): To offer guidance on improving content strategy and user experience through content auditing and data-driven approaches.
+- [Business Card Design Tips](https://edmar.sh/technical-writing-examples/2017-01-01-business-card-information-architecture/): To highlight the importance of information architecture in designing business cards for better scanning and recognition.
+- [Community Building Strategies](https://edmar.sh/skills/community/): Highlighting strategies for building a strong community around technical content and documentation.
+- [Ed Marsh Skills Overview](https://edmar.sh/skills/): Explore Ed Marsh's diverse skills in content management. Showcase Ed Marsh's diverse skillset in technical content creation and community building.
+- [Ed Marsh's Podcasting Journey](https://edmar.sh/skills/podcasting/): Showcases Ed Marsh's podcasting experience and contributions in technical communication and content strategy.
+- [Project Management Skills](https://edmar.sh/skills/project-management/): This webpage showcases project management skills related to creating technical content.
+- [Public Speaking Engagements](https://edmar.sh/skills/public-speaking/): Showcases Ed Marsh's public speaking engagements and contributions to technical communication.
+- [Role of Technical Writers](https://edmar.sh/skills/technical-writing/): This page highlights the role and skills of technical writers, emphasizing their importance in communication and content creation.

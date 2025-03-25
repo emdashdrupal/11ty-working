@@ -1,0 +1,28 @@
+- [AI and Technical Writing](https://edmar.sh/static-site-transformation/writing-with-ai/): Explores the effectiveness of AI in generating technical documentation and the importance of human review.
+- [AI Documentation Overview](https://edmar.sh/static-site-transformation/ai-doc-output/): Offering AI-generated technical documentation for a static site using Eleventy and other technologies.
+- [AI Homepage Creation Guide](https://edmar.sh/static-site-transformation/create-home-page-using-ai/): Guide to creating AI-generated homepage templates using Nunjucks and Eleventy.
+- - [Choosing Static Site Generator](https://edmar.sh/static-site-transformation/choosing-static-site-generator/): To guide readers in choosing the right static site generator based on individual needs and preferences.
+- [Creating SSG Templates](https://edmar.sh/static-site-transformation/creating-templates/): Guidelines for creating templates in static site generators like Eleventy.
+- [Deploying a Static Site](https://edmar.sh/static-site-transformation/deploying-site/): Instructions for deploying a static site using Netlify and Eleventy.
+- [Exploring Eleventy SSG](https://edmar.sh/static-site-transformation/eleventy/): To share a personal journey and insights about transitioning to Eleventy static site generator.
+- [Content Strategy for SSGs](https://edmar.sh/static-site-transformation/content-strategy-for-ssgs/): This page outlines a structured content strategy for static site generators, emphasizing metadata, content organization, and reuse.
+- [Static Site Generator Insights](https://edmar.sh/static-site-transformation/diagrams/): Sharing insights on using static site generators and challenges faced in development documentation.
+- [Static Site Takeaways](https://edmar.sh/static-site-transformation/takeaways/): Reflecting on the experience of creating static sites and the joys of using HTML and CSS.
+- [Static Site Transformation](https://edmar.sh/static-site-transformation/): Documenting the process of transitioning from WordPress to a static site generator.
+- [Static Site Transformation](https://edmar.sh/static-site-transformation/why/): To share the motivations and goals behind a static site generation project for personal and professional development.
+- [Structured Authoring Skills](https://edmar.sh/skills/dita/): Showcases skills in structured authoring and DITA for improving technical content consistency and SEO.
+- [Tailwind CSS with Eleventy](https://edmar.sh/static-site-transformation/tailwind-css/): Guide on using Tailwind CSS with Eleventy for web styling.
+- [Technical Writing Opportunities](https://edmar.sh/static-site-transformation/writing-opportunities/): Showcasing writing opportunities for technical writers using open-source documentation.
+- [Understanding Static Site Generators](https://edmar.sh/static-site-transformation/playing-with-hugo-innards/): Exploring the process of learning to use static site generators, specifically Hugo.
+- [Using a Virtual Environment](https://edmar.sh/static-site-transformation/using-vm/): Guide on setting up and using a virtual development environment for Linux.
+- [Wordpress to Static Site](https://edmar.sh/static-site-transformation/): Documenting the transition from Wordpress to static site generators.
+- [Content Strategy Insights](https://edmar.sh/static-site-transformation/content-strategy-for-ssgs/): To outline an effective content strategy and information architecture for static site generation.
+- [Choosing Static Site Generators](https://edmar.sh/static-site-transformation/choosing-static-site-generator/): Discusses criteria for selecting a static site generator based on user experience and ease of use.
+- [Static Site Generator Insights](https://edmar.sh/static-site-transformation/why/): Explaining the motivations and goals behind the author's static site generator conversion project.
+- [AI Homepage Template Creation](https://edmar.sh/static-site-transformation/create-home-page-using-ai/): Guide for creating a homepage template with AI tools and coding practices.
+- - [Learning Static Site Generators](https://edmar.sh/static-site-transformation/playing-with-hugo-innards/): Sharing insights on learning and working with static site generators, particularly Hugo.
+- [Static Site Transformation](https://edmar.sh/static-site-transformation/): Documenting the process of transitioning from a WordPress site to a static site generator.
+- [Technical Writing Opportunities](https://edmar.sh/static-site-transformation/writing-opportunities/): To provide writing opportunities and resources for technical writers to showcase their work through open-source documentation.
+
+- [Deploying a Static Site](https://edmar.sh/static-site-transformation/deploying-site/): Guidance on deploying a static site with Netlify and using Eleventy as a static site generator.
+- [Using a Virtual Environment](https://edmar.sh/static-site-transformation/using-vm/): Guide on setting up and using a virtual development environment for Linux.

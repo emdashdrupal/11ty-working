@@ -20,6 +20,19 @@ It's pretty impressive that AI can get to this level of granularity. But I think
 
 There's still a need for a person to review and verify.
 
+## llms.txt
+
+Then I learned about the `llms.txt` file, which gave me *exactly* the distraction I needed to actually write content.
+
+What I took away from these generators is how my site is seen by people (and let's face it, bots).
+
+I ran three different generators <https://sitespeak.ai>, against both the current production and my test site. it's interesting to see how it returns *similar* but not *identical* results from what's essentially the same content:
+
+- [Podcast with Viqui Dill](https://edmar.sh/podcasts/2019-06-26-were-gonna-do-this-together-with-viqui-dill-content-content-podcast/): A podcast episode discussing project management and technical communication in the hardware industry with Viqui Dill.
+- [Podcast with Viqui Dill](https://edmarsh.com/2019/06/25/were-gonna-do-this-together-with-viqui-dill-content-content-podcast/): Discussing project management and technical communication with Viqui Dill in a podcast format.
+- [Podcast with Viqui Dill](https://edmarsh.com/tag/music/): Discussing the intersection of project management and technical communication through Viqui Dill's insights and experiences.
+
+
 ## Conclusions
 
 There's plenty to learn from this output, especially because it's only going to get better. I think there's opportunity for technical communicators to take a shell like this generated documentation and improve it. There's huge potential for tech writers to use AI to describe the code, and translate it into useful info (and fix passive voice!).
