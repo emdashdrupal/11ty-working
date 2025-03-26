@@ -1,6 +1,6 @@
 ---
-title : "Is the Table of Contents Dead Online?"
-date: "2013-06-06"
+title: Is the Table of Contents Dead Online?
+date: 2013-06-06
 categories:
   - "technical writing"
 tags : ["adobe-robohelp", "madcap flare", "examples"]

@@ -1,5 +1,5 @@
 ---
-title : "Learning about SSG templates"
+title: Learning about SSG templates
 description: Templates are what makes static site generators work. They take your content and tell the SSG how to display it.
 FontAwesomeIcon: 'solid fa-file-code'
 ---

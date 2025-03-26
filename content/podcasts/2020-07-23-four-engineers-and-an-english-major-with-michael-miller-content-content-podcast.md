@@ -1,12 +1,12 @@
 ---
-title : "Four engineers and an English major with Michael Miller"
-date: "2020-07-23"
+title: Four engineers and an English major with Michael Miller
+date: 2020-07-23
 categories:
   - "motorsports"
   - "podcast"
   - "technical writing"
-cover : "mike-miller-with-borg-warner-273x300.png"
-coverAlt : "Michael Miller with the Indy 500 Borg-Warner trophy"
+cover: mike-miller-with-borg-warner-273x300.png
+coverAlt : Michael Miller with the Indy 500 Borg-Warner trophy
 description : "[Michael Miller](https://www.linkedin.com/in/michael-miller1227), an Indianapolis, IN-based technical writer, shares what it's like to be new to the field, his passion for it, the struggles he faces, his goals, and more."
 mp3File: Content_Content_podcast_Michael_Miller.mp3
 ---

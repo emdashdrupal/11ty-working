@@ -1,7 +1,7 @@
 ---
-title : "Learning how  static site generators work"
+title: Learning how  static site generators work
 description: My first foray into learning static site generators.
-# date: "2024-11-24"
+# date: 2024-11-24
 FontAwesomeIcon: 'solid fa-school'
 ---
 
@@ -86,4 +86,4 @@ Ultimately I went with Nunjucks because it was modern, had out of the box suppor
 
 ## Wins
 
-Setting up an RSS feed was easy. On the second try. When I read the docs. 
+Setting up an RSS feed was easy. On the second try. When I read the docs.

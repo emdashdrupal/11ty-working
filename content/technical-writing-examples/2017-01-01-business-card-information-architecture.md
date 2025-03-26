@@ -1,6 +1,6 @@
 ---
-title : "Business card information architecture"
-date: "2017-01-01"
+title: Business card information architecture
+date: 2017-01-01
 categories:
   - "content strategy"
   - "information architecture"

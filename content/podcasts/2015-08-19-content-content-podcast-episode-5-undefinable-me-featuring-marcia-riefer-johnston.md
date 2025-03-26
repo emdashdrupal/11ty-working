@@ -1,11 +1,11 @@
 ---
-title : "Undefinable Me featuring Marcia Riefer Johnston"
-date: "2015-08-19"
+title: Undefinable Me featuring Marcia Riefer Johnston
+date: 2015-08-19
 categories:
   - "content strategy"
   - "podcast"
   - "technical writing"
-cover : "Marcia-365_rt_smlweb.jpg"
+cover: Marcia-365_rt_smlweb.jpg
 coverAlt : "Marcia Riefer Johnston, guest for episode 5 of the Content Content podcast"
 description: 'Tech writer turned content marketer and strategist Marcia Riefer Johnston discusses her career transitions, her two highly rated books, and her strong love of Strunk and White.'
 mp3File: Undescribable_Me_featuring_Marcia_Riefer_Johnston-Content_Content_podcast_episode_5.mp3

@@ -1,11 +1,11 @@
 ---
-title : "All the things in my Venn diagram with Alisa Bonsignore"
-date: "2020-09-30"
+title : All the things in my Venn diagram with Alisa Bonsignore
+date: 2020-09-30
 categories:
   - "content strategy"
   - "podcast"
   - "technical writing"
-cover : "alisa-bonsignore.jpg"
+cover: alisa-bonsignore.jpg
 description : Alisa Bonsignore, strategic communications consultant, talks to Ed Marsh about how she fell into things her entire career, global and career sustainability, and how to have a growth mindset during *this*.
 mp3File : Content_Content_podcast_Alisa_Bonsignore.mp3
 ---

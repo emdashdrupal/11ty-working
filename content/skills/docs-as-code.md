@@ -1,5 +1,5 @@
 ---
-title : "Docs-as-code"
+title: Docs-as-code
 description : I use developer-focused tools like Markdown, Git, and VS Code to democratize content creation across your organization.
 FontAwesomeIcon: solid fa-code
 categories: ["docs-as-code", "technical-writing"]

@@ -1,6 +1,6 @@
 ---
-title: "Technical Communication Leadership"
-description: "30+ years of expertise in content strategy, documentation, and community building"
+title: Technical Communication Leadership
+description: 30+ years of expertise in content strategy, documentation, and community building
 ---
 
 ## Transforming technical communication for modern organizations

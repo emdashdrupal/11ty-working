@@ -1,6 +1,6 @@
 ---
-title : "Can a deli have a user experience problem?"
-date: "2016-06-28"
+title: Can a deli have a user experience problem?
+date: 2016-06-28
 categories:
 
   - "user experience"

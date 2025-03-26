@@ -1,13 +1,13 @@
 ---
-title : "Holding somebody else's place with Sean Heckman"
-date: "2018-04-20"
+title: Holding somebody else's place with Sean Heckman
+date: 2018-04-20
 categories:
   - "motorsports"
   - "podcast"
 tags :
   - "lime-rock"
   - "podcasts"
-cover : "sean_heckman.jpg"
+cover: sean_heckman.jpg
 coverAlt : "Sean Heckman, owner of The Media Barons, and co-host of the Dinner with Racers podcast, on the Content Content podcast"
 description : Sean Heckman was a racer, a figure skater, a TV writer and producer, almost a lawyer, and finally owner of [The Media Barons](http://themediabarons.com) and a [podcast mogul](https://dinnerwithracers.com). Learn what it's like to drive across the USA for 30+ days interviewing racing legends, while running a content creation business that caters to small businesses.
 mp3File: Content_Content_podcast_episode_23_Sean_Heckman.mp3

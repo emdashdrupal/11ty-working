@@ -1,6 +1,6 @@
 ---
-title : "Time as a Tool featuring Alan Houser"
-date: "2015-03-18"
+title: Time as a Tool featuring Alan Houser
+date: 2015-03-18
 categories:
   - "podcast"
   - "technical writing"

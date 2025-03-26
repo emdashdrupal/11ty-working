@@ -1,5 +1,5 @@
 ---
-title : "Content governance"
+title: Content governance
 FontAwesomeIcon: "solid fa-file-shield"
 description : "Content without governance is an organizational nightmare, unsustainable, and impossible to maintain."
 categories: governance

@@ -1,10 +1,10 @@
 ---
-title : "Not acting like slow computers with Rahel Bailie"
-date: "2021-04-14"
+title : Not acting like slow computers with Rahel Bailie
+date: 2021-04-14
 categories: ["podcast", "content-strategy"]
-tags : "content-operations"
-cover : "rahel_bailie_headshot.jpg"
-description : "Rahel Bailie joins Ed Marsh to talk about an uneven history of content strategy, object-oriented content, how her career has led her across two continents, and the history of women in technical communication."
+tags : content-operations
+cover: rahel_bailie_headshot.jpg
+description : Rahel Bailie joins Ed Marsh to talk about an uneven history of content strategy, object-oriented content, how her career has led her across two continents, and the history of women in technical communication.
 mp3File: Content_Content_podcast_Rahel_Bailie.mp3
 ---
 Her [_Content Strategy_ book](https://smile.amazon.com/Content-Strategy-Connecting-Business-Benefits/dp/1937434168/ref=sr_1_1?dchild=1&keywords=rahel+bailie&qid=1618343360&sr=8-1) with [Noz Urbina](https://edmarsh.com/2020/04/07/1000-or-100000-meetings-with-noz-urbina-content-content-podcast/) remains one of Ed's most highlighted (highlit?) reads. We discuss Content Operations (ContentOps or DocOps), introducing efficiency, and more. I hope you laugh as much as we did.

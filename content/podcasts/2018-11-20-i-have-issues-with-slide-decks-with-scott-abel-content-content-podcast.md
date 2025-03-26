@@ -1,6 +1,6 @@
 ---
-title : "I have issues with slide decks with Scott Abel"
-date: "2018-11-20"
+title: I have issues with slide decks with Scott Abel
+date: 2018-11-20
 categories:
   - "content strategy"
   - "information architecture"
@@ -10,7 +10,7 @@ tags :
   - "content strategy"
   - "information architecture"
   - "technical communication"
-cover : "scott_abel.jpeg"
+cover: scott_abel.jpeg
 description: Scott Abel, also known as [The Content Wrangler](https://www.thecontentwrangler.com) and the host of [Information Development World](https://informationdevelopmentworld.com/), talks to Ed Marsh about the parallels between music and single sourcing, smooth segues between paragraphs, intelligent content, and content strategy in the medical field.
 mp3File: Content_Content_podcast_Scott_Abel.mp3
 ---

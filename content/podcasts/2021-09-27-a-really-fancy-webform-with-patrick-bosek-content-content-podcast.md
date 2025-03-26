@@ -1,6 +1,6 @@
 ---
-title : "A really fancy webform with Patrick Bosek"
-date: "2021-09-27"
+title : A really fancy webform with Patrick Bosek
+date: 2021-09-27
 categories:
   - "content strategy"
   - "information architecture"
@@ -10,9 +10,9 @@ categories:
 tags :
   - "technical communication"
   -  "dita"
-cover: "Patrick-Bosekcurrent-social-960x1280.jpg"
-coverAlt : "Patrick Bosek of Heretto"
-description : "In this episode, Heretto CEO Patrick Bosek explains why pure techcomm is going away, why being a CEO is like being an eight year old with a lemonade stand, and more."
+cover: Patrick-Bosekcurrent-social-960x1280.jpg
+coverAlt : Patrick Bosek of Heretto
+description : In this episode, Heretto CEO Patrick Bosek explains why pure techcomm is going away, why being a CEO is like being an eight year old with a lemonade stand, and more.
 mp3File: content-content-podcast-patrick-bosek.mp3
 ---
 

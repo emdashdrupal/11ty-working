@@ -1,6 +1,6 @@
 ---
-title : "I can eat glass with Keith Schengili-Roberts"
-date: "2018-03-13"
+title: I can eat glass with Keith Schengili-Roberts
+date: 2018-03-13
 categories:
   - "content strategy"
   - "information architecture"
@@ -8,7 +8,7 @@ categories:
   - "technical writing"
 tags :
   - "DITA"
-cover : "KeithSR-headshoulders-300x300.jpg"
+cover: KeithSR-headshoulders-300x300.jpg
 description : Keith Schengili-Roberts, market researcher and DITA Evangelist for [IXIASOFT](http://www.ixiasoft.com/en/), and Ed Marsh discuss the old days of HTML, Archie, Veronica, fax software, and more. We also talk about what the hell a DITA evangelist does.
 mp3File: Content_Content_podcast_episode_22_Keith_Schengili-Roberts.mp3
 ---

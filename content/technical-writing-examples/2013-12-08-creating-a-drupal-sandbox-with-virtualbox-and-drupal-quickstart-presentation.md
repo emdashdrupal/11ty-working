@@ -1,6 +1,6 @@
 ---
-title : "Creating a Drupal sandbox with VirtualBox and Drupal Quickstart (Presentation)"
-date: "2013-12-08"
+title: Creating a Drupal sandbox with VirtualBox and Drupal Quickstart (Presentation)
+date: 2013-12-08
 tags : ["drupal", "how-to", "examples", "presentation"]
 ---
 

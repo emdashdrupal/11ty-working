@@ -1,12 +1,12 @@
 ---
-title : "Emo analytics with Allie Proff"
-date: "2017-07-26"
+title: Emo analytics with Allie Proff
+date: 2017-07-26
 categories:
   - "content strategy"
   - "information architecture"
   - "podcast"
   - "technical writing"
-cover: "allie_proff.jpg"
+cover: allie_proff.jpg
 coverAlt: "Allie Proff, Content Content podcast episode 17 guest"
 description: 'Allie Proff works for [freaking Boeing](http://www.boeing.com/). We discuss emotive analytics, technical storytelling, technology as a tool for good and bad, and a meta podcast moment.'
 mp3File: content_content_podcast_episode_17_-_Allie_Proff.mp3

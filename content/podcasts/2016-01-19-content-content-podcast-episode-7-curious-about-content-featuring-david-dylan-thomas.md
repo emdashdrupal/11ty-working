@@ -1,13 +1,13 @@
 ---
-title : "Curious about content featuring David Dylan Thomas"
-date: "2016-01-19"
+title: Curious about content featuring David Dylan Thomas
+date: 2016-01-19
 categories:
   - "content strategy"
   - "podcast"
   - "technical writing"
 tags :
   - "dita"
-cover : "David-Dylan-Thomas-300x225.jpg"
+cover: David-Dylan-Thomas-300x225.jpg
 coverAlt : "David Dylan Thomas, content strategist and moviemaker"
 description : "A free-wheeling show starts off 2016 starring David Dylan Thomas, Senior Content Strategist. Our topics include what a content strategist does, the future of content and work, getting noticed on social media, and even a few movies to see."
 mp3File: Curious_about_content_featuring_David_Dylan_Thomas_Content_Content_podcast_episode_7.mp3

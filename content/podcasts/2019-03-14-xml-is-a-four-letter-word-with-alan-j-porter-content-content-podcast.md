@@ -1,6 +1,6 @@
 ---
-title : "XML is a four-letter word with Alan J. Porter"
-date: "2019-03-14"
+title: XML is a four-letter word with Alan J. Porter
+date: 2019-03-14
 categories:
 
 - "content strategy"
@@ -14,7 +14,7 @@ tags :
 - "dita"
 - "information architecture"
 - "metadata"
-cover: "alanporter_003-300x200.jpg"
+cover: alanporter_003-300x200.jpg
 coverAlt : "Alan J. Porter, Content Content podcast guest"
 description : Alan J. Porter, Head of Strategic Services Practice at [[A]](https://simplea.com), talks to Ed Marsh about why tech writers are now content engineers, why metadata is important, what it's like to document <i>massive</i> hardware, and more.
 mp3File: content_content_podcast-alan-porter.mp3

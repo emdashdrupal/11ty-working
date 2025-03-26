@@ -1,6 +1,6 @@
 ---
-title : "Fairly random events featuring Sarah O'Keefe"
-date: "2016-03-11"
+title: Fairly random events featuring Sarah O'Keefe
+date: 2016-03-11
 categories:
   - "content strategy"
   - "podcast"

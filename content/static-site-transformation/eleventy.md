@@ -1,5 +1,5 @@
 ---
-title : "Moving to Eleventy SSG"
+title: Moving to Eleventy SSG
 description : The good news is there are a lot of static site generators to choose from, and that they all work similarly. The bad news is there are a lot of static site generators to choose from, and that they all work similarly.
 FontAwesomeIcon: 'solid fa-person-walking'
 ---

@@ -11,7 +11,7 @@ eleventyNavigation:
 ---
 title: "Codebase Documentation"
 description: "Technical documentation for the static site implementation"
-date: "2024-02-11"
+date: 2024-02-11
 ---
 ```
 # Site Implementation Documentation

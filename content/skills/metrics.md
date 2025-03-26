@@ -1,7 +1,7 @@
 ---
-title : "Metrics and data"
+title : Metrics and data
 description: Every organization wants to know how its content is performing. Content strategists and technical writers also want to know those metrics so they can plan and ensure the content they create is relevant and highly used topics are addressed.
-FontAwesomeIcon: "solid fa-magnifying-glass-chart"
+FontAwesomeIcon: solid fa-magnifying-glass-chart
 categories: metrics
 ---
 
