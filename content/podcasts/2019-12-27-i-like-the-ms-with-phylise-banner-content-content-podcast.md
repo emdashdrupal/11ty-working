@@ -5,8 +5,7 @@ categories:
   - "podcast"
   - "technical writing"
   - "user experience"
-tags :
-  - "ux"
+tags : ux
 cover: Phylise-Banner-head-Shot.jpg
 coverAlt : "Phylise Banner, learning experience designer and Content Content podcast guest. Photo credit: Susan Blackburn"
 description : Phylise Banner, learning experience designer, talks to Ed Marsh about being a digital native, why eLearning and forms are so bad, what it's like coordinating the online community at a major conference, and her passion for education theory and transportation.

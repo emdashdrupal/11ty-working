@@ -7,8 +7,8 @@ categories:
   - "podcast"
   - "technical writing"
 cover: Andrea_Ames_headshot-300x275.png
-coverAlt : "Andrea Ames, Content Content podcast episode 21 guest"
-description : "Andrea Ames and Ed Marsh discuss the evolution of the technical communication field, the number of job titles for technical communicators, the frustrations of proving your value, and laugh a lot."
+coverAlt : Andrea Ames, Content Content podcast episode 21 guest
+description : Andrea Ames and Ed Marsh discuss the evolution of the technical communication field, the number of job titles for technical communicators, the frustrations of proving your value, and laugh a lot.
 mp3File: Content-Content-podcast-episode-21-Andrea-Ames.mp3
 ---
 
