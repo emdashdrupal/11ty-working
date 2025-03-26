@@ -10,4 +10,3 @@ I find out how your content is performing so you can report and improve.
 - Set up custom Kibana dashboards.
 - Analyzed metrics to create custom quarterly reports for senior management.
 - Wrote SQL queries to analyze actual performance of legacy help system.
-

@@ -1,6 +1,6 @@
 ---
-title : Moving from Wordpress to a static site generator series
-description: This is my journey moving to a static site generator (SSG) from a self-hosted Wordpress site with a theme that I didn't update for 10 years, and content that hadn't been updated in three years.
+title : Moving from WordPress to a static site generator series
+description: This is my journey self-migrating from a self-hosted WordPress site to a static site generator (SSG).
 date: 2024-11-24
 tags : ssg
 eleventyExcludeFromCollections : true

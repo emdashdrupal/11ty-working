@@ -1,11 +1,11 @@
 ---
-title: Technical Communication Leadership
-description: 30+ years of expertise in content strategy, documentation, and community building
+title: Technical communication leadership
+description: Ed Marsh has over 30 years of expertise in content strategy, documentation, and community building.
 ---
 
 ## Transforming technical communication for modern organizations
 
-As a seasoned technical communication professional, I bring a comprehensive skillset that helps organizations streamline their content operations and build stronger connections with their users.
+As a seasoned technical communication professional, I help organizations streamline their content operations and build stronger connections with their users.
 
 ### Strategic content leadership
 
@@ -35,6 +35,6 @@ As a seasoned technical communication professional, I bring a comprehensive skil
 - Metric-based content performance analysis.
 - Cross-functional team leadership.
 
-My approach combines technical expertise with practical business acumen, helping organizations not just create documentation, but build sustainable content ecosystems that drive user engagement and support business growth.
+My approach helps organizations not just create documentation, but build sustainable content ecosystems that drive user engagement and support business growth.
 
 [View my detailed experience](/skills/) or [schedule a consultation](/contact/).
