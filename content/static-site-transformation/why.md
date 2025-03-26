@@ -8,7 +8,7 @@ featuredOrder: 0
 
 Frankly, it was strategic. My contract ended at the end of 2024. I needed a job. To get a job, you need writing samples. Mine were woefully out of date, as was my WordPress site. I didn't realize *just* how out of date it was until I got deep into this project.
 
-It was an opportunity to review 15 years' worth of content, get rid of some cruft, reduce my hosting costs, learn some things, and put together a portfolio.
+It was an opportunity to review 15 years' worth of content, get rid of cruft, reduce my hosting costs, learn some things, and put together a portfolio.
 
 The content strategy was to blog about the process, and to put that content out on a regular cadence to draw traffic. I also hope to inspire other tech writers to get more technical, and understand how the content we create is consumed programmatically.
 
@@ -20,8 +20,8 @@ My goals were to:
 
 - Update a 10-year-old design.
 - Retire a complex site using WordPress that didn't get much traffic and needed maintenance.
-- Quickly ("quickly") revamp my website to enhance my chances at getting hired.
-- Add value by developing with SSGs. This isn't a skill a lot of technical writers have.
+- Quickly ("quickly") revamp my website to increase my chances at getting hired.
+- Add value by developing with SSGs, which isn't a skill a lot of technical writers have.
 - Learn newer technologies (that [leverage old ones like HTML and CSS](../creating-templates)).
 
 ### Content goals
