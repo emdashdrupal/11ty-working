@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-         <!-- Google analytics -->
+        <!-- Google analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-21YG9R142H"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -31,25 +31,24 @@
         <link href="/pagefind/pagefind-overrides.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
 
-
-
     </head>
-    <body class="bg-whitish container mx-auto">
-        {% block nav %}
-            {% include 'layouts/partials/navbar.njk' %}
-            {% include 'layouts/partials/breadcrumb.njk' %}
-        {% endblock %}
+    {% block nav %}
+        {% include 'layouts/partials/navbar.njk' %}
+        {% include 'layouts/partials/breadcrumb.njk' %}
+    {% endblock %}
+    <body class="container mx-auto">
+
         {% block content %}
             <main>
 
-                <article data-pagefind-body {% if layout == "layouts/details.njk" %} class="prose px-4"{% endif %}>
+                <article data-pagefind-body {% if layout == "layouts/details.njk" %} class="px-4"{% endif %}>
                     <h1 class="text-3xl font-bold mb-4">{{title or metadata.title}}</h1>
                     {% if layout == "layouts/details.njk" %}
-                        <p class="text-sm font-sans text-gray-600 mb-4">Updated: {{ page.date.toDateString()}} | {{ 'text' | timeToRead }} read time</p>
+                        <p class="text-sm font-sans text-gray-600 mb-4">Updated: {{ page.date.toDateString()}}</p>
                     {% endif %}
 
                     {% if description %}
-                        <div data-pagefind-weight="6" class="description prose font-sans">{{ description |
+                        <div data-pagefind-weight="6" class="description font-sans">{{ description |
                             markdown | safe }}</div>
                     {% endif %}
 
