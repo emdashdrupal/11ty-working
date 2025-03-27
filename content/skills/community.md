@@ -1,13 +1,14 @@
 ---
 title: Community building
-description: No matter the size of your organization, there are people interested and invested in good documentation. I have a history of finding them, making them beta testers, and champions for documentation.
-FontAwesomeIcon: 'solid fa-people-group'
+description: I excel at finding the people in your organization invested in retaining institutional knowledge through good documentation.
+FontAwesomeIcon: solid fa-people-group
 featured: true
 featuredOrder: 3
 categories: community-building
 ---
 
-There are people in your organization invested in retaining institutional knowledge.
+I have a history of finding them and encouraging them to be champions for documentation.
+
 
 ## How I've built community
 

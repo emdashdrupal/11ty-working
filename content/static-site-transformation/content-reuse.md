@@ -29,6 +29,6 @@ I created (with the help of GitHub Copilot) two `json` files:
     },
     ```
 
-This made it easy to populate sections of my skills pages with the relevant presentations and tools programmatically:
+This made it easy to populate sections of my skills pages with the relevant presentations and tools programmatically. If you look at this screenshot, you can see how this approach enforces structure:
 
 ![yeh](/assets/images/programmatic-columns.png)
