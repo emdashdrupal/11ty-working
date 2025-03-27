@@ -22,18 +22,21 @@
 {% endif %}
 
 {% set pageCategory = categories %}
+{% set isPublicSpeakingPage = page.fileSlug === 'public-speaking' %}
 {% set filteredPresentations = presentations | filterByCategory(pageCategory) %}
 
 <div class="grid grid-cols-3 md:grid-cols-3 gap-8">
-    {% if filteredPresentations.length > 0 %}
+    {% if (isPublicSpeakingPage)  %}
         <div class="md:col-span-2">
-
-            <h2>Related examples</h2>
             {% include "layouts/partials/presos.njk" %}
-
         </div>
+        {% elseif filteredPresentations.length > 0 %}
+                <div class="md:col-span-3">
+        <h2>Related experience</h2>
+            {% include "layouts/partials/presos.njk" %}
+            </div>
     {% endif %}
-    <div class="md:col-span-1">
+    <div class="md:col-span-2">
         {% include "layouts/partials/tools.njk" %}
     </div>
 </div>
