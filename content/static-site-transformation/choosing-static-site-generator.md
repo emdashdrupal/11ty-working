@@ -1,7 +1,7 @@
 ---
-title : "Choosing a static site generator"
+title: Choosing a static site generator
 description: What I knew I wanted (ease-of-use) and didn't want ("ease of use") out of static site generators (SSGs).
-date: "2024-11-26"
+date: 2024-11-26
 tags : "content-strategy"
 FontAwesomeIcon: "solid fa-file-waveform"
 ---

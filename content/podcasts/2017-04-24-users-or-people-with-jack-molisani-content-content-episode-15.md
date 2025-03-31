@@ -1,6 +1,6 @@
 ---
-title : "Users or people with Jack Molisani"
-date: "2017-04-24"
+title: Users or people with Jack Molisani
+date: 2017-04-24
 categories:
   - "content strategy"
   - "information architecture"

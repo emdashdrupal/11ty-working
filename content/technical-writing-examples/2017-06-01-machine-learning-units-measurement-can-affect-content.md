@@ -1,6 +1,6 @@
 ---
-title : "Machine learning and units of measurement can affect your content"
-date: "2017-06-01"
+title: Machine learning and units of measurement can affect your content
+date: 2017-06-01
 categories:
   - "content strategy"
   - "information architecture"

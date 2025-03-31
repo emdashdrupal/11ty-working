@@ -1,6 +1,6 @@
 ---
-title : "How to Embed Fonts in MadCap Flare WebHelp"
-date: "2010-12-14"
+title: How to Embed Fonts in MadCap Flare WebHelp
+date: 2010-12-14
 categories:
   - "technical writing"
 tags : ["css", "madcap flare", "examples"]

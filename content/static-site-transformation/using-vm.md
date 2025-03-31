@@ -1,5 +1,5 @@
 ---
-title : "Using a virtual development environment"
+title: Using a virtual development environment
 description: Working in a Linux virtual environment helped me focus, learn, and detach from my everyday Windows environment.
 FontAwesomeIcon: solid fa-vr-cardboard
 featured: true

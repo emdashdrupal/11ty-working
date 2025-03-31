@@ -1,5 +1,5 @@
 ---
-title : "Static site takeaways"
+title: Static site takeaways
 description: "A frustrating process (and situation) is ultimately satisfying in multiple ways."
 FontAwesomeIcon: "solid fa-plane-departure"
 featured: true

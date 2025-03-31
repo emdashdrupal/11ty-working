@@ -1,11 +1,12 @@
 ---
 title : Coding experience
-description : Wherein I've dabbled in code for my career.
+description : I've dabbled in code over the course of my career to automate tasks, create websites, and convert structured content to HTML.
 FontAwesomeIcon : solid fa-terminal
 categories: "coding-experience"
 ---
 
 - Created my first web site in the 1990s.
+- Wrote SQL queries to retrieve and analyze actual hidden [user metrics](./metrics.md) of a legacy help system.
 - Wrote custom XSLT to transform DITA XML to HTML that was published to a CMS.
 - Wrote a Python script to help subject matter experts auto-fill the required metadata and fields for their homepage.
 - Wrote numerous scripts to automate repetitive team tasks.

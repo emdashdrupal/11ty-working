@@ -1,6 +1,6 @@
 ---
-title : "Net Neutrality is important for content creators"
-date: "2017-07-13"
+title: Net Neutrality is important for content creators
+date: 2017-07-13
 categories:
   - "social media"
 tags : "examples"

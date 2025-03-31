@@ -1,6 +1,6 @@
 ---
-title : "Curse of knowledge with Tom Johnson"
-date: "2015-07-08"
+title: Curse of knowledge with Tom Johnson
+date: 2015-07-08
 categories:
   - "podcast"
   - "technical writing"

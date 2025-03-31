@@ -1,6 +1,6 @@
 ---
-title : "Clarity over consistency with MJ Babic"
-date: "2021-06-08"
+title : Clarity over consistency with MJ Babic
+date: 2021-06-08
 categories:
   - "podcast"
   - "technical writing"
@@ -8,7 +8,7 @@ categories:
 tags :
   - "UX writing"
   - "ux"
-cover : "1603480107914.jpg"
+cover: 1603480107914.jpg
 description : '"The best term to use to call what I was doing was UX writing" says UX Writer MJ Babic on this episode of the Content Content podcast.'
 mp3File : content-content-podcast_MJ_Babic.mp3
 ---

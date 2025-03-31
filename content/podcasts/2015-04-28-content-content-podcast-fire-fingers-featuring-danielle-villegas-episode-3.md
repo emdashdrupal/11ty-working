@@ -1,6 +1,6 @@
 ---
-title : "Fire fingers featuring Danielle Villegas "
-date: "2015-04-28"
+title: Fire fingers featuring Danielle Villegas
+date: 2015-04-28
 categories:
   - "podcast"
   - "technical writing"

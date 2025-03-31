@@ -1,4 +1,5 @@
-{% for presentation in filteredPresentations | sort(false, false, 'year') | reverse %}
+{% set presentationsList = isPublicSpeakingPage and presentations or filteredPresentations %}
+{% for presentation in presentationsList | sort(false, false, 'year') | reverse %}
     <ul class="presentation">
         <li>
             {% if presentation.link %}
@@ -6,12 +7,10 @@
                     <i class="text-md">{{ presentation.title }}</i>
                 </a>
                 {{ presentation.type }}
-
             {% else %}
                 <i class="text-md">{{ presentation.title }}</i>
                 {{ presentation.type }}
             {% endif %}
-
             <p class="text-sm mt-0">{{ presentation.venue }}, <span class="text-sm text-jet-600">{{ presentation.year }}</span></p>
         </li>
     </ul>

@@ -1,11 +1,11 @@
 ---
-title : "Podcasting"
-description: Podcasts have become an important content offering. I've been a host, producer, and guest.
-FontAwesomeIcon : "solid fa-podcast"
+title : Podcasting
+description: Podcasts are an important content offering. I've been a host, producer, and guest.
+FontAwesomeIcon : solid fa-podcast
 categories: podcasting
 ---
 
-- Creator, host, and producer of the [Content Content podcast](/podcasts/), interviewing leaders in technical communication, IA, content strategy, and more.
+- Created, hosted, scheduled, recorded, edited, produced, published, promoted, and reviewed metrics for the [Content Content podcast](/podcasts/), interviewing leaders in technical communication, information architecture, content strategy, and more.
 - Host of [LavaCon content strategy conference podcast](https://lavacon.org/category/podcast/).
 - Guest:
   - [Content Strategy Experts](https://www.scriptorium.com/2018/02/full-transcript-podcasting-strategy-podcast-guest-ed-marsh/).

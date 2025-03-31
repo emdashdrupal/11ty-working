@@ -1,6 +1,6 @@
 ---
 title: Project management
-description: Technical content is often used throughout many parts of your business. As writers, we coordinate with subject matter experts &mdash; from developers, to product managers, to support teams, and senior management.
+description: Technical content is used throughout many parts of your business &mdash; from marketing to support and more. I excel at coordinating with subject matter experts &mdash; developers, product managers, support teams, and senior management.
 FontAwesomeIcon: solid fa-people-roof
 eleventyNavigation:
     key: Project management

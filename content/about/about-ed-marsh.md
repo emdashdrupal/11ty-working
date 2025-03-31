@@ -7,19 +7,19 @@ FontAwesomeIcon: solid fa-person-circle-question
 
 Even though my job title has always been *technical writer*, I've made complex information accessible for over three decades by incorporating information architecture, content strategy, and community.
 
-As a drummer, I'm a fan of structured content. As a former drumline instructor, my goal is to get several snare drummers to sound like one &mdash; through structure.
+As a drummer, I'm a fan of structure. As a former drumline instructor, my goal was to get several snare drummers to sound like one &mdash; through structure.
 
 I endorse the Oxford (serial) comma.
 
 ## Career journey
 
-My web journey started in the mid-1990s with my [first website](https://web.archive.org/web/19991008110914/http://www.geocities.com/SoHo/Cafe/8299/frameset.html). Since then, I've evolved with technology &mdash; from self-hosting WordPress to building this site with Eleventy starting in 2024. This evolution reflects my commitment to understanding and documenting technology. Continually evolving has been a foundation of my adult life &mdash; from learning how to be a technical communicator, to learning how to teach music to middle- and high-school students, to content strategy, governance, and yadda yadda.
+My web journey started in the mid-1990s with my [first website](https://web.archive.org/web/19991008110914/http://www.geocities.com/SoHo/Cafe/8299/frameset.html). Since then, I've evolved with technology &mdash; from self-hosting WordPress to building this site with Eleventy starting in 2024. This evolution reflects my commitment to understanding and documenting technology. Continually evolving has been a foundation of my adult life &mdash; from learning how to be a technical communicator, to learning how to teach music to middle- and high-school students, to content strategy, governance, and project management.
 
-My career started in New York City's software industry in 1994 as a "technical writing assistant" (I didn't know what technical writing was at the time). I learned how to be a technical writer at Information Builders (now part of Tibco) as part of a large documentation team. After a stint as a solo technical writer for a financial services technical provider, where I spent time on a trading floor and in data centers, I progressed to Goldman Sachs. I worked in two divisions &mdash; creating both user- and developer-facing content &mdash;, and advanced to Vice President. Working in small, medium, and enterprise environments taught me crucial lessons about:
+My career started in New York City's software industry in 1994 as a "technical writing assistant". I didn't know what technical writing was at the time. I learned how to *be* a technical writer at Information Builders (now part of Tibco) as part of a large documentation team. After a stint as a solo technical writer for a financial services SaaS provider, where I spent time on a trading floor and in data centers, I progressed to Goldman Sachs. Over 13 years, I worked in two divisions creating both user- and developer-facing content. Working in small, medium, and enterprise environments taught me crucial lessons about:
 
 - Cross-functional collaboration
 - Risk management
-- Information governance
+- Governance
 - Content strategy at scale
 - Managing projects and subject matter experts
 
@@ -66,14 +66,14 @@ I believe in giving back:
 - Society for Technical Communication (STC) Associate Fellow.
 - Award-winning newsletter editor for STC NY Metro Chapter.
 - Creator of a content-related news aggregation site, [contentcontent.info (Wayback archive)](https://web.archive.org/web/20210303183334/http://contentcontent.info/) (2011-2021).
-- Founding member of Drupal Northern NJ user group.
+- Founding member of Drupal CMS Northern NJ user group.
 
 ## Educational impact
 
 - I've mentored dozens of people:
   - Former students.
-  - Children of former colleagues.
   - Colleagues.
+  - Children of former colleagues.
 - I was a high school marching band instructor for 14 years, including six as director.
   - The band represented New Jersey in Washington DC's National July 4th Parade.
   - I co-founded a percussion ensemble called Cacophony, writing original scores.

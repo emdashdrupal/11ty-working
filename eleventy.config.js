@@ -1,10 +1,9 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
-const timeToRead = require("eleventy-plugin-time-to-read");
 const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
 
-// Create markdown-it instance with custom configuration
+// markdown-it configuration
 const mdOptions = {
   html: true, // Enable HTML tags in source
   breaks: true, // Convert '\n' in paragraphs into <br>
@@ -86,13 +85,12 @@ module.exports = function (eleventyConfig) {
     trim: true,
   });
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  eleventyConfig.addPlugin(timeToRead);
   eleventyConfig.addPlugin(feedPlugin, {
     type: "rss",
     outputPath: "/feed.xml",
     collection: {
       name: "podcasts",
-      limit: 0, // 0 means no limit
+      limit: 0, // 0 = no limit
     },
     metadata: {
       language: "en",
@@ -126,7 +124,6 @@ module.exports = function (eleventyConfig) {
     "_includes/js/copyCode.js": "js/copyCode.js",
   });
 
-  // Add collections more efficiently
   const collections = ["skills", "podcasts", "ssg", "examples"];
 
   collections.forEach((collection) => {
