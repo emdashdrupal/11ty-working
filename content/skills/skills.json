@@ -3,6 +3,6 @@
   "collectionName": "skills",
   "layout": "layouts/details.njk",
   "tags": "skills",
-  "category": "Skills",
+  "category": "skills",
   "categoryFontAwesomeIcon": "solid fa-user-check"
 }
