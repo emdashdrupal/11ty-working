@@ -13,15 +13,15 @@ I endorse the Oxford (serial) comma.
 
 ## Career journey
 
-My web journey started in the mid-1990s with my [first website](https://web.archive.org/web/19991008110914/http://www.geocities.com/SoHo/Cafe/8299/frameset.html). Since then, I've evolved with technology &mdash; from self-hosting WordPress to building this site with Eleventy starting in 2024. This evolution reflects my commitment to understanding and documenting technology. Continually evolving has been a foundation of my adult life &mdash; from learning how to be a technical communicator, to learning how to teach music to middle- and high-school students, to content strategy, governance, and project management.
+My web journey started in the mid-1990s with my [first website (archived link)](https://web.archive.org/web/19991008110914/http://www.geocities.com/SoHo/Cafe/8299/frameset.html). Since then, I've evolved with technology &mdash; from self-hosting WordPress to building this site with Eleventy starting in 2024. This evolution reflects my commitment to understanding and documenting technology. Continually evolving has been a foundation of my adult life &mdash; from learning how to be a technical communicator, to learning how to teach music to middle- and high-school students, to content strategy, governance, and project management.
 
-My career started in New York City's software industry in 1994 as a "technical writing assistant". I didn't know what technical writing was at the time. I learned how to *be* a technical writer at Information Builders (now part of Tibco) as part of a large documentation team. After a stint as a solo technical writer for a financial services SaaS provider, where I spent time on a trading floor and in data centers, I progressed to Goldman Sachs. Over 13 years, I worked in two divisions creating both user- and developer-facing content. Working in small, medium, and enterprise environments taught me crucial lessons about:
+My career started in New York City's software industry in 1994 as a "technical writing assistant". I didn't know what technical writing was at the time. I learned how to *be* a technical writer at Information Builders (now part of Tibco) as part of a large documentation team. After a stint as a solo technical writer for a financial services SaaS provider, where I spent time on a trading floor and in data centers, I progressed to Goldman Sachs. Over 13 years, I worked in two divisions, creating both user- and developer-facing content. Working in small, medium, and enterprise environments taught me crucial lessons about:
 
-- Cross-functional collaboration
-- Risk management
-- Governance
-- Content strategy at scale
-- Managing projects and subject matter experts
+- Cross-functional collaboration.
+- Risk management.
+- Governance.
+- Content strategy at scale.
+- Managing projects and subject matter experts.
 
 ## Expertise
 
