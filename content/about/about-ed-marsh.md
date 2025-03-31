@@ -84,14 +84,14 @@ I believe in giving back:
 
 A proud New Jersey native, I'm passionate about:
 
-- Proper punctuation (especially the semicolon and ellipsis&hellip;)
+- Proper punctuation (especially the semicolon and ellipsis&hellip;).
 - Craft beer (former homebrewer).
 - Making restaurant-quality food at home with local ingredients.
 - IndyCar racing.
 
 ## Recent projects
 
-I recently migrated this site from WordPress to Eleventy, documenting the entire process to help others understand:
+I recently [migrated this site from WordPress to Eleventy](/static-site-transformation/), documenting the entire process to help others understand:
 
 - Static site generators
 - Content strategy
