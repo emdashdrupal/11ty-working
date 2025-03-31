@@ -89,15 +89,15 @@ module.exports = function (eleventyConfig) {
     type: "rss",
     outputPath: "/feed.xml",
     collection: {
-      name: "podcasts",
+      name: "all",
       limit: 0, // 0 = no limit
     },
     metadata: {
       language: "en",
-      title: "Content Content podcast",
+      title: "Testing",
       subtitle:
         "Ed Marsh interviews professionals in technical communication, content strategy, content marketing, information architecture, and others who create, organize, and maintain content online.",
-      base: "https://edmar.sh/podcasts",
+      base: "https://edmar.sh/",
       author: {
         name: "Ed Marsh",
       },

@@ -129,5 +129,19 @@
         ],
         "publisher": "GitHub/Microsoft",
         "title": "GitHub/GitLab"
+    },
+    {
+        "category": [
+            "technical-writing"
+        ],
+        "publisher": "SnagIt",
+        "title": "SnagIt screen capture"
+    },
+    {
+        "category": [
+            "technical-writing"
+        ],
+        "publisher": "Greenshot",
+        "title": "Greenshot screen capture"
     }
 ]
