@@ -7,7 +7,7 @@
     </figure>
 {% endif %}
 {% if content %}
-    {{ content | markdown | safe }}
+    {{ content | safe }}
 {% endif %}
 {% if collectionName == "podcasts" %}
     {% from "layouts/partials/macros.njk" import renderButton %}

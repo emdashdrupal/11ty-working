@@ -3,6 +3,14 @@ title : Ed Marsh creates content and community
 layout : layouts/index.njk
 ---
 
-<p class="mb-6 prose text-jet-100"><span class="text-lg font-sans font-semibold">Hi, I'm Ed Marsh</span>. I'm a technical communicator, content strategist, and community builder. I'm passionate about creating and managing technical content that's clear, concise, and consistent. I specialize in building or revamping documentation practices. My process involves assessing your current content situation, defining structure, implementing content strategy, and engaging the people in your organization who are documentation advocates.</p>
+<span class="text-lg font-sans font-semibold">Hi, I'm Ed Marsh</span>. I'm a technical communicator, content strategist, and community builder. I'm passionate about creating and managing technical content that's clear, concise, and consistent. I specialize in building or revamping documentation practices.
 
-<p class="prose mt-6 text-jet-200">I've worked for software companies and in financial services on both user- and developer-facing documentation.</p>
+
+I've worked for software companies and in financial services on both user- and developer-facing documentation.
+
+
+My process involves:
+- Assessing your current content situation.
+- Defining structure.
+- Implementing content strategy.
+- Engaging the people in your organization who are documentation advocates.
