@@ -8,4 +8,18 @@ eleventyNavigation:
 categories: project-management
 ---
 
-Yeh.
+I've worked in roles where I have to interact with:
+
+- Product managers
+- Business analysts
+- Senior management
+- Cross-divisional leadership
+- The Executive Office
+- Internal Audit
+- Support teams
+- End users
+- Developers
+
+## Stakeholder management
+
+## Cross-functional collaboration
