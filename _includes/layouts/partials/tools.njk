@@ -4,9 +4,8 @@
 {% if filteredTools.length > 0 %}
 <h2>Tools used</h2>
 <ul class="tools-list">
-  {% for tool in filteredTools %}
+  {% for tool in filteredTools | sort(false, false, "title") %}
     <li>
-
       {{ tool.title }} <span class="text-jet-600 text-sm"> by {{ tool.publisher }}</span>
     </li>
   {% endfor %}

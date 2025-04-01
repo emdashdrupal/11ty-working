@@ -59,7 +59,7 @@
 }
 
 .pagefind-ui__search-input {
-    background-color: var(--success-100);
+    background-color: var(--bg-jet-900);
     border: 1px solid var(--success-400);
     border-radius: 3px;
     font-size: 1rem;
