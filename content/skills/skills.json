@@ -1,8 +1,8 @@
 {
   "buttonText": "Learn more",
-  "collectionName": "skills",
+  "collectionName": "Skills",
   "layout": "layouts/details.njk",
   "tags": "skills",
-  "category": "skills",
+  "category": "Skills",
   "categoryFontAwesomeIcon": "solid fa-user-check"
 }
