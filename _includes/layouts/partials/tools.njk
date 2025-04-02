@@ -3,7 +3,7 @@
 
 {% if filteredTools.length > 0 %}
 <h2>Tools used</h2>
-<ul class="tools-list">
+<ul class="tools-list text-md">
   {% for tool in filteredTools | sort(false, false, "title") %}
     <li>
       {{ tool.title }} <span class="text-jet-600 text-sm"> by {{ tool.publisher }}</span>
