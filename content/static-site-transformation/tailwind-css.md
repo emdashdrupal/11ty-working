@@ -14,7 +14,7 @@ Are you sensing a pattern? Because that last sentence is a pattern.
 
 My wife is a front end developer, and she said so. There are many other CSS frameworks like Bootstrap, but the 'buzz' seems to be around Tailwind.
 
-What I initially didn't like is that it automatically "resets" each style to zero. What I  like about CSS is that you can specify the order in which to load your CSS files, so you can set your Tailwind CSS file in your templates' `<head>` section, then override it with your custom CSS.
+I initially didn't like that it resets each style to zero. But a benefit of CSS is that you can specify the order in which to load your CSS files. This meant I could set the Tailwind CSS file in my templates' `<head>` section, and then override it with my custom CSS file.
 
 ```html
 <head>
