@@ -40,7 +40,7 @@
     "title": "Confluence"
   },
   {
-    "category": "metrics",
+    "category": ["metrics", "content-strategy"],
     "publisher": "Elasticsearch",
     "title": "Kibana"
   },
