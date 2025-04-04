@@ -1,4 +1,8 @@
-[
+[{
+    "category": ["docs-as-code", "coding-experience"],
+    "publisher": "Nunjucks",
+    "title": "Nunjucks templating engine"
+  },
   {
     "category": ["technical-writing", "image-editing"],
     "publisher": "Adobe",
