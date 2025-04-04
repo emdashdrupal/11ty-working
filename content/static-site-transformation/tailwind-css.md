@@ -25,14 +25,19 @@ I initially didn't like that it resets each style to zero. But a benefit of CSS 
 
 ## How do I get started?
 
+These tools helped me get familiar with how Tailwind works.
+
+- [Tailwind Grid generator](https://www.tailwindgen.com/)
+- [Tailwind Card generator](https://tailwind-generator.com/card-generator/generator)
+- [Tailwind CSS classes](https://shuffle.dev/tailwind/classes)
+
 ## Generating the CSS files
 
 ```npm
 npx tailwindcss -o _includes/css/tw.css --watch
 ```
 
-## Online tools
+## Contribute
 
-[Tailwind Grid generator](https://www.tailwindgen.com/)
-[Tailwind Card generator](https://tailwind-generator.com/card-generator/generator)
-[Tailwind CSS classes](https://shuffle.dev/tailwind/classes)
+
+
