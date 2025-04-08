@@ -11,7 +11,7 @@
       "title": "Creating Beautiful Online Content with Web Fonts",
       "year": "2017",
       "link": "https://www.stc.org/intercom/2017/11/creating-beautiful-online-content-with-web-fonts/",
-      "category": ["design", "marketing", "content-strategy"],
+      "category": ["design", "marketing", "content-strategy", "technical-writing"],
       "venue": "STC Intercom magazine",
       "type": "article"
     },
@@ -27,7 +27,7 @@
       "title": "Adding value as a technical communicator",
       "year": "2020",
       "link": "https://www.slideshare.net/theedmarsh/2020-adding-value-as-a-technical-communicator-stc-idl-sig",
-      "category": ["technical-writing" , "public-speaking", "metrics"],
+      "category": ["technical-writing" , "public-speaking", "metrics", "structured-authoring"],
       "venue": "STC Instructional Design and Learning special interest group",
       "type": "webinar"
     },
@@ -43,7 +43,7 @@
       "title": "Drive your docs with data",
       "year": "2018",
       "link": "https://www.youtube.com/watch?v=VwsrzbV47tk",
-      "category": ["technical-writing", "metrics", "content-strategy", "public-speaking"],
+      "category": ["technical-writing", "metrics", "content-strategy", "public-speaking", "structured-authoring"],
       "venue": "STC Instructional Design and Learning special interest group",
       "type": "webinar (video)"
     },
@@ -51,7 +51,7 @@
       "title": "Pros and Cons of using Markdown for tech docs",
       "year": "2024",
       "link": "(https://www.brighttalk.com/webcast/9273/608016",
-      "category": ["technical-writing", "markdown", "docs-as-code", "public-speaking"],
+      "category": ["technical-writing", "markdown", "docs-as-code", "public-speaking", "coding-experience"],
       "venue": "Content Wrangler webcast",
       "type": "panel discussion"
     },
@@ -67,7 +67,7 @@
       "title": "So, you want to be a technical writer?",
       "year": "2024",
       "link": "https://www.brighttalk.com/webcast/9273/608187",
-      "category": ["technical-writing", "metrics", "content-strategy", "marketing"],
+      "category": ["technical-writing", "metrics", "content-strategy", "marketing", "structured-authoring"],
       "venue": "Content Wrangler webcast",
       "type": "webinar"
     },

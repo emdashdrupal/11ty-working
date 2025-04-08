@@ -1,133 +1,116 @@
-[
-    {
-        "category": [
-            "technical-writing",
-            "image-editing"
-        ],
-        "publisher": "Adobe",
-        "title": "Photoshop"
-    },
-    {
-        "category": [
-            "technical-writing",
-            "page-layout",
-            "structured-authoring"
-        ],
-        "publisher": "Adobe",
-        "title": "FrameMaker"
-    },
-    {
-        "category": [
-            "technical-writing",
-            "help-authoring-tool"
-        ],
-        "publisher": "Adobe",
-        "title": "RoboHelp"
-    },
-    {
-        "category": [
-            "podcasting",
-            "audio-editing",
-            "audio-production"
-        ],
-        "publisher": "Adobe",
-        "title": "Audition"
-    },
-    {
-        "category": [
-            "podcasting",
-            "audio-editing",
-            "audio-production"
-        ],
-        "publisher": "Open-source",
-        "title": "Audacity"
-    },
-    {
-        "category": [
-            "technical-writing",
-            "page-layout"
-        ],
-        "publisher": "Adobe",
-        "title": "InDesign"
-    },
-    {
-        "category": [
-            "docs-as-code",
-            "product-management",
-            "agile"
-        ],
-        "publisher": "Atlassian",
-        "title": "Jira"
-    },
-    {
-        "category": [
-            "technical-writing",
-            "knowledge-management"
-        ],
-        "publisher": "Atlassian",
-        "title": "Confluence"
-    },
-    {
-        "category": "metrics",
-        "publisher": "Elasticsearch",
-        "title": "Kibana"
-    },
-    {
-        "category": [
-            "technical-writing",
-            "help-authoring-tool"
-        ],
-        "publisher": "MadCap",
-        "title": "Flare"
-    },
-    {
-        "category": [
-            "technical-writing",
-            "structured-authoring",
-            "help-authoring-tool"
-        ],
-        "publisher": "oXygen",
-        "title": "XML Editor"
-    },
-    {
-        "category": [
-            "technical-writing",
-            "docs-as-code",
-            "coding-experience"
-        ],
-        "publisher": "Microsoft",
-        "title": "VS Code"
-    },
-    {
-        "category": [
-            "content-management",
-            "coding-experience"
-        ],
-        "publisher": "Automattic",
-        "title": "WordPress"
-    },
-    {
-        "category": [
-            "content-management",
-            "coding-experience"
-        ],
-        "publisher": "Drupal",
-        "title": "Drupal CMS"
-    },
-    {
-        "category": [
-            "metrics",
-            "coding-experience"
-        ],
-        "publisher": "Microsoft",
-        "title": "SQL Server"
-    },
-    {
-        "category": [
-            "docs-as-code",
-            "coding-experience"
-        ],
-        "publisher": "GitHub/Microsoft",
-        "title": "GitHub/GitLab"
-    }
+[{
+    "category": ["docs-as-code", "coding-experience"],
+    "publisher": "Nunjucks",
+    "title": "Nunjucks templating engine"
+  },
+  {
+    "category": ["technical-writing", "image-editing"],
+    "publisher": "Adobe",
+    "title": "Photoshop"
+  },
+  {
+    "category": ["technical-writing", "page-layout", "structured-authoring"],
+    "publisher": "Adobe",
+    "title": "FrameMaker"
+  },
+  {
+    "category": ["technical-writing", "help-authoring-tool"],
+    "publisher": "Adobe",
+    "title": "RoboHelp"
+  },
+  {
+    "category": ["podcasting", "audio-editing", "audio-production"],
+    "publisher": "Adobe",
+    "title": "Audition"
+  },
+  {
+    "category": ["podcasting", "audio-editing", "audio-production"],
+    "publisher": "Open-source",
+    "title": "Audacity"
+  },
+  {
+    "category": ["technical-writing", "page-layout"],
+    "publisher": "Adobe",
+    "title": "InDesign"
+  },
+  {
+    "category": ["docs-as-code", "product-management", "agile"],
+    "publisher": "Atlassian",
+    "title": "Jira"
+  },
+  {
+    "category": ["technical-writing", "knowledge-management"],
+    "publisher": "Atlassian",
+    "title": "Confluence"
+  },
+  {
+    "category": ["metrics", "content-strategy"],
+    "publisher": "Elasticsearch",
+    "title": "Kibana"
+  },
+  {
+    "category": ["technical-writing", "help-authoring-tool"],
+    "publisher": "MadCap",
+    "title": "Flare"
+  },
+  {
+    "category": [
+      "technical-writing",
+      "structured-authoring",
+      "help-authoring-tool",
+      "coding-experience"
+    ],
+    "publisher": "oXygen",
+    "title": "oXygen XML Editor"
+  },
+  {
+    "category": ["technical-writing", "docs-as-code", "coding-experience"],
+    "publisher": "Microsoft",
+    "title": "VS Code"
+  },
+  {
+    "category": ["content-management", "coding-experience"],
+    "publisher": "Automattic",
+    "title": "WordPress"
+  },
+  {
+    "category": ["content-management", "coding-experience"],
+    "publisher": "Drupal",
+    "title": "Drupal CMS"
+  },
+  {
+    "category": ["metrics", "coding-experience"],
+    "publisher": "Microsoft",
+    "title": "SQL Server"
+  },
+  {
+    "category": ["metrics", "coding-experience"],
+    "publisher": "IBM",
+    "title": "Db2 database"
+  },
+  {
+    "category": ["docs-as-code", "coding-experience"],
+    "publisher": "GitHub/Microsoft",
+    "title": "GitHub/GitLab"
+  },
+  {
+    "category": ["technical-writing"],
+    "publisher": "SnagIt",
+    "title": "SnagIt screen capture"
+  },
+  {
+    "category": ["coding-experience"],
+    "publisher": "Open-source",
+    "title": "PlantUML diagramming language"
+  },
+  {
+    "category": ["technical-writing", "coding-experience"],
+    "publisher": "Open-source",
+    "title": "Extensible Stylesheet Language Transformation (XSLT)"
+  },
+  {
+    "category": ["technical-writing"],
+    "publisher": "John Gruber/open-source",
+    "title": "Markdown"
+  }
 ]
