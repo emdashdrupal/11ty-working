@@ -70,7 +70,6 @@
 a {
     text-decoration: none;
     color: var(--medium-blue);
-    )
 }
 
 a:hover,
@@ -188,7 +187,6 @@ ul li {
     font-optical-sizing: auto;
     line-height: 1.5rem;
     list-style-type: square;
-    list-style-position: inside;
     color: black;
 }
 

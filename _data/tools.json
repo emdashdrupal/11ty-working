@@ -57,7 +57,8 @@
     "category": [
       "technical-writing",
       "structured-authoring",
-      "help-authoring-tool"
+      "help-authoring-tool",
+      "coding-experience"
     ],
     "publisher": "oXygen",
     "title": "XML Editor"
@@ -98,8 +99,18 @@
     "title": "SnagIt screen capture"
   },
   {
+    "category": ["coding-experience"],
+    "publisher": "PlantUML",
+    "title": "PlantUML diagramming language"
+  },
+  {
+    "category": ["technical-writing", "coding-experience"],
+    "publisher": "XSLT",
+    "title": "Extensible Stylesheet Language Transformations (XSLT)"
+  },
+  {
     "category": ["technical-writing"],
-    "publisher": "Greenshot",
-    "title": "Greenshot screen capture"
+    "publisher": "Markdown",
+    "title": "Markdown"
   }
 ]
