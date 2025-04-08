@@ -2,7 +2,7 @@
 {% set filteredTools = tools | filterToolsByCategory(pageCategory) %}
 
 {% if filteredTools.length > 0 %}
-<h2>Tools used</h2>
+<h2>Tools</h2>
 <ul class="tools-list text-md">
   {% for tool in filteredTools | sort(false, false, "title") %}
     <li>
