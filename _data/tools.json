@@ -61,7 +61,7 @@
       "coding-experience"
     ],
     "publisher": "oXygen",
-    "title": "XML Editor"
+    "title": "oXygen XML Editor"
   },
   {
     "category": ["technical-writing", "docs-as-code", "coding-experience"],
@@ -100,17 +100,17 @@
   },
   {
     "category": ["coding-experience"],
-    "publisher": "PlantUML",
+    "publisher": "Open-source",
     "title": "PlantUML diagramming language"
   },
   {
     "category": ["technical-writing", "coding-experience"],
-    "publisher": "XSLT",
-    "title": "Extensible Stylesheet Language Transformations (XSLT)"
+    "publisher": "Open-source",
+    "title": "Extensible Stylesheet Language Transformation (XSLT)"
   },
   {
     "category": ["technical-writing"],
-    "publisher": "Markdown",
+    "publisher": "John Gruber/open-source",
     "title": "Markdown"
   }
 ]
