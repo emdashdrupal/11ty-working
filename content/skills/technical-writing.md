@@ -13,3 +13,7 @@ categories: "technical-writing"
 - **Translator**: Tech writers interact with a bunch of folks with differing commands of the English language, as well as those whose priority or focus isn't on the writing. We get it, we're all busy. That's where tech writers and editors come in.
 
 30+ years of experience means I've touched on all aspects of technical communication.
+
+- Society for Technical Communication (STC) Associate Fellow.
+- Award-winning newsletter editor for STC NY Metro Chapter.
+
