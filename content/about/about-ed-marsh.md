@@ -5,11 +5,7 @@ layout: layouts/details.njk
 FontAwesomeIcon: solid fa-person-circle-question
 ---
 
-
-<img src="/assets/images/ed-marsh.jpg" class="max-w-7 float-right" alt="Ed Marsh" />
-
-As a former high school drumline instructor, my goal was to get young drummers to play and sound like one through teamwork and structure. I bring that approach to content.
-
+<img src="/assets/images/ed-marsh.jpg" style="float:right; width:200px" alt="Ed Marsh" />
 
 I also endorse the Oxford (serial) comma.
 
@@ -65,6 +61,8 @@ I believe in giving back:
 
 ## Educational impact
 
+As a former high school drumline instructor, my goal was to get young drummers to play and sound like one through teamwork and structure. I bring that approach to content.
+
 - I've mentored dozens of people:
   - Former students.
   - Colleagues.
@@ -94,3 +92,4 @@ I recently [migrated this site from WordPress to Eleventy](/static-site-transfor
 - Modern web development practices
 
 Want to learn more about my approach and how I can help your organization? Check out my [skills overview](/skills/) and [writing samples](/technical-writing-examples/).
+
