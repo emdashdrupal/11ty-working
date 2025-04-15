@@ -17,7 +17,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_includes/css/tw.css");
   eleventyConfig.addPassthroughCopy("assets/images");
   eleventyConfig.addPlugin(syntaxHighlightPlugin);
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 };
 dir: {

@@ -5,6 +5,4 @@ tags : "skills"
 eleventyExcludeFromCollections : true
 layout: "layouts/grid.njk"
 buttonText : "Learn more"
-eleventyNavigation:
-        key: Skills
 ---

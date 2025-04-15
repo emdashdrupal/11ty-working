@@ -83,7 +83,6 @@ module.exports = function (eleventyConfig) {
     alwaysWrapLineHighlights: true,
     trim: true,
   });
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(feedPlugin, {
     type: "rss",
     outputPath: "/feed.xml",
