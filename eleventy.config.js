@@ -92,7 +92,7 @@ module.exports = function (eleventyConfig) {
     },
     metadata: {
       language: "en",
-      title: "Testing",
+      title: "Content Content podcast",
       subtitle:
         "Ed Marsh interviews professionals in technical communication, content strategy, content marketing, information architecture, and others who create, organize, and maintain content online.",
       base: "https://edmar.sh/",
