@@ -86,8 +86,8 @@
 {% endmacro %}
 
 {% macro card(url, title, description, buttonText, heroImage) %}
-    <div
-    class="card flex flex-col rounded-xl shadow-md h-full border-gray-200 border-2 p-2"
+    <div style="border: 1px solid var(--cadet-gray); border-radius: 1rem;"
+    class="card flex flex-col rounded-xl shadow-md h-full m-1 p-2"
     aria-labelledby="card-title-{{ title | slugify }}"
 >
         <div class="flex flex-col h-full">
