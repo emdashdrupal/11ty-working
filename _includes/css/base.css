@@ -608,10 +608,16 @@ footer>div>p>a {
 
 .header-anchor {
     text-decoration: none;
-    
+
+}
+.header-anchor::after {
+    content: " #";
+    color: var(--text-jet-700);
+    font-size: 0.8rem;
+
 }
 
-.header-anchor:hover:before {
+.header-anchor:hover:after {
     text-decoration: none;
-    content: "\002693 ";
+    content: " \002693";
 }
