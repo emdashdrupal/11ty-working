@@ -3,7 +3,6 @@
     /* Colors - Alphabetical */
     --blue: #1e90ff;
     --cadet-gray: #94a3b8;
-    --chartreuse: #C7EF00;
     --green-blue: #4b788a;
     --grey-green: #96a396;
     --jet: #3c3744ff;
@@ -16,7 +15,7 @@
     --pagefind-ui-text: var(--text-jet-500);
     --pagefind-ui-text-hover: var(--text-jet-200);
     --pagefind-ui-background: var(--bg-whitish);
-    --pagefind-ui-border: var(--success-400);
+    --pagefind-ui-border: var(--bg-jet-300);
     --pagefind-ui-border-radius: 4px;
     --pagefind-ui-tag: yellow;
     --pagefind-ui-border-width: 2px;
@@ -197,10 +196,6 @@ ul li {
 
 .bg-cadet-gray {
     background-color: var(--cadet-gray);
-}
-
-.bg-chartreuse {
-    background-color: var(--chartreuse);
 }
 
 .bg-success {
