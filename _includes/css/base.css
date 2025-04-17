@@ -59,9 +59,9 @@
 
 .pagefind-ui__search-input {
     background-color: var(--bg-whitish);
-    border: 1px solid var(--success-400);
-    border-radius: 3px;
-    font-size: 1rem;
+    border: 1px solid var(--bg-jet-400);
+    border-radius: 1px;
+    font-size: 0.8rem;
     padding: 0.5rem;
 }
 

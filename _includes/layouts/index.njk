@@ -12,7 +12,7 @@
                     <p class="mt-6">This site is my portfolio. I rebuilt it from the ground up in WordPress to the <a href="https://eleventy.dev">Eleventy static site generator</a> to show how I can help organizations with all aspects of their content.</p>
                     <p class="mt-6">My process involves:</p>
 
-                    <ul>
+                    <ul class="list-inside">
                         <li>Assessing your current content situation.</li>
                         <li>Defining structure.</li>
                         <li>Implementing content strategy.</li>
@@ -35,7 +35,6 @@
         <section class="mx-auto" id="{{collectionName}}">
             <h2 class="px-3">How I can help you</h2>
             <p class="description px-3 text-jet-100">Here are the biggest ways I can help your organization. <a href="/skills/">See all the ways I can help</a>.</p>
-            <div id="cta" style="margin-left:12px; margin-top:6px" class="mb-4">{% include 'layouts/partials/goocal-button.html' %}</div>
             <div class="grid col-auto sm:grid-cols-4 gap-2 px-3">
 
                 {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
@@ -54,7 +53,7 @@
             <p class="description px-3 text-jet-100">I updated and simplified my old WordPress site using the <a href="https://www.11ty.dev/">Eleventy static site generator</a>. Here's how I can use the lessons learned to help you meet your content goals. <span class="col-span-full text-lg font-bold italic">
                     <a href="/static-site-transformation/">Check back frequently to read the full series!</a></span></p>
 
-            <div class="grid col-auto sm:grid-cols-4 gap-2">
+            <div class="grid col-auto sm:grid-cols-4 gap-2 px-3">
 
                 {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
                 {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
