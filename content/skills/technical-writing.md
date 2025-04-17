@@ -19,12 +19,12 @@ categories: "technical-writing"
 
 I've created:
 
-- Online help
-- Multimedia
-- Podcasts
-- eLearning modules
-- Cheat sheets
-- Technical illustrations
-- Printed manuals
-- PDF documentation
 - API reference documentation
+- Cheat sheets
+- eLearning modules
+- Multimedia
+- Online help
+- PDF documentation
+- Podcasts
+- Printed manuals
+- Technical illustrations

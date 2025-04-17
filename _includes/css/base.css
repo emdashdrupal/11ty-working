@@ -605,3 +605,13 @@ footer>div>p>a {
     font-size: 1.1rem;
     line-height: 1.5rem;
 }
+
+.header-anchor {
+    text-decoration: none;
+    
+}
+
+.header-anchor:hover:before {
+    text-decoration: none;
+    content: "\002693 ";
+}
