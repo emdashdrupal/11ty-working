@@ -31,11 +31,11 @@
     </div>
 </div>
 </section>
-
-<section class="border-2 mx-auto my-0 py-0" id="skills">
+<section style="border: 4px solid var(--medium-blue); border-radius: 1rem; padding:4px;">
+<section class="mx-auto" id="skills" style="border: 4px solid var(--grey-green); padding:2px;">
 <h2 class="px-3">How I can help you</h2>
 <p class="description px-3 text-jet-100">Here are the biggest ways I can help your organization. <a href="/skills/">See all the ways I can help</a>.</p>
-    <div id="cta" class="mb-4">{% include 'layouts/partials/goocal-button.html' %}</div>
+    <div id="cta" style="margin-left:12px; margin-top:6px" class="mb-4">{% include 'layouts/partials/goocal-button.html' %}</div>
 <div class="grid col-auto sm:grid-cols-4 gap-2 px-3">
     {% set collectionName = "skills" %}
     {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
@@ -49,7 +49,7 @@
 
 </section>
 
-<section class="border-2 mx-auto my-0 py-0" id="ssg">
+<section class="border-2 mx-auto my-0 py-0" id="ssg" style="border: 2px solid var(--green-blue); border-radius: 1.5px; padding:2px;">
 <h2 class="px-3">Creating a static site</h2>
 <p class="description px-3 text-jet-100">I updated and simplified my old WordPress site using the <a href="https://www.11ty.dev/">Eleventy static site generator</a>. Here's how I can use the lessons learned to help you meet your content goals. <span class="col-span-full text-lg font-bold italic">
         <a href="/static-site-transformation/">Check back frequently to read the full series!</a></span></p>
@@ -66,7 +66,7 @@
 </div>
 </section>
 
-<section class="border-2 mx-auto" id="podcasts">
+<section class="border-2 mx-auto" id="podcasts" style="border: 2px solid var(--text-jet-100); padding:2px;">
 <h2 class="px-3">Recent podcasts</h2>
 <p class="description px-3 text-jet-100">I created (and played every role for) the <a href="podcasts/">Content Content podcast</a>, where I interviewed "the people behind the content" in technical communication, content strategy, content marketing, implementation, and more.
     <span class="text-lg font-bold italic">
@@ -83,5 +83,5 @@
 
 </div>
 </section>
-
+</section>
 {% include 'layouts/partials/footer.njk' %}
