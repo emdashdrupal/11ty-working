@@ -1,6 +1,7 @@
 ---
 title : Creating reusable content
 description : I modularized my presentations and tools experience so they could display in different contexts across the site.
+FontAwesomeIcon: solid fa-recycle
 ---
 
 I created (with the help of GitHub Copilot) two `json` files:

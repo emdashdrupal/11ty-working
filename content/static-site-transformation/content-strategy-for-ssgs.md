@@ -8,6 +8,22 @@ featuredOrder: 1
 
 Structuring content is always important. I appreciate even more why using metadata (front matter) is critical.
 
+### Who are my users?
+
+- Potential employers
+- Podcast listeners
+- Those who want to learn about SSGs
+- Technical writers
+
+## Content goals
+
+- Highlight my various skills in hopes of attracting employers.
+- Create a series of blog posts about my experience migrating from WordPress to a static site generator.
+- Plan to release blog posts on a schedule to drive continuous engagement.
+- Highlight my podcast, as the old site really didn't. I'm also considering reviving it.
+- Get rid of legacy content.
+- Ensure the site is accessible.
+
 ## Content types
 
 I created three main content types (page types):

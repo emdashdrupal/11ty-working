@@ -2,9 +2,6 @@
 title: AI-generated documentation for my site
 description: I [asked AI to generate documentation](/static-site-transformation/writing-with-ai/) for my site's codebase. Here's the output.
 eleventyExcludeFromCollections: true
-eleventyNavigation:
-    key: "AI Docs"
-    parent: "Static site transformation"
 ---
 
 ```yaml
@@ -62,14 +59,12 @@ The `eleventy.config.js` file manages the site's core functionality:
 ```javascript
 // filepath: /eleventy.config.js
 const syntaxHighlightPlugin = require("@11ty/eleventy-plugin-syntaxhighlight");
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const timeToRead = require('eleventy-plugin-time-to-read');
 
 module.exports = function (eleventyConfig) {
   // Plugin configuration
   eleventyConfig.addPlugin(syntaxHighlightPlugin);
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(timeToRead);
 
   // Asset management

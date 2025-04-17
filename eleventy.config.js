@@ -1,5 +1,4 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
 
@@ -84,7 +83,6 @@ module.exports = function (eleventyConfig) {
     alwaysWrapLineHighlights: true,
     trim: true,
   });
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(feedPlugin, {
     type: "rss",
     outputPath: "/feed.xml",
@@ -94,7 +92,7 @@ module.exports = function (eleventyConfig) {
     },
     metadata: {
       language: "en",
-      title: "Testing",
+      title: "Content Content podcast",
       subtitle:
         "Ed Marsh interviews professionals in technical communication, content strategy, content marketing, information architecture, and others who create, organize, and maintain content online.",
       base: "https://edmar.sh/",

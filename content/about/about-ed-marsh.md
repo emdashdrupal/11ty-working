@@ -5,47 +5,26 @@ layout: layouts/details.njk
 FontAwesomeIcon: solid fa-person-circle-question
 ---
 
-Even though my job title has always been *technical writer*, I've made complex information accessible for over three decades by incorporating information architecture, content strategy, and community.
+<img src="/assets/images/ed-marsh.jpg" style="float:right; width:200px" alt="Ed Marsh" />
 
-As a drummer, I'm a fan of structure. As a former drumline instructor, my goal was to get several snare drummers to sound like one &mdash; through structure.
+A proud New Jersey native, I'm passionate about:
 
-I endorse the Oxford (serial) comma.
+- Proper punctuation (especially the semicolon and ellipsis&hellip;).
+- Craft beer (former homebrewer).
+- Making restaurant-quality food at home with local ingredients.
+- IndyCar racing.
 
 ## Career journey
 
-My web journey started in the mid-1990s with my [first website (archived link)](https://web.archive.org/web/19991008110914/http://www.geocities.com/SoHo/Cafe/8299/frameset.html). Since then, I've evolved with technology &mdash; from self-hosting WordPress to building this site with Eleventy starting in 2024. This evolution reflects my commitment to understanding and documenting technology. Continually evolving has been a foundation of my adult life &mdash; from learning how to be a technical communicator, to learning how to teach music to middle- and high-school students, to content strategy, governance, and project management.
+My web journey started in the mid-1990s with my [first website (archived link)](https://web.archive.org/web/19991008110914/http://www.geocities.com/SoHo/Cafe/8299/frameset.html). Since then, I've evolved with technology &mdash; from self-hosting WordPress to building this site with Eleventy starting in late 2024. This evolution reflects my commitment to understanding and documenting technology. Continually evolving has been a foundation of my adult life &mdash; from learning how to be a technical communicator, to learning how to teach music to middle- and high-school students, to content strategy, governance, and project management.
 
-My career started in New York City's software industry in 1994 as a "technical writing assistant". I didn't know what technical writing was at the time. I learned how to *be* a technical writer at Information Builders (now part of Tibco) as part of a large documentation team. After a stint as a solo technical writer for a financial services SaaS provider, where I spent time on a trading floor and in data centers, I progressed to Goldman Sachs. Over 13 years, I worked in two divisions, creating both user- and developer-facing content. Working in small, medium, and enterprise environments taught me crucial lessons about:
+My career started in New York City's software industry at Information Builders (now part of Tibco) in 1994. I learned how to be a technical writer as part of a large documentation team. After a stint as a solo technical writer for a financial services SaaS provider, where I spent time on a trading floor and in data centers, I progressed to Goldman Sachs. Over 13 years, I worked in two divisions on Wall Street, creating both user- and developer-facing content. Working in small, medium, and enterprise environments taught me crucial lessons about:
 
 - Cross-functional collaboration.
 - Risk management.
 - Governance.
 - Content strategy at scale.
 - Managing projects and subject matter experts.
-
-## Expertise
-
-I specialize in making complex information accessible through:
-
-- [Information architecture](/skills/information-architecture/)
-- [Content strategy](/skills/content-strategy/)
-- [Software documentation](/skills/technical-writing/) for clients, end users, and developers.
-- [eLearning development](/skills/elearning/)
-- [Multimedia content](/skills/multimedia/)
-- [Technical podcasting](/skills/podcasting/)
-- [Standardized epics and user stories](/skills/agile/)
-
-I've created:
-
-- Online help
-- Multimedia
-- Podcasts
-- eLearning modules
-- Cheat sheets
-- Technical illustrations
-- Printed manuals
-- PDF documentation
-- API reference documentation
 
 ## Community impact
 
@@ -61,14 +40,9 @@ I believe in giving back:
   - [Content Strategy Experts](https://www.scriptorium.com/2018/02/.full-transcript-podcasting-strategy-podcast-guest-ed-marsh/)
   - I'd rather be writing [Evolution of podcasting](https://idratherbewriting.com/blog/evolution-of-podcasting-podcast-ed-marsh).
 
-### Notable contributions
-
-- Society for Technical Communication (STC) Associate Fellow.
-- Award-winning newsletter editor for STC NY Metro Chapter.
-- Creator of a content-related news aggregation site, [contentcontent.info (Wayback archive)](https://web.archive.org/web/20210303183334/http://contentcontent.info/) (2011-2021).
-- Founding member of Drupal CMS Northern NJ user group.
-
 ## Educational impact
+
+As a former high school drumline instructor, my goal was to get young drummers to play and sound like one through teamwork and structure. I bring that approach to content.
 
 - I've mentored dozens of people:
   - Former students.
@@ -80,22 +54,3 @@ I believe in giving back:
   - I created and maintained the band's website starting in 1996. The band performed in an Ikea video because they found our website.
   - In 2006, [School Band and Orchestra](http://www.sbomagazine.com/) magazine recognized me as one of "50 Directors Who Make a Difference", representing New Jersey.
 
-## Personal
-
-A proud New Jersey native, I'm passionate about:
-
-- Proper punctuation (especially the semicolon and ellipsis&hellip;).
-- Craft beer (former homebrewer).
-- Making restaurant-quality food at home with local ingredients.
-- IndyCar racing.
-
-## Recent projects
-
-I recently [migrated this site from WordPress to Eleventy](/static-site-transformation/), documenting the entire process to help others understand:
-
-- Static site generators
-- Content strategy
-- Information architecture
-- Modern web development practices
-
-Want to learn more about my approach and how I can help your organization? Check out my [skills overview](/skills/) or [writing samples](/technical-writing-examples/).
