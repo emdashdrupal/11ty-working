@@ -7,7 +7,12 @@ FontAwesomeIcon: solid fa-person-circle-question
 
 <img src="/assets/images/ed-marsh.jpg" style="float:right; width:200px" alt="Ed Marsh" />
 
-I also endorse the Oxford (serial) comma.
+A proud New Jersey native, I'm passionate about:
+
+- Proper punctuation (especially the semicolon and ellipsis&hellip;).
+- Craft beer (former homebrewer).
+- Making restaurant-quality food at home with local ingredients.
+- IndyCar racing.
 
 ## Career journey
 
@@ -20,30 +25,6 @@ My career started in New York City's software industry at Information Builders (
 - Governance.
 - Content strategy at scale.
 - Managing projects and subject matter experts.
-
-## Expertise
-
-I specialize in making complex information accessible through:
-
-- [Information architecture](/skills/information-architecture/)
-- [Content strategy](/skills/content-strategy/)
-- [Software documentation](/skills/technical-writing/) for clients, end users, and developers.
-- [eLearning development](/skills/elearning/)
-- [Multimedia content](/skills/multimedia/)
-- [Technical podcasting](/skills/podcasting/)
-- [Standardized epics and user stories](/skills/agile/)
-
-I've created:
-
-- Online help
-- Multimedia
-- Podcasts
-- eLearning modules
-- Cheat sheets
-- Technical illustrations
-- Printed manuals
-- PDF documentation
-- API reference documentation
 
 ## Community impact
 
@@ -72,24 +53,4 @@ As a former high school drumline instructor, my goal was to get young drummers t
   - I co-founded a percussion ensemble called Cacophony, writing original scores.
   - I created and maintained the band's website starting in 1996. The band performed in an Ikea video because they found our website.
   - In 2006, [School Band and Orchestra](http://www.sbomagazine.com/) magazine recognized me as one of "50 Directors Who Make a Difference", representing New Jersey.
-
-## Personal
-
-A proud New Jersey native, I'm passionate about:
-
-- Proper punctuation (especially the semicolon and ellipsis&hellip;).
-- Craft beer (former homebrewer).
-- Making restaurant-quality food at home with local ingredients.
-- IndyCar racing.
-
-## Recent projects
-
-I recently [migrated this site from WordPress to Eleventy](/static-site-transformation/), documenting the entire process to help others understand:
-
-- Static site generators
-- Content strategy
-- Information architecture
-- Modern web development practices
-
-Want to learn more about my approach and how I can help your organization? Check out my [skills overview](/skills/) and [writing samples](/technical-writing-examples/).
 

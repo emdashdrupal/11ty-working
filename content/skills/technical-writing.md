@@ -17,3 +17,14 @@ categories: "technical-writing"
 - Society for Technical Communication (STC) Associate Fellow.
 - Award-winning newsletter editor for STC NY Metro Chapter.
 
+I've created:
+
+- Online help
+- Multimedia
+- Podcasts
+- eLearning modules
+- Cheat sheets
+- Technical illustrations
+- Printed manuals
+- PDF documentation
+- API reference documentation
