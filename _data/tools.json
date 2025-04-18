@@ -1,5 +1,5 @@
 [{
-    "category": ["docs-as-code", "coding-experience"],
+    "category": ["docs-as-code", "coding-experience", "technical-writing"],
     "publisher": "Nunjucks",
     "title": "Nunjucks templating engine"
   },
@@ -34,7 +34,7 @@
     "title": "InDesign"
   },
   {
-    "category": ["docs-as-code", "product-management", "agile"],
+    "category": ["docs-as-code", "product-management", "agile", "technical-writing"],
     "publisher": "Atlassian",
     "title": "Jira"
   },
@@ -89,7 +89,7 @@
     "title": "Db2 database"
   },
   {
-    "category": ["docs-as-code", "coding-experience"],
+    "category": ["docs-as-code", "coding-experience", "technical-writing"],
     "publisher": "GitHub/Microsoft",
     "title": "GitHub/GitLab"
   },

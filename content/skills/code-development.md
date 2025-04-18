@@ -1,6 +1,6 @@
 ---
 title : Coding experience
-description : I've dabbled in code over the course of my career to automate tasks, create websites, and convert structured content to HTML.
+description : I've learned to code over the course of my career to automate tasks, create websites, transform content, and convert structured content to HTML.
 FontAwesomeIcon : solid fa-terminal
 categories: "coding-experience"
 ---
