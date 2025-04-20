@@ -18,3 +18,25 @@ Deploying my test site was this simple:
 4. Press **Publish**.
 
 In a process that was fraught, it was a relief to know I could go live so quickly and easily. I even pointed one of the domains I own to Netlify so I could test on various devices.
+
+## Cloudflare deploy
+
+As I moved forward with this and other projects, I set up a Cloudflare account. This was mostly unrelated to the site build, but it gave me the opportunity to test deployment on Cloudflare.
+
+In a nutshell, this was the frustrating experience I expected. The builds were confusing and didn't work out of the box. According to the log, the eleventy build ran correctly but deployment to Cloudflare was the issue:
+
+```
+ ⛅️ wrangler 4.12.0
+-------------------
+✘ [ERROR] Missing entry-point to Worker script or to assets directory
+ If there is code to deploy, you can either:
+  - Specify an entry-point to your Worker script via the command line (ex: `npx wrangler deploy src/index.ts`)
+- Or create a "wrangler.jsonc" file containing:
+
+{
+  "name": "worker-name",
+  "compatibility_date": "2025-04-20",
+	    "main": "src/index.ts"
+	  }
+
+```
