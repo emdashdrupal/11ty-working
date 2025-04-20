@@ -40,3 +40,5 @@ In a nutshell, this was the frustrating experience I expected. The builds were c
 	  }
 
 ```
+
+This seems like an easy fix, but adds complexity I don't need since I already had Netlify set up. It was nice to confirm I made the correct choice for my use case.
