@@ -11,20 +11,20 @@ const mdOptions = {
 };
 
 const md = new markdownIt(mdOptions)
-  .use(require("markdown-it-anchor")) // Add anchor links to headings
-  .use(require("markdown-it-attrs")); // Add attribute support
-  const anchor = require('markdown-it-anchor')
+  .use(require("markdown-it-anchor")); // First usage
+const anchor = require('markdown-it-anchor');
+md.use(anchor, {                    // Second usage
+  permalink: anchor.permalink.headerLink()
+});
 
-  md.use(anchor, {
-    permalink: anchor.permalink.headerLink()
-  })
 module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('filterBy', function(array, key, value) {
+    // Should check if array is null/undefined first
     return array.filter(item => {
       const keyPath = key.split('.');
       let data = item;
       for (const path of keyPath) {
-        data = data[path];
+        data = data[path];  // Could throw if path doesn't exist
       }
       return data === value;
     });
