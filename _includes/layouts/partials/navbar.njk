@@ -11,8 +11,8 @@ listItem %}
 
         <div id="menubar" class="md:col-span-2">
             <ul class="flex flex-wrap mt-0 pt-0" aria-label="Main navigation menu" role="menubar">
-                {{ dropdown('ssgDropdown', 'Website transformation', collections.ssg, '/static-site-transformation/') }}
                 {{ dropdown('skillsDropdown', 'Skills', collections.skills, '/skills') }}
+                {{ dropdown('ssgDropdown', 'Website transformation', collections.ssg, '/static-site-transformation/') }}
                 {{ listItem('/podcasts/', 'Podcasts') }}
                 {{ listItem('/technical-writing-examples/', 'Writing samples') }}
                 {{ listItem('/about/about-ed-marsh', 'About') }}
