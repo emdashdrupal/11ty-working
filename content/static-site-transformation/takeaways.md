@@ -18,6 +18,10 @@ Trying to work with documentation for several different pieces of software remin
 
 The other nice thing about creating sites from HTML is that you can control how it's generated, and be sure to use the built-in elements to make my site accessible.
 
+## Unfinished business
+
+There are so, *so* many things I want to add or fix after this buildout, but I also knew I had to be realistic with what I could accomplish under my timeframe.
+
 ## Final thoughts
 
 Like any project, learning and implementing is a process. I often think I can skip steps in the process, especially when one of my end goals for this project is to promote myself while looking for a job. You can tell the early writing of these pages by the sheer amount of frustration in my (written) voice. When you're not a full-time developer, writing code and building a website is more fun than video games. It's also a lot easier to control everything when you're a one-man shop. I did not do testing. I
