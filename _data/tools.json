@@ -14,6 +14,11 @@
     "title": "FrameMaker"
   },
   {
+    "category": ["technical-writing", "knowledge-management"],
+    "publisher": "Adobe",
+    "title": "Captivate"
+  },
+  {
     "category": ["technical-writing", "help-authoring-tool"],
     "publisher": "Adobe",
     "title": "RoboHelp"
