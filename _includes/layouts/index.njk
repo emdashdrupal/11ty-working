@@ -36,7 +36,8 @@
 
                 {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
                 {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
-                {% for item in sortedFeatured %}
+                {% set filtered_collections = collections[collectionName] %}
+                {% for item in filtered_collections %}
                     {% if loop.index0 < 4 %}
                         {% include 'layouts/partials/card.njk' %}
                     {% endif %}
@@ -54,7 +55,8 @@
 
                 {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
                 {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
-                {% for item in sortedFeatured %}
+                {% set filtered_collections = collections[collectionName] %}
+                {% for item in filtered_collections %}
                     {% if loop.index0 < 4 %}
                         {% include 'layouts/partials/card.njk' %}
                     {% endif %}
@@ -72,7 +74,8 @@
             </p>
             <div class="grid col-auto sm:grid-cols-4 gap-2 px-3">
 
-                {% for item in collections.podcasts | reverse %}
+                {% set filtered_collections = collections.podcasts %}
+                {% for item in filtered_collections | reverse %}
                     {% if loop.index0 <= 3 %}
                         {% include 'layouts/partials/card.njk' %}
                     {% endif %}
