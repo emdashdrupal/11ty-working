@@ -1,4 +1,4 @@
-{% if collections[collectionName] %}
+{% if collections[collectionName] and collections[collectionName].length > 0 %}
     {% set previousPost = collections[collectionName] | getPreviousCollectionItem(item) %}
     {% set nextPost = collections[collectionName] | getNextCollectionItem(item) %}
 
