@@ -10,16 +10,18 @@ Structuring content is always important. I appreciate even more why using metada
 
 ### Who are my users?
 
-- Potential employers
-- Podcast listeners
-- Those who want to learn about SSGs
-- Technical writers
+The first question of technical writing is *who is the user*? The users you identify inform and guide your content strategy. In my case, my users are:
+
+- Potential employers.
+- Technical writers &mdash; both experienced and new.
+- Listeners of my podcast.
+- Those who want to learn about static site generators (SSGs).
 
 ## Content goals
 
-- Highlight my various skills in hopes of attracting employers.
+- Highlight my skills to attract employers.
 - Create a series of blog posts about my experience migrating from WordPress to a static site generator.
-- Plan to release blog posts on a schedule to drive continuous engagement.
+- Release those blog posts on a schedule to keep content fresh and drive continuous engagement.
 - Highlight my podcast, as the old site really didn't. I'm also considering reviving it.
 - Get rid of legacy content.
 - Ensure the site is accessible.

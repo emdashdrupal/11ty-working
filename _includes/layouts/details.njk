@@ -25,7 +25,7 @@
 {% set isPublicSpeakingPage = page.fileSlug === 'public-speaking' %}
 {% set filteredPresentations = presentations | filterByCategory(pageCategory) %}
 
-<div class="grid grid-cols-3 md:grid-cols-2 gap-4">
+<div class="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4">
     {% if (isPublicSpeakingPage)  %}
         <div class="md:col-span-3">
             {% include "layouts/partials/presos.njk" %}

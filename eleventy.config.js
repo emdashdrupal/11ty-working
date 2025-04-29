@@ -13,7 +13,11 @@ const mdOptions = {
 const md = new markdownIt(mdOptions)
   .use(require("markdown-it-anchor")) // Add anchor links to headings
   .use(require("markdown-it-attrs")); // Add attribute support
+  const anchor = require('markdown-it-anchor')
 
+  md.use(anchor, {
+    permalink: anchor.permalink.headerLink()
+  })
 module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('filterBy', function(array, key, value) {
     return array.filter(item => {

@@ -605,3 +605,19 @@ footer>div>p>a {
     font-size: 1.1rem;
     line-height: 1.5rem;
 }
+
+.header-anchor {
+    text-decoration: none;
+
+}
+.header-anchor::after {
+    content: " #";
+    color: var(--text-jet-700);
+    font-size: 0.8rem;
+
+}
+
+.header-anchor:hover:after {
+    text-decoration: none;
+    content: " \002693";
+}

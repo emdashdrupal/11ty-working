@@ -1,5 +1,5 @@
 [{
-    "category": ["docs-as-code", "coding-experience"],
+    "category": ["docs-as-code", "coding-experience", "technical-writing"],
     "publisher": "Nunjucks",
     "title": "Nunjucks templating engine"
   },
@@ -12,6 +12,11 @@
     "category": ["technical-writing", "page-layout", "structured-authoring"],
     "publisher": "Adobe",
     "title": "FrameMaker"
+  },
+  {
+    "category": ["technical-writing", "knowledge-management"],
+    "publisher": "Adobe",
+    "title": "Captivate"
   },
   {
     "category": ["technical-writing", "help-authoring-tool"],
@@ -34,7 +39,7 @@
     "title": "InDesign"
   },
   {
-    "category": ["docs-as-code", "product-management", "agile"],
+    "category": ["docs-as-code", "product-management", "agile", "technical-writing"],
     "publisher": "Atlassian",
     "title": "Jira"
   },
@@ -89,7 +94,7 @@
     "title": "Db2 database"
   },
   {
-    "category": ["docs-as-code", "coding-experience"],
+    "category": ["docs-as-code", "coding-experience", "technical-writing"],
     "publisher": "GitHub/Microsoft",
     "title": "GitHub/GitLab"
   },
@@ -107,6 +112,11 @@
     "category": ["technical-writing", "coding-experience"],
     "publisher": "Open-source",
     "title": "Extensible Stylesheet Language Transformation (XSLT)"
+  },
+  {
+    "category": ["technical-writing", "coding-experience"],
+    "publisher": "Open-source",
+    "title": "Cascading Stylesheets (CSS)"
   },
   {
     "category": ["technical-writing"],
