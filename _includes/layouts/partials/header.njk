@@ -32,11 +32,12 @@
         <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
 
     </head>
+    <body class="container mx-auto">
     {% block nav %}
         {% include 'layouts/partials/navbar.njk' %}
         {% include 'layouts/partials/breadcrumb.njk' %}
     {% endblock %}
-    <body class="container mx-auto">
+
 
         {% block content %}
             <main>
