@@ -22,7 +22,7 @@
     },
     "devDependencies": {
         "@11ty/eleventy-navigation": "^0.3.5",
-        "@stackbit/cms-git": "^1.0.17",
+        "@stackbit/cms-git": "^0.0.14",
         "@stackbit/types": "^2.1.14",
         "@tailwindcss/typography": "^0.5.16",
         "autoprefixer": "^10.4.20",
