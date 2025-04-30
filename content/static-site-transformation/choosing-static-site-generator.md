@@ -3,6 +3,9 @@ title: Choosing a static site generator
 description: The good news is there are a lot of static site generators to choose from, and that they all work similarly. The bad news is there are a lot of static site generators to choose from, and that they all work similarly.
 date: 2024-11-26
 tags : "content-strategy"
+featured: true
+featuredOrder: 3
+
 FontAwesomeIcon: "solid fa-file-waveform"
 ---
 
