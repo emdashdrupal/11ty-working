@@ -3,7 +3,7 @@ title: Asking AI to write documentation
 description: I decided to ask AI to do my job for code it's written.
 FontAwesomeIcon: solid fa-keyboard
 featured: true
-featuredOrder: 1
+featuredOrder: 3
 
 ---
 

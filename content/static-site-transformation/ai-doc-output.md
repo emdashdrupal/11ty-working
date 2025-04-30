@@ -4,175 +4,94 @@ description: I [asked AI to generate documentation](/static-site-transformation/
 eleventyExcludeFromCollections: true
 ---
 
-```yaml
----
-title: "Codebase Documentation"
-description: "Technical documentation for the static site implementation"
-date: 2024-02-11
----
-```
-# Site Implementation Documentation
+
+# Website Documentation - Ed Marsh Portfolio
 
 ## Overview
 
-This documentation describes the technical implementation of a static site built with Eleventy. The site uses:
+This is a static website built with Eleventy (11ty) that serves as a portfolio and blog for Ed Marsh, a technical writer with over 30 years of experience. The site replaces a legacy WordPress implementation with a modern static site architecture.
 
-- Eleventy (11ty) as the static site generator
-- Tailwind CSS for styling
-- Nunjucks for templating
-- Markdown for content
-- Node.js for build processes
+## Technology Stack
 
-## Project Structure
+- **Static Site Generator**: Eleventy (11ty)
+- **Template Language**: Nunjucks
+- **CSS Framework**: Tailwind CSS
+- **Content Format**: Markdown with YAML frontmatter
+- **Build Tools**: Node.js
 
-```plaintext
-.
-├── _includes/
-│   ├── css/
-│   │   ├── base.css
-│   │   └── tw.css
-│   └── layouts/
-│       ├── partials/
-│       │   ├── card.njk
-│       │   ├── footer.njk
-│       │   ├── header.njk
-│       │   └── macros.njk
-│       ├── details.njk
-│       ├── grid.njk
-│       └── index.njk
-├── assets/
-│   ├── images/
-│   └── podcasts/
-├── content/
-│   ├── skills/
-│   ├── podcasts/
-│   └── static-site-transformation/
-└── eleventy.config.js
-```
+## Content Structure
 
-## Configuration
+### Primary Content Types
 
-### Eleventy Configuration
+1. **Homepage** (`index.njk`)
+   - Introduction section with bio
+   - Featured skills gallery
+   - Recent static site transformation posts
+   - Recent podcast episodes
 
-The `eleventy.config.js` file manages the site's core functionality:
+2. **Grid Pages**
+   - Display collections of related content
+   - Used for skills, blog posts, and podcast episodes
+   - Implemented via `layouts/grid.njk`
 
-```javascript
-// filepath: /eleventy.config.js
-const syntaxHighlightPlugin = require("@11ty/eleventy-plugin-syntaxhighlight");
-const markdownIt = require("markdown-it");
-const timeToRead = require('eleventy-plugin-time-to-read');
+3. **Detail Pages**
+   - Individual content pages
+   - Used for podcast episodes and blog posts
+   - Implemented via `layouts/details.njk`
 
-module.exports = function (eleventyConfig) {
-  // Plugin configuration
-  eleventyConfig.addPlugin(syntaxHighlightPlugin);
-  eleventyConfig.addPlugin(timeToRead);
+### Content Collections
 
-  // Asset management
-  eleventyConfig.addPassthroughCopy({
-    "_includes/css/base.css": "css/base.css",
-    "_includes/css/tw.css": "css/tw.css",
-    "assets/images": "assets/images",
-    "assets/podcasts": "assets/podcasts"
-  });
+Content is organized into several main collections:
 
-  // Directory configuration
-  return {
-    dir: {
-      input: "content",
-      includes: "../_includes",
-      output: "_site"
-    }
-  };
-};
-```
+- `skills` - Professional capabilities and services
+- `ssg` - Blog posts about static site transformation
+- `podcasts` - Content Content podcast episodes
 
-### Collections
+## Featured Content System
 
-Content is organized into collections defined in `eleventy.config.js`:
+Featured content is controlled through frontmatter metadata:
 
-```javascript
-eleventyConfig.addCollection("skills", function (collectionApi) {
-  return collectionApi
-    .getAll()
-    .filter((item) => item.data.tags && item.data.tags.includes("skills"));
-});
-```
-
-## Templates
-
-### Base Templates
-
-The site uses three main template types:
-
-1. **index.njk**: Homepage template with featured content sections
-2. **details.njk**: Individual content page template
-3. **grid.njk**: Collection listing template
-
-### Partials
-
-Common elements are stored in `_includes/layouts/partials/`:
-
-- **card.njk**: Content card template
-- **header.njk**: Site header
-- **footer.njk**: Site footer
-- **macros.njk**: Reusable template functions
-
-## Content Management
-
-### Content Structure
-
-Content is written in Markdown with YAML frontmatter:
-
-```markdown
+```yaml
 ---
-title: "Page Title"
-description: "Page description"
 featured: true
-featuredOrder: 1
-FontAwesomeIcon: "solid fa-book"
+featuredOrder: 0  # Lower numbers appear first
 ---
-
-Content goes here...
 ```
 
-### Featured Content
+Example implementation in templates:
 
-To display content in featured sections:
-
-1. Add `featured: true` to the frontmatter
-2. Optionally set `featuredOrder` for sorting
-3. Content must be in a collection (skills, podcasts, etc.)
-
-## Styling
-
-### Tailwind CSS
-
-The site uses Tailwind CSS for styling. The build process is managed by:
-
-```bash
-# filepath: /tailwind.sh
-npx tailwindcss --watch -o _includes/css/tw.css
+```nunjucks
+{% set featured = collections[collectionName] | filterBy("data.featured", true) %}
+{% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
 ```
 
-### Custom CSS
+## Content Architecture
 
-Additional styles can be added in `_includes/css/base.css`
+Content files are organized in the following structure:
+
+```
+content/
+├── skills/          # Professional capabilities
+├── podcasts/        # Podcast episodes
+├── static-site-transformation/  # SSG blog series
+└── technical-writing-examples/  # Writing samples
+```
 
 ## Build Process
 
-1. Start the Tailwind CSS watch process
-2. Run Eleventy in development mode
-3. Access the site at `localhost:8080`
-
+1. Start the Tailwind CSS processor:
 ```bash
-# Terminal 1
-./tailwind.sh
+npx tailwindcss --watch -o _includes/css/tw.css
+```
 
-# Terminal 2
+2. Run Eleventy development server:
+```bash
 npx @11ty/eleventy --serve
 ```
 
-## Related Documentation
+The site will be available at `localhost:8080`
+
+## Additional Resources
 
 - [Eleventy Documentation](https://www.11ty.dev/docs/)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)

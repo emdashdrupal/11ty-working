@@ -4,7 +4,7 @@ description: The good news is there are a lot of static site generators to choos
 date: 2024-11-26
 tags : "content-strategy"
 featured: true
-featuredOrder: 3
+featuredOrder: 2
 
 FontAwesomeIcon: "solid fa-file-waveform"
 ---
