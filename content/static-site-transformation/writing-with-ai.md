@@ -2,6 +2,9 @@
 title: Asking AI to write documentation
 description: I decided to ask AI to do my job for code it's written.
 FontAwesomeIcon: solid fa-keyboard
+featured: true
+featuredOrder: 1
+
 ---
 
 Everyone in tech is asking the same question: Is AI going to take my job? The answer for coders is "not yet". For those on the more creative end, including technical writers, it's a bit more grey. Over the course of this project, I asked GitHub Copilot to do my job by documenting my codebase, write summaries, and even read through my own content.
