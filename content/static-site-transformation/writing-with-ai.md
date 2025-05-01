@@ -11,13 +11,15 @@ Everyone in tech is asking the same question: Is AI going to take my job? The an
 
 I've always dabbled in code. My problem has always been that I (think!) I understand the logic, but I don't know how to express that in code. My first forays into using large language models like Google Gemini (n&#233;e Bard) was to ask questions about how to write code for various automation tasks in Windows Powershell and Python. Fast-forward a year or two, and GitHub Copilot is baked into VS Code.
 
-My prompt was to `think like a technical writer and create a markdown file that documents this process`.
+My prompt was to `think like a technical writer and create a markdown file that documents this site`.
 
 ## Output
 
 This is a good example of what AI can do for you, but also where humans are invaluable. A large language model (LLM) can't tell if a code example displays correctly.
 
-> Because the output includes a mix of Markdown, template code, and HTML, it's nearly impossible to embed on this page and have it display correctly. I [created a separate page](/static-site-transformation/ai-doc-output) and excluded it from collections using the `eleventyExcludeFromCollections: true` parameter in my front matter; this means it won't display on any of the grid-based pages.
+> Because the output includes a mix of Markdown, template code, and HTML, it's nearly impossible to embed on this page and have it display correctly. I [created a separate page](/static-site-transformation/ai-doc-output) and excluded it from collections using the `eleventyExcludeFromCollections: true` parameter in my front matter, which means it won't appear as a page on the site.
+>
+> I also [saved the original output](/static-site-transformation/ai-doc-output-orig) for the first draft of the site.
 
 It's pretty impressive that AI can get to this level of granularity. But I think the result is only a high level overview, and parts are not entirely correct &mdash; partially as a result of my lack of coding experience. For example, the Featured content section is technically correct. However, at the time I asked the question it wasn't working.
 

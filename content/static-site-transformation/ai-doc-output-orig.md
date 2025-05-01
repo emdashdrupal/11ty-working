@@ -1,8 +1,10 @@
 ---
 title: AI-generated documentation for my site
-description: I [asked AI to generate documentation](/static-site-transformation/writing-with-ai/) for my site's codebase. Here's the output.
+description: I [asked AI to generate documentation](/static-site-transformation/writing-with-ai/) for my site's codebase. Here's the original output.
 eleventyExcludeFromCollections: true
 ---
+
+You can also see an [updated version](../ai-doc-output).
 
 ```yaml
 ---
@@ -11,6 +13,7 @@ description: "Technical documentation for the static site implementation"
 date: 2024-02-11
 ---
 ```
+
 # Site Implementation Documentation
 
 ## Overview

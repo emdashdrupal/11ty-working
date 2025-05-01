@@ -4,7 +4,7 @@ description: I [asked AI to generate documentation](/static-site-transformation/
 eleventyExcludeFromCollections: true
 ---
 
-> I ran this before and after I started development. the original is here[]
+> I ran this before and after I started development. The original is [here](/static-site-transformation/ai-doc-output-orig/).
 
 # Website Documentation - Ed Marsh Portfolio
 
@@ -61,7 +61,7 @@ featuredOrder: 0  # Lower numbers appear first
 
 Example implementation in templates:
 
-```nunjucks
+```
 {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
 {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
 ```

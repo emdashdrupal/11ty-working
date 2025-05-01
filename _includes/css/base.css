@@ -91,11 +91,11 @@ blockquote::before {
 }
 
 blockquote p {
-    color: var(--jet);
-    font-family: var(--serif);
+    color: var(--text-jet-800);
+    font-family: var(--sans-serif);
     font-size: 1.0rem;
     font-style: normal;
-    line-height: 1.2rem;
+    line-height: 1.4rem;
 }
 
 button {
