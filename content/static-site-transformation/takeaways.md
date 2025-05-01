@@ -14,6 +14,16 @@ I didn't need a reminder about the importance of structure, metadata, reuse, and
 
 Trying to work with documentation for several different pieces of software reminds me that yes, I too hate to RTFM. But there is a difference between good docs and bad docs, and it's obvious. There is lots of opportunities for technical writers to improve developer documentation &mdash; if businesses are willing to pay for it. In my experience, they're often not until it's too late.
 
+I now know how to: 
+
+- Create nunjucks templates to write HTML from unstructured content.
+- Have a much greater understanding how important metadata is to creating a successful CMS experience.
+- Run an email server!
+- Set up DNS records
+- Use CloudFlare
+- Use Netlify to host my site at zero cost
+- Better understand CSS frameworks
+
 ## Accessibility
 
 The other nice thing about creating sites from HTML is that you can control how it's generated, and be sure to use the built-in elements to make my site accessible.
