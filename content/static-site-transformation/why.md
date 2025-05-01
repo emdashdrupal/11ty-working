@@ -10,7 +10,7 @@ Frankly, it was strategic. My contract ended at the end of 2024. I needed a job.
 
 ![My WordPress homepage as of 1 May 2025](/assets/images/edmarsh-dot-com-homepage-1-may-2025.png)
 
-This was that rare opportunity to review 15 years' worth of content, get rid of cruft, reduce my hosting costs, learn some things, and put together a portfolio.
+This was that rare opportunity to review 15 years' worth of content, get rid of cruft, reduce my hosting costs, learn some things, and update my portfolio.
 
 ## Technical goals
 
