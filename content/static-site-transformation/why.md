@@ -6,7 +6,7 @@ featured: true
 featuredOrder: 0
 ---
 
-Frankly, it was strategic. My contract ended at the end of 2024. I needed a job. To get a job, you need writing samples. Of course, I don't have any recent samples due to IP laws (which I take seriously). The publicly-facing samples I *did* write were woefully out of date, as was my WordPress site. I didn't realize *just* how out of date the site was until I got deep into this project.
+Frankly, it was strategic. My contract ended at the end of 2024. I needed a job. To get a job, you need writing samples. Of course, I don't have any recent samples due to intellectual property (IP) laws, which I take seriously. The public-facing samples I *did* write were woefully out-of-date, as was my WordPress site. I didn't realize *just* how out-of-date the site was until I got deep into this project.
 
 ![My WordPress homepage as of 1 May 2025](/assets/images/edmarsh-dot-com-homepage-1-may-2025.png)
 
@@ -33,8 +33,8 @@ This was that rare opportunity to review 15 years' worth of content, get rid of 
 
 Financial and personal/time costs:
 
-- Reduce the overhead of maintaining a content management system. I haven't blogged in some time, and my podcast has been on hiatus since 2022 (stay tuned&hellip;).
-- Reduce hosting costs. SSGs can be hosted in many places that WordPress sites can't, which gave me flexibility to move to a zero- or low-cost host. That doesn't mean there are zero costs to hosting the site; my site host was also my mail server, so I had to find and set up an alternative. But getting rid of an annual hosting fee allowed me to allocate those resources elsewhere &mdash; such as mail and podcast hosting.
+- Reduce the overhead of maintaining a content management system. I haven't blogged in some time, and my podcast has been on hiatus since 2022 (stay tuned&hellip;). Maintenance included all of the plugins I used, as well as WordPress itself. On top of that, hundreds of spam comments came through every day that had to be deleted.
+- Reduce hosting costs. SSGs can be hosted in many places that WordPress sites can't, which gave me flexibility to move to a zero- or low-cost host. That doesn't mean there are zero costs to hosting the site; my site host was also my mail server, so I had to find and set up an alternative (and my first choice was too difficult to set up). Getting rid of an annual hosting fee allowed me to allocate those resources elsewhere &mdash; such as mail and podcast hosting.
 
 ## My use case
 

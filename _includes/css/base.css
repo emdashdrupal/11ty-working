@@ -91,7 +91,7 @@ blockquote::before {
 }
 
 blockquote p {
-    color: var(--text-jet-800);
+    color: var(--text-jet-500);
     font-family: var(--sans-serif);
     font-size: 1.0rem;
     font-style: normal;
