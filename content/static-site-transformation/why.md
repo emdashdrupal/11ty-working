@@ -8,6 +8,8 @@ featuredOrder: 0
 
 Frankly, it was strategic. My contract ended at the end of 2024. I needed a job. To get a job, you need writing samples. Of course, I don't have any recent samples due to IP laws (which I take seriously). The publicly-facing samples I *did* write were woefully out of date, as was my WordPress site. I didn't realize *just* how out of date the site was until I got deep into this project.
 
+![My WordPress homepage as of 1 May 2025](/assets/images/edmarsh-dot-com-homepage-1-may-2025.png)
+
 This was that rare opportunity to review 15 years' worth of content, get rid of cruft, reduce my hosting costs, learn some things, and put together a portfolio.
 
 ## Technical goals
@@ -55,4 +57,4 @@ As I developed the site and the content, very few ended up in version 1.0. I int
 
 ## The what
 
-[Choosing a static site generator](choosing-static-site-generator)
+[Choosing a static site generator](../choosing-static-site-generator)
