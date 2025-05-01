@@ -4,9 +4,13 @@ description:  Working as a writer, content strategist, and developer helped me u
 FontAwesomeIcon: solid fa-folder-tree
 featured: true
 featuredOrder: 1
+
 ---
 
 Structuring content is always important. I appreciate even more why using metadata (front matter) is critical.
+
+The content strategy was to blog about the process, and to put that content out on a regular cadence to draw traffic. I also hope to inspire other tech writers to get more technical, and understand how the content we create is consumed programmatically.
+
 
 ### Who are my users?
 

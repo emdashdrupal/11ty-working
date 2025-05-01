@@ -1,9 +1,8 @@
 ---
 title: Open source contributions
 description: Here are some recent contributions I made to the open source world.
+date: 2025-04-29
 ---
-
-I take intellectual property seriously since I worked in a highly regulated environment. As a result, I don't have a lot of recent samples to share.
 
 ## Cities:Skylines mod documentation
 
