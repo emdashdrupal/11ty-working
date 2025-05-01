@@ -588,7 +588,8 @@ footer>div>p>a {
 }
 
 .prose :where(h2):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
-    color: var(--tw-prose-headings);
+    font-family: var(--sans-serif);
+    color: var(--text-jet-200);
     font-weight: 700;
     font-size: 1.5em;
     margin-top: 1rem;
@@ -623,4 +624,8 @@ footer>div>p>a {
 .header-anchor:hover:after {
     text-decoration: none;
     content: " \002693";
+}
+
+.shadow-md {
+    --tw-shadow: none;
 }
