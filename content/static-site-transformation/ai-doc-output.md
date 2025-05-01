@@ -4,6 +4,7 @@ description: I [asked AI to generate documentation](/static-site-transformation/
 eleventyExcludeFromCollections: true
 ---
 
+> I ran this before and after I started development. the original is here[]
 
 # Website Documentation - Ed Marsh Portfolio
 
