@@ -78,20 +78,20 @@ footer>div>p>a:hover {
 }
 
 blockquote {
-    border-left: 3px solid var(--jet);
+    border-left: 3px solid var(--bg-jet-200);
     margin: 1rem 0;
     padding-left: 1rem;
 }
 
 blockquote::before {
-    color: var(--midnight-green);
+    color: var(--text-jet-500);
     content: "> Note";
     font-size: 1.25rem;
     font-style: normal;
 }
 
 blockquote p {
-    color: var(--text-jet-800);
+    color: var(--medium-blue);
     font-family: var(--sans-serif);
     font-size: 1.0rem;
     font-style: normal;
