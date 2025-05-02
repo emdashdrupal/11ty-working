@@ -121,7 +121,7 @@ module.exports = function (eleventyConfig) {
   });
 
   // Collections
-  const collections = ["skills", "podcasts", "ssg", "examples"];
+  const collections = ["skills", "podcasts", "ssg"];
   collections.forEach(collection => {
     eleventyConfig.addCollection(collection, collectionApi =>
       collectionApi
