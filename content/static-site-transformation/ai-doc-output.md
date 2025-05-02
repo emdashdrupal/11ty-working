@@ -75,17 +75,18 @@ content/
 ├── skills/          # Professional capabilities
 ├── podcasts/        # Podcast episodes
 ├── static-site-transformation/  # SSG blog series
-└── technical-writing-examples/  # Writing samples
 ```
 
 ## Build Process
 
 1. Start the Tailwind CSS processor:
+
 ```bash
 npx tailwindcss --watch -o _includes/css/tw.css
 ```
 
 2. Run Eleventy development server:
+
 ```bash
 npx @11ty/eleventy --serve
 ```
