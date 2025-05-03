@@ -10,7 +10,7 @@ Frankly, it was strategic. My contract ended at the end of 2024. I needed a job.
 
 ![My WordPress homepage as of 1 May 2025](/assets/images/edmarsh-dot-com-homepage-1-may-2025.png)
 
-This was that rare opportunity to review 15 years' worth of content, get rid of cruft, reduce my hosting costs, learn some things, and put together a portfolio.
+This was that rare opportunity to review 15 years' worth of content, get rid of cruft, reduce my hosting costs, learn some things, and update my portfolio.
 
 ## Technical goals
 
@@ -33,8 +33,8 @@ This was that rare opportunity to review 15 years' worth of content, get rid of 
 
 Financial and personal/time costs:
 
-- Reduce the overhead of maintaining a content management system. I haven't blogged in some time, and my podcast has been on hiatus since 2022 (stay tuned&hellip;).
-- Reduce hosting costs. SSGs can be hosted in many places that WordPress sites can't, which gave me flexibility to move to a zero- or low-cost host. That doesn't mean there are zero costs to hosting the site; my site host was also my mail server, so I had to find and set up an alternative. But getting rid of an annual hosting fee allowed me to allocate those resources elsewhere &mdash; such as mail and podcast hosting.
+- Reduce the overhead of maintaining a content management system. I haven't blogged in some time, and my podcast has been on hiatus since 2022 (stay tuned&hellip;). Maintenance included all of the plugins I used, as well as WordPress itself. On top of that, hundreds of spam comments came through every day that had to be deleted.
+- Reduce hosting costs. SSGs can be hosted in many places that WordPress sites can't, which gave me flexibility to move to a zero- or low-cost host. That doesn't mean there are zero costs to hosting the site; my site host was also my mail server, so I had to find and set up an alternative (and my first choice was too difficult to set up). Getting rid of an annual hosting fee allowed me to allocate those resources elsewhere &mdash; such as mail and podcast hosting.
 
 ## My use case
 
