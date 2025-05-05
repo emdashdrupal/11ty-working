@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-         <link rel="icon" href="/assets/images/favicon.ico">
+        <link rel="icon" href="/assets/images/favicon.ico">
         <!-- Google analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-21YG9R142H"></script>
         <script>
@@ -34,16 +34,17 @@
 
     </head>
     <body class="mx-auto">
-    {% block nav %}
-    <nav class="max-w-lg md:max-w-md">
-        {% include 'layouts/partials/navbar.njk' %}
-        {% include 'layouts/partials/breadcrumb.njk' %}
-        </nav>
-    {% endblock %}
-
+        {% block nav %}
+            <nav aria-label="Ed Marsh introduction and site navigation menu" class="mx-auto">
+<div class="bg-medium-blue" id="menubar">
+                {% include 'layouts/partials/navbar.njk' %}
+                </div>
+                {% include 'layouts/partials/breadcrumb.njk' %}
+            </nav>
+        {% endblock %}
 
         {% block content %}
-            <main>
+            <main class="px-2 py-1">
 
                 <article data-pagefind-body {% if layout == "layouts/details.njk" %} class="px-4 prose mx-auto"{% endif %}>
                     <h1 class="text-3xl font-bold mb-4">{{title or metadata.title}}</h1>
