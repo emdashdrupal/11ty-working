@@ -1,21 +1,21 @@
 </main>
 
-<footer class="p-4 mt-6 rounded-md shadow-md bg-medium-blue">
+<footer class="p-4 rounded-md shadow-md bg-medium-blue mx-auto prose">
     {% set hoverclass="hover:text-jet-200 hover:bg-success-700 underline text-success-700" %}
     {% if layout == "layouts/details.njk" %}
         {% include 'layouts/partials/next-previous.njk' %}
     {% endif %}
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-whitish">
-        <p class="text-center md:text-left">
+        <p class="text-left sm:text-center m-0">
             Ed Marsh creates successful technical content by building community.
         </p>
 
-        <p class="text-center">
+        <p class="text-center m-0">
             <a href="/contact/" class="{{ hoverclass }}">Contact Ed</a> to discuss your content needs.
         </p>
 
-        <div class="text-center md:text-right text-sm">
+        <div class="text-right sm:text-center m-0">
             <p class="text-whitish">&copy; 2008&ndash;{% year %}. Created with
                 <a href="https://www.11ty.dev" class="{{ hoverclass }}">Eleventy</a>,
                 <a href="https://tailwindcss.com" class="{{ hoverclass }}">Tailwind CSS</a>,
