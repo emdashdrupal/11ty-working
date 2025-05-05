@@ -46,7 +46,7 @@
         {% block content %}
             <main class="px-2 py-1">
 
-                <article data-pagefind-body {% if layout == "layouts/details.njk" %} class="px-4 prose mx-auto"{% endif %}>
+                <article class="px-4 {% if layout == "layouts/details.njk" %}  prose {% endif %} mx-auto">
                     <h1 class="text-3xl font-bold mb-4">{{title or metadata.title}}</h1>
                     {% if layout == "layouts/details.njk" %}
                         <p class="text-sm font-sans text-gray-600 mb-4">Updated: {{ page.date.toDateString()}}</p>
