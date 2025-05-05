@@ -3,7 +3,7 @@
         <a
             href="{{ homepageUrl }}"
             id="{{ id }}-button"
-            class="px-3 py-2 inline-flex items-center text-whitish hover:text-jet-200 hover:bg-success-800"
+            class="px-3 inline-flex items-center text-whitish hover:text-jet-200 hover:bg-success-800"
             aria-expanded="false"
             aria-haspopup="true"
             aria-controls="{{ id }}-menu"
@@ -20,7 +20,7 @@
                 <li role="none" class="list-none font-sans justify-center">
                     <a
                         href="{{ item.url | url }}"
-                        class="block w-full px-4 py-2 text-jet hover:text-whitish hover:bg-medium-blue"
+                        class="block w-full px-2 py-2 text-jet hover:text-whitish hover:bg-medium-blue"
                         role="menuitem"
                         tabindex="-1"
                         data-index="{{ loop.index0 }}"
@@ -37,7 +37,7 @@
     <li class="relative list-none font-sans">
         <a
             href="{{ url }}"
-            class="px-3 py-2 inline-flex items-center  text-whitish hover:text-jet-200 hover:bg-success-800"
+            class="px-3 py-0 inline-flex items-center  text-whitish hover:text-jet-200 hover:bg-success-800"
         >
             {{ label }}
         </a>

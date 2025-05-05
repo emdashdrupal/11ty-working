@@ -1,7 +1,7 @@
 {% from "layouts/partials/macros.njk" import dropdown,
 listItem %}
 
-    <div class="grid grid-cols-2 gap-4 py-2 px-4">
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-2 py-0 px-2">
         <div id="tagline" class="md:col-span-1">
             <a href="/" class="text-xl text-whitish font-semibold">
                 Ed Marsh creates successful technical content by building community
@@ -11,7 +11,7 @@ listItem %}
         <div id="menubar">
             <ul class="flex sm:flex-wrap md:flex-wrap mt-0 pt-0" aria-label="Main navigation menu" role="menubar">
                 {{ dropdown('skillsDropdown', 'Skills', collections.skills, '/skills') }}
-                {{ dropdown('ssgDropdown', 'Website transformation', collections.ssg, '/static-site-transformation/') }}
+                {{ dropdown('ssgDropdown', 'Samples', collections.ssg, '/static-site-transformation/') }}
                 {{ listItem('/podcasts/', 'Podcasts') }}
                 {{ listItem('/about/about-ed-marsh', 'About') }}
                 {{ listItem('/contact/', 'Contact') }}
