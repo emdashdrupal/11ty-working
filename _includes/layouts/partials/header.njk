@@ -33,18 +33,18 @@
         <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
 
     </head>
-    <body>
+    <body class="flex flex-col min-h-screen">
         {% block nav %}
             <nav aria-label="Ed Marsh introduction and site navigation menu">
-<div class="bg-medium-blue" id="menubar">
+<div class="container bg-medium-blue mx-auto px-4 md:px-6 max-w-6xl" id="menubar">
                 {% include 'layouts/partials/navbar.njk' %}
-                </div>
+
                 {% include 'layouts/partials/breadcrumb.njk' %}
-            </nav>
+            </nav></div>
         {% endblock %}
 
         {% block content %}
-            <main class="px-4 py-1">
+            <main class="container mx-auto px-4 py-1">
 
                 <article class="px-4 {% if layout == "layouts/details.njk" %}  prose {% endif %}">
                     <h1 class="text-3xl font-bold mb-4">{{title or metadata.title}}</h1>
