@@ -33,9 +33,9 @@
         <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
 
     </head>
-    <body class="mx-auto">
+    <body>
         {% block nav %}
-            <nav aria-label="Ed Marsh introduction and site navigation menu" class="mx-auto">
+            <nav aria-label="Ed Marsh introduction and site navigation menu">
 <div class="bg-medium-blue" id="menubar">
                 {% include 'layouts/partials/navbar.njk' %}
                 </div>
@@ -44,9 +44,9 @@
         {% endblock %}
 
         {% block content %}
-            <main class="px-2 py-1">
+            <main class="px-4 py-1">
 
-                <article class="px-4 {% if layout == "layouts/details.njk" %}  prose {% endif %} mx-auto">
+                <article class="px-4 {% if layout == "layouts/details.njk" %}  prose {% endif %}">
                     <h1 class="text-3xl font-bold mb-4">{{title or metadata.title}}</h1>
                     {% if layout == "layouts/details.njk" %}
                         <p class="text-sm font-sans text-gray-600 mb-4">Updated: {{ page.date.toDateString()}}</p>
