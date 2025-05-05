@@ -12,11 +12,5 @@ module.exports = {
     require("@tailwindcss/typography"),
     // ...
   ],
-  colors: {
-    'midnight-green': '0b5563',
-    'ecru': 'aba361',
-    'cadet-gray': '94a3b8',
-    'russian-violet': '42033d',
-    'tyrian-purple': '680e4b',
-  },
+
 };
