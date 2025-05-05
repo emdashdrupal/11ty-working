@@ -35,8 +35,10 @@
     </head>
     <body class="container mx-auto">
     {% block nav %}
+    <nav class="max-w-lg md:max-w-md">
         {% include 'layouts/partials/navbar.njk' %}
         {% include 'layouts/partials/breadcrumb.njk' %}
+        </nav>
     {% endblock %}
 
 
