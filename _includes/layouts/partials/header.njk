@@ -44,7 +44,7 @@
         {% endblock %}
 
         {% block content %}
-            <main class="container mx-auto py-1 px-10">
+            <main class="container mx-auto py-1 px-4 md:px-6 max-w-4xl">
 
                 <article class="{% if layout == "layouts/details.njk" %}prose{% endif %}">
                     <h1>{{title or metadata.title}}</h1>
