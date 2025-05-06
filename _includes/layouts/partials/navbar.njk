@@ -9,7 +9,7 @@ listItem %}
         </div>
 
         <div id="menubar">
-            <ul class="flex sm:flex-wrap md:flex-wrap mt-0 pt-0" aria-label="Main navigation menu" role="menubar">
+            <ul class="flex sm:flex-wrap md:flex-wrap mt-0 pt-0 overflow-x-auto" aria-label="Main navigation menu" role="menubar">
                 {{ dropdown('skillsDropdown', 'Skills', collections.skills, '/skills') }}
                 {{ dropdown('blogDropdown', 'Blog', collections.blog, '/static-site-transformation/') }}
                 {{ listItem('/podcasts/', 'Podcast') }}
@@ -17,4 +17,5 @@ listItem %}
                 {{ listItem('/contact/', 'Contact') }}
             </ul>
         </div>
+                        <span id="search" class="float-right "/>
     </div>
