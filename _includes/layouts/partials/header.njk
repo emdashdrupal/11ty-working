@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-         <link rel="icon" href="/assets/images/favicon.ico">
+        <link rel="icon" href="/assets/images/favicon.ico">
         <!-- Google analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-21YG9R142H"></script>
         <script>
@@ -27,28 +27,29 @@
 			rel="stylesheet"
 		/>
         <link rel="stylesheet" type="text/css" href="/css/tw.css">
-        {# <link href="/pagefind/pagefind-ui.css" rel="stylesheet"> #}
+        <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 
         <link rel="stylesheet" type="text/css" href="/css/base.css">
         <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
 
     </head>
-    <body class="mx-auto">
-    {% block nav %}
-    <nav class="max-w-lg md:max-w-md">
-        {% include 'layouts/partials/navbar.njk' %}
-        {% include 'layouts/partials/breadcrumb.njk' %}
-        </nav>
-    {% endblock %}
-
+    <body class="flex flex-col min-h-screen">
+        {% block nav %}
+            <nav aria-label="Ed Marsh introduction and site navigation menu">
+<div class="container bg-medium-blue mx-auto max-w-6xl px-4" id="mainnavbar">
+                {% include 'layouts/partials/navbar.njk' %}
+</div>
+                {% include 'layouts/partials/breadcrumb.njk' %}
+            </nav></div>
+        {% endblock %}
 
         {% block content %}
-            <main>
+            <main class="container mx-auto py-1 px-4 md:px-6">
 
-                <article data-pagefind-body {% if layout == "layouts/details.njk" %} class="px-4 prose mx-auto"{% endif %}>
-                    <h1 class="text-3xl font-bold mb-4">{{title or metadata.title}}</h1>
+                <article class="{% if layout == "layouts/details.njk" %}prose{% endif %}">
+                    <h1>{{title or metadata.title}}</h1>
                     {% if layout == "layouts/details.njk" %}
-                        <p class="text-sm font-sans text-gray-600 mb-4">Updated: {{ page.date.toDateString()}}</p>
+                        <p class="text-sm font-sans text-gray-600 m-0 p-0">Updated {{ page.date.toDateString()}}</p>
                     {% endif %}
 
                     {% if description %}
