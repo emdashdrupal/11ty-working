@@ -113,17 +113,14 @@ code[class*="language-"],
 pre[class*="language-"] {
     font-family: var(--monospace)
 }
-.prose :where(h1):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+
+h1, .prose :where(h1):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
     font-family: var(--sans-serif);
     font-weight: 700;
     font-size: 2rem;
     line-height: 1.3333333;
-}
-h1 {
-    font-size: 2.1rem;
     margin: 0;
     padding: 0;
-    font-family: var(--sans-serif)
 }
 
 h2,
@@ -138,12 +135,6 @@ h3 {
     font-weight: 700;
 }
 
-html,
-body {
-    color: #000;
-    font-size: 1rem;
-    line-height: 1.3rem;
-}
 
 ol li {
     font-family: var (--serif);
@@ -589,7 +580,12 @@ footer>div>p>a {
     color: var(--whitish);
 }
 
-button, input:where([type="button"]), input:where([type="reset"]), input:where([type="submit"]) {visibility: hidden;}
+button,
+input:where([type="button"]),
+input:where([type="reset"]),
+input:where([type="submit"]) {
+    visibility: hidden;
+}
 
 .prose :where(h2):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
     font-family: var(--sans-serif);
@@ -601,7 +597,7 @@ button, input:where([type="button"]), input:where([type="reset"]), input:where([
     line-height: 1.3333333;
 }
 
-.prose :where(h2>a):not(:where([class~="not-prose"],[class~="not-prose"] *)){
+.prose :where(h2>a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
     font-weight: 700;
 }
 
