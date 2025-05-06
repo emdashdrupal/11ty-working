@@ -117,20 +117,22 @@ pre[class*="language-"] {
 h1, .prose :where(h1):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
     font-family: var(--sans-serif);
     font-weight: 700;
-    font-size: 2rem;
-    line-height: 1.3333333;
+    font-size: 1.75rem;
+    line-height: 1.95rem;
     margin: 0;
     padding: 0;
 }
 
 h2,
 h2>a {
+    font-family: var(--sans-serif);
     font-size: 1.3rem;
     font-weight: 700;
 }
 
 
 h3 {
+    font-family: var(--sans-serif);
     font-size: 1.2rem;
     font-weight: 700;
 }
