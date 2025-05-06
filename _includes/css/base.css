@@ -114,7 +114,8 @@ pre[class*="language-"] {
     font-family: var(--monospace)
 }
 
-h1, .prose :where(h1):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+h1,
+.prose :where(h1):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
     font-family: var(--sans-serif);
     font-weight: 700;
     font-size: 1.75rem;
@@ -515,33 +516,6 @@ ul li {
     z-index: 100;
 }
 
-/* Mobile styles */
-@media (max-width: 768px) {
-    .dropdown {
-        position: static;
-    }
-
-    .dropdown-menu {
-        position: static;
-        width: 100%;
-        transform: none;
-        box-shadow: none;
-        background-color: var(--medium-blue);
-        margin-top: 0.5rem;
-    }
-
-    .dropdown-menu a {
-        padding: 1rem 1.5rem;
-        color: var(--whitish);
-    }
-
-    .dropdown-menu {
-        position: static;
-        width: 100%;
-        box-shadow: none;
-        margin: 0;
-    }
-}
 
 /* Utility Classes */
 .sr-only {
@@ -582,12 +556,6 @@ footer>div>p>a {
     color: var(--whitish);
 }
 
-button,
-input:where([type="button"]),
-input:where([type="reset"]),
-input:where([type="submit"]) {
-    visibility: hidden;
-}
 
 .prose :where(h2):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
     font-family: var(--sans-serif);
