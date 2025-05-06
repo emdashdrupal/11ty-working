@@ -46,10 +46,10 @@
         {% block content %}
             <main class="container mx-auto py-1">
 
-                <article class="{% if layout == "layouts/details.njk" %}  prose {% endif %}">
-                    <h1 class="text-3xl font-bold">{{title or metadata.title}}</h1>
+                <article class="{% if layout == "layouts/details.njk" %}prose{% endif %}">
+                    <h1>{{title or metadata.title}}</h1>
                     {% if layout == "layouts/details.njk" %}
-                        <p class="text-sm font-sans text-gray-600">Updated: {{ page.date.toDateString()}}</p>
+                        <p class="text-sm font-sans text-gray-600 m-0 p-0">Updated {{ page.date.toDateString()}}</p>
                     {% endif %}
 
                     {% if description %}
