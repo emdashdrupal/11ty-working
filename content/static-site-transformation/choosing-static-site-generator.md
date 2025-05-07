@@ -5,15 +5,17 @@ date: 2024-11-26
 tags : "content-strategy"
 featured: true
 featuredOrder: 2
-
 FontAwesomeIcon: "solid fa-file-waveform"
 ---
 
-## My initial SSG requirements
 
-I knew I wanted (ease-of-use) and didn't want ("ease of use") out of static site generators (SSGs).
+
+I knew what I wanted (ease-of-use) and didn't want ("ease of use") out of static site generators (SSGs).
 
 When rebuilding my site, it made sense to me to build the site with an SSG because it's fast, self-contained, and relevant to what we do as technical communicators. The underlying architecture is also far simpler than a database-driven site like my current WordPress site.
+
+
+## My initial SSG requirements
 
 - Based on experience, I wanted to avoid Gatsby &mdash; too complex requires a team of devs.
 - Looking for as plug and play as possible (in retrospect, ha!).

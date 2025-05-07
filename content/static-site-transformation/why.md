@@ -6,7 +6,11 @@ featured: true
 featuredOrder: 0
 ---
 
-Frankly, it was strategic. My contract ended at the end of 2024. I needed a job. To get a job, you need writing samples. I don't have any recent samples due to intellectual property (IP) laws, which I take seriously. The public-facing samples I *did* write were woefully out of date, as was my WordPress site. I didn't realize *just* how out of date the site was until I got deep into this project.
+I've built several websites, including the WordPress version I put together starting in 2008. It expanded when I started my podcast in 2015.
+
+I wanted to do this to understand (and control) how the content I create on a regular basis is consumed and programmed to display to users.
+
+Ultimately, it was strategic. My contract ended at the end of 2024. I needed a job. To get a job, you need writing samples. I don't have any recent samples due to intellectual property (IP) laws, which I take seriously. The public-facing samples I *did* write were woefully out of date, as was my WordPress site. I didn't realize *just* how out of date the site was until I got deep into this project.
 
 ![My WordPress homepage as of 1 May 2025](/assets/images/edmarsh-dot-com-homepage-1-may-2025.png)
 
