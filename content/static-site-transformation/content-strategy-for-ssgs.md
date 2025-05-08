@@ -11,7 +11,6 @@ Structuring content is always important. I appreciate even more why using metada
 
 The content strategy was to blog about the process, and to put that content out on a regular cadence to draw traffic. I also hope to inspire other tech writers to get more technical, and understand how the content we create is consumed programmatically.
 
-
 ## Who are my users?
 
 The first question of technical writing is *who is the user*? The users you identify inform and guide your content strategy. In my case, my users include:
@@ -34,9 +33,9 @@ The first question of technical writing is *who is the user*? The users you iden
 
 I created three main content types (page types):
 
-- The homepage, which gives my intro and a headshot, and galleries of the four most important, or recent, items that have been updated in three categories: podcasts, skills, and this series of blog posts.
-- Grid pages, which drill down into things like skills, blog posts, and my podcast episodes.
-- Details pages, which are the landing pages for each podcast episode, and the meat of the other content pages.
+- Homepage: Intro and a headshot, and galleries of the four most important, or recent, items that have been updated in three categories: podcasts, skills, and this series of blog posts.
+- Grid pages: Overview pages that list each of my skills, blog posts, and podcast episodes.
+- Details pages: Pages longer-form content and each podcast episode.
 
 ## Metadata
 
