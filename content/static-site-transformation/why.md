@@ -61,7 +61,7 @@ Here are my initial structure thoughts that changed as I built things out:
 - Contact
 - Resume(?)
 
-As I developed the site and the content, very few ended up in version 1.0. I intend to keep this site more updated than the last one (!remindme 1 year).
+Very few parts of this structure ended up in version 1.0 of the site. If you've ever revamped lots of legacy content, this probably isn't surprising. I intend to keep this site more updated than the last one (!remindme 1 year).
 
 ## The what
 
