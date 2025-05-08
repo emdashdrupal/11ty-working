@@ -58,21 +58,19 @@ Using metadata and collections enables reuse. Copy-pasted content across pages i
 
 ## Exploration
 
-There was a *lot* of experimenting and seeing what was what. Once I grasped *how* to use the metadata programmatically, it opened my eyes how much structured front matter makes a difference in how content is used, sorted, filtered, and displayed.
+There was a *lot* of experimenting and seeing what was what. Once I grasped *how* to use the metadata programmatically, it opened my eyes to how much structured front matter makes a difference in how content is used, sorted, filtered, and displayed.
 
-Then I added two json files of related webinars, podcasts, and other talks i've done, as well as the tools used for each of the skills. it was fun, and refreshing, and again, holy cow structured content.
+Then I added two `json` files of related webinars, podcasts, and other talks I've done, as well as the tools used for each of the skills. It was fun, and refreshing, and again, holy cow structured content.
 
-Being on this side of the equation makes it clear how much structuring your content helps your developers.
-
-It also helped me narrow my focus on skills, as well as tell a story across all of my content.
+Being on this side of the equation makes it clear how much structuring your content helps your developers. It also helped me narrow my focus on skills, as well as tell a story across all of my content.
 
 ## Separating content from presentation
 
 - Using metadata reduces input errors.
-- you can restrict what's entered via pipelines and/or linters
-- make it easier for people to contribute, and have a consistent voice.
-- Portable, multi-channel
-- Reuse
+- You can restrict what's entered via pipelines and/or linters.
+- Make it easier for people to contribute, and have a consistent voice.
+- Portable, multi-channel.
+- Ability to reuse content.
 
 ## Publishing cadence for the SSG series
 
