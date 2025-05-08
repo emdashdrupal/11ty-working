@@ -23,16 +23,16 @@ When choosing an SSG to implement, these were my requirements:
 - As low-code as possible (in retrospect, ha!). I can play with HTML, CSS, and configuration and template files, but I didn't really have time to learn modern JavaScript or Typescript.
 - Time to market &mdash; how quickly could I build out the site while it was relevant to my job search?
 
-After starting to learn the [Hugo SSG](https://gohugo.io/), I tried a "newer" system: Eleventy (11ty). Why? Not surprisingly, a *lack of documentation*. In most cases, this will be a trial and error thing based on your individual needs.
+## Getting my head around it all
+
+Since I had a lot of free time, I watched videos, read tutorials and blogs, looked up the pros and cons of templating approaches, and the SSG choice itself.
+
+I started to learn with the [Hugo SSG](https://gohugo.io/). Eventually I moved to [Eleventy (11ty)](https://eleventy.dev). Why? Not surprisingly, a *lack of documentation*. In most cases, this will be a trial and error thing based on your individual needs.
 
 Eleventy's docs aren't much better. It's just more open, so there are more available resources. For example, you can create your templates in numerous templating languages, including HTML and Markdown, so it's easy to find answers.
 
 Since I didn't know anything about Eleventy, I stayed with its default [Nunjucks templating language](https://mozilla.github.io/nunjucks/), and it's based on the [Liquid templating language](https://liquidjs.com/index.html) so there was a lot of history. Amusingly, I found during the process that [Tom Johnson referenced Liquid](Content_Content_podcast_S1E4_Curse_of_knowledge_with_Tom_Johnson.mp3) in our podcast together almost 10 years ago.
 
-## Getting my head around it all
-
-
-Since I had a lot of free time, I watched videos, read tutorials and blogs, looked up the pros and cons of each of several approaches for templating, CSS, SSG choice itself, etc.
 
 The learning curve was slightly softened by *abstraction*; each piece of the site-building puzzle is discrete, so you can focus on one aspect at a time. This helps with decision paralysis.
 
