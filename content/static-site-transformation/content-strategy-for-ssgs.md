@@ -11,7 +11,6 @@ Structuring content is always important. I appreciate even more why using metada
 
 The content strategy was to blog about the process, and to put that content out on a regular cadence to draw traffic. I also hope to inspire other tech writers to get more technical, and understand how the content we create is consumed programmatically.
 
-
 ## Who are my users?
 
 The first question of technical writing is *who is the user*? The users you identify inform and guide your content strategy. In my case, my users include:
@@ -34,9 +33,9 @@ The first question of technical writing is *who is the user*? The users you iden
 
 I created three main content types (page types):
 
-- The homepage, which gives my intro and a headshot, and galleries of the four most important, or recent, items that have been updated in three categories: podcasts, skills, and this series of blog posts.
-- Grid pages, which drill down into things like skills, blog posts, and my podcast episodes.
-- Details pages, which are the landing pages for each podcast episode, and the meat of the other content pages.
+- Homepage: Intro and a headshot, and galleries of the four most important, or recent, items that have been updated in three categories: podcasts, skills, and this series of blog posts.
+- Grid pages: Overview pages that list each of my skills, blog posts, and podcast episodes.
+- Details pages: Pages longer-form content and each podcast episode.
 
 ## Metadata
 
@@ -58,21 +57,19 @@ Using metadata and collections enables reuse. Copy-pasted content across pages i
 
 ## Exploration
 
-There was a *lot* of experimenting and seeing what was what. Once I grasped *how* to use the metadata programmatically, it opened my eyes how much structured front matter makes a difference in how content is used, sorted, filtered, and displayed.
+There was a *lot* of experimenting and seeing what was what. Once I grasped *how* to use the metadata programmatically, it opened my eyes to how much structured front matter makes a difference in how content is used, sorted, filtered, and displayed.
 
-Then I added two json files of related webinars, podcasts, and other talks i've done, as well as the tools used for each of the skills. it was fun, and refreshing, and again, holy cow structured content.
+Then I added two `json` files of related webinars, podcasts, and other talks I've done, as well as the tools used for each of the skills. It was fun, and refreshing, and again, holy cow structured content.
 
-Being on this side of the equation makes it clear how much structuring your content helps your developers.
-
-It also helped me narrow my focus on skills, as well as tell a story across all of my content.
+Being on this side of the equation makes it clear how much structuring your content helps your developers. It also helped me narrow my focus on skills, as well as tell a story across all of my content.
 
 ## Separating content from presentation
 
 - Using metadata reduces input errors.
-- you can restrict what's entered via pipelines and/or linters
-- make it easier for people to contribute, and have a consistent voice.
-- Portable, multi-channel
-- Reuse
+- You can restrict what's entered via pipelines and/or linters.
+- Make it easier for people to contribute, and have a consistent voice.
+- Portable, multi-channel.
+- Ability to reuse content.
 
 ## Publishing cadence for the SSG series
 
