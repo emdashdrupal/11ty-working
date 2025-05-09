@@ -8,7 +8,6 @@ categories:
 tags : content strategy
 cover : ann-rockley.jpg
 coverAlt : Mother of Content Strategy Ann Rockley
-
 description : \"Mother of Content Strategy&rdquo; Ann Rockley discusses a 30+ year consulting career, pivoting to a new business, and more.
 mp3File : content-content-podcast-ann-rockley.mp3
 
