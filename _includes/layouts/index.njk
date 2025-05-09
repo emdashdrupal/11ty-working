@@ -12,8 +12,9 @@
                     <ul class="list-inside">
                         <li>Assessing your current content situation.</li>
                         <li>Defining structure.</li>
-                        <li>Implementing content strategy.</li>
-                        <li>Engaging the people in your organization who are passionate about content.</li>
+                        <li>Implementing <a href="skills/content-strategy">content strategy</a>.</li>
+                        <li>
+                            <a href="skills/community">Engaging the people</a> in your organization who are passionate about content.</li>
                     </ul>
                     <p class="mt-6">This site is my portfolio. I rebuilt it from the ground up to show how I can help organizations with all aspects of their content.</p>
                 </div>
@@ -35,7 +36,7 @@
         <div class="grid col-auto sm:grid-cols-4 gap-2 px-3">
             {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
             {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
-                {% for item in sortedFeatured %}
+            {% for item in sortedFeatured %}
                 {% if loop.index0 < 4 %}
                     {% include 'layouts/partials/card.njk' %}
                 {% endif %}
@@ -51,7 +52,7 @@
         <div class="grid col-auto sm:grid-cols-4 gap-2 px-3">
             {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
             {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
-                {% for item in sortedFeatured %}
+            {% for item in sortedFeatured %}
                 {% if loop.index0 < 4 %}
                     {% include 'layouts/partials/card.njk' %}
                 {% endif %}
@@ -69,8 +70,8 @@
         </p>
         <div class="grid col-auto sm:grid-cols-4 gap-2 px-3">
 
-             {% set filtered_collections = collections.podcasts %}
-                {% for item in filtered_collections | reverse %}
+            {% set filtered_collections = collections.podcasts %}
+            {% for item in filtered_collections | reverse %}
                 {% if loop.index0 <= 3 %}
                     {% include 'layouts/partials/card.njk' %}
                 {% endif %}
