@@ -7,12 +7,11 @@
 {% endif %}
 
 {% if collectionName == 'podcasts' %}
-    <a href="{{ item.url }}" title="Listen to {{ item.data.title }}">
         <img
         {% if cover or item.data.cover %}
             src="/assets/images/{{ cover or item.data.cover }}"
-            alt="{{ item.data.coverAlt | safe }}"
-            title="{{ item.data.coverAlt | safe }}"
+            alt="{{ coverAlt | safe }}"
+            title="{{ coverAlt | safe }}"
         {% endif %}
         {% if not cover and not item.data.cover %}
             src="/assets/images/content-content-podcast-new-cover.png"
@@ -20,5 +19,4 @@
             title="Content Content podcast with Ed Marsh"
         {% endif %}
             class="w-full h-48 border-4 shadow-md"/>
-    </a>
 {% endif %}

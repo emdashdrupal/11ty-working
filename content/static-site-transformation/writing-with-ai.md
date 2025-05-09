@@ -36,6 +36,8 @@ I ran three different online `llms.txt` generators against both my current produ
 - Discussing project management and technical communication with Viqui Dill in a podcast format.
 - Discussing the intersection of project management and technical communication through Viqui Dill's insights and experiences.
 
+https://edmarsh.sh/llms.txt
+
 ## Conclusions
 
 There's plenty to learn from this output, especially because it's only going to get better. I think there's opportunity for technical communicators to improve and verify AI-generated documentation. There's also huge potential for tech writers to use AI to describe their codebase, generate code samples, and translate content into useful info.
