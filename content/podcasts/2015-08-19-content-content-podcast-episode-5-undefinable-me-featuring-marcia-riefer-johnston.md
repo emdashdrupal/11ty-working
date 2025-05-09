@@ -27,7 +27,7 @@ mp3File: Undescribable_Me_featuring_Marcia_Riefer_Johnston-Content_Content_podca
 
 - [Content Content podcast episode 1 with Sharon Burton](../2015-02-06-introducing-the-content-content-podcast/)
 
-- [Scott Abel](http://thecontentwrangler.com)
+- [Scott Abel](https://thecontentwrangler.com)
 
 - [*The Velveteen Rabbit*](https://en.wikipedia.org/wiki/The_Velveteen_Rabbit)
 

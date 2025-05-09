@@ -14,5 +14,5 @@ I have a history of finding those people and encouraging them to be champions fo
 - Held quarterly "content champions" meetings with interested stakeholders to get their feedback on how our content and site are performing, and workshop upcoming content initiatives.
 - Started a regular "content creators catchup" that brought cross-divisional tech writers, UXers, and others involved with content across the firm together to share and learn.
 - Created custom monthly metric emails to let stakeholders know how their content is performing, and where there may be gaps or opportunities.
-- Spoken at [user groups and conferences](public-speaking/).
-- Created a podcast dedicated to giving back to the [technical writing community](/content/podcasts/).
+- Spoken at user groups and conferences.
+- Created a podcast dedicated to give back to the [technical writing community](/podcasts).
