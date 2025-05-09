@@ -10,6 +10,7 @@ tags :
   - "localization"
   - "technical writing"
 cover: billswallow-300x300.jpg
+coverAlt : Scriptorium director of operations Bill Swallow
 description : \"Content requires proper care and feeding\", says Bill Swallow, director of operations at [Scriptorium](http://www.scriptorium.com). We talk localization, content strategy, local beer, summer's oppressive heat, and more.
 mp3File: Local_needs_of_content_featuring_Bill_Swallow_Content_Content_episode_12.mp3
 ---
