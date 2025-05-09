@@ -16,26 +16,27 @@
     buttonText="Download",
     title=title + " podcast"
 ) }}
-<div>
-    <iframe src='https://widgets.blubrry.com/32643/subscribe/' id='2140010353-subscribe-681e62658dec7' name='2140010353-subscribe-681e62658dec7' allowtransparency='true' style='background: none transparent; border: none; width: 100%; height: auto;'></iframe><script>window.addEventListener('message',function(e){'https://widgets.blubrry.com'===e.origin&&'object'==typeof e.data&&document.getElementById(e.data.senderId)&&(document.getElementById(e.data.senderId).style.height=e.data.height+'px')})</script>
-    <iframe src="https://player.blubrry.com/contentcontent/latest/#mode-Light&border-000000&progress-000000" title="Blubrry Podcast Player" scrolling="no" width="100%" height="100%;" frameborder="0"></iframe>
+    <div>
+        <iframe src='https://widgets.blubrry.com/32643/subscribe/' id='2140010353-subscribe-681e62658dec7' name='2140010353-subscribe-681e62658dec7' allowtransparency='true' style='background: none transparent; border: none; width: 100%; height: auto;'></iframe>
+        <script>
+            window.addEventListener('message', function (e) {
+                'https://widgets.blubrry.com' === e.origin && 'object' == typeof e.data && document.getElementById(e.data.senderId) && (document.getElementById(e.data.senderId).style.height = e.data.height + 'px')
+            })
+        </script>
+        <iframe src="https://player.blubrry.com/contentcontent/latest/#mode-Light&border-000000&progress-000000" title="Blubrry Podcast Player" scrolling="no" width="100%" height="100%;" frameborder="0"></iframe>
 
-</div>
+    </div>
     <audio controls>
         <source src="/assets/podcasts/{{mp3File}}" type="audio/mp3">
     </audio>
 {% endif %}
 
 {% set pageCategory = categories %}
-{% set isPublicSpeakingPage = page.fileSlug === 'public-speaking' %}
+
 {% set filteredPresentations = presentations | filterByCategory(pageCategory) | default([]) %}
 
 <div class="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4">
-    {% if (isPublicSpeakingPage)  %}
-        <div class="md:col-span-3">
-            {% include "layouts/partials/presos.njk" %}
-        </div>
-    {% elseif filteredPresentations and filteredPresentations.length > 0 %}
+    {% if filteredPresentations and filteredPresentations.length > 0 %}
         <div class="col-span-2 gap-4">
             <h2>Related</h2>
             {% include "layouts/partials/presos.njk" %}
@@ -46,6 +47,5 @@
     </div>
 </div>
 </article>
-
 
 {% include 'layouts/partials/footer.njk' %}
