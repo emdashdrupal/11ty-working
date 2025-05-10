@@ -20,13 +20,13 @@ This is a good example of what AI can do for you, but also where humans are inva
 >
 > I also [saved the original output](/static-site-transformation/ai-doc-output-orig) for the first draft of the site.
 
-If you look at the output, it's pretty impressive that AI can get to this level of granularity. I think the result is only a high level overview, and parts are not entirely correct &mdash; partially as a result of my lack of coding experience. For example, the Featured content section is technically correct. However, at the time I asked the question it wasn't working.
+If you look at the output, it's pretty impressive that AI can get to this level of granularity. But the result is only a high level overview, and parts are not entirely correct &mdash; partially as a result of my lack of coding experience. For example, the Featured content section is technically correct. However, at the time I asked the question it wasn't working.
 
-There's still a need for a person to review and verify.
+There's still a need for a person to review and verify generated output, particularly for liability purposes. Attorneys won't be happy if their organization is sued for incorrect documentation that's written by AI.
 
 ## The llms.txt file for AI
 
-I read about the `llms.txt` file, which gave me *exactly* the distraction I needed from writing content that I'd been putting off.
+I read about the [`llms.txt` file](https://llmstxt.org/), which gave me *exactly* the distraction I needed from writing content that I'd been putting off.
 
 There are several online generators that will take your URL and create an `llms.txt` markdown file for you. What I took away from these generators is how my site is interpreted by people and let's face it, bots and generative AI.
 
@@ -36,8 +36,10 @@ I ran three different online `llms.txt` generators against both my current produ
 - Discussing project management and technical communication with Viqui Dill in a podcast format.
 - Discussing the intersection of project management and technical communication through Viqui Dill's insights and experiences.
 
+https://edmar.sh/llms.txt
+
 ## Conclusions
 
-There's plenty to learn from this output, especially because it's only going to get better. I think there's opportunity for technical communicators to take a shell like this generated documentation and improve it. There's huge potential for tech writers to use AI to describe the code, and translate it into useful info (and fix passive voice!).
+There's plenty to learn from this output, especially because it's only going to get better. I think there's opportunity for technical communicators to improve and verify AI-generated documentation. There's also huge potential for tech writers to use AI to describe their codebase, generate code samples, and translate content into useful info.
 
 I'm not proud of how much I relied on a chatbot to program this website. But I'm also not a developer, and my goal wasn't to become one, but to facilitate the content I wanted to focus on.

@@ -1,0 +1,1672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:podcast="https://podcastindex.org/namespace/1.0"
+xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/"
+>
+<channel>
+	<title>Content Content podcast with Ed Marsh</title>
+	<atom:link href="https://edmarsh.com/feed/podcast" rel="self" type="application/rss+xml" />
+	<link>https://edmarsh.com/</link>
+	<description>Interviews with people who make content</description>
+	<lastBuildDate>Mon, 03 Mar 2025 21:06:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>Blubrry PowerPress/11.12.9</generator>
+		<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+	<itunes:summary>Ed Marsh, a technical writer and content developer, interviews professionals in the Web content world, including technical writers, content strategists, information architects, and more.</itunes:summary>
+	<itunes:author>Content Content podcast with Ed Marsh</itunes:author>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:image href="content-content-podcast-cover-oct2021.png" />
+	<itunes:owner>
+		<itunes:name>Content Content podcast with Ed Marsh</itunes:name>
+		<itunes:email>podcasts@edmarsh.com</itunes:email>
+	</itunes:owner>
+	<podcast:medium>podcast</podcast:medium>
+	<itunes:subtitle>Interviews with technical communication and web content professionals</itunes:subtitle>
+	<image>
+		<title>Content Content podcast with Ed Marsh</title>
+		<url>content-content-podcast-cover-oct2021.png</url>
+		<link>https://edmarsh.com/content-content-podcast</link>
+	</image>
+	<itunes:category text="Technology" />
+	<itunes:category text="Business">
+		<itunes:category text="Careers" />
+	</itunes:category>
+	<rawvoice:frequency>Bi-monthly</rawvoice:frequency>
+	<podcast:podping usesPodping="true" />
+	<podcast:guid>23af3018-8dcb-575b-a20e-035c579dd55f</podcast:guid>
+	<rawvoice:subscribe feed="https://edmarsh.com/feed/podcast" html="https://edmarsh.com/content-content-podcast/" itunes="http://edmarsh.com/feed/podcast/" tunein="http://tunein.com/radio/Content-Content-p831808/" spotify="https://edmarsh.com/feed/podcast/ "></rawvoice:subscribe>
+	<item>
+		<title>Sink and swim situation with Ann Rockley &#8211; Content Content podcast</title>
+		<link>https://edmarsh.com/2022/01/28/sink-and-swim-situation-with-ann-rockley-content-content-podcast/</link>
+		<pubDate>Fri, 28 Jan 2022 15:17:24 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2915</guid>
+		<description>In this episode &quot;Mother of Content Strategy&quot; Ann Rockley discusses a 30+ year consulting career, pivoting to a new business, and more.
+
+
+
+Ann Rockley
+
+
+
+
+
+
+
+Mentioned during this episode:
+
+
+
+Society for Technical Communication (STC)
+
+
+
+The Rockley Group
+
+
+
+Kolbe assessment
+
+
+
+Resilient Team Advantage</description>
+		<content:encoded><![CDATA[<p>In this episode &#8220;Mother of Content Strategy&#8221; Ann Rockley discusses a 30+ year consulting career, pivoting to a new business, and more.</p>
+<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="750" height="750" src="https://edmarsh.com/wp-content/uploads/2022/01/ann-rockley.jpg" alt="" class="wp-image-2929" srcset="https://i0.wp.com/edmarsh.com/wp-content/uploads/2022/01/ann-rockley.jpg?w=750&amp;ssl=1 750w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2022/01/ann-rockley.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2022/01/ann-rockley.jpg?resize=150%2C150&amp;ssl=1 150w" sizes="(max-width: 750px) 100vw, 750px" /><figcaption><em>Ann Rockley</em></figcaption></figure>
+<figure class="wp-block-audio"><audio controls src="blob:https://edmarsh.com/726bb5fc-0b4a-4062-b329-0fde9dbab104"></audio></figure>
+<p>Mentioned during this episode:</p>
+<p><a href="https://www.stc.org">Society for Technical Communication (STC)</a> </p>
+<p><a href="https://rockley.com/" target="_blank" rel="noreferrer noopener">The Rockley Group</a></p>
+<p><a href="https://www.kolbe.com/kolbe-a-index/" target="_blank" rel="noreferrer noopener">Kolbe assessment</a></p>
+<p><a href="http://rockley.com/rockley-resilient-team-advantage/" target="_blank" rel="noreferrer noopener">Resilient Team Advantage</a></p>
+]]></content:encoded>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2022/01/content-content-podcast-ann-rockley.mp3" length="51419490" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>41:45</itunes:duration>
+	</item>
+	<item>
+		<title>A really fancy webform with Patrick Bosek &#8211; Content Content podcast</title>
+		<link>https://edmarsh.com/2021/09/27/a-really-fancy-webform-with-patrick-bosek-content-content-podcast/</link>
+		<pubDate>Mon, 27 Sep 2021 20:44:08 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2894</guid>
+		<description>In this episode, Heretto CEO Patrick Bosek explains why pure techcomm is going away, why being a CEO is like being an eight year old with a lemonade stand, and more.
+
+
+
+Patrick Bosek of Heretto
+
+
+
+Note: This episode was recorded before Patrick&#039;s company changed its name to Heretto.
+
+
+
+Mentioned during this episode:
+
+
+
+DITA Open Toolkit
+
+
+
+GPT3
+
+
+
+Scriptorium podcast
+
+
+
+Snackable
+
+
+
+@patrickbosek
+
+
+
+@easydita
+
+
+
+@heretto
+
+
+
+Content and Coffee podcast
+
+
+
+Content Components podcast</description>
+		<content:encoded><![CDATA[<figure class="wp-block-audio"><audio controls src="http://edmarsh.com/wp-content/uploads/2021/09/content-content-podcast-patrick-bosek.mp3"></audio></figure>
+<p>In this episode, Heretto CEO Patrick Bosek explains why pure techcomm is going away, why being a CEO is like being an eight year old with a lemonade stand, and more.</p>
+<figure class="wp-block-image size-large"><img decoding="async" width="960" height="1280" src="http://edmarsh.com/wp-content/uploads/2021/09/Patrick-Bosekcurrent-social-960x1280.jpg" alt="Patrick Bosek of Heretto" class="wp-image-2902" srcset="https://i0.wp.com/edmarsh.com/wp-content/uploads/2021/09/Patrick-Bosekcurrent-social-scaled.jpg?resize=960%2C1280&amp;ssl=1 960w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2021/09/Patrick-Bosekcurrent-social-scaled.jpg?resize=225%2C300&amp;ssl=1 225w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2021/09/Patrick-Bosekcurrent-social-scaled.jpg?resize=113%2C150&amp;ssl=1 113w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2021/09/Patrick-Bosekcurrent-social-scaled.jpg?resize=768%2C1024&amp;ssl=1 768w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2021/09/Patrick-Bosekcurrent-social-scaled.jpg?resize=1152%2C1536&amp;ssl=1 1152w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2021/09/Patrick-Bosekcurrent-social-scaled.jpg?resize=1536%2C2048&amp;ssl=1 1536w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2021/09/Patrick-Bosekcurrent-social-scaled.jpg?w=1920&amp;ssl=1 1920w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2021/09/Patrick-Bosekcurrent-social-scaled.jpg?w=1422 1422w" sizes="(max-width: 960px) 100vw, 960px" /><figcaption>Patrick Bosek of Heretto</figcaption></figure>
+<p><strong>Note</strong>: This episode was recorded before Patrick&#8217;s company changed its name to Heretto.</p>
+<p>Mentioned during this episode:</p>
+<p><a href="https://www.dita-ot.org/" target="_blank" rel="noreferrer noopener">DITA Open Toolkit</a></p>
+<p><a href="https://openai.com/blog/gpt-3-apps/" target="_blank" rel="noreferrer noopener">GPT3</a></p>
+<p><a href="https://www.scriptorium.com/content-strategy-experts-podcast/" target="_blank" rel="noreferrer noopener">Scriptorium podcast</a></p>
+<p><a href="https://www.snackable.ai/" target="_blank" rel="noreferrer noopener">Snackable</a></p>
+<p><a href="https://twitter.com/patrickbosek" target="_blank" rel="noreferrer noopener">@patrickbosek</a></p>
+<p><a href="https://twitter.com/easydita" target="_blank" rel="noreferrer noopener">@easydita</a></p>
+<p><a href="https://www.twitter.com/heretto" target="_blank" rel="noreferrer noopener">@heretto</a></p>
+<p><a href="https://heretto.com/talk-shows/" target="_blank" rel="noreferrer noopener">Content and Coffee podcast</a></p>
+<p><a href="https://podcasts.apple.com/us/podcast/content-components/" target="_blank" rel="noreferrer noopener">Content Components podcast</a></p>
+]]></content:encoded>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2021/09/content-content-podcast-patrick-bosek.mp3" length="5242880" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+	</item>
+	<item>
+		<title>Clarity over consistency with MJ Babic &#8211; Content Content podcast</title>
+		<link>https://edmarsh.com/2021/06/08/clarity-over-consistency-with-mj-babic-content-content-podcast/</link>
+		<pubDate>Tue, 08 Jun 2021 14:01:00 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2870</guid>
+		<description>&quot;The best term to use to call what I was doing was UX writing&quot; says UX Writer MJ Babic on this episode of the Content Content podcast. MJ&#039;s had a diverse career, from marketing, feature articles, science journals, and some tech writing. But her plan is &quot;helping people complete their tasks with digital products&quot;, and to &quot;bring good writing to whatever corner I&#039;m working in at the moment&quot;.
+
+
+
+Mentioned during this episode:
+
+
+
+
+
+
+
+MJ on LinkedIn
+
+
+
+usertesting.com 
+
+
+
+A List Apart
+
+
+
+Smashing Magazine
+
+
+
+Boswords
+
+
+
+UX Writing Hub 
+
+
+
+Streeteries
+
+
+
+MJ on Medium
+
+
+
+Strategic Writing for UX, Torrey Podmajersky
+
+
+
+Writing Is Designing: Words and the User Experience, Michael J. Metts and Andy Welfle</description>
+		<content:encoded><![CDATA[<div class="wp-block-image">
+<figure class="alignright size-large"><img decoding="async" width="800" height="800" src="http://edmarsh.com/wp-content/uploads/2021/06/1603480107914.jpg" alt="" class="wp-image-2874" srcset="https://i0.wp.com/edmarsh.com/wp-content/uploads/2021/06/1603480107914.jpg?w=800&amp;ssl=1 800w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2021/06/1603480107914.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2021/06/1603480107914.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2021/06/1603480107914.jpg?resize=768%2C768&amp;ssl=1 768w" sizes="(max-width: 800px) 100vw, 800px" /></figure>
+</div>
+<p class="wp-image-2874">&#8220;The best term to use to call what I was doing was UX writing&#8221; says UX Writer MJ Babic on this episode of the Content Content podcast. MJ&#8217;s had a diverse career, from marketing, feature articles, science journals, and some tech writing. But her plan is &#8220;helping people complete their tasks with digital products&#8221;, and to &#8220;bring good writing to whatever corner I&#8217;m working in at the moment&#8221;.</p>
+<p>Mentioned during this episode:</p>
+<p><!--more--></p>
+<p><a href="https://www.linkedin.com/in/maryjeanbabic/">MJ on LinkedIn</a></p>
+<p><a href="http://usertesting.com" target="_blank" rel="noreferrer noopener">usertesting.com&nbsp;</a></p>
+<p><a href="https://alistapart.com/" target="_blank" rel="noreferrer noopener">A List Apart</a></p>
+<p><a href="https://www.smashingmagazine.com" target="_blank" rel="noreferrer noopener">Smashing Magazine</a></p>
+<p><a href="https://www.boswords.org/" target="_blank" rel="noreferrer noopener">Boswords</a></p>
+<p><a href="https://uxwritinghub.com/" target="_blank" rel="noreferrer noopener">UX&nbsp;Writing&nbsp;Hub&nbsp;</a></p>
+<p>Streeteries</p>
+<p><a href="https://mjbabic.medium.com/" target="_blank" rel="noreferrer noopener">MJ on Medium</a></p>
+<p><a href="http://Torrey Podmajersky" target="_blank" rel="noreferrer noopener"><em>Strategic&nbsp;Writing&nbsp;for&nbsp;UX</em>, Torrey&nbsp;Podmajersky</a></p>
+<p><a href="https://smile.amazon.com/dp/B082J3Z8R1/ref=dp-kindle-redirect?_encoding=UTF8&amp;btkr=1" target="_blank" rel="noreferrer noopener"><em>Writing&nbsp;Is&nbsp;Designing:&nbsp;Words&nbsp;and&nbsp;the&nbsp;User&nbsp;Experience</em>, Michael J. Metts and Andy Welfle</a></p>
+]]></content:encoded>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2021/06/content_content_podcast_MJ_Babic.mp3" length="5242880" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<rawvoice:metamark type="audio" />
+	</item>
+	<item>
+		<title>Not acting like slow computers with Rahel Bailie &#8211; Content Content podcast</title>
+		<link>https://edmarsh.com/2021/04/14/not-acting-like-slow-computers-with-rahel-bailie-content-content-podcast/</link>
+		<pubDate>Wed, 14 Apr 2021 14:26:00 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2843</guid>
+		<description>We return from a hiatus with content strategist Rahel Bailie! She joins Ed Marsh to talk about an uneven history of content strategy, object-oriented content, how her career has led her across two continents, and the history of women in technical communication.
+
+
+
+Her Content Strategy book with Noz Urbina remains one of Ed&#039;s most highlighted (highlit?) reads. We discuss Content Operations (ContentOps or DocOps), introducing efficiency, and more. I hope you laugh as much as we did.
+
+
+
+Mentioned during this episode:
+
+
+
+
+
+
+
+Scott Abel, the Content Wrangler
+
+
+
+An uneven history of content strategy
+
+
+
+Back to the Future
+
+
+
+Deane Barker The need for content operations
+
+
+
+Ann Rockley
+
+
+
+STC
+
+
+
+Pandoc
+
+
+
+Rahel on Twitter
+
+
+
+Rahel on LinkedIn
+
+
+
+Rahel&#039;s site
+
+
+
+Raving
+
+
+
+Schema.org
+
+
+
+Vale linter
+
+
+
+Visual Studio (VS) Code</description>
+		<content:encoded><![CDATA[<div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile is-vertically-aligned-top">
+<figure class="wp-block-media-text__media"><img decoding="async" src="http://edmarsh.com/wp-content/uploads/2021/04/rahel_bailie_headshot.jpg" alt="" class="wp-image-2852 size-full"/></figure>
+<div class="wp-block-media-text__content">
+<p class="has-normal-font-size">We return from a hiatus with content strategist Rahel Bailie! She joins Ed Marsh to talk about an uneven history of content strategy, object-oriented content, how her career has led her across two continents, and the history of women in technical communication.</p>
+</div>
+</div>
+<p>Her <a href="https://smile.amazon.com/Content-Strategy-Connecting-Business-Benefits/dp/1937434168/ref=sr_1_1?dchild=1&amp;keywords=rahel+bailie&amp;qid=1618343360&amp;sr=8-1" target="_blank" rel="noreferrer noopener"><em>Content Strategy </em>book</a> with <a href="http://edmarsh.com/2020/04/07/1000-or-100000-meetings-with-noz-urbina-content-content-podcast/">Noz Urbina</a> remains one of Ed&#8217;s most highlighted (highlit?) reads. We discuss Content Operations (ContentOps or DocOps), introducing efficiency, and more. I hope you laugh as much as we did. </p>
+<h2 class="wp-block-heading">Mentioned during this episode:</h2>
+<p><!--more--></p>
+<p><a href="http://edmarsh.com/2018/11/20/i-have-issues-with-slide-decks-with-scott-abel-content-content-podcast/">Scott Abel, the Content Wrangler</a></p>
+<p><a href="https://rahelab.medium.com/an-uneven-history-of-content-strategy-d514cfd7eee5" target="_blank" rel="noreferrer noopener">An uneven history of content strategy</a></p>
+<p><a href="https://www.backtothefuture.com/" target="_blank" rel="noreferrer noopener">Back to the Future</a></p>
+<p><a href="https://deanebarker.net/tech/blog/need-for-content-operations/" target="_blank" rel="noreferrer noopener">Deane Barker <em>The need for content operations</em></a></p>
+<p><a href="https://rockley.com/" target="_blank" rel="noreferrer noopener">Ann Rockley</a></p>
+<p><a href="https://www.stc.org" target="_blank" rel="noreferrer noopener">STC</a></p>
+<p><a href="https://pandoc.org" target="_blank" rel="noreferrer noopener">Pandoc</a></p>
+<p><a href="https://twitter.com/rahelab" target="_blank" rel="noreferrer noopener">Rahel on Twitter</a></p>
+<p><a href="https://www.linkedin.com/in/rahelannebailie/">Ra</a><a href="https://www.linkedin.com/in/rahelannebailie/" target="_blank" rel="noreferrer noopener">h</a><a href="https://www.linkedin.com/in/rahelannebailie/">el on LinkedIn</a></p>
+<p><a href="https://contentseriously.co.uk/" target="_blank" rel="noreferrer noopener">Rahel&#8217;s site</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Rave" rel="nofollow">Raving</a></p>
+<p><a href="https://schema.org" target="_blank" rel="noreferrer noopener">Schema.org</a></p>
+<p><a href="https://errata-ai.gitbook.io/vale/" target="_blank" rel="noreferrer noopener">Vale linter</a></p>
+<p><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer noopener">Visual Studio (VS) Code</a></p>
+]]></content:encoded>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2021/04/Content_Content_podcast_Rahel_Bailie.mp3" length="5242880" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+	</item>
+	<item>
+		<title>All the things in my Venn diagram with Alisa Bonsignore &#8211; Content Content podcast</title>
+		<link>https://edmarsh.com/2020/09/30/all-the-things-in-my-venn-diagram-with-alisa-bonsignore-content-content-podcast/</link>
+		<pubDate>Wed, 30 Sep 2020 14:05:00 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2812</guid>
+		<description>Alisa Bonsignore,  strategic communications consultant, talks to Ed Marsh about how she fell into things her entire career, global and career sustainability, and how to have a growth mindset during this.
+
+
+
+Mentioned during this episode:
+
+
+
+
+
+
+
+Alisa&#039;s business - Clarifying Complex Ideas
+
+
+
+Alisa on Twitter
+
+
+
+American Medical Writers Association
+
+
+
+Melissa Breker
+
+
+
+
+http://edmarsh.com/2016/09/01/off-wall-presentations-featuring-ben-woelk-content-content-podcast-episode-11/
+
+
+
+
+
+http://edmarsh.com/2018/01/23/installation-not-user-task-featuring-andrea-ames-content-content-podcast-episode-21/</description>
+		<content:encoded><![CDATA[<div class="wp-block-image">
+<figure class="alignright size-large"><img loading="lazy" decoding="async" width="300" height="313" src="http://edmarsh.com/wp-content/uploads/2020/09/alisa-bonsignore.jpg" alt="" class="wp-image-2824" srcset="https://i0.wp.com/edmarsh.com/wp-content/uploads/2020/09/alisa-bonsignore.jpg?w=300&amp;ssl=1 300w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2020/09/alisa-bonsignore.jpg?resize=288%2C300&amp;ssl=1 288w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2020/09/alisa-bonsignore.jpg?resize=144%2C150&amp;ssl=1 144w" sizes="auto, (max-width: 300px) 100vw, 300px" /></figure>
+</div>
+<p>Alisa Bonsignore,  strategic communications consultant, talks to Ed Marsh about how she fell into things her entire career, global and career sustainability, and how to have a growth mindset during <em>this</em>.</p>
+<p>Mentioned during this episode:</p>
+<p><!--more--></p>
+<p><a href="https://clarifyingcomplexideas.com/" target="_blank" rel="noopener noreferrer">Alisa&#8217;s business &#8211; Clarifying Complex Ideas</a></p>
+<p><a href="https://twitter.com/clearwriter">Alisa on Twitter</a></p>
+<p><a alt="American Medical Writers Association" href="https://www.amwa.org/">American Medical Writers Association</a></p>
+<p><a href="https://twitter.com/melissabreker?lang=en">Melissa Breker</a></p>
+<figure class="wp-block-embed-wordpress wp-block-embed is-type-wp-embed is-provider-ed-marsh">
+<div class="wp-block-embed__wrapper">
+http://edmarsh.com/2016/09/01/off-wall-presentations-featuring-ben-woelk-content-content-podcast-episode-11/
+</div>
+</figure>
+<figure class="wp-block-embed-wordpress wp-block-embed is-type-wp-embed is-provider-ed-marsh">
+<div class="wp-block-embed__wrapper">
+http://edmarsh.com/2018/01/23/installation-not-user-task-featuring-andrea-ames-content-content-podcast-episode-21/
+</div>
+</figure>
+]]></content:encoded>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2020/09/Content_Content_podcast_Alisa_Bonsignore.mp3" length="74235160" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>50:31</itunes:duration>
+	</item>
+	<item>
+		<title>Four engineers and an English major with Michael Miller &#8211; Content Content podcast</title>
+		<link>https://edmarsh.com/2020/07/23/four-engineers-and-an-english-major-with-michael-miller-content-content-podcast/</link>
+		<pubDate>Thu, 23 Jul 2020 14:09:00 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2792</guid>
+		<description>Michael Miller, an Indianapolis, IN-based technical writer, shares what it&#039;s like to be new to the field, his passion for it, the struggles he faces, his goals, and more.
+
+
+
+Content Content podcast guest Michael Miller with the Indy 500 Borg-Warner trophy
+
+
+
+Mentioned during this episode:
+
+
+
+
+
+
+
+Curse of Knowledge with Tom Johnson - Content Content podcastXML is a four-letter word with Alan J. Porter - Content Content podcastTime as a tool with Alan Houser - Content Content podcastBBEditGenesysSalesforceIndianapolis Motor Speedway The IndyCar &quot;split&quot;  IndyCar 2018 by IUPUI Motorsports Studies students  Relay FM  Connected podcast Cortex podcast</description>
+		<content:encoded><![CDATA[<p><a href="https://www.linkedin.com/in/michael-miller1227/">Michael Miller</a>, an Indianapolis, IN-based technical writer, shares what it&#8217;s like to be new to the field, his passion for it, the struggles he faces, his goals, and more.</p>
+<figure class="wp-block-image size-medium"><img loading="lazy" decoding="async" width="273" height="300" src="http://edmarsh.com/wp-content/uploads/2020/07/mike-miller-with-borg-warner-273x300.png" alt="Michael Miller with the Indy 500 Borg-Warner trophy" class="wp-image-2796" srcset="https://i0.wp.com/edmarsh.com/wp-content/uploads/2020/07/mike-miller-with-borg-warner.png?resize=273%2C300&amp;ssl=1 273w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2020/07/mike-miller-with-borg-warner.png?w=948 948w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2020/07/mike-miller-with-borg-warner.png?w=1422 1422w" sizes="auto, (max-width: 273px) 100vw, 273px" /><figcaption>Content Content podcast guest Michael Miller with the Indy 500 Borg-Warner trophy</figcaption></figure>
+<p>Mentioned during this episode:</p>
+<p><!--more--></p>
+<ul class="wp-block-list">
+<li><a href="http://edmarsh.com/2015/07/08/content-content-podcast-episode-4-curse-of-knowledge-with-tom-johnson/">Curse of Knowledge with Tom Johnson &#8211; Content Content podcast</a></li>
+<li><a href="http://edmarsh.com/2019/03/14/xml-is-a-four-letter-word-with-alan-j-porter-content-content-podcast/">XML is a four-letter word with Alan J. Porter &#8211; Content Content podcast</a></li>
+<li><a href="http://edmarsh.com/2015/03/18/content-content-podcast-time-as-a-tool-featuring-alan-houser-episode-2/">Time as a tool with Alan Houser &#8211; Content Content podcast</a></li>
+<li><a href="https://www.barebones.com/products/bbedit/">BBEdit</a></li>
+<li><a href="https://www.genesys.com/">Genesys</a></li>
+<li><a href="https://www.salesforce.com/">Salesforce</a></li>
+<li><a href="https://www.indianapolismotorspeedway.com/">Indianapolis Motor Speedway</a></li>
+<li> <a href="https://en.wikipedia.org/wiki/IndyCar#Split_with_CART">The IndyCar &#8220;split</a>&#8221; </li>
+<li> <a href="https://racer.com/2015/02/25/indycar-2018-by-motorsport-studies-students-at-iupui/">IndyCar 2018 by IUPUI Motorsports Studies students</a> </li>
+<li> <a href="https://www.relay.fm">Relay FM</a> </li>
+<li> <a href="https://www.relay.fm/connected">Connected podcast</a></li>
+<li> <a href="https://www.relay.fm/cortex">Cortex podcast</a> </li>
+</ul>
+]]></content:encoded>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2020/07/Content_Content_podcast_Michael_Miller-1.mp3" length="65673333" type="audio/mpeg" />
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>44:34</itunes:duration>
+	</item>
+	<item>
+		<title>Value-oriented outcomes with Sara Feldman &#8211; Content Content podcast</title>
+		<link>https://edmarsh.com/2020/05/19/value-oriented-outcomes-with-sara-feldman-content-content-podcast/</link>
+		<pubDate>Tue, 19 May 2020 15:04:49 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2782</guid>
+		<description>Sara Feldman, customer success enablement advocate, talks with Ed Marsh about job hunting during a pandemic, achieving outcomes, &quot;pre-charging&quot; before conferences, and more.
+
+
+
+Mentioned in this episode:
+
+
+
+
+
+
+
+ESET softwareThink with GoogleWhat&#039;s in it for me (WIIFM) - Ed Marsh&#039;s STC InterChange keynote presentationBen Woelk&#039;s Hope for the Introvert podcastRick Beato on YouTubeMatch Game</description>
+		<content:encoded><![CDATA[<p>Sara Feldman, customer success enablement advocate, talks with Ed Marsh about job hunting during a pandemic, achieving outcomes, &#8220;pre-charging&#8221; before conferences, and more. </p>
+<p>Mentioned in this episode:</p>
+<p><!--more--></p>
+<ul class="wp-block-list">
+<li><a href="https://www.slideshare.net/theedmarsh/timeless-techcomm-tips-stc-new-england-interchange-keynote-2020">ESET software</a></li>
+<li><a href="https://www.thinkwithgoogle.com/">Think with Google</a></li>
+<li><a href="https://www.slideshare.net/theedmarsh/timeless-techcomm-tips-stc-new-england-interchange-keynote-2020">What&#8217;s in it for me (WIIFM) &#8211; Ed Marsh&#8217;s STC InterChange keynote presentation</a></li>
+<li><a href="https://benwoelk.com/hope-for-the-introvert-podcast/">Ben Woelk&#8217;s Hope for the Introvert podcast</a></li>
+<li><a href="https://www.youtube.com/user/pegzch">Rick Beato on YouTube</a></li>
+<li><a href="https://www.youtube.com/user/MatchGameProductions">Match Game</a></li>
+</ul>
+]]></content:encoded>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2020/05/Content_Content_podcast_Sara_Feldman.mp3" length="76171083" type="audio/mpeg" />
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>51:51</itunes:duration>
+	</item>
+	<item>
+		<title>1,000 or 100,000 meetings with Noz Urbina &#8211; Content Content podcast</title>
+		<link>https://edmarsh.com/2020/04/07/1000-or-100000-meetings-with-noz-urbina-content-content-podcast/</link>
+		<pubDate>Tue, 07 Apr 2020 13:56:20 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2771</guid>
+		<description>If you want to hear a great story about a great career, you need to listen to Noz Urbina, the best-dressed man in content strategy. Noz talks to Ed Marsh about how to make content a business asset, literally writing the book on content strategy, and his path to creating his own consultancy and conference.
+
+
+
+
+
+
+
+Mentioned during this episode:
+
+
+
+
+
+
+
+Softquad XMetaLMekonCongilityOmniX conference - get €50 off with the code 50urbiCarrie HaneContent Strategy: Connecting the dots between business, brand, and benefits</description>
+		<content:encoded><![CDATA[<p>If&nbsp;you&nbsp;want&nbsp;to&nbsp;hear&nbsp;a&nbsp;great&nbsp;story&nbsp;about&nbsp;a&nbsp;great&nbsp;career,&nbsp;you&nbsp;need&nbsp;to&nbsp;listen&nbsp;to&nbsp;Noz&nbsp;Urbina, the best-dressed man in content strategy. Noz talks to Ed Marsh about how to make content a business asset, literally writing the book on content strategy, and his path to creating his own consultancy and conference.</p>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="2223" height="2223" src="https://i0.wp.com/edmarsh.com/wp-content/uploads/2020/04/Noz-headshot2223px-square-on-white.jpg?fit=474%2C474" alt="" class="wp-image-2777" srcset="https://i0.wp.com/edmarsh.com/wp-content/uploads/2020/04/Noz-headshot2223px-square-on-white.jpg?w=2223&amp;ssl=1 2223w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2020/04/Noz-headshot2223px-square-on-white.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2020/04/Noz-headshot2223px-square-on-white.jpg?resize=1280%2C1280&amp;ssl=1 1280w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2020/04/Noz-headshot2223px-square-on-white.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2020/04/Noz-headshot2223px-square-on-white.jpg?resize=768%2C768&amp;ssl=1 768w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2020/04/Noz-headshot2223px-square-on-white.jpg?resize=1536%2C1536&amp;ssl=1 1536w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2020/04/Noz-headshot2223px-square-on-white.jpg?resize=2048%2C2048&amp;ssl=1 2048w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2020/04/Noz-headshot2223px-square-on-white.jpg?w=948 948w, https://i0.wp.com/edmarsh.com/wp-content/uploads/2020/04/Noz-headshot2223px-square-on-white.jpg?w=1422 1422w" sizes="auto, (max-width: 2223px) 100vw, 2223px" /></figure>
+<p>Mentioned during this episode:</p>
+<p><!--more--></p>
+<ul class="wp-block-list">
+<li><a href="https://en.wikipedia.org/wiki/SoftQuad_Software">Softquad </a></li>
+<li><a href="https://xmetal.com/">XMetaL</a></li>
+<li><a href="http://mekon.com/">Mekon</a></li>
+<li><a href="http://congility.com/">Congility</a></li>
+<li><a href="http://omnichannelx.digital">OmniX conference</a> &#8211; get €50 off with the code <strong>50urbi</strong></li>
+<li><a href="https://www.tanzenconsulting.com/about-1">Carrie Hane</a></li>
+<li><a href="https://smile.amazon.com/dp/B07PQX1TRQ/ref=dp-kindle-redirect?_encoding=UTF8&amp;btkr=1">Content Strategy: Connecting the dots between business, brand, and benefits</a></li>
+</ul>
+]]></content:encoded>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2020/04/Content_Content_podcast_Noz_Urbina.mp3" length="79525837" type="audio/mpeg" />
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>54:11</itunes:duration>
+	</item>
+	<item>
+		<title>Fluffy experience with Hannah Kirk &#8211; Content Content podcast</title>
+		<link>https://edmarsh.com/2020/02/11/fluffy-experience-with-hannah-kirk-content-content-podcast/</link>
+		<pubDate>Tue, 11 Feb 2020 15:34:15 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2736</guid>
+		<description>Hannah Kirk (@pinkhairedCS), the Pink-haired Content Strategist, talks to Ed Marsh about conference experiences, how academia compares to Silicon Valley, how kids interact with technology, and reminds Ed how old he is.
+
+
+
+Mentioned during this episode:
+
+
+
+
+
+
+
+LivefyreGatsbyJSDocusaurusMDITA/Lightweight DITAXMetaLTrends in Technical Communication for 2020 and beyond - Cherryleaf Podcast episode 76Type-in programsHannah on Medium</description>
+		<content:encoded><![CDATA[<p> Hannah Kirk (<a href="https://twitter.com/pinkhairedCS">@pinkhairedCS</a>), the Pink-haired Content Strategist, talks to Ed Marsh about conference experiences, how academia compares to Silicon Valley, how kids interact with technology, and reminds Ed how old he is. </p>
+<p>Mentioned during this episode:</p>
+<p><!--more--></p>
+<ul class="wp-block-list">
+<li><a href="https://www.cherryleaf.com/podcast/">Livefyre</a></li>
+<li><a href="https://www.gatsbyjs.org/">GatsbyJS</a></li>
+<li><a href="https://docusaurus.io/">Docusaurus</a></li>
+<li><a href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cnprd01/LwDITA-v1.0-cnprd01.html#what-is-lwdita">MDITA/Lightweight DITA</a></li>
+<li><a href="https://xmetal.com/">XMetaL</a></li>
+<li><a href="https://www.cherryleaf.com/podcast/">Trends in Technical Communication for 2020 and beyond &#8211; Cherryleaf Podcast episode 76</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Type-in_program">Type-in programs</a></li>
+<li><a href="https://medium.com/@pinkhairCS">Hannah on Medium</a></li>
+</ul>
+]]></content:encoded>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2020/02/Content_Content_podcast_Hannah_Kirk-1.mp3" length="79801446" type="audio/mpeg" />
+		<itunes:season>1</itunes:season>
+		<podcast:season>1</podcast:season>
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>54:23</itunes:duration>
+	</item>
+	<item>
+		<title>I like the Ms - Content Content podcast with Learning Experience Designer Phylise Banner</title>
+		<link>https://edmarsh.com/2019/12/27/i-like-the-ms-with-phylise-banner-content-content-podcast/</link>
+		<pubDate>Fri, 27 Dec 2019 15:43:18 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2716</guid>
+		<description>Phylise Banner, learning experience designer, talks to Ed Marsh about being a digital native, why eLearning and forms are so bad, what it&#039;s like coordinating the online community at a major conference, and her passion for education theory and transportation.
+
+
+
+
+Mentioned during this episode:
+
+
+
+
+
+
+
+ABD (all but dissertation)Modern Learning podcastLuke WroblewskiFERPA - Family Educational Rights and Privacy ActAmphicarPiper CherokeeMatt PierceSam Rogers</description>
+		<content:encoded><![CDATA[<div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile">
+<figure class="wp-block-media-text__media"><img decoding="async" src="http://edmarsh.com/wp-content/uploads/2019/12/Phylise-Banner-head-Shot.jpg" alt="Phylise Banner, learning experience designer and Content Content podcast guest. Photo credit: Susan Blackburn" class="wp-image-2720"/></figure>
+<div class="wp-block-media-text__content">
+<p><a href="http://www.phylisebanner.com/">Phylise Banner, learning experience designer, </a>talks to Ed Marsh about being a digital native, why eLearning and forms are so bad, what it&#8217;s like coordinating the online community at a major conference, and her passion for education theory and transportation.</p>
+</div>
+</div>
+<p>Mentioned during this episode:</p>
+<p><!--more--></p>
+<ul class="wp-block-list">
+<li><a href="https://en.wikipedia.org/wiki/All_but_dissertation">ABD (all but dissertation)</a></li>
+<li><a href="https://blog.insynctraining.com/modern-learning-resource-library/tag/modern-learning-on-the-air">Modern Learning podcast</a></li>
+<li><a href="https://en.wikipedia.org/wiki/All_but_dissertation">Luke Wroblewski</a></li>
+<li><a href="https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html">FERPA &#8211; Family Educational Rights and Privacy Act</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Amphicar">Amphicar</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Piper_PA-28_Cherokee">Piper Cherokee</a></li>
+<li><a href="https://www.linkedin.com/in/matthewrpierce/">Matt Pierce</a></li>
+<li><a href="https://snapsynapse.com/writings-recordings/">Sam Rogers</a></li>
+</ul>
+]]></content:encoded>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2019/12/Content_Content_podcast_-_Phylise_Banner.mp3" length="84059554" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>55:43</itunes:duration>
+		<rawvoice:metamark type="audio" duration="3343" />
+	</item>
+	<item>
+		<title>We&#8217;re gonna do this together with Viqui Dill &#8211; Content Content podcast</title>
+		<link>https://edmarsh.com/2019/06/25/were-gonna-do-this-together-with-viqui-dill-content-content-podcast/</link>
+		<pubDate>Wed, 26 Jun 2019 00:58:48 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2680</guid>
+		<description>Viqui Dill, Senior Technical Writer at American Woodmark in Virginia, talks to Ed Marsh how everyone is a project manager in some form, life in the (literal) hardware industry, her day of 500 hugs, what is just-in-time documentation, and more.
+
+
+
+Viqui is also an accomplished &quot;bad-ass bass player&#039; and a self-proclaimed techcomm evangelist.
+
+
+
+Viqui Dill - 2017 STC Technical Communication Summit
+
+
+
+Mentioned during this episode:
+
+
+
+
+
+
+
+Gully WasherAmerican Woodmark2020 design softwareSTC Instructional Design and Learning (IDL) Special Interest Group (SIG)STC DC Metro chapterSTC Philadelphia CONDUIT conferenceViqui on TwitterViqui on SlideSharePower of StoryDjembeDr Heidi Lawrence501(c)(3) corporationSTC George Mason University chapterEd&#039;s presentation for the STC IDL SIG - Driving your Docs with Data</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2019/06/Content_Content_podcast_-_Viqui_Dill.mp3" length="89848468" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:01:22</itunes:duration>
+	</item>
+	<item>
+		<title>XML is a four-letter word with Alan J. Porter &#8211; Content Content podcast</title>
+		<link>https://edmarsh.com/2019/03/14/xml-is-a-four-letter-word-with-alan-j-porter-content-content-podcast/</link>
+		<pubDate>Thu, 14 Mar 2019 14:36:16 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2614</guid>
+		<description>Alan J. Porter, Head of Strategic Services Practice at [A], talks to Ed Marsh about why tech writers are now content engineers, why metadata is important, what it&#039;s like to document massive hardware, and more.
+
+Alan J. Porter, guest on the Content Content podcast
+
+Alan is also an accomplished author and critic of comics, pop culture, sci-fi, and more.
+
+Mentioned during this episode:
+
+XyWrite
+
+Grif
+
+S1000D
+
+Circuit of the Americas
+
+Word2DITA plug-in by Eliot Kimber
+
+Caterpillar
+
+Concorde
+
+Alan&#039;s Open Wheel podcast
+
+Napoleons and Shakespeares featuring Teresa Meek &#8211; Content Content podcast episode 14
+
+Experiences have to be assembled with Cruce Saunders &#8211; Content Content podcast</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2019/03/content_content_podcast-alan-porter.mp3" length="36644223" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:13:10</itunes:duration>
+	</item>
+	<item>
+		<title>I have issues with slide decks with Scott Abel &#8211; Content Content podcast</title>
+		<link>https://edmarsh.com/2018/11/20/i-have-issues-with-slide-decks-with-scott-abel-content-content-podcast/</link>
+		<pubDate>Tue, 20 Nov 2018 15:23:53 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2649</guid>
+		<description>Scott Abel, also known as The Content Wrangler and the host of Information Development World, talks to Ed Marsh about the parallels between music and single sourcing, smooth segues between paragraphs, intelligent content, and content strategy in the medical field.
+Mentioned during this episode:
+
+
+
+
+
+
+Ann Rockley
+
+
+
+Managing Enterprise content
+
+
+
+Scott on Twitter
+
+
+
+The Content Wrangler on Twitter
+
+
+
+Intelligent Content Conference
+
+
+
+Scriptorium
+
+
+
+HIPAA
+
+
+
+Scott on Medium</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2018/11/Content_Content_podcast_Scott_Abel.mp3" length="38511692" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:17:07</itunes:duration>
+	</item>
+	<item>
+		<title>Experiences have to be assembled with Cruce Saunders &#8211; Content Content podcast</title>
+		<link>https://edmarsh.com/2018/09/14/experiences-have-to-be-assembled-with-cruce-saunders-content-content-podcast/</link>
+		<pubDate>Fri, 14 Sep 2018 14:52:56 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2625</guid>
+		<description>In an intense episode focused on intelligent content, Cruce Saunders of [ A ] and Ed Marsh discuss content in the enterprise and how to make it an asset in the C-suite, job titles in the content world, lightweight markup languages, and much more.
+
+
+
+Mentioned during this episode:
+Cruce Saunders of [ A ], Content Content podcast guest
+ 
+
+
+
+
+
+
+
+
+Joe Gollner
+Ann Rockley on the definition of intelligent content
+Financial Accounting Standards Board (FASB)
+Adobe Experience Manager (AEM)
+Scott Brinker
+Mayo Clinic
+Markdown
+AsciiDoc
+reStructured Text
+Ashland
+Microsoft Visual Studio Code
+GitHub
+Towards a smaller world podcast
+[A] on Twitter
+Cruce on Twitter</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2018/09/Content_Content_podcast_Cruce-Saunders.mp3" length="38279082" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:19:42</itunes:duration>
+	</item>
+	<item>
+		<title>Holding somebody else&#8217;s place with Sean Heckman &#8211; Content Content podcast</title>
+		<link>https://edmarsh.com/2018/04/20/holding-somebody-elses-place-with-sean-heckman-content-content-podcast/</link>
+		<pubDate>Fri, 20 Apr 2018 14:20:50 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2591</guid>
+		<description>Sean Heckman was a racer, a figure skater, a TV writer and producer, almost a lawyer, and finally owner of The Media Barons and a podcast mogul. Learn what it&#039;s like to drive across the USA for 30+ days interviewing racing legends, while running a content creation business that caters to small businesses.
+
+Find out why Sean calls a &quot;sport with science, technology, and a lot of nonsense&quot; his home.
+
+I&#039;ve never met Sean, and he was as curious about me as I was about him. Sean says he&#039;s not a journalist, but he is. He gets people to talk, listens to their stories, and responds to them. He also has an immensely dry sense of humor. I literally had to stop dozens of times while editing this podcast to stop laughing. Give this a listen.
+Mentioned in this episode:
+
+
+Sean&#039;s work on IMDB
+Adrian Fernandez
+Emerson Fittipaldi
+Ryan Eversley
+Ryan Eversley on Twitter
+IMSA WeatherTech SportsCar championship
+Blubrry podcast statistics
+Scott Tucker Dirty Money - Netflix
+Chris Hardwick – Nerdist Podcast
+WTF podcast with Marc Maron
+Dinner with Racers with Mario Andretti
+Craig Hampson episode
+Dario Franchitti&#039;s hair
+Sean on Instagram</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2018/04/Content_Content_podcast_episode_23_Sean_Heckman.mp3" length="50249728" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:36:44</itunes:duration>
+	</item>
+	<item>
+		<title>I can eat glass with Keith Schengili-Roberts &#8211; Content Content podcast episode 22</title>
+		<link>https://edmarsh.com/2018/03/13/i-can-eat-glass-with-keith-schengili-roberts-content-content-podcast-episode-22/</link>
+		<pubDate>Tue, 13 Mar 2018 14:15:00 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2564</guid>
+		<description>Keith Schengili-Roberts, market researcher and DITA Evangelist for IXIASOFT, and Ed Marsh discuss the old days of HTML, Archie, Veronica, fax software, and more. We also talk about what the hell a DITA evangelist does.
+
+
+Mentioned during this episode:
+I can eat glass test
+
+Delrina
+
+The Advanced HTML Companion
+
+The Computer Paper
+
+ATI graphics cards
+
+Mekon
+
+DITA listening sessions
+
+Keith&#039;s SlideShare
+
+DITA worst practices
+
+Captain Mondo
+
+MarkDown
+
+AsciiDoc
+
+The beginnings of DITA part 1
+
+The beginnings of DITA part 2
+
+OASIS
+
+OASIS DITA adoption committee
+
+C&#039;est what Toronto
+
+Keith&#039;s Wikimedia Commons contributions
+
+The Curse of the Labrador Duck
+
+Keith on Twitter
+
+Ed on the Scriptorium podcast
+
+Ed&#039;s Data-driven content webinar</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2018/03/Content_Content_podcast_episode_22_Keith_Schengili-Roberts.mp3" length="42326016" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:20:13</itunes:duration>
+	</item>
+	<item>
+		<title>Installation is not a user task featuring Andrea Ames &#8211; Content Content podcast episode 21</title>
+		<link>https://edmarsh.com/2018/01/23/installation-not-user-task-featuring-andrea-ames-content-content-podcast-episode-21/</link>
+		<pubDate>Tue, 23 Jan 2018 15:04:57 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2532</guid>
+		<description>Andrea Ames and Ed Marsh discuss the evolution of the technical communication field, the number of job titles for technical communicators, the frustrations of proving your value, and laugh a lot.Andrea Ames, Content Content podcast episode 21 guest
+
+Andrea is the CEO of Idyll Point Group, after a long stint in content strategy and content experience strategy at IBM.
+
+Mentioned during this episode:
+
+Idyll Point Group on Facebook
+
+Andrea’s Content Hacker podcast
+
+Don Day and Michael Priestley on the beginnings of DITA part 1 - DITAWriter
+
+Don Day and Michael Priestley on the beginnings of DITA part 2 - DITAWriter
+
+STC Intercom magazine editorial calendar
+
+Amy Porterfield&#039;s podcast
+
+Michael Hyatt&#039;s Lead to Win podcast
+
+Michael Hyatt talks about his fear of speaking</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2018/01/Content-Content-podcast-episode-21-Andrea-Ames.mp3" length="50186240" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:36:36</itunes:duration>
+	</item>
+	<item>
+		<title>The price is right with Tim Esposito &#8211; Content Content podcast episode 20</title>
+		<link>https://edmarsh.com/2017/11/30/price-right-tim-esposito-content-content-podcast-episode-20/</link>
+		<pubDate>Thu, 30 Nov 2017 15:11:30 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2510</guid>
+		<description>Timothy Esposito is a principal technical writer for Oracle, and current STC Philadelphia Metro chapter President. We talk about a career of service, Y2k, what it takes to run a successful volunteer organization, hiking, and, of course, beer. Tim is also an STC Associate Fellow.
+Mentioned in this episode
+Timothy Esposito, Content Content podcast episode 20 guest
+
+
+Tim&#039;s site
+Tim on Twitter
+Tim&#039;s &quot;Bonus materials&quot; page
+Kings Canyon
+Yosemite Half Dome
+2018 STC Philadelphia Metro CONDUIT conference
+Submit proposals for the 2018 STC Philadelphia Metro CONDUIT conference
+Content Content Podcast – Time as a Tool – featuring Alan Houser – episode 2
+Content Content podcast episode 3 - Fire fingers with Danielle Villegas
+Elm email client
+Vi text editor
+G-Log
+Cards against humanity
+The Beer Store
+STC Rochester Spectrum conference
+STC New England Interchange conference
+STC Distinguished Community Service Awards Committee
+STC Community Affairs Committee
+Cheltenham Township Historical Commission</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2017/11/Content-Content-podcast-episode-20-Tim-Esposito.mp3" length="26005504" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>51:04</itunes:duration>
+	</item>
+	<item>
+		<title>Same mess different tools with Liz Fraley &#8211; Content Content episode 19</title>
+		<link>https://edmarsh.com/2017/09/12/same-mess-different-tools-with-liz-fraley-content-content-episode-19/</link>
+		<pubDate>Tue, 12 Sep 2017 14:09:01 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2492</guid>
+		<description>Elizabeth Fraley runs Single-Sourcing Solutions in Sunnyvale, Ca. We geek out about the history of structured authoring, how her opinions have changed in 17 years of technical writing, and how many books a year are too many to read.
+Mentioned in this episode:
+Liz Fraley, Content Content episode 19 guest
+
+Single Sourcing social media and public projects
+TC Camp
+TC Dojo
+Liz&#039;s books
+
+Benefits of dynamic product information delivery for life sciences
+ Keith Schengili-Roberts
+Lisa Scottoline
+Michael Priestley
+ACM sigdoc
+Microsoft .Lit file
+Interleaf
+oXygen XML Editor
+Antenna House
+DITA Open Toolkit
+FOP DITA rendering engine
+Arbortext
+Rob Hanna - Precision Content
+Ixiasoft
+STC Summit
+Scott Prentice
+Alan Houser
+George Lakoff - Moral Politics</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2017/09/Content-Content-podcast-episode-19-Liz-Fraley.mp3" length="33886225" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:02:38</itunes:duration>
+	</item>
+	<item>
+		<title>Emo analytics with Allie Proff &#8211; Content Content episode 17</title>
+		<link>https://edmarsh.com/2017/07/26/emo-analytics-with-allie-proff-content-content-episode-17/</link>
+		<pubDate>Wed, 26 Jul 2017 14:41:12 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2462</guid>
+		<description>Allie Proff works for freaking Boeing. We discuss emotive analytics, technical storytelling, technology as a tool for good and bad, and a meta podcast moment.
+Mentioned during this episode:
+Allie Proff, Content Content podcast episode 17 guest
+
+Allie on Twitter
+
+Allie&#039;s technical writing twitter
+
+Allie on LinkedIn
+
+ 
+
+
+
+Affectiva
+
+USS Vella Gulf
+
+Brene Brown: the power of vulnerability
+
+Allie&#039;s column: Speaking the STC Summit
+
+How to change your Facebook password video
+
+How TurboTax makes a dreadful user experience a delightful one
+
+technically eclectic
+
+Mailchimp&#039;s style guide
+
+Snohomish County Mothers of Multiples (SNOMOMS)
+
+Be like Thomas Pynchon with Pawel Kowaluk – Content Content episode 16
+
+Ingress the game
+
+Pokemon Go
+
+Content Content podcast episode 7 – Curious about content featuring David Dylan Thomas
+
+It&#039;s OK to pause featuring Alyssa Fox - Content Content podcast episode 13</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2017/07/content_content_podcast_episode_17_-_Allie_Proff.mp3" length="41906176" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:19:20</itunes:duration>
+	</item>
+	<item>
+		<title>Be like Thomas Pynchon with Pawel Kowaluk &#8211; Content Content episode 16</title>
+		<link>https://edmarsh.com/2017/06/27/like-thomas-pynchon-pawel-kowaluk-content-content-episode-16/</link>
+		<pubDate>Tue, 27 Jun 2017 14:08:46 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2443</guid>
+		<description>Pawel Kowaluk, a technical writer, self-proclaimed DITA geek, and recruiter, joins us from Krakow, Poland. He talks about the rise of technical communication in Poland, starting a conference, and how to balance a team when hiring.
+
+Note: After recording, we became aware that Pawel left the Soap! Conference team after one year. To further clarify, Pawel did not have a role in the formation of MeetContent, though he is an active member of the community. Content Content regrets any confusion or offense to those involved.
+
+Episode 16 guest Pawel Kowaluk
+
+In this episode
+
+Meet Content
+Techwriter.pl
+Soap! Conference
+International Technical Communication Qualifications Foundation (ITCQF)
+Thomas Pynchon
+Poland Madcap Flare User Group
+Users or people with Jack Molisani – Content Content episode 15
+Markdown
+&quot;Life begins when you step out of your comfort zone&quot;- Pam Noreault
+Daniel Pink&#039;s theory of motivation
+Society for Technical Communication (STC) Certified Professional Technical Communicator
+Flash fiction
+Pawel on Twitter
+Pawel&#039;s flash fiction</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2017/06/content-content-podcast-episode-17-pawel-kowaluk-edit.mp3" length="28631040" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>51:41</itunes:duration>
+	</item>
+	<item>
+		<title>Users or people with Jack Molisani &#8211; Content Content episode 15</title>
+		<link>https://edmarsh.com/2017/04/24/users-or-people-with-jack-molisani-content-content-episode-15/</link>
+		<pubDate>Mon, 24 Apr 2017 14:09:35 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2358</guid>
+		<description>Jack Molisani, president of ProSpring Staffing and Executive Director of The LavaCon Content Strategy Conference talks about technical communication hiring, rebranding, content strategy, and how he&#039;s seized opportunities his entire career.
+Mentioned in this episode:
+Episode 15 guest Jack Molisani
+
+
+
+Jack on Twitter
+
+Jack&#039;s book: Be the Captain of Your Career: A New Approach to Career Planning and Advancement
+
+Andrea Ames
+
+Joe Gollner
+
+Gnostyx
+
+Misty Weaver
+
+Ari Hoffman of Mindtouch
+
+IndyCar Grand Prix of Long Beach
+
+ProSpring Staffing
+
+The LavaCon Content Strategy Conference
+
+Ed on Twitter
+
+Drive your docs with data - 2017 CONDUIT conference
+
+SlideShare #LavaCon
+
+
+STC Philly Metro conference</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2017/04/Content_Content_episode-15_-_Jack-Molisani.mp3" length="32880640" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+	</item>
+	<item>
+		<title>Napoleons and Shakespeares featuring Teresa Meek &#8211; Content Content podcast episode 14</title>
+		<link>https://edmarsh.com/2017/02/14/napoleons-shakespeares-teresa-meek-content-content-podcast-14/</link>
+		<pubDate>Tue, 14 Feb 2017 15:01:14 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2311</guid>
+		<description>Content Marketer Teresa Meek has had a varied career path in journalism, real estate, and more, but always focused on writing. She is currently based in Seattle, Washington, from where she talked about how content marketing and technical writing have similarities, her brief career in technical writing, how to transition to content marketing, and more.
+
+Content marketer Teresa Meek
+
+Mentioned in this episode:
+
+
+
+Teresa&#039;s web site
+
+Teresa on Twitter
+
+Teresa&#039;s personal blog - Domesticus
+
+Teresa&#039;s book - Say it with feeling! Business Writing in the Internet Age
+
+Quora
+
+Content Marketing World
+
+Content Marketing Institute
+
+Flo - Progressive Insurance
+
+Top 10 questions from Content Marketing World
+
+eByline
+
+Contently
+
+Skyword
+
+Janet Burroway
+
+Anne Lamott - Bird by Bird: Some Instructions on Writing and Life
+
+Steven King - On Writing: A Memoir Of The Craft</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2017/02/Content_Content_episode_14_-_Teresa_Meek.mp3" length="32827392" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+	</item>
+	<item>
+		<title>It&#8217;s OK to pause featuring Alyssa Fox &#8211; Content Content podcast episode 13</title>
+		<link>https://edmarsh.com/2016/11/15/ok-pause-featuring-alyssa-fox-content-content-podcast-episode-13/</link>
+		<pubDate>Tue, 15 Nov 2016 15:01:39 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2223</guid>
+		<description>Alyssa Fox, Director of Information Development and Program Management at Micro Focus, tells us that it&#039;s OK to pause when processing information. We also discuss managing people &quot;fairly, not equally&quot;, why content strategy is difficult, multinational technical communication teams, fashion, and more.
+Content Content podcast episode 13 guest Alyssa Fox, Director of Information Development and Program Management at Micro Focus
+
+Mentioned during this episode:
+
+
+Alyssa on Twitter
+
+Mindtouch&#039;s top 200 content strategists for 2016
+
+Texas A&amp;M University
+
+Quiet by Susan Cain
+
+STC Board meeting summaries
+
+STC Philadelphia Metro CONDUIT conference
+
+Alyssa&#039;s Slideshare
+
+Ed&#039;s TC Camp presentation on social media and podcasting</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2016/11/Content-Content-podcast-Episode-13-Alyssa-Fox.mp3" length="32212992" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+	</item>
+	<item>
+		<title>Local needs of content featuring Bill Swallow &#8211; Content Content podcast episode 12</title>
+		<link>https://edmarsh.com/2016/09/30/local-needs-content-featuring-bill-swallow-content-content-podcast-episode-12/</link>
+		<pubDate>Fri, 30 Sep 2016 13:30:38 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2192</guid>
+		<description>&quot;Content requires proper care and feeding&quot;, says Bill Swallow, director of operations at Scriptorium. We talk localization, content strategy, local beer, summer&#039;s oppressive heat, and more.
+
+Bill Swallow
+
+Released on International Podcast Day!
+Mentioned during this episode
+
+
+Bill on Twitter
+
+International Podcast Day 2016
+
+Content Content podcast with Sarah O&#039;Keefe
+
+Rensselaer Polytechnic Institute
+
+Bill&#039;s presentation: Localization Planning and The Content Strategy of Things
+
+Techcomm camp (TCCamp)
+
+Ed&#039;s TC Camp presentation - social media and podcasting for technical communicators
+
+Saratoga brewing 
+
+Rare Form brewing company
+
+Alementary
+
+1916 shore shiver - Forgotten Boardwalk brewing
+
+Abandon Brewing
+
+Learning DITA
+
+Bill on Medium.com
+
+Scriptorium blog
+
+Bill on LinkedIn
+
+Content Marketing World</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2016/09/Local_needs_of_content_featuring_Bill_Swallow_Content_Content_episode_12.mp3" length="31232000" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+	</item>
+	<item>
+		<title>Off the wall presentations featuring Ben Woelk &#8211; Content Content podcast episode 11</title>
+		<link>https://edmarsh.com/2016/09/01/off-wall-presentations-featuring-ben-woelk-content-content-podcast-episode-11/</link>
+		<pubDate>Thu, 01 Sep 2016 17:08:38 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2122</guid>
+		<description>Ben Woelk, technical communicator and Information Security Office Program Manager at the Rochester Institute of Technology, talks about being an introverted leader and how it&#039;s changed his career and his passion.
+
+Ben Woelk
+Mentioned during this episode
+
+Ben Woelk on Twitter
+STC Philadelphia Metro Conduit conference
+STC Rochester
+Slack
+STC Community Affairs Committee CAC
+Educause
+Hannah Morgan, the Career Sherpa
+Quiet - Susan Cain
+Susan Cain&#039;s TED talk
+Mathematical word problems for introverts
+STC Certified Professional Technical Communicator program
+Blink - Malcolm Gladwell
+Jesus, CEO - Laurie Beth Jones
+TechSoup
+Ben Woelk on LinkedIn</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2016/08/Off_the_wall_presentations_featuring_Ben_Woelk_Content_Content_episode_11.mp3" length="139005952" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+	</item>
+	<item>
+		<title>Single source of the truth featuring Bernard Aschwanden &#8211; Content Content podcast episode 10</title>
+		<link>https://edmarsh.com/2016/07/26/content-content-podcast-episode-10-featuring-bernard-aschwanden/</link>
+		<pubDate>Tue, 26 Jul 2016 14:01:23 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=2034</guid>
+		<description>Bernard Aschwanden, President of Publishing Smarter, STC Immediate Past President, and Ed&#039;s twin talks about certification, why your content is not your own, building a house (literally), process vs process, finding his spouse through STC, social networking, and more.
+
+Ed Marsh and guest Bernard Aschwanden meet at STC Philadelphia Metro Conduit conference, 2016
+
+Mentioned during this episode:
+
+@aschwanden4stc
+@publishsmarter
+STC
+Publishingsmarter.com
+Webworks
+Adobe certified partner
+Frame technologies FrameMaker
+Google analytics
+Michael Priestley
+Alementary Brewing, Hackensack, NJ
+
+Content Content on TuneIn
+Content Content on Google Play Music
+Content Content on iTunes</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2016/07/Single_source_of_truth_featuring_Bernard_Aschwanden_Content_Content_episode_10.mp3" length="39624704" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+	</item>
+	<item>
+		<title>Complimentary sandwich featuring Todd DeLuca &#8211; Content Content episode 9</title>
+		<link>https://edmarsh.com/2016/05/13/complimentary-sandwich-featuring-todd-deluca-content-content-episode-9/</link>
+		<pubDate>Fri, 13 May 2016 14:42:29 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=1947</guid>
+		<description>Todd DeLuca, a Pennsylvanian who manages a remote tech writing team, shares with us how volunteering and presenting has elevated his career, what it&#039;s like to manage a technical communication team, volunteering with intention, and how to promote yourself and your team within your company.
+
+Todd DeLuca
+
+
+Mentioned during this super-sized episode:
+
+STC Summit
+
+Technical Delivery: An Expanded Role for Technical Communicators
+
+Volunteering your way up the career ladder
+
+Todd on Twitter
+
+Todd&#039;s Tumblr
+
+Todd on LinkedIn
+
+Servant Leadership</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2016/05/Complimentary_sandwich_featuring_Todd_DeLuca_Content_Content_episode_9.mp3" length="43778048" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+	</item>
+	<item>
+		<title>Content Content podcast episode 8 – fairly random events featuring Sarah O&#8217;Keefe</title>
+		<link>https://edmarsh.com/2016/03/11/content-content-podcast-episode-8-fairly-random-events-featuring-sarah-okeefe/</link>
+		<pubDate>Fri, 11 Mar 2016 15:30:47 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=1912</guid>
+		<description>Content strategy business owner Sarah O&#039;Keefe talks about working with a CMS, content metrics, tekom, packing for flights, and her aversion to the nightshade family.
+
+Sarah O&#039;Keefe, Content Strategist and owner of Scriptorium
+
+Mentioned during this episode:
+Scriptorium
+Sarah&#039;s Twitter
+Content Strategy 101
+Lavacon conference
+North Carolina Research Triangle
+Net promoter score
+Learning DITA
+Content Content podcast episode 7 Curious about content featuring David Dylan Thomas/
+Sturm und DITA-Drang at tekom
+Ravelry knitting community
+Head Fi headphone community
+Ed is presenting at STC Philly Metro&#039;s Conduit conference Saturday, April 2
+Ed on Twitter</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2016/03/Solving_content_problems_featuring_Sarah_OKeefe_Content_Content_podcast_episode_8.mp3" length="34859008" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:12:18</itunes:duration>
+	</item>
+	<item>
+		<title>Content Content podcast episode 7 &#8211; Curious about content featuring David Dylan Thomas</title>
+		<link>https://edmarsh.com/2016/01/19/content-content-podcast-episode-7-curious-about-content-featuring-david-dylan-thomas/</link>
+		<pubDate>Tue, 19 Jan 2016 15:35:05 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=1860</guid>
+		<description>A free-wheeling show starts off 2016 starring David Dylan Thomas, Senior Content Strategist. Our topics include what a content strategist does, the future of content and work, getting noticed on social media, and even a few movies to see.
+
+David Dylan Thomas, content strategist and movie maker
+
+	Some of Dave&#039;s work:
+The Developing Philly documentary webseries
+	Lessons from the Future of Content: Part One — Tools Are Cheap, Time Is Expensive
+	Content Camp Philly
+	VIDEO: Agile Living: How I Learned to Stop Worrying and Never Be “Done”
+
+Mentioned during this episode:
+Significant Objects
+Confab content strategy conference
+Philly content strategy meetups
+Stack Exchange
+Contently API
+Confab content strategy conference
+Cleve Gibbon, content strategist
+Epam
+Lavacon conference
+Keith Knight - comic artist - Patreon
+Dan Benjamin - podcaster - Patreon
+Sarah O&#039;Keefe - The talent deficit in content strategy
+FOMO - Fear of missing out
+
+Subscribe (Android)
+
+Books referenced:
+Elements of Content Strategy - Erin Kissane
+Content Everywhere - Sara Wachter-Boettcher
+Content Strategy - Rahel Ann Bailie and Noz Urbina</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2016/01/Curious_about_content_featuring_David_Dylan_Thomas_Content_Content_podcast_episode_7.mp3" length="35280896" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:13:13</itunes:duration>
+	</item>
+	<item>
+		<title>Content Content podcast episode 6 &#8211; Where&#8217;s my Flare &#8211; featuring Dr. Carlos Evia</title>
+		<link>https://edmarsh.com/2015/10/27/content-content-podcast-episode-6-wheres-my-flare-featuring-dr-carlos-evia/</link>
+		<pubDate>Tue, 27 Oct 2015 14:14:15 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=1820</guid>
+		<description>Dr. Carlos Evia, Director of Professional and Technical Writing at Virginia Tech
+
+Dr. Carlos Evia is featured on a jaw-dropping episode of the Content Content podcast. We discuss cutting-edge developments in the DITA world, as well as the similarities and differences between academicians and practitioners of technical communication.
+
+Carlos is the Director of Professional and Technical Writing at Virginia Tech, is on the Lightweight DITA Technical Committee, and is an advocate for using multimedia with DITA.
+
+ Subscribe (Android)
+
+Carlos Evia
+
+Carlos Evia on Twitter
+
+Taking the DITA troubleshooting topic for a spin
+
+The academician and the practitioner should be friends
+
+Tom Johnson podcast with Lisa Meloncon
+
+Outsourcing Technical Communication, edited by Carlos
+
+Developing Quality Technical Information
+
+Information Development World
+
+Unsung heroes of DITA presentation by Gretyl Kinsey
+
+Madcap Flare
+
+oXygen XML Editor
+
+DITA Glass
+
+ExpeDITA
+
+Lightweight DITA
+
+Virginia Tech Center for Human-Computer Interaction</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2015/10/Wheres_my_flare_featuring_Carlos_Evia-Content_Content_podcast_episode_6.mp3" length="33571893" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:09:52</itunes:duration>
+	</item>
+	<item>
+		<title>Content Content podcast episode 5 &#8211; Undefinable Me featuring Marcia Riefer Johnston</title>
+		<link>https://edmarsh.com/2015/08/19/content-content-podcast-episode-5-undefinable-me-featuring-marcia-riefer-johnston/</link>
+		<pubDate>Wed, 19 Aug 2015 14:50:03 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=1764</guid>
+		<description>Marcia Riefer Johnston, guest for episode 5 of the Content Content podcast
+
+Tech writer turned content marketer and strategist Marcia Riefer Johnston (@marciarjohnston) discusses her career transitions, her two highly rated books, and her strong love of Strunk and White.
+
+A few links from the show and notes from Marcia:
+
+
+
+Undefinable Me: The Story of a 13-Year-Old Girl from the Inner City Who Codes (Keila Banks’s inspiring 10-minute OSCON keynote)
+
+Malaphors (“Unintentional blended idioms and phrases—It’s the cream of the cake!” by David Hatfield, the Malaphor King)
+
+What Is Intelligent Content? (includes links to my six-pack of articles delving into each element of Ann Rockley’s classic definition)
+
+Writing.Rocks (includes my blog, where you can play the weekly concise-writing game Tighten This!)
+
+Word Up! on Amazon*
+
+You Can Say That Again on Amazon*
+
+*Also available wherever fine books are sold.
+Also mentioned during the Content Content podcast:
+Content Content podcast episode 1 with Sharon Burton
+
+Scott Abel
+
+The Velveteen Rabbit
+
+Ann Rockley
+
+Managing Enterprise Content: A Unified Strategy by Ann Rockley and Charles Cooper
+
+Techwhirl.com - Connie Giordano and Al Martine
+
+Information Development World
+
+Lavacon conference
+
+STC - Philly Metro chapter
+
+Content Marketing Institute
+
+Joe Pulizzi
+
+Robert Rose
+
+Content Content podcast episode 3 featuring Danielle Villegas
+
+Dair Communications
+
+ Techcommgeekmom</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2015/08/Undescribable_Me_featuring_Marcia_Riefer_Johnston-Content_Content_podcast_episode_5.mp3" length="30348380" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:03:09</itunes:duration>
+	</item>
+	<item>
+		<title>Content Content podcast episode 4 &#8211; Curse of knowledge with Tom Johnson</title>
+		<link>https://edmarsh.com/2015/07/08/content-content-podcast-episode-4-curse-of-knowledge-with-tom-johnson/</link>
+		<pubDate>Wed, 08 Jul 2015 14:33:11 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=1683</guid>
+		<description>In this episode, a truly great and fun conversation with prolific and influential technical writer Tom Johnson. Tom joins us from Silicon Valley to talk about his interesting path to technical communication, failed Career Day booths, being a leader in techcomm, content management systems, DITA, static site generators, and much more.
+
+Subscribe to the Content Content podcast in iTunes
+
+Mentioned during the show:
+
+Tom&#039;s web site - I&#039;d rather be writing
+Tom on Twitter
+Tom&#039;s review of our podcast
+Why no one stopped by my technical writing booth at career fair day
+Tom on finding time to write
+
+Jekyll static site generator
+Liquid templating language
+
+Confluence wiki
+Adobe RoboHelp
+Madcap Flare
+oXygen XML Editor
+
+Protopage RSS feed aggregator
+Inoreader RSS feed aggregator
+Feedly RSS feed aggregator
+
+Salesforce Knowledge
+DITA module for Drupal CMS (in development)
+Karen McGrane on &quot;blobs&quot;
+Markdown formatting syntax language
+DocPad text editor
+WebStorm text editor
+GitHub
+Blubrry podcasting plugin for WordPress
+
+contentcontent.info
+Ed Marsh on Twitter</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2015/07/Content_Content_podcast_S1E4_Curse_of_knowledge_with_Tom_Johnson.mp3" length="98653742" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:08:29</itunes:duration>
+	</item>
+	<item>
+		<title>Content Content Podcast &#8211; Fire fingers featuring Danielle Villegas &#8211; episode 3</title>
+		<link>https://edmarsh.com/2015/04/28/content-content-podcast-fire-fingers-featuring-danielle-villegas-episode-3/</link>
+		<pubDate>Tue, 28 Apr 2015 13:45:10 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=1647</guid>
+		<description>http://edmarsh.com/wp-content/uploads/2015/04/content_content_episode_3_-_Danielle_Villegas.mp3
+
+Fellow New Jerseyan Danielle Villegas, the TechCommGeekMom, talks to us about transitioning into technical communication, social media, her blog at techcommgeekmom.com, content curation, going back to school, and managing it all (or not).
+
+Mentioned during the show:
+
+techcommgeekmom on Twitter
+
+Danielle on Scoop.It
+
+paper.li
+
+New Jersey Institute of Technology
+
+NJIT - Professional and Technical Communications program
+
+2015 Mid-Atlantic Technical Communication Conference - March 28, 2015 - sponsored by the STC Philly Metro Chapter
+
+CONDUIT debate featuring STC Vice Presidential candidates
+
+STC PMC Podcast with Adriane Hunt
+
+Lavacon conference
+
+Intelligent Content conference
+
+#techcomm on Twitter
+
+#contentstrategy on Twitter
+
+Chef Josette
+
+WordPress Jetpack
+
+Moodle LMS
+
+Rutgers Online Digital Marketing &quot;Mini-MBA&quot;
+
+Google Analytics
+
+Google Trends
+
+Adobe Audition for podcasters YouTube playlist
+
+Deconstructing a Twitter Post
+
+contentcontent.info
+
+Ed Marsh on Twitter</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2015/04/content_content_episode_3_-_Danielle_Villegas.mp3" length="45219840" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+	</item>
+	<item>
+		<title>Content Content Podcast &#8211; Time as a Tool &#8211; featuring Alan Houser &#8211; episode 2</title>
+		<link>https://edmarsh.com/2015/03/18/content-content-podcast-time-as-a-tool-featuring-alan-houser-episode-2/</link>
+		<pubDate>Wed, 18 Mar 2015 14:32:03 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=1612</guid>
+		<description>Alan Houser, technical communication consultant and former Society for Technical Communication President, drops by on a very cold President&#039;s Day holiday to talk about his experiences in STC leadership, web standard steering committees, structured authoring and DITA, Markdown, tools, podcasts, and more.
+
+Mentioned during the show:
+
+Content Content podcast, episode 1 featuring Sharon Burton
+
+Alan Houser on Twitter
+
+Alan&#039;s business, Group Wellesley
+
+Society for Technical Communication (STC)
+
+2015 Mid-Atlantic Technical Communication Conference - March 28, 2015 - sponsored by the STC Philly Metro Chapter
+
+World Wide Web Consortium (W3C)
+
+OASIS
+
+Sara Wachter-Boettcher
+
+Sara&#039;s book Content Everywhere
+
+contentcontent.info
+
+Darwin Information Typing Architecture (DITA)
+
+DITA 1.3 spec
+
+Markdown language
+
+Tom Johnson - I&#039;d rather be writing
+
+XML and the web: drifting farther apart?
+
+5 by 5 podcast network
+
+Back to Work podcast on 5 by 5
+
+TWiT podcast network
+
+This Week in Tech podcast
+
+Triangulation podcast
+
+Ed Marsh on Twitter</description>
+		<enclosure url="http://media.blubrry.com/contentcontent/edmarsh.com/wp-content/uploads/2015/03/content-content-podcast-episode-2-alan-houser.mp3" length="61800448" type="audio/mpeg" />
+		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+		<itunes:duration>1:04:57</itunes:duration>
+	</item>
+	<item>
+		<title>Introducing the Content Content podcast &#8211; Offices without tarantulas featuring Sharon Burton &#8211;  episode 1</title>
+		<link>https://edmarsh.com/2015/02/06/introducing-the-content-content-podcast/</link>
+		<pubDate>Fri, 06 Feb 2015 15:39:21 +0000</pubDate>
+		<guid isPermaLink="false">http://edmarsh.com/?p=1636</guid>
+		<description>In our inaugural podcast, technical communication and customer experience consultant Sharon Burton tells us about California law, offices without tarantulas, documenting the obvious, the file name field, buying buckets of DITA at the DITA Store, and the renaissance of content.
+
+Mentioned during the show:
+
+SharonBurton.com
+
+twitter.com/sharonburton
+
+&quot;It costs a lot of money to look this cheap.&quot; - Dolly Parton
+
+University of California Riverside
+
+TechComm Speakers Bureau
+
+contentcontent.info
+
+edmarsh.com
+
+twitter.com/edmarsh</description>
+				<itunes:episodeType>full</itunes:episodeType>
+		<itunes:explicit>false</itunes:explicit>
+	</item>
+</channel>
+</rss>

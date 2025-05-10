@@ -9,28 +9,20 @@
 {% if content %}
     {{ content | safe }}
 {% endif %}
-{% if collectionName == "podcasts" %}
-    {% from "layouts/partials/macros.njk" import renderButton %}
-    {{ renderButton(
-    url="/assets/podcasts/" + mp3File,
-    buttonText="Download",
-    title=title + " podcast"
-) }}
+    <div>
+        <iframe src='https://widgets.blubrry.com/32643/subscribe/' id='2140010353-subscribe-681e62658dec7' name='2140010353-subscribe-681e62658dec7' allowtransparency='true' style='background: none transparent; border: none; width: 100%; height: auto;'></iframe>
+
+    </div>
     <audio controls>
         <source src="/assets/podcasts/{{mp3File}}" type="audio/mp3">
     </audio>
-{% endif %}
 
 {% set pageCategory = categories %}
-{% set isPublicSpeakingPage = page.fileSlug === 'public-speaking' %}
+
 {% set filteredPresentations = presentations | filterByCategory(pageCategory) | default([]) %}
 
 <div class="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4">
-    {% if (isPublicSpeakingPage)  %}
-        <div class="md:col-span-3">
-            {% include "layouts/partials/presos.njk" %}
-        </div>
-    {% elseif filteredPresentations and filteredPresentations.length > 0 %}
+    {% if filteredPresentations and filteredPresentations.length > 0 %}
         <div class="col-span-2 gap-4">
             <h2>Related</h2>
             {% include "layouts/partials/presos.njk" %}
@@ -41,6 +33,5 @@
     </div>
 </div>
 </article>
-
 
 {% include 'layouts/partials/footer.njk' %}
