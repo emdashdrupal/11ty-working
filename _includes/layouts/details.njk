@@ -32,6 +32,9 @@
         {% include "layouts/partials/tools.njk" %}
     </div>
 </div>
+    {% if layout == "layouts/details.njk" %}
+        {% include 'layouts/partials/next-previous.njk' %}
+    {% endif %}
 </article>
 
 {% include 'layouts/partials/footer.njk' %}
