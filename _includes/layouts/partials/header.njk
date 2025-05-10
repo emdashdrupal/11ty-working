@@ -2,8 +2,8 @@
 <html lang="en">
     <head>
         <link rel="icon" href="/assets/images/favicon.ico">
-        <!-- Google analytics for edmarsh.com
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-21YG9R142H"></script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VDL9G7YHY9"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag() {
@@ -11,24 +11,14 @@
             }
             gtag('js', new Date());
 
-            gtag('config', 'G-21YG9R142H');
+            gtag('config', 'G-VDL9G7YHY9');
         </script>
-        -->
-
-<!-- Google tag (gtag.js) Google analytics for edmar.sh -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VDL9G7YHY9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-VDL9G7YHY9');
-</script>
-<script src="/js/copyCode.js" defer></script>
+        <script src="/js/copyCode.js" defer></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="{{ description | safe }}">
-        <title>{% if collectionName == "skills" %}Ed Marsh can help you with {% endif %}{{title or metadata.title}}</title>
+        <title>
+            {% if collectionName == "skills" %}Ed Marsh can help you with {% endif %}{{title or metadata.title}}</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <style>
@@ -49,25 +39,26 @@
     <body class="flex flex-col min-h-screen">
         {% block nav %}
             <nav aria-label="Ed Marsh introduction and site navigation menu">
-<div class="container bg-medium-blue mx-auto max-w-6xl px-4" id="mainnavbar">
-                {% include 'layouts/partials/navbar.njk' %}
-</div>
+                <div class="container bg-medium-blue mx-auto max-w-6xl px-4" id="mainnavbar">
+                    {% include 'layouts/partials/navbar.njk' %}
+                </div>
                 {% include 'layouts/partials/breadcrumb.njk' %}
-            </nav></div>
-        {% endblock %}
+            </nav>
+        </div>
+    {% endblock %}
 
-        {% block content %}
-            <main class="container mx-auto py-1 px-4 md:px-6">
+    {% block content %}
+        <main class="container mx-auto py-1 px-4 md:px-6">
 
-                <article class="{% if layout == "layouts/details.njk" %}prose{% endif %}">
-                    <h1>{{title or metadata.title}}</h1>
-                    {% if layout == "layouts/details.njk" %}
-                        <p class="text-sm font-sans text-gray-600 m-0 p-0">Updated {{ page.date.toDateString()}}</p>
-                    {% endif %}
+            <article class="{% if layout == "layouts/details.njk" %}prose{% endif %}">
+                <h1>{{title or metadata.title}}</h1>
+                {% if layout == "layouts/details.njk" %}
+                    <p class="text-sm font-sans text-gray-600 m-0 p-0">Updated {{ page.date.toDateString()}}</p>
+                {% endif %}
 
-                    {% if description %}
-                        <div data-pagefind-weight="6" class="description font-sans">{{ description |
+                {% if description %}
+                    <div data-pagefind-weight="6" class="description font-sans">{{ description |
                             markdown | safe }}</div>
-                    {% endif %}
+                {% endif %}
 
-                {% endblock %}
+            {% endblock %}
