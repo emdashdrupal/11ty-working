@@ -8,7 +8,6 @@
 {% if content %}
     {{ content | safe }}
 {% endif %}
-{% if collectionName == "podcasts" %}
     <div>
         <iframe src='https://widgets.blubrry.com/32643/subscribe/' id='2140010353-subscribe-681e62658dec7' name='2140010353-subscribe-681e62658dec7' allowtransparency='true' style='background: none transparent; border: none; width: 100%; height: auto;'></iframe>
 
@@ -16,18 +15,7 @@
     <audio controls>
         <source src="/assets/podcasts/{{mp3File}}" type="audio/mp3">
     </audio>
-{% endif %}
 
-{% if collectionName == "podcasts" %}
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-        <div class="col-span-1">
-            {% include 'layouts/partials/podcasts.njk' %}
-        </div>
-    </div>
-{% endif %}
-
-{% set categories = item.data.categories or item.data.category or [] %}
-{% set presentations = collections.presentations | default([]) %}
 {% set pageCategory = categories %}
 
 {% set filteredPresentations = presentations | filterByCategory(pageCategory) | default([]) %}
