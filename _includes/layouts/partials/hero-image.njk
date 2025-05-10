@@ -1,18 +1,26 @@
 {% if item.data.FontAwesomeIcon or FontAwesomeIcon %}
-    <a href="{{ item.url }}"><div
+    <a href="{{ item.url }}">
+        <div
         class="icon fa-{{ item.data.FontAwesomeIcon or FontAwesomeIcon }} text-4xl"
         aria-label="Icon representing {{ item.data.title }}"
         title="Icon representing {{ item.data.title }}"
-    ></div></a>
+    ></div>
+    </a>
 {% endif %}
 
-{% if collectionName == 'podcasts' %}
-        <img
+<img
         {% if cover or item.data.cover %}
             src="/assets/images/{{ cover or item.data.cover }}"
-            alt="{{ coverAlt | safe }}"
-            title="{{ coverAlt | safe }}"
+            {% if item.data.coverAlt %}
+                alt="{{ item.data.coverAlt | safe }}"
+                title="{{ item.data.coverAlt | safe }}"
+            {% else %}
+                alt="{{ cover | safe }}"
+                title="{{ cover | safe }}"
+            {% endif %}
         {% endif %}
+
+{% if collectionName == 'podcasts' %}
         {% if not cover and not item.data.cover %}
             src="/assets/images/content-content-podcast-new-cover.png"
             alt="Content Content podcast with Ed Marsh"

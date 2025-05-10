@@ -36,7 +36,7 @@ I ran three different online `llms.txt` generators against both my current produ
 - Discussing project management and technical communication with Viqui Dill in a podcast format.
 - Discussing the intersection of project management and technical communication through Viqui Dill's insights and experiences.
 
-https://edmarsh.sh/llms.txt
+https://edmar.sh/llms.txt
 
 ## Conclusions
 
