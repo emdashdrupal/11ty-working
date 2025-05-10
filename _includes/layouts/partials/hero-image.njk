@@ -10,8 +10,8 @@
         <img
         {% if cover or item.data.cover %}
             src="/assets/images/{{ cover or item.data.cover }}"
-            alt="{{ coverAlt | safe }}"
-            title="{{ coverAlt | safe }}"
+            alt="{{ item.data.coverAlt  or coverAlt }}"
+            title="{{ item.data.coverAlt or coverAlt }}"
         {% endif %}
         {% if not cover and not item.data.cover %}
             src="/assets/images/content-content-podcast-new-cover.png"
