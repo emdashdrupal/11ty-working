@@ -116,7 +116,6 @@ module.exports = function (eleventyConfig) {
     "_includes/css/tw.css": "css/tw.css",
     "_includes/css/pagefind-overrides.css": "css/pagefind-overrides.css",
     "assets/images": "assets/images",
-    "assets/podcasts": "assets/podcasts",
     "_includes/js/copyCode.js": "js/copyCode.js",
   });
 
