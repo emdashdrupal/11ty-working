@@ -4,7 +4,6 @@ description: Structuring content is critical. Working as writer, content strateg
 FontAwesomeIcon: solid fa-folder-tree
 featured: true
 featuredOrder: 1
-
 ---
 
 ## Who are my users?
@@ -20,7 +19,6 @@ The first question of technical writing is *who is the user*? The users you iden
 
 - Highlight my skills to attract employers.
 - Create a series of blog posts about my experience migrating from WordPress to a static site generator.
-- Release those blog posts on a schedule to keep content fresh and drive continuous engagement.
 - Highlight my podcast, as the old site really didn't. I'm also considering reviving it.
 - Get rid of legacy content.
 - Ensure the site is accessible.
@@ -29,14 +27,14 @@ The first question of technical writing is *who is the user*? The users you iden
 
 My content strategy for the conversion from WordPress to a static site generator (SSG) included:
 
-- Blogging about the entire conversion, somewhere between 10-20 posts. This includes the migration, the buildout, and the content creation and revision processes along the way.
-- Put that content out on a regular cadence to draw traffic.
+- Blogging about the entire conversion, somewhere between 10-20 posts. This includes the migration, the build-out, and the content creation and revision processes along the way.
+- Put that content out on a regular cadence to keep content fresh and drive continuous engagement.
 - Inspire tech writers to get more technical.
-- Understand how content is consumed programmatically.
+- Understand and explain how content is consumed programmatically.
 
 #### Publishing cadence for the SSG series
 
-As part of my site rollout, I wanted to have four solid blog posts ready on debut, with the plan to roll out the others in either small batches or individually to keep traffic coming to my site, and to show recruiters and employers that I was still actively updating my site and the series.
+As part of my site rollout, I wanted to have four solid blog posts ready on debut, with the plan to roll out the others &mdash; in either small batches or individually &mdash; to keep traffic coming to my site, and to show recruiters and employers that I was still actively updating my site and the series.
 
 ## Content types
 
