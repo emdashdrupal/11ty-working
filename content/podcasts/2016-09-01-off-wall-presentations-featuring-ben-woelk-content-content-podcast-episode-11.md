@@ -9,6 +9,8 @@ cover: ben_woelk.jpg
 coverAlt : Ben Woelk, technical communicator and Information Security Office Program Manager at the Rochester Institute of Technology
 description: Ben Woelk, technical communicator and Information Security Office Program Manager at the [Rochester Institute of Technology](https://www.rit.edu) talks about being an introverted leader and how it's changed his career and his passion.
 mp3File : Off_the_wall_presentations_featuring_Ben_Woelk_Content_Content_episode_11.mp3
+blubrryId: 145351335
+blubrryCache: 1747159425
 ---
 
 

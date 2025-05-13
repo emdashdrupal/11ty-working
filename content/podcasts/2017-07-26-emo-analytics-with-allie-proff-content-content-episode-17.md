@@ -10,7 +10,10 @@ cover: allie_proff.jpg
 coverAlt: "Allie Proff, Content Content podcast episode 17 guest"
 description: 'Allie Proff works for [freaking Boeing](http://www.boeing.com/). We discuss emotive analytics, technical storytelling, technology as a tool for good and bad, and a meta podcast moment.'
 mp3File: content_content_podcast_episode_17_-_Allie_Proff.mp3
+blubrryId: 145351341
+blubrryCache: 1747159229
 ---
+
 ## Mentioned during this episode
 
 - [Allie on Twitter](https://twitter.com/allieproff)

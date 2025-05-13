@@ -11,7 +11,10 @@ cover: sean_heckman.jpg
 coverAlt : Sean Heckman, owner of The Media Barons, and co-host of the Dinner with Racers podcast, on the Content Content podcast
 description : Sean Heckman was a racer, a figure skater, a TV writer and producer, almost a lawyer, and finally owner of [The Media Barons](http://themediabarons.com) and a [podcast mogul](https://dinnerwithracers.com). Learn what it's like to drive across the USA for 30+ days interviewing racing legends, while running a content creation business that caters to small businesses.
 mp3File: Content_Content_podcast_episode_23_Sean_Heckman.mp3
+blubrryId: 145351346
+blubrryCache: 1747158929
 ---
+
 
 
 Find out why Sean calls a "sport with science, technology, and a lot of nonsense" his home.

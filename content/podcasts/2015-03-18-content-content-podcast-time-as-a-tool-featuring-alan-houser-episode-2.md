@@ -6,7 +6,10 @@ categories:
   - "technical writing"
 description : Alan Houser, technical communication consultant and former Society for Technical Communication President, drops by on a very cold President's Day holiday to talk about his experiences in STC leadership, web standard steering committees, structured authoring and DITA, Markdown, tools, podcasts, and more.
 mp3File: content-content-podcast-episode-2-alan-houser.mp3
+blubrryId: 145351324
+blubrryCache: 1747159834
 ---
+
 
 ## Mentioned during this episode
 

@@ -10,7 +10,10 @@ cover: Hannah-Kirk2.png
 coverAlt: Hannah Kirk, the Pink-haired Content Strategist
 description : "[Hannah Kirk (@pinkhairedCS)](https://twitter.com/pinkhairedCS), the Pink-haired Content Strategist, talks to Ed Marsh about conference experiences, how academia compares to Silicon Valley, how kids interact with technology, and reminds Ed how old he is."
 mp3File: Content_Content_podcast_Hannah_Kirk-1.mp3
+blubrryId: 145351354
+blubrryCache: 1747158571
 ---
+
 
 
 ## Mentioned during this episode
