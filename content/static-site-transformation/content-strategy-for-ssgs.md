@@ -59,9 +59,21 @@ For example, on the homepage I wanted to loop through the lists of podcast posts
 
 You can also use collections to filter your content once you have it structured with your metadata. For example, I needed a way to tell the SSG to display *four specific* blog posts and skills I wanted to highlight. I created `featured` and `featuredOrder` metadata fields, so it's easy to implement and maintain.
 
-### Content reuse
+## Content reuse
 
-Using metadata and collections enables reuse. Copy-pasted content across pages is a maintenance nightmare. Someone has to remember to update it, and also remember that content is pasted in several places. As I built out the site, I wanted to re-use the first sentence of each 'details' page to display as descriptions on the cards on the grid pages.
+Using metadata and collections enables reuse. Copy-pasted content across pages is a maintenance nightmare. Someone has to remember to update it, and also *all the places* where the content is pasted.
+
+As I built out the site, I wanted to re-use the first sentence of each details page to display as descriptions on the cards on the grid pages. This also allowed me to style the descriptions separately.
+
+### Separating content from presentation
+
+While these don't really apply to my use case, trying to abstract as much as possible taught me:
+
+- Using metadata reduces input errors.
+- You can restrict what's entered via pipelines and/or linters.
+- It makes it easier for people to contribute.
+- Sites can have a consistent voice and experience.
+- Portable, multi-channel.
 
 ## Exploration
 
@@ -72,11 +84,3 @@ While I was building out the site there were grid template pages for each of tho
 Then I added two `json` files of related webinars, podcasts, and other talks I've done, as well as the tools used for each of the skills. It was fun, and refreshing, and again, holy cow structured content.
 
 Being on this side of the equation makes it clear how much structuring your content helps your developers. It also helped me narrow my focus on skills, as well as tell a story across all of my content.
-
-## Separating content from presentation
-
-- Using metadata reduces input errors.
-- You can restrict what's entered via pipelines and/or linters.
-- Make it easier for people to contribute, and have a consistent voice.
-- Portable, multi-channel.
-- Ability to reuse content.
