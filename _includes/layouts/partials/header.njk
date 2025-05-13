@@ -53,7 +53,15 @@
             <article class="{% if layout == "layouts/details.njk" %}prose{% endif %}">
                 <h1>{{title or metadata.title}}</h1>
                 {% if layout == "layouts/details.njk" %}
-                    <p class="text-sm font-sans text-gray-600 m-0 p-0">Updated {{ page.date.toDateString()}}</p>
+                    <p class="text-sm font-sans text-gray-600 m-0 p-0">
+                        {% if date %}
+                            Created: {{ date | formatDate }}
+                        {% endif %}
+                        {% if page.date %}
+                            {% if date %}| {% endif %}
+                            Last updated: {{ page.date | formatDate }}
+                        {% endif %}
+                    </p>
                 {% endif %}
 
                 {% if description %}

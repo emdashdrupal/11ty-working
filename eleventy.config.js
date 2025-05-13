@@ -1,7 +1,7 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const markdownIt = require("markdown-it");
 const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
-const anchor = require('markdown-it-anchor');
+const anchor = require("markdown-it-anchor");
 
 // Configuration objects
 const mdOptions = {
@@ -27,7 +27,8 @@ const feedOptions = {
   metadata: {
     language: "en",
     title: "Content Content podcast",
-    subtitle: "Ed Marsh interviews professionals in technical communication, content strategy, content marketing, information architecture, and others who create, organize, and maintain content online.",
+    subtitle:
+      "Ed Marsh interviews professionals in technical communication, content strategy, content marketing, information architecture, and others who create, organize, and maintain content online.",
     base: "https://edmar.sh/",
     author: {
       name: "Ed Marsh",
@@ -37,19 +38,19 @@ const feedOptions = {
 
 // Configure markdown-it with anchor plugin
 const md = new markdownIt(mdOptions).use(anchor, {
-  permalink: anchor.permalink.headerLink()
+  permalink: anchor.permalink.headerLink(),
 });
 
 module.exports = function (eleventyConfig) {
   // Filters
-  eleventyConfig.addFilter('filterBy', function(array, key, value) {
+  eleventyConfig.addFilter("filterBy", function (array, key, value) {
     if (!array || !key) return [];
     try {
-      return array.filter(item => {
-        const keyPath = key.split('.');
+      return array.filter((item) => {
+        const keyPath = key.split(".");
         let data = item;
         for (const path of keyPath) {
-          if (!data || typeof data !== 'object') return false;
+          if (!data || typeof data !== "object") return false;
           data = data[path];
         }
         return data === value;
@@ -60,17 +61,29 @@ module.exports = function (eleventyConfig) {
     }
   });
 
-  eleventyConfig.addFilter('limit', (array, limit) =>
-    Array.isArray(array) ? array.slice(0, limit) : []);
+  eleventyConfig.addFilter("formatDate", function (date) {
+    return new Date(date)
+      .toLocaleDateString("en-US", {
+        month: "long",
+        day: "numeric",
+        year: "numeric",
+      })
+      .replace(/(\w+) (\d+), (\d+)/, "$1 $2, $3");
+  });
 
-  eleventyConfig.addFilter("markdown", content => {
+  // ...existing code...
+  eleventyConfig.addFilter("limit", (array, limit) =>
+    Array.isArray(array) ? array.slice(0, limit) : []
+  );
+
+  eleventyConfig.addFilter("markdown", (content) => {
     if (!content) return "";
     return md.render(String(content));
   });
 
   eleventyConfig.addFilter("filterByCategory", (presentations, category) => {
     if (!category || !presentations) return [];
-    return presentations.filter(presentation => {
+    return presentations.filter((presentation) => {
       const categories = Array.isArray(presentation.category)
         ? presentation.category
         : [presentation.category];
@@ -80,7 +93,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("filterToolsByCategory", (tools, category) => {
     if (!category || !tools) return [];
-    return tools.filter(tool => {
+    return tools.filter((tool) => {
       if (!tool.category) return false;
       const categories = Array.isArray(tool.category)
         ? tool.category
@@ -90,7 +103,8 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("reject", (array, value) =>
-    Array.isArray(array) ? array.filter(item => item !== value) : []);
+    Array.isArray(array) ? array.filter((item) => item !== value) : []
+  );
 
   // Plugins
   eleventyConfig.setLibrary("md", md);
@@ -100,9 +114,9 @@ module.exports = function (eleventyConfig) {
   // Global Data
   try {
     eleventyConfig.addGlobalData("presentations", () =>
-      require("./_data/presentations.json"));
-    eleventyConfig.addGlobalData("tools", () =>
-      require("./_data/tools.json"));
+      require("./_data/presentations.json")
+    );
+    eleventyConfig.addGlobalData("tools", () => require("./_data/tools.json"));
   } catch (error) {
     console.error(`Error loading data files: ${error.message}`);
   }
@@ -121,11 +135,11 @@ module.exports = function (eleventyConfig) {
 
   // Collections
   const collections = ["skills", "podcasts", "blog"];
-  collections.forEach(collection => {
-    eleventyConfig.addCollection(collection, collectionApi =>
+  collections.forEach((collection) => {
+    eleventyConfig.addCollection(collection, (collectionApi) =>
       collectionApi
         .getAll()
-        .filter(item => item.data.tags?.includes(collection))
+        .filter((item) => item.data.tags?.includes(collection))
     );
   });
 
