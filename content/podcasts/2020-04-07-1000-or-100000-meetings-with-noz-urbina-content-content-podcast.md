@@ -9,6 +9,8 @@ cover: Noz-headshot2223px-square-on-white.jpg
 coverAlt: Content strategist Noz Urbina
 description : "If you want to hear a great story about a great career, you need to listen to Noz Urbina, the best-dressed man in content strategy. Noz talks to Ed Marsh about making content a business asset, *literally* writing the book on content strategy, and the path to his own consultancy and conference."
 mp3File: Content_Content_podcast_Noz_Urbina.mp3
+blubrryId: 145351357
+blubrryCache: 1747158552
 ---
 
 ## Mentioned during this episode

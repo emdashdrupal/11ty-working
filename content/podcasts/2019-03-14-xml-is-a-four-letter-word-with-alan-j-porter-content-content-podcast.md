@@ -17,7 +17,10 @@ cover: alanporter_003-300x200.jpg
 coverAlt : "Alan J. Porter, Content Content podcast guest"
 description : "Alan J. Porter, Head of Strategic Services Practice at [[A]](https://simplea.com), talks to Ed Marsh about why tech writers are now content engineers, why metadata is important, what it's like to document <i>massive</i> hardware, and more."
 mp3File: content_content_podcast-alan-porter.mp3
+blubrryId: 145351349
+blubrryCache: 1747158770
 ---
+
 
 Alan is also an accomplished author and critic of comics, pop culture, sci-fi, and more.
 

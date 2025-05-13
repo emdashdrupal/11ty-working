@@ -11,6 +11,8 @@ cover: LizFraley_web_vert-246x300.jpg
 coverAlt : Liz Fraley, Content Content episode 19 guest
 description: 'Elizabeth Fraley runs [Single-Sourcing Solutions](https://single-sourcing.com) in Sunnyvale, Ca. We geek out about the history of structured authoring, how her opinions have changed in 17 years of technical writing, and how many books a year are too many to read.'
 mp3File: Content-Content-podcast-episode-19-Liz-Fraley.mp3
+blubrryId: 145351342
+blubrryCache: 1747159208
 ---
 
 ## Mentioned during this episode

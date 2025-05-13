@@ -10,6 +10,8 @@ cover : teresa_meek.jpg
 coverAlt : Content marketer Teresa Meek
 description : Content Marketer Teresa Meek's career path includes journalism, real estate, and more, but always focused on writing. She joins Ed Marsh from Seattle, WA, where we talk about how content marketing and technical writing have similarities, her brief career in technical writing, how to transition to content marketing, and more.
 mp3File: Content_Content_episode_14_-_Teresa_Meek.mp3
+blubrryId: 145351338
+blubrryCache: 1747159359
 ---
 
 
