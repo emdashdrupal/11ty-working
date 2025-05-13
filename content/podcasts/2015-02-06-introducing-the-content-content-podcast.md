@@ -6,8 +6,9 @@ categories:
   - "technical writing"
 description : In our inaugural podcast, technical communication and customer experience consultant Sharon Burton tells us about California law, offices without tarantulas, documenting the obvious, the file name field, buying buckets of DITA at the DITA Store, and the renaissance of content.
 mp3File: content_content_podcast_-_offices_without_tarantulas_featuring_Sharon_Burton_-_episode_1.mp3
+blubrryId: 145351323
+blubrryCache: 1747159848
 ---
-
 
 ## Mentioned during this episode
 

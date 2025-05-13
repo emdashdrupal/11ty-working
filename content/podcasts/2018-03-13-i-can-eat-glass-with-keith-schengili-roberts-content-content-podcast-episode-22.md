@@ -12,7 +12,10 @@ cover: KeithSR-headshoulders-300x300.jpg
 coverAlt: Keith Schengili-Roberts, market researcher and DITA Evangelist
 description : Keith Schengili-Roberts, market researcher and DITA Evangelist for [IXIASOFT](http://www.ixiasoft.com/en/), and Ed Marsh discuss the old days of HTML, Archie, Veronica, fax software, and more. We also talk about what the hell a DITA evangelist does.
 mp3File: Content_Content_podcast_episode_22_Keith_Schengili-Roberts.mp3
+blubrryId: 145351345
+blubrryCache: 1747158949
 ---
+
 
 
 ## Mentioned during this episode
