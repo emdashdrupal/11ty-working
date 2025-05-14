@@ -131,6 +131,9 @@ module.exports = function (eleventyConfig) {
     "_includes/css/pagefind-overrides.css": "css/pagefind-overrides.css",
     "assets/images": "assets/images",
     "_includes/js/copyCode.js": "js/copyCode.js",
+    "podcast.xml": "podcast.xml",
+    "llms.txt": "llms.txt",
+    "sitemap.xml": "sitemap.xml",
   });
 
   // Collections
