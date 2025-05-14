@@ -5,7 +5,6 @@ FontAwesomeIcon : solid fa-terminal
 categories: "coding-experience"
 ---
 
-- Automate tasks, create websites, transform content, and convert structured content to HTML.
 - Created my first web site in the 1990s.
 - Wrote SQL queries to retrieve and analyze actual hidden [user metrics](/skills/metrics) of a legacy help system.
 - Converted a 1500-topic Adobe RoboHelp project to DITA XML.
@@ -17,4 +16,3 @@ categories: "coding-experience"
 - Founding member of Drupal CMS Northern NJ user group.
 - Created edmarsh.com from scratch in WordPress in 2008.
 - Updated edmarsh.com in 2025 to [run on a static site generator](/static-site-transformation/).
-
