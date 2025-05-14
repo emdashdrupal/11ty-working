@@ -7,11 +7,13 @@ categories:
   - "technical writing"
 cover: Alyssa_Fox_2016.jpg
 coverAlt : Content Content podcast episode 13 guest Alyssa Fox, Director of Information Development and Program Management at Micro Focus
-description: Alyssa Fox, Director of Information Development and Program Management at [Micro Focus](https://www.microfocus.com), tells us that it's OK to pause when processing information. We also discuss managing people "fairly, not equally", why content strategy is difficult, multinational technical communication teams, fashion, and more.
+description: Alyssa Fox, Director of Information Development and Program Management at [Micro Focus](https://www.microfocus.com), tells us that it's OK to pause when processing information.
 mp3File: Content-Content-podcast-Episode-13-Alyssa-Fox.mp3
 blubrryId: 145351337
 blubrryCache: 1747159379
 ---
+
+We also discuss managing people "fairly, not equally", why content strategy is difficult, multinational technical communication teams, fashion, and more.
 
 ## Mentioned during this episode
 
