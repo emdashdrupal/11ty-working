@@ -126,11 +126,9 @@ module.exports = function (eleventyConfig) {
 
   // Passthrough copies
   eleventyConfig.addPassthroughCopy({
-    "_includes/css/base.css": "css/base.css",
-    "_includes/css/tw.css": "css/tw.css",
-    "_includes/css/pagefind-overrides.css": "css/pagefind-overrides.css",
-    "assets/": "assets/",
-    "_includes/js/copyCode.js": "js/copyCode.js",
+    "_includes/css/": "css",
+    "assets/": "assets",
+    "_includes/js": "js/",
     "podcast.xml": "podcast.xml",
     "llms.txt": "llms.txt",
     "sitemap.xml": "sitemap.xml",
