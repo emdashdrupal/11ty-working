@@ -18,7 +18,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="{{ description | safe }}">
         <title>
-            {% if collectionName == "skills" %}Ed Marsh can help you with {% endif %}{{title or metadata.title}}</title>
+            {% if collectionName == "skills" %}Ed Marsh can help you with {% endif %}{{title or metadata.title | lower}}</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <style>
@@ -34,7 +34,7 @@
 
         <link rel="stylesheet" type="text/css" href="/css/base.css">
         <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
-<link rel="alternate" type="application/rss+xml" title="Content Content podcast with Ed Marsh" href="https://feeds.blubrry.com/feeds/contentcontent.xml" />
+        <link rel="alternate" type="application/rss+xml" title="Content Content podcast with Ed Marsh" href="https://feeds.blubrry.com/feeds/contentcontent.xml"/>
     </head>
     <body class="flex flex-col min-h-screen">
         {% block nav %}
@@ -52,17 +52,6 @@
 
             <article class="{% if layout == "layouts/details.njk" %}prose{% endif %}">
                 <h1>{{title or metadata.title}}</h1>
-                {% if layout == "layouts/details.njk" %}
-                    <p class="text-sm font-sans text-gray-600 m-0 p-0">
-                        {% if date %}
-                            Created: {{ date | formatDate }}
-                        {% endif %}
-                        {% if page.date %}
-                            {% if date %}| {% endif %}
-                            Last updated: {{ page.date | formatDate }}
-                        {% endif %}
-                    </p>
-                {% endif %}
 
                 {% if description %}
                     <div data-pagefind-weight="6" class="description font-sans">{{ description |

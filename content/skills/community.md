@@ -1,6 +1,6 @@
 ---
 title: Community building
-description: I excel at finding and engaging the people in your organization who understand the benefits of  creating good content and retaining institutional knowledge.
+description: I excel at engaging the people in your organization who understand the benefits of good content to retain institutional knowledge.
 FontAwesomeIcon: solid fa-people-group
 featured: true
 featuredOrder: 3
@@ -15,4 +15,4 @@ I have a history of finding those people and encouraging them to be champions fo
 - Started a regular "content creators catchup" that brought cross-divisional tech writers, UXers, and others involved with content across the firm together to share and learn.
 - Created custom monthly metric emails to let stakeholders know how their content is performing, and where there may be gaps or opportunities.
 - Spoken at user groups and conferences.
-- Created a podcast dedicated to give back to the [technical writing community](/podcasts).
+- Created a [pioneering podcast](/podcasts) to give back to the technical writing community.

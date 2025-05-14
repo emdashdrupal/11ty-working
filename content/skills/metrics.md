@@ -1,12 +1,23 @@
 ---
 title : Metrics and data
-description: Every organization wants to know how its content is performing. I can help you implement and monitor metrics to plan and ensure the content you create is relevant and highly used topics are addressed.
+description: Every organization wants to know how its content performs.
 FontAwesomeIcon: solid fa-magnifying-glass-chart
 categories: metrics
 ---
 
-I find out how your content is performing so you can report and improve.
+I have extensive experience implementing and monitoring content metrics so you can:
+
+- Plan
+- Ensure the content you create is relevant
+- Address highly used topics
+- Identify gaps
+- Report
+
+![SVGeee](/assets/images/content-lifecycle.png)
+
+## Examples
 
 - Set up custom Kibana dashboards.
-- Analyzed metrics to create custom quarterly reports for senior management.
-- Wrote SQL queries to analyze actual performance of legacy help system.
+- Created newsletters that highlighted metrics, featured content, and relevant content for each reporting period.
+- Initiated custom quarterly reports that displayed metrics analysis for senior management.
+- Wrote SQL queries to analyze actual performance of legacy help system, which informed migration to a new platform.

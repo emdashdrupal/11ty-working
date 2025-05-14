@@ -61,15 +61,6 @@ module.exports = function (eleventyConfig) {
     }
   });
 
-  eleventyConfig.addFilter("formatDate", function (date) {
-    return new Date(date)
-      .toLocaleDateString("en-US", {
-        month: "long",
-        day: "numeric",
-        year: "numeric",
-      })
-      .replace(/(\w+) (\d+), (\d+)/, "$1 $2, $3");
-  });
 
   // ...existing code...
   eleventyConfig.addFilter("limit", (array, limit) =>
