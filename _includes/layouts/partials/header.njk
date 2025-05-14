@@ -18,7 +18,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="{{ description | safe }}">
         <title>
-            {% if collectionName == "skills" %}Ed Marsh can help you with {% endif %}{{title or metadata.title}}</title>
+            {% if collectionName == "skills" %}Ed Marsh can help you with {% endif %}{{title or metadata.title | lower}}</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <style>

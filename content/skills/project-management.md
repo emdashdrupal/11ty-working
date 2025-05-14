@@ -1,11 +1,11 @@
 ---
 title: Project management
-description: Technical content is used throughout many parts of your business &mdash; from marketing to support and more. I excel at coordinating with subject matter experts &mdash; developers, product managers, support teams, and senior management.
+description: I've coordinated with subject matter experts including developers, product managers, support teams, and senior management.
 FontAwesomeIcon: solid fa-people-roof
 categories: project-management
 ---
 
-I've worked in roles where I have to interact with:
+Technical content is used throughout many parts of your organization &mdash; from marketing to support and more. I have a long track record interacting with:
 
 - Product managers
 - Business analysts
@@ -16,6 +16,8 @@ I've worked in roles where I have to interact with:
 - Support teams
 - End users
 - Developers
+
+![SVGeee](/assets/images/content-lifecycle.png)
 
 ## Stakeholder management
 

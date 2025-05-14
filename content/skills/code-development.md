@@ -1,6 +1,6 @@
 ---
 title : Coding experience
-description : I've learned to code over the course of my career to not only feed my curiosity, but also to speak developers' language.
+description : I've coded over the course of my career to feed my curiosity, add value, and to speak (and translate) developers' language into high-quality content.
 FontAwesomeIcon : solid fa-terminal
 categories: "coding-experience"
 ---
