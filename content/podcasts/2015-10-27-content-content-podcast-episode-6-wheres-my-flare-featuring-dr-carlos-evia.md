@@ -17,32 +17,34 @@ blubrryCache: 1747159751
 Carlos is the Director of Professional and Technical Writing at Virginia Tech, is on the Lightweight DITA Technical Committee, and is an advocate for using multimedia with DITA.
 
 
-[Carlos Evia](http://carlosevia.com)
+## Mentioned during this episode
 
-[Carlos Evia on Twitter](http://twitter.com/carlosevia)
+- [Carlos Evia](http://carlosevia.com)
 
-[Taking the DITA troubleshooting topic for a spin](http://www.scriptorium.com/2015/02/taking-dita-troubleshooting-topic-spin/)
+- [Carlos Evia on Twitter](http://twitter.com/carlosevia)
 
-[The academician and the practitioner should be friends](http://techcommgeekmom.com/2015/07/20/oh-the-academian-and-the-practitioner-should-be-friends-engaging-techcomm-professionals/)
+- [Taking the DITA troubleshooting topic for a spin](http://www.scriptorium.com/2015/02/taking-dita-troubleshooting-topic-spin/)
 
-[Tom Johnson podcast with Lisa Meloncon](http://idratherbewriting.com/2015/08/10/lisa-meloncon-academic-practitioner-divide-podcast/)
+- [The academician and the practitioner should be friends](http://techcommgeekmom.com/2015/07/20/oh-the-academian-and-the-practitioner-should-be-friends-engaging-techcomm-professionals/)
 
-[Outsourcing Technical Communication](http://www.amazon.com/Outsourcing-Technical-Communication-Practices-Communications/dp/0895033348), edited by Carlos
+- [Tom Johnson podcast with Lisa Meloncon](http://idratherbewriting.com/2015/08/10/lisa-meloncon-academic-practitioner-divide-podcast/)
 
-[Developing Quality Technical Information](http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498)
+- [Outsourcing Technical Communication](http://www.amazon.com/Outsourcing-Technical-Communication-Practices-Communications/dp/0895033348), edited by Carlos
 
-[Information Development World](http:// informationdevelopmentworld.com/)
+- [Developing Quality Technical Information](http://www.amazon.com/Developing-Quality-Technical-Information-Handbook/dp/0131477498)
 
-[Unsung heroes of DITA presentation by Gretyl Kinsey](http://t.co/FLkoPMsnZz)
+- [Information Development World](http://informationdevelopmentworld.com/)
 
-[Madcap Flare](http://www.madcapsoftware.com/products/flare/)
+- [Unsung heroes of DITA presentation by Gretyl Kinsey](http://t.co/FLkoPMsnZz)
 
-[oXygen XML Editor](http://oxygenxml.com)
+- [Madcap Flare](http://www.madcapsoftware.com/products/flare/)
 
-[DITA Glass](http://www.oxygenxml.com/events/2015/webinar_perceive_everything_as_dita.html)
+- [oXygen XML Editor](http://oxygenxml.com)
 
-[ExpeDITA](https://github.com/donrday/expeDITA)
+- [DITA Glass](http://www.oxygenxml.com/events/2015/webinar_perceive_everything_as_dita.html)
 
-[Lightweight DITA](http://dita.xml.org/blog/lightweight-dita)
+- [ExpeDITA](https://github.com/donrday/expeDITA)
 
-[Virginia Tech Center for Human-Computer Interaction](http://www.hci.vt.edu/)
+- [Lightweight DITA](http://dita.xml.org/blog/lightweight-dita)
+
+- [Virginia Tech Center for Human-Computer Interaction](http://www.hci.vt.edu/)
