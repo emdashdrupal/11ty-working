@@ -1,6 +1,6 @@
 ---
 title: Choosing a static site generator
-description: The good news is there are a lot of static site generators to choose from, and that they all work similarly. The bad news is there are a lot of static site generators to choose from, and that they all work similarly.
+description: I knew what I wanted (ease-of-use) and didn't want ("ease of use") out of static site generators (SSGs).
 date: 2024-11-26
 tags : "content-strategy"
 featured: true
@@ -8,11 +8,9 @@ featuredOrder: 2
 FontAwesomeIcon: "solid fa-file-waveform"
 ---
 
-I knew what I wanted (ease-of-use) and didn't want ("ease of use") out of static site generators (SSGs).
+The good news is there are a lot of static site generators to choose from, and that they all work similarly. The bad news is there are a lot of static site generators to choose from, and that they all work similarly. Once you learn the basic principles of static site generators, it's easier to figure out the nuances of each SSG.
 
 When rebuilding my site, it made sense to me to build the site with an SSG because it's fast, self-contained, and relevant to what we do as technical communicators. The underlying architecture is also far simpler than a database-driven site like my current WordPress site. WordPress development evolved too far for my limited skills to 'just tweak'.
-
-The good news is once you learn the basic principles of static site generators, it's easier to figure out the nuances of each SSG.
 
 ## My initial SSG requirements
 
@@ -20,10 +18,10 @@ I played around with static site generators (SSGs) in the past, and in a prior r
 
 When choosing an SSG to implement, these were my requirements:
 
-- I wanted to avoid Gatsby.
-- I was looking for as plug-and-play as possible (in retrospect, ha!).
+- Avoid Gatsby. I don't have a dev team behind me.
+- As plug-and-play as possible (in retrospect, ha!).
 - As low-code as possible (in retrospect, ha!). I can play with HTML, CSS, and configuration and template files, but I didn't really have time to learn modern JavaScript or Typescript.
-- Time to market &mdash; how quickly could I build out the site while it was relevant to my job search?
+- Quick time to market &mdash; how quickly could I build out the site to be relevant to my job search?
 
 ## Getting my head around it all
 
@@ -60,5 +58,3 @@ The important part was to structure the content correctly so the system I was bu
 I quickly learned that when you decide to build a website from scratch with an SSG, you're building it from *scratch*. There are many starter themes and frameworks. But at that early stage of the process I didn't understand enough about how the SSGs worked to know how to properly use them. I also had the time to build from scratch, and inclination to learn some newer tech. I got to play the role of a developer and understand how content is programmatically consumed, while revamping the content and content strategy of my site.
 
 A *big* distraction was that I wanted to play with *all the toys*, so the focus on content came last. This explains why a content-first approach is so often ignored by developers, and where there's a ton of opportunity for content creators to work with their development team to create the best-possible user experience.
-
-
