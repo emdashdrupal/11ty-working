@@ -33,4 +33,3 @@ Andrea is the CEO of [Idyll Point Group](https://idyllpointgroup.com), after a l
 
 - [Poker with Andrea Fryrear, Robert Rose, Buddy Scalera, and Matthew Balogh](https://enterprisemarketer.com/podcasts/enterprise-marketer-podcast-conference/icc-show-50-poker-game)
 - [Andrea on the Enterprise Marketer podcast](https://enterprisemarketer.com/podcasts/enterprise-marketer-podcast-conference/52-andrea-ames)
-- [STC IDL (Instructional Design and Learning) SIG](www.stcidlsig.org)

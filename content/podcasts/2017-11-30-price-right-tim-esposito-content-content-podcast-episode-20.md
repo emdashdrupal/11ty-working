@@ -25,7 +25,7 @@ blubrryCache: 1747159188
 - [Submit proposals for the 2018 STC Philadelphia Metro CONDUIT conference](http://www.stcpmc.org/conferences/conduit-2018/submit-proposals-for-conduit-2018/)
 - [Content Content Podcast &mdash; Time as a Tool &mdash; featuring Alan Houser &mdash; episode 2](../5-03-18-content-content-podcast-time-as-a-tool-featuring-alan-houser-episode-2/)
 - [Content Content podcast episode 3 - Fire fingers with Danielle Villegas](../5-04-28-content-content-podcast-fire-fingers-featuring-danielle-villegas-episode-3/)
-- [Elm email client](https://en.wikipedia.org/wiki/Elm_\(email_client)
+- [Elm email client](https://en.wikipedia.org/wiki/Elm_\(email_client\))
 - [Vi text editor](https://en.wikipedia.org/wiki/Vi)
 - [G-Log](https://en.wikipedia.org/wiki/G-Log)
 - [Cards against humanity](https://cardsagainsthumanity.com/)

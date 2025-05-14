@@ -19,7 +19,7 @@ blubrryCache: 17470158821
 
 - [Joe Gollner](http://www.gollner.ca/)
 - [Ann Rockley on the definition of intelligent content](https://thecontentwrangler.com/2011/01/17/what-is-intelligent-content/#)
-- [Financial Accounting Standards Board (FASB)](https://www.fasb.org/home)
+- [Financial Accounting Standards Board (FASB)](https://www.fasb.org)
 - [Adobe Experience Manager (AEM)](https://www.adobe.com/marketing/experience-manager.html)
 - [Scott Brinker](https://chiefmartec.com/)
 - [Mayo Clinic](https://mayoclinic.org)

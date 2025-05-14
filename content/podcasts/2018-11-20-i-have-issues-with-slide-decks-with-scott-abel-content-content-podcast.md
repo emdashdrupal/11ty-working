@@ -11,14 +11,12 @@ tags :
   - "information architecture"
   - "technical communication"
 cover: scott_abel.jpeg
-coverAlt: Scott Abel, also known as The Content Wrangler
-description: Scott Abel, also known as [The Content Wrangler](https://www.thecontentwrangler.com) and the host of [Information Development World](https://informationdevelopmentworld.com/), talks to Ed Marsh about the parallels between music and single sourcing, smooth segues between paragraphs, intelligent content, and content strategy in the medical field.
+coverAlt: Scott Abel, The Content Wrangler
+description: Scott Abel, [The Content Wrangler](https://www.thecontentwrangler.com) and the host of [Information Development World](https://informationdevelopmentworld.com/), talks to Ed Marsh about the parallels between music and single sourcing, smooth segues between paragraphs, intelligent content, and content strategy in the medical field.
 mp3File: Content_Content_podcast_Scott_Abel.mp3
 blubrryId: 145351348
 blubrryCache: 1747158801
 ---
-
-
 
 ## Mentioned during this episode
 
