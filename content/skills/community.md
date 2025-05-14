@@ -1,6 +1,6 @@
 ---
 title: Community building
-description: I excel at finding and engaging the people in your organization who understand the benefits of  creating good content and retaining institutional knowledge.
+description: I excel at engaging the people in your organization who understand the benefits of good content to retain institutional knowledge.
 FontAwesomeIcon: solid fa-people-group
 featured: true
 featuredOrder: 3
