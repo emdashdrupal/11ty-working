@@ -68,7 +68,6 @@
 /* Base Elements - Alphabetical */
 a {
     text-decoration: none;
-    color: var(--medium-blue);
 }
 
 a:hover,
@@ -124,11 +123,17 @@ h1,
     padding: 0;
 }
 
-h2,
+h2
+{
+    font-family: var(--sans-serif);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
 h2>a {
     font-family: var(--sans-serif);
     font-size: 1.3rem;
     font-weight: 700;
+    color: var(--medium-blue)
 }
 
 
@@ -554,11 +559,11 @@ ul li {
 }
 
 footer>div>p {
-    color: var(--whitish);
+    color: var(--text-jet-200);
 }
 
 footer>div>p>a {
-    color: var(--whitish);
+    color: var(--text-jet-900);
 }
 
 
