@@ -7,20 +7,20 @@ featuredOrder: 2
 FontAwesomeIcon: "solid fa-file-waveform"
 ---
 
-The good news is there are a lot of static site generators to choose from, and that they all work similarly. The bad news is there are a lot of static site generators to choose from, and that they all work similarly. Once you learn the basic principles of static site generators, it's easier to figure out the nuances of each SSG.
-
 When rebuilding my site, it made sense to me to build the site with an SSG because it's fast, self-contained, and relevant to what we do as technical communicators. The underlying architecture is also far simpler than a database-driven site like my current WordPress site. WordPress development evolved too far for my limited skills to 'just tweak'.
+
+The bad news is there are a lot of static site generators to choose from, and that they all work similarly. The good news is there are a lot of static site generators to choose from, and that they all work similarly. Once you learn the basic principles of static site generators, it's easier to figure out the nuances of each SSG.
 
 ## My initial SSG requirements
 
-I played around with static site generators (SSGs) in the past, and in a prior role our output went through a heavily customized version of [Gatsby](https://gatsbyjs.com). I wasn't hands-on with it because we needed a team of developers to support it.
+I played around with static site generators in the past. In a prior role, our output went through a heavily customized version of [Gatsby](https://gatsbyjs.com). I wasn't hands-on with it because we needed a team of developers to support it.
 
-When choosing an SSG to implement, these were my requirements:
+These were my requirements when choosing an SSG:
 
-- Avoid Gatsby. I don't have a dev team behind me.
+- Avoid Gatsby. I don't have a dev team behind me, nor did I have time to learn modern JavaScript or Typescript.
 - As plug-and-play as possible (in retrospect, ha!).
-- As low-code as possible (in retrospect, ha!). I can play with HTML, CSS, and configuration and template files, but I didn't really have time to learn modern JavaScript or Typescript.
-- Quick time to market &mdash; how quickly could I build out the site to be relevant to my job search?
+- As low-code as possible (in retrospect, ha!). I can play with HTML, CSS, and configuration and template files.
+- Quick time to market &mdash; I needed to quickly build out the site to be relevant to my job search.
 
 ## Getting my head around it all
 
