@@ -17,7 +17,7 @@ Technical content is used throughout many parts of your organization &mdash; fro
 - End users
 - Developers
 
-![SVGeee](/assets/images/content-lifecycle.png)
+![Content lifecycle](/assets/images/content-lifecycle.png)
 
 ## Stakeholder management
 
