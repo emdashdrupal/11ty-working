@@ -13,7 +13,7 @@ I have extensive experience implementing and monitoring content metrics so you c
 - Identify gaps
 - Report
 
-![SVGeee](/assets/images/content-lifecycle.png)
+![Content lifecycle](/assets/images/content-lifecycle.png)
 
 ## Examples
 
