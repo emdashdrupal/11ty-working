@@ -8,7 +8,7 @@ featuredOrder: 3
 
 Everyone in tech is asking the same question: *Is AI going to take my job*? The answer for coders is "not yet". For those on the more creative end, including technical writers, it's a bit more grey.
 
-I've always dabbled in code. My problem has always been that I don't know how to express the logic in my head in code.
+I've always [dabbled in code](/skills/code-development). My problem has always been that I don't know how to express the logic in my head in code.
 
 My first forays into large language models were with Google Gemini (n&#233;e Bard). I asked how to write code for various automation tasks in Windows Powershell and Python. Fast-forward a year or two, and GitHub Copilot is baked into VS Code.
 

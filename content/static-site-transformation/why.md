@@ -6,8 +6,9 @@ featured: true
 featuredOrder: 0
 ---
 
-I've always been curious and dabbled in about development, which is why when I decided to update my site, getting seriously hands-on was an appeal to me. I've built websites starting in 1996, including the WordPress site I built in 2008. That site and its scope expanded when I started my podcast in 2015.
+I've always been [curious and dabbled in about development](/skills/code-development), which is why when I decided to update my site, getting seriously hands-on was an appeal to me. I've built websites starting in 1996, including the WordPress site I built in 2008. That site and its scope expanded when I started my podcast in 2015.
 ![Legacy podcast landing page](../../assets/images/edmarsh-dot-com-podcast-page-1-may-2025.png)
+
 I also took this on to understand how content I create is consumed and displayed to users.
 
 Ultimately, taking on this project was strategic. My contract ended at the end of 2024. I don't have any recent writing samples that I could share with potential employers due to intellectual property (IP) laws, which I take seriously. The public-facing samples I *did* write were woefully out-of-date, as was my WordPress site. I didn't realize *just* how out-of-date the site was until I got deep into this project.
