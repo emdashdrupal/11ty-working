@@ -63,7 +63,6 @@ The `eleventy.config.js` file manages the site's core functionality:
 // filepath: /eleventy.config.js
 const syntaxHighlightPlugin = require("@11ty/eleventy-plugin-syntaxhighlight");
 const markdownIt = require("markdown-it");
-const timeToRead = require('eleventy-plugin-time-to-read');
 
 module.exports = function (eleventyConfig) {
   // Plugin configuration
