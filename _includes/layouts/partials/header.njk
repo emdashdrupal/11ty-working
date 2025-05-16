@@ -37,7 +37,7 @@
         <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
         <link rel="alternate" type="application/rss+xml" title="Content Content podcast with Ed Marsh" href="https://feeds.blubrry.com/feeds/contentcontent.xml"/>
     </head>
-    <body class="flex flex-col min-h-screen">
+    <body class="flex flex-col min-h-screen" data-pagefind-body>
         {% block nav %}
             <nav aria-label="Ed Marsh introduction and site navigation menu">
                 <div class="container bg-medium-blue mx-auto max-w-6xl px-4" id="mainnavbar">
@@ -49,7 +49,7 @@
     {% endblock %}
 
     {% block content %}
-        <main class="container mx-auto py-1 px-4 md:px-6" data-pagefind-body>
+        <main class="container mx-auto py-1 px-4 md:px-6">
 
             <article class="{% if layout == "layouts/details.njk" %}prose{% endif %}">
                 <h1>{{title or metadata.title}}</h1>
