@@ -3,6 +3,9 @@ redirects = []
 
 [functions]
 
+[functions.emails]
+included_files = ["./emails/**"]
+
 [functions."*"]
 
 [[plugins]]
