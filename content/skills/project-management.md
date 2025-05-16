@@ -5,7 +5,13 @@ FontAwesomeIcon: solid fa-people-roof
 categories: project-management
 ---
 
-Technical content is used throughout many parts of your organization &mdash; from marketing to support and more. I have a long track record interacting with:
+Technical content is used throughout many parts of your organization including  marketing, support, your development teams, your product owners, and more.
+
+![Content lifecycle](/assets/images/content-lifecycle.png)
+
+## Stakeholder management
+
+I have a long track record interacting with:
 
 - Product managers
 - Business analysts
@@ -16,9 +22,5 @@ Technical content is used throughout many parts of your organization &mdash; fro
 - Support teams
 - End users
 - Developers
-
-![Content lifecycle](/assets/images/content-lifecycle.png)
-
-## Stakeholder management
 
 ## Cross-functional collaboration
