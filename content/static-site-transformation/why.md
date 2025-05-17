@@ -38,33 +38,13 @@ Lastly, taking on this project was strategic. My contract ended at the end of 20
 - Enjoy writing again.
 - Do something for *me*.
 
-## Cost goals
-
-Financial and personal/time costs:
+## Cost savings goals
 
 - Reduce the overhead of maintaining a content management system. I haven't blogged in some time, and my [podcast](/podcasts) has been on hiatus since 2022 (stay tuned&hellip;). Maintenance included all of the plugins I used, as well as WordPress itself. On top of that, hundreds of spam comments came through every day that had to be addressed.
 - Reduce hosting costs. SSGs don't require a lot of infrastructure like a database, so they can be hosted in places that WordPress sites can't. This gave me flexibility to move to a zero- or low-cost host. That *doesn't* mean there are zero costs to hosting the site:
 - My existing site host was also my mail server, so I had to find and set up an alternative (and my first choice was too difficult to set up).
 - I had to upgrade my podcast hosting so I could get metrics from them and have them deal with all of the traffic. My podcast archive puts me at the limit of free disk space and bandwidth on GitHub, so I had to offload that burden to a paid service.
 - By downsizing from a web host I'd undergrown, I could re-allocate resources to mail and podcast hosting, which in aggregate are far cheaper, but also added the burden of having to administer a mail server. It also required me to learn how to configure DNS records to point to my new host and mail server.
-
-## Information architecture
-
-My initial site architecture was based on the existing architecture in WordPress:
-
-- Home: promotes posts across all of the content types &mdash; podcast, writing samples, skills, and this SSG series.
-- About
-- Skills: List of the ways I can help a potential client/employer
-- Tech writing examples: gallery page
-- Speaking engagements/presentations: gallery page
-- Blog (etc): gallery page
-- Podcast pages: gallery page
-- A sidebar that displays a tag cloud
-- Photo galleries (?)
-- Contact
-- Resume(?)
-
-Very few parts of this structure ended up in version 1.0 of the site. If you've ever revamped lots of legacy content, this probably isn't surprising.
 
 ## The what
 
