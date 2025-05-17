@@ -49,24 +49,23 @@ Financial and personal/time costs:
 - I had to upgrade my podcast hosting so I could get metrics from them and have them deal with all of the traffic. My podcast archive puts me at the limit of free disk space and bandwidth on GitHub, so I had to offload that burden to a paid service.
 - By downsizing from a web host I'd undergrown, I could re-allocate resources to mail and podcast hosting, which in aggregate are far cheaper, but also added the burden of having to administer a mail server. It also required me to learn how to configure DNS records to point to my new host and mail server.
 
-## My use case
+## Information architecture
 
-Here are my initial structure thoughts that changed as I built things out:
+My initial site architecture was based on the existing architecture in WordPress:
 
-- Home - promotes posts across all of the content types &mdash; podcast, writing samples, skills, and this SSG series.
+- Home: promotes posts across all of the content types &mdash; podcast, writing samples, skills, and this SSG series.
 - About
-- List of skills of all the ways I can help a potential client/employer
-- Podcast
-- Tech writing examples - gallery page
-- Speaking engagements/presentations
-- Blog (etc) - gallery page
-- Podcast pages  - gallery page
+- Skills: List of the ways I can help a potential client/employer
+- Tech writing examples: gallery page
+- Speaking engagements/presentations: gallery page
+- Blog (etc): gallery page
+- Podcast pages: gallery page
 - A sidebar that displays a tag cloud
-- photo galleries (?)
+- Photo galleries (?)
 - Contact
 - Resume(?)
 
-Very few parts of this structure ended up in version 1.0 of the site. If you've ever revamped lots of legacy content, this probably isn't surprising. I intend to keep this site more updated than the last one (`!remindme 1 year`).
+Very few parts of this structure ended up in version 1.0 of the site. If you've ever revamped lots of legacy content, this probably isn't surprising.
 
 ## The what
 
