@@ -644,3 +644,9 @@ article img {
 article img:hover {
     transform: scale(1.02);
 }
+
+#next-previous >div {
+    margin: 0;
+    padding: 0;
+    vertical-align: text-top;
+}

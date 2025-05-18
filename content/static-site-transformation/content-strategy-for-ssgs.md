@@ -25,15 +25,21 @@ The first question of technical writing is *who is the user*? The users you iden
 - Get rid of legacy content.
 - Ensure the site is accessible.
 
-### Blogging strategy
+### Blog release strategy
 
 My content strategy for the conversion from WordPress to a static site generator (SSG) included:
 
-- Blogging about the entire conversion, somewhere between 10-20 posts. This includes the migration, the build-out, and the content creation and revision processes along the way.
+- Write 10-20 blog posts about the process, including:
+  - Migration
+  - Strategy
+  - Infrastructure
+  - Build-out
+  - Frustrations
+  - Development
+  - Content creation and revision processes
+  - Takeaways
+- Write four solid blog posts for the rollout.
 - Put that content out on a regular cadence to keep content fresh and drive continuous engagement.
 - Inspire tech writers to get more technical.
 - Understand and explain how content is consumed programmatically.
-
-#### Publishing cadence for the SSG series
-
-As part of my site rollout, I wanted to have four solid blog posts ready on debut, with the plan to roll out the others &mdash; in either small batches or individually &mdash; to keep traffic coming to my site, and to show recruiters and employers that I was still actively updating my site and the series.
+- Show recruiters and employers that I was actively updating my site.
