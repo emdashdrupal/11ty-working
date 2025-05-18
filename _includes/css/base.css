@@ -616,3 +616,37 @@ footer>div>p>a {
 .shadow-md {
     --tw-shadow: none;
 }
+
+* Dialog styles */
+dialog.image-dialog {
+    padding: 0;
+    background: transparent;
+    border: none;
+    max-width: 90vw;
+    max-height: 90vh;
+}
+
+dialog.image-dialog::backdrop {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+dialog.image-dialog img {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+}
+
+/* Add hover effect to article images */
+article img {
+    transition: transform 0.2s ease;
+}
+
+article img:hover {
+    transform: scale(1.02);
+}
+
+#next-previous >div {
+    margin: 0;
+    padding: 0;
+    vertical-align: text-top;
+}
