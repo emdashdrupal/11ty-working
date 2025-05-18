@@ -14,11 +14,15 @@ That site and its scope expanded when I started my podcast in 2015. When I decid
 
 ![Legacy podcast landing page](../../assets/images/edmarsh-dot-com-podcast-page-1-may-2025.png)
 
-This was a rare opportunity to review 15+ years' worth of content dating back to LiveJournal blogs, get rid of cruft, reduce my hosting costs, learn some things, and update my portfolio.
+This was a rare greenfield opportunity to:
 
-I also took this project on as an opportunity to understand how content is programmatically consumed and displayed to users.
+- Audit a lifetime's worth of content dating back to LiveJournal blogs.
+- Get rid of cruft.
+- Reduce costs.
+- Update my portfolio from a clean slate.
+- Understand how content is programmatically consumed and displayed to users.
 
-Lastly, taking on this project was strategic. My contract ended at the end of 2024. I don't have any recent writing samples that I could share with potential employers due to intellectual property (IP) laws, which I take seriously. The public-facing samples I *did* write were woefully out-of-date, as was my WordPress site. I didn't realize *just* how out-of-date the site was until I got deep into this project.
+Lastly, taking on this project was strategic. I don't have any recent writing samples that I could share with potential employers due to intellectual property (IP) laws, which I take seriously. The public-facing samples I *did* write were woefully out-of-date, as was my WordPress site. I didn't realize *just* how out-of-date the site was until I got deep into this project.
 
 ## Technical goals
 
@@ -40,11 +44,16 @@ Lastly, taking on this project was strategic. My contract ended at the end of 20
 
 ## Cost savings goals
 
-- Reduce the overhead of maintaining a content management system. I haven't blogged in some time, and my [podcast](/podcasts) has been on hiatus since 2022 (stay tuned&hellip;). Maintenance included all of the plugins I used, as well as WordPress itself. On top of that, hundreds of spam comments came through every day that had to be addressed.
-- Reduce hosting costs. SSGs don't require a lot of infrastructure like a database, so they can be hosted in places that WordPress sites can't. This gave me flexibility to move to a zero- or low-cost host. That *doesn't* mean there are zero costs to hosting the site:
-- My existing site host was also my mail server, so I had to find and set up an alternative (and my first choice was too difficult to set up).
-- I had to upgrade my podcast hosting so I could get metrics from them and have them deal with all of the traffic. My podcast archive puts me at the limit of free disk space and bandwidth on GitHub, so I had to offload that burden to a paid service.
-- By downsizing from a web host I'd undergrown, I could re-allocate resources to mail and podcast hosting, which in aggregate are far cheaper, but also added the burden of having to administer a mail server. It also required me to learn how to configure DNS records to point to my new host and mail server.
+This includes financial as well as labor savings:
+
+- Minimize the overhead of maintaining a content management system. I no longer needed the complexity of a self-managed WordPress site. I hadn't blogged in some time, and my [podcast](/podcasts) has been on hiatus since 2022 (stay tuned&hellip;). Maintenance included:
+  - Keeping up with plugin updates.
+  - WordPress updates.
+  - Processing the hundreds of spam comments that came through every day.
+- Reduce hosting costs. SSGs don't require infrastructure like a database, so they can be hosted in places that WordPress sites can't. This gave me flexibility to move to a zero- or low-cost host. That *doesn't* mean there are zero costs to hosting the site:
+  - My existing site host was also my mail server, so I had to find and set up an alternative (and my first choice was too difficult to set up).
+  - I had to upgrade my podcast hosting so I could get metrics from them and have them deal with all of the traffic. My podcast archive puts me at the limit of free disk space and bandwidth on GitHub, so I had to offload that burden to a paid service.
+  - By downsizing from a web host I'd undergrown, I could re-allocate those resources to mail and podcast hosting. This is cheaper in terms of outright cost, but also added mail server administration as well as setting up my own infrastructure.
 
 ## The what
 
