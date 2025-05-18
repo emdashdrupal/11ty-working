@@ -1,11 +1,11 @@
 ---
 title : Metrics and data
-description: Every organization wants to know how its content performs.
+description: Every organization wants to know how its content performs. I have extensive experience implementing and monitoring content metrics.
 FontAwesomeIcon: solid fa-magnifying-glass-chart
 categories: metrics
 ---
 
-I have extensive experience implementing and monitoring content metrics so you can:
+ Measuring how your content performs can help your organization:
 
 - Plan
 - Ensure the content you create is relevant
