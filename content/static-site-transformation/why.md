@@ -34,8 +34,8 @@ Lastly, taking on this project was strategic. I don't have any recent writing sa
 
 ## Content goals
 
-- Have a steady stream of blog content that I can drive traffic to and show as writing samples.
-- Give back to the community by documenting the static site implementation process.
+- A steady stream of content to drive traffic and show as writing samples.
+- Give back by documenting the static site implementation process.
 - Review all the content on my site and see if and how it's promoting me in the best light.
 - Decide whether to archive old content, like those *very* early blog posts.
 - Understand how to structure content not only for SSGs, but other programmatic use.
@@ -44,16 +44,17 @@ Lastly, taking on this project was strategic. I don't have any recent writing sa
 
 ## Cost savings goals
 
-This includes financial as well as labor savings:
+This includes financial and labor savings:
 
 - Minimize the overhead of maintaining a content management system. I no longer needed the complexity of a self-managed WordPress site. I hadn't blogged in some time, and my [podcast](/podcasts) has been on hiatus since 2022 (stay tuned&hellip;). Maintenance included:
   - Keeping up with plugin updates.
   - WordPress updates.
   - Processing the hundreds of spam comments that came through every day.
-- Reduce hosting costs. SSGs don't require infrastructure like a database, so they can be hosted in places that WordPress sites can't. This gave me flexibility to move to a zero- or low-cost host. That *doesn't* mean there are zero costs to hosting the site:
-  - My existing site host was also my mail server, so I had to find and set up an alternative (and my first choice was too difficult to set up).
-  - I had to upgrade my podcast hosting so I could get metrics from them and have them deal with all of the traffic. My podcast archive puts me at the limit of free disk space and bandwidth on GitHub, so I had to offload that burden to a paid service.
-  - By downsizing from a web host I'd undergrown, I could re-allocate those resources to mail and podcast hosting. This is cheaper in terms of outright cost, but also added mail server administration as well as setting up my own infrastructure.
+- Reduce hosting costs. SSGs don't require heavy infrastructure such as a database, so they can be hosted in places that WordPress sites can't. This gave me flexibility to move to a zero- or low-cost host. That *doesn't* mean there are zero costs to hosting the site:
+  - My existing site host was also my mail server, so I had to find and set up my own mail hosting. To add to the frustration, my first choice was too difficult to set up.
+  - I had to upgrade my podcast hosting. My podcast archive puts me at the limit of free disk space and bandwidth on GitHub, so I had to offload that burden to a paid service.
+  - Downsizing from a web host I'd undergrown meant I could re-allocate those resources.
+  - While this solution is cheaper in long-term financial cost, the initial investment in setting up my own infrastructure, as well as the ongoing added mail server administration, may be a factor for some people.
 
 ## The what
 

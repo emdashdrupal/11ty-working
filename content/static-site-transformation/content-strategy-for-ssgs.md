@@ -37,5 +37,3 @@ My content strategy for the conversion from WordPress to a static site generator
 #### Publishing cadence for the SSG series
 
 As part of my site rollout, I wanted to have four solid blog posts ready on debut, with the plan to roll out the others &mdash; in either small batches or individually &mdash; to keep traffic coming to my site, and to show recruiters and employers that I was still actively updating my site and the series.
-
-
