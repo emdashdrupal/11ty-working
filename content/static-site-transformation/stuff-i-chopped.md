@@ -1,12 +1,47 @@
 ---
+title: Information architecture
+description: As my site development evolved, so did the content architecture.
 eleventyExcludeFromCollections: true
 ---
 
-### Metadata
+My initial site architecture was based on the existing architecture in WordPress:
+
+- Home: promotes posts across all of the content types &mdash; podcast, writing samples, skills, and this SSG series.
+- About
+- Skills: List of the ways I can help a potential client/employer
+- Tech writing examples: gallery page
+- Speaking engagements/presentations: gallery page
+- Blog (etc): gallery page
+- Podcast pages: gallery page
+- A sidebar that displays a tag cloud
+- Photo galleries (?)
+- Contact
+- Resume(?)
+
+Very few parts of this structure ended up in version 1.0 of the site. If you've ever revamped lots of legacy content, this probably isn't surprising.
+
+## Content types
+
+In support of this architecture, I designed three main content types (page types):
+
+- **Homepage**: Intro and a headshot, and galleries of the four most important, or recent, items that have been updated in three categories: podcasts, skills, and this series of blog posts.
+- **Grid pages**: Overview pages that list each of my skills, blog posts, and podcast episodes.
+- **Details pages**: For each of the categories:
+  - Blog posts,
+  - Podcast episodes,including show notes and an episode player.
+  - More information about each of my skills, the relevant tools used, and any relation presentations or publications I've created.
+
+## Content reuse
+
+Using metadata and collections enables reuse. Copy-pasted content across pages is a maintenance nightmare. Someone has to remember to update it, and also *all the places* where the content is pasted.
+
+As I built out the site, I wanted to re-use the first sentence of each details page to display as descriptions on the cards on the grid pages. This also allowed me to style the descriptions separately.
+
+## Metadata
 
 Most technical writers and content strategists are familiar with metadata (also referred to as *front matter* or *frontmatter*). You can use it to define page titles, keywords, tags, and categories right out of the box. The real power comes by adding custom metadata; highly structured content expands the possibilities of the template engine and site generator.
 
-#### Taxonomies
+### Taxonomies
 
 *Collections* in Eleventy are powerful tools to display items on page(s) programmatically. Eleventy comes with `tags` and `categories` by default. You can expand these to create your own frontmatter as well.
 

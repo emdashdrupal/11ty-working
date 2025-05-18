@@ -1,5 +1,5 @@
 ---
-title : Creating the content strategy and information architecture
+title : Creating the content strategy for my site
 description: Working as writer, content strategist, and developer helped me understand how to orchestrate between the three roles.
 FontAwesomeIcon: solid fa-folder-tree
 featured: true
@@ -7,8 +7,6 @@ featuredOrder: 1
 ---
 
 Structuring, planning, and maintaining content is critical.
-
-
 
 ## Who are my users?
 
@@ -40,37 +38,4 @@ My content strategy for the conversion from WordPress to a static site generator
 
 As part of my site rollout, I wanted to have four solid blog posts ready on debut, with the plan to roll out the others &mdash; in either small batches or individually &mdash; to keep traffic coming to my site, and to show recruiters and employers that I was still actively updating my site and the series.
 
-## Information architecture
-
-My initial site architecture was based on the existing architecture in WordPress:
-
-- Home: promotes posts across all of the content types &mdash; podcast, writing samples, skills, and this SSG series.
-- About
-- Skills: List of the ways I can help a potential client/employer
-- Tech writing examples: gallery page
-- Speaking engagements/presentations: gallery page
-- Blog (etc): gallery page
-- Podcast pages: gallery page
-- A sidebar that displays a tag cloud
-- Photo galleries (?)
-- Contact
-- Resume(?)
-
-Very few parts of this structure ended up in version 1.0 of the site. If you've ever revamped lots of legacy content, this probably isn't surprising.
-
-### Content types
-
-I created three main content types (page types):
-
-- **Homepage**: Intro and a headshot, and galleries of the four most important, or recent, items that have been updated in three categories: podcasts, skills, and this series of blog posts.
-- **Grid pages**: Overview pages that list each of my skills, blog posts, and podcast episodes.
-- **Details pages**: For each of the categories:
-  - Blog posts,
-  - Podcast episodes,including show notes and an episode player.
-  - More information about each of my skills, the relevant tools used, and any relation presentations or publications I've created.
-### Content reuse
-
-Using metadata and collections enables reuse. Copy-pasted content across pages is a maintenance nightmare. Someone has to remember to update it, and also *all the places* where the content is pasted.
-
-As I built out the site, I wanted to re-use the first sentence of each details page to display as descriptions on the cards on the grid pages. This also allowed me to style the descriptions separately.
 
