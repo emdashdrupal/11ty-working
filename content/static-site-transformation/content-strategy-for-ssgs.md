@@ -27,7 +27,7 @@ The first question of technical writing is *who is the user*? The users you iden
 
 ### Blog release strategy
 
-My content strategy for the conversion from WordPress to a static site generator (SSG) included:
+My strategy for documenting the conversion from WordPress to a static site generator (SSG) included:
 
 - Write 10-20 blog posts about the process, including:
   - Migration
