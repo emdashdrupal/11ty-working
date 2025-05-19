@@ -1,6 +1,6 @@
 ---
 title: Choosing a static site generator
-description: I knew what I wanted (ease-of-use) and didn't want ("ease of use") out of static site generators (SSGs).
+description: I knew what I wanted (ease-of-use) and didn't want ("ease of use") when building a site with static site generators (SSGs).
 tags : "content-strategy"
 featured: true
 featuredOrder: 2
