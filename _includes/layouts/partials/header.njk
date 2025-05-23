@@ -59,7 +59,7 @@
 {% endblock %} {% block content %}
         <main class="flex flex-col mx-auto py-1 px-4 md:px-6 max-w-4xl items-center">
 
-            <article class="{% if layout == "layouts/details.njk" %}prose{% endif %}">
+            <article {% if layout == "layouts/details.njk" %}class="prose"{% endif %}>
                 <h1>{{title or metadata.title}}</h1>
 
                 {% if description %}
