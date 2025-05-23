@@ -46,18 +46,18 @@
         <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
         <link rel="alternate" type="application/rss+xml" title="Content Content podcast with Ed Marsh" href="https://feeds.blubrry.com/feeds/contentcontent.xml"/>
     </head>
-    {% block nav %}
-        <nav aria-label="Ed Marsh introduction and site navigation menu">
-            <div class="container bg-medium-blue mx-auto max-w-6xl px-4" id="mainnavbar">
+
+<body class="flex flex-col min-h-screen items-center" data-pagefind-body>
+   {% block nav %}
+        <nav aria-label="Ed Marsh introduction and site navigation menu" class="bg-medium-blue mx-auto items-center max-w-4xl px-4" >
+            <divid="mainnavbar">
                 {% include 'layouts/partials/navbar.njk' %}
             </div>
             {% include 'layouts/partials/breadcrumb.njk' %}
         </nav>
     </div>
-{% endblock %}
-<body class="flex flex-col min-h-screen" data-pagefind-body>
-    {% block content %}
-        <main class="container mx-auto py-1 px-4 md:px-6">
+{% endblock %} {% block content %}
+        <main class="flex flex-col mx-auto py-1 px-4 md:px-6 max-w-4xl items-center">
 
             <article class="{% if layout == "layouts/details.njk" %}prose{% endif %}">
                 <h1>{{title or metadata.title}}</h1>
