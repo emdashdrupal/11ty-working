@@ -1,18 +1,14 @@
 </main>
 
-<footer class="flex flex-col p-4 rounded-xl bg-medium-blue font-sans">
+<footer class="p-4 rounded-full bg-medium-blue font-sans fixed bottom-0 h-8">
     {% set hoverclass="hover:text-jet-200 hover:bg-success-700 underline text-success-700" %}
 
 
         <p class="m-0 font-sans">
-            Ed Marsh creates successful technical content by building community.
+            Ed Marsh creates successful technical content by building community. <a href="/contact/" class="{{ hoverclass }}">Contact Ed</a> to discuss your content needs.
         </p>
 
-        <p class="m-0 font-sans">
-            <a href="/contact/" class="{{ hoverclass }}">Contact Ed</a> to discuss your content needs.
-        </p>
-
-        <div class="m-0">
+        <div class="m-0 float-right">
             &copy; 2008&ndash;{% year %}. Created with
                 <a href="https://www.11ty.dev" class="{{ hoverclass }}">Eleventy</a>,
                 <a href="https://tailwindcss.com" class="{{ hoverclass }}">Tailwind CSS</a>,
