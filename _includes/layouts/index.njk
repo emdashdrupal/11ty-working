@@ -1,106 +1,38 @@
 {% include 'layouts/partials/header.njk' %}
 
-<section id="intro">
-    <div class="grid col-auto sm:grid-cols-2 mb-2">
+<section id="intro" class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 mb-2">
 
-        <div class="sm:grid-cols-2 gap-6">
-            <p>
-                <span class="text-lg font-sans font-semibold">Hi, I'm Ed Marsh</span>. My job title has always been <a href="/skills/technical-writing">technical writer</a>, but I've made complex information accessible for over three decades by incorporating <a href="/skills/information-architecture/">information architecture</a>, <a href="/skills/content-strategy/">content strategy</a>, and <a href="/skills/community/">community building</a>. <p>
+    <div class="sm:grid-cols-2 gap-6">
+        <p>
+            <span class="text-lg font-sans font-semibold">Hi, I'm Ed Marsh</span>. My job title has always been <a href="/skills/technical-writing">technical writer</a>, but I've made complex information accessible for over three decades by incorporating <a href="/skills/information-architecture/">information architecture</a>, <a href="/skills/content-strategy">content strategy</a>, and <a href="/skills/community">community building</a>. <p>
 
-                    <p class="mt-6">I'm passionate about clear, concise, and consistent content. I'm opinionated about the Oxford comma. I specialize in building or revamping documentation practices. My process involves:</p>
+                <p class="mt-6">I'm passionate about clear, concise, and consistent content. I'm opinionated about the Oxford comma. I specialize in building or revamping documentation practices. My process involves:</p>
 
-                    <ul class="list-inside">
-                        <li>Assessing your current content situation.</li>
-                        <li>Defining structure.</li>
-                        <li>Implementing <a href="skills/content-strategy/">content strategy</a>.</li>
-                        <li>
-                            <a href="skills/community/">Engaging the people</a> in your organization who are passionate about content.</li>
-                    </ul>
-                    <p class="mt-6">This site is my portfolio. I <a href="/static-site-transformation/">rebuilt it from the ground up</a> to show how I can work with developers and stakeholders to help organizations with all aspects of their content.</p>
-                </div>
-                <div class="sm:grid-cols-2 gap-6 rounded-lg max-w-48">
-                    <img
+                <ul class="list-inside">
+                    <li>Assessing your current content situation.</li>
+                    <li>Defining structure.</li>
+                    <li>Implementing <a href="skills/content-strategy">content strategy</a>.</li>
+                    <li>
+                        <a href="skills/community">Engaging the people</a> in your organization who are passionate about content.</li>
+                </ul>
+                <p class="mt-6">This site is my portfolio. I <a href="/static-site-transformation">rebuilt it from the ground up</a> to show how I can work with developers and stakeholders to help organizations with all aspects of their content.</p>
+            </div>
+            <div class="sm:grid-cols-2 gap-6 rounded-lg max-w-48">
+                <img
         src="/assets/images/ed-marsh.jpg"
         alt="Ed Marsh, photo courtesy Arclight Images"
         title="Ed Marsh, photo courtesy Arclight Images"
       >
-                </div>
-
             </div>
+
         </div>
-    </section>
-    {% set collectionName = "skills" %}
-    <section class="mx-auto" id="{{collectionName}}" style="border: 1px solid var(--bg-jet-900); border-radius: 1rem; padding:6px;">
-        <h2 class="px-3">How I can help you</h2>
-        <p class="description px-3 text-jet-100">Here are the biggest ways I can help your organization. <a href="/skills/">See all the ways I can help</a>.</p>
-        <div class="grid col-auto sm:grid-cols-4 gap-2 px-3">
-            {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
-            {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
-            {% for item in sortedFeatured %}
-                {% if loop.index0 < 4 %}
-                    {% include 'layouts/partials/card.njk' %}
-                {% endif %}
-            {% endfor %}
-        </div>
-    </section>
-
-    {% set collectionName = "blog" %}
-    <section class="mt-6" id="{{collectionName}}" style="border: 1px solid var(--bg-jet-900); border-radius: 1rem; padding:6px;">
-        <h2 class="px-3">Blog- Creating a static site</h2>
-        <p class="description px-3 text-jet-100">I updated and simplified my old WordPress site using the <a href="https://www.11ty.dev/">Eleventy static site generator</a>. Here's how I can use the lessons learned to help you meet your content goals. <span class="col-span-full text-lg font-bold italic">
-                <a href="/static-site-transformation/">Check back frequently to read the full series!</a></span></p>
-        <div class="grid col-auto sm:grid-cols-4 gap-2 px-3">
-            {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
-            {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
-            {% for item in sortedFeatured %}
-                {% if loop.index0 < 4 %}
-                    {% include 'layouts/partials/card.njk' %}
-                {% endif %}
-            {% endfor %}
-        </div>
-    </section>
-
-    {% set collectionName = "podcasts" %}
-    <section class="mt-6" id="{{collectionName}}"  style="border: 1px solid var(--bg-jet-900); border-radius: 1rem; padding:6px;">
-        <h2 class="px-3">Recent podcasts</h2>
-        <p class="description px-3 text-jet-100">I'm the jack-of-all-trades for the <a href="podcasts/">Content Content podcast</a>, where I interview &ldquo;the people behind the content&rdquo; in technical communication, content strategy, content marketing, implementation, and more.
-   Check out <span class="text-lg italic">
-                <a href="/podcasts/">all of the amazing people I spoke with.</a>
-            </span>
-        </p>
-
-            {% set filtered_collections = collections.podcasts %}
-            {% for item in filtered_collections | sort(false, false, "data.date") | reverse %}
-                {% if loop.index0 <= 3 %}
-                    {% include 'layouts/partials/card.njk' %}
-                {% endif %}
-            {% endfor %}
-
-        <ul class="list-inside">
-            <li>Assessing your current content situation.</li>
-            <li>Defining structure.</li>
-            <li>Implementing <a href="skills/content-strategy">content strategy</a>.</li>
-            <li><a href="skills/community">Engaging the people</a> in your organization who are passionate about content.</li>
-        </ul>
-
-        <p class="mt-6">This site is my portfolio. I <a href="/static-site-transformation">rebuilt it from the ground up</a> to show how I can work with developers and stakeholders to help organizations with all aspects of their content.</p>
-    </div>
-
-    <div class="max-w-48">
-        <img
-            src="/assets/images/ed-marsh.jpg"
-            alt="Ed Marsh, photo courtesy Arclight Images"
-            title="Ed Marsh, photo courtesy Arclight Images"
-            class="rounded-lg"
-        >
     </div>
 </section>
-
 {% set collectionName = "skills" %}
-<section class="mx-auto rounded-2xl border border-jet-900 p-6" id="{{collectionName}}">
-    <h2>How I can help you</h2>
-    <p class="text-jet-100">Here are the biggest ways I can help your organization. <a href="/skills/">See all the ways I can help</a>.</p>
-    <div class="grid sm:grid-cols-4 gap-2">
+<section class="mx-auto" id="{{collectionName}}" style="border: 1px solid var(--bg-jet-900); border-radius: 1rem; padding:6px;">
+    <h2 class="px-3">How I can help you</h2>
+    <p class="description px-3 text-jet-100">Here are the biggest ways I can help your organization. <a href="/skills/">See all the ways I can help</a>.</p>
+    <div class="grid col-auto sm:grid-cols-4 gap-2 px-3">
         {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
         {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
         {% for item in sortedFeatured %}
