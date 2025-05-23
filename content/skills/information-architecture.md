@@ -9,10 +9,11 @@ featuredOrder: 2
 
 The way your content is presented and organized says a lot about how your company prioritizes it. Giving structure to your organization's content ensures:
 
+- Your business' reputation is maintained by high-quality content.
 - Consistency across every piece and channel.
 - Makes it easier to manipulate programmatically.
 - Improves SEO.
-- Provides a consistent experience.
+- Provides a consistent experience to your users and staff.
 - Lets people get the answers they need quickly to move on with their day.
 
 ## Structured authoring
