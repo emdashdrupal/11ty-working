@@ -1,4 +1,11 @@
-<div aria-label="breadcrumb" class="container mx-auto rounded-sm mb-4 px-4 py-2 bg-whitish">
+<script src="/pagefind/pagefind-ui.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({element: "#search", showSubResults: false, showImages: false});
+    });
+</script>
+
+<div aria-label="breadcrumb" class="mx-auto rounded-sm mb-4 px-4 py-2 bg-whitish">
     <span class="fa-solid fa-house text-grey-green"></span>
     <a href="/">Home</a>
     {% if category %}
