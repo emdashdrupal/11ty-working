@@ -47,19 +47,20 @@
         <link rel="alternate" type="application/rss+xml" title="Content Content podcast with Ed Marsh" href="https://feeds.blubrry.com/feeds/contentcontent.xml"/>
     </head>
 
-<body class="flex flex-col min-h-screen justify-between items-center" data-pagefind-body>
-   {% block nav %}
-        <nav aria-label="Ed Marsh introduction and site navigation menu" class="mx-auto items-center max-w-4xl px-4" >
-            <div id="mainnavbar" class="bg-medium-blue">
-                {% include 'layouts/partials/navbar.njk' %}
-            </div>
-            {% include 'layouts/partials/breadcrumb.njk' %}
-        </nav>
-    </div>
-{% endblock %} {% block content %}
+    <body class="flex flex-col min-h-screen justify-between items-center" data-pagefind-body>
+        {% block nav %}
+            <nav aria-label="Ed Marsh introduction and site navigation menu" class="mx-auto items-center max-w-4xl px-4" >
+                <div id="mainnavbar" class="bg-medium-blue">
+                    {% include 'layouts/partials/navbar.njk' %}
+                </div>
+                {% include 'layouts/partials/breadcrumb.njk' %}
+            </nav>
+        </div>
+    {% endblock %}
+    {% block content %}
         <main class="flex flex-col mx-auto py-1 px-4 md:px-6 max-w-4xl items-center">
 
-            <article {% if layout == "layouts/details.njk" %}class="prose"{% endif %}>
+            <article class="{% if layout == "layouts/details.njk" %}prose{% endif %}">
                 <h1>{{title or metadata.title}}</h1>
 
                 {% if description %}
