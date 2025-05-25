@@ -15,7 +15,7 @@ Her [_Content Strategy_ book](https://smile.amazon.com/Content-Strategy-Connecti
 
 ## Mentioned during this episode
 
-- [Scott Abel, the Content Wrangler](../8-11-20-i-have-issues-with-slide-decks-with-scott-abel-content-content-podcast/)
+- [Scott Abel, the Content Wrangler](podcasts/2018-11-20-i-have-issues-with-slide-decks-with-scott-abel-content-content-podcast/)
 - [An uneven history of content strategy](https://rahelab.medium.com/an-uneven-history-of-content-strategy-d514cfd7eee5)
 - [Back to the Future](https://www.backtothefuture.com/)
 - [Deane Barker _The need for content operations_](https://deanebarker.net/tech/blog/need-for-content-operations/)

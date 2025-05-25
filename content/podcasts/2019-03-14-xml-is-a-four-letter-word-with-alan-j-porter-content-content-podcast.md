@@ -34,5 +34,5 @@ Alan is also an accomplished author and critic of comics, pop culture, sci-fi, a
 - [Caterpillar](https://www.cat.com/en_US.html)
 - [Concorde](https://en.wikipedia.org/wiki/Concorde)
 - [Alan's Open Wheel podcast](https://whiterocket.podbean.com/e/open-wheel-2018-year-end-review-f1-indycar)
-- [Napoleons and Shakespeares featuring Teresa Meek &#8211; Content Content podcast episode 14](../7-02-14-napoleons-shakespeares-teresa-meek-content-content-podcast-14)
-- [Experiences have to be assembled with Cruce Saunders &#8211; Content Content podcast](../8-09-14-experiences-have-to-be-assembled-with-cruce-saunders-content-content-podcast)
+- [Napoleons and Shakespeares featuring Teresa Meek &#8211; Content Content podcast episode 14](podcasts/2017-02-14-napoleons-shakespeares-teresa-meek-content-content-podcast-14)
+- [Experiences have to be assembled with Cruce Saunders &#8211; Content Content podcast](podcasts/2018-09-14-experiences-have-to-be-assembled-with-cruce-saunders-content-content-podcast)
