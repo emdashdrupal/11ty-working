@@ -12,7 +12,7 @@ I've always been [curious about and dabbled in software development](/skills/cod
 
 That site and its scope expanded when I started my podcast in 2015. When I decided to update my site, getting seriously hands-on appealed to me.
 
-![Legacy podcast landing page](/podcasts../assets/images/edmarsh-dot-com-podcast-page-1-may-2025.png)
+![Legacy podcast landing page](/assets/images/edmarsh-dot-com-podcast-page-1-may-2025.png)
 
 This was a rare greenfield opportunity to:
 
