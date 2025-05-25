@@ -31,5 +31,5 @@ blubrryCache: 1747159229
 - [Be like Thomas Pynchon with Pawel Kowaluk](/2017-06-27-like-thomas-pynchon-pawel-kowaluk-content-content-episode-16/)
 - [Ingress the game](https://www.ingress.com)
 - [Pokemon Go](https://www.pokemongo.com)
-- [Content Content podcast episode 7 &mdash; Curious about content featuring David Dylan Thomas](podcasts/2016-01-19/content-content-podcast-episode-7-curious-about-content-featuring-david-dylan-thomas/)
+- [Content Content podcast episode 7 &mdash; Curious about content featuring David Dylan Thomas](/podcasts/2016-01-19/content-content-podcast-episode-7-curious-about-content-featuring-david-dylan-thomas/)
 - [It's OK to pause featuring Alyssa Fox3](/2016-11-15-ok-pause-featuring-alyssa-fox-content-content-podcast-episode-13)

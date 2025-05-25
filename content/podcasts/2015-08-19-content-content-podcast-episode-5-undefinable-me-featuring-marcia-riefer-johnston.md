@@ -28,7 +28,7 @@ blubrryCache: 1747160375
 
 - [You Can Say That Again](http://www.amazon.com/You-Can-Say-That-Again-ebook/dp/B00VSBRB0M) on Amazon
 
-- [Content Content podcast episode 1 with Sharon Burton](podcasts/2015-02-06-introducing-the-content-content-podcast/)
+- [Content Content podcast episode 1 with Sharon Burton](/podcasts/2015-02-06-introducing-the-content-content-podcast/)
 
 - [Scott Abel](https://thecontentwrangler.com)
 
@@ -52,7 +52,7 @@ blubrryCache: 1747160375
 
 - [Robert Rose](http://robertrose.me/)
 
-- [Content Content podcast episode 3 featuring Danielle Villegas](podcasts/2015-04-28-content-content-podcast-fire-fingers-featuring-danielle-villegas-episode-3)
+- [Content Content podcast episode 3 featuring Danielle Villegas](/podcasts/2015-04-28-content-content-podcast-fire-fingers-featuring-danielle-villegas-episode-3)
 
 - [Dair Communications](http://www.daircomm.com/)
 
