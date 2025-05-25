@@ -3,7 +3,6 @@
     {# Left Column: Calendar #}
     <div class="order-1 md:order-1 rounded-lg shadow-md">
         <h2 class="font-bold mb-4">Schedule a meeting</h2>
-        <p class="mb-4">Choose a time to discuss your content strategy needs.</p>
         <iframe
                 src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1CBWdgGqhLcE1ESu06P0r2-035wBc_jmj5EITbEmOXP5Zir_405nPRA5dBDMDEyZzc-S8AeI4D?gv=true"
                 class="w-full h-[600px] border-0"></iframe>
@@ -13,8 +12,7 @@
     <div class="order-2 md:order-2 rounded-lg shadow-md ">
         <h2 class="text-2xl font-bold mb-4">Send a message</h2>
         <form class="space-y-4" name="contact" method="POST" netlify>
-            <input type="hidden" name="subject"
-  value="Yeh message"/>
+            <input type="hidden" name="subject"/>
             <div>
                 <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
                 <input type="text" id="name" name="name" required
