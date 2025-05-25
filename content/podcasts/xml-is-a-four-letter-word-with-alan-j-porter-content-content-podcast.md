@@ -11,7 +11,6 @@ tags :
 - "content strategy"
 - "information architecture"
 - "dita"
-- "information architecture"
 - "metadata"
 cover: alanporter_003-300x200.jpg
 coverAlt : "Alan J. Porter, Content Content podcast guest"
@@ -20,7 +19,6 @@ mp3File: content_content_podcast-alan-porter.mp3
 blubrryId: 145351349
 blubrryCache: 1747158770
 ---
-
 
 Alan is also an accomplished author and critic of comics, pop culture, sci-fi, and more.
 
