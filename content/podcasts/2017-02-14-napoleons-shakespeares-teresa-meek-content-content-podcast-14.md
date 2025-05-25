@@ -26,7 +26,7 @@ blubrryCache: 1747159359
 - [Content Marketing World](http://contentmarketingworld.com/)
 - [Content Marketing Institute](http://contentmarketinginstitute.com/)
 - [Flo - Progressive Insurance](https://en.wikipedia.org/wiki/Flo_\(Progressive\))
-- [Top 10 questions from Content Marketing World](../6-10-05-top-10-questions-content-marketing-world/)
+- [Top 10 questions from Content Marketing World](/podcasts/2016-10-05-top-10-questions-content-marketing-world/)
 - [eByline](https://www.ebyline.com/)
 - [Contently](https://contently.com)
 - [Skyword](http://www.skyword.com/)
