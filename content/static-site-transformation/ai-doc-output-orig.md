@@ -4,7 +4,7 @@ description: I [asked AI to generate documentation](/static-site-transformation/
 eleventyExcludeFromCollections: true
 ---
 
-You can also see an [updated version](/podcastsai-doc-output).
+You can also see an [updated version](./ai-doc-output).
 
 ```yaml
 ---

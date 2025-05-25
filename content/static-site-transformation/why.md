@@ -58,4 +58,4 @@ This includes financial and labor savings:
 
 ## The what
 
-[Choosing a static site generator](/podcastschoosing-static-site-generator)
+[Choosing a static site generator](/static-site-transformation/choosing-static-site-generator)
