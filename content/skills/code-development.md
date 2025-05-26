@@ -6,7 +6,7 @@ categories: "coding-experience"
 ---
 
 - Created my first web site in the 1990s.
-- Wrote SQL queries to retrieve and analyze actual hidden [user metrics](/skills/metrics) of a legacy help system.
+- Wrote SQL queries to retrieve and analyze actual hidden [user metrics](/skills/metrics/) of a legacy help system.
 - Converted a 1500-topic Adobe RoboHelp project to DITA XML.
 - Wrote custom XSLT to transform DITA to HTML.
 - Created a unique publishing platform using Atlassian Confluence as a content management system (CMS) with a custom front end.

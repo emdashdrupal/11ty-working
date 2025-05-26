@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="icon" href="/assets/images/favicon.ico">
-        <link rel="canonical" href="https://edmar.sh{{page.url}}"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="{{ description | safe }}">
 
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-VDL9G7YHY9"></script>
@@ -18,17 +19,22 @@
 
         <script src="/js/copyCode.js" defer></script>
         <script src="/js/imageExpand.js" defer></script>
+        <script src="/pagefind/pagefind-ui.js"></script>
+        <script>
+            window.addEventListener('DOMContentLoaded', (event) => {
+                new PagefindUI({element: "#search", showSubResults: false, showImages: false});
+            });
+        </script>
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="{{ description | safe }}">
         <title>
-            {% if collectionName == "skills" %}
+            {% if collectionName == "skills" and layout == "layouts/details.njk"%}
                 Ed Marsh can help you with {{ title | lower or metadata.title | lower }}
             {% else %}
                 {{ title or metadata.title }}
             {% endif %}
         </title>
+        <link rel="icon" href="/assets/images/favicon.ico">
+        <link rel="canonical" href="{{page.url}}"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <style>
@@ -47,13 +53,14 @@
         <link rel="alternate" type="application/rss+xml" title="Content Content podcast with Ed Marsh" href="https://feeds.blubrry.com/feeds/contentcontent.xml"/>
     </head>
     {% block nav %}
+    <header>
         <nav aria-label="Ed Marsh introduction and site navigation menu">
             <div class="container bg-medium-blue mx-auto max-w-6xl px-4" id="mainnavbar">
                 {% include 'layouts/partials/navbar.njk' %}
             </div>
             {% include 'layouts/partials/breadcrumb.njk' %}
         </nav>
-    </div>
+        </header>
 {% endblock %}
 <body class="flex flex-col min-h-screen" data-pagefind-body>
     {% block content %}
