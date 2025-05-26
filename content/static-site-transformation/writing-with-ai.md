@@ -8,7 +8,7 @@ featuredOrder: 3
 
 Everyone in tech is asking the same question: *Is AI going to take my job*? The answer for coders is "not yet". For those on the more creative end, including technical writers, it's a bit more grey.
 
-I've always [dabbled in code](/skills/code-development). My problem has always been that I don't know how to express the logic in my head in code.
+I've always [dabbled in code](/skills/code-development/). My problem has always been that I don't know how to express the logic in my head in code.
 
 My first forays into large language models were with Google Gemini (n&#233;e Bard). I asked how to write code for various automation tasks in Windows Powershell and Python. Fast-forward a year or two, and GitHub Copilot is baked into VS Code.
 
@@ -18,9 +18,9 @@ I asked GitHub Copilot to do my job by documenting my codebase, write summaries,
 
 This is a good example of what AI can do for you, but also where humans are invaluable. A large language model (LLM) can write a code sample, but can't tell if it displays correctly.
 
-> Because the output includes a mix of Markdown, template code, and HTML, it's nearly impossible to display correctly in a codeblock. I [created a separate page](/static-site-transformation/ai-doc-output) and excluded it from collections using the `eleventyExcludeFromCollections: true` parameter in my front matter, which means it won't appear as a page on the site.
+> Because the output includes a mix of Markdown, template code, and HTML, it's nearly impossible to display correctly in a codeblock. I [created a separate page](/static-site-transformation/ai-doc-output/) and excluded it from collections using the `eleventyExcludeFromCollections: true` parameter in my front matter, which means it won't appear as a page on the site.
 >
-> I also [saved the original output](/static-site-transformation/ai-doc-output-orig) for the first draft of the site.
+> I also [saved the original output](/static-site-transformation/ai-doc-output-orig/) for the first draft of the site.
 
 If you look at the output, it's pretty impressive that AI can get to this level of granularity. But the result is only a high level overview, and parts are not entirely correct &mdash; partially as a result of my lack of coding experience. For example, the Featured content section is technically correct. However, at the time I asked the question it wasn't working.
 

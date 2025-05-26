@@ -52,7 +52,7 @@ blubrryCache: 1747160375
 
 - [Robert Rose](http://robertrose.me/)
 
-- [Content Content podcast episode 3 featuring Danielle Villegas](/podcasts/content-content-podcast-fire-fingers-featuring-danielle-villegas-episode-3)
+- [Content Content podcast episode 3 featuring Danielle Villegas](/podcasts/content-content-podcast-fire-fingers-featuring-danielle-villegas-episode-3/)
 
 - [Dair Communications](http://www.daircomm.com/)
 

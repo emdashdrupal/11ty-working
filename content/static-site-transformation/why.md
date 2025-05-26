@@ -6,7 +6,7 @@ featured: true
 featuredOrder: 0
 ---
 
-I've always been [curious about and dabbled in software development](/skills/code-development). I've built websites starting in 1996, including the WordPress site I built in 2008.
+I've always been [curious about and dabbled in software development](/skills/code-development/). I've built websites starting in 1996, including the WordPress site I built in 2008.
 
 ![My WordPress homepage as of 1 May 2025](/assets/images/edmarsh-dot-com-homepage-1-may-2025.png)
 
@@ -46,7 +46,7 @@ Lastly, taking on this project was strategic. I don't have any recent writing sa
 
 This includes financial and labor savings:
 
-- Minimize the overhead of maintaining a content management system. I no longer needed the complexity of a self-managed WordPress site. I hadn't blogged in some time, and my [podcast](/podcasts) has been on hiatus since 2022 (stay tuned&hellip;). Maintenance included:
+- Minimize the overhead of maintaining a content management system. I no longer needed the complexity of a self-managed WordPress site. I hadn't blogged in some time, and my [podcast](/podcasts/) has been on hiatus since 2022 (stay tuned&hellip;). Maintenance included:
   - Keeping up with plugin updates.
   - WordPress updates.
   - Processing the hundreds of spam comments that came through every day.
@@ -58,4 +58,4 @@ This includes financial and labor savings:
 
 ## The what
 
-[Choosing a static site generator](/static-site-transformation/choosing-static-site-generator)
+[Choosing a static site generator](/static-site-transformation/choosing-static-site-generator/)
