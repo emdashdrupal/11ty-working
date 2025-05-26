@@ -17,9 +17,9 @@ blubrryCache: 1747158106
 
 ## Mentioned during this episode
 
-- [Curse of Knowledge with Tom Johnson](/podcasts/content-content-podcast-episode-4-curse-of-knowledge-with-tom-johnson)
-- [XML is a four-letter word with Alan J. Porter](/podcasts/xml-is-a-four-letter-word-with-alan-j-porter-content-content-podcast)
-- [Time as a tool with Alan Houser](/podcasts/content-content-podcast-time-as-a-tool-featuring-alan-houser-episode-2)
+- [Curse of Knowledge with Tom Johnson](/podcasts/content-content-podcast-episode-4-curse-of-knowledge-with-tom-johnson/)
+- [XML is a four-letter word with Alan J. Porter](/podcasts/xml-is-a-four-letter-word-with-alan-j-porter-content-content-podcast/)
+- [Time as a tool with Alan Houser](/podcasts/content-content-podcast-time-as-a-tool-featuring-alan-houser-episode-2/)
 - [BBEdit](https://www.barebones.com/products/bbedit/)
 - [Genesys](https://www.genesys.com/)
 - [Salesforce](https://www.salesforce.com/)
