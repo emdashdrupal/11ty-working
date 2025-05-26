@@ -6,7 +6,7 @@ featured: true
 featuredOrder: 0
 ---
 
-I've always been [curious about and dabbled in software development](/skills/code-development). I've built websites starting in 1996, including the WordPress site I built in 2008.
+I've always been [curious about and dabbled in software development](/skills/code-development/). I've built websites starting in 1996, including the WordPress site I built in 2008.
 
 ![My WordPress homepage as of 1 May 2025](/assets/images/edmarsh-dot-com-homepage-1-may-2025.png)
 
