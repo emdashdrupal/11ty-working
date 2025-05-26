@@ -53,13 +53,14 @@
         <link rel="alternate" type="application/rss+xml" title="Content Content podcast with Ed Marsh" href="https://feeds.blubrry.com/feeds/contentcontent.xml"/>
     </head>
     {% block nav %}
+    <header>
         <nav aria-label="Ed Marsh introduction and site navigation menu">
             <div class="container bg-medium-blue mx-auto max-w-6xl px-4" id="mainnavbar">
                 {% include 'layouts/partials/navbar.njk' %}
             </div>
             {% include 'layouts/partials/breadcrumb.njk' %}
         </nav>
-    </div>
+        </header>
 {% endblock %}
 <body class="flex flex-col min-h-screen" data-pagefind-body>
     {% block content %}

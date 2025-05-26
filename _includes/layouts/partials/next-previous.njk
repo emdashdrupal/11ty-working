@@ -8,15 +8,17 @@
                 <span class="fa-solid fa-arrow-left-long"></span>
                 <a href="{{ previousPost.url }}" class="">
 
-                    <span> {{ previousPost.data.title }}</span>
+                    <span>
+                        {{ previousPost.data.title }}</span>
                 </a>
             {% endif %}
         </div>
 
         <div class="flex-1 align-text-top text-jet-200 hover:bg-success-700 text-right">
             {% if nextPost %}
-                <a href="{{ nextPost.url }}" class="">
-                    <span>{{ nextPost.data.title }} </a>
+                <a href="{{ nextPost.url }}">
+                    {{ nextPost.data.title }}
+                </a>
                 <span class="fa-solid fa-arrow-right-long"></span>
 
             {% endif %}
