@@ -71,7 +71,7 @@
         <div class="grid col-auto sm:grid-cols-4 gap-2 px-3">
 
             {% set filtered_collections = collections.podcasts %}
-            {% for item in filtered_collections | reverse %}
+            {% for item in filtered_collections | sort(false, false, "data.date") | reverse %}
                 {% if loop.index0 <= 3 %}
                     {% include 'layouts/partials/card.njk' %}
                 {% endif %}
