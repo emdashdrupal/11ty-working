@@ -1,5 +1,5 @@
 ---
-title: About Ed Marsh, technical communicator, content strategist, mentor, and podcaster.
+title: Ed Marsh: technical communicator, content strategist, mentor, podcaster
 description: I've always been curious about technology. As a kid, I was the one who pushed all the buttons to see what would happen. That curiosity led to some scolding and an award-winning career in technical communication.
 layout: layouts/details.njk
 FontAwesomeIcon: solid fa-person-circle-question
