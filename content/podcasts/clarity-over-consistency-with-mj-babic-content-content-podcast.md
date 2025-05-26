@@ -10,7 +10,7 @@ tags :
   - "ux"
 cover: 1603480107914.jpg
 coverAlt : UX writer MJ Babic
-description : '"The best term to use to call what I was doing was UX writing" says UX Writer MJ Babic.'
+description : "&ldquo;The best term to use to call what I was doing was UX writing&rdquo; says UX Writer MJ Babic."
 mp3File : content-content-podcast_MJ_Babic.mp3
 blubrryId: 145351368
 blubrryCache: 1747158022

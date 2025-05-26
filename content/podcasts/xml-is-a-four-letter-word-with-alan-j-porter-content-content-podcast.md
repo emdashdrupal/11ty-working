@@ -11,7 +11,6 @@ tags :
 - "content strategy"
 - "information architecture"
 - "dita"
-- "information architecture"
 - "metadata"
 cover: alanporter_003-300x200.jpg
 coverAlt : "Alan J. Porter, Content Content podcast guest"
@@ -20,7 +19,6 @@ mp3File: content_content_podcast-alan-porter.mp3
 blubrryId: 145351349
 blubrryCache: 1747158770
 ---
-
 
 Alan is also an accomplished author and critic of comics, pop culture, sci-fi, and more.
 
@@ -34,5 +32,5 @@ Alan is also an accomplished author and critic of comics, pop culture, sci-fi, a
 - [Caterpillar](https://www.cat.com/en_US.html)
 - [Concorde](https://en.wikipedia.org/wiki/Concorde)
 - [Alan's Open Wheel podcast](https://whiterocket.podbean.com/e/open-wheel-2018-year-end-review-f1-indycar)
-- [Napoleons and Shakespeares featuring Teresa Meek &#8211; Content Content podcast episode 14](/podcasts/2017-02-14-napoleons-shakespeares-teresa-meek-content-content-podcast-14)
-- [Experiences have to be assembled with Cruce Saunders &#8211; Content Content podcast](/podcasts/2018-09-14-experiences-have-to-be-assembled-with-cruce-saunders-content-content-podcast)
+- [Napoleons and Shakespeares featuring Teresa Meek &#8211; Content Content podcast episode 14](/podcasts/napoleons-shakespeares-teresa-meek-content-content-podcast-14)
+- [Experiences have to be assembled with Cruce Saunders &#8211; Content Content podcast](/podcasts/experiences-have-to-be-assembled-with-cruce-saunders-content-content-podcast)
