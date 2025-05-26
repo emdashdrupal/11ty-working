@@ -32,7 +32,7 @@
                 {{ title or metadata.title }}
             {% endif %}
         </title>
-
+        <link rel="icon" href="/assets/images/favicon.ico">
         <link rel="canonical" href="{{siteUrl}}{{page.url}}"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,29 +49,28 @@
 
         <link rel="stylesheet" type="text/css" href="/css/base.css">
         <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
-        <link rel="icon" class="{% if data.FontAwesomeIcon or FontAwesomeIcon %}fa-{{data.FontAwesomeIcon or FontAwesomeIcon}}{% else %}/assets/images/favicon.ico{% endif %}" type="image/x-icon">
         <link rel="alternate" type="application/rss+xml" title="Content Content podcast with Ed Marsh" href="https://feeds.blubrry.com/feeds/contentcontent.xml"/>
     </head>
     {% block nav %}
-        <header>
-            <nav aria-label="Ed Marsh introduction and site navigation menu">
-                <div class="container bg-medium-blue mx-auto max-w-6xl px-4" id="mainnavbar">
-                    {% include 'layouts/partials/navbar.njk' %}
-                </div>
-                {% include 'layouts/partials/breadcrumb.njk' %}
-            </nav>
+    <header>
+        <nav aria-label="Ed Marsh introduction and site navigation menu">
+            <div class="container bg-medium-blue mx-auto max-w-6xl px-4" id="mainnavbar">
+                {% include 'layouts/partials/navbar.njk' %}
+            </div>
+            {% include 'layouts/partials/breadcrumb.njk' %}
+        </nav>
         </header>
-    {% endblock %}
-    <body class="flex flex-col min-h-screen" data-pagefind-body>
-        {% block content %}
-            <main class="container mx-auto py-1 px-4 md:px-6">
+{% endblock %}
+<body class="flex flex-col min-h-screen" data-pagefind-body>
+    {% block content %}
+        <main class="container mx-auto py-1 px-4 md:px-6">
 
-                <article class="{% if layout == "layouts/details.njk" %}prose{% endif %}">
-                    <h1>{{title or metadata.title}}</h1>
+            <article class="{% if layout == "layouts/details.njk" %}prose{% endif %}">
+                <h1>{{title or metadata.title}}</h1>
 
-                    {% if description %}
-                        <div data-pagefind-weight="6" class="description font-sans">{{ description |
+                {% if description %}
+                    <div data-pagefind-weight="6" class="description font-sans">{{ description |
                             markdown | safe }}</div>
-                    {% endif %}
+                {% endif %}
 
-                {% endblock %}
+            {% endblock %}
