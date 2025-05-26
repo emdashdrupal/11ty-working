@@ -30,7 +30,7 @@ I started to learn with the [Hugo SSG](https://gohugo.io/). Eventually I moved t
 
 Eleventy's docs aren't much better. It's just more open, so there are more available resources. For example, you can create your templates in numerous templating languages, including HTML and Markdown, so it's easy to find answers.
 
-Since I didn't know anything about Eleventy, I stayed with its default [Nunjucks templating language](https://mozilla.github.io/nunjucks/), and it's based on the [Liquid templating language](https://liquidjs.com/index.html) so there was a lot of history. Amusingly, I found during the process that [Tom Johnson referenced Liquid](Content_Content_podcast_S1E4_Curse_of_knowledge_with_Tom_Johnson.mp3) in our podcast together almost 10 years ago.
+Since I didn't know anything about Eleventy, I stayed with its default [Nunjucks templating language](https://mozilla.github.io/nunjucks/), and it's based on the [Liquid templating language](https://liquidjs.com/index.html) so there was a lot of history. Amusingly, I found during the process that [Tom Johnson referenced Liquid](/podcasts/content-content-podcast-episode-4-curse-of-knowledge-with-tom-johnson) in our podcast together almost 10 years ago.
 
 The learning curve was slightly softened by *abstraction*; each piece of the site-building puzzle is discrete, so you can focus on one aspect at a time. This helps with decision paralysis.
 
