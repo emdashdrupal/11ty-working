@@ -31,4 +31,5 @@ Let's figure out the best approach for your organization.
 
 ## Examples
 
-Re-architected a 1200-topic, 10-year-old Adobe RoboHelp HTML system based almost exclusively on FAQs. Using a data-driven approach, I reduced topics by 50% and increased traffic to the remaining topics.
+- Re-architected a 1200-topic, 10-year-old Adobe RoboHelp HTML system based almost exclusively on FAQs. Using a data-driven approach, I reduced topics by 50% and increased traffic to the remaining topics.
+- Developed and implemented a unique publishing workflow leveraging DITA XML and XSLT to use Confluence as a Content Management System (CMS).

@@ -26,3 +26,9 @@ Content without governance is an organizational nightmare: unsustainable, and im
 All the content you generate needs a goal, organization, style, and governance. Without someone setting standards and monitoring your content, your knowledge base, wiki, help portal, or Confluence instance becomes a Wild West of content. With everyone in your org contributing and duplicating content, it makes it impossible for your employees and users to find the single source of truth.
 
 Here's a free, [two-page checklist](/assets/pdfs/website-review-checklist.pdf) to ensure your site's content is best portraying your company's best side. [Contact me](/contact/) if you want to learn more!
+
+## Examples
+
+- Managed and coordinated product content strategy for 35+ products with stakeholders including senior management.
+- Ensured content quality by implementing style guide and documentation linter with custom business rules that improved consistency across all products.
+- Identified user and organizational knowledge needs by conducting user research in formal interviews, informal conversations, focus groups, analytics research, and support ticket analysis.
