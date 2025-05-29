@@ -13,7 +13,7 @@ Structuring, planning, and maintaining content is critical.
 The first question of technical writing is *who is the user*? The users you identify inform and guide your content strategy. In my case, my users include:
 
 - Potential employers.
-- Technical writers &mdash; both experienced and new.
+- Technical writers&thinsp;&mdash;&thinsp;both experienced and new.
 - Listeners (and potential listeners) of my podcast.
 - Those who want to learn about static site generators (SSGs) and/or docs-as-code.
 

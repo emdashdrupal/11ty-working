@@ -22,7 +22,7 @@ This is a good example of what AI can do for you, but also where humans are inva
 >
 > I also [saved the original output](/static-site-transformation/ai-doc-output-orig/) for the first draft of the site.
 
-If you look at the output, it's pretty impressive that AI can get to this level of granularity. But the result is only a high level overview, and parts are not entirely correct &mdash; partially as a result of my lack of coding experience. For example, the Featured content section is technically correct. However, at the time I asked the question it wasn't working.
+If you look at the output, it's pretty impressive that AI can get to this level of granularity. But the result is only a high level overview, and parts are not entirely correct&thinsp;&mdash;&thinsp;partially as a result of my lack of coding experience. For example, the Featured content section is technically correct. However, at the time I asked the question it wasn't working.
 
 There's still a need for a person to review and verify generated output, particularly for liability purposes. Attorneys won't be happy if their organization is sued for incorrect documentation that's written by AI.
 

@@ -33,7 +33,7 @@ I've never met Sean, and he was as curious about me as I was about him. Sean say
 - [Blubrry podcast statistics](http://blubrry.com)
 - [Scott Tucker](https://www.netflix.com/title/80118100)
 - [*Dirty Money*- Netflix](https://www.netflix.com/title/80118100)
-- [Chris Hardwick &mdash; Nerdist Podcast](https://en.wikipedia.org/wiki/The_Nerdist_Podcast)
+- [Chris Hardwick&thinsp;&mdash;&thinsp;Nerdist Podcast](https://en.wikipedia.org/wiki/The_Nerdist_Podcast)
 - [WTF podcast with Marc Maron](http://wtfpod.com)
 - [Dinner with Racers with Mario Andretti](http://www.dinnerwithracers.com/ep-69-mario-andretti-pt-1/)
 - [Craig Hampson episode](http://www.dinnerwithracers.com/ep-66-craig-hampson)

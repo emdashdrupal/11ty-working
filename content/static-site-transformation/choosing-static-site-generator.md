@@ -20,7 +20,7 @@ These were my requirements when choosing an SSG:
 - Avoid complex SSGs like Gatsby. I don't have a dev team behind me, nor did I have time to learn modern JavaScript or Typescript.
 - As plug-and-play as possible (in retrospect, ha!).
 - As low-code as possible (in retrospect, ha!). I can play with HTML, CSS, and configuration and template files.
-- Quick time to market &mdash; I needed to quickly build out the site to be relevant to my job search.
+- Quick time to market&thinsp;&mdash;&thinsp;I needed to quickly build out the site to be relevant to my job search.
 
 ## Getting my head around it all
 
