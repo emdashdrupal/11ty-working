@@ -17,7 +17,7 @@ categories: metrics
 
 ## Examples
 
-- Set up custom [Elastic Kibana dashboards](https://www.elastic.co/kibana/kibana-dashboard).
-- Sent email newsletter blasts division-wide highlighting metrics, featured content, and relevant content for each quarterly reporting period.
+- Set up custom [Elastic Kibana dashboards](https://www.elastic.co/kibana/kibana-dashboard) to monitor content quality and traffic.
+- Designed and wrote division-wide email newsletter blasts highlighting metrics, featured content, and relevant content for each quarterly reporting period. Metrics indicated these blasts drove traffic to featured topics.
 - Initiated custom quarterly reports that displayed metrics analysis for senior management.
 - Wrote SQL queries to analyze actual performance of a legacy help system, which informed migration to a new platform.
