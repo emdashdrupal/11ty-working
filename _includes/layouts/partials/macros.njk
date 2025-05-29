@@ -37,7 +37,7 @@
     <li class="relative list-none font-sans">
         <a
             href="{{ url }}"
-            class="px-3 py-0 inline-flex items-center hover:text-jet-200 hover:bg-success-800"
+            class="inline-flex items-center hover:text-jet-200 hover:bg-success-800 {% if label === "Contact Ed" %}  text-medium-blue border-2 rounded-sm bg-whitish{% else %} px-3 py-0 {% endif %}"
         >
             {{ label }}
         </a>
