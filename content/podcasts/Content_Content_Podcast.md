@@ -3,7 +3,7 @@ title: Content Content podcast pitch page
 eleventyExcludeFromCollections: true
 ---
 
-In this podcast series, I interview professionals in content strategy, technical communication, information architecture, and other content creators. I explore the stories behind the content &mdash; getting insights from leaders about their career journeys, challenges they've overcome, and where they see our industry heading.
+In this podcast series, I interview professionals in content strategy, technical communication, information architecture, and other content creators. I explore the stories behind the content&thinsp;&mdash;&thinsp;getting insights from leaders about their career journeys, challenges they've overcome, and where they see our industry heading.
 
 ## Hosting and production experience
 

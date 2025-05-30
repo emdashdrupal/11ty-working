@@ -1,4 +1,5 @@
-[{
+[
+  {
     "category": ["docs-as-code", "coding-experience", "technical-writing"],
     "publisher": "Nunjucks",
     "title": "Nunjucks templating engine"
@@ -24,6 +25,36 @@
     "title": "RoboHelp"
   },
   {
+    "category": ["technical-writing", "help-authoring-tool"],
+    "publisher": "Adobe",
+    "title": "Acrobat Pro"
+  },
+
+  {
+    "category": ["content-strategy", "metrics"],
+    "publisher": "Screaming Frog",
+    "title": "Screaming Frog SEO Spider"
+  },
+  {
+    "category": ["content-strategy", "metrics", "information-architecture"],
+    "publisher": "Microsoft",
+    "title": "Excel"
+  },
+  {
+    "category": [
+      "technical-writing",
+      "help-authoring-tool",
+      "coding-experience"
+    ],
+    "publisher": "Open-source",
+    "title": "HTML"
+  },
+  {
+    "category": ["technical-writing", "help-authoring-tool"],
+    "publisher": "OpenAPI",
+    "title": "OpenAPI (Swagger)"
+  },
+  {
     "category": ["podcasting", "audio-editing", "audio-production"],
     "publisher": "Adobe",
     "title": "Audition"
@@ -39,7 +70,12 @@
     "title": "InDesign"
   },
   {
-    "category": ["docs-as-code", "product-management", "agile", "technical-writing"],
+    "category": [
+      "docs-as-code",
+      "product-management",
+      "agile",
+      "technical-writing"
+    ],
     "publisher": "Atlassian",
     "title": "Jira"
   },
@@ -122,5 +158,10 @@
     "category": ["technical-writing"],
     "publisher": "John Gruber/open-source",
     "title": "Markdown"
+  },
+    {
+    "category": ["technical-writing", "coding-experience"],
+    "publisher": "Open-source",
+    "title": "XML"
   }
 ]

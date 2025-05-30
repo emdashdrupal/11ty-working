@@ -23,7 +23,7 @@ blubrryCache: 1747159188
 - [Yosemite Half Dome](https://www.yosemitehikes.com/yosemite-valley/half-dome/half-dome.htm)
 - [2018 STC Philadelphia Metro CONDUIT conference](http://www.stcpmc.org/conferences/conduit-2018/)
 - [Submit proposals for the 2018 STC Philadelphia Metro CONDUIT conference](http://www.stcpmc.org/conferences/conduit-2018/submit-proposals-for-conduit-2018/)
-- [Content Content Podcast &mdash; Time as a Tool &mdash; featuring Alan Houser &mdash; episode 2](/podcasts/content-content-podcast-time-as-a-tool-featuring-alan-houser-episode-2/)
+- [Content Content Podcast&thinsp;&mdash;&thinsp;Time as a Tool&thinsp;&mdash;&thinsp;featuring Alan Houser&thinsp;&mdash;&thinsp;episode 2](/podcasts/content-content-podcast-time-as-a-tool-featuring-alan-houser-episode-2/)
 - [Content Content podcast episode 3 - Fire fingers with Danielle Villegas](/podcasts/content-content-podcast-fire-fingers-featuring-danielle-villegas-episode-3/)
 - [Elm email client](https://en.wikipedia.org/wiki/Elm_\(email_client\))
 - [Vi text editor](https://en.wikipedia.org/wiki/Vi)

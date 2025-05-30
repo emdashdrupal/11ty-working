@@ -12,7 +12,7 @@
         </a>
         <ul
             id="{{ id }}-menu"
-            class="dropdown-menu"
+            class="dropdown-menu z-50"
             role="menu"
             aria-labelledby="{{ id }}-button"
         >
@@ -37,9 +37,18 @@
     <li class="relative list-none font-sans">
         <a
             href="{{ url }}"
-            class="px-3 py-0 inline-flex items-center hover:text-jet-200 hover:bg-success-800"
+            class="px-3 py-0 inline-flex items-center hover:text-jet-200 hover:bg-success-800
+            {% if label == "LinkedIn" %}
+            fa-brands fa-linkedin text-2xl text-whitish"
+                aria-label="Visit Ed Marsh on LinkedIn"
+                title="Visit Ed Marsh on LinkedIn"
+                {% elif label == "Contact Ed" %}
+                border-2 bg-success-800"
+                aria-label="Contact Ed Marsh"
+                title="Contact Ed Marsh"
+            {% endif %}"
         >
-            {{ label }}
+            {% if label != "LinkedIn" %}{{ label }}{% endif %}
         </a>
     </li>
 {% endmacro %}

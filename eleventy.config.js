@@ -2,7 +2,7 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const markdownIt = require("markdown-it");
 const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
 const anchor = require("markdown-it-anchor");
-
+const mila = require("markdown-it-link-attributes");
 // Configuration objects
 const mdOptions = {
   html: true,
@@ -61,8 +61,17 @@ module.exports = function (eleventyConfig) {
     }
   });
 
+  const milaOptions = {
+    matcher(href) {
+      return href.match(/^https?:\/\//);
+    },
+    attrs: {
+      target: "_blank",
+      rel: "noopener",
+    },
+  };
+  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(mila, milaOptions));
 
-  // ...existing code...
   eleventyConfig.addFilter("limit", (array, limit) =>
     Array.isArray(array) ? array.slice(0, limit) : []
   );

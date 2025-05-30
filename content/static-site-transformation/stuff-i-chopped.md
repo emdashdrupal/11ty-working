@@ -6,7 +6,7 @@ eleventyExcludeFromCollections: true
 
 My initial site architecture was based on the existing architecture in WordPress:
 
-- Home: promotes posts across all of the content types &mdash; podcast, writing samples, skills, and this SSG series.
+- Home: promotes posts across all of the content types&thinsp;&mdash;&thinsp;podcast, writing samples, skills, and this SSG series.
 - About
 - Skills: List of the ways I can help a potential client/employer
 - Tech writing examples: gallery page

@@ -23,7 +23,7 @@ Once you determine your architecture, you need a way to govern it. While not eve
 [DITA](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) is an example of an XML-based structured authoring language for technical documentation. DITA's strength is in:
 
 - Using attributes and metadata to inform and enforce structure.
-- Reusing content &mdash; no more copying and pasting!
+- Reusing content&thinsp;&mdash;&thinsp;no more copying and pasting!
 
 Just as your developers use components, your authors and contributors can also use content components through a Component Content Management Systems (CCMS). Structured authoring's extensive use of attributes and metadata makes your technical content more available programmatically, and allows your authors to enforce writing standards across your organization.
 

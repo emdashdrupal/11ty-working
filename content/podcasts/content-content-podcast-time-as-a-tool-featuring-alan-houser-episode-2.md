@@ -13,7 +13,7 @@ blubrryCache: 1747159834
 
 ## Mentioned during this episode
 
-- [Content Content 1 featuring Sharon Burton](/podcasts/introducing-the-content-content-podcast/ "Introducing the Content Content podcast &mdash; Offices without tarantulas with Sharon Burton")
+- [Content Content 1 featuring Sharon Burton](/podcasts/introducing-the-content-content-podcast/ "Introducing the Content Content podcast&thinsp;&mdash;&thinsp;Offices without tarantulas with Sharon Burton")
 
 - [Alan Houser on Twitter](http://twitter.com/arh "Alan Houser Twitter")
 
