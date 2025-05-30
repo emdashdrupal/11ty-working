@@ -56,7 +56,7 @@
     {% block nav %}
     <header>
         <nav aria-label="Ed Marsh introduction and site navigation menu">
-            <div class="container bg-medium-blue mx-auto sm:max-w-4xl md:max-w-4xl lg:max-w-6xl px-4" id="mainnavbar">
+            <div class="container bg-medium-blue mx-auto max-w-4xl px-4" id="mainnavbar">
                 {% include 'layouts/partials/navbar.njk' %}
             </div>
             {% include 'layouts/partials/breadcrumb.njk' %}
@@ -65,9 +65,9 @@
 {% endblock %}
 <body class="flex flex-col min-h-screen" data-pagefind-body>
     {% block content %}
-        <main class="container mx-auto py-1 px-4 md:px-6 sm:max-w-4xl md:max-w-4xl lg:max-w-6xl">
+        <main class="container mx-auto py-1 px-4 md:px-6 max-w-4xl">
 
-            <article>
+            <article class="{% if layout == "layouts/details.njk" %}prose{% endif %}">
                 <h1>{{title or metadata.title}}</h1>
 
                 {% if description %}
