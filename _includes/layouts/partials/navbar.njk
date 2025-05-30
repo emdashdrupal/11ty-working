@@ -1,7 +1,7 @@
 {% from "layouts/partials/macros.njk" import dropdown,
 listItem %}
 
-<div class="grid grid-cols-2 md:grid-cols-3 gap-2 py-0 px-2 overflow-x-auto">
+<div class="grid grid-cols-2 md:grid-cols-3 gap-2 py-0 px-2 overflow-x-auto overflow-y-auto">
     <div id="tagline" class="col-span-1">
         <a href="/" class="font-sans text-jet-200 font-semibold">
                 Successful technical content through community building
@@ -9,7 +9,7 @@ listItem %}
     </div>
 
     <div id="menubar">
-        <ul class="flex flex-row mt-0 pt-0 overflow-x-visible" aria-label="Main navigation menu" role="menubar">
+        <ul class="flex mt-0 pt-0 overflow-x-visible" aria-label="Main navigation menu" role="menubar">
             {{ dropdown('skillsDropdown', 'Skills', collections.skills, '/skills') }}
             {{ dropdown('blogDropdown', 'Blog', collections.blog, '/static-site-transformation/') }}
             {{ listItem('/podcasts/', 'Podcast') }}
@@ -19,4 +19,3 @@ listItem %}
         </ul>
     </div>
 </div>
-<span id="search" class="float-right bg-whitish max-w-md"></span>
