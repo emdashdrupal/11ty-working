@@ -66,7 +66,7 @@
 }
 
 /* Base Elements - Alphabetical */
-p> a, span > a {
+p> a, span > a, li>a {
     text-decoration: underline;
 }
 
@@ -77,20 +77,20 @@ footer>div>p>a:hover {
 }
 
 blockquote {
-    border-left: 3px solid var(--bg-jet-200);
+    border-left: 3px solid var(--green-blue);
     margin: 1rem 0;
     padding-left: 1rem;
 }
 
 blockquote::before {
-    color: var(--text-jet-500);
+    color: var(--medium-blue);
     content: "> Note";
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-style: normal;
 }
 
 blockquote p {
-    color: var(--medium-blue);
+    color: var(--text-jet-200);
     font-family: var(--sans-serif);
     font-size: 1.0rem;
     font-style: normal;
@@ -193,6 +193,8 @@ ul li {
     line-height: 1.5rem;
     list-style-type: square;
     color: black;
+    list-style-position: outside;
+    margin-left:1rem;
 }
 
 /* Background Colors - Alphabetical */
@@ -570,7 +572,7 @@ footer>div>p>a {
 .description>p {
     font-family: var(--sans-serif);
     font-size: 1.1rem;
-    line-height: 1.35rem;
+    line-height: 1.55rem;
     margin: 1rem 15rem 1rem 0;
 }
 
