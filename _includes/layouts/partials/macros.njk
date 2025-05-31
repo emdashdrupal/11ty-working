@@ -8,7 +8,8 @@
             aria-haspopup="true"
             aria-controls="{{ id }}-menu"
         >
-            {{ label }}<span class="ml-1" aria-hidden="true">&#9660;</span>
+            {{ label }}
+            <span class="ml-1" aria-hidden="true">&#9660;</span>
         </a>
         <ul
             id="{{ id }}-menu"
@@ -45,10 +46,17 @@
                 {% elif label == "Contact Ed" %}
                 border-2 bg-success-800"
                 aria-label="Contact Ed Marsh"
-                title="Contact Ed Marsh"
-            {% endif %}"
-        >
-            {% if label != "LinkedIn" %}{{ label }}{% endif %}
+                title="Contact Ed Marsh" %}
+                {% elif label == "GitHub" %}
+        fa-brands fa-github text-2xl text-whitish"
+                aria-label="See this repository on GitHub"
+                title="See this repository on GitHub"
+
+            {% endif %}
+
+            >
+            {% if label != "LinkedIn" %}{{ label }}
+            {% endif %}
         </a>
     </li>
 {% endmacro %}
@@ -64,7 +72,7 @@
 
 {% macro renderButton(url, buttonText, title = "") %}
 
-        <a
+    <a
         href="{{ url }}"
         role="button"
         class="font-sans"
@@ -75,7 +83,7 @@
         {% endif %}
         title="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
     >
-            <button
+        <button
             type="button"
             {% if collections.podcasts %}
         download
@@ -83,14 +91,14 @@
             class="p-2 rounded-lg transition-transform transform mt-0 text-whitish bg-medium-blue"
             aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
         >
-                <span class="sr-only">
-                    {% if title %}Learn more about {{ title }}
-                    {% else %}{{ buttonText }}
-                    {% endif %}
-                </span>
-                {{ buttonText }}
-            </button>
-        </a>
+            <span class="sr-only">
+                {% if title %}Learn more about {{ title }}
+                {% else %}{{ buttonText }}
+                {% endif %}
+            </span>
+            {{ buttonText }}
+        </button>
+    </a>
 
 {% endmacro %}
 
