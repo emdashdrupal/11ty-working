@@ -35,27 +35,32 @@
 {% endmacro %}
 
 {% macro listItem(url, label) %}
-    <li class="relative list-none font-sans">
+    {% set classList %}
+        px-3 py-0 inline-flex items-center
+        {% if label == "LinkedIn" %}
+            fa-brands fa-linkedin text-2xl text-whitish hover:text-jet-200
+        {% elif label == "GitHub" %}
+            fa-brands fa-github text-2xl text-whitish hover:text-jet-200
+        {% elif label == "Contact Ed" %}
+            border-2 bg-success-800 hover:bg-success-500 text-jet-200 whitespace-nowrap
+        {% else %}
+            hover:text-jet-200 hover:bg-success-800
+        {% endif %}
+    {% endset %}
+
+    <li class="relative list-none font-sans {% if label in ['LinkedIn', 'GitHub'] %}ml-4{% endif %}">
         <a
             href="{{ url }}"
-            class="px-3 py-0 inline-flex items-center hover:text-jet-200 hover:bg-success-800
-            {% if label == "LinkedIn" %}
-            fa-brands fa-linkedin text-2xl text-whitish"
-                aria-label="Visit Ed Marsh on LinkedIn"
-                title="Visit Ed Marsh on LinkedIn"
-                {% elif label == "Contact Ed" %}
-                border-2 bg-success-800"
-                aria-label="Contact Ed Marsh"
-                title="Contact Ed Marsh" %}
-                {% elif label == "GitHub" %}
-        fa-brands fa-github text-2xl text-whitish"
-                aria-label="See this repository on GitHub"
-                title="See this repository on GitHub"
-
+            class="{{ classList | trim }}"
+            {% if label in ['LinkedIn', 'GitHub'] %}
+                aria-label="Visit Ed Marsh on {{ label }}"
+                title="Visit Ed Marsh on {{ label }}"
+            {% else %}
+                aria-label="{{ label }}"
             {% endif %}
-
-            >
-            {% if label != "LinkedIn" %}{{ label }}
+        >
+            {% if not (label in ['LinkedIn', 'GitHub']) %}
+                {{ label }}
             {% endif %}
         </a>
     </li>
