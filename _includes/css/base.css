@@ -567,33 +567,11 @@ footer>div>p>a {
 }
 
 
-.prose :where(h2):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
-    font-family: var(--sans-serif);
-    color: var(--text-jet-200);
-    font-weight: 600;
-    font-size: 1.5em;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-    line-height: 1.3333333;
-}
-
-.prose :where(h2>a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
-    font-weight: 600;
-}
-
-.prose :where(blockquote p:first-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::before {
-    content: none;
-}
-
-.prose code::before,
-.prose code::after {
-    content: "" !important;
-}
-
 .description>p {
     font-family: var(--sans-serif);
     font-size: 1.1rem;
-    line-height: 1.5rem;
+    line-height: 1.35rem;
+    margin: 1rem 15rem 1rem 0;
 }
 
 .header-anchor {
