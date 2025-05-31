@@ -8,7 +8,8 @@
             aria-haspopup="true"
             aria-controls="{{ id }}-menu"
         >
-            {{ label }}<span class="ml-1" aria-hidden="true">&#9660;</span>
+            {{ label }}
+            <span class="ml-1" aria-hidden="true">&#9660;</span>
         </a>
         <ul
             id="{{ id }}-menu"
@@ -34,21 +35,33 @@
 {% endmacro %}
 
 {% macro listItem(url, label) %}
-    <li class="relative list-none font-sans">
+    {% set classList %}
+        px-3 py-0 inline-flex items-center rounded-md
+        {% if label == "LinkedIn" %}
+            fa-brands fa-linkedin text-2xl text-whitish hover:text-jet-200
+        {% elif label == "GitHub" %}
+            fa-brands fa-github text-2xl text-whitish hover:text-jet-200
+        {% elif label == "Contact Ed" %}
+            border-2 bg-success-600 rounded-lg text-jet-200 whitespace-nowrap
+        {% else %}
+            hover:text-jet-200 hover:bg-success-800 hover:transition-colors
+        {% endif %}
+    {% endset %}
+
+    <li class="relative list-none font-sans {% if label in ['LinkedIn', 'GitHub'] %}ml-4{% endif %}">
         <a
             href="{{ url }}"
-            class="px-3 py-0 inline-flex items-center hover:text-jet-200 hover:bg-success-800
-            {% if label == "LinkedIn" %}
-            fa-brands fa-linkedin text-2xl text-whitish"
-                aria-label="Visit Ed Marsh on LinkedIn"
-                title="Visit Ed Marsh on LinkedIn"
-                {% elif label == "Contact Ed" %}
-                border-2 bg-success-800"
-                aria-label="Contact Ed Marsh"
-                title="Contact Ed Marsh"
-            {% endif %}"
+            class="{{ classList | trim }}"
+            {% if label in ['LinkedIn', 'GitHub'] %}
+                aria-label="Visit Ed Marsh on {{ label }}"
+                title="Visit Ed Marsh on {{ label }}"
+            {% else %}
+                aria-label="{{ label }}"
+            {% endif %}
         >
-            {% if label != "LinkedIn" %}{{ label }}{% endif %}
+            {% if not (label in ['LinkedIn', 'GitHub']) %}
+                {{ label }}
+            {% endif %}
         </a>
     </li>
 {% endmacro %}
@@ -64,7 +77,7 @@
 
 {% macro renderButton(url, buttonText, title = "") %}
 
-        <a
+    <a
         href="{{ url }}"
         role="button"
         class="font-sans"
@@ -75,7 +88,7 @@
         {% endif %}
         title="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
     >
-            <button
+        <button
             type="button"
             {% if collections.podcasts %}
         download
@@ -83,14 +96,14 @@
             class="p-2 rounded-lg transition-transform transform mt-0 text-whitish bg-medium-blue"
             aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
         >
-                <span class="sr-only">
-                    {% if title %}Learn more about {{ title }}
-                    {% else %}{{ buttonText }}
-                    {% endif %}
-                </span>
-                {{ buttonText }}
-            </button>
-        </a>
+            <span class="sr-only">
+                {% if title %}Learn more about {{ title }}
+                {% else %}{{ buttonText }}
+                {% endif %}
+            </span>
+            {{ buttonText }}
+        </button>
+    </a>
 
 {% endmacro %}
 
