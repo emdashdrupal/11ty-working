@@ -20,6 +20,7 @@
 
         <script src="/js/copyCode.js" defer></script>
         <script src="/js/imageExpand.js" defer></script>
+        <script src="/js/search.js" defer></script>
         <script src="/pagefind/pagefind-ui.js"></script>
         <script>
             window.addEventListener('DOMContentLoaded', (event) => {
@@ -54,25 +55,25 @@
         <link rel="alternate" type="application/rss+xml" title="Content Content podcast with Ed Marsh" href="https://feeds.blubrry.com/feeds/contentcontent.xml"/>
     </head>
     {% block nav %}
-    <header>
-        <nav aria-label="ed-marsh-introduction-and-site-navigation-menu">
-            <div class="container bg-medium-blue mx-auto max-w-4xl px-4" id="main-navbar">
-                {% include 'layouts/partials/navbar.njk' %}
-            </div>
-            {% include 'layouts/partials/breadcrumb.njk' %}
-        </nav>
+        <header>
+            <nav aria-label="ed-marsh-introduction-and-site-navigation-menu">
+                <div class="container bg-medium-blue mx-auto max-w-4xl px-4" id="main-navbar">
+                    {% include 'layouts/partials/navbar.njk' %}
+                </div>
+                {% include 'layouts/partials/breadcrumb.njk' %}
+            </nav>
         </header>
-{% endblock %}
-<body class="flex flex-col min-h-screen" data-pagefind-body>
-    {% block content %}
-        <main class="container mx-auto py-1 px-4 md:px-6 max-w-4xl">
+    {% endblock %}
+    <body class="flex flex-col min-h-screen" data-pagefind-body>
+        {% block content %}
+            <main class="container mx-auto py-1 px-4 md:px-6 max-w-4xl">
 
-            <article>
-                <h1>{{title or metadata.title}}</h1>
+                <article>
+                    <h1>{{title or metadata.title}}</h1>
 
-                {% if description %}
-                    <div data-pagefind-weight="6" class="description font-sans my-5">{{ description |
+                    {% if description %}
+                        <div data-pagefind-weight="6" class="description font-sans my-5">{{ description |
                             markdown | safe }}</div>
-                {% endif %}
+                    {% endif %}
 
-            {% endblock %}
+                {% endblock %}

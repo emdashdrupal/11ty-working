@@ -601,7 +601,27 @@ footer>div>p>a {
     --tw-shadow: none;
 }
 
-* Dialog styles */
+/* Search styles */
+#search {
+    transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+}
+
+#search.hidden {
+    opacity: 0;
+    transform: scale(0.95);
+    pointer-events: none;
+}
+
+#search:not(.hidden) {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#searchToggle {
+    transition: color 0.2s ease-out;
+}
+
+/* * Dialog styles */
 dialog.image-dialog {
     padding: 0;
     background: transparent;
