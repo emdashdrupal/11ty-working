@@ -60,7 +60,7 @@
                 aria-label="{{ label | slugify }}"
             {% endif %}
         >
-            {% if not (label in ['LinkedIn', 'GitHub']) %}
+            {% if not(label in['LinkedIn', 'GitHub']) %}
                 {{ label }}
             {% endif %}
         </a>
@@ -74,7 +74,7 @@
                 <span class="fa-{{ item.data.FontAwesomeIcon }} text-2xl text-medium-blue"></span>
             {% endif %}
             {% if item.data.cover %}
-                <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt or item.data.title }}" class="w-full h-48 object-cover mb-2">
+                <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt or item.data.title }}"    data-pagefind-meta="image[src], image_alt[alt]" class="w-full h-48 object-cover mb-2">
             {% endif %}
             <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
         </h3>

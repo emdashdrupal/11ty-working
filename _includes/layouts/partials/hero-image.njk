@@ -1,13 +1,17 @@
 {% if item.data.FontAwesomeIcon or FontAwesomeIcon %}
-    <a href="{{ item.url }}"><div
+    <a href="{{ item.url }}">
+        <div
         class="icon fa-{{ item.data.FontAwesomeIcon or FontAwesomeIcon }} text-4xl"
         aria-label="icon-representing-{{ item.data.title | slugify}}"
         title="Icon representing {{ item.data.title }}"
-    ></div></a>
+    ></div>
+    </a>
 {% endif %}
 
 {% if collectionName == 'podcasts' %}
-        <img
+    <img
+            data-pagefind-meta="image[src], image_alt[alt]"
+
         {% if cover or item.data.cover %}
             src="/assets/images/{{ cover or item.data.cover }}"
             alt="{{ item.data.coverAlt  or coverAlt }}"

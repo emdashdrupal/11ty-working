@@ -16,10 +16,10 @@
     --pagefind-ui-text-hover: var(--text-jet-200);
     --pagefind-ui-background: var(--bg-whitish);
     --pagefind-ui-border: var(--bg-jet-300);
-    --pagefind-ui-border-radius: 4px;
+    --pagefind-ui-border-radius: 2px;
     --pagefind-ui-tag: yellow;
     --pagefind-ui-border-width: 2px;
-    --pagefind-ui-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    --pagefind-ui-shadow: 0;
     /* Fonts - Alphabetical */
     --monospace: "Reddit Mono", Consolas, Courier, monospace;
     --sans-serif: "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
