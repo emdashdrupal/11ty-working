@@ -9,13 +9,13 @@
             aria-controls="{{ id }}-menu"
         >
             {{ label }}
-            <span class="ml-1" aria-hidden="true">&#9660;</span>
+            <span class="ml-1">&#9660;</span>
         </a>
         <ul
             id="{{ id }}-menu"
             class="dropdown-menu z-50"
             role="menu"
-            aria-labelledby="{{ id }}-button"
+            aria-labelledby="{{ id | slugify }}-button"
         >
             {% for item in items %}
                 <li role="none" class="list-none font-sans justify-center">
@@ -53,10 +53,10 @@
             href="{{ url }}"
             class="{{ classList | trim }}"
             {% if label in ['LinkedIn', 'GitHub'] %}
-                aria-label="Visit Ed Marsh on {{ label }}"
+                aria-label="visit-ed-marsh-on-{{ label }}"
                 title="Visit Ed Marsh on {{ label }}"
             {% else %}
-                aria-label="{{ label }}"
+                aria-label="{{ label | slugify }}"
             {% endif %}
         >
             {% if not (label in ['LinkedIn', 'GitHub']) %}
@@ -68,7 +68,13 @@
 
 {% macro gridItem(item) %}
     <div class="bg-whitish p-4">
-        <h3 aria-labelledby="{{ item.data.title }}">
+        <h3 aria-labelledby="{{ item.data.title |slugify }}">
+            {% if item.data.FontAwesomeIcon %}
+                <span class="fa-{{ item.data.FontAwesomeIcon }} text-2xl text-medium-blue"></span>
+            {% endif %}
+            {% if item.data.cover %}
+                <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt or item.data.title }}" class="w-full h-48 object-cover mb-2">
+            {% endif %}
             <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
         </h3>
         <p>{{ item.data.description }}</p>
@@ -82,9 +88,9 @@
         role="button"
         class="font-sans"
         {% if title %}
-            aria-label="Learn more about {{ title }}"
+            aria-label="Learn-more-about-{{ title | slugify }}"
         {% else %}
-            aria-label="{{ buttonText }}"
+            aria-label="{{ buttonText | slugify }}"
         {% endif %}
         title="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
     >
@@ -93,7 +99,7 @@
             {% if collections.podcasts %}
         download
         {% endif %}
-            class="p-2 rounded-lg transition-transform transform mt-0 text-whitish bg-medium-blue"
+            class="p-2 rounded-lg transition-transform transform mt-0 text-jet-100 bg-medium-blue"
             aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
         >
             <span class="sr-only">
@@ -113,11 +119,11 @@
     aria-labelledby="card-title-{{ title | slugify }}"
 >
         <div class="flex flex-col h-full">
-            <figure class="hero flex mx-auto" role="img" aria-label="{% if heroImage %}Hero image for {{ title }}{% endif %}">
+            <figure class="hero flex mx-auto" role="img" aria-label="{% if heroImage %}Hero-image-for-{{ title | slugify }}{% endif %}">
                 {{ heroImage | safe }}
             </figure>
             <h2 id="card-title-{{ title | slugify }}" class="card-title leading-8">
-                <a href="{{ url }}" aria-label="Read more about {{ title }}">{{ title | safe }}</a>
+                <a href="{{ url }}" aria-label="Read-more-about-{{ title | slugify }}">{{ title | safe }}</a>
             </h2>
 
             <div class="card-description flex-grow mb-4">

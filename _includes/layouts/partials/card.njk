@@ -4,8 +4,7 @@
     {% include 'layouts/partials/hero-image.njk' %}
 {% endset %}
 
-<div class="flex flex-col rounded-xl h-full shadow-md p-2"
-    aria-labelledby="card-title-{{ title | slugify }}">
+<div class="flex flex-col rounded-xl h-full shadow-md p-2">
     {{ card(
         url=item.url,
         title=item.data.title,
