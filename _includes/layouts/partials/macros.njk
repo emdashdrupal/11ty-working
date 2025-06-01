@@ -18,7 +18,7 @@
             aria-labelledby="{{ id | slugify }}-button"
         >
             {% for item in items %}
-                <li role="none" class="list-none font-sans justify-center id="{{ id }}-menu"">
+                <li role="none" class="list-none font-sans justify-center id="{{ id }}-menu">
                     <a
                         href="{{ item.url | url }}"
                         class="block w-full px-2 py-2 text-jet hover:bg-medium-blue"
@@ -74,7 +74,7 @@
                 <span class="fa-{{ item.data.FontAwesomeIcon }} text-2xl text-medium-blue"></span>
             {% endif %}
             {% if item.data.cover %}
-                <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt or item.data.title }}"    data-pagefind-meta="image[src], image_alt[alt]" class="w-full h-48 object-cover mb-2">
+                <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt or item.data.title }}" data-pagefind-meta="image[{{item.data.cover}}], image_alt[{{ item.data.coverAlt or item.data.title }}]" class="w-full h-48 object-cover mb-2">
             {% endif %}
             <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
         </h3>
