@@ -13,7 +13,7 @@
         </a>
         <ul
 
-            class="dropdown-menu z-50"
+            class="dropdown-menu"
             role="menu"
             aria-labelledby="{{ id | slugify }}-button"
         >
@@ -48,10 +48,10 @@
         {% endif %}
     {% endset %}
 
-    <li class="relative list-none font-sans rounded-md {% if label in ['LinkedIn', 'GitHub'] %}ml-4{% endif %}">
+    <li class="list-none font-sans rounded-md ">
         <a
             href="{{ url }}"
-            id="{{id-label | slugify}}-item"
+            id="{{label | slugify}}-item"
             class="{{ classList | trim }}"
             {% if label in ['LinkedIn', 'GitHub'] %}
                 aria-label="visit-ed-marsh-on-{{ label }}"
