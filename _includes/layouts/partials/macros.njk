@@ -1,9 +1,9 @@
 {% macro dropdown(id, label, items, homepageUrl) %}
-    <li class="relative list-none font-sans dropdown no-underline">
+    <li class="relative list-none font-sans dropdown">
         <a
             href="{{ homepageUrl }}"
             id="{{ id }}-button"
-            class="px-3 inline-flex items-center hover:bg-success-800 no-underline"
+            class="px-3 inline-flex items-center hover:bg-success-800"
             aria-expanded="false"
             aria-haspopup="true"
             aria-controls="{{ id }}-menu"
@@ -12,16 +12,16 @@
             <span class="ml-1">&#9660;</span>
         </a>
         <ul
-            id="{{ id }}-menu"
+
             class="dropdown-menu z-50"
             role="menu"
             aria-labelledby="{{ id | slugify }}-button"
         >
             {% for item in items %}
-                <li role="none" class="list-none font-sans justify-center no-underline">
+                <li role="none" class="list-none font-sans justify-center id="{{ id }}-menu"">
                     <a
                         href="{{ item.url | url }}"
-                        class="block w-full px-2 py-2 text-jet hover:bg-medium-blue no-underline"
+                        class="block w-full px-2 py-2 text-jet hover:bg-medium-blue"
                         role="menuitem"
                         tabindex="-1"
                         data-index="{{ loop.index0 }}"
@@ -36,7 +36,7 @@
 
 {% macro listItem(url, label) %}
     {% set classList %}
-        px-3 py-0 inline-flex items-center rounded-md no-underline
+        px-3 py-0 inline-flex items-center rounded-md
         {% if label == "LinkedIn" %}
             fa-brands fa-linkedin text-2xl text-whitish hover:text-jet-200
         {% elif label == "GitHub" %}
@@ -48,10 +48,11 @@
         {% endif %}
     {% endset %}
 
-    <li class="relative list-none font-sans {% if label in ['LinkedIn', 'GitHub'] %}ml-4{% endif %} no-underline">
+    <li class="relative list-none font-sans {% if label in ['LinkedIn', 'GitHub'] %}ml-4{% endif %}">
         <a
             href="{{ url }}"
-            class="{{ classList | trim }} no-underline"
+            id="{{id-label | slugify}}-item"
+            class="{{ classList | trim }}"
             {% if label in ['LinkedIn', 'GitHub'] %}
                 aria-label="visit-ed-marsh-on-{{ label }}"
                 title="Visit Ed Marsh on {{ label }}"

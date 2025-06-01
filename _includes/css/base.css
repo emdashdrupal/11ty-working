@@ -70,6 +70,10 @@ p> a, span > a, li>a {
     text-decoration: underline;
 }
 
+a[id$="-button"],a[id$="-item"] {
+text-decoration: none;
+}
+
 a:hover,
 footer>div>p>a:hover {
     background-color: var(--success-800);
