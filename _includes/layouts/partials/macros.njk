@@ -1,9 +1,9 @@
 {% macro dropdown(id, label, items, homepageUrl) %}
-    <li class="relative list-none font-sans dropdown">
+    <li class="relative list-none font-sans dropdown no-underline">
         <a
             href="{{ homepageUrl }}"
             id="{{ id }}-button"
-            class="px-3 inline-flex items-center hover:bg-success-800"
+            class="px-3 inline-flex items-center hover:bg-success-800 no-underline"
             aria-expanded="false"
             aria-haspopup="true"
             aria-controls="{{ id }}-menu"
@@ -18,10 +18,10 @@
             aria-labelledby="{{ id | slugify }}-button"
         >
             {% for item in items %}
-                <li role="none" class="list-none font-sans justify-center">
+                <li role="none" class="list-none font-sans justify-center no-underline">
                     <a
                         href="{{ item.url | url }}"
-                        class="block w-full px-2 py-2 text-jet hover:bg-medium-blue"
+                        class="block w-full px-2 py-2 text-jet hover:bg-medium-blue no-underline"
                         role="menuitem"
                         tabindex="-1"
                         data-index="{{ loop.index0 }}"
@@ -36,7 +36,7 @@
 
 {% macro listItem(url, label) %}
     {% set classList %}
-        px-3 py-0 inline-flex items-center rounded-md
+        px-3 py-0 inline-flex items-center rounded-md no-underline
         {% if label == "LinkedIn" %}
             fa-brands fa-linkedin text-2xl text-whitish hover:text-jet-200
         {% elif label == "GitHub" %}
@@ -48,10 +48,10 @@
         {% endif %}
     {% endset %}
 
-    <li class="relative list-none font-sans {% if label in ['LinkedIn', 'GitHub'] %}ml-4{% endif %}">
+    <li class="relative list-none font-sans {% if label in ['LinkedIn', 'GitHub'] %}ml-4{% endif %} no-underline">
         <a
             href="{{ url }}"
-            class="{{ classList | trim }}"
+            class="{{ classList | trim }} no-underline"
             {% if label in ['LinkedIn', 'GitHub'] %}
                 aria-label="visit-ed-marsh-on-{{ label }}"
                 title="Visit Ed Marsh on {{ label }}"
