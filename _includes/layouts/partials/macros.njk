@@ -3,7 +3,7 @@
         <a
             href="{{ homepageUrl }}"
             id="{{ id }}-button"
-            class="px-3 inline-flex items-center hover:bg-success-800 rounded-md"
+            class="px-3 flex hover:bg-success-800 rounded-md"
             aria-expanded="false"
             aria-haspopup="true"
             aria-controls="{{ id }}-menu"
@@ -36,13 +36,13 @@
 
 {% macro listItem(url, label) %}
     {% set classList %}
-        px-3 py-0 inline-flex items-center rounded-md
+        px-3 py-0 flex rounded-md
         {% if label == "LinkedIn" %}
             fa-brands fa-linkedin text-2xl text-whitish hover:text-jet-200
         {% elif label == "GitHub" %}
             fa-brands fa-github text-2xl text-whitish hover:text-jet-200
         {% elif label == "Contact Ed" %}
-            border-2 bg-success-600 rounded-lg text-jet-200 whitespace-nowrap
+            border-2 bg-success-600 rounded-md text-jet-200 whitespace-nowrap
         {% else %}
             hover:text-jet-200 hover:bg-success-800 hover:transition-colors
         {% endif %}

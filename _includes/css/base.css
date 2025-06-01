@@ -473,7 +473,7 @@ ul li {
     color: var(--jet);
 }
 
-/* Dropdown Menu */
+/* Dropdown menu */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -484,7 +484,6 @@ ul li {
     position: absolute;
     top: 100%;
     left: 0;
-    min-width: 220px;
     background-color: var(--whitish);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 0.5rem;
@@ -514,7 +513,7 @@ ul li {
 
 .dropdown-menu a {
     color: var(--text-jet-500);
-    padding: 0.75rem 1rem;
+    padding: 0.5rem;
     text-decoration: none;
     display: block;
     transition: all 0.2s ease;
