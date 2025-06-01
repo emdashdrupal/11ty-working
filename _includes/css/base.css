@@ -16,10 +16,10 @@
     --pagefind-ui-text-hover: var(--text-jet-200);
     --pagefind-ui-background: var(--bg-whitish);
     --pagefind-ui-border: var(--bg-jet-300);
-    --pagefind-ui-border-radius: 4px;
+    --pagefind-ui-border-radius: 2px;
     --pagefind-ui-tag: yellow;
     --pagefind-ui-border-width: 2px;
-    --pagefind-ui-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    --pagefind-ui-shadow: 0;
     /* Fonts - Alphabetical */
     --monospace: "Reddit Mono", Consolas, Courier, monospace;
     --sans-serif: "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -68,6 +68,10 @@
 /* Base Elements - Alphabetical */
 p> a, span > a, li>a {
     text-decoration: underline;
+}
+
+a[id$="-button"],a[id$="-item"] {
+text-decoration: none;
 }
 
 a:hover,
@@ -469,7 +473,7 @@ ul li {
     color: var(--jet);
 }
 
-/* Dropdown Menu */
+/* Dropdown menu */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -480,7 +484,6 @@ ul li {
     position: absolute;
     top: 100%;
     left: 0;
-    min-width: 220px;
     background-color: var(--whitish);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 0.5rem;
@@ -510,7 +513,7 @@ ul li {
 
 .dropdown-menu a {
     color: var(--text-jet-500);
-    padding: 0.75rem 1rem;
+    padding: 0.5rem;
     text-decoration: none;
     display: block;
     transition: all 0.2s ease;
@@ -597,7 +600,27 @@ footer>div>p>a {
     --tw-shadow: none;
 }
 
-* Dialog styles */
+/* Search styles */
+#search {
+    transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+}
+
+#search.hidden {
+    opacity: 0;
+    transform: scale(0.95);
+    pointer-events: none;
+}
+
+#search:not(.hidden) {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#searchToggle {
+    transition: color 0.2s ease-out;
+}
+
+/* * Dialog styles */
 dialog.image-dialog {
     padding: 0;
     background: transparent;

@@ -1,9 +1,9 @@
 {% macro dropdown(id, label, items, homepageUrl) %}
-    <li class="relative list-none font-sans dropdown">
+    <li class="relative list-none font-sans dropdown rounded-md">
         <a
             href="{{ homepageUrl }}"
             id="{{ id }}-button"
-            class="px-3 inline-flex items-center hover:bg-success-800"
+            class="px-3 flex hover:bg-success-800 rounded-md"
             aria-expanded="false"
             aria-haspopup="true"
             aria-controls="{{ id }}-menu"
@@ -12,17 +12,17 @@
             <span class="ml-1">&#9660;</span>
         </a>
         <ul
-            id="{{ id }}-menu"
+
             class="dropdown-menu z-50"
             role="menu"
             aria-labelledby="{{ id | slugify }}-button"
         >
             {% for item in items %}
-                <li role="none" class="list-none font-sans justify-center">
+                <li role="menuitem" class="list-none font-sans justify-center rounded-md" id="{{ id }}-menu">
                     <a
                         href="{{ item.url | url }}"
                         class="block w-full px-2 py-2 text-jet hover:bg-medium-blue"
-                        role="menuitem"
+                        role="none"
                         tabindex="-1"
                         data-index="{{ loop.index0 }}"
                     >
@@ -36,21 +36,22 @@
 
 {% macro listItem(url, label) %}
     {% set classList %}
-        px-3 py-0 inline-flex items-center rounded-md
+        px-3 py-0 flex rounded-md
         {% if label == "LinkedIn" %}
             fa-brands fa-linkedin text-2xl text-whitish hover:text-jet-200
         {% elif label == "GitHub" %}
             fa-brands fa-github text-2xl text-whitish hover:text-jet-200
         {% elif label == "Contact Ed" %}
-            border-2 bg-success-600 rounded-lg text-jet-200 whitespace-nowrap
+            border-2 bg-success-600 rounded-md text-jet-200 whitespace-nowrap
         {% else %}
             hover:text-jet-200 hover:bg-success-800 hover:transition-colors
         {% endif %}
     {% endset %}
 
-    <li class="relative list-none font-sans {% if label in ['LinkedIn', 'GitHub'] %}ml-4{% endif %}">
+    <li class="relative list-none font-sans rounded-md {% if label in ['LinkedIn', 'GitHub'] %}ml-4{% endif %}">
         <a
             href="{{ url }}"
+            id="{{id-label | slugify}}-item"
             class="{{ classList | trim }}"
             {% if label in ['LinkedIn', 'GitHub'] %}
                 aria-label="visit-ed-marsh-on-{{ label }}"
@@ -59,7 +60,7 @@
                 aria-label="{{ label | slugify }}"
             {% endif %}
         >
-            {% if not (label in ['LinkedIn', 'GitHub']) %}
+            {% if not(label in['LinkedIn', 'GitHub']) %}
                 {{ label }}
             {% endif %}
         </a>
@@ -73,7 +74,7 @@
                 <span class="fa-{{ item.data.FontAwesomeIcon }} text-2xl text-medium-blue"></span>
             {% endif %}
             {% if item.data.cover %}
-                <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt or item.data.title }}" class="w-full h-48 object-cover mb-2">
+                <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt or item.data.title }}" data-pagefind-meta="image[{{item.data.cover}}], image_alt[{{ item.data.coverAlt or item.data.title }}]" class="w-full h-48 object-cover mb-2">
             {% endif %}
             <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
         </h3>

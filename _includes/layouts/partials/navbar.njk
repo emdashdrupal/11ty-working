@@ -1,15 +1,15 @@
 {% from "layouts/partials/macros.njk" import dropdown,
 listItem %}
 
-<div class="grid grid-cols-2 md:grid-cols-3 gap-2 py-0 px-2">
+<div class="flex flex-row">
     <div id="tagline" class="col-span-1">
         <a href="/" class="font-sans text-jet-200 font-semibold">
-                Successful technical content through community building
-            </a>
+            Successful technical content through community building
+        </a>
     </div>
 
     <div id="menubar">
-        <ul class="flex flex-row mt-0 pt-0" aria-label="Main navigation menu" role="menubar">
+        <ul class="flex flex-row" aria-label="Main navigation menu" role="menubar">
             {{ dropdown('skillsDropdown', 'Skills', collections.skills, '/skills/') }}
             {{ dropdown('blogDropdown', 'Blog', collections.blog, '/static-site-transformation/') }}
             {{ listItem('/podcasts/', 'Podcast') }}
@@ -17,6 +17,13 @@ listItem %}
             {{ listItem('/contact/', 'Contact Ed') }}
             {{ listItem('https://linkedin.com/in/edmarsh', 'LinkedIn') }}
             {{ listItem('https://github.com/emdashdrupal/11ty-working', 'GitHub') }}
-    </ul>
-    <div id="search" class="bg-whitish max-w-lg"></div></div>
+            <li class="relative list-none">
+                <button id="searchToggle" class="hover:text-jet-200" aria-expanded="false" aria-controls="search">
+                    <i class="fa-solid fa-search text-2xl"></i>
+                    <span class="sr-only">Toggle search</span>
+                </button>
+                <div id="search" class="hidden absolute right-0 top-full mt-2 w-64 bg-whitish rounded-sm shadow-lg z-50"></div>
+            </li>
+        </ul>
+    </div>
 </div>
