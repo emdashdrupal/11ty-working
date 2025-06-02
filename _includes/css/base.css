@@ -65,12 +65,15 @@
 }
 
 /* Base Elements - Alphabetical */
-p> a, span > a, li>a {
+p>a,
+span>a,
+li>a {
     text-decoration: underline;
 }
 
-a[id$="-button"],a[id$="-item"] {
-text-decoration: none;
+a[id$="-button"],
+a[id$="-item"] {
+    text-decoration: none;
 }
 
 a:hover,
@@ -116,8 +119,7 @@ pre[class*="language-"] {
     font-family: var(--monospace)
 }
 
-h1,
-.prose :where(h1):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+h1 {
     font-family: var(--sans-serif);
     font-weight: 700;
     font-size: 1.75rem;
@@ -126,12 +128,14 @@ h1,
     padding: 0;
 }
 
-h2
-{
+h2 {
     font-family: var(--sans-serif);
     font-size: 1.3rem;
     font-weight: 700;
-}
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0;}
+
 h2>a {
     font-family: var(--sans-serif);
     font-size: 1.3rem;
@@ -196,8 +200,8 @@ ul li {
     line-height: 1.5rem;
     list-style-type: square;
     color: black;
-    list-style-position: inside;
-    margin-bottom: 0.25rem;
+    list-style-position: outside;
+    margin-top: 0.75rem;
 }
 
 /* Background Colors - Alphabetical */
@@ -625,7 +629,7 @@ article img:hover {
     transform: scale(1.02);
 }
 
-#next-previous >div {
+#next-previous>div {
     margin: 0;
     padding: 0;
     vertical-align: text-top;
