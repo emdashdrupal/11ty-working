@@ -18,10 +18,10 @@
             aria-labelledby="{{ id | slugify }}-button"
         >
             {% for item in items %}
-                <li role="menuitem" class="list-none font-sans justify-center rounded-md" id="{{ id }}-menu">
+                <li role="menuitem" class="list-none font-sans rounded-md" id="{{ id }}-menu">
                     <a
                         href="{{ item.url | url }}"
-                        class="block w-full px-2 py-2 text-jet hover:bg-medium-blue"
+                        class="block w-full text-jet hover:bg-medium-blue"
                         role="none"
                         tabindex="-1"
                         data-index="{{ loop.index0 }}"

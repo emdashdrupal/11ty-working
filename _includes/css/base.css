@@ -194,7 +194,7 @@ ul {
     margin: 0;
 }
 
-ul li {
+ul li:not(#menubar>ul>li) {
     font-family: var(--serif);
     font-optical-sizing: auto;
     line-height: 1.5rem;
@@ -205,8 +205,18 @@ ul li {
     margin-left: 2%;
 }
 
-ul li ul li {
+
+
+ul li ul li:not(#menubar>ul>li) {
     margin-left: 1.5rem;
+}
+
+#menubar>ul>li, #menubar>ul>li>ul>li {
+    font-family: var(--sans-serif);
+    font-size: 1rem;
+    line-height: 1.2rem;
+    list-style-type: none;
+    list-style-position: unset;
 }
 
 /* Background Colors - Alphabetical */
@@ -568,7 +578,7 @@ footer>div>p>a {
     font-family: var(--sans-serif);
     font-size: 1.1rem;
     line-height: 1.55rem;
-    margin: 1rem 15rem 1rem 0;
+    margin: 1rem 0;
 }
 
 .header-anchor {
