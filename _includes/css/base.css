@@ -449,6 +449,8 @@ ul li ul li {
     color: var(--medium-blue);
 }
 
+.card {border-color: var(--cadet-gray);}
+
 /* Code Block Copy Button */
 .code-wrapper {
     position: relative;
