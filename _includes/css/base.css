@@ -202,6 +202,11 @@ ul li {
     color: black;
     list-style-position: outside;
     margin-top: 0.75rem;
+    margin-left: 2%;
+}
+
+ul li ul li {
+    margin-left: 1.5rem;
 }
 
 /* Background Colors - Alphabetical */
