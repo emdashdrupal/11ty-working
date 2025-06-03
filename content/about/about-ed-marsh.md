@@ -5,7 +5,6 @@ layout: layouts/details.njk
 FontAwesomeIcon: solid fa-person-circle-question
 ---
 
-<img src="/assets/images/ed-marsh.jpg" style="float:right; width:200px" alt="Ed Marsh" />
 
 A proud New Jersey native, I'm passionate about:
 
