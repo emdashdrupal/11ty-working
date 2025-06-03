@@ -32,9 +32,9 @@
     </section>
     {% set collectionName = "skills" %}
     <section class="mx-auto" id="{{collectionName}}" border-radius: 1rem; padding:6px;">
-        <h2 class="px-3">How I can help you</h2>
-        <p class="description px-3 text-jet-100">Here are the biggest ways I can help your organization. <a href="/skills/">See all the ways I can help</a>.</p>
-        <div class="grid grid-cols-2 gap-2 px-3">
+        <h2>How I can help you</h2>
+        <p class="description text-jet-100">Here are the biggest ways I can help your organization. <a href="/skills/">See all the ways I can help</a>.</p>
+        <div class="grid grid-cols-2 gap-2">
             {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
             {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
             {% for item in sortedFeatured %}
@@ -47,10 +47,10 @@
 
     {% set collectionName = "blog" %}
     <section class="mt-6" id="{{collectionName}}" border-radius: 1rem; padding:6px;">
-        <h2 class="px-3">Blog&thinsp;&mdash;&thinsp;Creating a static site</h2>
-        <p class="description px-3 text-jet-100">I updated and simplified my old WordPress site using the <a href="https://www.11ty.dev/">Eleventy static site generator</a>. Here's how I can use the lessons learned to help you meet your content goals. <span class="col-span-full text-lg font-bold italic">
+        <h2>Blog&thinsp;&mdash;&thinsp;Creating a static site</h2>
+        <p class="description text-jet-100">I updated and simplified my old WordPress site using the <a href="https://www.11ty.dev/">Eleventy static site generator</a>. Here's how I can use the lessons learned to help you meet your content goals. <span class="col-span-full text-lg font-bold italic">
                 <a href="/static-site-transformation/">Check back frequently to read the full series!</a></span></p>
-        <div class="grid grid-cols-2 gap-2 px-3">
+        <div class="grid grid-cols-2 gap-2">
             {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
             {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
             {% for item in sortedFeatured %}
@@ -63,13 +63,13 @@
 
     {% set collectionName = "podcasts" %}
     <section class="mt-6" id="{{collectionName}}"  border-radius: 1rem; padding:6px;">
-        <h2 class="px-3">Recent podcasts</h2>
-        <p class="description px-3 text-jet-100">I'm the jack-of-all-trades for the <a href="podcasts/">Content Content podcast</a>, where I interview &ldquo;the people behind the content&rdquo; in technical communication, content strategy, content marketing, implementation, and more.
+        <h2>Recent podcasts</h2>
+        <p class="description text-jet-100">I'm the jack-of-all-trades for the <a href="podcasts/">Content Content podcast</a>, where I interview &ldquo;the people behind the content&rdquo; in technical communication, content strategy, content marketing, implementation, and more.
    Check out <span class="text-lg italic">
                 <a href="/podcasts/">all of the amazing people I spoke with.</a>
             </span>
         </p>
-        <div class="grid grid-cols-2 gap-2 px-3">
+        <div class="grid grid-cols-2 gap-2">
 
             {% set filtered_collections = collections.podcasts %}
             {% for item in filtered_collections | sort(false, false, "data.date") | reverse %}
