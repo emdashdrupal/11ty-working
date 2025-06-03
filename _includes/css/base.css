@@ -169,6 +169,7 @@ p {
     font-family: var(--serif);
     font-size: 104%;
     line-height: 1.6rem;
+    margin: 0.75rem 0
 }
 
 pre,
