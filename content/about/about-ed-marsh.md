@@ -1,5 +1,5 @@
 ---
-title: "Ed Marsh: technical communicator, content strategist, mentor, podcaster"
+title: "Ed Marsh: technical communicator, content strategist, podcaster, mentor"
 description: I've always been curious about technology. As a kid, I was the one who pushed all the buttons to see what would happen. That curiosity led to some scolding and an award-winning career in technical communication.
 layout: layouts/details.njk
 FontAwesomeIcon: solid fa-person-circle-question
@@ -40,7 +40,7 @@ Continually evolving has been a foundation of my adult life:
 - Creating my own podcast.
 - And more.
 
-## Educational impact
+## A love of learning and teaching
 
 As a former high school drumline instructor, my goal was to get young drummers to play and sound like one through teamwork and structure, which helped me bring a structured approach to content.
 
@@ -48,8 +48,9 @@ As a former high school drumline instructor, my goal was to get young drummers t
   - Former students.
   - Colleagues.
   - Children of former colleagues.
+  - Numerous people on the ADPlist platform.
 - I was a high school marching band instructor for 14 years, including six as director.
   - The band represented New Jersey in Washington DC's National July 4th Parade.
   - I co-founded a percussion ensemble called Cacophony, writing original scores.
-  - I created and maintained the band's website starting in 1996. The band performed in an Ikea video because they found our website.
-  - In 2006, [School Band and Orchestra](http://www.sbomagazine.com/) magazine recognized me as one of "50 Directors Who Make a Difference", representing New Jersey.
+  - I created and maintained the band's website starting in 1996. The band performed in an Ikea advertisement because they found our website.
+  - In 2006, [School Band and Orchestra](http://www.sbomagazine.com/) magazine recognized me as one of "50 Directors Who Make a Difference", representing the state of New Jersey.
