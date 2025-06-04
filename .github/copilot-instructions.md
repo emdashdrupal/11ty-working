@@ -10,4 +10,4 @@ Always use contractions.
 All list items should end in a period.
 Punctuation should always go outside quotation marks and parentheses.
 Front matter (metadata) key-value pairs should have a space before and after the colon.
-
+When possible, use the [Microsoft style guide for technical content](https://learn.microsoft.com/en-us/style-guide/welcome/).
