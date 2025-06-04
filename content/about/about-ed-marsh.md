@@ -8,7 +8,8 @@ FontAwesomeIcon: solid fa-person-circle-question
 
 A proud New Jersey native, I'm passionate about:
 
-- Proper punctuation (especially the semicolon and ellipsis&hellip;).
+- Proper punctuation (especially the emdash (&mdash;), semicolon and ellipsis&hellip;).
+- The Oxford comma.
 - Craft beer (former homebrewer).
 - Making restaurant-quality food at home with local ingredients.
 - IndyCar racing.

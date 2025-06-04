@@ -16,7 +16,7 @@ The best place to start is with a content audit. I *love* content audits. Let me
 - Understand what content assets you have, where they are, and the formats they're in.
 - Use [data/metrics](/skills/metrics/) to guide your strategy.
 - Define a common language.
-- Define structure through [information architecture](/skills/information-architecture).
+- Define structure through [information architecture](/skills/information-architecture/).
 - Govern and maintain your content.
 
 ## Governance
