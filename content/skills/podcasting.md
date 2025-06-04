@@ -1,9 +1,13 @@
 ---
 title : Podcasting
-description: Podcasts are an important content offering. I've been a host, producer, and guest.
+description: As a host, producer, and guest, I've learned the importance of podcasting as part of your content offerings.
 FontAwesomeIcon : solid fa-podcast
 categories: podcasting
 ---
+
+Podcasts are a terrifically friendly and informative way to get your message out in numerous formats and lengths. With over seven years of experience in podcasting and numerous presne
+
+## Examples
 
 - Created, hosted, scheduled, recorded, edited, produced, published, promoted, and reviewed metrics for the [Content Content podcast](/podcasts/), interviewing leaders in technical communication, information architecture, content strategy, and more.
 - Host of [LavaCon content strategy conference podcast](https://lavacon.org/category/podcast/).

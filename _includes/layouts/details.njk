@@ -1,20 +1,34 @@
 {% include 'layouts/partials/header.njk' %}
 
 {% if collectionName == "podcasts" %}
-     <div id="podcast-player" class="my-10">
     <figure class="hero flex justify-end float-right ml-2">
         {% include 'layouts/partials/hero-image.njk' %}
     </figure>
-{# subscribe widget        <iframe src='https://widgets.blubrry.com/32643/subscribe/' id='2140010353-subscribe-681e62658dec7' name='2140010353-subscribe-681e62658dec7' allowtransparency='true' style='background: none transparent; border: none; width: 100%; height: auto;'></iframe>
+    <div id="podcast-player" class="my-10">
+
+        {# subscribe widget        <iframe src='https://widgets.blubrry.com/32643/subscribe/' id='2140010353-subscribe-681e62658dec7' name='2140010353-subscribe-681e62658dec7' allowtransparency='true' style='background: none transparent; border: none; width: 100%; height: auto;'></iframe>
  #}
- <iframe src="{{podHostID}}/{{blubrryId}}/?cache={{blubrryCache}}#mode-Light&border-000000&progress-000000" title="{{title}}" scrolling="yes" width="75%" height="165px" frameborder="0"></iframe>
+        <iframe src="{{podHostID}}/{{blubrryId}}/?cache={{blubrryCache}}#mode-Light&border-000000&progress-000000" title="{{title}}" scrolling="yes" width="75%" height="165px" frameborder="0"></iframe>
     </div>
 
+{% endif %}
+
+{% if page.url == "/about/about-ed-marsh/" %}
+    <img src="/assets/images/ed-marsh.jpg" style="float:right; width:200px" alt="Ed Marsh"/>
 {% endif %}
 {% if content %}
     {{ content | safe }}
 {% endif %}
 
+{% if data.cover %}
+    <img src="/assets/images/{{ data.cover }}" alt="{{ data.coverAlt or data.title }}" class="w-full h-48 object-cover mb-2">
+{% endif %}
+
+{% set categories = data.categories | default([]) %}
+{% set pageTitle = title or metadata.title %}
+{% set pageDescription = description or metadata.description %}
+{% set pageUrl = page.url %}
+{% set pageImage = data.cover or metadata.image %}
 {% set pageCategory = categories %}
 
 {% set filteredPresentations = presentations | filterByCategory(pageCategory) | default([]) %}
@@ -30,9 +44,9 @@
         {% include "layouts/partials/tools.njk" %}
     </div>
 </div>
-    {% if layout == "layouts/details.njk" %}
-        {% include 'layouts/partials/next-previous.njk' %}
-    {% endif %}
+{% if layout == "layouts/details.njk" %}
+    {% include 'layouts/partials/next-previous.njk' %}
+{% endif %}
 </article>
 
 {% include 'layouts/partials/footer.njk' %}
