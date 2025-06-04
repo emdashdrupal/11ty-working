@@ -37,21 +37,22 @@ Here's how I've continually evolved throughout my adult life:
 - Managing projects.
 - Public speaking.
 - Creating my own podcast.
-- And more&hellip;
 
 ## A love of learning and teaching
 
-As a former high school drumline instructor, I got young drummers to play and sound like one through teamwork and structure &mdash; which helped me bring a structured approach to content.
+As a former high school drumline instructor, my goal was to get young drummers playing and sounding like one through teamwork and structure &mdash; which helps me bring a structured approach to content.
 
 I've mentored dozens of people:
+
 - Former students.
 - Colleagues.
 - Children of former colleagues.
 - Numerous people on the ADPlist platform.
 
 My band leadership experience includes:
+
 - Leading the high school marching band for 14 years, including six as director.
 - Taking the band to represent New Jersey in Washington DC's National July 4th Parade.
 - Co-founding a percussion ensemble called Cacophony and writing original scores.
 - Creating and maintaining the band's website starting in 1996 &mdash; which led to the band performing in an Ikea advertisement.
-- Receiving recognition from [School Band and Orchestra](http://www.sbomagazine.com/) magazine as one of "50 Directors Who Make a Difference," representing New Jersey in 2006.
+- Receiving recognition from [School Band and Orchestra](http://www.sbomagazine.com/) magazine as one of "50 Directors Who Make a Difference", representing New Jersey in 2006.
