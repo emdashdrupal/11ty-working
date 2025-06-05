@@ -1,10 +1,10 @@
 ---
-title: Choosing a static site generator
-description: I knew what I wanted (ease-of-use) and didn't want (&ldquo;ease of use&rdquo;) when building a site with static site generators (SSGs).
-tags : "content-strategy"
-featured: true
-featuredOrder: 2
-FontAwesomeIcon: "solid fa-file-waveform"
+title : Choosing a static site generator
+description : I knew what I wanted (ease-of-use) and didn't want (&ldquo;ease of use&rdquo;) when building a site with static site generators (SSGs).
+tags : content-strategy
+featured : true
+featuredOrder : 2
+FontAwesomeIcon : "solid fa-file-waveform"
 ---
 
 When rebuilding my site, it made sense to use an SSG because it's fast, self-contained, and relevant to what we do as technical communicators. The underlying architecture is also far simpler than a database-driven site like my current WordPress site. WordPress development evolved too far for my limited PHP skills to 'just tweak'.
