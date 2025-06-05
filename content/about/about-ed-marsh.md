@@ -5,10 +5,9 @@ layout: layouts/details.njk
 FontAwesomeIcon: solid fa-person-circle-question
 ---
 
+I'm a proud New Jersey native, and I'm passionate about:
 
-A proud New Jersey native, I'm passionate about:
-
-- Proper punctuation (especially the emdash (&mdash;), semicolon and ellipsis&hellip;).
+- Proper punctuation (especially the em dash &mdash;, semicolon, and ellipsis&hellip;).
 - The Oxford comma.
 - Craft beer (former homebrewer).
 - Making restaurant-quality food at home with local ingredients.
@@ -20,7 +19,7 @@ My career started in New York City's software industry at Information Builders (
 
 My web journey started in the mid-1990s with my [first website (archived link)](https://web.archive.org/web/19991008110914/http://www.geocities.com/SoHo/Cafe/8299/frameset.html).
 
-After a stint as a solo technical writer for a financial services SaaS provider, where I spent time on a trading floor and in data centers, I progressed to Goldman Sachs. Over 13 years, I worked in two divisions on Wall Street, creating both user- and developer-facing content. Working in small, medium, and enterprise environments taught me crucial lessons about:
+After a stint as a solo technical writer for a financial services SaaS provider &mdash; where I spent time on a trading floor and in data centers &mdash; I progressed to Goldman Sachs. Over 13 years, I worked in two divisions on Wall Street, creating both user- and developer-facing content. Working in small, medium, and enterprise environments taught me crucial lessons about:
 
 - Cross-functional collaboration.
 - Risk management.
@@ -28,29 +27,32 @@ After a stint as a solo technical writer for a financial services SaaS provider,
 - Content strategy at scale.
 - Managing projects and subject matter experts.
 
-Continually evolving has been a foundation of my adult life:
+Here's how I've continually evolved throughout my adult life:
 
 - Learning how to be a technical communicator.
 - Learning how to teach music to middle- and high-school students.
 - Learning how to write music.
-- Content strategy.
-- Governance.
-- Project management.
+- Developing content strategy.
+- Implementing governance.
+- Managing projects.
 - Public speaking.
 - Creating my own podcast.
-- And more.
 
 ## A love of learning and teaching
 
-As a former high school drumline instructor, my goal was to get young drummers to play and sound like one through teamwork and structure, which helped me bring a structured approach to content.
+As a former high school drumline instructor, my goal was to get young drummers playing and sounding like one through teamwork and structure &mdash; which helps me bring a structured approach to content.
 
-- I've mentored dozens of people:
-  - Former students.
-  - Colleagues.
-  - Children of former colleagues.
-  - Numerous people on the ADPlist platform.
-- I was a high school marching band instructor for 14 years, including six as director.
-  - The band represented New Jersey in Washington DC's National July 4th Parade.
-  - I co-founded a percussion ensemble called Cacophony, writing original scores.
-  - I created and maintained the band's website starting in 1996. The band performed in an Ikea advertisement because they found our website.
-  - In 2006, [School Band and Orchestra](http://www.sbomagazine.com/) magazine recognized me as one of "50 Directors Who Make a Difference", representing the state of New Jersey.
+I've mentored dozens of people:
+
+- Former students.
+- Colleagues.
+- Children of former colleagues.
+- Numerous people on the ADPlist platform.
+
+My band leadership experience includes:
+
+- Leading the high school marching band for 14 years, including six as director.
+- Taking the band to represent New Jersey in Washington DC's National July 4th Parade.
+- Co-founding a percussion ensemble called Cacophony and writing original scores.
+- Creating and maintaining the band's website starting in 1996 &mdash; which led to the band performing in an Ikea advertisement.
+- Receiving recognition from [School Band and Orchestra](http://www.sbomagazine.com/) magazine as one of "50 Directors Who Make a Difference", representing New Jersey in 2006.
