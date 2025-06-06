@@ -218,6 +218,7 @@ ul li ul li:not(#menubar>ul>li) {
     line-height: 1.2rem;
     list-style-type: none;
     list-style-position: unset;
+    margin-left: 1rem;
 }
 
 /* Background Colors - Alphabetical */
