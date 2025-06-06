@@ -17,12 +17,12 @@ listItem %}
             {{ listItem('https://linkedin.com/in/edmarsh', 'LinkedIn') }}
             {{ listItem('https://github.com/emdashdrupal/11ty-working', 'GitHub') }}
             {{ listItem('/contact/', 'Contact Ed') }}
-            <li class="relative list-none">
-                <button id="searchToggle" class="hover:text-jet-200" aria-expanded="false" aria-controls="search">
+            <li class="list-none ml-4 w-64 hover:text-jet-200">
+                <button id="searchToggle" aria-expanded="false" aria-controls="search">
                     <i class="fa-solid fa-search text-2xl"></i>
                     <span class="sr-only">Toggle search</span>
                 </button>
-                <div id="search" class="hidden absolute right-0 top-full mt-2 w-64 bg-whitish rounded-sm shadow-lg"></div>
+                <div id="search" class="hidden bg-whitish rounded-sm shadow-lg"></div>
             </li>
         </ul>
     </div>
