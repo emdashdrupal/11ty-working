@@ -5,81 +5,78 @@
 
         <div class="sm:grid-cols-2 gap-6">
             <p>
-                <span class="text-lg font-sans font-semibold">Hi, I'm Ed Marsh</span>. This site is my portfolio. I've created concise, consistent, and accessible <a href="/skills/technical-writing/">technical content</a> for over three decades by incorporating <a href="/skills/information-architecture/">information architecture</a>, <a href="/skills/content-strategy/">content strategy</a>, and <a href="/skills/community/">community building</a>.
-            </p>
+                <span class="text-lg font-sans font-semibold">Hi, I'm Ed Marsh</span>. This site is my portfolio. I've created concise, consistent, and accessible <a href="/skills/technical-writing/">technical content</a> for over three decades by incorporating <a href="/skills/information-architecture/">information architecture</a>, <a href="/skills/content-strategy/">content strategy</a>, and <a href="/skills/community/">community building</a>.</p> <p>I'm passionate about continuous learning, IndyCar, and the Oxford (serial) comma. I specialize in building or revamping documentation practices, which involves:</p>
+        <ul class="list-inside">
+            <li>Assessing your current content situation.</li>
+            <li>Defining <a href="/skills/information-architecture/">structure</a>.</li>
+            <li>Implementing <a href="skills/content-strategy/">content strategy</a>.</li>
+            <li>
+                <a href="skills/community/">Engaging the people</a> in your organization who are passionate about content.</li>
+        </ul>
 
-            <p class="mt-6">I'm passionate about concise, consistent content, and the Oxford comma. I specialize in building or revamping documentation practices, which involves:</p>
-
-            <ul class="list-inside">
-                <li>Assessing your current content situation.</li>
-                <li>Defining <a href="/skills/information-architecture/">structure</a>.</li>
-                <li>Implementing <a href="skills/content-strategy/">content strategy</a>.</li>
-                <li><a href="skills/community/">Engaging the people</a> in your organization who are passionate about content.</li>
-            </ul>
-
-            <p class="mt-6">I <a href="/static-site-transformation/">rebuilt this site from the ground up</a> to show how I can work with developers and stakeholders to help organizations with all aspects of their content.</p>
-        </div>
-                <div class="rounded-lg max-w-48">
-            <img
+        <p class="mt-6">I <a href="/static-site-transformation/">rebuilt this site from the ground up</a> to show how I can work with developers and stakeholders to help organizations with all aspects of their content.</p>
+    </div>
+    <div class="rounded-lg max-w-48">
+        <img
                 src="/assets/images/ed-marsh.jpg"
                 alt="Ed Marsh, photo courtesy Arclight Images"
                 title="Ed Marsh, photo courtesy Arclight Images"
                 data-pagefind-meta="image[{{item.data.cover}}], image_alt[{{ item.data.coverAlt or item.data.title }}]"
             >
-        </div>
-
-            </div>
     </div>
+
+</div>
+</div>
 </section>
 {% set collectionName = "skills" %}
 <section class="mx-auto" id="{{collectionName}}">
-    <h2>How I can help you</h2>
-    <p class="description text-jet-100">Here are the biggest ways I can impact your organization. <a href="/skills/">See all the ways I can help</a>.</p>
-    <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
-        {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
-        {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
-        {% for item in sortedFeatured %}
-            {% if loop.index0 < 4 %}
-                {% include 'layouts/partials/card.njk' %}
-            {% endif %}
-        {% endfor %}
-    </div>
+<h2>How I can help you</h2>
+<p class="description text-jet-100">Here are the biggest ways I can impact your organization. <a href="/skills/">See all the ways I can help</a>.</p>
+<div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+{% set featured = collections[collectionName] | filterBy("data.featured", true) %}
+{% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
+{% for item in sortedFeatured %}
+    {% if loop.index0 < 4 %}
+        {% include 'layouts/partials/card.njk' %}
+    {% endif %}
+{% endfor %}
+</div>
 </section>
 
 {% set collectionName = "blog" %}
 <section id="{{collectionName}}">
-    <h2>Blog&thinsp;&mdash;&thinsp;Creating a static site</h2>
-    <p class="description text-jet-100">I updated and simplified my old WordPress site using the <a href="https://www.11ty.dev/">Eleventy static site generator</a>. Here's how I can use the lessons learned to help you meet your content goals. <span class="col-span-full text-lg font-bold italic">
-            <a href="/static-site-transformation/">Check back frequently to read the full series!</a></span></p>
-    <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
-        {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
-        {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
-        {% for item in sortedFeatured %}
-            {% if loop.index0 < 4 %}
-                {% include 'layouts/partials/card.njk' %}
-            {% endif %}
-        {% endfor %}
-    </div>
+<h2>Blog&thinsp;&mdash;&thinsp;Creating a static site</h2>
+<p class="description text-jet-100">I updated and simplified my old WordPress site using the <a href="https://www.11ty.dev/">Eleventy static site generator</a>. Here's how I can use the lessons learned to help you meet your content goals. <span class="col-span-full text-lg font-bold italic">
+    <a href="/static-site-transformation/">Check back frequently to read the full series!</a></span></p>
+<div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+{% set featured = collections[collectionName] | filterBy("data.featured", true) %}
+{% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
+{% for item in sortedFeatured %}
+    {% if loop.index0 < 4 %}
+        {% include 'layouts/partials/card.njk' %}
+    {% endif %}
+{% endfor %}
+</div>
 </section>
 
 {% set collectionName = "podcasts" %}
 <section id="{{collectionName}}">
-    <h2>Recent podcasts</h2>
-    <p class="description text-jet-100">I'm the jack-of-all-trades for the <a href="podcasts/">Content Content podcast</a>, where I interview &ldquo;the people behind the content&rdquo; in technical communication, content strategy, content marketing, implementation, and more.
+<h2>Recent podcasts</h2>
+<p class="description text-jet-100">I'm the jack-of-all-trades for the <a href="podcasts/">Content Content podcast</a>, where I interview &ldquo;the people behind the content&rdquo; in technical communication, content strategy, content marketing, implementation, and more.
 Check out <span class="text-lg italic">
-            <a href="/podcasts/">all of the amazing people I spoke with.</a>
-        </span>
-    </p>
-    <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+    <a href="/podcasts/">all of the amazing people I spoke with.</a>
+</span>
+</p>
+<div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
 
-        {% set filtered_collections = collections.podcasts %}
-        {% for item in filtered_collections | sort(false, false, "data.date") | reverse %}
-            {% if loop.index0 <= 3 %}
-                {% include 'layouts/partials/card.njk' %}
-            {% endif %}
-        {% endfor %}
+{% set filtered_collections = collections.podcasts %}
+{% for item in filtered_collections | sort(false, false, "data.date") | reverse %}
+    {% if loop.index0 <= 3 %}
+        {% include 'layouts/partials/card.njk' %}
+    {% endif %}
+{% endfor %}
 
-    </div>
+</div>
 </section>
 
 {% include 'layouts/partials/footer.njk' %}
