@@ -1,7 +1,7 @@
 {% from "layouts/partials/macros.njk" import dropdown,
 listItem %}
 
-<div class="flex flex-row">
+<div class="flex flex-col flex-wrap max-w-4xl">
     <div id="tagline" class="col-span-1">
         <a href="/" class="font-sans text-jet-200 font-semibold">
             Successful technical content through community building
@@ -9,7 +9,7 @@ listItem %}
     </div>
 
     <div id="menubar">
-        <ul class="flex flex-row" aria-label="Main navigation menu" role="menubar">
+        <ul class="flex flex-row flex-wrap" aria-label="Main navigation menu" role="menubar">
             {{ dropdown('skillsDropdown', 'Skills', collections.skills, '/skills/') }}
             {{ dropdown('blogDropdown', 'Blog', collections.blog, '/static-site-transformation/') }}
             {{ listItem('/podcasts/', 'Podcast') }}
