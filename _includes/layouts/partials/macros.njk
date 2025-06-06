@@ -18,10 +18,10 @@
             aria-labelledby="{{ id | slugify }}-button"
         >
             {% for item in items %}
-                <li role="menuitem" class="list-none font-sans rounded-sm" id="{{ id }}-menu">
+                <li role="menuitem" class="block w-full text-jet hover:bg-medium-blue" id="{{ id }}-menu">
                     <a
                         href="{{ item.url | url }}"
-                        class="block w-full text-jet hover:bg-medium-blue"
+
                         role="none"
                         tabindex="-1"
                         data-index="{{ loop.index0 }}"
@@ -36,7 +36,7 @@
 
 {% macro listItem(url, label) %}
     {% set classList %}
-        px-2 py-0 flex rounded-sm hover:transition-colors hover:bg-success-900
+        mr-1 py-0 rounded-sm hover:transition-colors hover:bg-success-900
         {% if label == "LinkedIn" %}
             fa-brands fa-linkedin text-2xl
         {% elif label == "GitHub" %}
@@ -46,7 +46,7 @@
         {% endif %}
     {% endset %}
 
-    <li class="list-none font-sans rounded-sm ">
+    <li class="list-none font-sans">
         <a
             href="{{ url }}"
             id="{{label | slugify}}-item"
