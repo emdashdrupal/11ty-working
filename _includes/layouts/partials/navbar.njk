@@ -1,5 +1,4 @@
-{% from "layouts/partials/macros.njk" import dropdown,
-listItem %}
+{% from "layouts/partials/macros.njk" import dropdown, listItem %}
 
 <div class="grid grid-cols-4 md:grid-cols-12 gap-4 max-w-4xl px-2">
     <div id="tagline" class="col-span-3 md:col-span-4">
@@ -17,8 +16,14 @@ listItem %}
         <ul class="flex flex-col md:grid md:grid-flow-col md:auto-cols-auto gap-2 items-start md:items-center md:justify-end"
             aria-label="Main navigation menu"
             role="menubar">
-            {{ dropdown('skillsDropdown', 'Skills', collections.skills, '/skills/') }}
-            {{ dropdown('blogDropdown', 'Blog', collections.blog, '/static-site-transformation/') }}
+            <div class="md:hidden list-none font-sans">
+                {{ listItem('/skills/', 'Skills') }}
+                {{ listItem('/static-site-transformation/', 'Blog') }}
+            </div>
+            <div class="hidden md:block">
+                {{ dropdown('skillsDropdown', 'Skills', collections.skills, '/skills/') }}
+                {{ dropdown('blogDropdown', 'Blog', collections.blog, '/static-site-transformation/') }}
+            </div>
             {{ listItem('/podcasts/', 'Podcast') }}
             {{ listItem('/about/about-ed-marsh/', 'About') }}
             {{ listItem('https://linkedin.com/in/edmarsh', 'LinkedIn') }}
