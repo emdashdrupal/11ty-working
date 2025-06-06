@@ -203,13 +203,13 @@ ul li:not(#menubar>ul>li) {
     color: black;
     list-style-position: outside;
     margin-top: 0.75rem;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 
 
 
 ul li ul li:not(#menubar>ul>li) {
-    margin-left: 1.5rem;
+    margin-left: 5%;
 }
 
 #menubar>ul>li, #menubar>ul>li>ul>li {
