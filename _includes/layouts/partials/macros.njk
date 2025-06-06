@@ -1,9 +1,9 @@
 {% macro dropdown(id, label, items, homepageUrl) %}
-    <li class="relative list-none font-sans dropdown rounded-sm">
+    <li class="relative list-none font-sans dropdown rounded-md">
         <a
             href="{{ homepageUrl }}"
             id="{{ id }}-button"
-            class="px-3 flex hover:bg-success-800 rounded-sm"
+            class="px-3 flex hover:bg-success-800 rounded-md"
             aria-expanded="false"
             aria-haspopup="true"
             aria-controls="{{ id }}-menu"
@@ -18,7 +18,7 @@
             aria-labelledby="{{ id | slugify }}-button"
         >
             {% for item in items %}
-                <li role="menuitem" class="list-none font-sans rounded-sm" id="{{ id }}-menu">
+                <li role="menuitem" class="list-none font-sans rounded-md" id="{{ id }}-menu">
                     <a
                         href="{{ item.url | url }}"
                         class="block w-full text-jet hover:bg-medium-blue"
@@ -38,9 +38,9 @@
     {% set classList %}
         px-3 py-0 flex rounded-md
         {% if label == "LinkedIn" %}
-            fa-brands fa-linkedin text-2xl text-whitish hover:text-jet-200
+            fa-brands fa-linkedin text-2xl
         {% elif label == "GitHub" %}
-            fa-brands fa-github text-2xl text-whitish hover:text-jet-200
+            fa-brands fa-github text-2xl
         {% elif label == "Contact Ed" %}
             bg-success-600 rounded-md text-jet-200 border-2
         {% else %}
