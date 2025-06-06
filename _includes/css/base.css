@@ -206,14 +206,7 @@ ul li:not(#menubar>ul>li) {
     margin-left: 3%;
 }
 
-#menubar>ul>li, #menubar>ul>div>li>a {
-    font-family: var(--sans-serif);
-    font-size: 1.2rem;
-    line-height: 1.4rem;
-    list-style-type: none !important;
-    list-style-position: unset;
-    margin-left: 0;
-}
+
 
 ul li ul li:not(#menubar>ul>li) {
     margin-left: 5%;
