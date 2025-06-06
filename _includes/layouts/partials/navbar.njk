@@ -1,8 +1,8 @@
 {% from "layouts/partials/macros.njk" import dropdown,
 listItem %}
 
-<div class="flex flex-col flex-wrap max-w-4xl">
-    <div id="tagline" class="col-span-1">
+<div class="flex flex-row max-w-4xl">
+    <div id="tagline" class="flex flex-row flex-wrap font-semibold">
         <a href="/" class="font-sans text-jet-200 font-semibold">
             Successful technical content through community building
         </a>
@@ -17,7 +17,7 @@ listItem %}
             {{ listItem('https://linkedin.com/in/edmarsh', 'LinkedIn') }}
             {{ listItem('https://github.com/emdashdrupal/11ty-working', 'GitHub') }}
             {{ listItem('/contact/', 'Contact Ed') }}
-            <li class="list-none ml-4 w-64 hover:text-jet-200">
+            <li class="list-none w-64 hover:text-jet-200">
                 <button id="searchToggle" aria-expanded="false" aria-controls="search">
                     <i class="fa-solid fa-search text-2xl"></i>
                     <span class="sr-only">Toggle search</span>

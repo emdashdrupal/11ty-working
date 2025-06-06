@@ -1,9 +1,9 @@
 {% macro dropdown(id, label, items, homepageUrl) %}
-    <li class="relative list-none font-sans dropdown rounded-md">
+    <li class="relative list-none font-sans dropdown rounded-sm">
         <a
             href="{{ homepageUrl }}"
             id="{{ id }}-button"
-            class="px-3 flex hover:bg-success-800 rounded-md"
+            class="px-3 flex hover:bg-success-800 rounded-sm"
             aria-expanded="false"
             aria-haspopup="true"
             aria-controls="{{ id }}-menu"
@@ -18,7 +18,7 @@
             aria-labelledby="{{ id | slugify }}-button"
         >
             {% for item in items %}
-                <li role="menuitem" class="list-none font-sans rounded-md" id="{{ id }}-menu">
+                <li role="menuitem" class="list-none font-sans rounded-sm" id="{{ id }}-menu">
                     <a
                         href="{{ item.url | url }}"
                         class="block w-full text-jet hover:bg-medium-blue"
@@ -36,19 +36,17 @@
 
 {% macro listItem(url, label) %}
     {% set classList %}
-        px-3 py-0 flex rounded-md hover:transition-colors
+        px-2 py-0 flex rounded-sm hover:transition-colors hover:bg-success-900
         {% if label == "LinkedIn" %}
             fa-brands fa-linkedin text-2xl
         {% elif label == "GitHub" %}
             fa-brands fa-github text-2xl
         {% elif label == "Contact Ed" %}
-            bg-success-600 rounded-md text-jet-200 border-2
-        {% else %}
-            hover:text-jet-200 hover:bg-success-800
+            bg-success-600 rounded-sm text-jet-200 border-2
         {% endif %}
     {% endset %}
 
-    <li class="list-none font-sans rounded-md ">
+    <li class="list-none font-sans rounded-sm ">
         <a
             href="{{ url }}"
             id="{{label | slugify}}-item"
@@ -115,7 +113,7 @@
 {% endmacro %}
 
 {% macro card(url, title, description, buttonText, heroImage) %}
-    <div class="card flex flex-col rounded-md h-full p-2 border-2"
+    <div class="card flex flex-col rounded-sm h-full p-2 border-2"
     aria-labelledby="card-title-{{ title | slugify }}"
 >
         <div class="flex flex-col h-full">
