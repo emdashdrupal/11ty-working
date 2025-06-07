@@ -134,7 +134,8 @@ h2 {
     font-weight: 700;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
-    padding: 0;}
+    padding: 0;
+}
 
 h2>a {
     font-family: var(--sans-serif);
@@ -193,6 +194,8 @@ th {
 
 ul {
     margin: 0;
+    list-style-position: unset;
+        list-style-type: none;
 }
 
 ul li:not(#menubar>ul>li) {
@@ -207,7 +210,10 @@ ul li:not(#menubar>ul>li) {
 
 
 
-#menubar>ul>li, #menubar>ul>li>ul>li {
+#menubar,
+#menubar>ul>li,
+#menubar>ul>li>ul>li,
+div>ul>div>li>a {
     font-family: var(--sans-serif);
     font-size: 1rem;
     line-height: 1.2rem;
@@ -455,7 +461,9 @@ ul li:not(#menubar>ul>li) {
     color: var(--medium-blue);
 }
 
-.card {border-color: var(--cadet-gray);}
+.card {
+    border-color: var(--cadet-gray);
+}
 
 /* Code Block Copy Button */
 .code-wrapper {

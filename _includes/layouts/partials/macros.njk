@@ -1,5 +1,5 @@
 {% macro dropdown(id, label, items, homepageUrl) %}
-    <li class="relative list-none font-sans dropdown rounded-sm">
+    <li class="dropdown rounded-sm">
         <a
             href="{{ homepageUrl }}"
             id="{{ id }}-button"
@@ -36,7 +36,7 @@
 
 {% macro listItem(url, label) %}
     {% set classList %}
-        mr-1 py-0 rounded-sm hover:transition-colors hover:bg-success-900
+        mr-1 py-0 rounded-sm hover:transition-colors hover:bg-success-900 font-sans
         {% if label == "LinkedIn" %}
             fa-brands fa-linkedin text-2xl
         {% elif label == "GitHub" %}
@@ -46,7 +46,7 @@
         {% endif %}
     {% endset %}
 
-    <li class="list-none font-sans">
+    <li>
         <a
             href="{{ url }}"
             id="{{label | slugify}}-item"
