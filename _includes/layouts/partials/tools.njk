@@ -1,12 +1,15 @@
 {% set pageCategory = categories %}
 {% set filteredTools = tools | filterToolsByCategory(pageCategory) %}
 
-{% if filteredTools.length > 0 %}
+{% if filteredTools and filteredTools.length > 0 %}
 <h2>Tools used</h2>
-<ul class="tools-list text-md">
+<ul class="tools-list text-md list-none space-y-2">
   {% for tool in filteredTools | sort(false, false, "title") %}
-    <li>
-      {{ tool.title }} <span class="text-jet-600 text-sm"> by {{ tool.publisher }}</span>
+    <li class="font-sans">
+      {{ tool.title }} 
+      {% if tool.publisher %}
+        <span class="text-jet-600 text-sm">by {{ tool.publisher }}</span>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>

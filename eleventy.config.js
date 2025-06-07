@@ -81,24 +81,45 @@ module.exports = function (eleventyConfig) {
     return md.render(String(content));
   });
 
-  eleventyConfig.addFilter("filterByCategory", (presentations, category) => {
-    if (!category || !presentations) return [];
-    return presentations.filter((presentation) => {
-      const categories = Array.isArray(presentation.category)
-        ? presentation.category
-        : [presentation.category];
-      return categories.includes(category);
+  eleventyConfig.addFilter("filterByCategory", (items, category) => {
+    if (!items || !category) return [];
+    
+    // Handle both single categories and arrays
+    const categories = Array.isArray(category) ? category : [category];
+    
+    return items.filter(item => {
+      if (!item.categories) return false;
+      
+      // Ensure item categories is always an array
+      const itemCategories = Array.isArray(item.categories) 
+        ? item.categories 
+        : [item.categories];
+      
+      // Check if any of the categories match
+      return categories.some(cat => 
+        itemCategories.includes(cat)
+      );
     });
   });
 
   eleventyConfig.addFilter("filterToolsByCategory", (tools, category) => {
-    if (!category || !tools) return [];
-    return tools.filter((tool) => {
-      if (!tool.category) return false;
-      const categories = Array.isArray(tool.category)
-        ? tool.category
-        : [tool.category];
-      return categories.includes(category);
+    if (!tools || !category) return [];
+    
+    // Handle both single categories and arrays
+    const categories = Array.isArray(category) ? category : [category];
+    
+    return tools.filter(tool => {
+      if (!tool.categories) return false;
+      
+      // Ensure tool categories is always an array
+      const toolCategories = Array.isArray(tool.categories) 
+        ? tool.categories 
+        : [tool.categories];
+      
+      // Check if any of the categories match
+      return categories.some(cat => 
+        toolCategories.includes(cat)
+      );
     });
   });
 

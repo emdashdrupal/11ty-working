@@ -1,17 +1,19 @@
-{% set presentationsList = isPublicSpeakingPage and presentations or filteredPresentations %}
-{% for presentation in presentationsList | sort(false, false, 'year') | reverse %}
-    <ul class="presentation">
-        <li>
-            {% if presentation.link %}
-                <a href="{{ presentation.link }}">
-                    <i class="text-md">{{ presentation.title }}</i>
-                </a>
-                {{ presentation.type }}
-            {% else %}
-                <i class="text-md">{{ presentation.title }}</i>
-                {{ presentation.type }}
-            {% endif %}
-            <p class="text-sm mt-0">{{ presentation.venue }}, <span class="text-sm text-jet-600">{{ presentation.year }}</span></p>
-        </li>
-    </ul>
-{% endfor %}
+{% if presentations %}
+    {% set presentationsList = isPublicSpeakingPage and presentations or filteredPresentations %}
+    {% for presentation in presentationsList | sort(false, false, 'year') | reverse %}
+        <div class="presentation mb-4">
+            <h3 class="text-md font-serif mb-1">
+                {% if presentation.link %}
+                    <a href="{{ presentation.link }}" class="hover:text-success-600">
+                        {{ presentation.title }}
+                    </a>
+                {% else %}
+                    {{ presentation.title }}
+                {% endif %}
+            </h3>
+            <p class="text-sm mt-0 text-jet-600">
+                {{ presentation.type }} at {{ presentation.venue }}, {{ presentation.year }}
+            </p>
+        </div>
+    {% endfor %}
+{% endif %}
