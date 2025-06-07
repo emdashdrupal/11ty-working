@@ -459,9 +459,6 @@ ul li:not(#menubar>ul>li):not(div>ul>div>li):not(.dropdown) {
     color: var(--medium-blue);
 }
 
-.card {
-    border-color: var(--cadet-gray);
-}
 
 /* Code Block Copy Button */
 .code-wrapper {
@@ -470,7 +467,6 @@ ul li:not(#menubar>ul>li):not(div>ul>div>li):not(.dropdown) {
 
 .copy-button {
     background-color: var(--medium-blue);
-    border: none;
     border-radius: 0.25rem;
     color: var(--whitish);
     cursor: pointer;
