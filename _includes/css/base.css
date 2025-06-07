@@ -199,7 +199,7 @@ ul {
         list-style-type: none;
 }
 
-ul li:not(#menubar>ul>li):not(div>ul>div>li) {
+ul li:not(#menubar>ul>li):not(div>ul>div>li):not(.dropdown) {
     font-family: var(--serif);
     font-optical-sizing: auto;
     line-height: 1.5rem;
@@ -209,12 +209,9 @@ ul li:not(#menubar>ul>li):not(div>ul>div>li) {
     margin-left: 3%;
 }
 
-
-
 #menubar,
 #menubar>ul>li,
-#menubar>ul>li>ul>li,
-div>ul>div>li>a {
+#menubar>ul>li>ul>li {
     font-family: var(--sans-serif);
     font-size: 1rem;
     line-height: 1.2rem;

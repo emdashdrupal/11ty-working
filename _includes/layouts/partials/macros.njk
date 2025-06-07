@@ -21,7 +21,7 @@
                 <li role="menuitem" class="block w-full text-jet hover:bg-medium-blue" id="{{ id }}-menu">
                     <a
                         href="{{ item.url | url }}"
-
+class="font-sans"
                         role="none"
                         tabindex="-1"
                         data-index="{{ loop.index0 }}"
@@ -36,7 +36,7 @@
 
 {% macro listItem(url, label) %}
     {% set classList %}
-        mr-1 py-0 rounded-sm hover:transition-colors hover:bg-success-900 font-sans
+    hover:transition-colors hover:bg-success-200 rounded-sm font-sans
         {% if label == "LinkedIn" %}
             fa-brands fa-linkedin text-2xl
         {% elif label == "GitHub" %}
@@ -46,7 +46,7 @@
         {% endif %}
     {% endset %}
 
-    <li class="list-none">
+    <li class="rounded-sm font-sans">
         <a
             href="{{ url }}"
             id="{{label | slugify}}-item"
