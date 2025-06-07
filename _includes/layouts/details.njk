@@ -30,27 +30,20 @@
 
 <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-4">
     {% if filteredPresentations and filteredPresentations.length > 0 %}
-        <div class="col-span-2 gap-4">
+        <div class="col-span-2">
             <h2>Related presentations</h2>
             {% include "layouts/partials/presos.njk" %}
         </div>
     {% endif %}
+    {% if filteredTools and filteredTools.length > 0 %}
     <div class="col-span-2">
         {% include "layouts/partials/tools.njk" %}
     </div>
+    {%  endif %}
 </div>
 {% if layout == "layouts/details.njk" %}
     {% include 'layouts/partials/next-previous.njk' %}
 {% endif %}
 </article>
-
-{# Debug output #}
-<pre class="debug">
-Categories: {{ pageCategory | dump }}
-Presentations: {{ presentations | dump }}
-Tools: {{ tools | dump }}
-</pre>
-
-{# Related content section #}
 
 {% include 'layouts/partials/footer.njk' %}

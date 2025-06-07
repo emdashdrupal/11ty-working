@@ -2,7 +2,7 @@
     {% set presentationsList = isPublicSpeakingPage and presentations or filteredPresentations %}
     {% for presentation in presentationsList | sort(false, false, 'year') | reverse %}
         <div class="presentation mb-4">
-            <h3 class="text-md font-serif mb-1">
+            <h3>
                 {% if presentation.link %}
                     <a href="{{ presentation.link }}" class="hover:text-success-600">
                         {{ presentation.title }}
@@ -12,7 +12,7 @@
                 {% endif %}
             </h3>
             <p class="text-sm mt-0 text-jet-600">
-                {{ presentation.type }} at {{ presentation.venue }}, {{ presentation.year }}
+                {{ presentation.type | capitalize}} at {{ presentation.venue }}, {{ presentation.year }}
             </p>
         </div>
     {% endfor %}

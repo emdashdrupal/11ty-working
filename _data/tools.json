@@ -10,12 +10,12 @@
     "title": "Photoshop"
   },
   {
-    "category": ["technical-writing", "page-layout", "structured-authoring"],
+    "categories": ["technical-writing", "page-layout", "structured-authoring"],
     "publisher": "Adobe",
     "title": "FrameMaker"
   },
   {
-    "category": ["technical-writing", "knowledge-management"],
+    "categories": ["technical-writing", "knowledge-management"],
     "publisher": "Adobe",
     "title": "Captivate"
   },
