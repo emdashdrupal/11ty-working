@@ -4,16 +4,16 @@
     {% set hoverclass="text-jet-200 hover:bg-success-700 underline text-success-700" %}
 
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:text-center md:text-center">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:text-left md:text-left">
         <p class="text-left m-0 font-sans">
             Ed Marsh creates successful technical content by building community.
         </p>
 
-        <p class="text-center m-0 font-sans">
+        <p class="md:text-center sm:text-left m-0 font-sans">
             <a href="/contact/" class="{{ hoverclass }}">Contact Ed</a> to discuss your content needs.
         </p>
 
-        <div class="text-right m-0">
+        <div class="md:text-right sm:text-left m-0">
             &copy; 2008&ndash;{% year %}. Created with
                 <a href="https://www.11ty.dev" class="{{ hoverclass }}">Eleventy</a>,
                 <a href="https://tailwindcss.com" class="{{ hoverclass }}">Tailwind CSS</a>,
