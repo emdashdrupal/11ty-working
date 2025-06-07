@@ -69,6 +69,7 @@ p>a,
 span>a,
 li>a {
     text-decoration: underline;
+    list-style-type: none;
 }
 
 a[id$="-button"],
@@ -198,7 +199,7 @@ ul {
         list-style-type: none;
 }
 
-ul li:not(#menubar>ul>li) {
+ul li:not(#menubar>ul>li):not(div>ul>div>li) {
     font-family: var(--serif);
     font-optical-sizing: auto;
     line-height: 1.5rem;
