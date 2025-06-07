@@ -31,7 +31,6 @@
 <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-4">
     {% if filteredPresentations and filteredPresentations.length > 0 %}
         <div class="col-span-2">
-            <h2>Related presentations</h2>
             {% include "layouts/partials/presos.njk" %}
         </div>
     {% endif %}
@@ -42,9 +41,6 @@
         </div>
     {% endif %}
 </div>
-{% if layout == "layouts/details.njk" %}
-    {% include 'layouts/partials/next-previous.njk' %}
-{% endif %}
 </article>
 
 {% include 'layouts/partials/footer.njk' %}
