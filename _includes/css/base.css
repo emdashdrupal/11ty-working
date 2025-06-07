@@ -212,6 +212,14 @@ ul li ul li:not(#menubar>ul>li) {
     margin-left: 5%;
 }
 
+#menubar>ul>li, #menubar>ul>li>ul>li {
+    font-family: var(--sans-serif);
+    font-size: 1rem;
+    line-height: 1.2rem;
+    list-style-type: none;
+    list-style-position: unset;
+}
+
 /* Background Colors - Alphabetical */
 .bg-blue {
     background-color: var(--blue);
