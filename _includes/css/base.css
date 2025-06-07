@@ -201,16 +201,11 @@ ul li:not(#menubar>ul>li) {
     line-height: 1.5rem;
     list-style-type: square;
     color: black;
-    list-style-position: outside;
     margin-top: 0.75rem;
     margin-left: 3%;
 }
 
 
-
-ul li ul li:not(#menubar>ul>li) {
-    margin-left: 5%;
-}
 
 #menubar>ul>li, #menubar>ul>li>ul>li {
     font-family: var(--sans-serif);
