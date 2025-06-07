@@ -1,5 +1,5 @@
 ---
-title : "Introducing the Content Content podcast: Offices without tarantulas with Sharon Burton"
+title : "Offices without tarantulas with Sharon Burton"
 date: 2015-02-06
 categories:
   - "podcasts"

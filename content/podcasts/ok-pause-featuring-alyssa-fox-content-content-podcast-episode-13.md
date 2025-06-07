@@ -1,5 +1,5 @@
 ---
-title: It's OK to pause featuring Alyssa Fox
+title: It's OK to pause with Alyssa Fox
 date: 2016-11-15
 categories:
   - "content strategy"

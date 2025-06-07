@@ -1,5 +1,5 @@
 ---
-title: Single source of the truth featuring Bernard Aschwanden
+title: Single source of the truth with Bernard Aschwanden
 date: 2016-07-26
 categories:
   - "podcast"

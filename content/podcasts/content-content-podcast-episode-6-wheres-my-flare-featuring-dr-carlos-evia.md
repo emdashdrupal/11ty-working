@@ -1,5 +1,5 @@
 ---
-title: Where's my Flare featuring Dr. Carlos Evia
+title: Where's my Flare with Dr. Carlos Evia
 date: 2015-10-27
 categories:
   - "podcast"
