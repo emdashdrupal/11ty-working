@@ -83,20 +83,20 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("filterByCategory", (items, category) => {
     if (!items || !category) return [];
-    
+
     // Handle both single categories and arrays
     const categories = Array.isArray(category) ? category : [category];
-    
+
     return items.filter(item => {
       if (!item.categories) return false;
-      
+
       // Ensure item categories is always an array
-      const itemCategories = Array.isArray(item.categories) 
-        ? item.categories 
+      const itemCategories = Array.isArray(item.categories)
+        ? item.categories
         : [item.categories];
-      
+
       // Check if any of the categories match
-      return categories.some(cat => 
+      return categories.some(cat =>
         itemCategories.includes(cat)
       );
     });
@@ -104,22 +104,18 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("filterToolsByCategory", (tools, category) => {
     if (!tools || !category) return [];
-    
-    // Handle both single categories and arrays
+
     const categories = Array.isArray(category) ? category : [category];
-    
+
     return tools.filter(tool => {
-      if (!tool.categories) return false;
-      
-      // Ensure tool categories is always an array
-      const toolCategories = Array.isArray(tool.categories) 
-        ? tool.categories 
-        : [tool.categories];
-      
-      // Check if any of the categories match
-      return categories.some(cat => 
-        toolCategories.includes(cat)
-      );
+        // Handle both category and categories properties
+        const toolCategories = tool.categories || tool.category || [];
+        const normalizedToolCats = Array.isArray(toolCategories) ?
+            toolCategories : [toolCategories];
+
+        return categories.some(cat =>
+            normalizedToolCats.includes(cat)
+        );
     });
   });
 
