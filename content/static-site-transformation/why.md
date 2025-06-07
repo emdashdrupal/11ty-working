@@ -1,5 +1,5 @@
 ---
-title : The "why" behind my SSG conversion project
+title : The why behind my SSG conversion project
 description: I put myself in *every* role of building out a website to better understand how content is programmatically consumed and displayed.
 FontAwesomeIcon: solid fa-person-circle-question
 featured: true
