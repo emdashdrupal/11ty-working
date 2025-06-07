@@ -24,41 +24,33 @@
     <img src="/assets/images/{{ data.cover }}" alt="{{ data.coverAlt or data.title }}" class="w-full h-48 object-cover mb-2">
 {% endif %}
 
-{# Set page variables #}
-{% set categories = data.categories | default([]) %}
-{% set pageTitle = title or metadata.title %}
-{% set pageDescription = description or metadata.description %}
-{% set pageUrl = page.url %}
-{% set pageImage = data.cover or metadata.image %}
 {% set pageCategory = categories %}
 
-{# Related content section #}
-<div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-4 mt-8">
-    {# Presentations section #}
-    {% if presentations %}
-        {% set filteredPresentations = presentations | filterByCategory(pageCategory) %}
-        {% if filteredPresentations and filteredPresentations.length > 0 %}
-            <div class="col-span-2 gap-4">
-                <h2>Related presentations</h2>
-                {% include "layouts/partials/presos.njk" %}
-            </div>
-        {% endif %}
-    {% endif %}
+{% set filteredPresentations = presentations | filterByCategory(pageCategory) | default([]) %}
 
-    {# Tools section #}
-    {% if tools %}
-        {% set filteredTools = tools | filterToolsByCategory(pageCategory) %}
-        {% if filteredTools and filteredTools.length > 0 %}
-            <div class="col-span-2">
-                <h2>Tools used</h2>
-                {% include "layouts/partials/tools.njk" %}
-            </div>
-        {% endif %}
+<div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-4">
+    {% if filteredPresentations and filteredPresentations.length > 0 %}
+        <div class="col-span-2 gap-4">
+            <h2>Related presentations</h2>
+            {% include "layouts/partials/presos.njk" %}
+        </div>
     {% endif %}
+    <div class="col-span-2">
+        {% include "layouts/partials/tools.njk" %}
+    </div>
 </div>
 {% if layout == "layouts/details.njk" %}
     {% include 'layouts/partials/next-previous.njk' %}
 {% endif %}
 </article>
+
+{# Debug output #}
+<pre class="debug">
+Categories: {{ pageCategory | dump }}
+Presentations: {{ presentations | dump }}
+Tools: {{ tools | dump }}
+</pre>
+
+{# Related content section #}
 
 {% include 'layouts/partials/footer.njk' %}
