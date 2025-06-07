@@ -24,23 +24,23 @@
     <img src="/assets/images/{{ data.cover }}" alt="{{ data.coverAlt or data.title }}" class="w-full h-48 object-cover mb-2">
 {% endif %}
 
+
+</article>
 {% set pageCategory = categories %}
 {% set filteredPresentations = presentations | filterByCategory(pageCategory) | default([]) %}
 {% set filteredTools = tools | filterToolsByCategory(pageCategory) | default([]) %}
 
-<div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-4">
+<div class="grid lg:grid-cols-8 md:grid-cols-3 sm:grid-cols-1 gap-4">
     {% if filteredPresentations and filteredPresentations.length > 0 %}
-        <div class="col-span-2">
+        <div class="col-span-5">
             {% include "layouts/partials/presos.njk" %}
         </div>
     {% endif %}
 
     {% if filteredTools and filteredTools.length > 0 %}
-        <div class="col-span-2">
+        <div class="col-span-3">
             {% include "layouts/partials/tools.njk" %}
         </div>
     {% endif %}
 </div>
-</article>
-
 {% include 'layouts/partials/footer.njk' %}
