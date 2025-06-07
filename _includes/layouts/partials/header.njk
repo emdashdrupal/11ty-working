@@ -69,7 +69,7 @@
             <main class="container mx-auto py-1 px-4 md:px-6 max-w-4xl">
 
                 <article>
-                    <h1>{{title or metadata.title}}</h1>
+                    <h1>{{title or metadata.title | safe }}</h1>
 
                     {% if description %}
                         <div data-pagefind-weight="6" class="description font-sans my-5">{{ description |
