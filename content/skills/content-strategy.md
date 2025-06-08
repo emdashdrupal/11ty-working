@@ -11,10 +11,12 @@ Let's be honest. Most organizations' content is scattered across Confluence page
 
 Content strategy means the right content in the right format at the right time in the right place. Do you really want to "throw AI" at it without understanding the complexity and the true costs?
 
+![Content lifecycle](/assets/images/content-lifecycle.png)
+
 The best place to start is with a content audit. I *love* content audits. Let me help you and show you how to:
 
 - Understand what content assets you have, where they are, and the formats they're in.
-- Use [data/metrics](/skills/metrics/) to guide your strategy.
+- Use [metrics](/skills/metrics/) to guide your strategy.
 - Define a common language.
 - Define structure through [information architecture](/skills/information-architecture/).
 - Govern and maintain your content.
@@ -23,7 +25,11 @@ The best place to start is with a content audit. I *love* content audits. Let me
 
 Content without governance is an organizational nightmare: unsustainable, and impossible to maintain.
 
-All the content you generate needs a goal, organization, style, and governance. Without someone setting standards and monitoring your content, your knowledge base, wiki, help portal, or Confluence instance becomes a Wild West of content. With everyone in your org contributing and duplicating content, it makes it impossible for your employees and users to find the single source of truth.
+The content your organization generates needs a goal, organization, style, and governance. Without someone setting standards and monitoring, your content:
+
+- Your becomes the Wild West.
+- Content duplication makes it impossible for your employees, clients, and users to find the single source of truth.
+- Productivity declines because your employees are searching multiple places.
 
 Here's a free, [two-page checklist](/assets/pdfs/website-review-checklist.pdf) to ensure your site's content is best portraying your company's best side. [Contact me](/contact/) if you want to learn more!
 

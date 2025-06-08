@@ -9,6 +9,20 @@ categories: community-building
 
 I have a history of finding those people and encouraging them to be champions for high-quality content that's an asset to your firm.
 
+## Stakeholder management
+
+I have a long track record successfully interacting with:
+
+- Product managers
+- Business analysts
+- Senior management
+- Cross-divisional leadership
+- The Executive Office
+- Internal Audit
+- Support teams
+- End users
+- Developers
+
 ## How I've built community
 
 - Held quarterly "content champions" meetings with interested stakeholders to get their feedback on how our content and site are performing, and workshop upcoming content initiatives.

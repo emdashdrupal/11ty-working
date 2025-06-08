@@ -4,8 +4,9 @@
     {% for presentation in presentationsList | sort(false, false, 'year') | reverse %}
         <div class="presentation mb-4">
             <h3 class="font-normal text-[1rem]">
-                {{ presentation.type | capitalize}}:
+
                 {% if presentation.link %}
+                {{ presentation.type | capitalize}}:
                     <a href="{{ presentation.link }}" class="hover:text-success-600 italic">
                         {{ presentation.title }}
                     </a>
