@@ -17,7 +17,7 @@ The best place to start is with a content audit. I *love* content audits. Let me
 
 - Understand what content assets you have, where they are, and the formats they're in.
 - Use [metrics](/skills/metrics/) to guide your strategy.
-- Define a common language.
+- Define a common language through a style guide.
 - Define structure through [information architecture](/skills/information-architecture/).
 - Govern and maintain your content.
 
@@ -25,9 +25,9 @@ The best place to start is with a content audit. I *love* content audits. Let me
 
 Content without governance is an organizational nightmare: unsustainable, and impossible to maintain.
 
-The content your organization generates needs a goal, organization, style, and governance. Without someone setting standards and monitoring, your content:
+The content your organization generates needs a goal, organization, style, and governance. Without someone setting content standards and monitoring its performance:
 
-- Your becomes the Wild West.
+- Your content becomes disorganized and strewn across multiple platforms.
 - Content duplication makes it impossible for your employees, clients, and users to find the single source of truth.
 - Productivity declines because your employees are searching multiple places.
 
