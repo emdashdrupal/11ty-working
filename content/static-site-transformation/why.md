@@ -45,7 +45,7 @@ When I decided to update my site ten years later, getting seriously hands-on app
 
 ## Cost savings goals
 
-This includes financial and labor savings:
+My [web host (mddhosting)](https://www.mddhosting.com) is great and worth the cost while I was actively updating the site. I no longer needed the complexity and related costs of it, so my goals were to reduce my financial and labor costs:
 
 - Minimize the overhead of maintaining a content management system. I no longer needed the complexity of a self-managed WordPress site. I hadn't blogged in some time, and my [podcast](/podcasts/) has been on hiatus since 2022 (stay tuned&hellip;). Maintenance included:
   - Keeping up with plugin updates.
@@ -55,8 +55,5 @@ This includes financial and labor savings:
   - My existing site host was also my mail server, so I had to find and set up my own mail hosting. To add to the frustration, my first choice was too difficult to set up.
   - Upgrading my podcast hosting. My podcast archive puts me at the limit of free disk space and bandwidth on GitHub, so I had to offload that to a paid service. The upside to this is I get [metrics](/skills/metrics/) I wouldn't if they were self-hosted.
   - Downsizing from a web host I'd undergrown meant I could re-allocate those resources.
-  - While this solution is cheaper in long-term financial cost, the initial investment in setting up my own infrastructure, as well as the ongoing added mail server administration, is definitely a factor to consider.
 
-## The what
-
-[Choosing a static site generator](/static-site-transformation/choosing-static-site-generator/)
+While this solution is cheaper in long-term costs, there was considerable investment in upskilling, setting up infrastructure, creating templates, and making mistakes. I took on mail server costs and administration (which so far has been minimal).
