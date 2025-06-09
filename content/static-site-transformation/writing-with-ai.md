@@ -1,5 +1,5 @@
 ---
-title: Asking AI to write documentation
+title: 'The how: Asking AI to write documentation'
 description: I asked AI to do a tech writer's job and document the code for my site.
 FontAwesomeIcon: solid fa-keyboard
 featured: true

@@ -1,5 +1,5 @@
 ---
-title : Choosing a static site generator
+title : 'The where: Choosing a static site generator'
 description : I knew what I wanted (ease-of-use) and didn't want (&ldquo;ease of use&rdquo;) when building a site with static site generators (SSGs).
 tags : content-strategy
 featured : true
