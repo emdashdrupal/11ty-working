@@ -51,8 +51,8 @@ I've mentored dozens of people:
 
 My band leadership experience includes:
 
-- Leading the high school marching band for 14 years, including six as director.
-- Taking the band to represent New Jersey in Washington DC's National July 4th Parade.
-- Co-founding a percussion ensemble called Cacophony and writing original scores.
+- Teaching high school marching band part-time (with a full-time job) for 14 years, including six as director.
+- Representing the state of New Jersey in Washington DC's National July 4th Parade.
+- Co-founding a percussion ensemble called *Cacophony*, writing original scores.
 - Creating and maintaining the band's website starting in 1996 &mdash; which led to the band performing in an Ikea advertisement.
 - Receiving recognition from [School Band and Orchestra](http://www.sbomagazine.com/) magazine as one of "50 Directors Who Make a Difference", representing New Jersey in 2006.

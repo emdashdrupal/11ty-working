@@ -3,7 +3,7 @@
         <a
             href="{{ homepageUrl }}"
             id="{{ id }}-button"
-            class="px-3 flex hover:bg-success-800 rounded-sm"
+            class="px-3 hover:bg-success-800 rounded-sm"
             aria-expanded="false"
             aria-haspopup="true"
             aria-controls="{{ id }}-menu"
@@ -21,7 +21,7 @@
                 <li role="menuitem" class="block w-full text-jet hover:bg-medium-blue" id="{{ id }}-menu">
                     <a
                         href="{{ item.url | url }}"
-class="font-sans"
+        class="font-sans"
                         role="none"
                         tabindex="-1"
                         data-index="{{ loop.index0 }}"
@@ -42,7 +42,7 @@ class="font-sans"
         {% elif label == "GitHub" %}
             fa-brands fa-github text-2xl
         {% elif label == "Contact Ed" %}
-            bg-success-600 hover:bg-success-700 text-jet-200 px-4 py-2 rounded-md shadow-sm transition-all duration-200 font-semibold whitespace-nowrap border border-success-700 hover:shadow-md
+            bg-success-600 hover:bg-success-700 text-jet-200 px-2 py-2 rounded-md border-2 border-gray-500 shadow-sm transition-all duration-200 align-top whitespace-nowrap border border-success-700 hover:shadow-md
         {% endif %}
     {% endset %}
 

@@ -1,5 +1,5 @@
 ---
-title: Fire fingers featuring Danielle Villegas
+title: Fire fingers with Danielle Villegas
 date: 2015-04-28
 categories:
   - "podcast"

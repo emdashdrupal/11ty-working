@@ -1,5 +1,5 @@
 ---
-title : Napoleons and Shakespeares featuring Teresa Meek
+title : Napoleons and Shakespeares with Teresa Meek
 date: 2017-02-14
 categories:
   - "podcast"

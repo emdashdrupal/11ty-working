@@ -1,5 +1,5 @@
 ---
-title : Creating the content strategy for my site
+title : 'The what: Creating the content strategy for my site'
 description: Working as writer, content strategist, and developer helped me understand how to orchestrate between the three roles.
 FontAwesomeIcon: solid fa-folder-tree
 featured: true
