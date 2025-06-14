@@ -63,23 +63,23 @@ FontAwesomeIcon : solid fa-file-waveform
 |`featured`| sets the card to display on the homepage. |
 `featuredOrder` | Sets the order in which the card displays. |
 
-Here's an example of how this content works programmatically:
+Here's an example of how this content works programmatically. Note the backslashes are necessary to get the code to display.
 
-```js
+```django
     <div class="bg-whitish p-4">
-        <h3 aria-labelledby="{{ item.data.title |slugify }}">
-            {% if item.data.FontAwesomeIcon %}
+        <h3 aria-labelledby="\{\{ item.data.title |slugify }}">
+            \{\% if item.data.FontAwesomeIcon %}
                 <span class="fa-{{ item.data.FontAwesomeIcon }} text-2xl text-medium-blue"></span>
-            {% endif %}
-            {% if item.data.cover %}
-                <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt or item.data.title }}" data-pagefind-meta="image[{{item.data.cover}}], image_alt[{{ item.data.coverAlt or item.data.title }}]" class="w-full h-48 object-cover mb-2">
-            {% endif %}
-            <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
+            \{\% endif %}
+            \{\% if item.data.cover %}
+                <img src="/assets/images/{{ item.data.cover }}" alt="\{\{ item.data.coverAlt or item.data.title }}" data-pagefind-meta="image[\{\{item.data.cover}}], image_alt[\{\{ item.data.coverAlt or item.data.title }}]" class="w-full h-48 object-cover mb-2">
+            \{\% endif %}
+            <a href="\{\{ item.url }}">\{\{ item.data.title | safe }}</a>
         </h3>
-        <p>{{ item.data.description }}</p>
+        <p>\{\{ item.data.description }}</p>
     </div>
 ```
-
+This code generates cards that references the metadata fields. You can view the clean code at [lines 68-82 of `macros.njk`](https://github.com/emdashdrupal/11ty-working/blob/dd0fc170d1af6a2f5b55fbf3676066d4f9833952/_includes/layouts/partials/macros.njk#L68C1-L81C15)
 ### Taxonomies
 
 *Collections* in Eleventy are powerful tools to display items on page(s) programmatically. Eleventy comes with `tags` and `categories` by default. You can expand these to create your own frontmatter as well.
