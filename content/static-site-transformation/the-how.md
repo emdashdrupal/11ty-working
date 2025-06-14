@@ -79,7 +79,10 @@ Here's an example of how this content works programmatically. Note the backslash
         <p>\{\{ item.data.description }}</p>
     </div>
 ```
-This code generates cards that references the metadata fields. You can view the clean code at [lines 68-82 of `macros.njk`](https://github.com/emdashdrupal/11ty-working/blob/dd0fc170d1af6a2f5b55fbf3676066d4f9833952/_includes/layouts/partials/macros.njk#L68C1-L81C15)
+This code generates cards that references the metadata fields. You can view the clean code at [lines 68-82 of `macros.njk`](https://github.com/emdashdrupal/11ty-working/blob/dd0fc170d1af6a2f5b55fbf3676066d4f9833952/_includes/layouts/partials/macros.njk#L68C1-L81C15).
+
+![Example result of cards](/assets/images/grid-cards-example.png)
+
 ### Taxonomies
 
 *Collections* in Eleventy are powerful tools to display items on page(s) programmatically. Eleventy comes with `tags` and `categories` by default. You can expand these to create your own frontmatter as well.
