@@ -104,7 +104,177 @@ There was a *lot* of experimenting and seeing what was what. Once I grasped *how
 
 While I was building out the site there were grid template pages for each of those content types. Eventually I made the grid collection-agnostic.
 
-Then I added two `json` files of related webinars, podcasts, and other talks I've done, as well as the tools used for each of the skills. It was fun, and refreshing, and again, holy cow structured content.
+Then I added two `json` files of related webinars, podcasts, and other talks I've done, as well as the tools used for each of the skills. This let me leverage the built-in `category` to populate each page. It was fun, and refreshing, and again, holy cow structured content.
+
+```json
+[
+  {
+    "category": ["docs-as-code", "coding-experience", "technical-writing"],
+    "publisher": "Nunjucks",
+    "title": "Nunjucks templating engine"
+  },
+  {
+    "category": ["technical-writing", "image-editing"],
+    "publisher": "Adobe",
+    "title": "Photoshop"
+  },
+  {
+    "category": ["technical-writing", "page-layout", "structured-authoring"],
+    "publisher": "Adobe",
+    "title": "FrameMaker"
+  },
+  {
+    "category": ["technical-writing", "knowledge-management"],
+    "publisher": "Adobe",
+    "title": "Captivate"
+  },
+  {
+    "category": ["technical-writing", "help-authoring-tool"],
+    "publisher": "Adobe",
+    "title": "RoboHelp"
+  },
+  {
+    "category": ["technical-writing", "help-authoring-tool"],
+    "publisher": "Adobe",
+    "title": "Acrobat Pro"
+  },
+
+  {
+    "category": ["content-strategy", "metrics"],
+    "publisher": "Screaming Frog",
+    "title": "Screaming Frog SEO Spider"
+  },
+  {
+    "category": ["content-strategy", "metrics", "information-architecture"],
+    "publisher": "Microsoft",
+    "title": "Excel"
+  },
+  {
+    "category": [
+      "technical-writing",
+      "help-authoring-tool",
+      "coding-experience"
+    ],
+    "publisher": "Open-source",
+    "title": "HTML"
+  },
+  {
+    "category": ["technical-writing", "help-authoring-tool"],
+    "publisher": "OpenAPI",
+    "title": "OpenAPI (Swagger)"
+  },
+  {
+    "category": ["podcasting", "audio-editing", "audio-production"],
+    "publisher": "Adobe",
+    "title": "Audition"
+  },
+  {
+    "category": ["podcasting", "audio-editing", "audio-production"],
+    "publisher": "Open-source",
+    "title": "Audacity"
+  },
+  {
+    "category": ["technical-writing", "page-layout"],
+    "publisher": "Adobe",
+    "title": "InDesign"
+  },
+  {
+    "category": [
+      "docs-as-code",
+      "product-management",
+      "agile",
+      "technical-writing"
+    ],
+    "publisher": "Atlassian",
+    "title": "Jira"
+  },
+  {
+    "category": ["technical-writing", "knowledge-management"],
+    "publisher": "Atlassian",
+    "title": "Confluence"
+  },
+  {
+    "category": ["metrics", "content-strategy"],
+    "publisher": "Elasticsearch",
+    "title": "Kibana"
+  },
+  {
+    "category": ["technical-writing", "help-authoring-tool"],
+    "publisher": "MadCap",
+    "title": "Flare"
+  },
+  {
+    "category": [
+      "technical-writing",
+      "structured-authoring",
+      "help-authoring-tool",
+      "coding-experience"
+    ],
+    "publisher": "oXygen",
+    "title": "oXygen XML Editor"
+  },
+  {
+    "category": ["technical-writing", "docs-as-code", "coding-experience"],
+    "publisher": "Microsoft",
+    "title": "VS Code"
+  },
+  {
+    "category": ["content-management", "coding-experience"],
+    "publisher": "Automattic",
+    "title": "WordPress"
+  },
+  {
+    "category": ["content-management", "coding-experience"],
+    "publisher": "Drupal",
+    "title": "Drupal CMS"
+  },
+  {
+    "category": ["metrics", "coding-experience"],
+    "publisher": "Microsoft",
+    "title": "SQL Server"
+  },
+  {
+    "category": ["metrics", "coding-experience"],
+    "publisher": "IBM",
+    "title": "Db2 database"
+  },
+  {
+    "category": ["docs-as-code", "coding-experience", "technical-writing"],
+    "publisher": "GitHub/Microsoft",
+    "title": "GitHub/GitLab"
+  },
+  {
+    "category": ["technical-writing"],
+    "publisher": "SnagIt",
+    "title": "SnagIt screen capture"
+  },
+  {
+    "category": ["coding-experience"],
+    "publisher": "Open-source",
+    "title": "PlantUML diagramming language"
+  },
+  {
+    "category": ["technical-writing", "coding-experience"],
+    "publisher": "Open-source",
+    "title": "Extensible Stylesheet Language Transformation (XSLT)"
+  },
+  {
+    "category": ["technical-writing", "coding-experience"],
+    "publisher": "Open-source",
+    "title": "Cascading Stylesheets (CSS)"
+  },
+  {
+    "category": ["technical-writing"],
+    "publisher": "John Gruber/open-source",
+    "title": "Markdown"
+  },
+    {
+    "category": ["technical-writing", "coding-experience"],
+    "publisher": "Open-source",
+    "title": "XML"
+  }
+]
+```
 
 Being on this side of the equation makes it clear how much structuring your content helps your developers. It also helped me narrow my focus on skills, as well as tell a story across all of my content.
 
