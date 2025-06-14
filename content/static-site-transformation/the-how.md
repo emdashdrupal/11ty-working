@@ -21,7 +21,7 @@ My initial site architecture was based on the existing architecture in WordPress
 - Contact
 - Resume(?)
 
-Very few parts of this structure ended up in version 1.0 of the site. If you've ever revamped lots of legacy content, this probably isn't surprising.
+Very few parts of this structure ended up in the new site. If you've ever revamped lots of legacy content, this probably isn't surprising.
 
 ## Content types
 
@@ -45,11 +45,39 @@ Most technical writers and content strategists are familiar with metadata (also 
 When I built out this site, I wanted to re-use the first sentence of each details page to display as descriptions on the cards on the grid pages. This also allowed me to style the descriptions separately.
 
 ```yml
-title: 'The how: Asking AI to write documentation'
-description: I asked AI to do a tech writer's job and document the code for my site.
-FontAwesomeIcon: solid fa-keyboard
-featured: true
-featuredOrder: 3
+---
+title : 'The how: Building the site structure'
+description : Putting all of the content pieces together.
+tags : content-strategy
+featured : true
+featuredOrder : 3
+FontAwesomeIcon : solid fa-file-waveform
+---
+```
+
+| Fieldname | Purpose|
+|-|-|
+| `title`| Page title that displays on cards, grids, and details pages, and browser tabs.|
+| `description` | The first paragraph of the story used many places. |
+|`FontAwesomeIcon`| Programmatically displays an icon on the homepage, grid pages, and breadcrumbs.|
+|`featured`| sets the card to display on the homepage. |
+`featuredOrder` | Sets the order in which the card displays. |
+
+Here's an example of how this content works programmatically:
+
+```js
+    <div class="bg-whitish p-4">
+        <h3 aria-labelledby="{{ item.data.title |slugify }}">
+            {% if item.data.FontAwesomeIcon %}
+                <span class="fa-{{ item.data.FontAwesomeIcon }} text-2xl text-medium-blue"></span>
+            {% endif %}
+            {% if item.data.cover %}
+                <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt or item.data.title }}" data-pagefind-meta="image[{{item.data.cover}}], image_alt[{{ item.data.coverAlt or item.data.title }}]" class="w-full h-48 object-cover mb-2">
+            {% endif %}
+            <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
+        </h3>
+        <p>{{ item.data.description }}</p>
+    </div>
 ```
 
 ### Taxonomies
