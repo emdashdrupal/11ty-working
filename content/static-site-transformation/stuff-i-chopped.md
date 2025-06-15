@@ -69,3 +69,13 @@ While I was building out the site there were grid template pages for each of tho
 Then I added two `json` files of related webinars, podcasts, and other talks I've done, as well as the tools used for each of the skills. It was fun, and refreshing, and again, holy cow structured content.
 
 Being on this side of the equation makes it clear how much structuring your content helps your developers. It also helped me narrow my focus on skills, as well as tell a story across all of my content.
+
+
+My progression included:
+
+- Get the SSG running.
+- Understand how to create and use templates.
+- Decide how I want to display each content type.
+- Choose a CSS styling framework.
+- Build out logic to display individual pieces on the templates.
+- Create grid pages to display categories with multiple entries (blog, podcast, skills).
