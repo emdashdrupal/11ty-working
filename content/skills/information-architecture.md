@@ -1,6 +1,6 @@
 ---
 title: Information architecture
-description: Like building a house, every organization's content needs architecture and structure. I can guide you toward effective information architecture.
+description: Content needs architecture and structure just like a house. I can guide you toward effective information architecture.
 FontAwesomeIcon: "solid fa-sitemap"
 categories: information-architecture
 featured: true
@@ -9,11 +9,11 @@ featuredOrder: 2
 
 The way you present and organize your content says a lot to your clients and customers. Giving structure to your organization's content ensures:
 
-- Your business' reputation is maintained by high-quality content.
-- Consistency across every piece and channel.
-- Makes it easier to manipulate programmatically.
-- Improves SEO.
-- Provides a consistent experience to your users and staff.
+- Your reputation is bolstered by high-quality content.
+- Consistency across every piece of content and channel.
+- Programmatic ingestion and manipulation.
+- Effective SEO.
+- A consistent experience to your users and staff.
 - People quickly get the answers they need to move on with their day.
 
 ## Structured authoring
