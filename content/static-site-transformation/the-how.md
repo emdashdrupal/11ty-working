@@ -81,15 +81,8 @@ Here's an example of how this content works programmatically. Note the backslash
 ```
 This code generates cards that references the metadata fields. You can view the clean code at [lines 68-82 of `macros.njk`](https://github.com/emdashdrupal/11ty-working/blob/dd0fc170d1af6a2f5b55fbf3676066d4f9833952/_includes/layouts/partials/macros.njk#L68C1-L81C15).
 
-![Example result of cards](/assets/images/grid-cards-example.png)
-
-### Taxonomies
-
-*Collections* in Eleventy are powerful tools to display items on page(s) programmatically. Eleventy comes with `tags` and `categories` by default. You can expand these to create your own frontmatter as well.
-
-For example, on the homepage I wanted to loop through the lists of podcast posts, my skill set, and this series on static site generators. On the homepage and each landing page, I wanted to programmatically display them in a grid with their photo, title, description, and link. On each individual podcast page, the link to the mp3 is programmatically generated.
-
-You can also use collections to filter your content once you have it structured with your metadata. For example, I needed a way to tell the SSG to display *four specific* blog posts and skills I wanted to highlight. I created `featured` and `featuredOrder` metadata fields, so it's easy to implement and maintain.
+Here's what two cards side-by-side look like:
+![Example result of card code](/assets/images/grid-cards-example.png)
 
 ## Separating content from presentation
 
@@ -107,7 +100,12 @@ There was a *lot* of experimenting and seeing what was what. Once I grasped *how
 
 While I was building out the site there were grid template pages for each of those content types. Eventually I made the grid collection-agnostic.
 
-Then I added two `json` files of related webinars, podcasts, and other talks I've done, as well as the tools used for each of the skills. This let me leverage the built-in `category` to populate each page. It was fun, and refreshing, and again, holy cow structured content.
+Then I added two `json` files to pull data from:
+
+- Webinars, podcasts, and other publications I've done.
+- Tools used for each of the skills.
+
+This let me leverage the built-in `category` metadata to populate each skills page with the relevant work and tools I used. It was fun, refreshing, and again, holy cow structured content.
 
 ```json
 [
