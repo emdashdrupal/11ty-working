@@ -287,3 +287,9 @@ My progression included:
 - Choose a CSS styling framework.
 - Build out logic to display individual pieces on the templates.
 - Create grid pages to display categories with multiple entries (blog, podcast, skills).
+
+## Accessibility
+
+I used the [WAVE browser plugin](https://wave.webaim.org/extension/) to test my pages and ensure they were accessible. My wife is a developer and accessibility advocate and as a technical communicator, I wanted my site to be accessible to everyone.
+
+![Screenshot of WAVE accessibility plugin results](/assets/images/wave-plugin-screenshot.png)
