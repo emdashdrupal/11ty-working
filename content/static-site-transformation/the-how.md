@@ -1,27 +1,13 @@
 ---
 title : 'The how: Building the site structure'
-description : Putting all of the content pieces together.
+description : How I started putting all the content pieces together.
 tags : content-strategy
 featured : true
 featuredOrder : 3
 FontAwesomeIcon : solid fa-file-waveform
 ---
 
-My initial site architecture was based on the existing architecture in WordPress:
-
-- Home: promotes posts across all of the content types&thinsp;&mdash;&thinsp;podcast, writing samples, skills, and this SSG series.
-- About
-- Skills: List of the ways I can help a potential client/employer
-- Tech writing examples: gallery page
-- Speaking engagements/presentations: gallery page
-- Blog (etc): gallery page
-- Podcast pages: gallery page
-- A sidebar that displays a tag cloud
-- Photo galleries (?)
-- Contact
-- Resume(?)
-
-Very few parts of this structure ended up in the new site. If you've ever revamped lots of legacy content, this probably isn't surprising.
+I started with the existing architecture in my WordPress site, but very few parts of this structure ended up in the new site. If you've ever revamped lots of legacy content, this probably isn't surprising. I quickly decided it wasn't worth maintaining all of my old personal and professional blog posts. Most were outdated and not helpful to the portfolio role I was working toward.
 
 ## Content types
 
@@ -105,7 +91,7 @@ Then I added two `json` files to pull data from:
 - Webinars, podcasts, and other publications I've done.
 - Tools used for each of the skills.
 
-This let me leverage the built-in `category` metadata to populate each skills page with the relevant work and tools I used. It was fun, refreshing, and again, holy cow structured content.
+This let me leverage the built-in `category` metadata to populate each skills page with the relevant work and tools I used. It was fun, refreshing, and again, holy cow structured content. Here's an example of the `json` file containing my tool skill set on pages with the same category. You can [see the full file in this repo](https://github.com/emdashdrupal/11ty-working/blob/main/_data/tools.json).
 
 ```json
 [
@@ -124,156 +110,6 @@ This let me leverage the built-in `category` metadata to populate each skills pa
     "publisher": "Adobe",
     "title": "FrameMaker"
   },
-  {
-    "category": ["technical-writing", "knowledge-management"],
-    "publisher": "Adobe",
-    "title": "Captivate"
-  },
-  {
-    "category": ["technical-writing", "help-authoring-tool"],
-    "publisher": "Adobe",
-    "title": "RoboHelp"
-  },
-  {
-    "category": ["technical-writing", "help-authoring-tool"],
-    "publisher": "Adobe",
-    "title": "Acrobat Pro"
-  },
-
-  {
-    "category": ["content-strategy", "metrics"],
-    "publisher": "Screaming Frog",
-    "title": "Screaming Frog SEO Spider"
-  },
-  {
-    "category": ["content-strategy", "metrics", "information-architecture"],
-    "publisher": "Microsoft",
-    "title": "Excel"
-  },
-  {
-    "category": [
-      "technical-writing",
-      "help-authoring-tool",
-      "coding-experience"
-    ],
-    "publisher": "Open-source",
-    "title": "HTML"
-  },
-  {
-    "category": ["technical-writing", "help-authoring-tool"],
-    "publisher": "OpenAPI",
-    "title": "OpenAPI (Swagger)"
-  },
-  {
-    "category": ["podcasting", "audio-editing", "audio-production"],
-    "publisher": "Adobe",
-    "title": "Audition"
-  },
-  {
-    "category": ["podcasting", "audio-editing", "audio-production"],
-    "publisher": "Open-source",
-    "title": "Audacity"
-  },
-  {
-    "category": ["technical-writing", "page-layout"],
-    "publisher": "Adobe",
-    "title": "InDesign"
-  },
-  {
-    "category": [
-      "docs-as-code",
-      "product-management",
-      "agile",
-      "technical-writing"
-    ],
-    "publisher": "Atlassian",
-    "title": "Jira"
-  },
-  {
-    "category": ["technical-writing", "knowledge-management"],
-    "publisher": "Atlassian",
-    "title": "Confluence"
-  },
-  {
-    "category": ["metrics", "content-strategy"],
-    "publisher": "Elasticsearch",
-    "title": "Kibana"
-  },
-  {
-    "category": ["technical-writing", "help-authoring-tool"],
-    "publisher": "MadCap",
-    "title": "Flare"
-  },
-  {
-    "category": [
-      "technical-writing",
-      "structured-authoring",
-      "help-authoring-tool",
-      "coding-experience"
-    ],
-    "publisher": "oXygen",
-    "title": "oXygen XML Editor"
-  },
-  {
-    "category": ["technical-writing", "docs-as-code", "coding-experience"],
-    "publisher": "Microsoft",
-    "title": "VS Code"
-  },
-  {
-    "category": ["content-management", "coding-experience"],
-    "publisher": "Automattic",
-    "title": "WordPress"
-  },
-  {
-    "category": ["content-management", "coding-experience"],
-    "publisher": "Drupal",
-    "title": "Drupal CMS"
-  },
-  {
-    "category": ["metrics", "coding-experience"],
-    "publisher": "Microsoft",
-    "title": "SQL Server"
-  },
-  {
-    "category": ["metrics", "coding-experience"],
-    "publisher": "IBM",
-    "title": "Db2 database"
-  },
-  {
-    "category": ["docs-as-code", "coding-experience", "technical-writing"],
-    "publisher": "GitHub/Microsoft",
-    "title": "GitHub/GitLab"
-  },
-  {
-    "category": ["technical-writing"],
-    "publisher": "SnagIt",
-    "title": "SnagIt screen capture"
-  },
-  {
-    "category": ["coding-experience"],
-    "publisher": "Open-source",
-    "title": "PlantUML diagramming language"
-  },
-  {
-    "category": ["technical-writing", "coding-experience"],
-    "publisher": "Open-source",
-    "title": "Extensible Stylesheet Language Transformation (XSLT)"
-  },
-  {
-    "category": ["technical-writing", "coding-experience"],
-    "publisher": "Open-source",
-    "title": "Cascading Stylesheets (CSS)"
-  },
-  {
-    "category": ["technical-writing"],
-    "publisher": "John Gruber/open-source",
-    "title": "Markdown"
-  },
-    {
-    "category": ["technical-writing", "coding-experience"],
-    "publisher": "Open-source",
-    "title": "XML"
-  }
 ]
 ```
 
