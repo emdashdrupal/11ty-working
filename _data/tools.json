@@ -31,7 +31,7 @@
   },
 
   {
-    "category": ["content-strategy", "metrics"],
+    "category": ["content-strategy", "metrics", "information-architecture"],
     "publisher": "Screaming Frog",
     "title": "Screaming Frog SEO Spider"
   },
@@ -85,7 +85,7 @@
     "title": "Confluence"
   },
   {
-    "category": ["metrics", "content-strategy"],
+    "category": ["metrics", "content-strategy", "information-architecture"],
     "publisher": "Elasticsearch",
     "title": "Kibana"
   },
