@@ -1,43 +1,47 @@
+// Core plugins
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const markdownIt = require("markdown-it");
 const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
+
+// Markdown plugins
+const markdownIt = require("markdown-it");
 const anchor = require("markdown-it-anchor");
 const mila = require("markdown-it-link-attributes");
 // Configuration objects
-const mdOptions = {
-  html: true,
-  breaks: true,
-  linkify: true,
-  typographer: true,
-};
-
-const syntaxHighlightOptions = {
-  templateFormats: ["njk", "md"],
-  alwaysWrapLineHighlights: true,
-  trim: true,
-};
-
-const feedOptions = {
-  type: "rss",
-  outputPath: "/feed.xml",
-  collection: {
-    name: "all",
-    limit: 0,
+const config = {
+  markdown: {
+    html: false,
+    breaks: false,
+    linkify: true,
+    typographer: true
   },
-  metadata: {
-    language: "en",
-    title: "Content Content podcast",
-    subtitle:
-      "Ed Marsh interviews professionals in technical communication, content strategy, content marketing, information architecture, and others who create, organize, and maintain content online.",
-    base: "https://edmar.sh/",
-    author: {
-      name: "Ed Marsh",
+  
+  syntaxHighlight: {
+    templateFormats: ["njk", "md"],
+    alwaysWrapLineHighlights: false,
+    trim: true
+  },
+  
+  feed: {
+    type: "rss",
+    outputPath: "/feed.xml",
+    collection: {
+      name: "all",
+      limit: 0
     },
-  },
+    metadata: {
+      language: "en",
+      title: "Content Content podcast",
+      subtitle: "Ed Marsh interviews professionals in technical communication, content strategy, content marketing, information architecture, and others who create, organize, and maintain content online.",
+      base: "https://edmar.sh/",
+      author: {
+        name: "Ed Marsh"
+      }
+    }
+  }
 };
 
 // Configure markdown-it with anchor plugin
-const md = new markdownIt(mdOptions).use(anchor, {
+const md = new markdownIt(config.markdown).use(anchor, {
   permalink: anchor.permalink.headerLink(),
 });
 
@@ -125,8 +129,8 @@ module.exports = function (eleventyConfig) {
 
   // Plugins
   eleventyConfig.setLibrary("md", md);
-  eleventyConfig.addPlugin(syntaxHighlight, syntaxHighlightOptions);
-  eleventyConfig.addPlugin(feedPlugin, feedOptions);
+  eleventyConfig.addPlugin(syntaxHighlight, config.syntaxHighlight);
+  eleventyConfig.addPlugin(feedPlugin, config.feed);
 
   // Global Data
   try {
