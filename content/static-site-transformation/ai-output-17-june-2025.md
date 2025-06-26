@@ -1,6 +1,7 @@
 ---
 title: Site implementation documentation
 description: Technical documentation for Ed Marsh's static site implementation
+eleventyExcludeFromCollections: true
 ---
 
 # Overview
