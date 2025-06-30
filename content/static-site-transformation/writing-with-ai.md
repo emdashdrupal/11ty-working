@@ -25,7 +25,7 @@ This is a good example of what AI can do for you, but also where humans are inva
 > - [Most recent version](https://github.com/emdashdrupal/11ty-working/blob/ai-outputs/content/static-site-transformation/ai-output-17-june-2025.md)
 >
 
-If you look at the output, it's pretty impressive that AI can get to this level of granularity. But the result is only a high level overview, and parts are not entirely correct&thinsp;&mdash;&thinsp;partially as a result of my lack of coding experience. For example, the Featured content section is technically correct. However, at the time I asked the question it wasn't working.
+If you look at the output, it's pretty impressive that AI can get to this level of granularity. But the results are only high-level overviews, and parts are not entirely correct&thinsp;&mdash;&thinsp;partially as a result of my lack of coding experience. For example, in the original the Featured content section is technically correct. However, at the time I asked the question it wasn't working.
 
 There's still a need for a person to review and verify generated output, particularly for liability purposes. Attorneys won't be happy if their organization is sued for incorrect documentation that's written by AI.
 
@@ -45,4 +45,4 @@ What I took away is how my site is interpreted by people, bots, and generative A
 
 There's plenty to learn from this output, especially because it's only going to get better. I think there's opportunity for technical communicators to improve and verify AI-generated documentation. There's also huge potential for tech writers to use AI to describe their codebase, generate code samples, and translate content into useful info.
 
-I'm not proud of how much I relied on a chatbot to program this website, but it helped me deliver. I'm not a developer, and my goal wasn't to become one, so using AI allowed me to (eventually) focus on the content I wanted to focus on.
+I'm not ~~proud~~ shocked by how much I relied on a chatbot to program this website, but it helped me deliver. I'm not a developer, and my goal wasn't to become one, so using AI allowed me to (eventually) focus on the content I wanted to focus on. It did make me appreciate specialized development roles, because no one can do it all, even with AI.
