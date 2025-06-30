@@ -18,11 +18,14 @@ I asked GitHub Copilot to do my job by documenting my codebase, write summaries,
 
 This is a good example of what AI can do for you, but also where humans are invaluable. A large language model (LLM) can write a code sample, but can't tell if it displays correctly.
 
-> Because the output includes a mix of Markdown, template code, and HTML, it's nearly impossible to display correctly in a codeblock. I [created a separate page](/static-site-transformation/ai-doc-output/) and excluded it from collections using the `eleventyExcludeFromCollections: true` parameter in my front matter, which means it won't appear as a page on the site.
+> Because the output includes a mix of Markdown, template code, and HTML, it's nearly impossible to display correctly in a codeblock. I [created a separate branch](https://github.com/emdashdrupal/11ty-working/blob/ai-outputs/content/static-site-transformation) and excluded these from collections using the `eleventyExcludeFromCollections: true` parameter in my front matter, which means it won't appear as a page on the site.
 >
-> I also [saved the original output](/static-site-transformation/ai-doc-output-orig/) for the first draft of the site.
+> - [Original output](https://github.com/emdashdrupal/11ty-working/blob/ai-outputs/content/static-site-transformation/ai-doc-output-orig.md) for the first draft of the site.
+> - [Version 2](https://github.com/emdashdrupal/11ty-working/blob/ai-outputs/content/static-site-transformation/ai-doc-output-v2.md)
+> - [Most recent version](https://github.com/emdashdrupal/11ty-working/blob/ai-outputs/content/static-site-transformation/ai-output-17-june-2025.md)
+>
 
-If you look at the output, it's pretty impressive that AI can get to this level of granularity. But the result is only a high level overview, and parts are not entirely correct&thinsp;&mdash;&thinsp;partially as a result of my lack of coding experience. For example, the Featured content section is technically correct. However, at the time I asked the question it wasn't working.
+If you look at the output, it's pretty impressive that AI can get to this level of granularity. But the results are only high-level overviews, and parts are not entirely correct&thinsp;&mdash;&thinsp;partially as a result of my lack of coding experience. For example, in the original the Featured content section is technically correct. However, at the time I asked the question it wasn't working.
 
 There's still a need for a person to review and verify generated output, particularly for liability purposes. Attorneys won't be happy if their organization is sued for incorrect documentation that's written by AI.
 
@@ -42,4 +45,4 @@ What I took away is how my site is interpreted by people, bots, and generative A
 
 There's plenty to learn from this output, especially because it's only going to get better. I think there's opportunity for technical communicators to improve and verify AI-generated documentation. There's also huge potential for tech writers to use AI to describe their codebase, generate code samples, and translate content into useful info.
 
-I'm not proud of how much I relied on a chatbot to program this website, but it helped me deliver. I'm not a developer, and my goal wasn't to become one, so using AI allowed me to (eventually) focus on the content I wanted to focus on.
+I'm not ~~proud~~ shocked by how much I relied on a chatbot to program this website, but it helped me deliver. I'm not a developer, and my goal wasn't to become one, so using AI allowed me to (eventually) focus on the content I wanted to focus on. It did make me appreciate specialized development roles, because no one can do it all, even with AI.

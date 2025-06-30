@@ -1,34 +1,34 @@
 ---
 title : 'The how: Building the site structure'
-description : How I started putting all the content pieces together.
+description : 'I started my information architecture with the existing architecture of my WordPress site. Then I started to put all the content pieces together.'
 tags : content-strategy
 featured : true
 featuredOrder : 3
 FontAwesomeIcon : solid fa-file-waveform
 ---
 
-I started with the existing architecture in my WordPress site, but very few parts of this structure ended up in the new site. If you've ever revamped lots of legacy content, this probably isn't surprising. I quickly decided it wasn't worth maintaining all of my old personal and professional blog posts. Most were outdated and not helpful to the portfolio role I was working toward.
+When you start with a decade-old information architecture with lots of legacy content that evolved to include podcasts, it shouldn't be surprising that very few parts of that structure ended up in the new site.
+
+I quickly decided it wasn't worth maintaining all of my old personal and professional blog posts. Most were outdated and not helpful to the technical writing portfolio I wanted the site to be.
 
 ## Content types
 
-In support of this architecture, I designed three main content types (page types):
+I designed three main content types (page types):
 
-- **Homepage**: Intro and a headshot, and galleries of the four most important, or recent, items that have been updated in three categories: podcasts, skills, and this series of blog posts.
-- **Grid pages**: Overview pages that list each of my skills, blog posts, and podcast episodes.
-- **Details pages**: For each of the categories:
+- Homepage, which included an intro, headshot, and galleries of the four most important, or recent, items that have been updated in three categories: podcasts, skills, and this series of blog posts.
+- Grid pages that are gallery pages with cards for each skill, blog post, and podcast episode.
+- Details pages for each of the categories:
   - Blog posts.
   - Podcast episodes,including show notes and an episode player.
   - More information about each of my skills, the relevant tools used, and any relation presentations or publications I've created.
 
 ## Content reuse
 
-Using metadata and collections enables reuse. Copy-pasted content across pages is a maintenance nightmare. Someone has to remember to update it, and also *all the places* where the content is pasted.
+Copy-pasted content across pages is a maintenance nightmare. Someone has to remember to update it, and also *all the places* where the content is pasted. With this in mind, I wanted to use metadata as much as possible to encourage reuse and programmatic data access.
 
-## Metadata
+Most technical writers and content strategists are familiar with metadata (also referred to as *front matter* or *frontmatter*). Metadata can define page titles, keywords, and in my case, leverage the built-in [Eleventy categories and tags](https://www.11ty.dev/docs/collections/).
 
-Most technical writers and content strategists are familiar with metadata (also referred to as *front matter* or *frontmatter*). You can use it to define page titles, keywords, tags, and categories right out of the box. The real power comes by adding custom metadata; highly structured content expands the possibilities of the template engine and site generator.
-
-When I built out this site, I wanted to re-use the first sentence of each details page to display as descriptions on the cards on the grid pages. This also allowed me to style the descriptions separately.
+The real power comes by adding custom metadata; highly structured content expands the possibilities of the template engine and site generator. When I built out this site, I wanted to re-use the first sentence of each details page to display as descriptions on the cards on the grid pages. This allowed not only content reuse, but  styling the descriptions separately.
 
 ```yml
 ---
@@ -72,7 +72,6 @@ Here's what two cards look like side-by-side:
 ## Separating content from presentation
 
 There was a *lot* of experimenting. Once I grasped *how* to use the metadata programmatically, it opened my eyes to how much structured front matter makes a difference in how content is used, sorted, filtered, and displayed.
-
 
 While I was building out the site there were grid template pages for each of those content types. Eventually I made the grid collection-agnostic.
 

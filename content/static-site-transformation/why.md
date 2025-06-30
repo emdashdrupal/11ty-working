@@ -6,38 +6,42 @@ featured: true
 featuredOrder: 0
 ---
 
+I started this project as a strategic effort to create a portfolio highlighting my technical writing and content strategy skills. I didn't have any recent writing samples to share with potential employers or clients due to intellectual property (IP) laws, which I take seriously. The public-facing samples I *did* have were woefully out-of-date, as was my WordPress site. I didn't realize *just* how out-of-date the site was until I got deep into this project. I needed to redesign not only the site, but its content.
+
+This was a rare greenfield opportunity to:
+
+- Audit a lifetime's worth of content, dating back to LiveJournal blogs.
+- Get rid of cruft.
+- Reduce the costs of hosting and maintaining my own site.
+- Understand how content is programmatically consumed and displayed to users.
+- Learn some new skills without a lot of deadline pressure.
+- Give back and explain to other technical communicators what building a modern web site from scratch entails.
+
+## Background
+
 I knew from an early age I'd be involved in writing in some way. I interviewed friends on cassette in elementary school. I had my own 'zine. But since the days of the Commodore VIC-20, I've always been [curious about and dabbled in software development](/skills/code-development/). I started building websites in 1996, which led me to a Drupal site, and also a WordPress personal site I built in 2008:
 
-![My WordPress homepage as of 1 May 2025](/assets/images/edmarsh-dot-com-homepage-1-may-2025.png)
+![Screenshot of my WordPress homepage as of 1 May 2025 with outdated design](/assets/images/edmarsh-dot-com-homepage-1-may-2025.png)
 
 That site and its scope expanded when I started my podcast in 2015:
 
 ![Legacy podcast landing page](/assets/images/edmarsh-dot-com-podcast-page-1-may-2025.png)
 
-Actually *starting* this project was strategic. I don't have any recent writing samples to share with potential employers or clients due to intellectual property (IP) laws, which I take seriously. The public-facing samples I *did* write were woefully out-of-date, as was my WordPress site. I didn't realize *just* how out-of-date the site was until I got deep into this project.
-
-When I decided to update my site ten years later, getting seriously hands-on appealed to me. This was a rare greenfield opportunity to:
-
-- Audit a lifetime's worth of content dating back to LiveJournal blogs.
-- Get rid of cruft.
-- Reduce costs.
-- Understand how content is programmatically consumed and displayed to users.
-- Learn some new skills without a lot of deadline pressure.
-- Explain to others what starting a site from scratch entails.
+When I decided to take this project on, getting hands-on appealed to me.
 
 ## Technical goals
 
 - Update a 10-year-old design.
 - Retire a complex WordPress site that didn't get much traffic and needed maintenance.
 - "Quickly" revamp my website to increase my chances at getting hired.
-- Add value by developing with SSGs, which isn't a skill a lot of technical writers have.
-- Learn newer technologies (that ended up leveraging old ones I'm very familiar with&thinsp;&mdash;&thinsp;HTML and CSS).
+- Add value by developing with SSGs, which isn't a skill a lot of technical writers have. SSGs&thinsp;&mdash;&thinsp;like [Eleventy that I chose](/static-site-transformation/choosing-static-site-generator)&thinsp;&mdash;&thinsp;display the content that technical writers create.
+- Learn newer technologies such as Nunjucks templating, that ended up leveraging old tech I'm familiar with like HTML and CSS.
 
 ## Content goals
 
-- A steady stream of content to drive traffic and show as writing samples.
-- Give back by documenting the static site implementation process.
-- Review all the content on my site and see if and how it's promoting me in the best light.
+- Generate a steady stream of content to drive traffic and feature as writing samples.
+- Give back to the technical writing community by documenting the process of building static site implementation process.
+- Review all the content on my site and see if it's promoting my career in the best light.
 - Decide whether to archive old content, like those *very* early blog posts.
 - Understand how to structure content not only for SSGs, but other programmatic use.
 - Enjoy writing again.
@@ -47,12 +51,12 @@ When I decided to update my site ten years later, getting seriously hands-on app
 
 My [web host (mddhosting)](https://www.mddhosting.com) is great and worth the cost while I was actively updating the site. I no longer needed the complexity and related costs of it, so my goals were to reduce my financial and labor costs:
 
-- Minimize the overhead of maintaining a content management system. I no longer needed the complexity of a self-managed WordPress site. I hadn't blogged in some time, and my [podcast](/podcasts/) has been on hiatus since 2022 (stay tuned&hellip;). Maintenance included:
+- Minimize the overhead of maintaining a content management system. I no longer needed the complexity of a self-managed WordPress site. I hadn't blogged in some time, and my [podcast](/podcasts/) has been on hiatus since 2022. Maintenance included:
   - Keeping up with plugin updates.
   - WordPress updates.
   - Processing the hundreds of spam comments that came through every day.
 - Reduce hosting costs. SSGs don't require heavy infrastructure such as a database, so they can be hosted in places that WordPress sites can't. This gave me flexibility to move to a zero- or low-cost host. That *doesn't* mean there are zero costs to hosting the site:
-  - My existing site host was also my mail server, so I had to find and set up my own mail hosting. To add to the frustration, my first choice was too difficult to set up.
+  - My existing site host was also my mail server, so I had to find and set up my own mail hosting. To add to the frustration, my first choice was too difficult to set up. So far, Zoho Mail has been great.
   - Upgrading my podcast hosting. My podcast archive puts me at the limit of free disk space and bandwidth on GitHub, so I had to offload that to a paid service. The upside to this is I get [metrics](/skills/metrics/) I wouldn't if they were self-hosted.
   - Downsizing from a web host I'd undergrown meant I could re-allocate those resources.
 
