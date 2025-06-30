@@ -1,6 +1,6 @@
 ---
 title : 'The how: Building the site structure'
-description : I started my information architecture with the existing architecture of my WordPress site. Then I started to put all the content pieces together.
+description : 'I started my information architecture with the existing architecture of my WordPress site. Then I started to put all the content pieces together.'
 tags : content-strategy
 featured : true
 featuredOrder : 3
