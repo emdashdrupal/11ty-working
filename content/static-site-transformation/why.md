@@ -6,9 +6,9 @@ featured: true
 featuredOrder: 0
 ---
 
-Starting this project was strategic to create a portfolio highlighting my technical writing and content strategy skills. I don't have any recent writing samples to share with potential employers or clients due to intellectual property (IP) laws, which I take seriously. The public-facing samples I *did* have were woefully out-of-date, as was my WordPress site. I didn't realize *just* how out-of-date the site was until I got deep into this project. I needed to redesign not only the site but its content.
+I started this project as a strategic effort to create a portfolio highlighting my technical writing and content strategy skills. I didn't have any recent writing samples to share with potential employers or clients due to intellectual property (IP) laws, which I take seriously. The public-facing samples I *did* have were woefully out-of-date, as was my WordPress site. I didn't realize *just* how out-of-date the site was until I got deep into this project. I needed to redesign not only the site, but its content.
 
-When I decided to take this on, getting seriously hands-on appealed to me. This was a rare greenfield opportunity to:
+This was a rare greenfield opportunity to:
 
 - Audit a lifetime's worth of content, dating back to LiveJournal blogs.
 - Get rid of cruft.
@@ -27,18 +27,20 @@ That site and its scope expanded when I started my podcast in 2015:
 
 ![Legacy podcast landing page](/assets/images/edmarsh-dot-com-podcast-page-1-may-2025.png)
 
+When I decided to take this project on, getting hands-on appealed to me.
+
 ## Technical goals
 
 - Update a 10-year-old design.
 - Retire a complex WordPress site that didn't get much traffic and needed maintenance.
 - "Quickly" revamp my website to increase my chances at getting hired.
-- Add value by developing with SSGs, which isn't a skill a lot of technical writers have. SSGs&thinsp;&mdash;&thinsp;like [Eleventy](https://eleventy.dev) that I chose&thinsp;&mdash;&thinsp;display the content that technical writers create.
-- Learn newer technologies (that ended up leveraging old ones I'm very familiar with like HTML and CSS).
+- Add value by developing with SSGs, which isn't a skill a lot of technical writers have. SSGs&thinsp;&mdash;&thinsp;like [Eleventy that I chose](/static-site-transformation/choosing-static-site-generator)&thinsp;&mdash;&thinsp;display the content that technical writers create.
+- Learn newer technologies such as Nunjucks templating, that ended up leveraging old tech I'm familiar with like HTML and CSS.
 
 ## Content goals
 
-- A steady stream of content to drive traffic and show as writing samples.
-- Give back to the technical writing community by documenting the static site implementation process.
+- Generate a steady stream of content to drive traffic and feature as writing samples.
+- Give back to the technical writing community by documenting the process of building static site implementation process.
 - Review all the content on my site and see if it's promoting my career in the best light.
 - Decide whether to archive old content, like those *very* early blog posts.
 - Understand how to structure content not only for SSGs, but other programmatic use.

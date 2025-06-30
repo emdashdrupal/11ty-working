@@ -17,9 +17,9 @@ The first question of technical writing is *who is the user*? The users you iden
 
 ## Content goals
 
-- Highlight my skills to attract employers, and also as a thought experiment&thinsp;&mdash;&thinsp;what *do* I do?
-- Create a [series of blog posts](#blog-release-strategy) documenting my migration experience from WordPress to a static site generator.
-- Highlight my podcast, as the old site really didn't. I'm also considering reviving the podcast so this is high-priority
+- Highlight my skills to attract employers, and also as a thought experiment&thinsp;&mdash;&thinsp;what *do* I do with content strategy?
+- Document my migration experience from WordPress to a static site generator through a [series of blog posts](#blog-release-strategy) .
+- Highlight my podcast, as the old site really didn't. I'm considering reviving the podcast so this was a priority.
 - Get rid of legacy content.
 - Ensure the site is accessible.
 
