@@ -11,7 +11,7 @@ blubrryId: 145351367
 blubrryCache: 1747158062
 
 ---
-Her [_Content Strategy_ book](https://smile.amazon.com/Content-Strategy-Connecting-Business-Benefits/dp/1937434168/ref=sr_1_1?dchild=1&keywords=rahel+bailie&qid=1618343360&sr=8-1) with [Noz Urbina](https://edmarsh.com/2020/04/07/1000-or-100000-meetings-with-noz-urbina-content-content-podcast/) remains one of Ed's most highlighted (highlit?) reads. We discuss Content Operations (ContentOps or DocOps), introducing efficiency, and more. I hope you laugh as much as we did.
+Her [_Content Strategy_ book](https://smile.amazon.com/Content-Strategy-Connecting-Business-Benefits/dp/1937434168/ref=sr_1_1?dchild=1&keywords=rahel+bailie&qid=1618343360&sr=8-1) with [Noz Urbina](/podcasts/1000-or-100000-meetings-with-noz-urbina-content-content-podcast/) remains one of Ed's most highlighted (highlit?) reads. We discuss Content Operations (ContentOps or DocOps), introducing efficiency, and more. I hope you laugh as much as we did.
 
 ## Mentioned during this episode
 
