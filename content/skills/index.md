@@ -6,5 +6,5 @@ eleventyExcludeFromCollections : true
 layout: "layouts/grid.njk"
 buttonText : "Learn more"
 ---
--
+
 ![Content lifecycle diagram](/assets/images/content-lifecycle.svg)
