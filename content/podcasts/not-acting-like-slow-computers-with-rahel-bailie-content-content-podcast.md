@@ -23,7 +23,7 @@ Her [_Content Strategy_ book](https://smile.amazon.com/Content-Strategy-Connecti
 - [STC](https://www.stc.org)
 - [Pandoc](https://pandoc.org)
 - [Rahel on Twitter](https://twitter.com/rahelab)
-- [Ra](https://www.linkedin.com/in/rahelannebailie/)[h](https://www.linkedin.com/in/rahelannebailie/)[el on LinkedIn](https://www.linkedin.com/in/rahelannebailie/)
+- [Rahel on LinkedIn](https://www.linkedin.com/in/rahelannebailie/)
 - [Rahel's site](https://contentseriously.co.uk/)
 - [Raving](https://en.wikipedia.org/wiki/Rave)
 - [Schema.org](https://schema.org)
