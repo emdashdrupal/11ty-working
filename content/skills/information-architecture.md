@@ -1,6 +1,6 @@
 ---
 title: Information architecture
-description: Content needs architecture and structure just like a house. I can guide you toward effective information architecture.
+description: Like a house, content needs architecture and structure. I can guide you toward effective information architecture.
 FontAwesomeIcon: "solid fa-sitemap"
 categories: information-architecture
 featured: true

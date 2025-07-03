@@ -162,6 +162,27 @@
     {
     "category": ["technical-writing", "coding-experience"],
     "publisher": "Open-source",
+    "title": "LM Studio local AI LLM"
+  },
+      {
+    "category": ["technical-writing", "coding-experience"],
+    "publisher": "Open-source",
+    "title": "Ollama AI"
+  },
+    {
+    "category": ["technical-writing", "coding-experience"],
+    "publisher": "Open-source",
+    "title": "GPT4All"
+  },
+      {
+    "category": ["technical-writing", "coding-experience"],
+    "publisher": "Open-source",
+    "title": "GitHub Copilot"
+  },
+
+  {
+    "category": ["technical-writing", "coding-experience"],
+    "publisher": "Open-source",
     "title": "XML"
   }
 ]
