@@ -5,6 +5,7 @@ FontAwesomeIcon: "solid fa-sitemap"
 categories: information-architecture
 featured: true
 featuredOrder: 2
+cover: content-lifecycle-structure.png
 ---
 
 The way you present and organize your content says a lot to your clients and customers. Giving structure to your organization's content ensures:
