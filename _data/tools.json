@@ -179,6 +179,11 @@
     "publisher": "Open-source",
     "title": "GitHub Copilot"
   },
+    {
+    "category": ["coding-experience", "image-editing", "information-architecture"],
+    "publisher": "Miro",
+    "title": "Miro mockup and diagramming tool"
+  },
 
   {
     "category": ["technical-writing", "coding-experience"],

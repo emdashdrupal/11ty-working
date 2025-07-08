@@ -13,7 +13,7 @@ categories: metrics
 - Identify gaps
 - Report
 
-![Content lifecycle](/assets/images/content-lifecycle.png)
+![Content lifecycle](/assets/images/content-lifecycle-identify.png)
 
 ## Examples
 
