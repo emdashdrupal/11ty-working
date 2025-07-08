@@ -5,6 +5,7 @@ FontAwesomeIcon : "solid fa-paragraph"
 featured: true
 featuredOrder: 0
 categories: "technical-writing"
+cover: content-lifecycle-create.png
 ---
 ![Venn diagram](/assets/images/tech-writer-venn.png)
 

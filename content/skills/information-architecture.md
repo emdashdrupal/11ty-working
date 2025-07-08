@@ -17,8 +17,6 @@ The way you present and organize your content says a lot to your clients and cus
 - A consistent experience to your users and staff.
 - People quickly get the answers they need to move on with their day.
 
-![Structure in the content lifecycle](/assets/images/content-lifecycle-structure.png)
-
 ## Structured authoring
 
 Once you determine your architecture, you need a way to govern it. While not every organization needs a strictly enforced structure, I am highly experienced with structured authoring.
