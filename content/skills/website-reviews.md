@@ -1,10 +1,10 @@
 ---
-title: Website reviews
-description : Is your website working for you? Here's a free checklist to help you find out.
+title: Content reviews
+description : Is your website and its content working for you? Here's a free checklist to help you find out.
 slug: website-reviews
 FontAwesomeIcon: solid fa-handshake
 categories: ["metrics", "content-strategy"]
 cover: content-lifecycle-identify.png
 ---
 
-Here's a [free, two-page checklist](/assets/pdfs/website-review-checklist.pdf) to ensure your content is best portraying your organization. [Contact me](/contact/) if you want to learn more or take a deeper dive!
+Use this [free, two-page checklist](/assets/pdfs/website-review-checklist.pdf) to ensure your web presence and its content are working for your organization. [Contact me](/contact/) if you want to learn more or take a deeper dive with a content audit!
