@@ -18,11 +18,6 @@ Here's how I've used code to solve content problems:
 - Helped establish the Drupal CMS Northern NJ user group as a founding member.
 - Built edmarsh.com from scratch using WordPress in 2008.
 - Transformed edmarsh.com to [run on a static site generator](/static-site-transformation/) in 2025.
-
-## Agile and Jira
-
-Agile is a software development methodology that features working on small tasks and deploying frequently. I have extensive experience with Jira and Agile:
-
-- Defined user story guidelines that were adopted division-wide within three months of onboarding.
-- Wrote user stories and epics following [Gherkin language principles](https://cucumber.io/docs/gherkin/).
+- Defined Jira user story guidelines that were adopted division-wide within three months of onboarding.
+- Wrote Jira user stories and epics following [Gherkin language principles](https://cucumber.io/docs/gherkin/).
 - Worked with Kanban and story boards.
