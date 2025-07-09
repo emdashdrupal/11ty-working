@@ -5,13 +5,13 @@ FontAwesomeIcon: solid fa-handshake
 featured: true
 featuredOrder: 1
 categories: content-strategy
+cover: content-lifecycle-plan.png
 ---
 
 Let's be honest. Most organizations' content is scattered across Confluence pages, SharePoint, your company's intranet, hundreds of repositories, help systems which may or may not be current, knowledge management systems, Word documents, and more.
 
 Content strategy means the right content in the right format at the right time in the right place. Do you really want to "throw AI" at it without understanding the complexity and the true costs?
 
-![Content lifecycle](/assets/images/content-lifecycle.png)
 
 The best place to start is with a content audit. I *love* content audits. Let me help you and show you how to:
 

@@ -4,6 +4,7 @@ description : Is your website working for you? Here's a free checklist to help y
 slug: website-reviews
 FontAwesomeIcon: solid fa-handshake
 categories: ["metrics", "content-strategy"]
+cover: content-lifecycle-identify.png
 ---
 
-Here's a free, [two-page checklist](/assets/pdfs/website-review-checklist.pdf) to ensure your site's content is best portraying your company's best side. [Contact me](/contact/) if you want to learn more or take a deeper dive!
+Here's a [free, two-page checklist](/assets/pdfs/website-review-checklist.pdf) to ensure your content is best portraying your organization. [Contact me](/contact/) if you want to learn more or take a deeper dive!

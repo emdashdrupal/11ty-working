@@ -3,6 +3,7 @@ title : Metrics and data
 description: Every organization wants to know how its content performs. I have extensive experience implementing and monitoring content metrics.
 FontAwesomeIcon: solid fa-magnifying-glass-chart
 categories: metrics
+cover: content-lifecycle-measure.png
 ---
 
  Measuring how your content performs can help your organization:
@@ -12,8 +13,6 @@ categories: metrics
 - Address highly used topics
 - Identify gaps
 - Report
-
-![Content lifecycle](/assets/images/content-lifecycle.png)
 
 ## Examples
 

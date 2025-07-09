@@ -33,7 +33,7 @@
   {
     "category": ["content-strategy", "metrics", "information-architecture"],
     "publisher": "Screaming Frog",
-    "title": "Screaming Frog SEO Spider"
+    "title": "SEO Spider"
   },
   {
     "category": ["content-strategy", "metrics", "information-architecture"],
@@ -137,7 +137,7 @@
   {
     "category": ["technical-writing"],
     "publisher": "SnagIt",
-    "title": "SnagIt screen capture"
+    "title": "Screen capture"
   },
   {
     "category": ["coding-experience"],
@@ -160,6 +160,32 @@
     "title": "Markdown"
   },
     {
+    "category": ["technical-writing", "coding-experience"],
+    "publisher": "Open-source",
+    "title": "LM Studio local AI LLM"
+  },
+      {
+    "category": ["technical-writing", "coding-experience"],
+    "publisher": "Open-source",
+    "title": "Ollama AI"
+  },
+    {
+    "category": ["technical-writing", "coding-experience"],
+    "publisher": "Open-source",
+    "title": "GPT4All"
+  },
+      {
+    "category": ["technical-writing", "coding-experience"],
+    "publisher": "Open-source",
+    "title": "GitHub Copilot"
+  },
+    {
+    "category": ["coding-experience", "image-editing", "information-architecture"],
+    "publisher": "Miro",
+    "title": "Miro mockup and diagramming tool"
+  },
+
+  {
     "category": ["technical-writing", "coding-experience"],
     "publisher": "Open-source",
     "title": "XML"

@@ -1,10 +1,11 @@
 ---
 title: Information architecture
-description: Content needs architecture and structure just like a house. I can guide you toward effective information architecture.
+description: Like a house, content needs architecture and structure. I can guide you toward effective information architecture.
 FontAwesomeIcon: "solid fa-sitemap"
 categories: information-architecture
 featured: true
 featuredOrder: 2
+cover: content-lifecycle-structure.png
 ---
 
 The way you present and organize your content says a lot to your clients and customers. Giving structure to your organization's content ensures:
