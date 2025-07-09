@@ -19,16 +19,6 @@ cover: content-lifecycle-create.png
 
 30+ years of experience means I've touched on all aspects of technical communication. My approach helps organizations not just create documentation, but build sustainable content ecosystems that drive user engagement and support business growth.
 
-## Strategic content leadership
-
-- Transform complex technical information into clear, user-focused documentation.
-- Implement data-driven content strategies that align with business objectives.
-- Build and maintain robust content governance frameworks.
-- Design scalable information architectures that grow with your organization.
-
-- Society for Technical Communication (STC) Associate Fellow.
-- Award-winning newsletter editor for STC NY Metro Chapter.
-
 I've created:
 
 - API reference documentation
@@ -40,3 +30,13 @@ I've created:
 - Podcasts
 - Printed manuals
 - Technical illustrations
+
+## Strategic content leadership
+
+- Transform complex technical information into clear, user-focused documentation.
+- Implement data-driven [content strategies](/skills/content-strategy/) that align with business objectives.
+- Build and maintain robust content governance frameworks.
+- Design a scalable [information architecture](/skills/information-architecture) that grows with your organization.
+- Associate Fellow, Society for Technical Communication (STC).
+- Award-winning newsletter editor for STC NY Metro Chapter.
+- Award-winning designer and contributor of a company's first full-color printed publication.
