@@ -17,18 +17,6 @@ The way you present and organize your content says a lot to your clients and cus
 - A consistent experience to your users and staff.
 - People quickly get the answers they need to move on with their day.
 
-## Structured authoring
-
-Once you determine your architecture, you need a way to govern it. While not every organization needs a strictly enforced structure, I am highly experienced with structured authoring.
-
-[DITA](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) is an example of an XML-based structured authoring language for technical documentation. DITA's strength is in:
-
-- Using attributes and metadata to inform and enforce structure.
-- Reusing content&thinsp;&mdash;&thinsp;no more copying and pasting!
-
-Just as your developers use components, your authors and contributors can also use content components through a Component Content Management Systems (CCMS). Structured authoring's extensive use of attributes and metadata makes your technical content more available programmatically, and allows your authors to enforce writing standards across your organization.
-
-Let's figure out the best approach for your organization.
 
 ## Examples
 

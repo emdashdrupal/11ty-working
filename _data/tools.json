@@ -1,6 +1,6 @@
 [
   {
-    "category": ["docs-as-code", "coding-experience", "technical-writing"],
+    "category": ["docs-as-code", "coding-experience"],
     "publisher": "Nunjucks",
     "title": "Nunjucks templating engine"
   },
@@ -42,7 +42,6 @@
   },
   {
     "category": [
-      "technical-writing",
       "help-authoring-tool",
       "coding-experience"
     ],
@@ -65,7 +64,7 @@
     "title": "Audacity"
   },
   {
-    "category": ["technical-writing", "page-layout"],
+    "category": ["page-layout"],
     "publisher": "Adobe",
     "title": "InDesign"
   },
@@ -145,12 +144,12 @@
     "title": "PlantUML diagramming language"
   },
   {
-    "category": ["technical-writing", "coding-experience"],
+    "category": ["coding-experience"],
     "publisher": "Open-source",
     "title": "Extensible Stylesheet Language Transformation (XSLT)"
   },
   {
-    "category": ["technical-writing", "coding-experience"],
+    "category": ["coding-experience"],
     "publisher": "Open-source",
     "title": "Cascading Stylesheets (CSS)"
   },
@@ -160,17 +159,17 @@
     "title": "Markdown"
   },
     {
-    "category": ["technical-writing", "coding-experience"],
+    "category": ["coding-experience"],
     "publisher": "Open-source",
     "title": "LM Studio local AI LLM"
   },
       {
-    "category": ["technical-writing", "coding-experience"],
+    "category": ["coding-experience"],
     "publisher": "Open-source",
     "title": "Ollama AI"
   },
     {
-    "category": ["technical-writing", "coding-experience"],
+    "category": ["coding-experience"],
     "publisher": "Open-source",
     "title": "GPT4All"
   },
@@ -186,7 +185,7 @@
   },
 
   {
-    "category": ["technical-writing", "coding-experience"],
+    "category": ["coding-experience"],
     "publisher": "Open-source",
     "title": "XML"
   }

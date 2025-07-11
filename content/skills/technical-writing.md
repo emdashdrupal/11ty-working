@@ -19,16 +19,6 @@ cover: content-lifecycle-create.png
 
 30+ years of experience means I've touched on all aspects of technical communication. My approach helps organizations not just create documentation, but build sustainable content ecosystems that drive user engagement and support business growth.
 
-## Strategic content leadership
-
-- Transform complex technical information into clear, user-focused documentation.
-- Implement data-driven content strategies that align with business objectives.
-- Build and maintain robust content governance frameworks.
-- Design scalable information architectures that grow with your organization.
-
-- Society for Technical Communication (STC) Associate Fellow.
-- Award-winning newsletter editor for STC NY Metro Chapter.
-
 I've created:
 
 - API reference documentation
@@ -41,11 +31,12 @@ I've created:
 - Printed manuals
 - Technical illustrations
 
+## Strategic content leadership
 
-## Docs-as-code
-
-If your organization is writing developer-focused (or -generated) content, there's a good chance you're working in a docs-as-code environment. I can help you democratize content creation across your organization, using tools like these to auto-generate documentation:
-
-- Version control such as GitLab, GitHub, or BitBucket.
-- A plain text-based, unstructured language like Markdown, AsciiDoc, or reStructuredText. These languages are easy to learn, easy to write, and extremely portable. The downsides are often a lack of structure and governance.
-- Conversion to HTML and display in a browser. This can be roll-your-own, or incorporated into services like a CMS, GitHub Pages, [static site generators](/static-site-transformation/), or other processors.
+- Transform complex technical information into clear, user-focused documentation.
+- Implement data-driven [content strategies](/skills/content-strategy/) that align with business objectives.
+- Build and maintain robust content governance frameworks.
+- Design a scalable [information architecture](/skills/information-architecture) that grows with your organization.
+- Associate Fellow, Society for Technical Communication (STC).
+- Award-winning newsletter editor for STC NY Metro Chapter.
+- Award-winning designer and contributor of a company's first full-color printed publication.
