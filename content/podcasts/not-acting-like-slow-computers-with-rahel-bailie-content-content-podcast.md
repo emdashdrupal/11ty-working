@@ -3,7 +3,7 @@ title : Not acting like slow computers with Rahel Bailie
 date: 2021-04-14
 categories: ["podcast", "content-strategy"]
 tags : content-operations
-cover: rahel_bailie_headshot.jpg
+cover: rahel-bailie-headshot.jpg
 coverAlt : Content strategist and author Rahel Bailie
 description : Rahel Bailie joins Ed Marsh to talk about an uneven history of content strategy, object-oriented content, how her career has led her across two continents, and the history of women in technical communication.
 mp3File: Content_Content_podcast_Rahel_Bailie.mp3

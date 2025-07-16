@@ -59,7 +59,7 @@
       "title": "Podcasting for fun and/or profit",
       "year": "2022",
       "link": "https://www.stc.org/intercom/2022/03/podcasting-for-fun-and-or-profit/",
-      "categories": "podcasting",
+      "categories": ["podcasting"],
       "venue": "STC Intercom magazine",
       "type": "article"
     },
@@ -83,7 +83,7 @@
       "title": "The evolution of podcasting",
       "year": "2024",
       "link": "https://idratherbewriting.com/blog/evolution-of-podcasting-podcast-ed-marsh",
-      "categories": "podcasting",
+      "categories": ["podcasting"],
       "venue": "I'd rather be writing",
       "type": "podcast guest"
     },

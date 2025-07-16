@@ -12,7 +12,6 @@
             <span class="ml-1">&#9660;</span>
         </a>
         <ul
-
             class="dropdown-menu bg-slate-50"
             role="menu"
             aria-labelledby="{{ id | slugify }}-button"
@@ -21,7 +20,7 @@
                 <li role="menuitem" class="block w-full text-jet hover:bg-medium-blue" id="{{ id }}-menu">
                     <a
                         href="{{ item.url | url }}"
-        class="font-sans"
+                        class="font-sans"
                         role="none"
                         tabindex="-1"
                         data-index="{{ loop.index0 }}"
@@ -81,7 +80,6 @@
 {% endmacro %}
 
 {% macro renderButton(url, buttonText, title = "") %}
-
     <a
         href="{{ url }}"
         role="button"
@@ -95,27 +93,21 @@
     >
         <button
             type="button"
-            {% if collections.podcasts %}
-        download
-        {% endif %}
+            {% if collections.podcasts %}download{% endif %}
             class="p-2 rounded-lg transition-transform transform mt-0 text-jet-100 bg-medium-blue"
             aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
         >
             <span class="sr-only">
-                {% if title %}Learn more about {{ title }}
-                {% else %}{{ buttonText }}
-                {% endif %}
+                {% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}
             </span>
             {{ buttonText }}
         </button>
     </a>
-
 {% endmacro %}
 
 {% macro card(url, title, description, buttonText, heroImage) %}
     <div class="card flex flex-col rounded-md h-full p-2 border-gray-500 border-4 sm:border-2"
-    aria-labelledby="card-title-{{ title | slugify }}"
->
+        aria-labelledby="card-title-{{ title | slugify }}">
         <div class="flex flex-col h-full">
             <figure class="hero flex mx-auto" role="img" aria-label="{% if heroImage %}Hero-image-for-{{ title | slugify }}{% endif %}">
                 {{ heroImage | safe }}
@@ -123,7 +115,6 @@
             <h2 id="card-title-{{ title | slugify }}" class="card-title leading-8">
                 <a href="{{ url }}" aria-label="Read-more-about-{{ title | slugify }}">{{ title | safe }}</a>
             </h2>
-
             <div class="card-description flex-grow mb-4">
                 {{ description | markdown | safe }}
             </div>
