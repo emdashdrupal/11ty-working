@@ -11,17 +11,15 @@
  {% endif %}
         </figure>
 {% if collectionName == "podcasts" %}
-    <div id="podcast-player" class="my-10">
-
         {# subscribe widget        <iframe src='https://widgets.blubrry.com/32643/subscribe/' id='2140010353-subscribe-681e62658dec7' name='2140010353-subscribe-681e62658dec7' allowtransparency='true' style='background: none transparent; border: none; width: 100%; height: auto;'></iframe>
- #}
-        <iframe src="{{podHostID}}/{{blubrryId}}/?cache={{blubrryCache}}#mode-Light&border-000000&progress-000000" title="{{title}}" scrolling="yes" width="65%" height="165px" frameborder="0"></iframe>
+ #}    <div id="podcast-player" class="my-5 mx-10">
+        <iframe src="{{podHostID}}/{{blubrryId}}/?cache={{blubrryCache}}#mode-Light&border-000000&progress-000000" title="{{title}}" scrolling="yes" frameborder="0"></iframe>
     {% endif %}
     {% endif %}
 </div>
 
 {% if page.url == "/about/about-ed-marsh/" %}
-    <img src="/assets/images/ed-marsh.jpg" style="float:right; width:200px" alt="Ed Marsh"/>
+    <img src="/assets/images/ed-marsh.jpg" class="float-right w-48 md:w-52 mb-4 ml-4" alt="Ed Marsh"/>
 {% endif %}
 {% if content %}
     {{ content | safe }}
@@ -36,15 +34,15 @@
 {% set filteredPresentations = presentations | filterByCategory(pageCategory) | default([]) %}
 {% set filteredTools = tools | filterToolsByCategory(pageCategory) | default([]) %}
 
-<div class="grid lg:grid-cols-8 md:grid-cols-3 sm:grid-cols-1 gap-4">
+<div class="grid lg:grid-cols-8 md:grid-cols-1 sm:grid-cols-1 gap-4">
 {% if filteredPresentations and filteredPresentations.length > 0 %}
-    <div class="col-span-5">
+    <div class="lg:col-span-5 md:col-span-1 sm:col-span-1">
         {% include "layouts/partials/presos.njk" %}
     </div>
 {% endif %}
 
 {% if filteredTools and filteredTools.length > 0 %}
-    <div class="col-span-3">
+    <div class="lg:col-span-3 md:col-span-1 sm:col-span-1">
         {% include "layouts/partials/tools.njk" %}
     </div>
 {% endif %}
