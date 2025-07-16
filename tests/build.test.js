@@ -22,7 +22,7 @@ describe('Site Build', () => {
     const expectedFiles = [
       '_site/index.html',
       '_site/about/about-ed-marsh/index.html',
-      '_site/contact/contact/index.html',
+      '_site/contact/index.html',
       '_site/skills/index.html',
       '_site/podcasts/index.html'
     ];
@@ -42,7 +42,7 @@ describe('Site Build', () => {
     expect(content).toContain('</html>');
     expect(content).toContain('<head>');
     expect(content).toContain('</head>');
-    expect(content).toContain('<body>');
+    expect(content).toMatch(/<body[^>]*>/);
     expect(content).toContain('</body>');
   });
 
