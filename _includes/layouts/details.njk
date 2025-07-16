@@ -3,7 +3,7 @@
 {% if collectionName == "podcasts" or collectionName == "skills" %}
     <figure class="hero flex justify-end float-right ml-2">
         {% if collectionName == "skills" and cover or item.data.cover %}
-            <figure class="hero flex justify-end float-right ml -2">
+            <figure class="hero flex justify-end float-right ml-2">
                 <img src="/assets/images/{{cover or item.data.cover}}" title="{{description or item.data.description}}" alt="{{description or item.data.description}}"class="w-full h-48 border-4 shadow-md">
             </figure>
         {% elif collectionName == "podcasts" %}
