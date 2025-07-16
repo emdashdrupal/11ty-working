@@ -56,7 +56,15 @@ describe('Accessibility', () => {
       const inputTags = content.match(/<input[^>]*>/g) || [];
 
       inputTags.forEach(tag => {
-        const hasLabel = content.includes(`for="${tag.match(/id\s*=\s*["']([^"']*)["']/)?.[1]}"`);
+        // Skip hidden inputs as they don't need labels
+        if (tag.includes('type="hidden"')) {
+          return;
+        }
+
+        const idMatch = tag.match(/id\s*=\s*["']([^"']*)["']/);
+        const inputId = idMatch ? idMatch[1] : null;
+
+        const hasLabel = inputId && content.includes(`for="${inputId}"`);
         const hasAriaLabel = tag.includes('aria-label');
         const hasAriaLabelledBy = tag.includes('aria-labelledby');
 
@@ -93,11 +101,18 @@ describe('Accessibility', () => {
       const buttonTags = content.match(/<button[^>]*>.*?<\/button>/gs) || [];
 
       buttonTags.forEach(button => {
-        const hasText = button.match(/>([^<]+)</)?.[1]?.trim();
+        // Check for visible text content (including nested elements)
+        const textContent = button.replace(/<[^>]*>/g, '').trim();
+        const hasVisibleText = textContent.length > 0;
+
+        // Check for accessibility attributes
         const hasAriaLabel = button.includes('aria-label');
         const hasTitle = button.includes('title');
 
-        expect(hasText || hasAriaLabel || hasTitle).toBeTruthy();
+        // Check for sr-only text (screen reader only)
+        const hasSrOnlyText = button.includes('sr-only');
+
+        expect(hasVisibleText || hasAriaLabel || hasTitle || hasSrOnlyText).toBeTruthy();
       });
     });
   });
@@ -108,18 +123,26 @@ describe('Accessibility', () => {
       const linkTags = content.match(/<a[^>]*>.*?<\/a>/gs) || [];
 
       linkTags.forEach(link => {
-        const linkText = link.match(/>([^<]+)</)?.[1]?.trim();
-        const hasAriaLabel = link.includes('aria-label');
+        // Get all text content, including nested elements
+        const textContent = link.replace(/<[^>]*>/g, '').trim();
+        const hasVisibleText = textContent.length > 0;
 
-        if (linkText) {
+        // Check for accessibility attributes
+        const hasAriaLabel = link.includes('aria-label');
+        const hasTitle = link.includes('title');
+
+        // Check for sr-only text (screen reader only)
+        const hasSrOnlyText = link.includes('sr-only');
+
+        if (hasVisibleText) {
           // Avoid generic link text
-          expect(linkText.toLowerCase()).not.toBe('click here');
-          expect(linkText.toLowerCase()).not.toBe('read more');
-          expect(linkText.toLowerCase()).not.toBe('here');
-          expect(linkText.length).toBeGreaterThan(1);
+          expect(textContent.toLowerCase()).not.toBe('click here');
+          expect(textContent.toLowerCase()).not.toBe('read more');
+          expect(textContent.toLowerCase()).not.toBe('here');
+          expect(textContent.length).toBeGreaterThan(1);
         } else {
-          // If no text, should have aria-label
-          expect(hasAriaLabel).toBe(true);
+          // Icon-only links should have aria-label, title, or sr-only text
+          expect(hasAriaLabel || hasTitle || hasSrOnlyText).toBe(true);
         }
       });
     });
