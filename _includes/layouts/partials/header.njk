@@ -53,17 +53,17 @@
         <script src="https://kit.fontawesome.com/c6516df4d1.js" crossorigin="anonymous"></script>
         <link rel="alternate" type="application/rss+xml" title="Content Content podcast with Ed Marsh" href="https://feeds.blubrry.com/feeds/contentcontent.xml"/>
     </head>
-    {% block nav %}
-        <header>
-            <nav aria-label="ed-marsh-introduction-and-site-navigation-menu">
-                <div class="bg-medium-blue mx-auto max-w-4xl px-2 px-0" id="main-navbar">
-                    {% include 'layouts/partials/navbar.njk' %}
-                </div>
-                {% include 'layouts/partials/breadcrumb.njk' %}
-            </nav>
-        </header>
-    {% endblock %}
     <body class="flex flex-col min-h-screen" data-pagefind-body>
+        {% block nav %}
+            <header>
+                <nav aria-label="ed-marsh-introduction-and-site-navigation-menu">
+                    <div class="bg-medium-blue mx-auto max-w-4xl px-2 px-0" id="main-navbar">
+                        {% include 'layouts/partials/navbar.njk' %}
+                    </div>
+                    {% include 'layouts/partials/breadcrumb.njk' %}
+                </nav>
+            </header>
+        {% endblock %}
         {% block content %}
             <main class="container mx-auto py-1 px-4 md:px-6 max-w-4xl">
 
