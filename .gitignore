@@ -21,3 +21,8 @@ Gemfile.lock
 # Local Netlify folder
 .netlify
 _includes/layouts/partials/index-test.njk
+
+# Test coverage and artifacts
+coverage/
+*.log
+.nyc_output/
