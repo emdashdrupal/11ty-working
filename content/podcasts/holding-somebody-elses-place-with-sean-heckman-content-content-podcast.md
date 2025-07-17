@@ -16,7 +16,6 @@ blubrryCache: 1747158929
 ---
 
 
-
 Learn what it's like to drive across the USA for 30+ days interviewing racing legends, while running a content creation business that caters to small businesses. Find out why Sean calls a "sport with science, technology, and a lot of nonsense" his home.
 
 I've never met Sean, and he was as curious about me as I was about him. Sean says he's not a journalist, but he is. He gets people to talk, listens to their stories, and responds to them. He also has an immensely dry sense of humor. I literally had to stop dozens of times while editing this podcast to stop laughing. Give this a listen.

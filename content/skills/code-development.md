@@ -6,7 +6,6 @@ categories: coding-experience
 featured: false
 featuredOrder: 7
 ---
-
 Here's how I've used code to solve content problems:
 
 - Created my first website in the 1990s.

@@ -17,7 +17,6 @@ mp3File: Content_Content_podcast_Scott_Abel.mp3
 blubrryId: 145351348
 blubrryCache: 1747158801
 ---
-
 ## Mentioned during this episode
 
 - [Ann Rockley](http://rockley.com/)

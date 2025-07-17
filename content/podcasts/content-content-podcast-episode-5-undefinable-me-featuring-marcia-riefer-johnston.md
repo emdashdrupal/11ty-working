@@ -12,7 +12,6 @@ mp3File: Undescribable_Me_featuring_Marcia_Riefer_Johnston-Content_Content_podca
 blubrryId: 145351327
 blubrryCache: 1747160375
 ---
-
 ## Mentioned during this episode
 
 - [Undefinable Me: The Story of a 13-Year-Old Girl from the Inner City Who Codes](http://www.mtv.com/news/2226440/teen-programmer-speech/)

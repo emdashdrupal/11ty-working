@@ -4,7 +4,6 @@ description: I've always been curious about technology. As a kid, I was the one 
 layout: layouts/details.njk
 FontAwesomeIcon: solid fa-person-circle-question
 ---
-
 I'm a proud New Jersey native, and I'm passionate about:
 
 - Proper punctuation (especially the em dash &mdash;, semicolon, and ellipsis&hellip;).

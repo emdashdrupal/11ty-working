@@ -14,7 +14,6 @@ blubrryId: 145351344
 blubrryCache: 1747158964
 ---
 
-
 Andrea is the CEO of [Idyll Point Group](https://idyllpointgroup.com), after a long stint in content strategy and content experience strategy at IBM.
 
 ## Mentioned during this episode

@@ -18,7 +18,6 @@ mp3File: Content_Content_episode-15_-_Jack-Molisani.mp3
 blubrryId: 145351339
 blubrryCache: 1747159288
 ---
-
 ## Mentioned during this episode
 
 - [Jack on Twitter](https://twitter.com/jackmolisani)

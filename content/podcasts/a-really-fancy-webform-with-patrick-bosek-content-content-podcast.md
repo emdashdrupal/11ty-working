@@ -17,7 +17,6 @@ blubrryId: 145351370
 blubrryCache: 1747157976
 
 ---
-
 > This episode was recorded before Patrick's company changed its name to Heretto.
 
 ## Mentioned during this episode

@@ -14,7 +14,6 @@ blubrryCache: 1747159687
 ---
 
 
-
 ## Mentioned during this super-sized episode
 
 - [STC Summit](http://summit.stc.org)

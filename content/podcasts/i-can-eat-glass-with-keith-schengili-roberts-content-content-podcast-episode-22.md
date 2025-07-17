@@ -15,7 +15,6 @@ mp3File: Content_Content_podcast_episode_22_Keith_Schengili-Roberts.mp3
 blubrryId: 145351345
 blubrryCache: 1747158949
 ---
-
 ## Mentioned during this episode
 
 - [I can eat glass test](https://en.wikipedia.org/wiki/I_Can_Eat_Glass)  [Delrina](https://en.wikipedia.org/wiki/Delrina)

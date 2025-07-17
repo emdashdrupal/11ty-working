@@ -19,7 +19,6 @@ mp3File: content_content_podcast-alan-porter.mp3
 blubrryId: 145351349
 blubrryCache: 1747158770
 ---
-
 Alan is also an accomplished author and critic of comics, pop culture, sci-fi, and more.
 
 ## Mentioned during this episode

@@ -9,7 +9,6 @@ mp3File : content_content_episode_3_-_Danielle_Villegas.mp3
 blubrryId: 145351325
 blubrryCache: 1747160338
 ---
-
 ## Mentioned during this episode
 
 - [techcommgeekmom on Twitter](http://twitter.com/techcommgeekmom "techcommgeekmom on Twitter")

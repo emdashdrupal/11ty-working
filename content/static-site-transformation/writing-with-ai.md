@@ -5,9 +5,6 @@ FontAwesomeIcon: solid fa-keyboard
 featured: false
 featuredOrder: 4
 ---
-
-
-
 I've always [dabbled in code](/skills/code-development/). My problem has always been that I don't know how to express the logic in my head in code. So I asked AI to do a tech writer's job and document the code for my site.
 
 My first forays into large language models were with Google Gemini (n&#233;e Bard). I asked how to write code for automation tasks in Windows Powershell and Python. Fast-forward a year or two, and GitHub Copilot is baked into VS Code.

@@ -5,7 +5,6 @@ FontAwesomeIcon: solid fa-folder-tree
 featured: true
 featuredOrder: 1
 ---
-
 ## Determining personas
 
 The first question of technical writing is *who is the user*? The users you identify inform and guide your content strategy. In my case, my users include:

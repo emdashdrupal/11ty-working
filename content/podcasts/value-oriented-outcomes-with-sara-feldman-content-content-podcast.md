@@ -14,7 +14,6 @@ blubrryCache: 174715862
 ---
 
 
-
 ## Mentioned during this episode
 
 - [ESET software](https://www.slideshare.net/theedmarsh/timeless-techcomm-tips-stc-new-england-interchange-keynote-2020)

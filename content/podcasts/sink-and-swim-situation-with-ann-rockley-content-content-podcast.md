@@ -13,7 +13,6 @@ mp3File : content-content-podcast-ann-rockley.mp3
 blubrryId: 145351371
 blubrryCache: 1747087675
 ---
-
 ## Mentioned during this episode
 
 - [Society for Technical Communication (STC)](https://www.stc.org)
