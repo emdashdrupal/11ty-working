@@ -16,7 +16,8 @@
             role="menu"
             aria-labelledby="{{ id | slugify }}-button"
         >
-            {% for item in items %}
+            {% set sortedItems = items | sort(false, false, "data.featuredOrder") %}
+            {% for item in sortedItems %}
                 <li role="menuitem" class="block w-full text-jet hover:bg-medium-blue" id="{{ id }}-menu">
                     <a
                         href="{{ item.url | url }}"
