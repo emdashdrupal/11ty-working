@@ -1,20 +1,18 @@
 {% from "layouts/partials/macros.njk" import dropdown,
 listItem %}
-
 <div class="grid grid-cols-4 md:grid-cols-12 gap-4 max-w-4xl px-2">
     <div id="tagline" class="col-span-3 md:col-span-4">
         <a href="/" class="font-sans text-jet-200 font-semibold">
             Successful technical content through community building
         </a>
     </div>
-
     <button id="menuToggle" class="md:hidden col-span-1 justify-self-end" aria-expanded="false" aria-controls="menubar">
         <i class="fa-solid fa-bars text-2xl"></i>
         <span class="sr-only">Toggle menu</span>
     </button>
-
     <div id="menubar" class="hidden md:block col-span-4 md:col-span-8 mt-2">
-        <ul class="md:grid md:grid-flow-col md:auto-cols-auto gap-2 items-start md:items-center md:justify-end"
+        <ul
+            class="md:grid md:grid-flow-col md:auto-cols-auto gap-2 items-start md:items-center md:justify-end"
             aria-label="Main navigation menu"
             role="menubar">
             {# Mobile view - simple links #}
@@ -22,7 +20,6 @@ listItem %}
                 {{ listItem('/skills/', 'Skills') }}
                 {{ listItem('/static-site-transformation/', 'Blog') }}
             </div>
-
             {# Desktop view - dropdowns #}
             <div class="hidden md:block">
                 {{ dropdown('skillsDropdown', 'Skills', collections.skills, '/skills/') }}

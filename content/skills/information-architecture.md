@@ -4,7 +4,7 @@ description: Like a house, content needs architecture and structure. I can guide
 FontAwesomeIcon: "solid fa-sitemap"
 categories: information-architecture
 featured: true
-featuredOrder: 2
+featuredOrder: 1
 cover: content-lifecycle-structure.png
 ---
 
@@ -16,7 +16,6 @@ The way you present and organize your content says a lot to your clients and cus
 - Effective SEO.
 - A consistent experience to your users and staff.
 - People quickly get the answers they need to move on with their day.
-
 
 ## Examples
 

@@ -3,7 +3,7 @@ title: Content strategy
 description : Is your content working for your organization? I can help you find out, and improve your entire content experience.
 FontAwesomeIcon: solid fa-handshake
 featured: true
-featuredOrder: 1
+featuredOrder: 0
 categories: content-strategy
 cover: content-lifecycle-plan.png
 ---

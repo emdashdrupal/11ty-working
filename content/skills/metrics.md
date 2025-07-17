@@ -4,6 +4,8 @@ description: Every organization wants to know how its content performs. I have e
 FontAwesomeIcon: solid fa-magnifying-glass-chart
 categories: metrics
 cover: content-lifecycle-measure.png
+featured: true
+featuredOrder: 5
 ---
 
  Measuring how your content performs can help your organization:

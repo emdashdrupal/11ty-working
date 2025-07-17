@@ -3,6 +3,8 @@ title: Coding experience
 description: I've dabbled in code throughout my career to feed my curiosity, add value, and translate developers' language into high-quality content.
 FontAwesomeIcon: solid fa-terminal
 categories: coding-experience
+featured: false
+featuredOrder: 7
 ---
 
 Here's how I've used code to solve content problems:

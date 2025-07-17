@@ -1,30 +1,39 @@
+{# Collection Sorting Logic - Returns a sorted collection based on collection type #}
+{% macro getSortedCollection(collectionName, collection) %}
+    {% if collectionName == "skills" %}
+        {% set sortedCollection = collection | sort(false, false, "data.featuredOrder") %}
+    {% else %}
+        {% set sortedCollection = collection | sort(false, false, "data.date") | reverse %}
+    {% endif %}
+    {{ sortedCollection }}
+{% endmacro %}
+{# Featured Section Macro - Creates a featured content section #}
+{% macro featuredSection(collectionName, title, description, collections, limit=4) %}
+    <section class="mx-auto" id="{{ collectionName }}">
+        <h2>{{ title | safe }}</h2>
+        <p class="description text-jet-100">{{ description | safe }}</p>
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+            {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
+            {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
+            {% for item in sortedFeatured %}
+                {% if loop.index0 < limit %}
+                    {% include 'layouts/partials/card.njk' %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+{% endmacro %}
 {% macro dropdown(id, label, items, homepageUrl) %}
     <li class="dropdown rounded-sm">
-        <a
-            href="{{ homepageUrl }}"
-            id="{{ id }}-button"
-            class="px-3 hover:bg-success-800 rounded-sm"
-            aria-expanded="false"
-            aria-haspopup="true"
-            aria-controls="{{ id }}-menu"
-        >
+        <a href="{{ homepageUrl }}" id="{{ id }}-button" class="px-3 hover:bg-success-800 rounded-sm" aria-expanded="false" aria-haspopup="true" aria-controls="{{ id }}-menu">
             {{ label }}
             <span class="ml-1">&#9660;</span>
         </a>
-        <ul
-            class="dropdown-menu bg-slate-50"
-            role="menu"
-            aria-labelledby="{{ id | slugify }}-button"
-        >
-            {% for item in items %}
+        <ul class="dropdown-menu bg-slate-50" role="menu" aria-labelledby="{{ id | slugify }}-button">
+            {% set sortedItems = items | sort(false, false, "data.featuredOrder") %}
+            {% for item in sortedItems %}
                 <li role="menuitem" class="block w-full text-jet hover:bg-medium-blue" id="{{ id }}-menu">
-                    <a
-                        href="{{ item.url | url }}"
-                        class="font-sans"
-                        role="none"
-                        tabindex="-1"
-                        data-index="{{ loop.index0 }}"
-                    >
+                    <a href="{{ item.url | url }}" class="font-sans" role="none" tabindex="-1" data-index="{{ loop.index0 }}">
                         {{ item.data.title }}
                     </a>
                 </li>
@@ -32,38 +41,25 @@
         </ul>
     </li>
 {% endmacro %}
-
 {% macro listItem(url, label) %}
-    {% set classList %}
-    hover:transition-colors hover:bg-success-200 rounded-sm font-sans
-        {% if label == "LinkedIn" %}
-            fa-brands fa-linkedin text-2xl
-        {% elif label == "GitHub" %}
-            fa-brands fa-github text-2xl
-        {% elif label == "Contact Ed" %}
-            bg-success-600 hover:bg-success-700 text-jet-200 px-2 py-2 rounded-md border-2 border-gray-500 shadow-sm transition-all duration-200 align-top whitespace-nowrap border border-success-700 hover:shadow-md
-        {% endif %}
+    {% set classList %} hover:transition-colors hover:bg-success-200 rounded-sm font-sans
+    {% if label == "LinkedIn" %}
+        fa-brands fa-linkedin text-2xl
+    {% elif label == "GitHub" %}
+        fa-brands fa-github text-2xl
+    {% elif label == "Contact Ed" %}
+        bg-success-600 hover:bg-success-700 text-jet-200 px-2 py-2 rounded-md border-2 border-gray-500 shadow-sm transition-all
+        duration-200 align-top whitespace-nowrap border border-success-700 hover:shadow-md
+    {% endif %}
     {% endset %}
-
     <li class="rounded-sm font-sans">
-        <a
-            href="{{ url }}"
-            id="{{label | slugify}}-item"
-            class="{{ classList | trim }}"
-            {% if label in ['LinkedIn', 'GitHub'] %}
-                aria-label="visit-ed-marsh-on-{{ label }}"
-                title="Visit Ed Marsh on {{ label }}"
-            {% else %}
-                aria-label="{{ label | slugify }}"
-            {% endif %}
-        >
+        <a href="{{ url }}" id="{{ label | slugify }}-item" class="{{ classList | trim }}" {% if label in ['LinkedIn', 'GitHub'] %} aria-label="visit-ed-marsh-on-{{ label }}" title="Visit Ed Marsh on {{ label }}" {% else %} aria-label="{{ label | slugify }}" {% endif %}>
             {% if not(label in['LinkedIn', 'GitHub']) %}
                 {{ label }}
             {% endif %}
         </a>
     </li>
 {% endmacro %}
-
 {% macro gridItem(item) %}
     <div class="bg-whitish p-4">
         <h3 aria-labelledby="{{ item.data.title |slugify }}">
@@ -71,54 +67,41 @@
                 <span class="fa-{{ item.data.FontAwesomeIcon }} text-2xl text-medium-blue"></span>
             {% endif %}
             {% if item.data.cover %}
-                <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt or item.data.title }}" data-pagefind-meta="image[{{item.data.cover}}], image_alt[{{ item.data.coverAlt or item.data.title }}]" class="w-full h-48 object-cover mb-2">
-            {% endif %}
-            <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
-        </h3>
-        <p>{{ item.data.description }}</p>
-    </div>
-{% endmacro %}
-
-{% macro renderButton(url, buttonText, title = "") %}
-    <a
-        href="{{ url }}"
-        role="button"
-        class="font-sans"
-        {% if title %}
-            aria-label="Learn-more-about-{{ title | slugify }}"
-        {% else %}
-            aria-label="{{ buttonText | slugify }}"
-        {% endif %}
-        title="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
-    >
-        <button
-            type="button"
-            {% if collections.podcasts %}download{% endif %}
-            class="p-2 rounded-lg transition-transform transform mt-0 text-jet-100 bg-medium-blue"
-            aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}"
-        >
-            <span class="sr-only">
-                {% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}
-            </span>
-            {{ buttonText }}
-        </button>
-    </a>
-{% endmacro %}
-
-{% macro card(url, title, description, buttonText, heroImage) %}
-    <div class="card flex flex-col rounded-md h-full p-2 border-gray-500 border-4 sm:border-2"
-        aria-labelledby="card-title-{{ title | slugify }}">
-        <div class="flex flex-col h-full">
-            <figure class="hero flex mx-auto" role="img" aria-label="{% if heroImage %}Hero-image-for-{{ title | slugify }}{% endif %}">
-                {{ heroImage | safe }}
-            </figure>
-            <h2 id="card-title-{{ title | slugify }}" class="card-title leading-8">
-                <a href="{{ url }}" aria-label="Read-more-about-{{ title | slugify }}">{{ title | safe }}</a>
-            </h2>
-            <div class="card-description flex-grow mb-4">
-                {{ description | markdown | safe }}
-            </div>
-            <p>{{ renderButton(url, buttonText, title) }}</p>
+                <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt or item.data.title }}" data-pagefind-meta="image[{{ item.data.cover }}], image_alt[{{ item.data.coverAlt or item.data.title }}]" class="w-full h-48 object-cover mb-2">
+                {% endif %}
+                <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
+            </h3>
+            <p>{{ item.data.description }}</p>
         </div>
-    </div>
-{% endmacro %}
+    {% endmacro %}
+    {% macro renderButton(url, buttonText, title = "") %}
+        <a href="{{ url }}" role="button" class="font-sans" {% if title %} aria-label="Learn-more-about-{{ title | slugify }}" {% else %} aria-label="{{ buttonText | slugify }}" {% endif %} title="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
+            <button type="button" {% if collections.podcasts %} download {% endif %} class="p-2 rounded-lg transition-transform transform mt-0 text-jet-100 bg-medium-blue" aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
+                <span class="sr-only">
+                    {% if title %}Learn more about {{ title }}
+                    {% else %}
+                        {{ buttonText }}
+                    {% endif %}
+                </span>
+                {{ buttonText }}
+            </button>
+        </a>
+    {% endmacro %}
+    {% macro card(url, title, description, buttonText, heroImage) %}
+        <div
+            class="card flex flex-col rounded-md h-full p-2 border-gray-500 border-4 sm:border-2"
+            aria-labelledby="card-title-{{ title | slugify }}">
+            <div class="flex flex-col h-full">
+                <figure class="hero flex mx-auto" role="img" aria-label="{% if heroImage %}Hero-image-for-{{ title | slugify }}{% endif %}">
+                    {{ heroImage | safe }}
+                </figure>
+                <h2 id="card-title-{{ title | slugify }}" class="card-title leading-8">
+                    <a href="{{ url }}" aria-label="Read-more-about-{{ title | slugify }}">{{ title | safe }}</a>
+                </h2>
+                <div class="card-description flex-grow mb-4">
+                    {{ description | markdown | safe }}
+                </div>
+                <p>{{ renderButton(url, buttonText, title) }}</p>
+            </div>
+        </div>
+    {% endmacro %}

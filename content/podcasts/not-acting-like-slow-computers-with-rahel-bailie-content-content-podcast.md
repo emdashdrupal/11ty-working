@@ -1,7 +1,7 @@
 ---
 title : Not acting like slow computers with Rahel Bailie
 date: 2021-04-14
-categories: ["podcast", "content-strategy"]
+categories: ["podcast"]
 tags : content-operations
 cover: rahel-bailie-headshot.jpg
 coverAlt : Content strategist and author Rahel Bailie
