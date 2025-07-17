@@ -1,4 +1,7 @@
 {% include 'layouts/partials/header.njk' %}
+ {% if page.url == "/about/about-ed-marsh/" %}
+            <img src="/assets/images/ed-marsh.jpg" style="float:right; width:200px" alt="Ed Marsh"/>
+        {% endif %}
 {% if collectionName == "skills" and cover or item.data.cover %}
     <figure class="hero flex justify-end float-right ml-2">
         <img src="/assets/images/{{ cover or item.data.cover }}" title="{{ description or item.data.description }}" alt="{{ description or item.data.description }}" class="w-full h-48 border-4 shadow-md"></figure>
@@ -9,12 +12,10 @@
         <div
             id="podcast-player" class="my-10">
             {# subscribe widget        <iframe src='https://widgets.blubrry.com/32643/subscribe/' id='2140010353-subscribe-681e62658dec7' name='2140010353-subscribe-681e62658dec7' allowtransparency='true' style='background: none transparent; border: none; width: 100%; height: auto;'></iframe>
-             #}
-            <iframe src="{{ podHostID }}/{{ blubrryId }}/?cache={{ blubrryCache }}#mode-Light&border-000000&progress-000000" title="{{ title }}" scrolling="yes" width="65%" frameborder="0"></iframe>
+                                                             #}
+            <iframe src="{{ podHostID }}/{{ blubrryId }}/?cache={{ blubrryCache }}#mode-Light&border-000000&progress-000000" title="{{ title }}" scrolling="no" frameborder="0"></iframe>
         {% endif %}
-    {% if page.url == "/about/about-ed-marsh/" %}
-        <img src="/assets/images/ed-marsh.jpg" style="float:right; width:200px" alt="Ed Marsh"/>
-    {% endif %}
+    </div>
     {% if content %}
         {{ content | safe }}
     {% endif %}
