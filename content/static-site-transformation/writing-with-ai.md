@@ -2,8 +2,8 @@
 title: 'Asking AI to write documentation'
 description: "Everyone in tech is asking the same question: *Is AI going to take my job*? The answer for coders is *not yet*. For those on the more creative end, including technical writers, it's a bit more grey."
 FontAwesomeIcon: solid fa-keyboard
-featured: true
-featuredOrder: 3
+featured: false
+featuredOrder: 4
 ---
 
 
