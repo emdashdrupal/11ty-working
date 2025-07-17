@@ -1,17 +1,22 @@
-{% if collections.skills %}
-    {% set sortedSkills = collections.skills | sort(false, false, "data.featuredOrder") %}
+{% if collections[collectionName] %}
+    {% if collectionName == "skills" %}
+        {% set sortedCollection = collections[collectionName] | sort(false, false, "data.featuredOrder") %}
+    {% else %}
+        {% set sortedCollection = collections[collectionName] | sort(false, false, "data.date") | reverse %}
+    {% endif %}
+
     {% set currentUrl = page.url %}
     {% set previousPost = false %}
     {% set nextPost = false %}
     {% set foundCurrent = false %}
     {% set prevItem = false %}
 
-    {% for skill in sortedSkills %}
+    {% for item in sortedCollection %}
         {% if foundCurrent and not nextPost %}
-            {% set nextPost = skill %}
+            {% set nextPost = item %}
         {% endif %}
 
-        {% if skill.url == currentUrl %}
+        {% if item.url == currentUrl %}
             {% set foundCurrent = true %}
             {% if prevItem %}
                 {% set previousPost = prevItem %}
@@ -19,7 +24,7 @@
         {% endif %}
 
         {% if not foundCurrent %}
-            {% set prevItem = skill %}
+            {% set prevItem = item %}
         {% endif %}
     {% endfor %}
 
