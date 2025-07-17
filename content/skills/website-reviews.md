@@ -2,7 +2,7 @@
 title: Content reviews
 description : Is your website and its content working for you? Here's a free checklist to help you find out.
 slug: website-reviews
-FontAwesomeIcon: solid fa-handshake
+FontAwesomeIcon: solid fa-magnifying-glass-location
 categories: ["metrics", "content-strategy"]
 cover: content-lifecycle-identify.png
 featured: true
