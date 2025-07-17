@@ -3,7 +3,7 @@ title: Technical writing
 description: Technical writers are a Venn diagram of detective, translator, and librarian.
 FontAwesomeIcon : "solid fa-paragraph"
 featured: true
-featuredOrder: 0
+featuredOrder: 3
 categories: "technical-writing"
 cover: content-lifecycle-create.png
 ---

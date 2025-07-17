@@ -2,8 +2,8 @@
 title: Community building
 description: I excel at engaging the people in your organization who understand the benefits of good content to retain institutional knowledge.
 FontAwesomeIcon: solid fa-people-group
-featured: true
-featuredOrder: 3
+featured: false
+featuredOrder: 6
 categories: community-building
 cover: content-lifecycle-refine.png
 ---

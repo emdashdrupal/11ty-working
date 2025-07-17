@@ -1,52 +1,49 @@
 {% include 'layouts/partials/header.njk' %}
 
-{% if collectionName == "podcasts" or collectionName == "skills" %}
+{% if collectionName == "skills" and cover or item.data.cover %}
     <figure class="hero flex justify-end float-right ml-2">
-        {% if collectionName == "skills" and cover or item.data.cover %}
-            <figure class="hero flex justify-end float-right ml-2">
-                <img src="/assets/images/{{cover or item.data.cover}}" title="{{description or item.data.description}}" alt="{{description or item.data.description}}" class="w-full h-48 border-4 shadow-md">
-            </figure>
-        {% elif collectionName == "podcasts" %}
-            {% include 'layouts/partials/hero-image.njk' %}
- {% endif %}
-        </figure>
-{% if collectionName == "podcasts" %}
+        <img src="/assets/images/{{cover or item.data.cover}}"
+             title="{{description or item.data.description}}"
+             alt="{{description or item.data.description}}"
+             class="w-full h-48 border-4 shadow-md">
+    </figure>
+{% elif collectionName == "podcasts" %}
+    <figure class="hero flex justify-end float-right ml-2">
+        {% include 'layouts/partials/hero-image.njk' %}
+    </figure>
+
     <div id="podcast-player" class="my-10">
 
         {# subscribe widget        <iframe src='https://widgets.blubrry.com/32643/subscribe/' id='2140010353-subscribe-681e62658dec7' name='2140010353-subscribe-681e62658dec7' allowtransparency='true' style='background: none transparent; border: none; width: 100%; height: auto;'></iframe>
  #}
         <iframe src="{{podHostID}}/{{blubrryId}}/?cache={{blubrryCache}}#mode-Light&border-000000&progress-000000" title="{{title}}" scrolling="yes" width="65%" height="165px" frameborder="0"></iframe>
     {% endif %}
-    {% endif %}
-</div>
+{% endif %}
 
 {% if page.url == "/about/about-ed-marsh/" %}
     <img src="/assets/images/ed-marsh.jpg" style="float:right; width:200px" alt="Ed Marsh"/>
 {% endif %}
+
 {% if content %}
     {{ content | safe }}
 {% endif %}
 
-{% if data.cover %}
-    <img src="/assets/images/{{ data.cover }}" alt="{{ data.coverAlt or data.title }}" class="w-full h-48 object-cover mb-2">
-{% endif %}
-
-</article>
 {% set pageCategory = categories %}
 {% set filteredPresentations = presentations | filterByCategory(pageCategory) | default([]) %}
 {% set filteredTools = tools | filterToolsByCategory(pageCategory) | default([]) %}
 
 <div class="grid lg:grid-cols-8 md:grid-cols-3 sm:grid-cols-1 gap-4">
-{% if filteredPresentations and filteredPresentations.length > 0 %}
-    <div class="col-span-4 bg-yellow-500">
-        {% include "layouts/partials/presos.njk" %}
-    </div>
-{% endif %}
+    {% if filteredPresentations and filteredPresentations.length > 0 %}
+        <div class="col-span-4 bg-yellow-500">
+            {% include "layouts/partials/presos.njk" %}
+        </div>
+    {% endif %}
 
-{% if filteredTools and filteredTools.length > 0 %}
-    <div class="col-span-3">
-        {% include "layouts/partials/tools.njk" %}
-    </div>
-{% endif %}
+    {% if filteredTools and filteredTools.length > 0 %}
+        <div class="col-span-3">
+            {% include "layouts/partials/tools.njk" %}
+        </div>
+    {% endif %}
 </div>
+
 {% include 'layouts/partials/footer.njk' %}

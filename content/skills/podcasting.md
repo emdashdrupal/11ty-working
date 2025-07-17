@@ -4,6 +4,8 @@ description: As a host, producer, and guest, I've learned the importance of podc
 FontAwesomeIcon : solid fa-podcast
 categories: podcasting
 cover: content-lifecycle-create.png
+featured: false
+featuredOrder: 4
 ---
 
 Podcasts are a terrifically friendly and informative way to get your message out. With over seven years of experience in podcasting, and numerous presentations about the value of podcasting, let's consider this as part of your [content strategy](/skills/content-strategy/).
