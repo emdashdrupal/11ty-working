@@ -1,10 +1,10 @@
 # edmar.sh llms.txt
 
-> Showcasing Ed Marsh's expertise in technical writing, content strategy, and community building, while offering services to enhance organizational content practices.
+> Ed Marsh: Senior technical writer and content strategist with 30+ years of experience, seeking employment opportunities. Demonstrates AI-enhanced workflows, strategic content leadership, and proven ability to build scalable documentation systems. This portfolio site was built from scratch using AI-assisted development while maintaining full editorial control and quality standards.
 
-- [Ed Marsh Portfolio & Overview](https://edmar.sh): Showcasing Ed Marsh's expertise in technical writing, content strategy, and community building.
-- [Contact Ed Marsh](https://edmar.sh/contact/): Facilitates discussions on content strategy and mentorship.
-- [About Ed Marsh](https://edmar.sh/about/about-ed-marsh/): Ed Marsh's background in technical communication and community engagement.
+- [Ed Marsh Portfolio & Overview](https://edmar.sh): Senior technical writer seeking employment - 30+ years experience in technical writing, content strategy, and AI-enhanced workflows.
+- [Contact Ed Marsh](https://edmar.sh/contact/): Direct contact for employment opportunities, interviews, and professional discussions.
+- [About Ed Marsh](https://edmar.sh/about/about-ed-marsh/): Professional background demonstrating strategic content leadership and cross-functional collaboration skills.
 
 ## Podcasts
 
@@ -43,22 +43,22 @@
 - [Podcast: Todd DeLuca on Career Elevation](https://edmar.sh/podcasts/complimentary-sandwich-featuring-todd-deluca-content-content-episode-9/): Volunteering and team management.
 - [Podcast: Phylise Banner on eLearning](https://edmar.sh/podcasts/i-like-the-ms-with-phylise-banner-content-content-podcast/): eLearning and education theory.
 
-## Content Strategy, Skills & Documentation
+## Professional Skills & Capabilities
 
-- [Content & Community Skills Overview](https://edmar.sh/skills/): Content creation, community building, content strategy.
-- [Technical Writing Best Practices](https://edmar.sh/skills/technical-writing/): Best practices for effective technical documentation.
-- [Content Metrics and Analytics](https://edmar.sh/skills/metrics/): Improving content performance through analytics.
-- [Community Building for Content](https://edmar.sh/skills/community/): Community engagement for technical content.
-- [Information Architecture Guidance](https://edmar.sh/skills/information-architecture/): Enhancing content structure and user experience.
-- [Project Management for Content](https://edmar.sh/skills/project-management/): Project management skills for content projects.
-- [Content Strategy Consulting](https://edmar.sh/skills/content-strategy/): Improving organizational content effectiveness.
-- [Podcasting Experience](https://edmar.sh/skills/podcasting/): Podcasting in technical communication.
-- [Coding & Technical Content Development](https://edmar.sh/skills/code-development/): Coding experience and technical content projects.
+- [Core Skills Portfolio](https://edmar.sh/skills/): Comprehensive overview of technical writing, content strategy, and leadership capabilities for potential employers.
+- [Content Strategy Leadership](https://edmar.sh/skills/content-strategy/): Strategic content planning, governance, and organizational content effectiveness - managed 35+ products.
+- [Information Architecture Expertise](https://edmar.sh/skills/information-architecture/): User-focused content structure and navigation design - reduced content by 50% while increasing engagement.
+- [Technical Writing Excellence](https://edmar.sh/skills/technical-writing/): API documentation, user guides, and cross-functional collaboration with development teams.
+- [Website Reviews & Content Audits](https://edmar.sh/skills/website-reviews/): Content performance analysis and optimization strategies with measurable results.
+- [Data-Driven Content Metrics](https://edmar.sh/skills/metrics/): Analytics implementation, custom dashboards, and content ROI measurement for executive reporting.
+- [Community Building & Stakeholder Management](https://edmar.sh/skills/community/): Cross-functional collaboration, content champion programs, and organizational change management.
+- [Content Creation & Podcasting](https://edmar.sh/skills/podcasting/): End-to-end content series management, from concept to publication and metrics analysis.
+- [Technical Implementation Skills](https://edmar.sh/skills/code-development/): AI-enhanced development workflows, modern web technologies, and documentation system architecture.
 
-## Static Site & AI Documentation
+## AI-Enhanced Development & Modern Technical Skills
 
 - [Content Strategy for Static Site Generators](https://edmar.sh/static-site-transformation/content-strategy-for-ssgs/): Strategy for static site content.
-- [Static Site Transformation Journey](https://edmar.sh/static-site-transformation/): Insights on migrating to a static site generator.
+- [Static Site Transformation Project](https://edmar.sh/static-site-transformation/): Complete documentation of building this portfolio site from scratch using AI-assisted development while maintaining editorial control.
 - [AI Documentation Showcase](https://edmar.sh/static-site-transformation/ai-doc-output/): AI-generated documentation for Ed Marsh’s static website.
 - [AI Documentation Output (Original)](https://edmar.sh/static-site-transformation/ai-doc-output-orig/): Documentation of static site implementation using Eleventy, Tailwind CSS, and Nunjucks.
 - [AI in Technical Writing](https://edmar.sh/static-site-transformation/writing-with-ai/): AI’s role in technical documentation.
