@@ -11,7 +11,6 @@ Let's be honest. Most organizations' content is scattered across Confluence page
 
 Content strategy means the right content in the right format at the right time in the right place. Do you really want to "throw AI" at it without understanding the complexity and the true costs?
 
-
 The best place to start is with a content audit. I *love* content audits. Let me help you and show you how to:
 
 - Understand what content assets you have, where they are, and the formats they're in.
