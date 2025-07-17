@@ -10,7 +10,7 @@
 {# Featured Section Macro - Creates a featured content section #}
 {% macro featuredSection(collectionName, title, description, collections, limit=4) %}
     <section class="mx-auto" id="{{ collectionName }}">
-        <h2>{{ title }}</h2>
+        <h2>{{ title | safe }}</h2>
         <p class="description text-jet-100">{{ description | safe }}</p>
         <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
             {% set featured = collections[collectionName] | filterBy("data.featured", true) %}

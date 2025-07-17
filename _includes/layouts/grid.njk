@@ -3,9 +3,15 @@
 <div class="grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1">
     {% set collectionName = collectionName %}
     {% set filtered_collections = collections[collectionName] %}
-    {% for item in filtered_collections | sort(false, false, "data.featuredOrder")%}
-        {% include "layouts/partials/card.njk" %}
-    {% endfor %}
+    {% if collectionName == "skills" %}
+        {% for item in filtered_collections | sort(false, false, "data.featuredOrder") %}
+            {% include "layouts/partials/card.njk" %}
+        {% endfor %}
+    {% else %}
+        {% for item in filtered_collections | sort(false, false, "data.date") | reverse %}
+            {% include "layouts/partials/card.njk" %}
+        {% endfor %}
+    {% endif %}
 </div>
 
 {% include "layouts/partials/footer.njk" %}
