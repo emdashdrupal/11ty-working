@@ -22,9 +22,9 @@
     {% set pageCategory = categories %}
     {% set filteredPresentations = presentations | filterByCategory(pageCategory) | default([]) %}
     {% set filteredTools = tools | filterToolsByCategory(pageCategory) | default([]) %}
-    <div class="grid lg:grid-cols-8 md:grid-cols-3 sm:grid-cols-1 gap-6 border-t-2 mt-4">
+    <div class="grid lg:grid-cols-8 md:grid-cols-3 sm:grid-cols-1 gap-6 mt-4">
         {% if filteredPresentations and filteredPresentations.length > 0 %}
-            <div class="col-span-4 md:border-r-2 md:border-gray-600 pr-2">
+            <div class="col-span-4 md:border-r-2 md:border-gray-300 pr-1">
                 {% include "layouts/partials/presos.njk" %}
             </div>
         {% endif %}
