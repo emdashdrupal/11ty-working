@@ -6,9 +6,11 @@ featured : true
 featuredOrder : 2
 FontAwesomeIcon : "solid fa-file-waveform"
 ---
-When rebuilding my site, it made sense to use an SSG because it's fast, self-contained, and relevant to what we do as technical communicators. The WordPress site I had for over a decade not longer served my purposes both technologically and in terms of maintenance. The WordPress world also evolved too far for my limited PHP skills from a decade ago to 'just tweak'. I no longer needed the WordPress complexity, infrastructure, features, and plugins that require maintenance. Using an SSG also fit my [cost reduction goal](/static-site-transformation/why/).
+When rebuilding my site, it made sense to use an SSG because it's fast, self-contained, and relevant to what we do as technical communicators. The WordPress site I had for over a decade not longer served my purpose&mdash;both technologically and maintenance. The WordPress world also evolved too far for my limited PHP skills from a decade ago to 'just tweak'. I no longer needed the WordPress complexity, infrastructure, features, and plugins that require maintenance. Using an SSG also fit my [cost reduction goal](/static-site-transformation/why/).
 
-The good news is there are a lot of static site generators to choose from, and that they all work similarly. The bad news is there are a lot of static site generators to choose from, and that they all work similarly. Once you learn the basic principles, it's easier to figure out the nuances of each SSG and decide which is best for you. Working with SSGs is *not* a plug and play experience. In a prior role, our output went through a heavily customized version of [Gatsby](https://gatsbyjs.com). I wasn't hands-on with it because we needed a team of developers to support it.
+The good news is there are a lot of static site generators to choose from, and that they all work similarly. The bad news is there are a lot of static site generators to choose from, and that they all work similarly. Once you learn the basic principles, it's easier to figure out the nuances of each SSG and decide which is best for you.
+
+Working with SSGs is *not* a plug and play experience. In a prior role, our output went through a heavily customized version of [Gatsby](https://gatsbyjs.com). I wasn't hands-on with it because we needed a team of developers to support it.
 
 ## My SSG requirements
 
