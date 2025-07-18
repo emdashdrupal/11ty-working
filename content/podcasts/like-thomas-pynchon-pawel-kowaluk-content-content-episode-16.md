@@ -17,7 +17,6 @@ blubrryCache: 174715964
 ---
 
 
-
 > After recording, we became aware that Pawel left the Soap! Conference team after one year. To further clarify, Pawel did not have a role in the formation of MeetContent, though he is an active member of the community. Content Content regrets any confusion or offense to those involved.
 
 ## Mentioned during this episode

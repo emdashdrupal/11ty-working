@@ -13,7 +13,6 @@ blubrryId: 145351328
 blubrryCache: 1747159751
 ---
 
-
 Carlos is the Director of Professional and Technical Writing at Virginia Tech, is on the Lightweight DITA Technical Committee, and is an advocate for using multimedia with DITA.
 
 

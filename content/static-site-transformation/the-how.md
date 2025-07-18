@@ -6,7 +6,6 @@ featured : true
 featuredOrder : 3
 FontAwesomeIcon : solid fa-file-waveform
 ---
-
 When you start with a decade-old information architecture with lots of legacy content that evolved to include podcasts, it shouldn't be surprising that very few parts of that structure ended up in the new site.
 
 I quickly decided it wasn't worth maintaining all of my old personal and professional blog posts. Most were outdated and not helpful to the technical writing portfolio I wanted the site to be.

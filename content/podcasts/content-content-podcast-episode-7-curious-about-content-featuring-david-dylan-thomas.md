@@ -15,7 +15,6 @@ blubrryId: 145351330
 blubrryCache: 1747159732
 ---
 
-
 ## Mentioned during this episode
 
 - [Dave's _Developing Philly_ documentary webseries](http://developingphilly.com/)

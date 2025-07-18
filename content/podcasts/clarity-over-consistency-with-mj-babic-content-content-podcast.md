@@ -15,7 +15,6 @@ mp3File : content-content-podcast_MJ_Babic.mp3
 blubrryId: 145351368
 blubrryCache: 1747158022
 ---
-
 MJ's had a diverse career, from marketing, feature articles, science journals, and tech writing. But her plan is "helping people complete their tasks with digital products", and to "bring good writing to whatever corner I'm working in at the moment".
 
 ## Mentioned during this episode

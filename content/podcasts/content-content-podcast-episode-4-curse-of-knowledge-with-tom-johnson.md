@@ -15,7 +15,6 @@ blubrryId: 145351326
 blubrryCache: 1747159796
 ---
 
-
 ## Mentioned during this episode
 
 - [Tom's web site - I'd rather be writing](http://idratherbewriting.com/)

@@ -14,7 +14,6 @@ mp3File : Content_Content_podcast_Cruce-Saunders.mp3
 blubrryId: 145351347
 blubrryCache: 17470158821
 ---
-
 ## Mentioned during this episode
 
 - [Joe Gollner](http://www.gollner.ca/)

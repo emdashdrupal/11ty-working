@@ -15,7 +15,6 @@ blubrryId: 145351350
 blubrryCache: 17470158748
 ---
 
-
 Viqui is also an accomplished 'bad-ass bass player' and a self-proclaimed techcomm evangelist.
 
 ## Mentioned during this episode

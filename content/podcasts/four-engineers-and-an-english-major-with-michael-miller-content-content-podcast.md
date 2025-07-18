@@ -14,7 +14,6 @@ blubrryCache: 1747158106
 ---
 
 
-
 ## Mentioned during this episode
 
 - [Curse of Knowledge with Tom Johnson](/podcasts/content-content-podcast-episode-4-curse-of-knowledge-with-tom-johnson/)

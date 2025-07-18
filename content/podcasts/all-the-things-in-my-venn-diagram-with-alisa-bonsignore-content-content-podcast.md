@@ -14,7 +14,6 @@ blubrryCache: 1747158086
 
 ---
 
-
 ## Mentioned during this episode
 
 - [Alisa's business - Clarifying Complex Ideas](https://clarifyingcomplexideas.com/)

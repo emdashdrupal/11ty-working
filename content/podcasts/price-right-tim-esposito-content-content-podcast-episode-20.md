@@ -13,7 +13,6 @@ blubrryId: 145351343
 blubrryCache: 1747159188
 ---
 
-
 ## Mentioned during this episode
 
 - [Tim's site](https://tmesposit.wordpress.com/)

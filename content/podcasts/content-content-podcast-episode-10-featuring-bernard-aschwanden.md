@@ -13,7 +13,6 @@ blubrryId: 145351334
 blubrryCache: 1747159671
 ---
 
-
 ## Mentioned during this episode
 
 - [@aschwanden4stc](http://twitter.com/aschwanden4stc)

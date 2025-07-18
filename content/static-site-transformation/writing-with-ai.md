@@ -5,16 +5,13 @@ FontAwesomeIcon: solid fa-keyboard
 featured: false
 featuredOrder: 4
 ---
-
-
-
-I've always [dabbled in code](/skills/code-development/). My problem has always been that I don't know how to express the logic in my head in code. So I asked AI to do a tech writer's job and document the code for my site.
+I've always [dabbled in code](/skills/code-development/), but I always had difficulty expressing the logic in my head in code. So I asked AI to do a tech writer's job and document the code for my site.
 
 My first forays into large language models were with Google Gemini (n&#233;e Bard). I asked how to write code for automation tasks in Windows Powershell and Python. Fast-forward a year or two, and GitHub Copilot is baked into VS Code.
 
 ## AI documentation output
 
-I asked GitHub Copilot to do my job by documenting my codebase, write summaries, and even read through my own content. My prompt was `think like a technical writer and create a markdown file that documents this site`.
+I asked GitHub Copilot (and other AI LLMs) to do my job by documenting my codebase, write summaries, and even read through my own content. My prompt was `think like a technical writer and create a markdown file that documents this site`.
 
 This is a good example of what AI can do for you, but also where humans are invaluable. A large language model (LLM) can write a code sample, but can't tell if it displays correctly.
 
@@ -45,4 +42,4 @@ What I took away is how my site is interpreted by people, bots, and generative A
 
 There's plenty to learn from this output, especially because it's only going to get better. I think there's opportunity for technical communicators to improve and verify AI-generated documentation. There's also huge potential for tech writers to use AI to describe their codebase, generate code samples, and translate content into useful info.
 
-I'm not ~~proud~~ shocked by how much I relied on a chatbot to program this website, but it helped me deliver. I'm not a developer, and my goal wasn't to become one, so using AI allowed me to (eventually) focus on the content I wanted to focus on. It did make me appreciate specialized development roles, because no one can do it all, even with AI.
+I'm not ~~proud~~ shocked by how much I relied on a chatbot to program this website, but it helped me deliver (toward the end of this project I learned this is called *vibe-coding*). I'm not a developer, and my goal wasn't to become one, so using AI allowed me to (eventually) focus on the content I wanted to focus on. It did make me appreciate specialized development roles, because no one can do it all, even with AI.
