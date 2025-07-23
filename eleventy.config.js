@@ -47,6 +47,23 @@ const md = new markdownIt(config.markdown).use(anchor, {
 
 module.exports = function (eleventyConfig) {
   // Filters
+  eleventyConfig.addFilter("date", function(date, format) {
+    if (!date) return "";
+    const d = new Date(date);
+    if (format === "YYYY-MM-DD") {
+      return d.getFullYear() + '-' +
+             String(d.getMonth() + 1).padStart(2, '0') + '-' +
+             String(d.getDate()).padStart(2, '0');
+    }
+    if (format === "YYYY-MMM-DD") {
+      const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+      return d.getFullYear() + '-' +
+             months[d.getMonth()] + '-' +
+             String(d.getDate()).padStart(2, '0');
+    }
+    return date;
+  });
+
   eleventyConfig.addFilter("filterBy", function (array, key, value) {
     if (!array || !key) return [];
     try {
