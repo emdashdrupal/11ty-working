@@ -6,5 +6,5 @@
     "layout": "layouts/details.njk",
     "category": "Static site transformation",
     "categoryFontAwesomeIcon": "solid fa-truck-fast",
-    "date": "2024-11-24"
+    "date": "Last Modified"
 }
