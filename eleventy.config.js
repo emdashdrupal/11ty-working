@@ -161,7 +161,7 @@ module.exports = function (eleventyConfig) {
 
   // Determine if date should be shown based on URL
   eleventyConfig.addFilter("shouldShowDate", function(url) {
-    const excludedUrls = ["/", "/about/", "/contact/"]; // URLs where date should not be shown
+    const excludedUrls = ["/", "/about/", "/contact/", "/skills/"]; // URLs where date should not be shown
     return !excludedUrls.includes(url);
   });
 
