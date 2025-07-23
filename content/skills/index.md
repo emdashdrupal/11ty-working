@@ -5,5 +5,6 @@ tags : "skills"
 eleventyExcludeFromCollections : true
 layout: "layouts/grid.njk"
 buttonText : "Learn more"
+date : 2025-05-20
 ---
 ![Content lifecycle diagram](/assets/images/content-lifecycle.png)

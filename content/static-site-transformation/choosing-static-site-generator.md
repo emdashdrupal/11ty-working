@@ -5,6 +5,7 @@ tags : content-strategy
 featured : true
 featuredOrder : 2
 FontAwesomeIcon : "solid fa-file-waveform"
+date: 2024-12-10
 ---
 When rebuilding my site, it made sense to use an SSG because it's fast, self-contained, and relevant to what we do as technical communicators. The WordPress site I had for over a decade not longer served my purpose&mdash;both technologically and maintenance. The WordPress world also evolved too far for my limited PHP skills from a decade ago to 'just tweak'. I no longer needed the WordPress complexity, infrastructure, features, and plugins that require maintenance. Using an SSG also fit my [cost reduction goal](/static-site-transformation/why/).
 
