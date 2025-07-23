@@ -20,6 +20,7 @@ This approach resulted in a professional-grade website built in a fraction of th
 ## Site structure
 
 ### Technology stack
+
 - **Static site generator**: [Eleventy (11ty)](https://www.11ty.dev/) v3.0.0
 - **Template engine**: Nunjucks
 - **Styling**: Tailwind CSS with custom configurations
@@ -84,12 +85,14 @@ This approach resulted in a professional-grade website built in a fraction of th
 ## Key features demonstrating my capabilities
 
 ### Strategic content management
+
 - **Structured data approach**: YAML front matter drives all content organization
 - **Priority-based presentation**: Skills use `featuredOrder` to highlight most relevant capabilities
 - **Scalable taxonomy**: Flexible categories and tags system for future growth
 - **Visual storytelling**: Strategic use of cover images to enhance user engagement
 
 ### User experience design
+
 - **Mobile-first responsive design**: Ensures accessibility across all devices
 - **Intelligent content sorting**:
   - Skills prioritized by strategic importance (`featuredOrder`)
@@ -98,6 +101,7 @@ This approach resulted in a professional-grade website built in a fraction of th
 - **Fast, accessible search**: Client-side search with Pagefind for immediate results
 
 ### Technical architecture
+
 - **Modular, maintainable code**: Reusable Nunjucks macros reduce duplication
 - **Component-based design**: Scalable partial system for consistent presentation
 - **Template inheritance**: Efficient layout system that scales with content growth
@@ -106,6 +110,7 @@ This approach resulted in a professional-grade website built in a fraction of th
 ## Content strategy for employment positioning
 
 ### Target audience
+
 - **Hiring managers** seeking content strategists and technical writers
 - **HR professionals** evaluating candidates with modern AI skills
 - **Content teams** looking for experienced practitioners who can leverage new technologies
@@ -120,6 +125,7 @@ This approach resulted in a professional-grade website built in a fraction of th
 5. **Technical blog series**: In-depth exploration showing both strategic and technical competencies
 
 ### SEO & Discoverability
+
 - Semantic HTML structure
 - Meta descriptions and titles
 - Image alt text and captions
@@ -129,6 +135,7 @@ This approach resulted in a professional-grade website built in a fraction of th
 ## Technical implementation showcasing modern skills
 
 ### AI-assisted build process
+
 1. **Strategic planning**: I defined all requirements and architecture decisions
 2. **AI-accelerated coding**: Used AI assistance for rapid template and component development
 3. **Quality control**: Thoroughly tested and refined all generated code
@@ -136,6 +143,7 @@ This approach resulted in a professional-grade website built in a fraction of th
 5. **Automated deployment**: Set up CI/CD pipeline for seamless updates
 
 ### Modern development practices
+
 - **Static site generation**: Demonstrates understanding of modern web architecture
 - **Component-based design**: Shows ability to create scalable, maintainable systems
 - **Performance-first approach**: Optimized for speed and user experience
@@ -143,6 +151,7 @@ This approach resulted in a professional-grade website built in a fraction of th
 - **SEO optimization**: Strategic implementation for discoverability
 
 ### Skills demonstrated through implementation
+
 - **Strategic thinking**: Architectural decisions that support business goals
 - **Technical competency**: Hands-on development with modern tools
 - **AI collaboration**: Effective use of AI while maintaining quality standards
@@ -152,12 +161,14 @@ This approach resulted in a professional-grade website built in a fraction of th
 ## Maintenance & Updates
 
 ### Content Updates
+
 - Skills pages updated as expertise evolves
 - Regular blog posts documenting new projects
 - Podcast episodes added as they're published
 - Speaking engagements and tools updated quarterly
 
 ### Technical Maintenance
+
 - Dependency updates managed via npm
 - Build process monitored via Netlify
 - Performance metrics tracked
@@ -166,12 +177,14 @@ This approach resulted in a professional-grade website built in a fraction of th
 ## Success Metrics
 
 ### Engagement
+
 - Page views and session duration
 - Contact form submissions
 - Speaking engagement requests
 - Podcast download statistics
 
 ### Professional Impact
+
 - Client acquisition through the site
 - Industry recognition and citations
 - Community engagement and feedback

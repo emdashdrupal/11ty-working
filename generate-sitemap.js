@@ -23,8 +23,8 @@ const mainSections = [
   { path: '/', priority: defaultPriority.home, changefreq: 'weekly' },
   { path: '/about/about-ed-marsh/', priority: defaultPriority.section, changefreq: 'monthly' },
   { path: '/contact/', priority: defaultPriority.section, changefreq: 'monthly' },
-  { path: '/skills/', priority: defaultPriority.section, changefreq: 'weekly' },
-  { path: '/podcasts/', priority: defaultPriority.section, changefreq: 'weekly' },
+  { path: '/skills/', priority: defaultPriority.section, changefreq: 'monthly' },
+  { path: '/podcasts/', priority: defaultPriority.section, changefreq: 'monthly' },
   { path: '/static-site-transformation/', priority: defaultPriority.section, changefreq: 'weekly' }
 ];
 
