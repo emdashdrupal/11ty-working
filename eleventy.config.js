@@ -14,13 +14,13 @@ const config = {
     linkify: true,
     typographer: true
   },
-  
+
   syntaxHighlight: {
     templateFormats: ["njk", "md"],
     alwaysWrapLineHighlights: false,
     trim: true
   },
-  
+
   feed: {
     type: "rss",
     outputPath: "/feed.xml",
@@ -152,7 +152,6 @@ module.exports = function (eleventyConfig) {
     "_includes/js": "js/",
     "podcast.xml": "podcast.xml",
     "llms.txt": "llms.txt",
-    "sitemap.xml": "sitemap.xml",
   });
 
   // Collections

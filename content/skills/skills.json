@@ -4,5 +4,6 @@
     "layout": "layouts/details.njk",
     "tags": "skills",
     "category": "Skills",
-    "categoryFontAwesomeIcon": "solid fa-user-check"
+    "categoryFontAwesomeIcon": "solid fa-user-check",
+    "date": "2025-01-20"
   }

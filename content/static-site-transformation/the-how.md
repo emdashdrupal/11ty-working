@@ -5,6 +5,7 @@ tags : content-strategy
 featured : true
 featuredOrder : 3
 FontAwesomeIcon : solid fa-file-waveform
+date: 2025-01-10
 ---
 When you start with a decade-old information architecture with lots of legacy content that evolved to include podcasts, it shouldn't be surprising that very few parts of that structure ended up in the new site.
 

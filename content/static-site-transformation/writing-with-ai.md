@@ -4,6 +4,7 @@ description: "Everyone in tech is asking the same question: *Is AI going to take
 FontAwesomeIcon: solid fa-keyboard
 featured: false
 featuredOrder: 4
+date: 2025-01-02
 ---
 I've always [dabbled in code](/skills/code-development/), but I always had difficulty expressing the logic in my head in code. So I asked AI to do a tech writer's job and document the code for my site.
 

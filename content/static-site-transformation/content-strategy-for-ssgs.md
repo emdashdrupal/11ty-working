@@ -4,6 +4,7 @@ description: It's critical to structure, plan, and maintain your content. Workin
 FontAwesomeIcon: solid fa-folder-tree
 featured: true
 featuredOrder: 1
+date: 2025-02-01
 ---
 ## Determining personas
 
