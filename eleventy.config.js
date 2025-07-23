@@ -160,10 +160,24 @@ module.exports = function (eleventyConfig) {
   );
 
   // Determine if date should be shown based on URL
-  eleventyConfig.addFilter("shouldShowDate", function(url) {
-    const excludedUrls = ["/", "/about/", "/contact/", "/skills/"]; // URLs where date should not be shown
-    return !excludedUrls.includes(url);
+
+eleventyConfig.addFilter("shouldShowDate", function(page) {
+    // If showDate is explicitly set to false, don't show the date
+    if (page.data && page.data.showDate === false) return false;
+
+    // Otherwise, use the URL exclusion list
+    const excludedUrls = ["/", "/about/", "/contact/", "/skills/"];
+
+    // Check for exact URL matches
+    if (excludedUrls.includes(page.url)) return false;
+
+    // Check for URL patterns (sections to exclude)
+    const excludedPatterns = ["/skills/", "/about/", "/contact/"];
+    if (excludedPatterns.some(pattern => page.url.startsWith(pattern))) return false;
+
+    return true;
   });
+
 
   // ===== PLUGINS =====
   eleventyConfig.setLibrary("md", md); // Set markdown library

@@ -60,7 +60,7 @@
             <main class="container mx-auto py-1 px-4 md:px-6 max-w-4xl">
                 <article class="max-w-2xl">
                     <h1>{{ title or metadata.title | markdown | safe }}</h1>
-                    {% if page.date and page.url | shouldShowDate %}
+                    {% if page.date and page | shouldShowDate %}
                         <div id="dateline" class="italic text-sm mt-2">
                             Last updated: {{ page.date | date("YYYY-MMM-DD") }}
                         </div>
