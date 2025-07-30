@@ -5,7 +5,7 @@ categories: ["podcast"]
 tags : content-operations
 cover: rahel-bailie-headshot.jpg
 coverAlt : Content strategist and author Rahel Bailie
-description : Rahel Bailie joins Ed Marsh to talk about an uneven history of content strategy, object-oriented content, how her career has led her across two continents, and the history of women in technical communication.
+description : Rahel talks about an uneven history of content strategy, object-oriented content, how her career has led her across two continents, and the history of women in technical communication.
 mp3File: Content_Content_podcast_Rahel_Bailie.mp3
 blubrryId: 145351367
 blubrryCache: 1747158062
