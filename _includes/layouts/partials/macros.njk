@@ -25,7 +25,7 @@
 {% endmacro %}
 {% macro dropdown(id, label, items, homepageUrl) %}
     <li class="dropdown rounded-sm">
-        <a href="{{ homepageUrl }}" id="{{ id }}-button" class="px-3 hover:bg-success-800 rounded-sm" aria-expanded="false" aria-haspopup="true" aria-controls="{{ id }}-menu">
+        <a href="{{ homepageUrl }}" id="{{ id }}-button" class="px-3 hover:bg-success-800 rounded-sm no-underline" aria-expanded="false" aria-haspopup="true" aria-controls="{{ id }}-menu">
             {{ label }}
             <span class="ml-1">&#9660;</span>
         </a>
@@ -33,7 +33,7 @@
             {% set sortedItems = items | sort(false, false, "data.featuredOrder") %}
             {% for item in sortedItems %}
                 <li role="menuitem" class="block w-full text-jet hover:bg-medium-blue" id="{{ id }}-menu">
-                    <a href="{{ item.url | url }}" class="font-sans" role="none" tabindex="-1" data-index="{{ loop.index0 }}">
+                    <a href="{{ item.url | url }}" class="font-sans no-underline" role="none" tabindex="-1" data-index="{{ loop.index0 }}">
                         {{ item.data.title }}
                     </a>
                 </li>
@@ -42,7 +42,7 @@
     </li>
 {% endmacro %}
 {% macro listItem(url, label) %}
-    {% set classList %} hover:transition-colors hover:bg-success-200 rounded-sm font-sans
+    {% set classList %} hover:transition-colors hover:bg-success-200 rounded-sm font-sans no-underline
     {% if label == "LinkedIn" %}
         fa-brands fa-linkedin text-2xl
     {% elif label == "GitHub" %}
@@ -52,8 +52,8 @@
         md:duration-200 md:align-top md:whitespace-nowrap md:hover:shadow-md
     {% endif %}
     {% endset %}
-    <li class="rounded-sm font-sans">
-        <a href="{{ url }}" id="{{ label | slugify }}-item" class="{{ classList | trim }}" {% if label in ['LinkedIn', 'GitHub'] %} aria-label="visit-ed-marsh-on-{{ label }}" title="Visit Ed Marsh on {{ label }}" {% else %} aria-label="{{ label | slugify }}" {% endif %}>
+    <li class="rounded-sm font-sans no-underline">
+        <a href="{{ url }}" id="{{ label | slugify }}-item" class="{{ classList | trim }} no-underline" {% if label in ['LinkedIn', 'GitHub'] %} aria-label="visit-ed-marsh-on-{{ label }}" title="Visit Ed Marsh on {{ label }}" {% else %} aria-label="{{ label | slugify }}" {% endif %}>
             {% if not(label in['LinkedIn', 'GitHub']) %}
                 {{ label }}
             {% endif %}

@@ -15,17 +15,62 @@ listItem %}
             class="md:grid md:grid-flow-col md:auto-cols-auto gap-2 items-start md:items-center md:justify-end"
             aria-label="Main navigation menu"
             role="menubar">
-            {# Mobile view - simple links #}
-            <div class="block md:hidden">
-                {{ listItem('/static-site-transformation/', 'Blog') }}
-                {{ listItem('/skills/', 'Skills') }}
-            </div>
-            {# Desktop view - dropdowns #}
-            <div class="hidden md:block">
-                {{ dropdown('blogDropdown', 'Blog', collections.blog, '/static-site-transformation/') }}
-                {{ dropdown('skillsDropdown', 'Skills', collections.skills, '/skills/') }}
-            </div>
-            {{ listItem('/podcasts/', 'Podcast') }}
+            {# Blog - Mobile: simple link, Desktop: dropdown #}
+            <li class="block md:hidden rounded-sm font-sans">
+                <a href="/static-site-transformation/" class="hover:transition-colors hover:bg-success-200 rounded-sm font-sans">Blog</a>
+            </li>
+            <li class="hidden md:block dropdown rounded-sm">
+                <a
+                    href="/static-site-transformation/"
+                    id="blogDropdown-button"
+                    class="px-3 hover:bg-success-800 rounded-sm"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    aria-controls="blogDropdown-menu">
+                    Blog
+                    <span class="ml-1">&#9660;</span>
+                </a>
+                <ul class="dropdown-menu bg-slate-50" role="menu" aria-labelledby="blogDropdown-button">
+                    {% set sortedItems = collections.blog | sort(false, false, "data.featuredOrder") %}
+                    {% for item in sortedItems %}
+                        <li role="menuitem" class="block w-full text-jet hover:bg-medium-blue" id="blogDropdown-menu">
+                            <a href="{{ item.url | url }}" class="font-sans" role="none" tabindex="-1" data-index="{{ loop.index0 }}">
+                                {{ item.data.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            {# Podcast - Same for both mobile and desktop #}
+            <li class="rounded-sm font-sans">
+                <a href="/podcasts/" class="hover:transition-colors hover:bg-success-200 rounded-sm font-sans">Podcast</a>
+            </li>
+            {# Skills - Mobile: simple link, Desktop: dropdown #}
+            <li class="block md:hidden rounded-sm font-sans">
+                <a href="/skills/" class="hover:transition-colors hover:bg-success-200 rounded-sm font-sans">Skills</a>
+            </li>
+            <li class="hidden md:block dropdown rounded-sm">
+                <a
+                    href="/skills/"
+                    id="skillsDropdown-button"
+                    class="px-3 hover:bg-success-800 rounded-sm"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    aria-controls="skillsDropdown-menu">
+                    Skills
+                    <span class="ml-1">&#9660;</span>
+                </a>
+                <ul class="dropdown-menu bg-slate-50" role="menu" aria-labelledby="skillsDropdown-button">
+                    {% set sortedItems = collections.skills | sort(false, false, "data.featuredOrder") %}
+                    {% for item in sortedItems %}
+                        <li role="menuitem" class="block w-full text-jet hover:bg-medium-blue" id="skillsDropdown-menu">
+                            <a href="{{ item.url | url }}" class="font-sans" role="none" tabindex="-1" data-index="{{ loop.index0 }}">
+                                {{ item.data.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </li>
             {{ listItem('/about/about-ed-marsh/', 'About') }}
             {{ listItem('https://linkedin.com/in/edmarsh', 'LinkedIn') }}
             {{ listItem('https://github.com/emdashdrupal/11ty-working', 'GitHub') }}
