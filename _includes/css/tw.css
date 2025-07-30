@@ -1276,6 +1276,34 @@ video {
     border-color: rgb(107 114 128 / var(--tw-border-opacity, 1));
   }
 
+  .md\:border-gray-900 {
+    --tw-border-opacity: 1;
+    border-color: rgb(17 24 39 / var(--tw-border-opacity, 1));
+  }
+
+  .md\:bg-green-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(134 239 172 / var(--tw-bg-opacity, 1));
+  }
+
+  .md\:bg-green-600 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(22 163 74 / var(--tw-bg-opacity, 1));
+  }
+
+  .md\:bg-green-200 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(187 247 208 / var(--tw-bg-opacity, 1));
+  }
+
+  .md\:p-4 {
+    padding: 1rem;
+  }
+
+  .md\:p-2 {
+    padding: 0.5rem;
+  }
+
   .md\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
