@@ -17,13 +17,15 @@ listItem %}
             role="menubar">
             {# Blog - Mobile: simple link, Desktop: dropdown #}
             <li class="block md:hidden rounded-sm font-sans">
-                <a href="/static-site-transformation/" class="hover:transition-colors hover:bg-success-200 rounded-sm font-sans">Blog</a>
+                <a
+                    href="/static-site-transformation/"
+                    class="no-underline hover:transition-colors hover:bg-success-200 rounded-sm font-sans">Blog</a>
             </li>
             <li class="hidden md:block dropdown rounded-sm">
                 <a
                     href="/static-site-transformation/"
                     id="blogDropdown-button"
-                    class="px-3 hover:bg-success-800 rounded-sm"
+                    class="no-underline px-3 hover:bg-success-800 rounded-sm"
                     aria-expanded="false"
                     aria-haspopup="true"
                     aria-controls="blogDropdown-menu">
@@ -34,26 +36,29 @@ listItem %}
                     {% set sortedItems = collections.blog | sort(false, false, "data.featuredOrder") %}
                     {% for item in sortedItems %}
                         <li role="menuitem" class="block w-full text-jet hover:bg-medium-blue" id="blogDropdown-menu">
-                            <a href="{{ item.url | url }}" class="font-sans" role="none" tabindex="-1" data-index="{{ loop.index0 }}">
+                            <a href="{{ item.url | url }}" class="no-underline font-sans" role="none" tabindex="-1" data-index="{{ loop.index0 }}">
                                 {{ item.data.title }}
                             </a>
                         </li>
                     {% endfor %}
                 </ul>
             </li>
-            {# Podcast - Same for both mobile and desktop #}
-            <li class="rounded-sm font-sans">
-                <a href="/podcasts/" class="hover:transition-colors hover:bg-success-200 rounded-sm font-sans">Podcast</a>
+            {# Podcast - Mobile: simple link, Desktop: simple link #}
+            <li class="block md:hidden rounded-sm font-sans">
+                <a href="/podcasts/" class="no-underline hover:transition-colors hover:bg-success-200 rounded-sm font-sans">Podcast</a>
+            </li>
+            <li class="hidden md:block rounded-sm font-sans">
+                <a href="/podcasts/" class="no-underline hover:transition-colors hover:bg-success-200 rounded-sm font-sans">Podcast</a>
             </li>
             {# Skills - Mobile: simple link, Desktop: dropdown #}
             <li class="block md:hidden rounded-sm font-sans">
-                <a href="/skills/" class="hover:transition-colors hover:bg-success-200 rounded-sm font-sans">Skills</a>
+                <a href="/skills/" class="no-underline hover:transition-colors hover:bg-success-200 rounded-sm font-sans">Skills</a>
             </li>
             <li class="hidden md:block dropdown rounded-sm">
                 <a
                     href="/skills/"
                     id="skillsDropdown-button"
-                    class="px-3 hover:bg-success-800 rounded-sm"
+                    class="no-underline px-3 hover:bg-success-800 rounded-sm"
                     aria-expanded="false"
                     aria-haspopup="true"
                     aria-controls="skillsDropdown-menu">
@@ -64,7 +69,7 @@ listItem %}
                     {% set sortedItems = collections.skills | sort(false, false, "data.featuredOrder") %}
                     {% for item in sortedItems %}
                         <li role="menuitem" class="block w-full text-jet hover:bg-medium-blue" id="skillsDropdown-menu">
-                            <a href="{{ item.url | url }}" class="font-sans" role="none" tabindex="-1" data-index="{{ loop.index0 }}">
+                            <a href="{{ item.url | url }}" class="no-underline font-sans" role="none" tabindex="-1" data-index="{{ loop.index0 }}">
                                 {{ item.data.title }}
                             </a>
                         </li>
