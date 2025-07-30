@@ -18,8 +18,9 @@
     </div>
 </section>
 {% from "layouts/partials/macros.njk" import featuredSection %}
-{{ featuredSection("blog", "Blog: Creating a static site", "I updated and simplified my old WordPress site using the <a href='https://www.11ty.dev/'>Eleventy static site generator</a>. Here's how I can use the lessons learned to help you meet your content goals. <span class='col-span-full text-lg font-bold italic'><a href='/static-site-transformation/'>Check back frequently to read the full series!</a></span>", collections) }}
-<section class="mx-auto" id="podcasts">
+{{ featuredSection("blog", "Blog: Creating a static site", "I updated and simplified my old WordPress site using the <a href='https://www.11ty.dev/'>Eleventy static site generator</a>. Here's how I can use the lessons learned to help you meet your content goals. <span class='font-bold italic'><a href='/static-site-transformation/'>Check back frequently to read the full series!</a></span>", collections) }}
+{% set collectionName = "podcasts" %}
+<section id="{{ collectionName }}">
     <h2>Recent podcasts</h2>
     <p class="description text-jet-100">The Content Content podcast is where I interview &ldquo;the people behind the
         content&rdquo; in technical communication, content strategy, content marketing, implementation, and more. Check out
@@ -36,6 +37,7 @@
             {% endif %}
         {% endfor %}
     </div>
+    {{ featuredSection("skills", "How I can help you", "Here are the biggest ways I can impact your organization. <a href='/skills/'>See all the ways I can help</a>.", collections) }}
 </section>
 {{ featuredSection("skills", "How I can help you", "Here are the biggest ways I can impact your organization. <a href='/skills/'>See all the ways I can help</a>.", collections) }}
 {% include 'layouts/partials/footer.njk' %}
