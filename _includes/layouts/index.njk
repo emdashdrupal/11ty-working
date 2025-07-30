@@ -33,10 +33,6 @@
         </div>
     </div>
 </section>
-{% from "layouts/partials/macros.njk" import featuredSection %}
-{{ featuredSection("skills", "How I can help you", "Here are the biggest ways I can impact your organization. <a href='/skills/'>See all the ways I can help</a>.", collections) }}
-{{ featuredSection("blog", "Blog&thinsp;&mdash;&thinsp;Creating a static site", "I updated and simplified my old WordPress site using the <a href='https://www.11ty.dev/'>Eleventy static site generator</a>. Here's how I can use the lessons learned to help you meet your content goals. <span class='col-span-full text-lg font-bold italic'><a href='/static-site-transformation/'>Check back frequently to read the full series!</a></span>", collections) }}
-{% set collectionName = "podcasts" %}
 <section id="{{ collectionName }}">
     <h2>Recent podcasts</h2>
     <p class="description text-jet-100">I'm the jack-of-all-trades for the
@@ -55,4 +51,9 @@
         {% endfor %}
     </div>
 </section>
+{% from "layouts/partials/macros.njk" import featuredSection %}
+{{ featuredSection("skills", "How I can help you", "Here are the biggest ways I can impact your organization. <a href='/skills/'>See all the ways I can help</a>.", collections) }}
+{{ featuredSection("blog", "Blog&thinsp;&mdash;&thinsp;Creating a static site", "I updated and simplified my old WordPress site using the <a href='https://www.11ty.dev/'>Eleventy static site generator</a>. Here's how I can use the lessons learned to help you meet your content goals. <span class='col-span-full text-lg font-bold italic'><a href='/static-site-transformation/'>Check back frequently to read the full series!</a></span>", collections) }}
+{% set collectionName = "podcasts" %}
+
 {% include 'layouts/partials/footer.njk' %}
