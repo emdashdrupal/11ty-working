@@ -25,9 +25,9 @@
 {% endmacro %}
 {% macro dropdown(id, label, items, homepageUrl) %}
     <li class="dropdown rounded-sm">
-        <a href="{{ homepageUrl }}" id="{{ id }}-button" class="px-3 hover:bg-success-800 rounded-sm" aria-expanded="false" aria-haspopup="true" aria-controls="{{ id }}-menu">
+        <a href="{{ homepageUrl }}" id="{{ id }}-button" class="md:px-3 hover:bg-success-800 rounded-sm" aria-expanded="false" aria-haspopup="true" aria-controls="{{ id }}-menu">
             {{ label }}
-            <span class="ml-1">&#9660;</span>
+            <span class="ml-1 hidden md:inline">&#9660;</span>
         </a>
         <ul class="dropdown-menu bg-slate-50" role="menu" aria-labelledby="{{ id | slugify }}-button">
             {% set sortedItems = items | sort(false, false, "data.featuredOrder") %}
@@ -48,8 +48,8 @@
     {% elif label == "GitHub" %}
         fa-brands fa-github text-2xl
     {% elif label == "Contact Ed" %}
-        bg-success-600 hover:bg-success-700 text-jet-200 px-2 py-2 rounded-md border-2 border-gray-500 shadow-sm transition-all
-        duration-200 align-top whitespace-nowrap border border-success-700 hover:shadow-md
+        md:bg-green-200 md:rounded-md md:border-2 md:border-gray-900 md:transition-all
+        md:duration-200 md:align-top md:whitespace-nowrap md:hover:shadow-md md:p-2
     {% endif %}
     {% endset %}
     <li class="rounded-sm font-sans">
