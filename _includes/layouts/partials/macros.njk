@@ -27,7 +27,7 @@
     <li class="dropdown rounded-sm">
         <a href="{{ homepageUrl }}" id="{{ id }}-button" class="px-3 hover:bg-success-800 rounded-sm" aria-expanded="false" aria-haspopup="true" aria-controls="{{ id }}-menu">
             {{ label }}
-            <span class="ml-1">&#9660;</span>
+            <span class="ml-1 hidden md:inline">&#9660;</span>
         </a>
         <ul class="dropdown-menu bg-slate-50" role="menu" aria-labelledby="{{ id | slugify }}-button">
             {% set sortedItems = items | sort(false, false, "data.featuredOrder") %}
