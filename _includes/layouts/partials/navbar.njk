@@ -18,15 +18,14 @@ listItem %}
             {# Mobile view - simple links #}
             <div class="block md:hidden">
                 {{ listItem('/static-site-transformation/', 'Blog') }}
-                {{ listItem('/podcasts/', 'Podcast') }}
                 {{ listItem('/skills/', 'Skills') }}
             </div>
             {# Desktop view - dropdowns #}
             <div class="hidden md:block">
+                {{ dropdown('blogDropdown', 'Blog', collections.blog, '/static-site-transformation/') }}
                 {{ dropdown('skillsDropdown', 'Skills', collections.skills, '/skills/') }}
-                {{ listItem('/podcasts/', 'Podcast') }}
-                {{ dropdown('blogDropdown', 'Blog', collections.blog, '/static-site-transformation/') }}{{ dropdown('skillsDropdown', 'Skills', collections.skills, '/skills/') }}
             </div>
+            {{ listItem('/podcasts/', 'Podcast') }}
             {{ listItem('/about/about-ed-marsh/', 'About') }}
             {{ listItem('https://linkedin.com/in/edmarsh', 'LinkedIn') }}
             {{ listItem('https://github.com/emdashdrupal/11ty-working', 'GitHub') }}
