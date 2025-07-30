@@ -40,18 +40,21 @@
                     {% endfor %}
                 </ul>
             </li>
-            {# Podcast - Same for both mobile and desktop #}
-            <li class="rounded-sm font-sans">
-                <a href="/podcasts/" class="hover:transition-colors hover:bg-success-200 rounded-sm font-sans">Podcast</a>
+            {# Podcast - Mobile: simple link, Desktop: simple link #}
+            <li class="block md:hidden rounded-sm font-sans">
+                <a id="podcast-menu" href="/podcasts/" class="hover:transition-colors hover:bg-success-200 rounded-sm font-sans">Podcast</a>
+            </li>
+            <li class="hidden md:block rounded-sm font-sans">
+                <a id="podcast-menu" href="/podcasts/" class="hover:transition-colors hover:bg-success-200 rounded-sm font-sans">Podcast</a>
             </li>
             {# Skills - Mobile: simple link, Desktop: dropdown #}
             <li class="block md:hidden rounded-sm font-sans">
-                <a href="/skills/" class="hover:transition-colors hover:bg-success-200 rounded-sm font-sans">Skills</a>
+                <a id="skillsDropdown-item" href="/skills/" class="hover:transition-colors hover:bg-success-200 rounded-sm font-sans">Skills</a>
             </li>
             <li class="hidden md:block dropdown rounded-sm">
                 <a
                     href="/skills/"
-                    id="skillsDropdown-button"
+                    id="skillsDropdown-menu"
                     class="px-3 hover:bg-success-800 rounded-sm"
                     aria-expanded="false"
                     aria-haspopup="true"
