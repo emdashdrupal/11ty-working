@@ -35,8 +35,7 @@
 </section>
 {% from "layouts/partials/macros.njk" import featuredSection %}
 {{ featuredSection("blog", "Blog: Creating a static site", "I updated and simplified my old WordPress site using the <a href='https://www.11ty.dev/'>Eleventy static site generator</a>. Here's how I can use the lessons learned to help you meet your content goals. <span class='col-span-full text-lg font-bold italic'><a href='/static-site-transformation/'>Check back frequently to read the full series!</a></span>", collections) }}
-{% set collectionName = "podcasts" %}
-<section id="{{ collectionName }}">
+<section class="mx-auto" id="podcasts">
     <h2>Recent podcasts</h2>
     <p class="description text-jet-100">I'm the jack-of-all-trades for the
         <a href="podcasts/">Content Content podcast</a>, where I interview &ldquo;the people behind the content&rdquo; in
@@ -46,13 +45,14 @@
         </span>
     </p>
     <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
-        {% set filtered_collections = collections.podcasts %}
-        {% for item in filtered_collections | sort(false, false, "data.date") | reverse %}
+        {% set collectionName = "podcasts" %}
+        {% set sortedPodcasts = collections.podcasts | sort(false, false, "data.date") | reverse %}
+        {% for item in sortedPodcasts %}
             {% if loop.index0 <= 3 %}
                 {% include 'layouts/partials/card.njk' %}
             {% endif %}
         {% endfor %}
     </div>
-    {{ featuredSection("skills", "How I can help you", "Here are the biggest ways I can impact your organization. <a href='/skills/'>See all the ways I can help</a>.", collections) }}
 </section>
+{{ featuredSection("skills", "How I can help you", "Here are the biggest ways I can impact your organization. <a href='/skills/'>See all the ways I can help</a>.", collections) }}
 {% include 'layouts/partials/footer.njk' %}

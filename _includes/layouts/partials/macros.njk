@@ -1,12 +1,3 @@
-{# Collection Sorting Logic - Returns a sorted collection based on collection type #}
-{% macro getSortedCollection(collectionName, collection) %}
-    {% if collectionName == "skills" %}
-        {% set sortedCollection = collection | sort(false, false, "data.featuredOrder") %}
-    {% else %}
-        {% set sortedCollection = collection | sort(false, false, "data.date") | reverse %}
-    {% endif %}
-    {{ sortedCollection }}
-{% endmacro %}
 {# Featured Section Macro - Creates a featured content section #}
 {% macro featuredSection(collectionName, title, description, collections, limit=4) %}
     <section class="mx-auto" id="{{ collectionName }}">
@@ -14,7 +5,11 @@
         <p class="description text-jet-100">{{ description | safe }}</p>
         <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
             {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
-            {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
+            {% if collectionName == "skills" or collectionName == "blog" %}
+                {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
+            {% else %}
+                {% set sortedFeatured = featured | sort(false, false, "data.date") | reverse %}
+            {% endif %}
             {% for item in sortedFeatured %}
                 {% if loop.index0 < limit %}
                     {% include 'layouts/partials/card.njk' %}
@@ -48,8 +43,8 @@
     {% elif label == "GitHub" %}
         fa-brands fa-github text-2xl
     {% elif label == "Contact Ed" %}
-        md:bg-success-600 md:rounded-md md:border-2 md:border-gray-500 md:transition-all
-        md:duration-200 md:align-top md:whitespace-nowrap md:hover:shadow-md
+        md:bg-success-600 md:rounded-md md:border-2 md:border-gray-500 md:transition-all md:duration-200 md:align-top
+        md:whitespace-nowrap md:hover:shadow-md
     {% endif %}
     {% endset %}
     <li class="rounded-sm font-sans">
