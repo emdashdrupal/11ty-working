@@ -3,10 +3,8 @@
     <div class="grid col-auto sm:grid-cols-2 mb-2">
         <div class="sm:grid-cols-2 gap-6">
             <p>
-                <span class="text-lg font-sans font-semibold">Hi, I'm Ed Marsh</span>. I've created concise, consistent, and accessible
-                    technical content for over three decades. I specialize in defining and uplifting documentation best practices.</p>
-            <p class="mt-6">I rebuilt this portfolio site to show not only my content expertise, but how I can relate to and
-                collaborate with developers and stakeholders.</p>
+                <span class="text-lg font-sans font-semibold">Hi, I'm Ed Marsh</span>. I've created and managed concise, consistent, and accessible content for over three decades. I specialize in defining and uplifting documentation best practices, including content strategy and information architecture.</p>
+            <p class="mt-6">I built this site to show how my content and technical expertise can help your clients, developers, and stakeholders.</p>
         </div>
         <div class="rounded-lg max-w-48">
             <img
@@ -19,23 +17,5 @@
 </section>
 {% from "layouts/partials/macros.njk" import featuredSection %}
 {{ featuredSection("blog", "Blog: Creating a static site", "I updated and simplified my old WordPress site using the <a href='https://www.11ty.dev/'>Eleventy static site generator</a>. Here's how I can use the lessons learned to help you meet your content goals. <span class='font-bold italic'><a href='/static-site-transformation/'>Check back frequently to read the full series!</a></span>", collections) }}
-{% set collectionName = "podcasts" %}
-<section id="{{ collectionName }}">
-    <h2>Recent podcasts</h2>
-    <p class="description text-jet-100">The Content Content podcast is where I interview &ldquo;the people behind the
-        content&rdquo; in technical communication, content strategy, content marketing, implementation, and more. Check out
-        <span class="italic">
-            <a href="/podcasts/">all of the amazing people I spoke with.</a>
-        </span>
-    </p>
-    <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
-        {% set filtered_collections = collections.podcasts %}
-        {% for item in filtered_collections | sort(false, false, "data.date") | reverse %}
-            {% if loop.index0 <= 3 %}
-                {% include 'layouts/partials/card.njk' %}
-            {% endif %}
-        {% endfor %}
-    </div>
-    {{ featuredSection("skills", "How I can help you", "Here are the biggest ways I can impact your organization. <a href='/skills/'>See all the ways I can help</a>.", collections) }}
-</section>
-{% include 'layouts/partials/footer.njk' %}
+{{ featuredSection("podcasts", "Recent podcasts", "The Content Content podcast is where I interview &ldquo;the people behind the content&rdquo; in technical communication, content strategy, content marketing, implementation, and more. Check out <span class='italic'><a href='/podcasts/'>all of the amazing people I spoke with.</a></span>", collections) }}
+{{ featuredSection("skills", "How I can help you", "Here are the biggest ways I can impact your organization. <a href='/skills/'>See all the ways I can help</a>.", collections) }}</section>{% include 'layouts/partials/footer.njk' %}

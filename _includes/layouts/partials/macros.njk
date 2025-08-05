@@ -13,9 +13,13 @@
         <h2>{{ title | safe }}</h2>
         <p class="description text-jet-100">{{ description | safe }}</p>
         <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
-            {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
-            {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
-            {% for item in sortedFeatured %}
+            {% if collectionName == "podcasts" %}
+                {% set itemsToShow = collections[collectionName] | sort(false, false, "data.date") | reverse %}
+            {% else %}
+                {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
+                {% set itemsToShow = featured | sort(false, false, "data.featuredOrder") %}
+            {% endif %}
+            {% for item in itemsToShow %}
                 {% if loop.index0 < limit %}
                     {% include 'layouts/partials/card.njk' %}
                 {% endif %}
@@ -48,8 +52,8 @@
     {% elif label == "GitHub" %}
         fa-brands fa-github text-2xl
     {% elif label == "Contact Ed" %}
-        md:bg-green-200 md:rounded-md md:border-1 md:border-gray-900 md:transition-all
-        md:duration-200 md:align-top md:whitespace-nowrap md:hover:shadow-md md:p-2
+        md:bg-green-200 md:rounded-md md:border-1 md:border-gray-900 md:transition-colors
+        md:duration-600 md:align-top md:whitespace-nowrap hover:bg-green-400 md:border-white-100 md:hover:shadow-md md:p-2
     {% endif %}
     {% endset %}
     <li class="rounded-sm font-sans">
