@@ -25,6 +25,14 @@ const config = {
   },
 
   // RSS feed configuration
+  pluginsConfig: {
+      feedPlugin: {
+          eleventyExcludeFromCollections: true, // Exclude from collections so we can have a separate page for it.
+          generatorName: "11ty", // Optional name to use in the <meta> tag.
+          atomFeedFileName: "feed/atom.xml",
+          rssFeedFileName: "feed/rss.xml"
+      }
+  },
   feed: {
     type: "rss", // Output format
     outputPath: "/feed.xml", // Where to save the feed
@@ -51,26 +59,24 @@ const md = new markdownIt(config.markdown).use(anchor, {
 
 module.exports = function (eleventyConfig) {
   // ===== FILTERS =====
-
-  // Date formatting filter
-  eleventyConfig.addFilter("date", function(date, format) {
-    if (!date) return "";
-    const d = new Date(date);
-    if (format === "YYYY-MM-DD") {
-      // Format as YYYY-MM-DD (e.g., 2025-07-23)
-      return d.getFullYear() + '-' +
-             String(d.getMonth() + 1).padStart(2, '0') + '-' +
-             String(d.getDate()).padStart(2, '0');
-    }
-    if (format === "YYYY-MMM-DD") {
-      // Format as YYYY-MMM-DD (e.g., 2025-Jul-23)
-      const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-      return d.getFullYear() + '-' +
-             months[d.getMonth()] + '-' +
-             String(d.getDate()).padStart(2, '0');
-    }
-    return date; // Return original date if format not recognized
-  });
+eleventyConfig.addFilter("date", function(date, format) {
+  if (!date) return "";
+  const d = new Date(date);
+  if (format === "YYYY-MM-DD") {
+    // Format as YYYY-MM-DD (e.g., 2025-07-23)
+    return d.getFullYear() + '-' +
+           String(d.getMonth() + 1).padStart(2, '0') + '-' +
+           String(d.getDate()).padStart(2, '0');
+  }
+  if (format === "YYYY-MMM-DD") {
+    // Format as YYYY-MMM-DD (e.g., 2025-Jul-23)
+    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    return d.getFullYear() + '-' +
+           months[d.getMonth()] + '-' +
+           String(d.getDate()).padStart(2, '0');
+  }
+  return date; // Return original date if format not recognized
+});
 
   // Filter array items by a key-value pair
   eleventyConfig.addFilter("filterBy", function (array, key, value) {
