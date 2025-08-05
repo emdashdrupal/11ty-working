@@ -13,9 +13,13 @@
         <h2>{{ title | safe }}</h2>
         <p class="description text-jet-100">{{ description | safe }}</p>
         <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
-            {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
-            {% set sortedFeatured = featured | sort(false, false, "data.featuredOrder") %}
-            {% for item in sortedFeatured %}
+            {% if collectionName == "podcasts" %}
+                {% set itemsToShow = collections[collectionName] | sort(false, false, "data.date") | reverse %}
+            {% else %}
+                {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
+                {% set itemsToShow = featured | sort(false, false, "data.featuredOrder") %}
+            {% endif %}
+            {% for item in itemsToShow %}
                 {% if loop.index0 < limit %}
                     {% include 'layouts/partials/card.njk' %}
                 {% endif %}
