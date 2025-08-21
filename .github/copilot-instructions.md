@@ -8,6 +8,13 @@ Always use active voice.
 The tone for this content should be authoritative but friendly.
 Always use contractions.
 All list items should end in a period.
-Punctuation should always go outside quotation marks and parentheses.
-Front matter (metadata) key-value pairs should have a space before and after the colon.
+Place punctuation *outside* formatting such as quotation marks, parentheses, bold, or italic.
+
 When possible, use the [Microsoft style guide for technical content](https://learn.microsoft.com/en-us/style-guide/welcome/).
+
+## Frontmatter requirements for pages
+
+- Frontmatter (metadata) key-value pairs should have a space before and after the colon.
+- title: Clear, descriptive page title
+- description: Concise summary for SEO/navigation and content reuse
+- date: for posts in the `static-site-generator` folder.

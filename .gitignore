@@ -26,3 +26,5 @@ _includes/layouts/partials/index-test.njk
 coverage/
 *.log
 .nyc_output/
+upload-products.sh
+bulk_upload_grocy.py
