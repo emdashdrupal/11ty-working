@@ -4,9 +4,10 @@ description : I modularized my presentations and tools experience so they could 
 FontAwesomeIcon: solid fa-recycle
 ---
 
-I created (with the help of GitHub Copilot) two `json` files:
+I originally had my skills and presentation content in bulleted lists. I created (with the help of GitHub Copilot) two `json` files:
 
 - One that contained data about all of my presentations: their titles, year (or years), link, category, venue (the location or event), and type (webinar, in-person, panel discussion, podcast guest or host, etc.)
+
     ```json
         {
       "title": "So, you want to be a technical writer?",
@@ -17,6 +18,7 @@ I created (with the help of GitHub Copilot) two `json` files:
       "type": "webinar"
     },
     ```
+
 - One that listed the tools I've used over my career, with their publisher, product name, and relevant categories.
 
     ```json
