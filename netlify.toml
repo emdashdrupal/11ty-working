@@ -1,0 +1,33 @@
+[functions]
+
+  [functions.emails]
+  included_files = [
+    "./emails/**"
+  ]
+
+[context]
+
+  [context.production]
+
+    [context.production.functions]
+
+      [context.production.functions.emails]
+      included_files = [
+        "./emails/**"
+      ]
+
+  [context.matt-nicole-review]
+
+    [context.matt-nicole-review.functions]
+
+      [context.matt-nicole-review.functions.emails]
+      included_files = [
+        "./emails/**"
+      ]
+[[redirects]]
+  from = "/podcast"
+  to = "/podcasts"
+
+[[redirects]]
+  from = "/content-content-podcast"
+  to = "/podcasts"
