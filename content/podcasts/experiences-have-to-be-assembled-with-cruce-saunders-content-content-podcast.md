@@ -9,7 +9,7 @@ categories:
   - "technical writing"
 cover: Cruce-Headshot-200x300.jpg
 coverAlt : Cruce Saunders of A, Content Content podcast guest
-description : In an intense episode focused on [intelligent content](https://thecontentwrangler.com/2011/01/17/what-is-intelligent-content/#), Cruce Saunders of [[A]](https://simplea.com) and Ed Marsh discuss content in the enterprise and how to make it an asset in the C-suite, job titles in the content world, lightweight markup languages, and much more.
+description : In an intense episode focused on intelligent content, Cruce Saunders of [[A]](https://simplea.com) and Ed Marsh discuss content in the enterprise and how to make it an asset in the C-suite, job titles in the content world, lightweight markup languages, and much more.
 mp3File : Content_Content_podcast_Cruce-Saunders.mp3
 blubrryId: 145351347
 blubrryCache: 17470158821
@@ -17,7 +17,6 @@ blubrryCache: 17470158821
 ## Mentioned during this episode
 
 - [Joe Gollner](http://www.gollner.ca/)
-- [Ann Rockley on the definition of intelligent content](https://thecontentwrangler.com/2011/01/17/what-is-intelligent-content/#)
 - [Financial Accounting Standards Board (FASB)](https://www.fasb.org)
 - [Adobe Experience Manager (AEM)](https://www.adobe.com/marketing/experience-manager.html)
 - [Scott Brinker](https://chiefmartec.com/)
