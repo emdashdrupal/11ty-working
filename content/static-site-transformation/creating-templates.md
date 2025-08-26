@@ -48,7 +48,7 @@ I ended up with three main page templates: `index.njk` for the homepage, grid pa
 - The header and footer.
 - "Macros" that helped build the cards and drop-down menus.
 
-You can view all of these in the repo. I tried as much as possible to not repeat myself to be consistent in both content and code, but I'm sure there's still a lot of optimization left on the table. This is where having [AI like GitHub Copilot helped out](writing-with-ai).
+You can view all of these in the repo. I tried as much as possible to not repeat myself to be consistent in both content and code, but I'm sure there's still a lot of optimization left on the table. This is where having [AI like GitHub Copilot helped out](/static-site-transformation/writing-with-ai).
 
 ## Structure
 
