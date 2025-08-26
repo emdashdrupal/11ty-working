@@ -208,6 +208,7 @@ eleventyConfig.addFilter("shouldShowDate", function(page) {
     "_includes/js": "js/", // JavaScript files
     "podcast.xml": "podcast.xml", // Podcast feed
     "llms.txt": "llms.txt", // LLMs configuration
+    "netlify.toml": "netlify.toml", // Redirects from edmarsh.com legacy URLs
   });
 
   // ===== COLLECTIONS =====
