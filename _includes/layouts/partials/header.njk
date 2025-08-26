@@ -34,12 +34,13 @@
             {% endif %}
         </title>
         <link rel="icon" href="/assets/images/favicon.ico">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Besley:ital, wght@0, 400..900;1, 400..900 &family=Poppins:ital, wght@0, 100;0, 200;0, 300;0, 400;0, 500;0, 600;0, 700;0, 800;0, 900;1, 100;1, 200;1, 300;1, 400;1, 500;1, 600;1, 700;1, 800;1, 900&family=Reddit+Mono:wght@200..900&display=swap');
+        <link rel="stylesheet" href="https://indestructibletype.com/fonts/Besley.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200..700&family=Reddit+Mono&display=swap">
+
+{#         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Besley&family=Poppins:wght@200..900&family=Reddit+Mono&display=swap');
         </style>
-        <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet"/>
+ #}        <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet"/>
         <link rel="stylesheet" type="text/css" href="/css/tw.css">
         <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="/css/base.css">
@@ -49,7 +50,7 @@
         {% block nav %}
             <header>
                 <nav aria-label="ed-marsh-introduction-and-site-navigation-menu">
-                    <div class="bg-medium-blue mx-auto max-w-4xl px-2 px-0" id="main-navbar">
+                    <div class="bg-medium-blue mx-auto max-w-4xl px-2" id="main-navbar">
                         {% include 'layouts/partials/navbar.njk' %}
                     </div>
                     {% include 'layouts/partials/breadcrumb.njk' %}
