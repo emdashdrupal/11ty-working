@@ -16,14 +16,6 @@
         "./emails/**"
       ]
 
-  [context.matt-nicole-review]
-
-    [context.matt-nicole-review.functions]
-
-      [context.matt-nicole-review.functions.emails]
-      included_files = [
-        "./emails/**"
-      ]
 [[redirects]]
   from = "/podcast"
   to = "/podcasts"
@@ -31,3 +23,11 @@
 [[redirects]]
   from = "/content-content-podcast"
   to = "/podcasts"
+
+[[redirects]]
+  from = "*professional-technical-writing-examples"
+  to = "/static-site-generator"
+
+[[redirects]]
+  from = "*contact-ed-marsh-information-architect-technical-writer"
+  to = "/contact"

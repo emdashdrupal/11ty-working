@@ -19,7 +19,7 @@ blubrryCache: 1747160375
 
 - [Malaphors](http://malaphors.com/) ("Unintentional blended idioms and phrases&mdash;It's the cream of the cake!" by David Hatfield, the Malaphor King)
 
-- [What Is Intelligent Content?](http://contentmarketinginstitute.com/intelligent-content/what-is-intelligent-content/) (includes links to my six-pack of articles delving into each element of Ann Rockley's classic definition)
+- [What Is Intelligent Content?](https://contentmarketinginstitute.com/what-is-intelligent-content) (includes links to my six-pack of articles delving into each element of Ann Rockley's classic definition)
 
 - [Writing.Rocks](http://writing.rocks/) (Marcia's blog, where you can play the weekly concise-writing game *Tighten This!*)
 
