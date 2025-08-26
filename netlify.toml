@@ -31,3 +31,7 @@
 [[redirects]]
   from = "/content-content-podcast"
   to = "/podcasts"
+
+[[redirects]]
+ from = "*/professional-technical-writing-examples"
+ to = "static-site-transformation"
