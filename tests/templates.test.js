@@ -74,6 +74,8 @@ describe('Template rendering', () => {
     const dom = createDom();
     const indexPath = path.join(__dirname, '..', '_includes', 'layouts', 'index.njk');
     const content = fs.readFileSync(indexPath, 'utf8');
+    expect(content.includes('{%- from "layouts/partials/macros.njk" import featuredSection -%}')).toBe(true);
+
     /* expect(content.includes('{% block content %}')).toBe(true);
     expect(content.includes('{% endblock %}')).toBe(true);
      */cleanupDom(dom);
@@ -84,7 +86,7 @@ describe('Template rendering', () => {
     const navbarPath = path.join(__dirname, '..', '_includes', 'layouts', 'partials', 'navbar.njk');
     expect(fs.existsSync(navbarPath)).toBe(true);
     const content = fs.readFileSync(navbarPath, 'utf8');
-    expect(content.includes('{% from "layouts/partials/macros.njk"')).toBe(true);
+    expect(content.includes('{%- from "layouts/partials/macros.njk"')).toBe(true);
     cleanupDom(dom);
   });
 });
