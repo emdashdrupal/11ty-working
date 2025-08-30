@@ -64,8 +64,8 @@ describe('Template rendering', () => {
     const dom = createDom();
     const indexPath = path.join(__dirname, '..', '_includes', 'layouts', 'index.njk');
     const content = fs.readFileSync(indexPath, 'utf8');
-/*     expect(content.includes('<html>')).toBe(true);
-    expect(content.includes('<head>')).toBe(true);
+  expect(content.includes('<span class="text-lg font-sans font-semibold">Hi, I\'m Ed Marsh</span>.')).toBe(true);
+  /*     expect(content.includes('<head>')).toBe(true);
     expect(content.includes('<body>')).toBe(true); */
     cleanupDom(dom);
   });
@@ -74,6 +74,8 @@ describe('Template rendering', () => {
     const dom = createDom();
     const indexPath = path.join(__dirname, '..', '_includes', 'layouts', 'index.njk');
     const content = fs.readFileSync(indexPath, 'utf8');
+    expect(content.includes('{% from "layouts/partials/macros.njk" import featuredSection %}')).toBe(true);
+
     /* expect(content.includes('{% block content %}')).toBe(true);
     expect(content.includes('{% endblock %}')).toBe(true);
      */cleanupDom(dom);
