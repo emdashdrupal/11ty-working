@@ -236,3 +236,8 @@ eleventyConfig.addFilter("shouldShowDate", function(page) {
     templateFormats: ["md", "njk", "html"], // File formats to process
   };
 };
+const nunjucks = require('nunjucks');
+const env = nunjucks.configure('views', {
+    lstripBlocks: true, // Automatically remove leading whitespace from blocks/tags
+    trimBlocks: true    // Automatically remove trailing newlines from blocks/tags
+});

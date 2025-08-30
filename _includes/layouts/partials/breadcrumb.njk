@@ -1,16 +1,15 @@
 <div aria-label="breadcrumb" class="mx-auto rounded-b-md border-6 mb-4 px-4 bg-gray-200 max-w-4xl align-top shadow-md">
-    <span class="fa-solid fa-house text-grey-green"></span>
-    <a href="/">Home</a>
-    {% if category %}
-        <span class="fa-solid fa-chevron-right mx-2 text-sm text-jet-700"></span>
-        {% if categoryFontAwesomeIcon %}
+    <span class="fa-solid fa-house text-grey-green"></span><a href="/">Home</a>
+    {%- if category -%}
+        <span class="fa-solid fa-chevron-right mx-2 text-sm jet-700"></span>
+        {%- if categoryFontAwesomeIcon -%}
             <span class="fa-{{ categoryFontAwesomeIcon }} mx-2 text-grey-green"></span>
-        {% endif %}
-        <a href="/{{ category | slugify }}">{{ category }}</a>
-    {% endif %}
-    <span class="fa-solid fa-chevron-right mx-2 text-sm text-jet-700"></span>
+        {%- endif -%}
+        <a href="/{{ category | slugify }}">{{ category|trim }}</a>
+    {%- endif -%}
+    <span class="fa-solid fa-chevron-right mx-2 text-sm jet-700"></span>
     <span class="text-gray-600" aria-current="page">
-        {% if FontAwesomeIcon %}
+        {%- if FontAwesomeIcon -%}
             <span class="fa-{{ FontAwesomeIcon }} mx-2 text-medium-blue"></span>
-        {% endif %}{{ title }}</span>
+        {% endif %}{{ title| trim }}</span>
 </div>
