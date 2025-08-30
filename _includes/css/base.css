@@ -212,6 +212,236 @@ ul li:not(#menubar>ul>li):not(div>ul>div>li):not(.dropdown) {
     list-style-position: unset;
 }
 
+/* Background Colors - Alphabetical */
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-cadet-gray {
+    background-color: var(--cadet-gray);
+}
+
+.bg-success {
+    background-color: var(--success);
+}
+
+.bg-success-100 {
+    background-color: var(--success-100);
+}
+
+.bg-success-200 {
+    background-color: var(--success-200);
+}
+
+.bg-success-300 {
+    background-color: var(--success-300);
+}
+
+.bg-success-400 {
+    background-color: var(--success-400);
+}
+
+.bg-success-500 {
+    background-color: var(--success-500);
+}
+
+.bg-success-600 {
+    background-color: var(--success-600);
+}
+
+.bg-success-700 {
+    background-color: var (--success-700);
+}
+
+.bg-success-800 {
+    background-color: var(--success-800);
+}
+
+.bg-success-900 {
+    background-color: var(--success-900);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.jet-100 {
+    background-color: #0c0b0e;
+}
+
+.jet-200 {
+    background-color: #18161b;
+}
+
+.jet-300 {
+    background-color: #242129;
+}
+
+.jet-400 {
+    background-color: #302b37;
+}
+
+.jet-500 {
+    background-color: #3c3744;
+}
+
+.jet-600 {
+    background-color: #635c71;
+}
+
+.jet-700 {
+    background-color: #8a819d;
+}
+
+.jet-800 {
+    background-color: #b2acc3;
+}
+
+.jet-900 {
+    background-color: #d9d6e1;
+}
+
+.bg-midnight-green {
+    background-color: var(--midnight-green);
+}
+
+.bg-light-blue {
+    background-color: var(--light-blue);
+}
+
+.bg-whitish {
+    background-color: var(--whitish);
+}
+
+.bg-grey-green {
+    background-color: var(--grey-green);
+}
+
+.bg-medium-blue {
+    background-color: var(--medium-blue);
+}
+
+.bg-green-blue {
+    background-color: var(--green-blue);
+}
+
+/* Text Colors - Alphabetical */
+.text-blue {
+    color: var(--blue);
+}
+
+.text-cadet-gray {
+    color: var(--cadet-gray);
+}
+
+.text-chartreuse {
+    color: var(--chartreuse);
+}
+
+.text-success {
+    color: var(--success);
+}
+
+.text-success-100 {
+    color: var(--success-100);
+}
+
+.text-success-200 {
+    color: var(--success-200);
+}
+
+.text-success-300 {
+    color: var(--success-300);
+}
+
+.text-success-400 {
+    color: var(--success-400);
+}
+
+.text-success-500 {
+    color: var(--success-500);
+}
+
+.text-success-600 {
+    color: var(--success-600);
+}
+
+.text-success-700 {
+    color: var(--success-700);
+}
+
+.text-success-800 {
+    color: var(--success-800);
+}
+
+.text-success-900 {
+    color: var(--success-900);
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.jet-100 {
+    color: #0c0b0e;
+}
+
+.jet-200 {
+    color: #18161b;
+}
+
+.jet-300 {
+    color: #242129;
+}
+
+.jet-400 {
+    color: #302b37;
+}
+
+.jet-500 {
+    color: #3c3744;
+}
+
+.jet-600 {
+    color: #635c71;
+}
+
+.jet-700 {
+    color: #8a819d;
+}
+
+.jet-800 {
+    color: #b2acc3;
+}
+
+.jet-900 {
+    color: #d9d6e1;
+}
+
+.text-midnight-green {
+    color: var(--midnight-green);
+}
+
+.text-light-blue {
+    color: var(--light-blue);
+}
+
+.text-whitish {
+    color: var(--whitish);
+}
+
+.text-grey-green {
+    color: var(--grey-green);
+}
+
+.text-medium-blue {
+    color: var(--medium-blue);
+}
+
+.text-green-blue {
+    color: var(--green-blue);
+}
+
 /* Component Styles - Grouped by component */
 /* Cards */
 .card-description {

@@ -93,7 +93,7 @@
 {% endmacro %}
     {% macro renderButton(url, buttonText, title = "") %}
         <a href="{{ url }}" role="button" class="font-sans" {% if title %} aria-label="Learn-more-about-{{ title | slugify }}" {% else %} aria-label="{{ buttonText | slugify }}" {% endif %} title="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
-            <button type="button" {% if collections.podcasts %} download {% endif %} class="p-2 rounded-lg transition-transform transform mt-0 text-jet-100 bg-medium-blue" aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
+            <button type="button" {% if collections.podcasts %} download {% endif %} class="p-2 rounded-lg transition-transform transform mt-0 jet-100 bg-medium-blue" aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
                 <span class="sr-only">
                     {% if title %}Learn more about {{ title }}
                     {% else %}
