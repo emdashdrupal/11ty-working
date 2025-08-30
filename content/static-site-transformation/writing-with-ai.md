@@ -1,12 +1,15 @@
 ---
 title: 'Asking AI to write documentation'
-description: "Everyone in tech is asking the same question: *Is AI going to take my job*? The answer for coders is *not yet*. For those on the more creative end, including technical writers, it's a bit more grey."
+description: 'I decided to see if AI was going to take my job.'
 FontAwesomeIcon: solid fa-keyboard
 featured: false
 featuredOrder: 4
 date: 2025-01-02
 ---
-I've always [dabbled in code](/skills/code-development/), but I always had difficulty expressing the logic in my head in code. So I asked AI to do a tech writer's job and document the code for my site.
+
+The answer for coders is *not yet*. For those on the more creative end, including technical writers, it's a bit more grey.
+
+I've always [dabbled in code](/skills/code-development/), but had difficulty expressing the logic in my head in code. So I asked AI to do a tech writer's job and document the code for my site.
 
 My first forays into large language models were with Google Gemini (n&#233;e Bard). I asked how to write code for automation tasks in Windows Powershell and Python. Fast-forward a year or two, and GitHub Copilot is baked into VS Code.
 
