@@ -43,7 +43,12 @@ describe('Template rendering', () => {
     const dom = createDom();
     const mdFile = path.join(__dirname, '..', 'content', 'static-site-transformation', 'writing-with-ai.md');
     const content = fs.readFileSync(mdFile, 'utf8');
-    expect(content).toMatch(/```[\s\S]*?```/);
+    // Verify that frontmatter is correctly formatted and not mistaken for a code block
+    const frontmatterMatch = content.match(/^---[\s\S]*?---/);
+    expect(frontmatterMatch).not.toBeNull();
+    // Check for actual code blocks in the content (after the frontmatter)
+    const contentAfterFrontmatter = content.substring(frontmatterMatch[0].length);
+    expect(contentAfterFrontmatter).toMatch(/```[\s\S]*?```/);
     expect(content.includes('```')).toBe(true);
     cleanupDom(dom);
   });
