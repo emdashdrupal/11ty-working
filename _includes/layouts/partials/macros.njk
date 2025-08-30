@@ -11,7 +11,7 @@
 {% macro featuredSection(collectionName, title, description, collections, limit=4) %}
     <section class="mx-auto" id="{{ collectionName }}">
         <h2>{{ title | safe }}</h2>
-        <p class="description text-jet-100">{{ description | safe }}</p>
+        <p class="description jet-100">{{ description | safe }}</p>
         <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
             {% if collectionName == "podcasts" %}
                 {% set itemsToShow = collections[collectionName] | sort(false, false, "data.date") | reverse %}
@@ -36,7 +36,7 @@
         <ul class="dropdown-menu bg-slate-50" role="menu" aria-labelledby="{{ id | slugify }}-button">
             {% set sortedItems = items | sort(false, false, "data.featuredOrder") %}
             {% for item in sortedItems %}
-                <li role="menuitem" class="block w-full text-jet hover:bg-medium-blue" id="{{ id }}-menu">
+                <li role="menuitem" class="block w-full jet- hover:bg-medium-blue" id="{{ id }}-menu">
                     <a href="{{ item.url | url }}" class="font-sans" role="none" tabindex="-1" data-index="{{ loop.index0 }}">
                         {{ item.data.title }}
                     </a>
@@ -80,7 +80,7 @@
 {% endmacro %}
     {% macro renderButton(url, buttonText, title = "") %}
         <a href="{{ url }}" role="button" class="font-sans" {% if title %} aria-label="Learn-more-about-{{ title | slugify }}" {% else %} aria-label="{{ buttonText | slugify }}" {% endif %} title="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
-            <button type="button" {% if collections.podcasts %} download {% endif %} class="p-2 rounded-lg transition-transform transform mt-0 text-jet-100 bg-medium-blue" aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
+            <button type="button" {% if collections.podcasts %} download {% endif %} class="p-2 rounded-lg transition-transform transform mt-0 jet-100 bg-medium-blue" aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
                 <span class="sr-only">
                     {% if title %}Learn more about {{ title }}
                     {% else %}
