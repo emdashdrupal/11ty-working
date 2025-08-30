@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Mock the Eleventy environment
-jest.mock('eleventy', () => ({
+jest.mock('@11ty/eleventy', () => ({
   // Mock Eleventy functions as needed
 }));
 
