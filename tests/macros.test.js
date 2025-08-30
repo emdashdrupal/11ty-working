@@ -55,7 +55,7 @@ describe('Templates import the macros they use', () => {
       const templateContent = fs.readFileSync(fullPath, 'utf8');
 
       // Check for import statement with correct path
-      expect(templateContent.includes('{% from "layouts/partials/macros.njk"')).toBe(true);
+      expect(templateContent.includes('{%- from "layouts/partials/macros.njk"')).toBe(true);
 
       // Check for each macro usage
       macros.forEach(macroName => {
