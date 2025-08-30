@@ -2,91 +2,94 @@ const { JSDOM } = require('jsdom');
 const fs = require('fs');
 const path = require('path');
 
-// Setup and teardown helpers
-const createDom = () => {
-  const dom = new JSDOM('<!doctype html><html><body></body></html>');
-  global.document = dom.window.document;
-  global.window = dom.window;
-  return dom;
-};
+// Mock the Eleventy environment
+jest.mock('eleventy', () => ({
+  // Mock Eleventy functions as needed
+}));
 
-const cleanupDom = (dom) => {
-  if (dom) {
-    dom = null;
-    delete global.document;
-    delete global.window;
-  }
-};
+describe('Template Rendering Tests', () => {
+  let dom;
 
-describe('Template rendering', () => {
+  beforeEach(() => {
+    // Create a mock DOM environment for testing
+    dom = new JSDOM('<!DOCTYPE html><html><body></body></html>');
+    global.document = dom.window.document;
+    global.window = dom.window;
+  });
+
+  afterEach(() => {
+    // Cleanup after each test
+    if (dom) {
+      dom = null;
+      delete global.document;
+      delete global.window;
+    }
+  });
+
   test('should render templates with correct content', () => {
-    const dom = createDom();
+    // Test that templates render content correctly
     const indexPath = path.join(__dirname, '..', '_includes', 'layouts', 'index.njk');
-    expect(fs.existsSync(indexPath)).toBe(true);
-    const content = fs.readFileSync(indexPath, 'utf8');
 
-    cleanupDom(dom);
+    expect(fs.existsSync(indexPath)).toBe(true);
+
+    const content = fs.readFileSync(indexPath, 'utf8');
+    expect(content).toContain('{% extends "base.njk" %}');
   });
 
   test('should render markdown content correctly', () => {
-    const dom = createDom();
+    // Test that markdown content renders properly
     const mdFile = path.join(__dirname, '..', 'content', 'static-site-transformation', 'writing-with-ai.md');
+
     expect(fs.existsSync(mdFile)).toBe(true);
+
     const content = fs.readFileSync(mdFile, 'utf8');
-    expect(content.includes('---')).toBe(true);
-    expect(content.includes('title:')).toBe(true);
-    expect(content.includes('description:')).toBe(true);
-    cleanupDom(dom);
+    expect(content).toContain('---');
+    expect(content).toContain('title:');
+    expect(content).toContain('description:');
   });
 
-  test('should handle frontmatter and code blocks separately', () => {
-    const dom = createDom();
+  test('should ignore code blocks in markdown files', () => {
+    // Test that code blocks are properly ignored or handled
     const mdFile = path.join(__dirname, '..', 'content', 'static-site-transformation', 'writing-with-ai.md');
-    expect(fs.existsSync(mdFile)).toBe(true);
+
     const content = fs.readFileSync(mdFile, 'utf8');
-    expect(content).toContain('The answer for coders is');  // Verify we're reading the correct file
 
-    // First check frontmatter
-    const frontmatterRegex = /^---\s*\n(?:.*\n)*?---\s*\n/m;
-    const hasFrontmatter = frontmatterRegex.test(content);
-    expect(hasFrontmatter).toBe(true);
+    // Check for code block markers in markdown
+    expect(content).toMatch(/```[\s\S]*?```/);
 
-    // Then look for blockquotes and markdown links in the main content
-    const mainContent = content.replace(frontmatterRegex, '');
-    const hasBlockquote = /^>.*$/m.test(mainContent);
-    const hasMarkdownLink = /\[.*?\]\(.*?\)/.test(mainContent);
-    expect(hasBlockquote).toBe(true);
-    expect(hasMarkdownLink).toBe(true);
-    cleanupDom(dom);
+    // Verify that content contains both markdown and code blocks
+    expect(content).toContain('```');
   });
 
   test('should render templates with proper HTML structure', () => {
-    const dom = createDom();
+    // Test basic HTML structure of rendered templates
     const indexPath = path.join(__dirname, '..', '_includes', 'layouts', 'index.njk');
+
     const content = fs.readFileSync(indexPath, 'utf8');
-  expect(content.includes('<span class="text-lg font-sans font-semibold">Hi, I\'m Ed Marsh</span>.')).toBe(true);
-  /*     expect(content.includes('<head>')).toBe(true);
-    expect(content.includes('<body>')).toBe(true); */
-    cleanupDom(dom);
+
+    expect(content).toContain('<html>');
+    expect(content).toContain('<head>');
+    expect(content).toContain('<body>');
   });
 
   test('should render templates with correct layout structure', () => {
-    const dom = createDom();
+    // Test that templates are structured correctly
     const indexPath = path.join(__dirname, '..', '_includes', 'layouts', 'index.njk');
-    const content = fs.readFileSync(indexPath, 'utf8');
-    expect(content.includes('{%- from "layouts/partials/macros.njk" import featuredSection -%}')).toBe(true);
 
-    /* expect(content.includes('{% block content %}')).toBe(true);
-    expect(content.includes('{% endblock %}')).toBe(true);
-     */cleanupDom(dom);
+    const content = fs.readFileSync(indexPath, 'utf8');
+
+    expect(content).toContain('{% extends "base.njk" %}');
+    expect(content).toContain('{% block content %}');
+    expect(content).toContain('{% endblock %}');
   });
 
   test('should render partials correctly', () => {
-    const dom = createDom();
+    // Test that partials are rendered correctly
     const navbarPath = path.join(__dirname, '..', '_includes', 'layouts', 'partials', 'navbar.njk');
+
     expect(fs.existsSync(navbarPath)).toBe(true);
+
     const content = fs.readFileSync(navbarPath, 'utf8');
-    expect(content.includes('{%- from "layouts/partials/macros.njk"')).toBe(true);
-    cleanupDom(dom);
+    expect(content).toContain('{% for item in navigation %}');
   });
 });
