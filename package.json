@@ -16,7 +16,7 @@
         "test:modular": "node test-modularization.js",
         "generate-sitemap": "node generate-sitemap.js",
         "minify": "npm run minify-css && npm run minify-js && npm run minify-html",
-        "minify-css": "postcss _includes/css/tw.css -o _site/assets/css/tw.css --use autoprefixer cssnano",
+        "minify-css": "postcss _includes/css/tw.css -o _site/assets/css/tw.css --use autoprefixer cssnano --env production",
         "minify-js": "terser _includes/js/*.js -o _site/assets/js/main.js --compress --mangle",
         "minify-html": "html-minifier-terser --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true _site/**/*.html -o _site/**/*.html"
     },
@@ -37,7 +37,8 @@
         "@stackbit/cms-git": "^0.0.14",
         "@stackbit/types": "^2.1.14",
         "@tailwindcss/typography": "^0.5.16",
-        "autoprefixer": "^10.4.20",
+        "autoprefixer": "^10.4.21",
+        "cssnano": "^7.1.1",
         "eleventy": "^1.0.7",
         "glob": "^10.3.10",
         "gray-matter": "^4.0.3",
