@@ -74,10 +74,10 @@
                 <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt or item.data.title }}" data-pagefind-meta="image[{{ item.data.cover }}], image_alt[{{ item.data.coverAlt or item.data.title }}]" class="w-full h-48 object-cover mb-2">
                 {% endif %}
                 <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
-            </h3>
-            <p>{{ item.data.description }}</p>
-        </div>
-    {% endmacro %}
+        </h3>
+        <p>{{ item.data.description }}</p>
+    </div>
+{% endmacro %}
     {% macro renderButton(url, buttonText, title = "") %}
         <a href="{{ url }}" role="button" class="font-sans" {% if title %} aria-label="Learn-more-about-{{ title | slugify }}" {% else %} aria-label="{{ buttonText | slugify }}" {% endif %} title="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
             <button type="button" {% if collections.podcasts %} download {% endif %} class="p-2 rounded-lg transition-transform transform mt-0 text-jet-100 bg-medium-blue" aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
