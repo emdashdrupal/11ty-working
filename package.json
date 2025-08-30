@@ -16,7 +16,7 @@
         "test:modular": "node test-modularization.js",
         "generate-sitemap": "node generate-sitemap.js",
         "minify": "npm run minify-css && npm run minify-js && npm run minify-html",
-        "minify-css": "postcss _includes/css/tw.css -o _site/assets/css/tw.css --use autoprefixer cssnano",
+        "minify-css": "postcss _includes/css/tw.css -o _site/assets/css/tw.css --use autoprefixer cssnano --env production",
         "minify-js": "terser _includes/js/*.js -o _site/assets/js/main.js --compress --mangle",
         "minify-html": "html-minifier-terser --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true _site/**/*.html -o _site/**/*.html"
     },
@@ -29,14 +29,16 @@
         "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
         "eleventy-plugin-time-to-read": "^1.3.0",
         "markdown-it": "^14.1.0",
-        "markdown-it-link-attributes": "^4.0.1"
+        "markdown-it-link-attributes": "^4.0.1",
+        "postcss-cli": "^11.0.1"
     },
     "devDependencies": {
         "@11ty/eleventy-navigation": "^0.3.5",
         "@stackbit/cms-git": "^0.0.14",
         "@stackbit/types": "^2.1.14",
         "@tailwindcss/typography": "^0.5.16",
-        "autoprefixer": "^10.4.20",
+        "autoprefixer": "^10.4.21",
+        "cssnano": "^7.1.1",
         "eleventy": "^1.0.7",
         "glob": "^10.3.10",
         "gray-matter": "^4.0.3",
@@ -45,7 +47,7 @@
         "jsdom": "^26.1.0",
         "markdown-it-anchor": "^9.2.0",
         "markdown-it-attrs": "^4.3.1",
-        "postcss": "^8.4.49",
+        "postcss": "^8.5.6",
         "tailwindcss": "^3.4.17"
     }
 }
