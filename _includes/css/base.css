@@ -6,7 +6,6 @@
     --jet: #3c3744ff;
     --light-blue: #0074D9;
     --medium-blue: #678bb1;
-    --bg-medium-blue: #678bb1;
     --whitish: #f7f7f8;
     --pagefind-ui-primary: #eeeeee;
     --pagefind-ui-text: var(--jet-500);
@@ -21,6 +20,10 @@
     --monospace: "Reddit Mono", Consolas, Courier, monospace;
     --sans-serif: "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --serif: "Besley", serif;
+
+    .bg-medium-blue, .text-medium-blue {
+        background-color: var(--medium-blue);
+    }
 
     /* Color Scales - Grouped */
     --jet-100: #0c0b0e;
