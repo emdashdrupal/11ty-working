@@ -2,14 +2,10 @@
 :root {
     /* Colors - Alphabetical */
     --blue: #1e90ff;
-    --cadet-gray: #94a3b8;
-    --green-blue: #4b788a;
     --grey-green: #96a396;
     --jet: #3c3744ff;
     --light-blue: #0074D9;
     --medium-blue: #678bb1;
-    --midnight-green: #0b5563;
-    --success: #bef9c6;
     --whitish: #f7f7f8;
     --pagefind-ui-primary: #eeeeee;
     --pagefind-ui-text: var(--jet-500);
