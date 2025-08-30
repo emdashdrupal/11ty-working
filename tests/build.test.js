@@ -37,7 +37,7 @@ describe("Site Build", () => {
     expect(fs.existsSync(indexPath)).toBe(true);
 
     const content = fs.readFileSync(indexPath, "utf8");
-    expect(content).toContain("<!DOCTYPE html>");
+    expect(content).toContain("<!doctype html>");
     expect(content).toContain("<html");
     expect(content).toContain("</html>");
     expect(content).toContain("<head>");
