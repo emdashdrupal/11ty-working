@@ -2,11 +2,11 @@
     <span class="fa-solid fa-house text-grey-green"></span><a href="/">Home</a>
     {%- if category -%}
         <span class="fa-solid fa-chevron-right mx-2 text-sm jet-700"></span>
-        {% if categoryFontAwesomeIcon %}
+        {%- if categoryFontAwesomeIcon -%}
             <span class="fa-{{ categoryFontAwesomeIcon }} mx-2 text-grey-green"></span>
-        {% endif %}
-        <a href="/{{ category | slugify }}">{{ category }}</a>
-    {% endif %}
+        {%- endif -%}
+        <a href="/{{ category | slugify }}">{{ category|trim }}</a>
+    {%- endif -%}
     <span class="fa-solid fa-chevron-right mx-2 text-sm jet-700"></span>
     <span class="text-gray-600" aria-current="page">
         {%- if FontAwesomeIcon -%}
