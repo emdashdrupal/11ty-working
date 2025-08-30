@@ -4,7 +4,7 @@ const path = require('path');
 
 // Setup and teardown helpers
 const createDom = () => {
-  const dom = new JSDOM('<!DOCTYPE html><html><body></body></html>');
+  const dom = new JSDOM('<!doctype html><html><body></body></html>');
   global.document = dom.window.document;
   global.window = dom.window;
   return dom;
