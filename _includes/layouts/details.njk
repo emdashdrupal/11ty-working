@@ -1,13 +1,13 @@
 {%- include 'layouts/partials/header.njk' -%}
 {%- if page.url == "/about/about-ed-marsh/" -%}
     <img src="/assets/images/ed-marsh.jpg" style="float:right; width:200px" alt="Ed Marsh"/>
-{% endif %}
+{%- endif -%}
 {%- if collectionName == "skills" and cover or item.data.cover -%}
     <figure class="hero flex justify-end float-right ml-2">
         <img src="/assets/images/{{ cover or item.data.cover }}" title="{{ description or item.data.description }}" alt="{{ description or item.data.description }}" class="w-full h-48 border-4 shadow-md"></figure>
-    {% elif collectionName == "podcasts" %}
+    {%- elif collectionName == "podcasts" -%}
         <figure class="hero flex justify-end float-right ml-2">
-            {% include 'layouts/partials/hero-image.njk' %}
+            {%- include 'layouts/partials/hero-image.njk' -%}
         </figure>
         <div
             id="podcast-player" class="my-10">
@@ -18,14 +18,14 @@
     </div>
     <div id="content-start">
         {%- if content -%}
-            {{ content | safe }}
+            {{ content | safe | trim }}
         {%- endif -%}
     </div>
-    {% set pageCategory = categories %}
-    {% set filteredPresentations = presentations | filterByCategory(pageCategory) | default([]) %}
-    {% set filteredTools = tools | filterToolsByCategory(pageCategory) | default([]) %}
+    {%- set pageCategory = categories -%}
+    {%- set filteredPresentations = presentations | filterByCategory(pageCategory) | default([]) -%}
+    {%- set filteredTools = tools | filterToolsByCategory(pageCategory) | default([]) -%}
     <div class="grid lg:grid-cols-8 md:grid-cols-3 sm:grid-cols-1 gap-6 mt-4">
-        {% if filteredPresentations and filteredPresentations.length > 0 %}
+        {%- if filteredPresentations and filteredPresentations.length > 0 -%}
             <div class="col-span-4 md:border-r-2 md:border-gray-300 pr-1">
                 {% include "layouts/partials/presos.njk" %}
             </div>
