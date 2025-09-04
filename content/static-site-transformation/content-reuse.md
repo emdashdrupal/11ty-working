@@ -4,35 +4,38 @@ description : I modularized my presentations and tools experience so they could 
 FontAwesomeIcon: solid fa-recycle
 ---
 
-One of the things I miss about [DITA (an XML-based authoring language)](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) is the idea of *content reuse*. This means instead of copying and pasting sections into different files, then having to remember to update them anytime *one* of them changes, you basically use another DITA file to reference that snippet of text in multiple files.
-I originally had my skills and presentation content in bulleted lists. I created (with the help of GitHub Copilot) two `json` files:
+One of the things I miss about [DITA, an XML-based authoring language](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) is [*content reuse*](https://www.oxygenxml.com/doc/versions/27.1/ug-editor/topics/eppo-pathfinder-reuse.html), or *snippets*. This means instead of copying and pasting sections into different files, then having to remember to update every file whenever the content changes, you create another DITA file, then reference that file in multiple files. It's basically an include or import file for documentation.
 
-- One that contained data about all of my presentations: their titles, year (or years), link, category, venue (the location or event), and type (webinar, in-person, panel discussion, podcast guest or host, etc.)
+I initially listed my relevant tools and presentations as separate bulleted lists. The goal was to display the relevant tools and presentations on each of my skills pages. As I built out the pages and taxonomy, keeping in mind the need for the site to act as a resume, it was quickly obvious that this wasn't a sustainable approach.
 
-    ```json
-        {
-      "title": "So, you want to be a technical writer?",
-      "year": "2024",
-      "link": "https://www.brighttalk.com/webcast/9273/608187",
-      "category": ["technical-writing", "metrics", "content-strategy", "marketing"],
-      "venue": "Content Wrangler webcast",
-      "type": "webinar"
-    },
-    ```
+After some research, I created (with the help of GitHub Copilot) two `json` files. This approach enforces structure and is easily expandable.
 
-- One that listed the tools I've used over my career, with their publisher, product name, and relevant categories.
+The first file contained data I wanted to display about all of my presentations, webinars, and guest appearances. This `json` file contained titles, year (or years) of the item, a relevant link, the category or categories for each, the location or event venue, and type (webinar, in-person, panel discussion, podcast guest or host, etc.). Here's an example:
 
-    ```json
-        {
-        "category": [
-            "technical-writing",
-            "help-authoring-tool"
+```json
+{
+    "title": "So, you want to be a technical writer?",
+    "year": "2024",
+    "link": "https://www.brighttalk.com/webcast/9273/608187",
+    "category": ["technical-writing", "metrics", "content-strategy", "marketing"],
+    "venue": "Content Wrangler webcast",
+    "type": "webinar"
+},
+```
+
+The second `json` file listed the tools I've used over my career, along with their publisher, product name, and relevant site categories:
+
+```json
+    {
+    "category": [
+        "technical-writing",
+        "help-authoring-tool"
         ],
-        "publisher": "MadCap",
-        "title": "Flare"
+    "publisher": "MadCap",
+    "title": "Flare"
     },
-    ```
+```
 
-This made it easy to populate sections of my skills pages with the relevant presentations and tools programmatically. If you look at this screenshot, you can see how this approach enforces structure:
+In my templates, I could now programmatically populate my skills pages with the relevant presentations and tools:
 
 ![yeh](/assets/images/programmatic-columns.png)
