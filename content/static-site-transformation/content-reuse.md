@@ -4,6 +4,7 @@ description : I modularized my presentations and tools experience so they could 
 FontAwesomeIcon: solid fa-recycle
 ---
 
+One of the things I miss about [DITA (an XML-based authoring language)](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) is the idea of *content reuse*. This means instead of copying and pasting sections into different files, then having to remember to update them anytime *one* of them changes, you basically use another DITA file to reference that snippet of text in multiple files.
 I originally had my skills and presentation content in bulleted lists. I created (with the help of GitHub Copilot) two `json` files:
 
 - One that contained data about all of my presentations: their titles, year (or years), link, category, venue (the location or event), and type (webinar, in-person, panel discussion, podcast guest or host, etc.)

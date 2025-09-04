@@ -21,7 +21,8 @@
     --sans-serif: "Poppins", Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --serif: "Besley", serif;
 
-    .bg-medium-blue, .text-medium-blue {
+    .bg-medium-blue,
+    .text-medium-blue {
         background-color: var(--medium-blue);
     }
 
@@ -109,7 +110,14 @@ button:hover {
 
 code[class*="language-"],
 pre[class*="language-"] {
-    font-family: var(--monospace)
+    font-family: var(--monospace);
+    white-space: pre
+}
+
+:not(pre)>code[class*="language-"] {
+    padding: .1em;
+    border-radius: .3em;
+    white-space: pre;
 }
 
 h1 {
