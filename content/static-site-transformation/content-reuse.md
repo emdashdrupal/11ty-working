@@ -12,7 +12,7 @@ One of the things I miss in a docs-as-code environment is [*content reuse*](http
 
 I initially listed my relevant tools and presentations as separate bulleted lists. The goal was to display the relevant tools and presentations on each of my skills pages. As I built out the pages and taxonomy, keeping in mind the need for the site to act as a resume, it was quickly obvious that this wasn't a sustainable approach.
 
-After some research, I created (with the help of GitHub Copilot) two `json` files. This approach enforces structure and is easily expandable.
+Research led me (with GitHub Copilot) to create two structured `json` files that enforce data patterns while remaining flexible:
 
 The first file contained data I wanted to display about all of my presentations, webinars, and guest appearances. This `json` file contained titles, year (or years) of the item, a relevant link, the category or categories for each, the location or event venue, and type (webinar, in-person, panel discussion, podcast guest or host, etc.). Here's an example:
 
@@ -40,7 +40,7 @@ The second `json` file listed the tools I've used over my career, along with the
 },
 ```
 
-This required two separate templates, which were called in my details page template file. This is also how content reuse works. Here's the presentation partial template:
+By creating modular templates that render these JSON data structures, I achieved true content reuse - a single source of truth for presentations and tools that adapts to different display contexts. Here's how the presentation data gets rendered in practice:
 
 ```markup
 {% raw %}{% if presentations %}
@@ -71,4 +71,3 @@ This required two separate templates, which were called in my details page templ
 I could now programmatically populate my skills pages with the relevant presentations and tools:
 
 ![Screen shot of relevant tools and presentations displayed on a web page](/assets/images/programmatic-columns.png)
-
