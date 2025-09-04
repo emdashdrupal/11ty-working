@@ -2,9 +2,13 @@
 title : Creating reusable content for static site generators (SSGs)
 description : I modularized my presentations and tools experience so they could display in different contexts across the site.
 FontAwesomeIcon: solid fa-recycle
+date: 2025-09-04
+featured: false
+featuredOrder: 6
+
 ---
 
-One of the things I miss about [DITA, an XML-based authoring language](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) is [*content reuse*](https://www.oxygenxml.com/doc/versions/27.1/ug-editor/topics/eppo-pathfinder-reuse.html), or *snippets*. This means instead of copying and pasting sections into different files, then having to remember to update every file whenever the content changes, you create another DITA file, then reference that file in multiple files. It's basically an include or import file for documentation.
+One of the things I miss in a docs-as-code environment is  is [*content reuse*](https://www.oxygenxml.com/doc/versions/27.1/ug-editor/topics/eppo-pathfinder-reuse.html), or *snippets*. This means instead of copying and pasting sections into different files, then having to remember to update every file whenever the content changes, you create another [DITA, an XML-based authoring language](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) file with that small piece of content, then reference that file in multiple files. It's basically an include or import file for documentation.
 
 I initially listed my relevant tools and presentations as separate bulleted lists. The goal was to display the relevant tools and presentations on each of my skills pages. As I built out the pages and taxonomy, keeping in mind the need for the site to act as a resume, it was quickly obvious that this wasn't a sustainable approach.
 
