@@ -8,7 +8,7 @@ featuredOrder: 6
 
 ---
 
-One of the things I miss in a docs-as-code environment is  is [*content reuse*](https://www.oxygenxml.com/doc/versions/27.1/ug-editor/topics/eppo-pathfinder-reuse.html), or *snippets*. This means instead of copying and pasting sections into different files, then having to remember to update every file whenever the content changes, you create another [DITA, an XML-based authoring language](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) file with that small piece of content, then reference that file in multiple files. It's basically an include or import file for documentation.
+One of the things I miss in a docs-as-code environment is [*content reuse*](https://www.oxygenxml.com/doc/versions/27.1/ug-editor/topics/eppo-pathfinder-reuse.html), or *snippets*. This means instead of copying and pasting sections into different files, then having to remember to update every file whenever the content changes, you create another [DITA, an XML-based authoring language](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) file with that small piece of content, then reference that file in multiple files. It's basically an include or import file for documentation.
 
 I initially listed my relevant tools and presentations as separate bulleted lists. The goal was to display the relevant tools and presentations on each of my skills pages. As I built out the pages and taxonomy, keeping in mind the need for the site to act as a resume, it was quickly obvious that this wasn't a sustainable approach.
 
@@ -31,18 +31,18 @@ The second `json` file listed the tools I've used over my career, along with the
 
 ```json
 {
-"category": [
-    "technical-writing",
-    "help-authoring-tool"
+    "category": [
+        "technical-writing",
+        "help-authoring-tool"
     ],
-"publisher": "MadCap",
-"title": "Flare"
+    "publisher": "MadCap",
+    "title": "Flare"
 },
 ```
 
 In my templates, I could now programmatically populate my skills pages with the relevant presentations and tools:
 
-![yeh](/assets/images/programmatic-columns.png)
+![Screen shot of relevant tools and presentations displayed on a web page](/assets/images/programmatic-columns.png)
 
 This required two separate templates, which were called in my details page template file. This is also how content reuse works. Here's the presentation partial template:
 
@@ -53,6 +53,7 @@ This required two separate templates, which were called in my details page templ
 {% for presentation in presentationsList | sort(false, false, 'year') | reverse %}
     <div class="presentation mb-4">
         <h3 class="font-normal text-[1rem]">
+            {# Check if presentation has a link #}
             {% if presentation.link %}
                 {{ presentation.type | capitalize }}:
                 <a href="{{ presentation.link }}" class="hover:text-success-600 italic">
