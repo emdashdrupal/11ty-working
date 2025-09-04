@@ -26,16 +26,43 @@ The first file contained data I wanted to display about all of my presentations,
 The second `json` file listed the tools I've used over my career, along with their publisher, product name, and relevant site categories:
 
 ```json
-    {
-    "category": [
-        "technical-writing",
-        "help-authoring-tool"
-        ],
-    "publisher": "MadCap",
-    "title": "Flare"
-    },
+{
+"category": [
+    "technical-writing",
+    "help-authoring-tool"
+    ],
+"publisher": "MadCap",
+"title": "Flare"
+},
 ```
 
 In my templates, I could now programmatically populate my skills pages with the relevant presentations and tools:
 
 ![yeh](/assets/images/programmatic-columns.png)
+
+This required two separate templates, which were called in my details page template file. This is also how content reuse works. Here's the presentation partial template:
+
+```markup
+{% raw %}{% if presentations %}
+<h2>Related work</h2>
+{% set presentationsList = isPublicSpeakingPage and presentations or filteredPresentations %}
+{% for presentation in presentationsList | sort(false, false, 'year') | reverse %}
+    <div class="presentation mb-4">
+        <h3 class="font-normal text-[1rem]">
+            {% if presentation.link %}
+                {{ presentation.type | capitalize }}:
+                <a href="{{ presentation.link }}" class="hover:text-success-600 italic">
+                    {{ presentation.title }}
+                </a>
+            {% else %}
+                {{ presentation.title }}
+            {% endif %}
+        </h3>
+        <p class="text-sm mt-0 jet-600">
+            {{ presentation.venue }}, {{ presentation.year }}
+        </p>
+    </div>
+{% endfor %}
+{% endif %}
+{% endraw %}
+```
