@@ -8,7 +8,7 @@ featuredOrder: 6
 
 ---
 
-One of the things I miss in a docs-as-code environment is [*content reuse*](https://www.oxygenxml.com/doc/versions/27.1/ug-editor/topics/eppo-pathfinder-reuse.html), or *snippets*. This means instead of copying and pasting sections into different files, then having to remember to update every file whenever the content changes, you create another [DITA, an XML-based authoring language](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) file with that small piece of content, then reference that file in multiple files. It's basically an include or import file for documentation.
+One of the things I miss in a docs-as-code environment is [*content reuse*](https://www.oxygenxml.com/doc/versions/27.1/ug-editor/topics/eppo-pathfinder-reuse.html), or *snippets*. This means instead of copying and pasting sections into different files, then having to remember to update every file whenever the content changes, you create another [Darwin Information Typing Architecture (DITA), an XML-based authoring language](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) file with that small piece of content, then reference that file in multiple files. It's basically an include or import file for documentation. You could do this with some flavors of Markdown, but that may be difficult to implement if you have a wide variety of contributors such as developers, product managers, subject matter experts, and technical writers.
 
 I initially listed my relevant tools and presentations as separate bulleted lists. The goal was to display the relevant tools and presentations on each of my skills pages. As I built out the pages and taxonomy, keeping in mind the need for the site to act as a resume, it was quickly obvious that this wasn't a sustainable approach.
 
@@ -40,10 +40,6 @@ The second `json` file listed the tools I've used over my career, along with the
 },
 ```
 
-In my templates, I could now programmatically populate my skills pages with the relevant presentations and tools:
-
-![Screen shot of relevant tools and presentations displayed on a web page](/assets/images/programmatic-columns.png)
-
 This required two separate templates, which were called in my details page template file. This is also how content reuse works. Here's the presentation partial template:
 
 ```markup
@@ -71,3 +67,8 @@ This required two separate templates, which were called in my details page templ
 {% endif %}
 {% endraw %}
 ```
+
+I could now programmatically populate my skills pages with the relevant presentations and tools:
+
+![Screen shot of relevant tools and presentations displayed on a web page](/assets/images/programmatic-columns.png)
+
