@@ -51,7 +51,7 @@ FontAwesomeIcon : solid fa-file-waveform
 
 Here's an example of how this content works programmatically. This code generates cards that references the metadata fields. Note the backslashes are necessary to get the code to display. You can view the clean code at [lines 68-82 of `macros.njk`](https://github.com/emdashdrupal/11ty-working/blob/dd0fc170d1af6a2f5b55fbf3676066d4f9833952/_includes/layouts/partials/macros.njk#L68C1-L81C15).
 
-```jinja-html
+```markup
 {% raw %}
 <div class="bg-whitish p-4">
     <h3 aria-labelledby="{{ item.data.title |slugify }}">
