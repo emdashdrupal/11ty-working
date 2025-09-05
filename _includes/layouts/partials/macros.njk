@@ -109,3 +109,66 @@
         </div>
     </div>
 {% endmacro %}
+
+{# Generic List Item Macro - Creates a generic list item display for collections #}
+{% macro itemList(collection, type, options={}) %}
+    {% if collection and collection.length > 0 %}
+        {% set sortedCollection = collection | sort(false, false, options.sortField or "title") %}
+        {% if type == "presentations" %}
+            <h2>Related work</h2>
+            {% for item in sortedCollection | reverse %}
+                <div class="presentation mb-4">
+                    <h3 class="font-normal text-[1rem]">
+                        {% if item.link %}
+                            {{ item.type | capitalize }}:
+                            <a href="{{ item.link }}" class="hover:text-success-600 italic">
+                                {{ item.title }}
+                            </a>
+                        {% else %}
+                            {{ item.title }}
+                        {% endif %}
+                    </h3>
+                    <p class="text-sm mt-0 jet-600">
+                        {{ item.venue }}, {{ item.year }}
+                    </p>
+                </div>
+            {% endfor %}
+        {% elif type == "tools" %}
+            <h2>Tools used</h2>
+            {% for item in sortedCollection %}
+                <h3 class="font-normal text-[1rem]">
+                    {{ item.title }}
+                    {% if item.publisher %}
+                        <p class="text-sm mt-0 jet-600">{{ item.publisher }}</p>
+                    {% endif %}
+                </h3>
+            {% endfor %}
+        {% else %}
+            {# Default generic display #}
+            <h2>Items</h2>
+            {% for item in sortedCollection %}
+                <h3 class="font-normal text-[1rem]">
+                    {{ item.title }}
+                    {% if item.publisher %}
+                        <p class="text-sm mt-0 jet-600">{{ item.publisher }}</p>
+                    {% endif %}
+                </h3>
+            {% endfor %}
+        {% endif %}
+    {% endif %}
+{% endmacro %}
+
+{# Tool List Macro - Renders a list of tools #}
+{% macro toolList(collection) %}
+    {% if collection and collection.length > 0 %}
+        <h2>Tools used</h2>
+        {% for item in collection | sort(false, false, "title") %}
+            <h3 class="font-normal text-[1rem]">
+                {{ item.title }}
+                {% if item.publisher %}
+                    <p class="text-sm mt-0 jet-600">{{ item.publisher }}</p>
+                {% endif %}
+            </h3>
+        {% endfor %}
+    {% endif %}
+{% endmacro %}

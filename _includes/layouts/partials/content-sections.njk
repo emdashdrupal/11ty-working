@@ -1,0 +1,13 @@
+{% if presentations %}
+    {% from "layouts/partials/macros.njk" import itemList %}
+    {% set presentationsList = isPublicSpeakingPage and presentations or filteredPresentations %}
+    {{ itemList(presentationsList, "presentations", {"sortField": "year"}) }}
+{% endif %}
+
+{% if tools %}
+    {% from "layouts/partials/macros.njk" import toolList %}
+    {% set filteredTools = tools | filterToolsByCategory(pageCategory) | default([]) %}
+    {% if filteredTools and filteredTools.length > 0 %}
+        {{ toolList(filteredTools) }}
+    {% endif %}
+{% endif %}
