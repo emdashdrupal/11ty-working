@@ -5,7 +5,6 @@ tags : content-strategy
 featured : true
 featuredOrder : 3
 FontAwesomeIcon : solid fa-file-waveform
-date: 2025-01-10
 ---
 When you start with a decade-old information architecture with lots of legacy content that evolved to include podcasts, it shouldn't be surprising that very few parts of that structure ended up in the new site.
 
@@ -41,29 +40,31 @@ FontAwesomeIcon : solid fa-file-waveform
 ---
 ```
 
-| Fieldname | Purpose|
-|-|-|
-| `title`| Page title that displays on cards, grids, and details pages, and browser tabs.|
-| `description` | The first paragraph of the story used many places. |
-|`FontAwesomeIcon`| Programmatically displays an icon on the homepage, grid pages, and breadcrumbs.|
-|`featured`| sets the card to display on the homepage. |
-`featuredOrder` | Sets the order in which the card displays. |
+| Fieldname         | Purpose                                                                         |
+| ----------------- | ------------------------------------------------------------------------------- |
+| `title`           | Page title that displays on cards, grids, and details pages, and browser tabs.  |
+| `description`     | The first paragraph of the story used many places.                              |
+| `FontAwesomeIcon` | Programmatically displays an icon on the homepage, grid pages, and breadcrumbs. |
+| `featured`        | sets the card to display on the homepage.                                       |
+| `featuredOrder`   | Sets the order in which the card displays.                                      |
 
 Here's an example of how this content works programmatically. This code generates cards that references the metadata fields. Note the backslashes are necessary to get the code to display. You can view the clean code at [lines 68-82 of `macros.njk`](https://github.com/emdashdrupal/11ty-working/blob/dd0fc170d1af6a2f5b55fbf3676066d4f9833952/_includes/layouts/partials/macros.njk#L68C1-L81C15).
 
-```django
-    <div class="bg-whitish p-4">
-        <h3 aria-labelledby="\{\{ item.data.title |slugify }}">
-            \{\% if item.data.FontAwesomeIcon %}
-                <span class="fa-{{ item.data.FontAwesomeIcon }} text-2xl text-medium-blue"></span>
-            \{\% endif %}
-            \{\% if item.data.cover %}
-                <img src="/assets/images/{{ item.data.cover }}" alt="\{\{ item.data.coverAlt or item.data.title }}" data-pagefind-meta="image[\{\{item.data.cover}}], image_alt[\{\{ item.data.coverAlt or item.data.title }}]" class="w-full h-48 object-cover mb-2">
-            \{\% endif %}
-            <a href="\{\{ item.url }}">\{\{ item.data.title | safe }}</a>
-        </h3>
-        <p>\{\{ item.data.description }}</p>
-    </div>
+```jinja-html
+{% raw %}
+<div class="bg-whitish p-4">
+    <h3 aria-labelledby="{{ item.data.title |slugify }}">
+        {% if item.data.fontawesomeicon %}
+            <span class="fa-{{ item.data.fontawesomeicon }} text-2xl text-medium-blue"></span>
+        {% endif %}
+        {% if item.data.cover %}
+            <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coveralt or item.data.title }}" data-pagefind-meta="image[{{item.data.cover}}], image_alt[{{ item.data.coveralt or item.data.title }}]" class="w-full h-48 object-cover mb-2">
+        {% endif %}
+        <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
+    </h3>
+    <p>{{ item.data.description }}</p>
+</div>
+{% endraw %}
 ```
 
 Here's what two cards look like side-by-side:
