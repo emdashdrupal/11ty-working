@@ -27,12 +27,15 @@
     <div class="grid lg:grid-cols-8 md:grid-cols-3 sm:grid-cols-1 gap-6 mt-4">
         {%- if filteredPresentations and filteredPresentations.length > 0 -%}
             <div class="col-span-4 md:border-r-2 md:border-gray-300 pr-1">
-                {% include "layouts/partials/combined.njk" %}
+                {% from "layouts/partials/macros.njk" import itemList %}
+                {% set presentationsList = isPublicSpeakingPage and presentations or filteredPresentations %}
+                {{ itemList(presentationsList, "presentations", {"sortField": "year"}) }}
             </div>
         {% endif %}
-        {% if filteredTools and filteredTools.length > 0 %}
+        {%- if filteredTools and filteredTools.length > 0 -%}
             <div class="col-span-3">
-                {% include "layouts/partials/combined.njk" %}
+                {% from "layouts/partials/macros.njk" import toolList %}
+                {{ toolList(filteredTools) }}
             </div>
         {% endif %}
     </div>
