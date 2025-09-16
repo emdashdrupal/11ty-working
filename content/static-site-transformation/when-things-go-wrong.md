@@ -4,13 +4,13 @@ description: Ironically, my blog about reusing content duplicated my own content
 date: 2025-09-09
 ---
 
-A major part of my content strategy for this site was to release blog posts on a regular cadence to drive traffic. As I updated my site, I documented the process through partially written Markdown files. I stored this in a DON'T DELETE branch in my Git repository.
+A major part of my content strategy was to release blog posts on a regular cadence to drive traffic. As I updated my site, I documented the process through partially written Markdown files. I stored these stubs in a DON'T DELETE branch in my Git repository. Not quite best practice, but also not unusual to those who have had to clean up obsolete branches.
 
 When it came time to pull one out of that branch, I decided the content reuse piece seemed to make sense after my AI post that was widely viewed.
 
-I published the post, and felt good about where I'd taken it. Then I saw some traffic dribble in. Not surprisingly, the AI post was a bigger draw than content reuse.
+I published the post, and felt good about where I'd taken it. I saw some traffic dribble in. Not surprisingly, the AI post was a bigger draw than content reuse.
 
-Then I went back to my existing published content and saw that I'd already [used a large portion of that content](/static-site-transformation/content-strategy-for-ssgs).
+&hellip;Then I noticed I'd already [used a large portion of that content](/static-site-transformation/the-how).
 
 ## Test case
 
