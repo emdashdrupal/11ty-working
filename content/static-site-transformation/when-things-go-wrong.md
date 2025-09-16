@@ -10,7 +10,7 @@ When it came time to pull one out of that branch, one on content reuse seemed to
 
 I finished up the post, and I felt pretty good about where I'd taken it. I published it, promoted it on LinkedIn, and saw some traffic dribble in. Not surprisingly, AI was a bigger draw than content reuse.
 
-And then I went back to my existing published content and saw that I'd pretty much already [used a large portion of that content already](/static-site-transformation/content-strategy-for-ssgs).
+And then I went back to my existing published content and saw that I'd pretty much already [used a large portion of that content already](static-site-transformation/content-strategy-for-ssgs).
 
 ## Solution
 
