@@ -38,6 +38,6 @@ Taking an active development role made it clear to me how structuring your conte
 
 ## Accessibility
 
-I used the [WAVE browser plugin](https://wave.webaim.org/extension/) to test my pages and ensure they were accessible. My wife is a developer and accessibility advocate and as a technical communicator, I wanted my site to be accessible to everyone.
+I used the [WAVE browser plugin](https://wave.webaim.org/extension/) to test my pages and ensure they were accessible. My wife is a developer and accessibility advocate. As a technical communicator, I wanted my site to be accessible to everyone.
 
 ![Screenshot of WAVE accessibility plugin results](/assets/images/wave-plugin-screenshot.png)
