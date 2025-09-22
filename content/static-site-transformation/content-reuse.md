@@ -18,7 +18,7 @@ Copy-pasted content across pages is a maintenance nightmare. Someone has to reme
 
 Most technical writers and content strategists are familiar with metadata (also referred to as *front matter* or *frontmatter*). Metadata can define page titles, keywords, and leverage built-in [categories and tags](https://www.11ty.dev/docs/collections/).
 
-The real power comes by adding custom metadata; highly structured content that expands the possibilities of the template engine and site generator. I wanted to re-use the first sentence of each details page to display as descriptions on the cards on the grid pages. This allowed not only content reuse, but gave the freedom to style descriptions separately from headings. This enforces structure and allows writers and contributors to *just write*, since all of the logic is handled programmatically. Here's what a metadata block looks like on my pages:
+The real power comes by adding custom metadata; highly structured content that expands the possibilities of the template engine and site generator. I wanted to re-use the first sentence of each details page to display as descriptions on the cards on the grid pages. This allowed not only content reuse, but the freedom to style descriptions separately from headings. This enforces structure and allows writers and contributors to *just write*, since all of the logic is handled programmatically. Here's what a metadata block looks like on my site:
 
 ```yml
 ---
@@ -45,18 +45,20 @@ Here's an example of how this content works programmatically. This code generate
 
 ```markup
 {% raw %}
-<div class="bg-whitish p-4">
-    <h3 aria-labelledby="{{ item.data.title |slugify }}">
-        {% if item.data.fontawesomeicon %}
-            <span class="fa-{{ item.data.fontawesomeicon }} text-2xl text-medium-blue"></span>
-        {% endif %}
-        {% if item.data.cover %}
-            <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coveralt or item.data.title }}" data-pagefind-meta="image[{{item.data.cover}}], image_alt[{{ item.data.coveralt or item.data.title }}]" class="w-full h-48 object-cover mb-2">
-        {% endif %}
-        <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
-    </h3>
-    <p>{{ item.data.description }}</p>
-</div>
+{%- macro gridItem(item) -%}
+    <div class="bg-whitish p-4">
+        <h3 aria-labelledby="{{ item.data.title |slugify }}">
+            {% if item.data.FontAwesomeIcon %}
+                <span class="fa-{{ item.data.FontAwesomeIcon }} text-2xl text-medium-blue"></span>
+            {% endif %}
+            {% if item.data.cover %}
+                <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt or item.data.title }}" data-pagefind-meta="image[{{ item.data.cover }}], image_alt[{{ item.data.coverAlt or item.data.title }}]" class="w-full h-48 object-cover mb-2">
+            {% endif %}
+            <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
+        </h3>
+        <p>{{ item.data.description }}</p>
+    </div>
+{% endmacro %}
 {% endraw %}
 ```
 
@@ -65,9 +67,9 @@ Here's what two cards look like side-by-side:
 
 ## Auto-generated, context-sensitive links
 
-A goal for my [skills pages](/skills) was to display the relevant tools and presentations for each skill. Initially these were bulleted lists. As I built out the pages and taxonomy, it became obvious that copying and pasting relevant bullets on each skills page wasn't a sustainable approach.
+The [content stategy](/static-site-transformation/content-strategy-for-ssgs) for my [skills pages](/skills) was to display the relevant tools and presentations for each skill. Initially these were bulleted lists but as I built out the pages and taxonomy, it became obvious that copying and pasting relevant bullets on each skills page wasn't sustainable.
 
-With assistance from GitHub Copilot, I created two `json` files that create and enforce structure while remaining flexible. The first file contained information about my presentations, webinars, and guest appearances. This `json` file contained titles, year (or years) of the item, a relevant link, the category or categories for each, the location or event venue, and type (webinar, in-person, panel discussion, podcast guest or host, etc.). Here's an example:
+Since there's no database behind a static site generator, I created two `json` files that enforce structure while remaining expandable. The first file contained information about my presentations, webinars, and guest appearances. This `json` file contained titles, year (or years) of the item, a relevant link, the category or categories for each, the location or event venue, and type (webinar, in-person, panel discussion, podcast guest or host, etc.). Here's an example:
 
 ```json
 {
@@ -93,7 +95,7 @@ The second `json` file listed the tools I've used over my career, along with the
 },
 ```
 
-By creating modular templates that render these JSON data structures, I achieved a single source of truth that adapts to different display contexts. Here's how the template renders presentation data:
+Then I created templates that render these structures, achieving a single source of truth that adapts to different display contexts. Here's part of the template renders presentation data:
 
 ```markup
 {% raw %}{% if presentations %}
