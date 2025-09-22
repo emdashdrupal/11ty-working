@@ -40,6 +40,54 @@ The second `json` file listed the tools I've used over my career, along with the
     "title": "Flare"
 },
 ```
+## Content reuse
+
+Copy-pasted content across pages is a maintenance nightmare. Someone has to remember to update it, and also *all the places* where the content is pasted. With this in mind, I wanted to use metadata as much as possible to encourage reuse and programmatic data access.
+
+Most technical writers and content strategists are familiar with metadata (also referred to as *front matter* or *frontmatter*). Metadata can define page titles, keywords, and in my case, leverage the built-in [Eleventy categories and tags](https://www.11ty.dev/docs/collections/).
+
+The real power comes by adding custom metadata; highly structured content expands the possibilities of the template engine and site generator. When I built out this site, I wanted to re-use the first sentence of each details page to display as descriptions on the cards on the grid pages. This allowed not only content reuse, but  styling the descriptions separately.
+
+```yml
+---
+title : 'The how: Building the site structure'
+description : Putting all of the content pieces together.
+tags : content-strategy
+featured : true
+featuredOrder : 3
+FontAwesomeIcon : solid fa-file-waveform
+---
+```
+
+| Fieldname         | Purpose                                                                         |
+| ----------------- | ------------------------------------------------------------------------------- |
+| `title`           | Page title that displays on cards, grids, and details pages, and browser tabs.  |
+| `description`     | The first paragraph of the story used many places.                              |
+| `FontAwesomeIcon` | Programmatically displays an icon on the homepage, grid pages, and breadcrumbs. |
+| `featured`        | sets the card to display on the homepage.                                       |
+| `featuredOrder`   | Sets the order in which the card displays.                                      |
+
+Here's an example of how this content works programmatically. This code generates cards that references the metadata fields. Note the backslashes are necessary to get the code to display. You can view the clean code at [lines 68-82 of `macros.njk`](https://github.com/emdashdrupal/11ty-working/blob/dd0fc170d1af6a2f5b55fbf3676066d4f9833952/_includes/layouts/partials/macros.njk#L68C1-L81C15).
+
+```markup
+{% raw %}
+<div class="bg-whitish p-4">
+    <h3 aria-labelledby="{{ item.data.title |slugify }}">
+        {% if item.data.fontawesomeicon %}
+            <span class="fa-{{ item.data.fontawesomeicon }} text-2xl text-medium-blue"></span>
+        {% endif %}
+        {% if item.data.cover %}
+            <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coveralt or item.data.title }}" data-pagefind-meta="image[{{item.data.cover}}], image_alt[{{ item.data.coveralt or item.data.title }}]" class="w-full h-48 object-cover mb-2">
+        {% endif %}
+        <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
+    </h3>
+    <p>{{ item.data.description }}</p>
+</div>
+{% endraw %}
+```
+
+Here's what two cards look like side-by-side:
+![Example result of card code](/assets/images/grid-cards-example.png)
 
 ## Results
 

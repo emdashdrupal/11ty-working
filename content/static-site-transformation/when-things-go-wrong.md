@@ -14,7 +14,7 @@ I published the post, and felt good about where I'd taken it. I saw some traffic
 
 ## Test case
 
-Once I discovered the mistake a few days later, I left both up for a couple of weeks. Either no one noticed or no one notified me. Based on my Google Analytics, It seems to be the former.
+Once I discovered the mistake a few days later, I left both up for a couple of weeks. Either no one noticed or no one notified me. Based on my Google Analytics, it seems to be the former.
 
 ## Lessons learned
 
