@@ -7,9 +7,9 @@ FontAwesomeIcon: solid fa-car-burst
 
 A major part of my content strategy for my new site was releasing blog posts on a regular cadence to drive traffic. As I built my site, I documented the process through partially written Markdown files. I stored these blog post stubs in a DON'T DELETE branch in my Git repository. Not quite best practice, but also not unusual to those who have had to clean up obsolete branches.
 
-When it came time to pull one out of that branch, I decided the content reuse piece was in pretty good shape. I published the post, and felt good about where I'd taken it.  It followed an [AI-related post](/static-site-transformation/writing-with-ai) that was widely viewed (surprise!). Not surprisingly, the AI post was a bigger draw than content reuse.
+When it came time to pull one out of that branch, I decided the content reuse piece was in pretty good shape. I published the post, and felt good about where I'd taken it. It followed an [AI-related post](/static-site-transformation/writing-with-ai) that was widely viewed (surprise!). Not surprisingly, the AI post was a bigger draw than content reuse.
 
-&hellip;Then I noticed I'd already used a large portion of it on my [site structure post](/static-site-transformation/the-how). Ironically, my blog post about reusing content duplicated my own content.
+&hellip;Then I noticed I'd already used a large portion of it on my already-published [site structure post](/static-site-transformation/the-how). Ironically, my blog post about reusing content duplicated my own content.
 
 ## Test case
 

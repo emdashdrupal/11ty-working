@@ -19,7 +19,7 @@ I designed three main content types (page types):
 - Grid pages that are gallery pages with cards for each skill, blog post, and podcast episode.
 - Details pages for each of the categories:
   - Blog posts.
-  - Podcast episodes,including show notes and an episode player.
+  - Podcast episodes, including show notes and an episode player.
   - More information about each of my skills, the relevant tools used, and any relation presentations or publications I've created.
 
 ## Separating content from presentation
@@ -38,6 +38,6 @@ Taking an active development role made it clear to me how structuring your conte
 
 ## Accessibility
 
-I used the [WAVE browser plugin](https://wave.webaim.org/extension/) to test my pages and ensure they were accessible. My wife is a developer and accessibility advocate. As a technical communicator, I wanted my site to be accessible to everyone.
+My wife is a developer and accessibility advocate. As a technical communicator, I wanted my site to be accessible to everyone. I was also able to programmatically use my metadata to populate `<alt>` tags. I used the [WAVE browser plugin](https://wave.webaim.org/extension/) to test my pages and ensure they were accessible.
 
 ![Screenshot of WAVE accessibility plugin results](/assets/images/wave-plugin-screenshot.png)
