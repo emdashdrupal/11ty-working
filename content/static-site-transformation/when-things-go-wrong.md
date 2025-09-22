@@ -2,7 +2,7 @@
 title: When your content strategy goes wrong
 description: Writing this blog post wasn't part of my plan.
 date: 2025-09-09
-fontAwesomeIcon: solid fa-car-burst
+FontAwesomeIcon: solid fa-car-burst
 ---
 
 A major part of my content strategy for my new site was releasing blog posts on a regular cadence to drive traffic. As I built my site, I documented the process through partially written Markdown files. I stored these blog post stubs in a DON'T DELETE branch in my Git repository. Not quite best practice, but also not unusual to those who have had to clean up obsolete branches.
