@@ -3,10 +3,10 @@ title : 'The how: Building the site structure'
 description : 'I started my information architecture with my existing WordPress site architecture. Then I started to put all the content pieces together.'
 tags : content-strategy
 featured : true
-featuredOrder : 3
+featuredOrder : 2
 FontAwesomeIcon : solid fa-file-waveform
-date: 2025-01-10
 ---
+
 When you start with a decade-old information architecture that evolved to include podcasts, it shouldn't be surprising that very few parts of that structure end up in a new site.
 
 I quickly decided it wasn't worth maintaining my old personal and professional blog posts. Most were outdated and not helpful to the portfolio I wanted the site to be.

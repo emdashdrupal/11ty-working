@@ -2,8 +2,8 @@
 title: 'Asking AI to write documentation'
 description: 'I decided to see if AI was going to take my job.'
 FontAwesomeIcon: solid fa-keyboard
-featured: false
-featuredOrder: 4
+featured: true
+featuredOrder: 2
 date: 2025-01-02
 ---
 

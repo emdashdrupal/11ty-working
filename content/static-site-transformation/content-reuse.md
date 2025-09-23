@@ -1,24 +1,26 @@
 ---
 title : Creating reusable content for static site generators (SSGs)
-description : I modularized my presentations and tools experience to display them in the right place at the right time&mdash;a major tenet of content strategy.
+description : I modularized my content to display it in the right place at the right time&mdash;a major tenet of content strategy.
 FontAwesomeIcon: solid fa-recycle
-date: 2025-09-04
-featured: false
+featured: true
+featuredOrder: 1
 ---
 
 ## What is reusable content?
 
-In a structured authoring environment, such as those that use [Darwin Information Typing Architecture (DITA), an XML-based authoring language](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture), you can set up [*content reuse*](https://www.oxygenxml.com/doc/versions/27.1/ug-editor/topics/eppo-pathfinder-reuse.html), or *snippets*. Instead of copying and pasting sections into different files, you create a DITA file that contains that small piece of content. You reference that file where it's needed, like an include or import file.
+In a structured authoring environment, such as those that use [Darwin Information Typing Architecture (DITA)](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture), an XML-based authoring language, you can set up [*content reuse*](https://www.oxygenxml.com/doc/versions/27.1/ug-editor/topics/eppo-pathfinder-reuse.html), or *snippets*. Instead of copying and pasting sections into different files, you create a DITA file that contains that small piece of content. You reference that file where it's needed, like an include or import file.
 
-Some unstructured syntaxes and SSGs have their own implementations of reuse. However, this becomes an education and enforcement scale issue if you have a wide variety of contributors such as developers, product managers, subject matter experts, and technical writers. This also exposes your business to vendor lock-in, because once you have the toolset implemented, it's hard to move away from it, especially when you come to rely on features other tools don't have.
+Some unstructured syntaxes and SSGs have their own implementations of reuse. However, this becomes an education and enforcement issue if you have a wide variety of contributors such as developers, product managers, subject matter experts, and technical writers. This also exposes your business to vendor lock-in, because once you have the toolset implemented, it's hard to move away from it, especially when you come to rely on features other tools don't have.
 
 ## Metadata for content reuse
 
-Copy-pasted content across pages is a maintenance nightmare. Someone has to remember to update it, and also *all the places* where the content was pasted. With this in mind, I wanted to use *metadata* as much as possible to encourage reuse and programmatic data access.
+Copy-pasted content across pages is a maintenance nightmare. Someone has to remember to update it, and also *all the places* of the pasted content. With this in mind, I wanted to use metadata as much as possible for reuse and programmatic data access.
 
-Most technical writers and content strategists are familiar with metadata (also referred to as *front matter* or *frontmatter*). Metadata can define page titles, keywords, and leverage built-in [categories and tags](https://www.11ty.dev/docs/collections/).
+You can use metadata (also referred to as *front matter* or *frontmatter*) to define page titles, keywords, and leverage built-in [categories and tags](https://www.11ty.dev/docs/collections/).
 
-The real power comes by adding custom metadata; highly structured content that expands the possibilities of the template engine and site generator. I wanted to re-use the first sentence of each details page to display as descriptions on the cards on the grid pages. This allowed not only content reuse, but the freedom to style descriptions separately from headings. This enforces structure and allows writers and contributors to *just write*, since all of the logic is handled programmatically. Here's what a metadata block looks like on my site:
+The real power comes by adding custom metadata: highly structured content that expands the possibilities of the template engine and site generator. For example, I used the `description` field for the first sentence across the site. This allowed me to programmatically display the description on cards and each blog post, and let me style descriptions separately from everything else. It also enforces structure and allows writers and contributors to *just write*, since all of the logic is handled programmatically.
+
+Most metadata fits a key-value pair format. Here's what a metadata block looks like in YAML format:
 
 ```yml
 ---
@@ -36,7 +38,7 @@ Here's what each metadata entry does:
 | Fieldname         | Purpose                                                                                                                                                                                                         |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `title`           | Page title that displays on cards, grids, details pages, and browser tabs. Note that in this instance, I had to wrap the title in single quotes as there is a colon in it; this would break the page otherwise. |
-| `description`     | The first paragraph of the story.                                                                                                                                                                               |
+| `description`     | The first paragraph of the post.                                                                                                                                                                               |
 | `FontAwesomeIcon` | Specifies the [Font Awesome icon](https://fontawesome.com/icons?t=categories) to display on the homepage, grid pages, and breadcrumbs.                                                                          |
 | `featured`        | Displays the page on a card on the homepage.                                                                                                                                                                    |
 | `featuredOrder`   | Sets the order in which the card displays on the homepage.                                                                                                                                                      |
@@ -67,7 +69,7 @@ Here's what two cards look like side-by-side:
 
 ## Auto-generated, context-sensitive links
 
-The [content stategy](/static-site-transformation/content-strategy-for-ssgs) for my [skills pages](/skills) was to display the relevant tools and presentations for each skill. Initially these were bulleted lists but as I built out the pages and taxonomy, it became obvious that copying and pasting relevant bullets on each skills page wasn't sustainable.
+The [content stategy](/static-site-transformation/content-strategy-for-ssgs) for my [skills pages](/skills) was to display the relevant tools and presentations for each skill. These started as bulleted lists, but it quickly became obvious that copying and pasting relevant bullets on each page wasn't sustainable.
 
 Since there's no database behind a static site generator, I created two `json` files that enforce structure while remaining expandable. The first file contained information about my presentations, webinars, and guest appearances. This `json` file contained titles, year (or years) of the item, a relevant link, the category or categories for each, the location or event venue, and type (webinar, in-person, panel discussion, podcast guest or host, etc.). Here's an example:
 
