@@ -1,21 +1,77 @@
 ---
 title : Creating reusable content for static site generators (SSGs)
-description : I modularized my presentations and tools experience to display them in the right place at the right time&mdash;a major tenet of content strategy.
+description : I modularized my content to display it in the right place at the right time&mdash;a major tenet of content strategy.
 FontAwesomeIcon: solid fa-recycle
-date: 2025-09-04
-featured: false
+featured: true
+featuredOrder: 1
 ---
 
-A goal for my [skills pages](/skills) was to display the relevant tools and presentations for each skill. Initially these were bulleted lists. As I built out the pages and taxonomy, it became obvious that copying and pasting relevant bullets on each skills page wasn't a sustainable approach. No one likes having to remember to update *every* file whenever a copy-pasted piece of content changes.
 ## What is reusable content?
 
-In a structured authoring environment, such as those that use [Darwin Information Typing Architecture (DITA), an XML-based authoring language](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture), you can set up [*content reuse*](https://www.oxygenxml.com/doc/versions/27.1/ug-editor/topics/eppo-pathfinder-reuse.html), or *snippets*. Instead of copying and pasting sections into different files, you create a DITA file that contains that small piece of content. You reference that file where it's needed, like an include or import file.
+In a structured authoring environment, such as those that use [Darwin Information Typing Architecture (DITA)](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture), an XML-based authoring language, you can set up [*content reuse*](https://www.oxygenxml.com/doc/versions/27.1/ug-editor/topics/eppo-pathfinder-reuse.html), or *snippets*. Instead of copying and pasting sections into different files, you create a DITA file that contains that small piece of content. You reference that file where it's needed, like an include or import file.
 
-Unstructured syntaxes like Markdown, AsciiDoc, and ReStructuredText, as well as SSGs, have their own implementations of reuse. However, this becomes an education and enforcement scale issue if you have a wide variety of contributors such as developers, product managers, subject matter experts, and technical writers.
+Some unstructured syntaxes and SSGs have their own implementations of reuse. However, this becomes an education and enforcement issue if you have a wide variety of contributors such as developers, product managers, subject matter experts, and technical writers. This also exposes your business to vendor lock-in, because once you have the toolset implemented, it's hard to move away from it, especially when you come to rely on features other tools don't have.
 
-## Implementing reusable content in Eleventy SSG
+## Metadata for content reuse
 
-With assistance from GitHub Copilot, I created two `json` files that create and enforce structure while remaining flexible. The first file contained information about my presentations, webinars, and guest appearances. This `json` file contained titles, year (or years) of the item, a relevant link, the category or categories for each, the location or event venue, and type (webinar, in-person, panel discussion, podcast guest or host, etc.). Here's an example:
+Copy-pasted content across pages is a maintenance nightmare. Someone has to remember to update it, and also *all the places* of the pasted content. With this in mind, I wanted to use metadata as much as possible for reuse and programmatic data access.
+
+You can use metadata (also referred to as *front matter* or *frontmatter*) to define page titles, keywords, and leverage built-in [categories and tags](https://www.11ty.dev/docs/collections/).
+
+The real power comes by adding custom metadata: highly structured content that expands the possibilities of the template engine and site generator. For example, I used the `description` field for the first sentence across the site. This allowed me to programmatically display the description on cards and each blog post, and let me style descriptions separately from everything else. It also enforces structure and allows writers and contributors to *just write*, since all of the logic is handled programmatically.
+
+Most metadata fits a key-value pair format. Here's what a metadata block looks like in YAML format:
+
+```yml
+---
+title : 'The how: Building the site structure'
+description : Putting all of the content pieces together.
+tags : content-strategy
+featured : true
+featuredOrder : 3
+FontAwesomeIcon : solid fa-file-waveform
+---
+```
+
+Here's what each metadata entry does:
+
+| Fieldname         | Purpose                                                                                                                                                                                                         |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `title`           | Page title that displays on cards, grids, details pages, and browser tabs. Note that in this instance, I had to wrap the title in single quotes as there is a colon in it; this would break the page otherwise. |
+| `description`     | The first paragraph of the post.                                                                                                                                                                               |
+| `FontAwesomeIcon` | Specifies the [Font Awesome icon](https://fontawesome.com/icons?t=categories) to display on the homepage, grid pages, and breadcrumbs.                                                                          |
+| `featured`        | Displays the page on a card on the homepage.                                                                                                                                                                    |
+| `featuredOrder`   | Sets the order in which the card displays on the homepage.                                                                                                                                                      |
+
+Here's an example of how this content works programmatically. This code generates cards that references the metadata fields:
+
+```markup
+{% raw %}
+{%- macro gridItem(item) -%}
+    <div class="bg-whitish p-4">
+        <h3 aria-labelledby="{{ item.data.title |slugify }}">
+            {% if item.data.FontAwesomeIcon %}
+                <span class="fa-{{ item.data.FontAwesomeIcon }} text-2xl text-medium-blue"></span>
+            {% endif %}
+            {% if item.data.cover %}
+                <img src="/assets/images/{{ item.data.cover }}" alt="{{ item.data.coverAlt or item.data.title }}" data-pagefind-meta="image[{{ item.data.cover }}], image_alt[{{ item.data.coverAlt or item.data.title }}]" class="w-full h-48 object-cover mb-2">
+            {% endif %}
+            <a href="{{ item.url }}">{{ item.data.title | safe }}</a>
+        </h3>
+        <p>{{ item.data.description }}</p>
+    </div>
+{% endmacro %}
+{% endraw %}
+```
+
+Here's what two cards look like side-by-side:
+![Example result of card code](/assets/images/grid-cards-example.png)
+
+## Auto-generated, context-sensitive links
+
+The [content stategy](/static-site-transformation/content-strategy-for-ssgs) for my [skills pages](/skills) was to display the relevant tools and presentations for each skill. These started as bulleted lists, but it quickly became obvious that copying and pasting relevant bullets on each page wasn't sustainable.
+
+Since there's no database behind a static site generator, I created two `json` files that enforce structure while remaining expandable. The first file contained information about my presentations, webinars, and guest appearances. This `json` file contained titles, year (or years) of the item, a relevant link, the category or categories for each, the location or event venue, and type (webinar, in-person, panel discussion, podcast guest or host, etc.). Here's an example:
 
 ```json
 {
@@ -41,9 +97,7 @@ The second `json` file listed the tools I've used over my career, along with the
 },
 ```
 
-## Results
-
-By creating modular templates that render these JSON data structures, I achieved a single source of truth that adapts to different display contexts. Here's how the template renders presentation data:
+Then I created templates that render these structures, achieving a single source of truth that adapts to different display contexts. Here's part of the template renders presentation data:
 
 ```markup
 {% raw %}{% if presentations %}

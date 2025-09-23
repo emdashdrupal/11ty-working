@@ -118,5 +118,12 @@
         "categories": ["podcasting"],
         "venue": "Content Journeys podcast",
         "type": "podcast guest"
-      }
+      },
+      {
+      "title": "So, you want to be a technical writer?",
+      "year": "2025",
+      "categories": ["technical-writing", "metrics", "marketing"],
+      "venue": "Tech Write Pro India",
+      "type": "webinar"
+    }
   ]

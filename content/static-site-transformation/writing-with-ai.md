@@ -2,9 +2,8 @@
 title: 'Asking AI to write documentation'
 description: 'I decided to see if AI was going to take my job.'
 FontAwesomeIcon: solid fa-keyboard
-featured: false
-featuredOrder: 4
-date: 2025-01-02
+featured: true
+featuredOrder: 2
 ---
 
 The answer for coders is *not yet*. For those on the more creative end, including technical writers, it's a bit more grey.
