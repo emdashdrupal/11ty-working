@@ -63,19 +63,15 @@
         </script>
         <title>
             {% if collectionName == "skills" and layout == "layouts/details.njk" %}
-                Ed Marsh can help you with {{ title | lower or metadata.title | lower }}
+                Ed Marsh can help you with {{ title | lower or metadata.title | lower |trim }}
             {% else %}
-                {{ title or metadata.title }}
+                {{ title or metadata.title | trim}}
             {% endif %}
         </title>
         <link rel="icon" href="/assets/images/favicon.ico">
         <link rel="stylesheet" href="https://indestructibletype.com/fonts/Besley.css" type="text/css" charset="utf-8"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200..700&family=Reddit+Mono&display=swap">
         <link rel="canonical" href="https://edmar.sh{{ page.url }}"/>
-        {#         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Besley&family=Poppins:wght@200..900&family=Reddit+Mono&display=swap');
-        </style>
- #}
         <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet"/>
         <link rel="stylesheet" type="text/css" href="/css/tw.css">
         <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
