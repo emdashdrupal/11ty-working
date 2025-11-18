@@ -37,7 +37,7 @@
                     }
                 },
                 "datePublished": "2023-04-01T10:00:00+00:00",
-                "dateModified": "2023-04-05T15:30:00+00:00"
+                "dateModified": "{{ page.date | date("YYYY-MMM-DD") }}"
             }
         </script>
 
@@ -92,7 +92,7 @@
         {%- block content -%}
             <main class="container mx-auto py-1 px-4 md:px-6 max-w-4xl">
                 <article class="max-w-2xl">
-                    <h1>{{ title or metadata.title | markdown | safe }}</h1>
+                    <h1>{{ title or metadata.title | markdown | safe | trim }}</h1>
                     {%- if page.date and page | shouldShowDate -%}
                         <div id="dateline" class="italic text-sm mt-2">
                             Last updated: {{ page.date | date("YYYY-MMM-DD") }}
