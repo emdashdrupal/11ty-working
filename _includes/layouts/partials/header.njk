@@ -4,8 +4,43 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="generator" content="{{ eleventy.generator }}">
-        <meta
-        name="description" content="{{ description | safe }}">
+        <meta name="description" content="{{ description | safe }}">
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="{{page.url}}">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="{{title | trim }}">
+        <meta property="og:description" content="{{description}}">
+
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:domain" content="{{page.url}}">
+        <meta property="twitter:url" content="{{page.url}}">
+        <meta name="twitter:title" content="{{title | trim}}">
+        <meta name="twitter:description" content="{{description}}">
+        <!-- schema.org metadata -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "BlogPosting",
+                "headline": "{{title | trim}}",
+                "description": "{{description}}.",
+                "author": {
+                    "@type": "Person",
+                    "name": "Ed Marsh"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Ed Marsh rocks techcomm",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://example.com/logo.png"
+                    }
+                },
+                "datePublished": "2023-04-01T10:00:00+00:00",
+                "dateModified": "{{ page.date | date("YYYY-MMM-DD") }}"
+            }
+        </script>
+
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-VDL9G7YHY9"></script>
         <script>
@@ -28,19 +63,16 @@
         </script>
         <title>
             {% if collectionName == "skills" and layout == "layouts/details.njk" %}
-                Ed Marsh can help you with {{ title | lower or metadata.title | lower }}
+                Ed Marsh can help you with {{ title | lower or metadata.title | lower |trim }}
             {% else %}
-                {{ title or metadata.title }}
+                {{ title or metadata.title | trim}}
             {% endif %}
         </title>
         <link rel="icon" href="/assets/images/favicon.ico">
-        <link rel="stylesheet" href="https://indestructibletype.com/fonts/Besley.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="https://indestructibletype.com/fonts/Besley.css" type="text/css" charset="utf-8"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200..700&family=Reddit+Mono&display=swap">
-
-{#         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Besley&family=Poppins:wght@200..900&family=Reddit+Mono&display=swap');
-        </style>
- #}        <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet"/>
+        <link rel="canonical" href="https://edmar.sh{{ page.url }}"/>
+        <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet"/>
         <link rel="stylesheet" type="text/css" href="/css/tw.css">
         <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="/css/base.css">
@@ -60,7 +92,7 @@
         {%- block content -%}
             <main class="container mx-auto py-1 px-4 md:px-6 max-w-4xl">
                 <article class="max-w-2xl">
-                    <h1>{{ title or metadata.title | markdown | safe }}</h1>
+                    <h1>{{ title or metadata.title | markdown | safe | trim }}</h1>
                     {%- if page.date and page | shouldShowDate -%}
                         <div id="dateline" class="italic text-sm mt-2">
                             Last updated: {{ page.date | date("YYYY-MMM-DD") }}
