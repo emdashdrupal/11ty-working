@@ -29,12 +29,8 @@
                     "name": "Ed Marsh"
                 },
                 "publisher": {
-                    "@type": "Organization",
-                    "name": "Ed Marsh rocks techcomm",
-                    "logo": {
-                        "@type": "ImageObject",
-                        "url": "https://example.com/logo.png"
-                    }
+                    "@type": "Person",
+                    "name": "Ed Marsh"
                 },
                 "datePublished": "2023-04-01T10:00:00+00:00",
                 "dateModified": "{{ page.date | date("YYYY-MMM-DD") }}"
@@ -63,9 +59,9 @@
         </script>
         <title>
             {% if collectionName == "skills" and layout == "layouts/details.njk" %}
-                Ed Marsh can help you with {{ title | lower or metadata.title | lower |trim }}
+                Ed Marsh can help you with {{ title | lower or metadata.title | lower | trim }}
             {% else %}
-                {{ title or metadata.title | trim}}
+                {{ title or metadata.title | trim }}
             {% endif %}
         </title>
         <link rel="icon" href="/assets/images/favicon.ico">
@@ -98,7 +94,7 @@
                             Last updated: {{ page.date | date("YYYY-MMM-DD") }}
                         </div>
                     {% endif %}
-                    {%- if description %}
+                    {%- if description and layout != "layouts/index.njk" %}
                         <div data-pagefind-weight="6" class="description font-sans my-5">{{ description |
                             markdown | safe }}</div>
                     {% endif %}
