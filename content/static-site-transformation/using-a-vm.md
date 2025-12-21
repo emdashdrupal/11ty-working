@@ -6,7 +6,7 @@ featured: true
 featuredOrder: 2
 ---
 
-I've been toying with Linux for decades. At my first tech writing job we had several Red Hat Linux machines I played around with in the early 2000s. I remember *trying* to understand OpenSUSE on my [HP 2140 Netbook](https://www.wired.com/2009/01/hp-netbook-review) back in 2009. I even [presented about using virtual machines (VMs)](https://www.slideshare.net/slideshow/creating-a-drupal-sandbox-using-virtualbox-and-drupal-quickstart/28217861) in 2010.
+I've been toying with Linux for decades. I played around with several Red Hat Linux machines at my first tech writing job in the early 2000s. I *tried* to understand OpenSUSE on my [HP 2140 Netbook](https://www.wired.com/2009/01/hp-netbook-review) back in 2009 (eventually I just installed Ubuntu). I even [presented about using virtual machines (VMs)](https://www.slideshare.net/slideshow/creating-a-drupal-sandbox-using-virtualbox-and-drupal-quickstart/28217861) back in 2010.
 
 When I started this project, I knew I wanted to run it in a Linux desktop virtual environment on a VM. Why?
 
