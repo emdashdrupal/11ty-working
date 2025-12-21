@@ -1,12 +1,12 @@
 ---
 title: Creating a portfolio website using a virtual development environment
-description: Building out my website in a Linux virtual environment helped me focus, learn, and detach from my everyday Windows environment.
+description: Building my website in a Linux virtual environment helped me focus, learn, and detach from my everyday Windows environment.
 FontAwesomeIcon: solid fa-vr-cardboard
 featured: true
 featuredOrder: 2
 ---
 
-I've experimented with Linux for decades. I played around with Red Hat Linux machines in the early 2000s at my first tech writing job. I *tried* to understand OpenSUSE on my [HP 2140 Netbook](https://www.wired.com/2009/01/hp-netbook-review) back in 2009 (eventually I just installed Ubuntu). I even [presented about using virtual machines (VMs)](https://www.slideshare.net/slideshow/creating-a-drupal-sandbox-using-virtualbox-and-drupal-quickstart/28217861) back in 2010.
+I've experimented with Linux for decades. I played around with Red Hat Linux in the early 2000s at my first tech writing job. I *tried* to understand OpenSUSE on my [HP 2140 Netbook](https://www.wired.com/2009/01/hp-netbook-review) back in 2009 (eventually I installed Ubuntu). I even [presented about using virtual machines (VMs)](https://www.slideshare.net/slideshow/creating-a-drupal-sandbox-using-virtualbox-and-drupal-quickstart/28217861) back in 2010.
 
 When I decided to rebuild my website, I knew I wanted to develop it in a Linux desktop virtual environment on a VM. Why?
 
@@ -33,7 +33,7 @@ Once you get over that curve, and set things up, your time is spent using cross-
 
 ### And then one day &hellip;
 
-One day I opened my VM to find it no longer had internet connectivity. My host (Windows) computer had access, other VMs I was testing had connectivity, so *something* happened to my working version. An hour or so searching and the answer was&hellip; well, I'm not sure. The VM's connectivity was changed in the overall settings. It's *possible* that it broke from an update, but it was time lost trying to find the right magic commands. The good news is that if you do this in a VM, it's far easier to recover without affecting your Windows machine. Sometimes the answer is to start over with a new virtual machine.
+One day I opened my VM to find it no longer had internet connectivity. My host (Windows) computer had access, other VMs I was testing had connectivity, so *something* happened to my working version. An hour or so searching and the answer was&hellip; well, I'm not sure. The VM's connectivity was changed in the overall settings. It's *possible* that it broke from an update, but it was time lost trying to find the right magic commands. The good news is that if you do this in a VM, it's far easier to recover without affecting your Windows machine. Sometimes the answer is to start over with a new virtual machine. Using GitHub for version control made it much quicker to recover and keep working.
 
 ## My new daily driver
 
