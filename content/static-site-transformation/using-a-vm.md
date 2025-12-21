@@ -6,9 +6,9 @@ featured: true
 featuredOrder: 2
 ---
 
-I've been toying with Linux for decades. I played around with several Red Hat Linux machines at my first tech writing job in the early 2000s. I *tried* to understand OpenSUSE on my [HP 2140 Netbook](https://www.wired.com/2009/01/hp-netbook-review) back in 2009 (eventually I just installed Ubuntu). I even [presented about using virtual machines (VMs)](https://www.slideshare.net/slideshow/creating-a-drupal-sandbox-using-virtualbox-and-drupal-quickstart/28217861) back in 2010.
+I've experimented with Linux for decades. I played around with several Red Hat Linux machines at my first tech writing job in the early 2000s. I *tried* to understand OpenSUSE on my [HP 2140 Netbook](https://www.wired.com/2009/01/hp-netbook-review) back in 2009 (eventually I just installed Ubuntu). I even [presented about using virtual machines (VMs)](https://www.slideshare.net/slideshow/creating-a-drupal-sandbox-using-virtualbox-and-drupal-quickstart/28217861) back in 2010.
 
-When I started this project, I knew I wanted to run it in a Linux desktop virtual environment on a VM. Why?
+When I decided to rebuild my website, I knew I wanted to develop it in a Linux desktop virtual environment on a VM. Why?
 
 - Compartmentalization. I love Windows and always have. But trying to configure my bread-and-butter machine to work with things I wasn't yet comfortable with added complexity and concern.
 - Free! From the [VMWare Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) host to the operating system, the only thing it will cost you is some time and disk space (and [may change the way you work](#my-new-daily-driver)).
@@ -24,7 +24,7 @@ When I started this project, I knew I wanted to run it in a Linux desktop virtua
 When I said "some" time, that wasn't *entirely* accurate. You have to make some decisions, but some are actually fun.
 
 - Choosing a virtual machine (VM) host &mdash; I was surprised to learn [VMWare Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) was much quicker than [VirtualBox](https://www.virtualbox.org), which I used for years.
-- Trying out "flavors" of Linux is an optional step if you have the time and inclination. I tried distributions like Fedora and Ubuntu; due to my familiarity with Ubuntu and project timelines, it won. Then there are desktop environments like GNOME and Kubuntu. For me, the Ubuntu-based [Mint Cinnamon](https://linuxmint.com/edition.php?id=302) *just worked*. I bought a laptop and installed Mint on it, and it was incredibly painless to install and configure.
+- Trying out "flavors" of Linux is an optional step if you have the time and inclination. I tried distributions like Fedora and Ubuntu; due to my familiarity with Ubuntu and self-imposed deadlines, it won. Then there are desktop environments like GNOME and Kubuntu. For me, the Ubuntu-based [Mint Cinnamon](https://linuxmint.com/edition.php?id=302) *just worked*. I bought a laptop and installed Mint on it, and it was incredibly painless to install and configure.
 - Each VM and distro I tested were straightforward in terms of setup and had lots of handholding, as well as [pretty good documentation](https://linuxmint.com/documentation.php).
 
 There's a learning curve to working with Linux. You need to install and configure many development tools and frameworks by command line interface (CLI), like a VPN, or NodeJS, or an SSG. You'd have to do this in any platform, and if this sounds like a lot, there are Windows or Mac apps that will do a lot of it for you.
