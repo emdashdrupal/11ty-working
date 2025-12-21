@@ -11,7 +11,7 @@ I've been toying with Linux for decades. I can remember trying to understand Ope
 When I started this project, I knew I wanted to run it in a Linux virtual environment on a VM. Why?
 
 - Compartmentalization. I love Windows and always have. YMMV. But trying to configure my bread-and-butter machine to work with things I wasn't yet comfortable with added complexity and concern.
-- Free! From the VM host [VMWare Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) to the operating system, the only thing it will cost you is some time (and disk space).
+- Free! From the VM host [VMWare Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) to the operating system, the only thing it will cost you is some time and disk space (and [eventually more](#daily-driver)).
 - Closer to the metal. Sure, you can run Linux in Windows with [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/about), but that's command-line Linux server. This is far easier, allows separation &mdash; and has a GUI!
 - *Not* MacOS. The only Apple product I've ever owned was an iPad 3 and I hated every minute of it.
 - It is *fast*, and the environment is incredibly customizable.
@@ -32,3 +32,7 @@ Realistically, there is a steep learning curve to working with Linux. No matter 
 ## And then one day &hellip;
 
 One day in mid-March I opened my VM to find I no longer had internet connectivity. My host computer had access, other VMs I was testing had connectivity, so *something* happened to just my working version. An hour or so searching and the answer was&hellip; well, I'm not 100% sure. Somehow the VM's connectivity was changed in the overall settings, which I dnn't recall doing. It's *possible* that it broke from a major Linux update. Regardless, it was time lost trying to find the right magic commands.
+
+## Daily driver
+
+Fast-forward and Kubuntu is my daily operating system of choice. The only time I boot into Windows now is when I want to play my motorsport games with a sim-racing rig. Everything else &mdash; including my [favorite city-building game](https://www.paradoxinteractive.com/games/cities-skylines-ii/about) - run great in Linux.
