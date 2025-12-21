@@ -12,7 +12,7 @@ When I decided to rebuild my website, I knew I wanted to develop it in a Linux d
 
 - Compartmentalization. I love Windows and always have. But trying to configure my bread-and-butter machine to work with things I wasn't yet comfortable with added complexity and concern.
 - Free! From the [VMWare Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) host to the operating system, the only thing it will cost you is some time and disk space (and [may change the way you work](#my-new-daily-driver)).
-- You can run command-line Linux in Windows with [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/about), but that's an abstraction layer. Running Linux desktop environments directly in a VM is far easier, allows separation &mdash; and has a GUI!
+- You can run command-line Linux in Windows with [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/about), but that's an [abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer). Running Linux desktop environments directly in a VM is far easier, allows separation &mdash; and has a GUI!
 - *Not* Apple. The only Apple product I've ever owned was an iPad 3 and I hated every minute of it.
 - It's *fast*, and the environment is incredibly customizable.
 - Easy to learn. Most daily Windows tasks and apps just had a different name and a different UI.
