@@ -27,14 +27,14 @@ When I said "some" time, that wasn't *entirely* accurate. You have to make some 
 - Trying out "flavors" of Linux is fun &mdash; this is clearly an optional step if you have the time and inclination. I tried various "distros" like Ubuntu and Fedora. Due to my familiarity with Ubuntu, it won. But there are also desktop environments like GNOME and Kubuntu. For me, [Mint Cinnamon](https://linuxmint.com/edition.php?id=302) *just worked*. I bought a laptop and installed Mint on it, and it was incredibly painless to install and configure.
 - Each VM and distro I tested were straightforward in terms of setup and had lots of handholding, as well as [pretty good documentation](https://linuxmint.com/documentation.php).
 
-Realistically, there is a steep learning curve to working with Linux as a development environment. To run a lot of development tools, you need to install and configure things by command line interface (CLI). Like a VPN. Or NodeJS. Or an SSG server.
+There's a learning curve to working with Linux. To run many development tools you need to install and configure things by command line interface (CLI), like a VPN, or NodeJS, or an SSG server.
 
 Other than that, you rarely interact with the operating system anymore; your time is spent using apps that are generally cross-platform like VS Code and GitHub. You'd have to do this in any platform, and if this sounds like a lot, then Windows or Mac will do a lot of it for you.
 
 ## And then one day &hellip;
 
-One day in mid-March I opened my VM to find it no longer had internet connectivity. My host computer had access, other VMs I was testing had connectivity, so *something* happened to my working version. An hour or so searching and the answer was&hellip; well, I'm not 100% sure. Somehow the VM's connectivity was changed in the overall settings. It's *possible* that it broke from a major Linux update. Regardless, it was time lost trying to find the right magic commands. If you do this in a VM, it's far easier to recover without affecting your daily Windows machine. and sometimes it's just easier to start up a new virtual machine (as long as you're using version control!).
+One day in mid-March I opened my VM to find it no longer had internet connectivity. My host computer had access, other VMs I was testing had connectivity, so *something* happened to my working version. An hour or so searching and the answer was&hellip; well, I'm not 100% sure. Somehow the VM's connectivity was changed in the overall settings. It's *possible* that it broke from an update, but it was time lost trying to find the right magic commands. The good news is that if you do this in a VM, it's far easier to recover without affecting your Windows machine. Sometimes the answer is to start over with a new virtual machine.
 
 ## My new daily driver
 
-Speaking of daily machines, fast-forward and Kubuntu is my daily driver operating system. The only time I boot into Windows is when I want to play my motorsport games with a sim-racing rig. Everything else &mdash; including my [favorite city-building game](https://www.paradoxinteractive.com/games/cities-skylines-ii/about) &mdash; run great in Linux.
+Fast-forward and I grew out of Mint. Kubuntu is my daily OS. The only time I boot into Windows is to play motorsport games with a sim-racing rig. Everything else &mdash; including my [favorite city-building game](https://www.paradoxinteractive.com/games/cities-skylines-ii/about) &mdash; run great in Linux.
