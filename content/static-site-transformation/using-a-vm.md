@@ -33,8 +33,8 @@ Once you get over that curve, and set things up, your time is spent using cross-
 
 ## And then one day &hellip;
 
-One day in mid-March I opened my VM to find it no longer had internet connectivity. My host computer had access, other VMs I was testing had connectivity, so *something* happened to my working version. An hour or so searching and the answer was&hellip; well, I'm not 100% sure. Somehow the VM's connectivity was changed in the overall settings. It's *possible* that it broke from an update, but it was time lost trying to find the right magic commands. The good news is that if you do this in a VM, it's far easier to recover without affecting your Windows machine. Sometimes the answer is to start over with a new virtual machine.
+One day I opened my VM to find it no longer had internet connectivity. My host (Windows) computer had access, other VMs I was testing had connectivity, so *something* happened to my working version. An hour or so searching and the answer was&hellip; well, I'm not sure. The VM's connectivity was changed in the overall settings. It's *possible* that it broke from an update, but it was time lost trying to find the right magic commands. The good news is that if you do this in a VM, it's far easier to recover without affecting your Windows machine. Sometimes the answer is to start over with a new virtual machine.
 
 ## My new daily driver
 
-Fast-forward and I grew out of Mint. Kubuntu is my daily OS. The only time I boot into Windows is to play motorsport games with a sim-racing rig. Everything else &mdash; including my [favorite city-building game](https://www.paradoxinteractive.com/games/cities-skylines-ii/about) &mdash; run great in Linux. I've even created my own homelab based on Linux.
+Fast-forward and I grew out of Mint. Kubuntu is my daily OS; it's so much more *customizable*. I only boot into Windows to play motorsport games with a sim-racing rig. Everything else &mdash; including my [favorite city-building game](https://www.paradoxinteractive.com/games/cities-skylines-ii/about) &mdash; run great in Linux. I've even created my own homelab based on Linux.
