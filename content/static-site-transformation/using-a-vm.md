@@ -12,7 +12,7 @@ When I decided to rebuild my website, I knew I wanted to develop it in a Linux d
 
 - Compartmentalization. I love Windows and always have. But trying to configure my bread-and-butter machine to work with things I wasn't yet comfortable with added complexity and concern.
 - Free! From the [VMWare Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) host to the operating system, the only thing it will cost you is some time and disk space (and [may change the way you work](#my-new-daily-driver)).
-- Closer to the metal. You can run command-line Linux in Windows with [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/about), but that's mostly an abstraction layer. Running Linux desktop environments directly in a VM is far easier, allows separation &mdash; and has a GUI!
+- You can run command-line Linux in Windows with [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/about), but that's an abstraction layer. Running Linux desktop environments directly in a VM is far easier, allows separation &mdash; and has a GUI!
 - *Not* MacOS. The only Apple product I've ever owned was an iPad 3 and I hated every minute of it.
 - It's *fast*, and the environment is incredibly customizable.
 - Easy to learn. Most daily Windows tasks and apps just had a different name and a different UI.
@@ -31,10 +31,13 @@ There's a learning curve to working with Linux. You need to install and configur
 
 Once you get over that curve, and set things up, your time is spent using cross-platform apps and technologies like VS Code and GitHub.
 
-## And then one day &hellip;
+### And then one day &hellip;
 
 One day I opened my VM to find it no longer had internet connectivity. My host (Windows) computer had access, other VMs I was testing had connectivity, so *something* happened to my working version. An hour or so searching and the answer was&hellip; well, I'm not sure. The VM's connectivity was changed in the overall settings. It's *possible* that it broke from an update, but it was time lost trying to find the right magic commands. The good news is that if you do this in a VM, it's far easier to recover without affecting your Windows machine. Sometimes the answer is to start over with a new virtual machine.
 
 ## My new daily driver
 
-Fast-forward and I grew out of Mint. Kubuntu is my daily OS; it's so much more *customizable*. I only boot into Windows to play motorsport games with a sim-racing rig. Everything else &mdash; including my [favorite city-building game](https://www.paradoxinteractive.com/games/cities-skylines-ii/about) &mdash; run great in Linux. I've even created my own homelab based on Linux.
+Fast-forward and I grew out of Mint. Kubuntu is my daily OS; it's so much more *customizable*.
+
+![Customized Kubuntu desktop](../../assets/images/kubuntu-desktop-customization.png)
+I only boot into Windows to play motorsport games with a sim-racing rig. Everything else &mdash; including my [favorite city-building game](https://www.paradoxinteractive.com/games/cities-skylines-ii/about) &mdash; run great in Linux. I've even created my own homelab based on Linux.
