@@ -1,6 +1,6 @@
 ---
-title: Using a virtual development environment
-description: Working in a Linux virtual environment helped me focus, learn, and detach from my everyday Windows environment.
+title: Creating a portfolio website using a virtual development environment
+description: Building out my website in a Linux virtual environment helped me focus, learn, and detach from my everyday Windows environment.
 FontAwesomeIcon: solid fa-vr-cardboard
 featured: true
 featuredOrder: 2
