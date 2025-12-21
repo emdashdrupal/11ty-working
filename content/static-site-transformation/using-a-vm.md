@@ -6,7 +6,7 @@ featured: true
 featuredOrder: 2
 ---
 
-I've been toying with Linux for decades. At my first tech writing job we had several Red Hat Linux machines I played around with in the early 2000s. I remember *trying* to understand OpenSUSE on my [HP 2140 Netbook](https://www.wired.com/2009/01/hp-netbook-review/) back in 2009. I even [presented about using virtual machines (VMs)](https://www.slideshare.net/slideshow/creating-a-drupal-sandbox-using-virtualbox-and-drupal-quickstart/28217861) in 2010.
+I've been toying with Linux for decades. At my first tech writing job we had several Red Hat Linux machines I played around with in the early 2000s. I remember *trying* to understand OpenSUSE on my [HP 2140 Netbook](https://www.wired.com/2009/01/hp-netbook-review) back in 2009. I even [presented about using virtual machines (VMs)](https://www.slideshare.net/slideshow/creating-a-drupal-sandbox-using-virtualbox-and-drupal-quickstart/28217861) in 2010.
 
 When I started this project, I knew I wanted to run it in a Linux desktop virtual environment on a VM. Why?
 
@@ -23,13 +23,13 @@ When I started this project, I knew I wanted to run it in a Linux desktop virtua
 
 When I said "some" time, that wasn't *entirely* accurate. You have to make some decisions, but some are actually fun.
 
-- Choosing a virtual machine (VM) host &mdash; I was surprised to learn [VMWare Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) was much quicker than [VirtualBox](https://www.virtualbox.org/), which I used for years.
+- Choosing a virtual machine (VM) host &mdash; I was surprised to learn [VMWare Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) was much quicker than [VirtualBox](https://www.virtualbox.org), which I used for years.
 - Trying out "flavors" of Linux is an optional step if you have the time and inclination. I tried distributions like Fedora and Ubuntu; due to my familiarity with Ubuntu and project timelines, it won. Then there are desktop environments like GNOME and Kubuntu. For me, the Ubuntu-based [Mint Cinnamon](https://linuxmint.com/edition.php?id=302) *just worked*. I bought a laptop and installed Mint on it, and it was incredibly painless to install and configure.
 - Each VM and distro I tested were straightforward in terms of setup and had lots of handholding, as well as [pretty good documentation](https://linuxmint.com/documentation.php).
 
-There's a learning curve to working with Linux. You need to install and configure many development tools and frameworks by command line interface (CLI), like a VPN, or NodeJS, or an SSG.
+There's a learning curve to working with Linux. You need to install and configure many development tools and frameworks by command line interface (CLI), like a VPN, or NodeJS, or an SSG. You'd have to do this in any platform, and if this sounds like a lot, there are Windows or Mac apps that will do a lot of it for you.
 
-Other than that, you rarely interact with the operating system anymore; your time is spent using apps that are generally cross-platform like VS Code and GitHub. You'd have to do this in any platform, and if this sounds like a lot, then Windows or Mac will do a lot of it for you.
+Once you get over that curve, and set things up, your time is spent using cross-platform apps and technologies like VS Code and GitHub.
 
 ## And then one day &hellip;
 
@@ -37,4 +37,4 @@ One day in mid-March I opened my VM to find it no longer had internet connectivi
 
 ## My new daily driver
 
-Fast-forward and I grew out of Mint. Kubuntu is my daily OS. The only time I boot into Windows is to play motorsport games with a sim-racing rig. Everything else &mdash; including my [favorite city-building game](https://www.paradoxinteractive.com/games/cities-skylines-ii/about) &mdash; run great in Linux.
+Fast-forward and I grew out of Mint. Kubuntu is my daily OS. The only time I boot into Windows is to play motorsport games with a sim-racing rig. Everything else &mdash; including my [favorite city-building game](https://www.paradoxinteractive.com/games/cities-skylines-ii/about) &mdash; run great in Linux. I've even created my own homelab based on Linux.
