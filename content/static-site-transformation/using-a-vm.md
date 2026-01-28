@@ -5,12 +5,14 @@ FontAwesomeIcon: solid fa-vr-cardboard
 featured: true
 ---
 
-I've experimented with Linux for decades. I played around with [Red Hat Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) in the early 2000s at my first tech writing job. I *tried* to understand [OpenSUSE](https://www.opensuse.org/) on my [HP 2140 Netbook](https://www.wired.com/2009/01/hp-netbook-review) back in 2009 (eventually I installed Ubuntu). I even [gave a presentation about virtual machines (VMs)](https://www.slideshare.net/slideshow/creating-a-drupal-sandbox-using-virtualbox-and-drupal-quickstart/28217861) back in 2010.
-
 When I decided to rebuild my website, I knew I wanted to develop it in a Linux desktop virtual environment on a VM. Why?
 
+I've experimented with Linux for decades. I played around with [Red Hat Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) in the early 2000s at my first tech writing job. I *tried* to understand [OpenSUSE](https://www.opensuse.org/) on my [HP 2140 Netbook](https://www.wired.com/2009/01/hp-netbook-review) back in 2009 (eventually I installed Ubuntu). I even [gave a presentation about virtual machines (VMs)](https://www.slideshare.net/slideshow/creating-a-drupal-sandbox-using-virtualbox-and-drupal-quickstart/28217861) back in 2010.
+
+Here's What inspired me to go this route:
+
 - Compartmentalization. I love Windows and always have, but trying to configure my bread-and-butter machine to work with things I wasn't yet comfortable with added complexity and concern.
-- Free! From the [VMWare Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) host to the operating system, the only thing it will cost you is some time and disk space (and [may change the way you work](#my-new-daily-driver)).
+- Free! From the [VMWare Workstation](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) host to the operating system, the only thing it cost was some time and disk space (and it [changed the way I work](#my-new-daily-driver)).
 - It allowed me to configure, test, and run static site generators (SSGs) like Hugo and Eleventy in the environments they'll eventually run.
 - *Not* Apple. The only Apple product I've ever owned was an iPad 3 and I hated every minute of it.
 - It's *fast*, and the environment is incredibly customizable.
@@ -35,7 +37,7 @@ You *do* have to make some decisions, and test them, but some are actually fun.
 
 One day I opened my VM to find it no longer had internet connectivity. My host (Windows) computer had access, other VMs I was testing had connectivity, so *something* happened to my working version. An hour or so searching and the answer was&hellip; well, I'm not sure. It's *possible* that it broke from an update, but I lost time trying to find the right magic commands.
 
-Sometimes the answer is to start over with a new virtual machine. Using GitHub for version control made it much quicker to recover and keep working. The good news is that if you do this in a VM, it's far easier to recover without affecting your daily Windows machine.
+The good news is that if you do this in a VM, it's far easier to recover without affecting your daily machine. I just started over with a new virtual machine. My code was in GitHub, so it made it much quicker to recover and keep working after I reinstalled .
 
 ## My new daily driver
 
