@@ -18,7 +18,7 @@ I've experimented with Linux for decades. I played around with [Red Hat Linux](h
 
 ## How to start using a VM
 
-When I said *some* time, that wasn't entirely accurate. There's a learning curve to working with Linux. You need to install and configure many development tools and frameworks by command line interface (CLI), like a VPN, or NodeJS, or [an SSG](choosing-static-site-generator), which is something you'd do with any platform. If this sounds like a lot, there are Windows or Mac apps that will do a lot of it for you. Once you get over that curve, you mostly spend your time using cross-platform apps and technologies like VS Code, GitHub, and OpenOffice.
+When I said *some* time, that wasn't entirely accurate. There's a learning curve to working with Linux. You need to install and configure many development tools and frameworks by command line interface (CLI), like a VPN, or NodeJS, or [an SSG](/static-site-transformation/choosing-static-site-generator), which is something you'd do with any platform. If this sounds like a lot, there are Windows or Mac apps that will do a lot of it for you. Once you get over that curve, you mostly spend your time using cross-platform apps and technologies like VS Code, GitHub, and OpenOffice.
 
 You *do* have to make some decisions, and test them, but some are actually fun.
 
