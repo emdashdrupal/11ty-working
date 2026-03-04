@@ -19,6 +19,6 @@ Sharon was the [very first Content Content guest](/podcasts/introducing-the-cont
 - [Bookshop.org](https://bookshop.org/p/books/women-in-technical-communication-from-typewriters-to-touchscreens-a-history-by-the-women-who-did-the-work/2301c140f7ff0eea?ean=9781937434915&next=t)
 - [Amazon](https://a.co/d/020WUefC)
 
-## Call for writers for the next book
+## Call for writers for Sharon's next book
 
-If you know women engineers near retirement age or retired, help spread the word for the next book: *Women in Engineering*. [Call for writers](https://docs.google.com/forms/d/1VX2bQPSmmoQuMuKut1ItA2oSDMZlF6Oit_JloIrRJl8/viewform?usp=drivesdk&edit_requested=true)
+If you know women engineers near retirement age or retired, help [spread the word](https://docs.google.com/forms/d/1VX2bQPSmmoQuMuKut1ItA2oSDMZlF6Oit_JloIrRJl8/viewform?usp=drivesdk&edit_requested=true) for the next book: *Women in Engineering*.
