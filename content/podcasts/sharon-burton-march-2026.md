@@ -7,9 +7,9 @@ categories:
   - "technical writing"
 cover: Sharon_Burton_1.jpg
 coverAlt : Sharon Burton, content strategist and editor of the book *Women in Technical Communication*
-description: 'Sharon Burton is a content strategist and editor of the book *Women in Technical Communication*'
+description: "The Content Content podcast returns where it started with content strategist Sharon Burton. We discuss what we've been up to the past 11 years, Sharon's new book *Women in Technical Communication*, and pay the cat tax."
 mp3File: Content-Content-podcast-episode-19-Liz-Fraley.mp3
 blubrryId: 145351342
 blubrryCache: 1747159208
 ---
-The Content Content podcast returns with where it started, interviewing content strategist Sharon Burton. We discuss what we've been up to the past 11 years, Sharon's new book *Women in Technical Communication*, and pay the cat tax.
+Sharon is a content strategist, professor and editor of the book *Women in Technical Communication*.
