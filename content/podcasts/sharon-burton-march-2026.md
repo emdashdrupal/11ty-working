@@ -22,3 +22,10 @@ Sharon was the [very first Content Content guest](/podcasts/introducing-the-cont
 ## Call for writers for Sharon's next book
 
 If you know women engineers near retirement age or retired, help [spread the word](https://docs.google.com/forms/d/1VX2bQPSmmoQuMuKut1ItA2oSDMZlF6Oit_JloIrRJl8/viewform?usp=drivesdk&edit_requested=true) for the next book: *Women in Engineering*.
+
+## Credits
+
+- Intro voiceover by one of my best friends since high school, Corey Holtzberg at [Coho Studios](https://cohostudios.com).
+- Intro music bed: *Let's Relax* by [VGM Mark H](https://soundcloud.com/user-656562764)
+  - Music promoted by https://www.free-stock-music.com
+  - Creative Commons / Attribution-NoDerivs 3.0 Unported (CC BY-ND 3.0) <https://creativecommons.org/licenses/by-nd/3.0/>
