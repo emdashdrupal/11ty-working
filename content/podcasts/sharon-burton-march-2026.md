@@ -1,0 +1,31 @@
+---
+title: "Human widget 3592 with Sharon Burton"
+date: 2026-03-08
+categories:
+  - "podcast"
+  - "content strategy"
+  - "technical writing"
+cover: Sharon_Burton_1.jpg
+coverAlt : Sharon Burton, content strategist. professor, and editor of the book *Women in Technical Communication*
+description: "The Content Content podcast returns where it started with Sharon Burton. We discuss what we've been up to in the 11 years since our first episode, her new book *Women in Technical Communication*, and pay the cat tax."
+mp3File: sharon-burton-march-2026.mp3
+blubrryId: 152751070
+blubrryCache: 1772759385
+---
+Sharon was the [very first Content Content guest](/podcasts/introducing-the-content-content-podcast/) in 2015. She's a content strategist, technical writing professor at the University of California Riverside, and editor of the book *Women in Technical Communication: From typewriters to touchscreens, a history by the women who did the work*. Sharon's book is available at:
+
+- [XMLPress](https://xmlpress.net/2026/03/02/women-in-technical-communication/) publisher discount: in March, 2026, get 30% off the ebook using code *women30*.
+- [Barnes and Noble](https://www.barnesandnoble.com/w/women-in-technical-communication-sharon-burton/1149551546?ean=9781937434915)
+- [Bookshop.org](https://bookshop.org/p/books/women-in-technical-communication-from-typewriters-to-touchscreens-a-history-by-the-women-who-did-the-work/2301c140f7ff0eea?ean=9781937434915&next=t)
+- [Amazon](https://a.co/d/020WUefC)
+
+## Call for writers for Sharon's next book
+
+If you know women engineers near retirement age or retired, help [spread the word](https://docs.google.com/forms/d/1VX2bQPSmmoQuMuKut1ItA2oSDMZlF6Oit_JloIrRJl8/viewform?usp=drivesdk&edit_requested=true) for the next book: *Women in Engineering*.
+
+## Credits
+
+- Intro voiceover by one of my best friends since high school, Corey Holtzberg at [Coho Studios](https://cohostudios.com).
+- Intro music bed: *Let's Relax* by [VGM Mark H](https://soundcloud.com/user-656562764)
+  - Music promoted by https://www.free-stock-music.com
+  - Creative Commons / Attribution-NoDerivs 3.0 Unported (CC BY-ND 3.0) <https://creativecommons.org/licenses/by-nd/3.0/>
