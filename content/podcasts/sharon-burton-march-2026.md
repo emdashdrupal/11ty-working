@@ -8,9 +8,9 @@ categories:
 cover: Sharon_Burton_1.jpg
 coverAlt : Sharon Burton, content strategist. professor, and editor of the book *Women in Technical Communication*
 description: "The Content Content podcast returns where it started with Sharon Burton. We discuss what we've been up to in the 11 years since our first episode, her new book *Women in Technical Communication*, and pay the cat tax."
-mp3File: Content-Content-podcast-episode-19-Liz-Fraley.mp3
-blubrryId: 145351342
-blubrryCache: 1747159208
+mp3File: sharon-burton-march-2026.mp3
+blubrryId: 152751070
+blubrryCache: 1772759385
 ---
 Sharon was the [very first Content Content guest](/podcasts/introducing-the-content-content-podcast/) in 2015. She's a content strategist, technical writing professor at the University of California Riverside, and editor of the book *Women in Technical Communication: From typewriters to touchscreens, a history by the women who did the work*. Sharon's book is available at:
 
