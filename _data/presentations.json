@@ -125,5 +125,13 @@
       "categories": ["technical-writing", "metrics", "marketing"],
       "venue": "Tech Write Pro India",
       "type": "webinar"
+    },
+    {
+      "title": "Vibe Coding Your Career: Ed Marsh on Job Searching & Portfolio Development",
+      "year": "2026",
+      "link" : "https://www.youtube.com/watch?v=5xM6zrOSvDU&t=28s",
+      "categories": ["technical-writing", "public-speaking", "marketing"],
+      "venue": "Kinetic Council",
+      "type": "webinar"
     }
   ]
