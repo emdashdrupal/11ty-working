@@ -46,7 +46,6 @@ And here is the response:
         <section class="mb-8">
             <h2 class="text-2xl font-semibold">Latest Content</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {% raw %}
                {% assign allItems = collections.all | sort_by: 'date', 'desc' %}
                 {% for item in allItems | slice(0, 6) %}
                 <div class="bg-white p-4 shadow-md">
@@ -57,12 +56,12 @@ And here is the response:
             </div>
         </section>
     </main>
-{% endraw %}
+
     <footer class="bg-gray-800 text-white p-4 mt-8">
         <p>&copy; 2025 My Eleventy Site</p>
     </footer>
 </body>
-</html>
+</html>{% endraw %}
 ```
 
 Copilot said the Gemini version was well-structured and accurately done.
