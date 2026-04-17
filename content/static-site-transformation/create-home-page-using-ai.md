@@ -20,7 +20,7 @@ i'm creating a web site using Eleventy, nunjucks, tailwind css, html, and markdo
 And here is the response:
 
 ```markup
-{% raw %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,16 +38,19 @@ And here is the response:
         <section class="mb-8">
             <h2 class="text-2xl font-semibold">About</h2>
             <p class="mt-2">
+            {% raw %}
             <!--
                 {% markdown %}
                 Welcome to my website. Here you will find information about me and my projects.
                 {% endmarkdown %} -->
+            {% endraw %}
             </p>
         </section>
 
         <section class="mb-8">
             <h2 class="text-2xl font-semibold">Latest Content</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {% raw %}
                <!--  {% assign allItems = collections.all | sort_by: 'date', 'desc' %}
                 {% for item in allItems | slice(0, 6) %}
                 <div class="bg-white p-4 shadow-md">
