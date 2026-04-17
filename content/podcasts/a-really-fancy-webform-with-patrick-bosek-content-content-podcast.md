@@ -9,7 +9,7 @@ categories:
 tags :
   - "technical communication"
   -  "dita"
-cover: Patrick-Bosekcurrent-social-960x1280.jpg
+cover: Patrick-Bosek.webp
 coverAlt : Patrick Bosek of Heretto
 description : The Heretto CEO explains why &ldquo;pure&rdquo; techcomm is going away, why being a CEO is like being an eight year-old with a lemonade stand, and more.
 mp3File: content-content-podcast-patrick-bosek.mp3
