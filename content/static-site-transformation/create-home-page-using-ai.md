@@ -2,6 +2,9 @@
 title: Creating a homepage template using AI
 description : "I use Google Gemini and GitHub Copilot to create Nunjucks templates for my static site."
 FontAwesomeIcon: 'solid fa-brain'
+featured: true
+featuredOrder: 1
+date: 2026-04-18
 ---
 
 
