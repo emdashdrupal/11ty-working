@@ -72,6 +72,86 @@ And here is the response:
 
 Copilot said the Gemini version was well-structured and accurately done.
 
+### AI in 2026
+
+I'm writing most of this post a year after I drafted it. Now I'm running LM Studio locally, with the Qwen3 large language model (LLM). I fed the same prompt into the `qwen3-coder-30b-a3b-instruct` LLM, and it output the following JSON:
+
+```markup
+{% raw %} <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <link href="/styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">{{ title }}</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="/" class="hover:text-blue-600">Home</a></li>
+                    <li><a href="/about" class="hover:text-blue-600">About</a></li>
+                    <li><a href="/posts" class="hover:text-blue-600">Posts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <!-- Hero Section -->
+        <section class="text-center mb-12">
+            <h2 class="text-4xl font-bold mb-4">{{ title }}</h2>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto">{{ description }}</p>
+        </section>
+
+        <!-- Featured Content -->
+        <section class="mb-12">
+            <h3 class="text-2xl font-semibold mb-6">Latest Posts</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {% for post in collections.posts | reverse %}
+                <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <a href="{{ post.url }}">
+                        <h4 class="text-xl font-semibold p-4 hover:text-blue-600">{{ post.data.title }}</h4>
+                    </a>
+                    <div class="p-4 text-gray-600">
+                        {{ post.templateContent | slice(0, 150) }}...
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h3 class="text-2xl font-semibold mb-4">About This Site</h3>
+            <p>This is a simple homepage built with Eleventy, Nunjucks, Tailwind CSS, HTML and Markdown.</p>
+        </section>
+
+        <!-- Newsletter Signup -->
+        <section class="bg-blue-50 rounded-lg p-6">
+            <h3 class="text-xl font-semibold mb-2">Stay Updated</h3>
+            <p class="mb-4">Subscribe to get the latest posts delivered to your inbox.</p>
+            <form class="flex flex-col sm:flex-row gap-2">
+                <input type="email" placeholder="Your email address" class="flex-grow px-4 py-2 rounded border focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; {{ "now" | date("YYYY") }} {{ title }}. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+{% endraw %}
+
+```
+
 ### Data modeling
 
 Next I used AI to create JSON files for my [lists of presentations and skills](/static-site-transformation/content-reuse/#auto-generated%2C-context-sensitive-links)
