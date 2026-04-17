@@ -4,6 +4,7 @@ description : "I use Google Gemini and GitHub Copilot to create Nunjucks templat
 FontAwesomeIcon: 'solid fa-brain'
 ---
 
+
 The nice thing about AI is that if you want good answers, that you have to think through your logic. It's helpful to write it down regardless of the language you do (or don't) know. This made me think more and more about prompt engineering (is that still a thing?) and how technical writers can educate regular folks how best to use AI.
 
 ## AI
@@ -16,9 +17,9 @@ Prompt:
 i'm creating a web site using Eleventy, nunjucks, tailwind css, html, and markdown. I'd like your help with a template for the homepage.
 ```
 
-And here is the response (note some sections are escaped with comments so they display instead of execute):
+And here is the response:
 
-```liquid
+```markup
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,22 +38,22 @@ And here is the response (note some sections are escaped with comments so they d
             <h2 class="text-2xl font-semibold">About</h2>
             <p class="mt-2">
             <!--
-                \{\% markdown %}
+                {% markdown %}
                 Welcome to my website. Here you will find information about me and my projects.
-                \{\% endmarkdown %} -->
+                {% endmarkdown %} -->
             </p>
         </section>
 
         <section class="mb-8">
             <h2 class="text-2xl font-semibold">Latest Content</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-               <!--  \{\% assign allItems = collections.all | sort_by: 'date', 'desc' %}
-                \{\% for item in allItems | slice(0, 6) %}
+               <!--  {% assign allItems = collections.all | sort_by: 'date', 'desc' %}
+                {% for item in allItems | slice(0, 6) %}
                 <div class="bg-white p-4 shadow-md">
                     <h3 class="text-xl font-semibold">{{ item.data.title }}</h3>
                     <p>{{ item.data.description }}</p>
                 </div>
-                \{\% endfor %} -->
+                {% endfor %} -->
             </div>
         </section>
     </main>
@@ -65,6 +66,19 @@ And here is the response (note some sections are escaped with comments so they d
 ```
 
 Copilot said the Gemini version was well-structured and accurately done.
+
+### Data modeling
+
+```txt
+Think like a programmer. i want a json file with the following structure:
+- Skill title
+  - description
+  - Tools used
+  - Technologies used
+
+  tools and technologies will need to be pulled into several templates, so explain how i can assign them to multiple skills
+```
+
 
 ## Breakthroughs
 
@@ -83,20 +97,8 @@ Copilot said the Gemini version was well-structured and accurately done.
 
   - Understanding the logic I wanted helped me to accurately frame the question to the LLM.
 
-### Data modeling
-
-```txt
-Think like a programmer. i want a json file with the following structure:
-- Skill title
-  - description
-  - Tools used
-  - Technologies used
-
-  tools and technologies will need to be pulled into several templates, so explain how i can assign them to multiple skills
-```
 ## Setbacks
 
 - Continual content/metadata revision
 - Redoing templates over and over and over
 - Trying to abstract templates in templates
-
