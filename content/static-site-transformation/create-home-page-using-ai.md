@@ -74,7 +74,7 @@ Copilot said the Gemini version was well-structured and accurately done.
 
 ### AI in 2026
 
-I'm writing most of this post a year after I drafted it. Now I'm running LM Studio locally, with the Qwen3 large language model (LLM). I fed the same prompt into the `qwen3-coder-30b-a3b-instruct` LLM, and it output the following JSON:
+I'm writing most of this post a year after I drafted it. Now I'm running LM Studio locally, with the [Qwen3 large language model (LLM)](https://huggingface.co/collections/Qwen/qwen3). I fed the same prompt into the `qwen3-coder-30b-a3b-instruct` LLM, and it output the following JSON:
 
 ```markup
 {% raw %} <!DOCTYPE html>
@@ -149,7 +149,6 @@ I'm writing most of this post a year after I drafted it. Now I'm running LM Stud
 </body>
 </html>
 {% endraw %}
-
 ```
 
 ### Data modeling

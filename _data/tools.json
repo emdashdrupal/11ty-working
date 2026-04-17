@@ -193,5 +193,10 @@
     "category": ["technical-writing", "structured-authoring", "content-management"],
     "publisher": "MadCap/IXIA",
     "title": "IXIA CCMS"
+  },
+    {
+    "category": ["coding-experience", "artificial-intelligence"],
+    "publisher": "Alibaba",
+    "title": "Qwen3 large language models"
   }
 ]
