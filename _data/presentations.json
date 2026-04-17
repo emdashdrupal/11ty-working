@@ -67,7 +67,7 @@
       "title": "So, you want to be a technical writer?",
       "year": "2024",
       "link": "https://www.brighttalk.com/webcast/9273/608187",
-      "categories": ["technical-writing", "metrics", "content-strategy", "marketing", "structured-authoring"],
+      "categories": ["technical-writing", "metrics", "content-strategy", "marketing", "structured-authoring", "artificial-intelligence"],
       "venue": "Content Wrangler webcast",
       "type": "webinar"
     },
@@ -122,7 +122,7 @@
       {
       "title": "So, you want to be a technical writer?",
       "year": "2025",
-      "categories": ["technical-writing", "metrics", "marketing"],
+      "categories": ["technical-writing", "metrics", "marketing", "artificial-intelligence"],
       "venue": "Tech Write Pro India",
       "type": "webinar"
     },
@@ -130,7 +130,7 @@
       "title": "Vibe Coding Your Career: Ed Marsh on Job Searching & Portfolio Development",
       "year": "2026",
       "link" : "https://www.youtube.com/watch?v=5xM6zrOSvDU&t=28s",
-      "categories": ["technical-writing", "public-speaking", "marketing"],
+      "categories": ["technical-writing", "public-speaking", "marketing", "artificial-intelligence"],
       "venue": "Kinetic Council",
       "type": "webinar"
     }
