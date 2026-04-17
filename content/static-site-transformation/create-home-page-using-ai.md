@@ -74,6 +74,8 @@ Copilot said the Gemini version was well-structured and accurately done.
 
 ### Data modeling
 
+Next I used AI to create JSON files for my [presentations and skills](/static-site-transformation/content-reuse/#auto-generated%2C-context-sensitive-links)
+
 ```txt
 Think like a programmer. i want a json file with the following structure:
 - Skill title
