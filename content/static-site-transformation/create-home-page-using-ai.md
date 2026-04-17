@@ -7,13 +7,13 @@ featuredOrder: 1
 date: 2026-04-18
 ---
 
-I didn't know a thing about the Nunjucks templating language. What I like about templating languages is that you're basically creating HTML pages, with logic and variables thrown in. It also enforces structure and allows dynamic content. Nunjucks is based on Jinja.
+I didn't know a thing about the [Nunjucks templating language](https://mozilla.github.io/nunjucks/). What I like about templating languages is that you're basically creating HTML pages, with logic and variables thrown in. It also enforces structure and allows dynamic content. Nunjucks is based on [Jinja](https://jinja.palletsprojects.com/en/stable/).
 
 So I turned to AI to help me write code for the templates on my site.
 
 The nice thing about AI is that if you want good answers, that you have to think through your logic. It's helpful to write it down regardless of the language you do (or don't) know. This made me think more and more about prompt engineering (is that still a thing?) and how technical writers can educate regular folks how best to use AI.
 
-## AI
+## Comparing AI output
 
 I pitted Google's Gemini against GitHub Copilot.
 
@@ -74,7 +74,7 @@ Copilot said the Gemini version was well-structured and accurately done.
 
 ### Data modeling
 
-Next I used AI to create JSON files for my [presentations and skills](/static-site-transformation/content-reuse/#auto-generated%2C-context-sensitive-links)
+Next I used AI to create JSON files for my [lists of presentations and skills](/static-site-transformation/content-reuse/#auto-generated%2C-context-sensitive-links)
 
 ```txt
 Think like a programmer. i want a json file with the following structure:
