@@ -38,7 +38,7 @@ And here is the response:
             <h2 class="text-2xl font-semibold">About</h2>
             <p class="mt-2">
             <!--
-                {% markdown %}
+                \{\% markdown %}
                 Welcome to my website. Here you will find information about me and my projects.
                 {% endmarkdown %} -->
             </p>
