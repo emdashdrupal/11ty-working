@@ -6,7 +6,7 @@ categories:
   - "podcast"
   - "technical writing"
 tags : content strategy
-cover : ann-rockley.jpg
+cover : ann-rockley.webp
 coverAlt : Mother of Content Strategy Ann Rockley
 description : "The &ldquo;Mother of Content Strategy&rdquo; discusses a 30+ year consulting career, pivoting to a new business, and more."
 mp3File : content-content-podcast-ann-rockley.mp3

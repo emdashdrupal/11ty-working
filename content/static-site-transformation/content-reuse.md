@@ -2,8 +2,6 @@
 title : Creating reusable content for static site generators (SSGs)
 description : I modularized my content to display it in the right place at the right time&mdash;a major tenet of content strategy.
 FontAwesomeIcon: solid fa-recycle
-featured: true
-featuredOrder: 1
 ---
 
 ## What is reusable content?

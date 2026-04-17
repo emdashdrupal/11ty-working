@@ -8,7 +8,7 @@ categories:
 tags :
   - "UX writing"
   - "ux"
-cover: 1603480107914.jpg
+cover: 1603480107914.webp
 coverAlt : UX writer MJ Babic
 description : "&ldquo;The best term to use to call what I was doing was UX writing&rdquo; says UX Writer MJ Babic."
 mp3File : content-content-podcast_MJ_Babic.mp3
