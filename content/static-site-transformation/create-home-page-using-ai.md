@@ -4,7 +4,6 @@ description : "I use Google Gemini and GitHub Copilot to create Nunjucks templat
 FontAwesomeIcon: 'solid fa-brain'
 ---
 
-
 The nice thing about AI is that if you want good answers, that you have to think through your logic. It's helpful to write it down regardless of the language you do (or don't) know. This made me think more and more about prompt engineering (is that still a thing?) and how technical writers can educate regular folks how best to use AI.
 
 ## AI
@@ -78,7 +77,6 @@ Think like a programmer. i want a json file with the following structure:
 
   tools and technologies will need to be pulled into several templates, so explain how i can assign them to multiple skills
 ```
-
 
 ## Breakthroughs
 
