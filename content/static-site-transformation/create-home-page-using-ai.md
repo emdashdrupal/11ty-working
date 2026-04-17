@@ -20,8 +20,7 @@ i'm creating a web site using Eleventy, nunjucks, tailwind css, html, and markdo
 And here is the response:
 
 ```markup
-
-<!DOCTYPE html>
+{% raw %}<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -38,7 +37,7 @@ And here is the response:
         <section class="mb-8">
             <h2 class="text-2xl font-semibold">About</h2>
             <p class="mt-2">
-            {% raw %}
+
             <!--
                 {% markdown %}
                 Welcome to my website. Here you will find information about me and my projects.
