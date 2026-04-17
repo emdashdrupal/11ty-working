@@ -19,7 +19,7 @@ i'm creating a web site using Eleventy, nunjucks, tailwind css, html, and markdo
 
 And here is the response:
 
-```txt
+```markup
 <!DOCTYPE html>
 <html lang="en">
 <head>
