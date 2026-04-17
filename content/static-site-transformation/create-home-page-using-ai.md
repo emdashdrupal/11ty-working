@@ -4,11 +4,11 @@ description : "I use Google Gemini and GitHub Copilot to create Nunjucks templat
 FontAwesomeIcon: 'solid fa-brain'
 ---
 
-The nice thing about AI is that if you want good answers, that you have to think through your logic. it's helpful to write it down regardless of the language you do (or don't) know. This has made me think more and more about prompt engineering (is that still a thing?) and how technical writers can educate regular folks how best to use AI.
+The nice thing about AI is that if you want good answers, that you have to think through your logic. It's helpful to write it down regardless of the language you do (or don't) know. This made me think more and more about prompt engineering (is that still a thing?) and how technical writers can educate regular folks how best to use AI.
 
 ## AI
 
-Copilot said the Gemini version was well-structured and accurately done.
+I pitted Google's Gemini against GitHub Copilot.
 
 Prompt:
 
@@ -64,6 +64,8 @@ And here is the response (note some sections are escaped with comments so they d
 </html>
 ```
 
+Copilot said the Gemini version was well-structured and accurately done.
+
 ## Breakthroughs
 
 - Reverse sorting `| reverse`
@@ -83,14 +85,15 @@ And here is the response (note some sections are escaped with comments so they d
 
 ### Data modeling
 
-think like a programmer. i want a json file with the following structure:
+```txt
+Think like a programmer. i want a json file with the following structure:
 - Skill title
   - description
   - Tools used
   - Technologies used
 
   tools and technologies will need to be pulled into several templates, so explain how i can assign them to multiple skills
-
+```
 ## Setbacks
 
 - Continual content/metadata revision
