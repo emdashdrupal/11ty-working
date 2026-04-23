@@ -68,11 +68,11 @@ And here is the response:
 </html>{% endraw %}
 ```
 
-Copilot said the Gemini version was well-structured and accurately done.
+Copilot said the Gemini version was well-structured and accurate.
 
 ### AI in 2026
 
-I'm writing most of this post a year after I drafted it. Now I'm running LM Studio locally, with the [Qwen3 large language model (LLM)](https://huggingface.co/collections/Qwen/qwen3). I fed the same prompt into the `qwen3-coder-30b-a3b-instruct` LLM, and it output the following JSON:
+I'm writing most of this post a year after I drafted it. Now I'm running [LM Studio](lmstudio.ai) locally, with a few of the [Qwen3 large language models (LLM)](https://huggingface.co/collections/Qwen/qwen3). I fed the same prompt into the `qwen3-coder-30b-a3b-instruct` model, and it output the following:
 
 ```markup
 {% raw %} <!DOCTYPE html>
@@ -149,11 +149,11 @@ I'm writing most of this post a year after I drafted it. Now I'm running LM Stud
 {% endraw %}
 ```
 
-It's pretty obvious how advanced even small LLMs running locally have become in the past year. The 2026 version is far more detailed.
+It's pretty obvious how advanced even locally running LLMs with a relatively small number of parameters have become in the past year. The 2026 version is far more detailed.
 
 ### Data modeling
 
-Next I used AI to create JSON files for my [lists of presentations and skills](/static-site-transformation/content-reuse/#auto-generated%2C-context-sensitive-links)
+Then I used AI to create JSON files for my [lists of skills](/static-site-transformation/content-reuse/#auto-generated%2C-context-sensitive-links)
 
 ```txt
 Think like a programmer. i want a json file with the following structure:
@@ -165,13 +165,16 @@ Think like a programmer. i want a json file with the following structure:
   tools and technologies will need to be pulled into several templates, so explain how i can assign them to multiple skills
 ```
 
-
 ## Breakthroughs
 
-- Reverse sorting `| reverse`
+Of course, LLMs can only do so much, and are often just plain wrong. Over the course of my back-and-forth with the LLMS, understanding the logic I wanted helped me to accurately frame the question to the LLM. It's your typical GIGO (garbage in, garbage out) cycle. A few things I struggled with along the way and ground my way through:
+
+- Continual content/metadata revision
+- Redoing templates over and over and over
+- Trying to abstract templates in templates- Reverse sorting `| reverse`
 - Slices &mdash; and slices not working!
 - Collections
-- Shortcode for current year display
+- An automated shortcode for current year display in the footer:
 
     ```js
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
@@ -180,11 +183,3 @@ Think like a programmer. i want a json file with the following structure:
     ```njk
     {% year %}
     ```
-
-  - Understanding the logic I wanted helped me to accurately frame the question to the LLM.
-
-## Setbacks
-
-- Continual content/metadata revision
-- Redoing templates over and over and over
-- Trying to abstract templates in templates
