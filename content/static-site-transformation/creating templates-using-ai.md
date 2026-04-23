@@ -1,6 +1,6 @@
 ---
 title: Creating website templates using AI
-description : "I used Google Gemini, GitHub Copilot, and local LLMs to create Nunjucks templates and JSON files for my static site."
+description : "I used Google Gemini, GitHub Copilot, and local LLMs to help create templates and JSON files for my static site."
 FontAwesomeIcon: 'solid fa-brain'
 featured: true
 featuredOrder: 1
@@ -15,7 +15,7 @@ What I learned about LLMs is that if you want good answers, then you have to thi
 
 ## Comparing AI output
 
-I pitted Google's Gemini against GitHub Copilot. First, I asked Gemini the following prompt:
+I pitted Google's Gemini against GitHub Copilot. I prompted Gemini with:
 
 ```txt
 i'm creating a web site using Eleventy, nunjucks, tailwind css, html, and markdown. I'd like your help with a template for the homepage.
@@ -167,13 +167,13 @@ Think like a programmer. i want a json file with the following structure:
 
 ## The learning process
 
-LLMs can only do so much, and are often just plain wrong. Over the course of my back-and-forth with the LLMs, understanding the logic I wanted helped me to accurately frame the question to the LLM. It's your typical GIGO (garbage in, garbage out) cycle. A few things I struggled with along the way and ground my way through:
+LLMs can only do so much, and are often just plain wrong. However, they did things it would've taken me a lot more time to learn and do manually. Over the course of my back-and-forth with the LLMs, understanding the logic I wanted helped me to accurately frame the question to the LLM. It's your typical GIGO (garbage in, garbage out) cycle. A few things I struggled with along the way and ground my way through:
 
 - Continual content/metadata revision.
 - Redoing templates over and over and over, and over.
 - Trying to abstract templates in templates.
 - Sorting entries like podcast in reverse order. This is apparently done by appending `| reverse`.
-- Slices &mdash; and slices not working!
+- Slices &mdash; and slices not working! Slices take an array of items and split them into
 - [Collections](https://www.11ty.dev/docs/collections/) (essentially tags) and how to use them to group topics.
 - An automated shortcode for the current year, displayed in the footer:
 
