@@ -1,6 +1,6 @@
 ---
-title: Creating a homepage template using AI
-description : "I use Google Gemini and GitHub Copilot to create Nunjucks templates for my static site."
+title: Creating website templates using AI
+description : "I used Google Gemini, GitHub Copilot, and local LLMs to create Nunjucks templates and JSON files for my static site."
 FontAwesomeIcon: 'solid fa-brain'
 featured: true
 featuredOrder: 1
@@ -9,15 +9,13 @@ date: 2026-04-18
 
 I didn't know a thing about the [Nunjucks templating language](https://mozilla.github.io/nunjucks/). What I like about templating languages is that you're basically creating HTML pages, with logic and variables thrown in. It also enforces structure and allows dynamic content. Nunjucks is based on [Jinja](https://jinja.palletsprojects.com/en/stable/).
 
-So I turned to AI to help me write code for the templates on my site.
+I turned to AI to help me write code for the templates on my site.
 
 The nice thing about AI is that if you want good answers, that you have to think through your logic. It's helpful to write it down regardless of the language you do (or don't) know. This made me think more and more about prompt engineering (is that still a thing?) and how technical writers can educate regular folks how best to use AI.
 
 ## Comparing AI output
 
-I pitted Google's Gemini against GitHub Copilot.
-
-Prompt:
+I pitted Google's Gemini against GitHub Copilot. First, I asked Gemini the following prompt:
 
 ```txt
 i'm creating a web site using Eleventy, nunjucks, tailwind css, html, and markdown. I'd like your help with a template for the homepage.
@@ -150,6 +148,8 @@ I'm writing most of this post a year after I drafted it. Now I'm running LM Stud
 </html>
 {% endraw %}
 ```
+
+It's pretty obvious how advanced even small LLMs running locally have become in the past year. The 2026 version is far more detailed.
 
 ### Data modeling
 
