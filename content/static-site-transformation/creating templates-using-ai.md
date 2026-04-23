@@ -7,9 +7,9 @@ featuredOrder: 1
 date: 2026-04-18
 ---
 
-I didn't know a thing about the [Nunjucks templating language](https://mozilla.github.io/nunjucks/). What I like about templating languages is that you're basically creating HTML pages, with logic and variables thrown in. It also enforces structure and allows dynamic content. Nunjucks is based on [Jinja](https://jinja.palletsprojects.com/en/stable/).
+Static site generators (SSGs) require templates that take your Markdown files and displays the content as HTML based on your template. Templating languages basically create HTML pages from your Markdown content, with logic and variables thrown in. They also enforce structure and allow dynamic content.
 
-I turned to AI to help me write code for the templates on my site.
+Since I didn't know a thing about templating languages when I started, I turned to AI to help me write code for the templates on my site. There are many templating languages, but I went with [Nunjucks](https://mozilla.github.io/nunjucks/) basically because it was the default for a lot of the Eleventy documentation. Nunjucks is based on [Jinja](https://jinja.palletsprojects.com/en/stable/).
 
 The nice thing about AI is that if you want good answers, that you have to think through your logic. It's helpful to write it down regardless of the language you do (or don't) know. This made me think more and more about prompt engineering (is that still a thing?) and how technical writers can educate regular folks how best to use AI.
 
