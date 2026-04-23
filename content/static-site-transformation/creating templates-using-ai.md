@@ -167,14 +167,15 @@ Think like a programmer. i want a json file with the following structure:
 
 ## Breakthroughs
 
-Of course, LLMs can only do so much, and are often just plain wrong. Over the course of my back-and-forth with the LLMS, understanding the logic I wanted helped me to accurately frame the question to the LLM. It's your typical GIGO (garbage in, garbage out) cycle. A few things I struggled with along the way and ground my way through:
+LLMs can only do so much, and are often just plain wrong. Over the course of my back-and-forth with the LLMs, understanding the logic I wanted helped me to accurately frame the question to the LLM. It's your typical GIGO (garbage in, garbage out) cycle. A few things I struggled with along the way and ground my way through:
 
 - Continual content/metadata revision
-- Redoing templates over and over and over
-- Trying to abstract templates in templates- Reverse sorting `| reverse`
+- Redoing templates over and over and over, and over.
+- Trying to abstract templates in templates
+- Sorting entries like podcast in reverse order. This is apparently done by appending `| reverse`.
 - Slices &mdash; and slices not working!
-- Collections
-- An automated shortcode for current year display in the footer:
+- [Collections](https://www.11ty.dev/docs/collections/) (essentially tags) and how to use them to group topics.
+- An automated shortcode for the current year, displayed in the footer:
 
     ```js
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
