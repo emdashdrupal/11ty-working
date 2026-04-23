@@ -7,11 +7,11 @@ featuredOrder: 1
 date: 2026-04-18
 ---
 
-Static site generators (SSGs) require templates that take your Markdown files and displays the content as HTML based on your template. Templating languages basically create HTML pages from your Markdown content, with logic and variables thrown in. They also enforce structure and allow dynamic content.
+Static site generators (SSGs) require templates that display the content of your Markdown files as HTML based on the associated template. Templates are created in templating languages that enforce structure and allow dynamic content.
 
-Since I didn't know a thing about templating languages when I started, I turned to AI to help me write code for the templates on my site. There are many templating languages, but I went with [Nunjucks](https://mozilla.github.io/nunjucks/) basically because it was the default for a lot of the Eleventy documentation. Nunjucks is based on [Jinja](https://jinja.palletsprojects.com/en/stable/).
+Since I didn't know a thing about templating languages when I started, I turned to RAG-based LLMs to help me write code for the templates on my site. There are many templating languages, but I chose [Nunjucks](https://mozilla.github.io/nunjucks/) basically because it was the default for a lot of the Eleventy documentation. Nunjucks is based on [Jinja](https://jinja.palletsprojects.com/en/stable/).
 
-The nice thing about AI is that if you want good answers, that you have to think through your logic. It's helpful to write it down regardless of the language you do (or don't) know. This made me think more and more about prompt engineering (is that still a thing?) and how technical writers can educate regular folks how best to use AI.
+What I learned about LLMs is that if you want good answers, then you have to think through your logic. It's helpful to write it down regardless of the language you do (or don't) know. This made me think more and more about prompt engineering (is that still a thing?) and how technical writers can educate regular folks how best to use AI.
 
 ## Comparing AI output
 
