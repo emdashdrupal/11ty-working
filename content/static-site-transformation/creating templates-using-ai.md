@@ -24,9 +24,6 @@ On the plus side, the LLMs did things it would've taken me a lot more time to le
 - Slices &mdash; and slices not working! Slices take an array of items and split them into
 - [Collections](https://www.11ty.dev/docs/collections/) (essentially tags) and how to use them to group topics.
 
-
-
-
 ## Comparing AI output
 
 I pitted Google's Gemini against GitHub Copilot. I prompted Gemini with:
@@ -35,7 +32,7 @@ I pitted Google's Gemini against GitHub Copilot. I prompted Gemini with:
 i'm creating a web site using Eleventy, nunjucks, tailwind css, html, and markdown. I'd like your help with a template for the homepage.
 ```
 
-And here is the response:
+Here is the response. Copilot said the Gemini version was well-structured and accurate.
 
 ```markup
 {% raw %}<!DOCTYPE html>
@@ -82,11 +79,9 @@ And here is the response:
 </html>{% endraw %}
 ```
 
-Copilot said the Gemini version was well-structured and accurate.
-
 ### AI in 2026
 
-I'm writing most of this post a year after I drafted it. Now I'm running [LM Studio](https://lmstudio.ai) locally, with a few of the [Qwen3 large language models (LLM)](https://huggingface.co/collections/Qwen/qwen3). I fed the same prompt into the `qwen3-coder-30b-a3b-instruct` model, and it output the following:
+I'm writing most of this post a year after I drafted it. I fed the same prompt into the [`qwen3-coder-30b-a3b-instruct`](https://huggingface.co/collections/Qwen/qwen3) model that I'm running locally in [LM Studio](https://lmstudio.ai), and it output the following:
 
 ```markup
 {% raw %} <!DOCTYPE html>
@@ -178,4 +173,3 @@ Think like a programmer. i want a json file with the following structure:
 
   tools and technologies will need to be pulled into several templates, so explain how i can assign them to multiple skills
 ```
-
