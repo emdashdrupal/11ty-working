@@ -11,7 +11,21 @@ Static site generators (SSGs) require templates that display the content of your
 
 Since I didn't know a thing about templating languages when I started, I turned to RAG-based LLMs to help me write code for the templates on my site. There are many templating languages, but I chose [Nunjucks](https://mozilla.github.io/nunjucks/) basically because it was the default for a lot of the Eleventy documentation. Nunjucks is based on [Jinja](https://jinja.palletsprojects.com/en/stable/).
 
-What I learned about LLMs is that if you want good answers, then you have to think through your logic&emdash;just like a developer! It's helpful to write it down regardless of the language you do (or don't) know. This made me think more and more about how to craft prompts, and how technical writers can educate regular folks how best to use AI.
+## The learning process
+
+LLMs can only do so much, and are often just plain wrong. What I learned about LLMs is that if you want good answers, then you have to think through your logic&mdash;just like a developer! It's helpful to write it down regardless of the language you do (or don't) know. This made me think more and more about how to craft prompts, and how technical writers can educate regular folks how best to use AI.
+
+On the plus side, the LLMs did things it would've taken me a lot more time to learn and do manually. Over the course of my back-and-forth with the LLMs, understanding the logic I wanted helped me to accurately frame the question to the LLM. It's your typical GIGO (garbage in, garbage out) cycle. Here are a few things I struggled with along the way and ground my way through; this isn't really different from any other learning curve, but it's here to illustrate some of the things you may go through:
+
+- Continual content/metadata revision.
+- Redoing templates over and over and over, and over.
+- Trying to modularize by abstracting templates in templates.
+- Sorting entries like podcast in reverse order by appending `| reverse`.
+- Slices &mdash; and slices not working! Slices take an array of items and split them into
+- [Collections](https://www.11ty.dev/docs/collections/) (essentially tags) and how to use them to group topics.
+
+
+
 
 ## Comparing AI output
 
@@ -165,22 +179,3 @@ Think like a programmer. i want a json file with the following structure:
   tools and technologies will need to be pulled into several templates, so explain how i can assign them to multiple skills
 ```
 
-## The learning process
-
-LLMs can only do so much, and are often just plain wrong. However, they did things it would've taken me a lot more time to learn and do manually. Over the course of my back-and-forth with the LLMs, understanding the logic I wanted helped me to accurately frame the question to the LLM. It's your typical GIGO (garbage in, garbage out) cycle. A few things I struggled with along the way and ground my way through:
-
-- Continual content/metadata revision.
-- Redoing templates over and over and over, and over.
-- Trying to abstract templates in templates.
-- Sorting entries like podcast in reverse order. This is apparently done by appending `| reverse`.
-- Slices &mdash; and slices not working! Slices take an array of items and split them into
-- [Collections](https://www.11ty.dev/docs/collections/) (essentially tags) and how to use them to group topics.
-- An automated shortcode for the current year, displayed in the footer:
-
-    ```js
-    eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
-    ```
-
-    ```njk
-    {% year %}
-    ```
