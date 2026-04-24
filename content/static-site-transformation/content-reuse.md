@@ -6,9 +6,9 @@ FontAwesomeIcon: solid fa-recycle
 
 ## What is reusable content?
 
-In a structured authoring environment, such as those that use [Darwin Information Typing Architecture (DITA)](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture), an XML-based authoring language, you can set up [*content reuse*](https://www.oxygenxml.com/doc/versions/27.1/ug-editor/topics/eppo-pathfinder-reuse.html), or *snippets*. Instead of copying and pasting sections into different files, you create a DITA file that contains that small piece of content. You reference that file where it's needed, like an include or import file.
+In a structured authoring environment, such as those that use [Darwin Information Typing Architecture (DITA)](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture), an XML-based authoring language, you can set up [*content reuse*](https://www.oxygenxml.com/doc/versions/27.1/ug-editor/topics/eppo-pathfinder-reuse.html), or *snippets*. Instead of copying and pasting sections into different files, you create a file that contains that small piece of content. You reference that file where it's needed, like an include or import file.
 
-Some unstructured syntaxes and SSGs have their own implementations of reuse. However, this becomes an education and enforcement issue if you have a wide variety of contributors such as developers, product managers, subject matter experts, and technical writers. This also exposes your business to vendor lock-in, because once you have the toolset implemented, it's hard to move away from it, especially when you come to rely on features other tools don't have.
+Some unstructured syntaxes and SSGs have their own implementations of reuse. However, this becomes an education and enforcement issue if you have a wide variety of contributors such as developers, product managers, subject matter experts, and technical writers. This also exposes your business to vendor lock-in: once you have the toolset implemented, it's hard to move away from it, especially when you come to rely on features other tools don't have.
 
 ## Metadata for content reuse
 
@@ -82,7 +82,19 @@ Since there's no database behind a static site generator, I created two `json` f
 },
 ```
 
-The second `json` file listed the tools I've used over my career, along with their publisher, product name, and relevant site categories:
+The second `json` file listed the tools I've used over my career, along with their publisher, product name, and relevant site categories. I asked AI to help me with this:
+
+```txt
+Think like a programmer. i want a json file with the following structure:
+- Skill title
+  - description
+  - Tools used
+  - Technologies used
+
+  tools and technologies will need to be pulled into several templates, so explain how i can assign them to multiple skills
+```
+
+Here's an example of the result:
 
 ```json
 {
@@ -92,7 +104,7 @@ The second `json` file listed the tools I've used over my career, along with the
     ],
     "publisher": "MadCap",
     "title": "Flare"
-},
+}
 ```
 
 Then I created templates that render these structures, achieving a single source of truth that adapts to different display contexts. Here's part of the template renders presentation data:
