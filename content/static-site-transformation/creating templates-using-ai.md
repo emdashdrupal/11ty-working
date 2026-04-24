@@ -1,6 +1,6 @@
 ---
 title: Creating website templates using AI
-description : "I used Google Gemini, GitHub Copilot, and local LLMs to help create templates and JSON files for my static site."
+description : "I used Google Gemini, GitHub Copilot, and local large language models (LLMs) to help create templates and JSON files for my static site."
 FontAwesomeIcon: 'solid fa-brain'
 featured: true
 featuredOrder: 1
@@ -13,7 +13,7 @@ Since I didn't know a thing about templating languages when I started, I turned 
 
 ## The learning process
 
-LLMs can only do so much, and are often just plain wrong. What I learned about LLMs is that if you want good answers, then you have to think through your logic&mdash;just like a developer! It's helpful to write it down regardless of the language you do (or don't) know. This made me think more and more about how to craft prompts, and how technical writers can educate regular folks how best to use AI.
+LLMs can only do so much, and are often just plain wrong. What I learned is that if you want good answers, then you have to think through your logic. It's helpful to write it down regardless of the language you do (or don't) know. This made me think more and more about how to craft prompts, and how technical writers can educate regular folks how best to use AI.
 
 On the plus side, the LLMs did things it would've taken me a lot more time to learn and do manually. Over the course of my back-and-forth with the LLMs, understanding the logic I wanted helped me to accurately frame the question to the LLM. It's your typical GIGO (garbage in, garbage out) cycle. Here are a few things I struggled with along the way and ground my way through; this isn't really different from any other learning curve, but it's here to illustrate some of the things you may go through:
 
