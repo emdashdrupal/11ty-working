@@ -13,14 +13,14 @@ Since I didn't know a thing about templating languages when I started, I turned 
 
 ## The learning process
 
-LLMs can only do so much, and are often just plain wrong. What I learned is that if you want good answers, then you have to think through your logic. It's helpful to write it down regardless of the language you do (or don't) know. This made me think more and more about how to craft prompts, and how technical writers can educate regular folks how best to use AI.
+LLMs can only do so much, and are often just plain wrong. What I learned is that if you want good answers, then you have to think through your logic. Over the course of my back-and-forth with the LLMs, understanding the logic I wanted helped me to accurately frame the question to the LLM. It's helpful to write it down regardless of the language you do (or don't) know. It's your typical GIGO (garbage in, garbage out) cycle. This made me think more and more about how to craft prompts, and how technical writers can educate regular folks how best to use AI.
 
-On the plus side, the LLMs did things it would've taken me a lot more time to learn and do manually. Over the course of my back-and-forth with the LLMs, understanding the logic I wanted helped me to accurately frame the question to the LLM. It's your typical GIGO (garbage in, garbage out) cycle. Here are a few things I struggled with along the way and ground my way through; this isn't really different from any other learning curve, but it's here to illustrate some of the things you may go through:
+On the plus side, the LLMs did things it would've taken me a lot more time to learn and do manually. Here are a few things that the LLMs helped me work through:
 
 - Continual content/metadata revision.
 - Redoing templates over and over and over, and over.
 - Trying to modularize by abstracting templates in templates.
-- Sorting entries like podcast in reverse order by appending `| reverse`.
+- Sorting entries like podcast episodes in reverse order by appending `| reverse`.
 - How to split arrays of items and display them using slices.
 - [Collections](https://www.11ty.dev/docs/collections/) (essentially tags) and how to use them to group topics.
 
