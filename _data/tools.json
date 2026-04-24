@@ -159,22 +159,22 @@
     "title": "Markdown"
   },
     {
-    "category": ["coding-experience"],
+    "category": ["coding-experience", "artificial-intelligence"],
     "publisher": "Open-source",
     "title": "LM Studio local AI LLM"
   },
       {
-    "category": ["coding-experience"],
+    "category": ["coding-experience", "artificial-intelligence"],
     "publisher": "Open-source",
     "title": "Ollama AI"
   },
     {
-    "category": ["coding-experience"],
+    "category": ["coding-experience", "artificial-intelligence"],
     "publisher": "Open-source",
     "title": "GPT4All"
   },
       {
-    "category": ["technical-writing", "coding-experience"],
+    "category": ["technical-writing", "coding-experience", "artificial-intelligence"],
     "publisher": "Open-source",
     "title": "GitHub Copilot"
   },
@@ -188,5 +188,15 @@
     "category": ["coding-experience"],
     "publisher": "Open-source",
     "title": "XML"
+  },
+    {
+    "category": ["technical-writing", "structured-authoring", "content-management"],
+    "publisher": "MadCap/IXIA",
+    "title": "IXIA CCMS"
+  },
+    {
+    "category": ["coding-experience", "artificial-intelligence"],
+    "publisher": "Alibaba",
+    "title": "Qwen3 large language models"
   }
 ]
