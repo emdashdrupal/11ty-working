@@ -82,10 +82,10 @@ Since there's no database behind a static site generator, I created two `json` f
 },
 ```
 
-The second `json` file listed the tools I've used over my career, along with their publisher, product name, and relevant site categories. I asked AI to help me with this:
+The second `JSON` file listed the tools I've used over my career, along with their publisher, product name, and relevant site categories. I asked AI to help me with this, because while the structure of a JSON file is relatively easy to follow, formatting is very important. Here's my prompt:
 
 ```txt
-Think like a programmer. i want a json file with the following structure:
+Think like a programmer. i want a JSON file with the following structure:
 - Skill title
   - description
   - Tools used
