@@ -7,7 +7,7 @@ featuredOrder: 1
 date: 2026-04-18
 ---
 
-Static site generators (SSGs) require templates that display the content of your Markdown files as HTML based on the associated template. Templates are created in templating languages that enforce structure and allow dynamic content.
+Static site generators (SSGs) require templates that display the content of your source files (in my case, Markdown) as HTML, based on the associated template. Templates are created in templating languages that enforce structure and allow dynamic content.
 
 Since I didn't know a thing about templating languages when I started, I turned to RAG-based LLMs to help me write code for the templates on my site. There are many templating languages, but I chose [Nunjucks](https://mozilla.github.io/nunjucks/) basically because it was the default for a lot of the Eleventy documentation. Nunjucks is based on [Jinja](https://jinja.palletsprojects.com/en/stable/).
 
@@ -21,7 +21,7 @@ On the plus side, the LLMs did things it would've taken me a lot more time to le
 - Redoing templates over and over and over, and over.
 - Trying to modularize by abstracting templates in templates.
 - Sorting entries like podcast in reverse order by appending `| reverse`.
-- Slices &mdash; and slices not working! Slices take an array of items and split them into
+- How to split arrays of items and display them using slices.
 - [Collections](https://www.11ty.dev/docs/collections/) (essentially tags) and how to use them to group topics.
 
 ## Comparing AI output
@@ -164,12 +164,3 @@ It's pretty obvious how advanced even locally running LLMs with a relatively sma
 
 Then I used AI to create JSON files for my [lists of skills](/static-site-transformation/content-reuse/#auto-generated%2C-context-sensitive-links):
 
-```txt
-Think like a programmer. i want a json file with the following structure:
-- Skill title
-  - description
-  - Tools used
-  - Technologies used
-
-  tools and technologies will need to be pulled into several templates, so explain how i can assign them to multiple skills
-```
