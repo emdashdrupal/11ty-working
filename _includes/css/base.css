@@ -142,7 +142,7 @@ h2 {
 
 h2>a {
     font-family: var(--sans-serif);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--medium-blue)
 }
@@ -172,8 +172,8 @@ ol li {
 p {
     color: #000;
     font-family: var(--serif);
-    font-size: 1.1rem;
-    line-height: 1.6rem;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
     margin: 0.75rem 0
 }
 
@@ -387,6 +387,10 @@ footer>div>p>a {
 
 #searchToggle {
     transition: color 0.2s ease-out;
+}
+
+.pagefind-ui__form svelte-e9gkc3 {
+    background-color: white;
 }
 
 /* * Dialog styles */
