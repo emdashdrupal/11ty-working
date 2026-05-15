@@ -133,7 +133,7 @@ h1 {
 
 h2 {
     font-family: var(--sans-serif);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
@@ -172,7 +172,7 @@ ol li {
 p {
     color: #000;
     font-family: var(--serif);
-    font-size: 104%;
+    font-size: 1.1rem;
     line-height: 1.6rem;
     margin: 0.75rem 0
 }
