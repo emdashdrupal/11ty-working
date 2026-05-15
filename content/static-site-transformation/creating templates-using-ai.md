@@ -83,7 +83,7 @@ Here is the response. Copilot said the Gemini version was well-structured and ac
 
 ### The 2026 update
 
-I'm writing most of this post a year after I drafted it. I fed the same prompt into the [`qwen3-coder-30b-a3b-instruct`](https://huggingface.co/collections/Qwen/qwen3) model that I'm running locally in [LM Studio](https://lmstudio.ai), and it output the following:
+I'm writing most of this post a year after I drafted it. I fed the same prompt into the [`qwen3-coder-30b-a3b-instruct`](https://huggingface.co/collections/Qwen/qwen3) model that I'm running locally in [LM Studio](https://lmstudio.ai), and it output the following. It's pretty obvious how advanced even locally running LLMs with a relatively small number of parameters have become in the past year. The 2026 version is far more detailed.
 
 ```markup
 {% raw %} <!DOCTYPE html>
@@ -159,5 +159,3 @@ I'm writing most of this post a year after I drafted it. I fed the same prompt i
 </html>
 {% endraw %}
 ```
-
-It's pretty obvious how advanced even locally running LLMs with a relatively small number of parameters have become in the past year. The 2026 version is far more detailed.
