@@ -31,3 +31,13 @@
 [[redirects]]
   from = "*contact-ed-marsh-information-architect-technical-writer"
   to = "/contact"
+
+[[plugins]]
+package = "netlify-plugin-checklinks"
+  [plugins.inputs]
+  # Skip checks for Google Fonts domains that cause TLS/preconnect failures
+  ignoreUrls = [
+    "https://fonts.gstatic.com",
+    "https://fonts.gstatic.com/*",
+    "https://fonts.googleapis.com/*"
+  ]
