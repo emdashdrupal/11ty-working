@@ -13,7 +13,7 @@ I didn't know a thing about templating languages, so I turned to large language 
 
 ## What I learned about LLMs
 
-LLMs can only do so much, and are often just plain wrong (known as *hallucinations*). What I learned is that if you want good answers, then you have to think through your logic. Over the course of my back-and-forth with the LLMs, understanding the logic I wanted helped me to accurately frame the question to the LLM. It's helpful to write it down regardless of the language you do (or don't) know. It's your typical GIGO (garbage in, garbage out) cycle. This made me think more and more about how to craft prompts, and how technical writers can educate regular folks how best to use AI.
+LLMs can only do so much, and are often just plain wrong (known as *hallucinations*). What I learned is that if you want good answers, then you have to think through your logic. It's your typical GIGO (garbage in, garbage out) cycle, so it's helpful to write it down regardless of the language. Over the course of my back-and-forth with the LLMs, understanding the logic I wanted helped me to accurately frame the question to the LLM. This made me think more and more about how to craft prompts, and how technical writers can educate regular folks how best to use AI.
 
 On the plus side, the LLMs did things it would've taken me a lot more time to learn and do manually. Here are a few things that the LLMs helped me work through:
 
