@@ -391,6 +391,7 @@ footer>div>p>a {
 
 .pagefind-ui__form svelte-e9gkc3 {
     background-color: white;
+    z-index: 0;
 }
 
 /* * Dialog styles */
