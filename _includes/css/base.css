@@ -389,7 +389,7 @@ footer>div>p>a {
     transition: color 0.2s ease-out;
 }
 
-.pagefind-ui__form svelte-e9gkc3, .pagefind-ui__drawer svelte-e9gkc3, .pagefind-ui__results-area svelte-e9gkc3, .pagefind-ui__results svelte-e9gkc3 {
+.pagefind-ui__form svelte-e9gkc3, .pagefind-ui__drawer svelte-e9gkc3, .pagefind-ui__results-area svelte-e9gkc3, .pagefind-ui__results svelte-e9gkc3, .pagefind-ui--reset {
     background-color: green;
 }
 
