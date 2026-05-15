@@ -22,6 +22,13 @@ On the plus side, the LLMs did things it would've taken me a lot more time to le
 - Trying to modularize by abstracting templates in templates.
 - Sorting entries like podcast episodes in reverse order by appending `| reverse`
 - How to split arrays of items and display them using slices.
+- How to create a shortcode to display the current year Shortcode for current year display
+
+    ```markup
+    {% raw %}
+    eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+    {% year %}{% endraw %}
+    ```
 - [Collections](https://www.11ty.dev/docs/collections/) (essentially tags) and how to use them to group topics.
 
 ## Gemini vs. Copilot
