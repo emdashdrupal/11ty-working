@@ -22,7 +22,7 @@ On the plus side, the LLMs did things it would've taken me a lot more time to le
 - Trying to modularize by abstracting templates in templates.
 - Sorting entries like podcast episodes in reverse order by appending `| reverse`
 - How to split arrays of items and display them using slices.
-- How to create a shortcode to display the current year Shortcode for current year display
+- How to create a shortcode to display the current year:
 
     ```markup
     {% raw %}
