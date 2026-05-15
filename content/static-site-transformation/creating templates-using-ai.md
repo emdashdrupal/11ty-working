@@ -13,14 +13,14 @@ I didn't know a thing about templating languages, so I turned to large language 
 
 ## The learning process
 
-LLMs can only do so much, and are often just plain wrong. What I learned is that if you want good answers, then you have to think through your logic. Over the course of my back-and-forth with the LLMs, understanding the logic I wanted helped me to accurately frame the question to the LLM. It's helpful to write it down regardless of the language you do (or don't) know. It's your typical GIGO (garbage in, garbage out) cycle. This made me think more and more about how to craft prompts, and how technical writers can educate regular folks how best to use AI.
+LLMs can only do so much, and are often just plain wrong (known as *hallucinations*). What I learned is that if you want good answers, then you have to think through your logic. Over the course of my back-and-forth with the LLMs, understanding the logic I wanted helped me to accurately frame the question to the LLM. It's helpful to write it down regardless of the language you do (or don't) know. It's your typical GIGO (garbage in, garbage out) cycle. This made me think more and more about how to craft prompts, and how technical writers can educate regular folks how best to use AI.
 
 On the plus side, the LLMs did things it would've taken me a lot more time to learn and do manually. Here are a few things that the LLMs helped me work through:
 
 - Continual content/metadata revision.
 - Redoing templates over and over and over, and over.
 - Trying to modularize by abstracting templates in templates.
-- Sorting entries like podcast episodes in reverse order by appending `| reverse`.
+- Sorting entries like podcast episodes in reverse order by appending `| reverse`
 - How to split arrays of items and display them using slices.
 - [Collections](https://www.11ty.dev/docs/collections/) (essentially tags) and how to use them to group topics.
 
@@ -32,7 +32,7 @@ I pitted Google's Gemini against GitHub Copilot. I prompted Gemini with:
 i'm creating a web site using Eleventy, nunjucks, tailwind css, html, and markdown. I'd like your help with a template for the homepage.
 ```
 
-Here is the response. Copilot said the Gemini version was well-structured and accurate.
+Here is the response. Copilot said the Gemini version was well-structured and accurate. Note the items in braces (`{% %}`) are part of the Nunjucks template language.
 
 ```markup
 {% raw %}<!DOCTYPE html>
