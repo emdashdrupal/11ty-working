@@ -1,6 +1,6 @@
 ---
 title: Creating website templates using AI
-description : "I used Google Gemini, GitHub Copilot, and locally running large language models (LLMs) to help create templates and JSON files for my static site."
+description : "I used Google Gemini, GitHub Copilot, and locally running large language models (LLMs) to help create templates for my static site."
 FontAwesomeIcon: 'solid fa-brain'
 featured: true
 featuredOrder: 1
@@ -78,6 +78,8 @@ Here is the response. Copilot said the Gemini version was well-structured and ac
 </body>
 </html>{% endraw %}
 ```
+
+[Example of the homepage](/assets/images/homepage-example.png)
 
 ### The 2026 update
 
@@ -159,8 +161,3 @@ I'm writing most of this post a year after I drafted it. I fed the same prompt i
 ```
 
 It's pretty obvious how advanced even locally running LLMs with a relatively small number of parameters have become in the past year. The 2026 version is far more detailed.
-
-### Data modeling
-
-Then I had AI create JSON files for my [lists of skills](/static-site-transformation/content-reuse/#auto-generated%2C-context-sensitive-links).
-
