@@ -1,15 +1,15 @@
 ---
 title: Creating website templates using AI
-description : "I used Google Gemini, GitHub Copilot, and local large language models (LLMs) to help create templates and JSON files for my static site."
+description : "I used Google Gemini, GitHub Copilot, and locally running large language models (LLMs) to help create templates and JSON files for my static site."
 FontAwesomeIcon: 'solid fa-brain'
 featured: true
 featuredOrder: 1
-date: 2026-04-18
+date: 2026-05-15
 ---
 
-Static site generators (SSGs) require templates that display the content of your source files (in my case, Markdown) as HTML, based on the associated template. Templates are created in templating languages that enforce structure and allow dynamic content.
+When converting my site to a static site generator (SSG), I learned they require templates to convert my Markdown files to HTML based on the associated template. Templates also enforce structure and allow dynamic content.
 
-Since I didn't know a thing about templating languages when I started, I turned to RAG-based LLMs to help me write code for the templates on my site. There are many templating languages, but I chose [Nunjucks](https://mozilla.github.io/nunjucks/) basically because it was the default for a lot of the Eleventy documentation. Nunjucks is based on [Jinja](https://jinja.palletsprojects.com/en/stable/).
+I didn't know a thing about templating languages, so I turned to large language models (LLMs) to help me write code for the templates on my site. There are many templating languages, but I chose [Nunjucks](https://mozilla.github.io/nunjucks/) basically because it was the default for a lot of the Eleventy documentation. Nunjucks is based on [Jinja](https://jinja.palletsprojects.com/en/stable/).
 
 ## The learning process
 
@@ -24,7 +24,7 @@ On the plus side, the LLMs did things it would've taken me a lot more time to le
 - How to split arrays of items and display them using slices.
 - [Collections](https://www.11ty.dev/docs/collections/) (essentially tags) and how to use them to group topics.
 
-## Comparing AI output
+## Gemini vs. Copilot
 
 I pitted Google's Gemini against GitHub Copilot. I prompted Gemini with:
 
@@ -79,7 +79,7 @@ Here is the response. Copilot said the Gemini version was well-structured and ac
 </html>{% endraw %}
 ```
 
-### AI in 2026
+### The 2026 update
 
 I'm writing most of this post a year after I drafted it. I fed the same prompt into the [`qwen3-coder-30b-a3b-instruct`](https://huggingface.co/collections/Qwen/qwen3) model that I'm running locally in [LM Studio](https://lmstudio.ai), and it output the following:
 
@@ -162,5 +162,5 @@ It's pretty obvious how advanced even locally running LLMs with a relatively sma
 
 ### Data modeling
 
-Then I used AI to create JSON files for my [lists of skills](/static-site-transformation/content-reuse/#auto-generated%2C-context-sensitive-links):
+Then I had AI create JSON files for my [lists of skills](/static-site-transformation/content-reuse/#auto-generated%2C-context-sensitive-links).
 
