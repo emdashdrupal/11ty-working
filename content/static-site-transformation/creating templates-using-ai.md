@@ -32,7 +32,7 @@ I pitted Google's Gemini against GitHub Copilot. I prompted Gemini with:
 i'm creating a web site using Eleventy, nunjucks, tailwind css, html, and markdown. I'd like your help with a template for the homepage.
 ```
 
-Here is the response. Copilot said the Gemini version was well-structured and accurate. Note the items in braces (`{% %}`) are part of the Nunjucks template language.
+Here is the response. Copilot said the Gemini version was well-structured and accurate. Note the items in braces are part of the Nunjucks template language.
 
 ```markup
 {% raw %}<!DOCTYPE html>
