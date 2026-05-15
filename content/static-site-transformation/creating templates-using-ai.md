@@ -79,7 +79,7 @@ Here is the response. Copilot said the Gemini version was well-structured and ac
 </html>{% endraw %}
 ```
 
-[Example of the homepage](/assets/images/homepage-example.png)
+![Example of the homepage](/assets/images/homepage-example.png)
 
 ### The 2026 update
 
