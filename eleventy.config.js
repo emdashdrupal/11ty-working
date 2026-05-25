@@ -34,8 +34,8 @@ const config = {
     },
     metadata: {
       language: "en",
-      title: "Content Content podcast",
-      subtitle: "Ed Marsh interviews professionals in technical communication, content strategy, content marketing, information architecture, and others who create, organize, and maintain content online.",
+      title: "Ed Marsh",
+      subtitle: "Technical communicator, content strategist, mentor, podcaster",
       base: "https://edmar.sh/", // Base URL for the site
       author: {
         name: "Ed Marsh"
