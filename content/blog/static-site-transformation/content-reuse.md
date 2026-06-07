@@ -67,7 +67,7 @@ Here's what two cards look like side-by-side:
 
 ## Auto-generated, context-sensitive links
 
-The [content stategy](/static-site-transformation/content-strategy-for-ssgs) for my [skills pages](/skills) was to display the relevant tools and presentations for each skill. These started as bulleted lists, but it quickly became obvious that copying and pasting relevant bullets on each page wasn't sustainable.
+The [content stategy](/blog/static-site-transformation/content-strategy-for-ssgs) for my [skills pages](/skills) was to display the relevant tools and presentations for each skill. These started as bulleted lists, but it quickly became obvious that copying and pasting relevant bullets on each page wasn't sustainable.
 
 Since there's no database behind a static site generator, I created two `json` files that enforce structure while remaining expandable. The first file contained information about my presentations, webinars, and guest appearances. This `json` file contained titles, year (or years) of the item, a relevant link, the category or categories for each, the location or event venue, and type (webinar, in-person, panel discussion, podcast guest or host, etc.). Here's an example:
 

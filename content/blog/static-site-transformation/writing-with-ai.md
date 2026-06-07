@@ -18,11 +18,11 @@ I asked GitHub Copilot (and other AI LLMs) to do my job by documenting my codeba
 
 This is a good example of what AI can do for you, but also where humans are invaluable. A large language model (LLM) can write a code sample, but can't tell if it displays correctly.
 
-> Because the output includes a mix of Markdown, template code, and HTML, it's nearly impossible to display correctly in a codeblock. I [created a separate branch](https://github.com/emdashdrupal/11ty-working/blob/ai-outputs/content/static-site-transformation) and excluded these from collections using the `eleventyExcludeFromCollections: true` parameter in my front matter, which means it won't appear as a page on the site.
+> Because the output includes a mix of Markdown, template code, and HTML, it's nearly impossible to display correctly in a codeblock. I [created a separate branch](https://github.com/emdashdrupal/11ty-working/blob/ai-outputs/content/blog/static-site-transformation) and excluded these from collections using the `eleventyExcludeFromCollections: true` parameter in my front matter, which means it won't appear as a page on the site.
 >
-> - [Original output](https://github.com/emdashdrupal/11ty-working/blob/ai-outputs/content/static-site-transformation/ai-doc-output-orig.md) for the first draft of the site.
-> - [Version 2](https://github.com/emdashdrupal/11ty-working/blob/ai-outputs/content/static-site-transformation/ai-doc-output-v2.md)
-> - [Most recent version](https://github.com/emdashdrupal/11ty-working/blob/ai-outputs/content/static-site-transformation/ai-output-17-june-2025.md)
+> - [Original output](https://github.com/emdashdrupal/11ty-working/blob/ai-outputs/content/blog/static-site-transformation/ai-doc-output-orig.md) for the first draft of the site.
+> - [Version 2](https://github.com/emdashdrupal/11ty-working/blob/ai-outputs/content/blog/static-site-transformation/ai-doc-output-v2.md)
+> - [Most recent version](https://github.com/emdashdrupal/11ty-working/blob/ai-outputs/content/blog/static-site-transformation/ai-output-17-june-2025.md)
 >
 
 If you look at the output, it's pretty impressive that AI can get to this level of granularity. But the results are only high-level overviews, and parts are not entirely correct&thinsp;&mdash;&thinsp;partially as a result of my lack of coding experience. For example, in the original the Featured content section is technically correct. However, at the time I asked the question it wasn't working.

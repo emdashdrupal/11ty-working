@@ -32,7 +32,7 @@ When I decided to take this project on, getting hands-on appealed to me.
 - Update a 10-year-old design.
 - Retire a complex WordPress site that didn't get much traffic and needed maintenance.
 - "Quickly" revamp my website to increase my chances at getting hired.
-- Add value by developing with SSGs, which isn't a skill a lot of technical writers have. SSGs&thinsp;&mdash;&thinsp;like [Eleventy that I chose](/static-site-transformation/choosing-static-site-generator)&thinsp;&mdash;&thinsp;display the content that technical writers create.
+- Add value by developing with SSGs, which isn't a skill a lot of technical writers have. SSGs&thinsp;&mdash;&thinsp;like [Eleventy that I chose](/blog/static-site-transformation/choosing-static-site-generator)&thinsp;&mdash;&thinsp;display the content that technical writers create.
 - Learn newer technologies such as Nunjucks templating, that ended up leveraging old tech I'm familiar with like HTML and CSS.
 
 ## Content goals
