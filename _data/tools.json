@@ -197,6 +197,17 @@
     {
     "category": ["coding-experience", "artificial-intelligence"],
     "publisher": "Alibaba",
-    "title": "Qwen3 large language models"
+    "title": "Qwen3 large language model family"
+  },
+      {
+    "category": ["coding-experience", "artificial-intelligence"],
+    "publisher": "SearXNG",
+    "title": "SearXNG search MCP server"
+  },
+  {
+    "category": ["coding-experience", "artificial-intelligence"],
+    "publisher": "Ollama",
+    "title": "Ollama AI server"
   }
+
 ]
