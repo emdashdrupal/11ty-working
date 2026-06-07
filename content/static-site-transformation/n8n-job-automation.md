@@ -16,7 +16,7 @@ It all started with me watching a few YouTube videos and mapping out what I *tho
 >Job email summarization automation
 >
 >Retrieves emails from IMAP (Zoho).
->Capture emails that currently go in the job search folders based on from address, i.e. [jobalerts-noreply@linkedin.com](mailto:jobalerts-noreply@linkedin.com)
+>Capture emails that currently go in the job search folders based on from address, i.e. jobalerts-noreply@linkedin.com
 >
 >>- Read each email as it comes in using Ollama:
 >
