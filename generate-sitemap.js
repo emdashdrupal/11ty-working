@@ -25,7 +25,7 @@ const mainSections = [
   { path: '/contact/', priority: defaultPriority.section, changefreq: 'monthly' },
   { path: '/skills/', priority: defaultPriority.section, changefreq: 'monthly' },
   { path: '/podcasts/', priority: defaultPriority.section, changefreq: 'monthly' },
-  { path: '/static-site-transformation/', priority: defaultPriority.section, changefreq: 'weekly' }
+  { path: '/blog/', priority: defaultPriority.section, changefreq: 'weekly' }
 ];
 
 // Function to extract date from frontmatter
