@@ -18,7 +18,7 @@ It all started with me watching a few YouTube videos and mapping out what I *tho
 >Retrieves emails from IMAP (Zoho).
 >Capture emails that currently go in the job search folders based on from address, i.e. [jobalerts-noreply@linkedin.com](mailto:jobalerts-noreply@linkedin.com)
 >
->- Read each email as it comes in using Ollama:
+>>- Read each email as it comes in using Ollama:
 >
   >>- Strips out irrelevant text (or pull body text instead?)
   >>- Stores the relevant content in temp storage
@@ -27,7 +27,7 @@ It all started with me watching a few YouTube videos and mapping out what I *tho
   >>- Ensures ones I've already seen don't bubble up in new summary
   >>- Based on content similarity
 >
->- Generates once-daily HTML email at 7 am that:
+>>- Generates once-daily HTML email at 7 am that:
 >
   >>- Displays each job sorted by date descending (newest emails after filtering first)
   >>- Gives a summary of job title, on-site/hybrid/remote, full-time or contract, rate if contract/salary if full-time, recruiter name
