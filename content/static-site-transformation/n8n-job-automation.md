@@ -12,26 +12,29 @@ You could definitely do all of this with automation in other tools such as [Obsi
 
 It all started with me watching a few YouTube videos and mapping out what I *thought* an automation should do:
 
->I want to use n8n to create a summary email of my incoming job search emails. The following is a proposed initial workflow; poke holes in this process. Be sure to ask questions before proceeding.
->Job email summarization automation
->
->Retrieves emails from IMAP (Zoho).
->Capture emails that currently go in the job search folders based on from address, i.e. jobalerts-noreply@linkedin.com
->
->>- Read each email as it comes in using Ollama:
->
-  >>- Strips out irrelevant text (or pull body text instead?)
-  >>- Stores the relevant content in temp storage
-  >>- Compares to existing data in the store
-  >>- Removes any redundancies
-  >>- Ensures ones I've already seen don't bubble up in new summary
-  >>- Based on content similarity
->
->>- Generates once-daily HTML email at 7 am that:
->
+```markdown
+I want to use n8n to create a summary email of my incoming job search emails. The following is a proposed initial workflow; poke holes in this process. Be sure to ask questions before proceeding.
+
+Job email summarization automation
+
+Retrieves emails from IMAP (Zoho).
+Capture emails that currently go in the job search folders based on from address, i.e. jobalerts-noreply@linkedin.com
+
+- Read each email as it comes in using Ollama:
+
+  - Strips out irrelevant text (or pull body text instead?)
+  - Stores the relevant content in temp storage
+  - Compares to existing data in the store
+  - Removes any redundancies
+  - Ensures ones I've already seen don't bubble up in new summary
+  - Based on content similarity
+
+- Generates once-daily HTML email at 7 am that:
+
   >>- Displays each job sorted by date descending (newest emails after filtering first)
   >>- Gives a summary of job title, on-site/hybrid/remote, full-time or contract, rate if contract/salary if full-time, recruiter name
   >>- Includes links to job, company website (if available), direct link to job on company's careers/jobs page (if applicable)
+```
 
 I asked my local LLM and Claude to poke holes in this logic. Needless to say, they did. And so my weekend exploration started.
 
