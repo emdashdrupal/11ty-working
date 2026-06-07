@@ -1,6 +1,10 @@
-# Using AI and n8n to automate my job hunt
-
-When you're in the job hunt, you get a *lot* of emails. You're buried in a sea of LinkedIn job alerts. Ones with the same job over and over. Ones with jobs you've seen several times. Ones with jobs you applied for a month ago.
+---
+title : 'Using AI and n8n to automate my job hunt'
+description : When you're in the job hunt, you get a *lot* of emails. You're buried in a sea of LinkedIn job alerts. Ones with the same job over and over. Ones with jobs you've seen several times. Ones with jobs you applied for a month ago.
+tags : content-strategy
+FontAwesomeIcon : "solid fa-file-waveform"
+date: 2026-06-08
+---
 
 As part of my homelab journey I learned about an orchestration layer called *n8n* (which apparently is an abbreviation for yet another horrible tech portmanteau called "nodemation"). This app automates processes between various applications. I intially thought it was overkill for my use cases, but then I found a problem in search of a solution - my emails.
 
