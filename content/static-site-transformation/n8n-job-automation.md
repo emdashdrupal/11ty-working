@@ -21,7 +21,6 @@ Retrieves emails from IMAP (Zoho).
 Capture emails that currently go in the job search folders based on from address, i.e. jobalerts-noreply@linkedin.com
 
 - Read each email as it comes in using Ollama:
-
   - Strips out irrelevant text (or pull body text instead?)
   - Stores the relevant content in temp storage
   - Compares to existing data in the store
@@ -30,10 +29,9 @@ Capture emails that currently go in the job search folders based on from address
   - Based on content similarity
 
 - Generates once-daily HTML email at 7 am that:
-
-  >>- Displays each job sorted by date descending (newest emails after filtering first)
-  >>- Gives a summary of job title, on-site/hybrid/remote, full-time or contract, rate if contract/salary if full-time, recruiter name
-  >>- Includes links to job, company website (if available), direct link to job on company's careers/jobs page (if applicable)
+  - Displays each job sorted by date descending (newest emails after filtering first)
+  - Gives a summary of job title, on-site/hybrid/remote, full-time or contract, rate if contract/salary if full-time, recruiter name
+  - Includes links to job, company website (if available), direct link to job on company's careers/jobs page (if applicable)
 ```
 
 I asked my local LLM and Claude to poke holes in this logic. Needless to say, they did. And so my weekend exploration started.
@@ -41,3 +39,4 @@ I asked my local LLM and Claude to poke holes in this logic. Needless to say, th
 I went back and forth with Claude (simply because it was faster) over several free, timed-out sessions. I am very much a cart before the horse person so I had to be kind to myself over the learning curve. Honestly there were things even Claude got incorrect. Some of my interactions were frustrating, but all bore some fruit - often when my tokens timed out for the day.
 
 - Instead of a database, we used Google Sheets, which has built-in n8n support. This meant I didn't have to maintain a separate database on my local machine and reduced complexity of the workflow. It relies on Google Sheets, so it's not completely self-hosted, but there's no personal information being shared.
+- It helped that I already had a job-hunting subfolder in my email account. The automation could automatically ping just that folder instead of having to filter each mail that comes into my
