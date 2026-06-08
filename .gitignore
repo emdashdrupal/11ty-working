@@ -26,3 +26,4 @@ _includes/layouts/partials/index-test.njk
 coverage/
 *.log
 .nyc_output/
+package-lock.json
