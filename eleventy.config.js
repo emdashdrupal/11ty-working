@@ -1,7 +1,7 @@
 // Core plugins
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight"); // Plugin for syntax highlighting in code blocks
 const { feedPlugin } = require("@11ty/eleventy-plugin-rss"); // Plugin for generating RSS feeds
-
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation"); //navbar
 // Markdown plugins
 const markdownIt = require("markdown-it"); // Markdown parser
 const anchor = require("markdown-it-anchor"); // Plugin to add anchor links to headings
@@ -51,7 +51,8 @@ const md = new markdownIt(config.markdown).use(anchor, {
 
 module.exports = function (eleventyConfig) {
   // ===== FILTERS =====
-
+  //nav plugin
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
   // Date formatting filter
   eleventyConfig.addFilter("date", function(date, format) {
     if (!date) return "";
