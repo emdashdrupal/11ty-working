@@ -5,7 +5,7 @@
         {%- if categoryFontAwesomeIcon -%}
             <span class="fa-{{ categoryFontAwesomeIcon }} mx-2 text-grey-green"></span>
         {%- endif -%}
-        <a href="/{{ category | slugify }}">{{ category|trim }}</a>
+        <a href="/blog/{{ category | slugify }}">{{ category|trim }}</a>
     {%- endif -%}
     <span class="fa-solid fa-chevron-right mx-2 text-sm jet-700"></span>
     <span class="text-gray-600" aria-current="page">
