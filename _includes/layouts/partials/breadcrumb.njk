@@ -12,4 +12,7 @@
         {%- if FontAwesomeIcon -%}
             <span class="fa-{{ FontAwesomeIcon }} mx-2 text-medium-blue"></span>
         {% endif %}{{ title| trim }}</span>
+        {% set navPages = collections.all | eleventyNavigationBreadcrumb("Blog") %}
+{{ navPages | dump | safe }}
+
 </div>
