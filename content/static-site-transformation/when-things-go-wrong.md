@@ -4,6 +4,9 @@ description : Writing this blog post wasn't part of my plan.
 FontAwesomeIcon : solid fa-car-burst
 featured : true
 featuredOrder : 0
+eleventyNavigation:
+  key: strategy-goes-wrong
+  title: When the content strategy goes wrong
 
 ---
 

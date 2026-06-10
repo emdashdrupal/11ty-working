@@ -5,6 +5,10 @@ FontAwesomeIcon: 'solid fa-brain'
 featured: true
 featuredOrder: 1
 date: 2026-05-15
+eleventyNavigation:
+  key: ai-creating-templates
+  title: Creating website templates using AI
+
 ---
 
 When converting my site to a static site generator (SSG), I learned they require templates to convert my Markdown files to HTML based on the associated template. Templates also enforce structure and allow dynamic content.
