@@ -11,6 +11,9 @@ description : Content strategy business owner Sarah O'Keefe talks about working 
 mp3File: Solving_content_problems_featuring_Sarah_OKeefe_Content_Content_podcast_episode_8.mp3
 blubrryId: 145351331
 blubrryCache: 1747159714
+eleventyNavigation:
+  key: sarah-okeefe-podcast
+  title: Sarah O'Keefe
 ---
 ## Mentioned during this episode
 

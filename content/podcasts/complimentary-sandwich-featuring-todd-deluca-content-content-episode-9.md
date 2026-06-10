@@ -11,6 +11,9 @@ description : Todd DeLuca, a Pennsylvanian who manages a remote tech writing tea
 mp3File: Complimentary_sandwich_featuring_Todd_DeLuca_Content_Content_episode_9.mp3
 blubrryId: 145351333
 blubrryCache: 1747159687
+eleventyNavigation:
+  key: todd-deluca-podcast
+  title: Todd DeLuca
 ---
 
 

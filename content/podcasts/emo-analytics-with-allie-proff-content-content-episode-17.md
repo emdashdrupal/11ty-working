@@ -12,6 +12,9 @@ description: 'Allie Proff works for [freaking Boeing](http://www.boeing.com/). W
 mp3File: content_content_podcast_episode_17_-_Allie_Proff.mp3
 blubrryId: 145351341
 blubrryCache: 1747159229
+eleventyNavigation:
+  key: allie-proff-podcast
+  title: Allie Proff
 ---
 ## Mentioned during this episode
 

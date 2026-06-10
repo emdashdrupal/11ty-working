@@ -8,6 +8,9 @@ description: 'Fellow New Jerseyan Danielle Villegas, the TechCommGeekMom, talks 
 mp3File : content_content_episode_3_-_Danielle_Villegas.mp3
 blubrryId: 145351325
 blubrryCache: 1747160338
+eleventyNavigation:
+  key: danielle-villegas-podcast
+  title: Danielle Villegas
 ---
 ## Mentioned during this episode
 

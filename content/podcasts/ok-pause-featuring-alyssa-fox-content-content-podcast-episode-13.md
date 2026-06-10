@@ -11,6 +11,9 @@ description: Alyssa Fox, Director of Information Development and Program Managem
 mp3File: Content-Content-podcast-Episode-13-Alyssa-Fox.mp3
 blubrryId: 145351337
 blubrryCache: 1747159379
+eleventyNavigation:
+  key: alyssa-fox-podcast
+  title: Alyssa Fox
 ---
 We also discuss managing people "fairly, not equally", why content strategy is difficult, multinational technical communication teams, fashion, and more.
 

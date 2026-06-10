@@ -12,6 +12,9 @@ description : Content Marketer Teresa Meek's career path includes journalism, re
 mp3File: Content_Content_episode_14_-_Teresa_Meek.mp3
 blubrryId: 145351338
 blubrryCache: 1747159359
+eleventyNavigation:
+  key: teresa-meek-podcast
+  title: Teresa Meek
 ---
 
 ## Mentioned during this episode

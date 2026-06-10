@@ -12,6 +12,9 @@ description : Andrea Ames and Ed Marsh discuss the evolution of the technical co
 mp3File: Content-Content-podcast-episode-21-Andrea-Ames.mp3
 blubrryId: 145351344
 blubrryCache: 1747158964
+eleventyNavigation:
+  key: andrea-ames-podcast
+  title: Andrea Ames
 ---
 
 Andrea is the CEO of [Idyll Point Group](https://idyllpointgroup.com), after a long stint in content strategy and content experience strategy at IBM.

@@ -11,6 +11,9 @@ description: Timothy Esposito is a principal technical writer for Oracle, and cu
 mp3File: Content-Content-podcast-episode-20-Tim-Esposito.mp3
 blubrryId: 145351343
 blubrryCache: 1747159188
+eleventyNavigation:
+  key: tim-esposito-podcast
+  title: Tim Esposito
 ---
 
 ## Mentioned during this episode

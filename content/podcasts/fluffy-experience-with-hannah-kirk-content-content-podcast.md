@@ -12,6 +12,9 @@ description : "[Hannah Kirk (@pinkhairedCS)](https://twitter.com/pinkhairedCS), 
 mp3File: Content_Content_podcast_Hannah_Kirk-1.mp3
 blubrryId: 145351354
 blubrryCache: 1747158571
+eleventyNavigation:
+  key: hannah-kirk-podcast
+  title: Hannah Kirk
 ---
 
 

@@ -6,7 +6,6 @@ layout: "layouts/grid.njk"
 buttonText : "Learn more"
 date : 2025-01-20
 eleventyNavigation:
-  key: skills
   order: 60
   title: Skills
   parent: skills

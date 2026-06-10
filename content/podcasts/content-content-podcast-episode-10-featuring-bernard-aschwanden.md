@@ -11,6 +11,9 @@ description : Bernard Aschwanden, President of Publishing Smarter, STC Immediate
 mp3File: Single_source_of_truth_featuring_Bernard_Aschwanden_Content_Content_episode_10.mp3
 blubrryId: 145351334
 blubrryCache: 1747159671
+eleventyNavigation:
+  key: bernard-podcast
+  title: Bernard Aschwanden
 ---
 
 ## Mentioned during this episode

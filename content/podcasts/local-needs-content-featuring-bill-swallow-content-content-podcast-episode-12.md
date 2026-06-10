@@ -15,6 +15,9 @@ description : "&ldquo;Content requires proper care and feeding&rdquo;, says Bill
 mp3File: Local_needs_of_content_featuring_Bill_Swallow_Content_Content_episode_12.mp3
 blubrryId: 145351336
 blubrryCache: 1747159397
+eleventyNavigation:
+  key: bill-swallow-podcast
+  title: Bill Swallow
 ---
 
 Released on [International Podcast Day!](https://internationalpodcastday.com/)

@@ -13,6 +13,9 @@ description: A truly great and fun conversation with prolific and influential te
 mp3File: Content_Content_podcast_S1E4_Curse_of_knowledge_with_Tom_Johnson.mp3
 blubrryId: 145351326
 blubrryCache: 1747159796
+eleventyNavigation:
+  key: tom-johnson-podcast-1
+  title: Tom Johnson (2015)
 ---
 
 ## Mentioned during this episode

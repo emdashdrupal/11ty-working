@@ -11,6 +11,9 @@ description : "If you want to hear a great story about a great career, you need 
 mp3File: Content_Content_podcast_Noz_Urbina.mp3
 blubrryId: 145351357
 blubrryCache: 1747158552
+eleventyNavigation:
+  key: noz-urbina-podcast
+  title: Noz Urbina
 ---
 ## Mentioned during this episode
 

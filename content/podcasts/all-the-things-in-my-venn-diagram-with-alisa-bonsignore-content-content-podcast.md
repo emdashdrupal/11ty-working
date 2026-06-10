@@ -12,6 +12,9 @@ mp3File : Content_Content_podcast_Alisa_Bonsignore.mp3
 blubrryId: 145351366
 blubrryCache: 1747158086
 
+eleventyNavigation:
+  key: alisa-bonsignore-podcast
+  title: Alisa Bonsignore
 ---
 
 ## Mentioned during this episode
