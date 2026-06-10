@@ -10,6 +10,7 @@ eleventyNavigation:
   key: metrics-skill
   title: Metrics and data
 
+  parent:  podcasts
 ---
  Measuring how your content performs can help your organization:
 

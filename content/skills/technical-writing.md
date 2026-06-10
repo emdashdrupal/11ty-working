@@ -10,6 +10,7 @@ eleventyNavigation:
   key: tech-writing-skill
   title: Technical writing
 
+  parent:  podcasts
 ---
 
 - **Detective**: Tracking down information across wikis, SharePoint, Confluence, legacy systems, and Subject Matter Experts (SMEs).

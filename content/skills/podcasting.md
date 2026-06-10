@@ -10,6 +10,7 @@ eleventyNavigation:
   key: podcasting-skill
   title: Podcasting
 
+  parent:  podcasts
 ---
 Podcasts are a terrifically friendly and informative way to get your message out. With over seven years of experience in podcasting, and numerous presentations about the value of podcasting, let's consider this as part of your [content strategy](/skills/content-strategy/).
 
