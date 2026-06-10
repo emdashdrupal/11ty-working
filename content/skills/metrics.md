@@ -9,8 +9,7 @@ featuredOrder: 5
 eleventyNavigation:
   key: metrics-skill
   title: Metrics and data
-
-  parent:  podcasts
+  parent: skills
 ---
  Measuring how your content performs can help your organization:
 

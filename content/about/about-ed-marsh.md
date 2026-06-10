@@ -5,7 +5,7 @@ layout: layouts/details.njk
 FontAwesomeIcon: solid fa-person-circle-question
 eleventyNavigation:
   key: About
-  order: 50
+  order: 80
 ---
 I'm a proud New Jersey native, and I'm passionate about:
 

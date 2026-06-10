@@ -8,7 +8,7 @@ featuredOrder: 7
 eleventyNavigation:
   key: coding-experience
   title: Coding experience
-  parent:  podcasts
+  parent: skills
 ---
 Here's how I've used code to solve content problems:
 
