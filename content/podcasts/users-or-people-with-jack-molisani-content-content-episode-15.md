@@ -20,6 +20,7 @@ blubrryCache: 1747159288
 eleventyNavigation:
   key: jack-molisani-podcast
   title: Jack Molisani
+  parent:  podcasts
 ---
 ## Mentioned during this episode
 

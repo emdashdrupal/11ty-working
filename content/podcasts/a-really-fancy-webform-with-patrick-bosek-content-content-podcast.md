@@ -19,6 +19,7 @@ blubrryCache: 1747157976
 eleventyNavigation:
   key: patrick-bosek-podcast
   title: Patrick Bosek
+  parent:  podcasts
 ---
 > This episode was recorded before Patrick's company changed its name to Heretto.
 

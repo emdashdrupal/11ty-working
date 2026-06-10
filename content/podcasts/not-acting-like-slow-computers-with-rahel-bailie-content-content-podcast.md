@@ -12,6 +12,7 @@ blubrryCache: 1747158062
 eleventyNavigation:
   key: rahel-bailie-podcast
   title: Rahel Bailie
+  parent:  podcasts
 ---
 Her [_Content Strategy_ book](https://smile.amazon.com/Content-Strategy-Connecting-Business-Benefits/dp/1937434168/ref=sr_1_1?dchild=1&keywords=rahel+bailie&qid=1618343360&sr=8-1) with [Noz Urbina](/podcasts/1000-or-100000-meetings-with-noz-urbina-content-content-podcast/) remains one of Ed's most highlighted (highlit?) reads. We discuss Content Operations (ContentOps or DocOps), introducing efficiency, and more. I hope you laugh as much as we did.
 

@@ -19,6 +19,7 @@ blubrryCache: 1747158801
 eleventyNavigation:
   key: scott-abel-podcast
   title: Scott Abel
+  parent:  podcasts
 ---
 ## Mentioned during this episode
 

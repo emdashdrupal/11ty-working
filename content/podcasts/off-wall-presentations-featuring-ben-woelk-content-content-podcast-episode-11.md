@@ -14,6 +14,7 @@ blubrryCache: 1747159425
 eleventyNavigation:
   key: ben-woelk-podcast
   title: Ben Woelk
+  parent:  podcasts
 ---
 
 ## Mentioned during this episode

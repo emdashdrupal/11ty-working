@@ -14,6 +14,7 @@ blubrryCache: 1747158106
 eleventyNavigation:
   key: michael-miller-podcast
   title: Michael Miller
+  parent:  podcasts
 ---
 
 

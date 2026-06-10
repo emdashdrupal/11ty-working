@@ -16,6 +16,7 @@ blubrryCache: 17470158748
 eleventyNavigation:
   key: viqui-dill-podcast
   title: Viqui Dill
+  parent:  podcasts
 ---
 
 Viqui is also an accomplished 'bad-ass bass player' and a self-proclaimed techcomm evangelist.

@@ -15,6 +15,7 @@ blubrryCache: 1747158593
 eleventyNavigation:
   key: phylise-banner-podcast
   title: Phylise Banner
+  parent:  podcasts
 ---
 ## Mentioned during this episode
 

@@ -11,6 +11,7 @@ blubrryCache: 1747176534
 eleventyNavigation:
   key: sharon-burton-podcast-1
   title: Sharon Burton (2015)
+  parent:  podcasts
 ---
 ## Mentioned during this episode
 

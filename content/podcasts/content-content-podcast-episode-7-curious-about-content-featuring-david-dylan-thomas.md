@@ -16,6 +16,7 @@ blubrryCache: 1747159732
 eleventyNavigation:
   key: david-dylan-thomas-podcast
   title: David Dylan Thomas
+  parent:  podcasts
 ---
 
 ## Mentioned during this episode

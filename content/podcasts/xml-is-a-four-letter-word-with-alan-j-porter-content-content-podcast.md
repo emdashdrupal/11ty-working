@@ -21,6 +21,7 @@ blubrryCache: 1747158770
 eleventyNavigation:
   key: alan-porter-podcast
   title: Alan Porter
+  parent:  podcasts
 ---
 Alan is also an accomplished author and critic of comics, pop culture, sci-fi, and more.
 

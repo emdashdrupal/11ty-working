@@ -16,6 +16,7 @@ blubrryCache: 1747159796
 eleventyNavigation:
   key: tom-johnson-podcast-1
   title: Tom Johnson (2015)
+  parent:  podcasts
 ---
 
 ## Mentioned during this episode

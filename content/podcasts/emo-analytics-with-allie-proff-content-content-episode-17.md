@@ -15,6 +15,7 @@ blubrryCache: 1747159229
 eleventyNavigation:
   key: allie-proff-podcast
   title: Allie Proff
+  parent:  podcasts
 ---
 ## Mentioned during this episode
 

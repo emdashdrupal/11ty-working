@@ -15,6 +15,7 @@ blubrryCache: 1747158086
 eleventyNavigation:
   key: alisa-bonsignore-podcast
   title: Alisa Bonsignore
+  parent:  podcasts
 ---
 
 ## Mentioned during this episode
