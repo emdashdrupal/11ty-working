@@ -4,6 +4,6 @@ description: Content Content is *the* podcast where you get to know the people b
 tags : podcasts
 layout : layouts/grid.njk
 eleventyNavigation:
-  order: 70
+  order: 30
   title: Podcasts
 ---
