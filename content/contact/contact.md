@@ -3,4 +3,7 @@ title: Discuss technical communication, content strategy, mentorship, and podcas
 description: Chat with Ed to learn more about how he can improve your content.
 FontAwesomeIcon: solid fa-id-badge
 layout: "layouts/contact.njk"
+eleventyNavigation:
+  key: Contact
+  order: 90
 ---

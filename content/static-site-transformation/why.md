@@ -3,6 +3,8 @@ title : 'The why: Behind my SSG conversion project'
 description: I put myself in *every* role of building out a website to better understand how content is programmatically consumed and displayed.
 FontAwesomeIcon: solid fa-person-circle-question
 date: 2025-03-01
+eleventyNavigation:
+  parent: Blog
 ---
 I started this project as a strategic effort to create a portfolio highlighting my technical writing and content strategy skills. I didn't have any recent writing samples to share with potential employers or clients due to intellectual property (IP) laws, which I take seriously. The public-facing samples I *did* have were woefully out-of-date, as was my WordPress site. I didn't realize *just* how out-of-date the site was until I got deep into this project. I needed to redesign not only the site, but its content.
 

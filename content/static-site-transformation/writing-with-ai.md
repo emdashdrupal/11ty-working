@@ -4,6 +4,8 @@ description: 'I decided to see if AI was going to take my job.'
 FontAwesomeIcon: solid fa-keyboard
 featured: true
 featuredOrder: 2
+eleventyNavigation:
+  parent: Blog
 ---
 
 The answer for coders is *not yet*. For those on the more creative end, including technical writers, it's a bit more grey.
