@@ -6,6 +6,10 @@ categories: information-architecture
 featured: true
 featuredOrder: 1
 cover: content-lifecycle-structure.png
+eleventyNavigation:
+  key: info-architecture-skill
+  title: Information architecture
+
 ---
 The way you present and organize your content says a lot to your clients and customers. Giving structure to your organization's content ensures:
 

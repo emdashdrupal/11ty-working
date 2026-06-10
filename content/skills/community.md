@@ -6,7 +6,9 @@ featured: false
 featuredOrder: 6
 categories: community-building
 cover: content-lifecycle-refine.png
-
+eleventyNavigation:
+  key: community-building
+  title: Community building
 ---
 I have a history of finding those people and encouraging them to be champions for high-quality content that's an asset to your firm.
 

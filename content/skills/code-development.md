@@ -5,6 +5,9 @@ FontAwesomeIcon: solid fa-terminal
 categories: coding-experience
 featured: false
 featuredOrder: 7
+eleventyNavigation:
+  key: coding-experience
+  title: Coding experience
 ---
 Here's how I've used code to solve content problems:
 

@@ -5,6 +5,9 @@ FontAwesomeIcon: solid fa-terminal
 categories: artificial-intelligence
 featured: true
 featuredOrder: 2
+eleventyNavigation:
+  key: ai-usage-skill
+  title: AI usage
 ---
 Here's how I've used AI:
 
