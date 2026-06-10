@@ -15,6 +15,7 @@ blubrryCache: 1747158571
 eleventyNavigation:
   key: hannah-kirk-podcast
   title: Hannah Kirk
+  parent:  podcasts
 ---
 
 

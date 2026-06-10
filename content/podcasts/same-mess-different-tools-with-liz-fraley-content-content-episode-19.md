@@ -16,6 +16,7 @@ blubrryCache: 1747159208
 eleventyNavigation:
   key: liz-fraley-podcast
   title: Liz Fraley
+  parent:  podcasts
 ---
 ## Mentioned during this episode
 

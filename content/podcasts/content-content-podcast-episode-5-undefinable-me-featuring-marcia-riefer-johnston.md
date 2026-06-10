@@ -14,6 +14,7 @@ blubrryCache: 1747160375
 eleventyNavigation:
   key: marcia-rj-podcast
   title: Marcia Riefer-Johnston
+  parent:  podcasts
 ---
 ## Mentioned during this episode
 

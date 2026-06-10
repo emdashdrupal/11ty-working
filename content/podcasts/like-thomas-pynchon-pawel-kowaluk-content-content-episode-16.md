@@ -17,6 +17,7 @@ blubrryCache: 174715964
 eleventyNavigation:
   key: pawel-kowaluk-podcast
   title: Pawel Kowaluk
+  parent:  podcasts
 ---
 
 

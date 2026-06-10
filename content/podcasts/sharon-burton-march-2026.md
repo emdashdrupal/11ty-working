@@ -14,6 +14,7 @@ blubrryCache: 1772759385
 eleventyNavigation:
   key: sharon-burton-podcast-2
   title: Sharon Burton (2026)
+  parent:  podcasts
 ---
 Sharon was the [very first Content Content guest](/podcasts/introducing-the-content-content-podcast/) in 2015. She's a content strategist, technical writing professor at the University of California Riverside, and editor of the book *Women in Technical Communication: From typewriters to touchscreens, a history by the women who did the work*. Sharon's book is available at:
 

@@ -14,6 +14,7 @@ blubrryCache: 1747159188
 eleventyNavigation:
   key: tim-esposito-podcast
   title: Tim Esposito
+  parent:  podcasts
 ---
 
 ## Mentioned during this episode

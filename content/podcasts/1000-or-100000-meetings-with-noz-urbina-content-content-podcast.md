@@ -14,6 +14,7 @@ blubrryCache: 1747158552
 eleventyNavigation:
   key: noz-urbina-podcast
   title: Noz Urbina
+  parent:  podcasts
 ---
 ## Mentioned during this episode
 

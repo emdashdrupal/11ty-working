@@ -11,6 +11,7 @@ blubrryCache: 1747160338
 eleventyNavigation:
   key: danielle-villegas-podcast
   title: Danielle Villegas
+  parent:  podcasts
 ---
 ## Mentioned during this episode
 

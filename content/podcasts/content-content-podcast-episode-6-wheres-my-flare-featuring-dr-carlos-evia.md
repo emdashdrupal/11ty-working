@@ -14,6 +14,7 @@ blubrryCache: 1747159751
 eleventyNavigation:
   key: carlos-evia-podcast
   title: Carlos Evia
+  parent:  podcasts
 ---
 
 Carlos is the Director of Professional and Technical Writing at Virginia Tech, is on the Lightweight DITA Technical Committee, and is an advocate for using multimedia with DITA.

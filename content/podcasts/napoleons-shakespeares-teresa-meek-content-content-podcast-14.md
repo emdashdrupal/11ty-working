@@ -15,6 +15,7 @@ blubrryCache: 1747159359
 eleventyNavigation:
   key: teresa-meek-podcast
   title: Teresa Meek
+  parent:  podcasts
 ---
 
 ## Mentioned during this episode

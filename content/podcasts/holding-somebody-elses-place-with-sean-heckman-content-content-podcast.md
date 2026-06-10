@@ -16,6 +16,7 @@ blubrryCache: 1747158929
 eleventyNavigation:
   key: sean-heckman-podcast
   title: Sean Heckman
+  parent:  podcasts
 ---
 
 

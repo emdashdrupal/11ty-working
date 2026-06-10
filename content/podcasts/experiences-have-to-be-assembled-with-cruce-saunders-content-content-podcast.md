@@ -16,6 +16,7 @@ blubrryCache: 17470158821
 eleventyNavigation:
   key: cruce-saunders-podcast
   title: Cruce Saunders
+  parent:  podcasts
 ---
 ## Mentioned during this episode
 

@@ -14,6 +14,7 @@ blubrryCache: 1747159714
 eleventyNavigation:
   key: sarah-okeefe-podcast
   title: Sarah O'Keefe
+  parent:  podcasts
 ---
 ## Mentioned during this episode
 

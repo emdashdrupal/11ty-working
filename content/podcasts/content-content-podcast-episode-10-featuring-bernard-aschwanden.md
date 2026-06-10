@@ -14,6 +14,7 @@ blubrryCache: 1747159671
 eleventyNavigation:
   key: bernard-podcast
   title: Bernard Aschwanden
+  parent:  podcasts
 ---
 
 ## Mentioned during this episode

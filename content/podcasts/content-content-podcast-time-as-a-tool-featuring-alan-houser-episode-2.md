@@ -11,6 +11,7 @@ blubrryCache: 1747159834
 eleventyNavigation:
   key: alan-houser-podcast
   title: Alan Houser
+  parent:  podcasts
 ---
 
 ## Mentioned during this episode

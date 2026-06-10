@@ -15,6 +15,7 @@ blubrryCache: 1747158964
 eleventyNavigation:
   key: andrea-ames-podcast
   title: Andrea Ames
+  parent:  podcasts
 ---
 
 Andrea is the CEO of [Idyll Point Group](https://idyllpointgroup.com), after a long stint in content strategy and content experience strategy at IBM.

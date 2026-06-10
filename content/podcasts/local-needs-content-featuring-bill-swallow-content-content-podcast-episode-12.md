@@ -18,6 +18,7 @@ blubrryCache: 1747159397
 eleventyNavigation:
   key: bill-swallow-podcast
   title: Bill Swallow
+  parent:  podcasts
 ---
 
 Released on [International Podcast Day!](https://internationalpodcastday.com/)

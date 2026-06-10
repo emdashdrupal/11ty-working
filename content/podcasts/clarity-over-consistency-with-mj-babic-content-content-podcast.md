@@ -17,6 +17,7 @@ blubrryCache: 1747158022
 eleventyNavigation:
   key: nj-babic-podcast
   title: MJ Babic
+  parent:  podcasts
 ---
 MJ's had a diverse career, from marketing, feature articles, science journals, and tech writing. But her plan is "helping people complete their tasks with digital products", and to "bring good writing to whatever corner I'm working in at the moment".
 

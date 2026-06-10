@@ -14,6 +14,7 @@ blubrryCache: 1747159379
 eleventyNavigation:
   key: alyssa-fox-podcast
   title: Alyssa Fox
+  parent:  podcasts
 ---
 We also discuss managing people "fairly, not equally", why content strategy is difficult, multinational technical communication teams, fashion, and more.
 
