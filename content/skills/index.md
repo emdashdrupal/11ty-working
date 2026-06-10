@@ -8,6 +8,5 @@ date : 2025-01-20
 eleventyNavigation:
   order: 60
   title: Skills
-  parent: skills
 ---
 ![Content lifecycle diagram](/assets/images/content-lifecycle.png)
