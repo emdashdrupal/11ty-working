@@ -3,6 +3,10 @@ title : 'The what: Creating the content strategy for my site'
 description: It's critical to structure, plan, and maintain your content. Working as writer, content strategist, and developer helped me understand how to orchestrate between the three roles.
 FontAwesomeIcon: solid fa-folder-tree
 date: 2025-02-01
+eleventyNavigation:
+  key: ssg-content-strategy
+  title: Creating the content strategy
+
 
 ---
 ## Determining personas

@@ -2,6 +2,9 @@
 title: Creating my portfolio website in a virtual environment
 description: Developing my technical writing portfolio in a virtual environment helped me focus, learn, and detach from my everyday Windows environment.
 FontAwesomeIcon: solid fa-vr-cardboard
+eleventyNavigation:
+  key: using-vm
+  title: Creating a website in a VM
 
 ---
 
