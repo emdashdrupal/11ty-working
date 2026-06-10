@@ -6,6 +6,10 @@ featured: true
 featuredOrder: 3
 categories: "technical-writing"
 cover: content-lifecycle-create.png
+eleventyNavigation:
+  key: tech-writing-skill
+  title: Technical writing
+
 ---
 
 - **Detective**: Tracking down information across wikis, SharePoint, Confluence, legacy systems, and Subject Matter Experts (SMEs).

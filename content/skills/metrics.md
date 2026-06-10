@@ -6,6 +6,10 @@ categories: metrics
 cover: content-lifecycle-measure.png
 featured: true
 featuredOrder: 5
+eleventyNavigation:
+  key: metrics-skill
+  title: Metrics and data
+
 ---
  Measuring how your content performs can help your organization:
 
