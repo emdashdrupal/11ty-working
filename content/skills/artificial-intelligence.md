@@ -8,7 +8,7 @@ featuredOrder: 2
 eleventyNavigation:
   key: ai-usage-skill
   title: AI usage
-  parent:  podcasts
+  parent: skills
 ---
 Here's how I've used AI:
 
