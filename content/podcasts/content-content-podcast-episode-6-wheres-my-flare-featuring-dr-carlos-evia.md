@@ -11,6 +11,9 @@ description : Dr. Carlos Evia is featured on a jaw-dropping episode. We discuss 
 mp3File: Wheres_my_flare_featuring_Carlos_Evia-Content_Content_podcast_episode_6.mp3
 blubrryId: 145351328
 blubrryCache: 1747159751
+eleventyNavigation:
+  key: carlos-evia-podcast
+  title: Carlos Evia
 ---
 
 Carlos is the Director of Professional and Technical Writing at Virginia Tech, is on the Lightweight DITA Technical Committee, and is an advocate for using multimedia with DITA.

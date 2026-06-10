@@ -12,6 +12,9 @@ description : Phylise Banner, learning experience designer, talks to Ed Marsh ab
 mp3File: Content_Content_podcast_-_Phylise_Banner.mp3
 blubrryId: 145351351
 blubrryCache: 1747158593
+eleventyNavigation:
+  key: phylise-banner-podcast
+  title: Phylise Banner
 ---
 ## Mentioned during this episode
 

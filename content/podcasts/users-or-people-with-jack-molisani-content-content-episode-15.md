@@ -17,6 +17,9 @@ description : Jack Molisani, president of ProSpring Staffing and Executive Direc
 mp3File: Content_Content_episode-15_-_Jack-Molisani.mp3
 blubrryId: 145351339
 blubrryCache: 1747159288
+eleventyNavigation:
+  key: jack-molisani-podcast
+  title: Jack Molisani
 ---
 ## Mentioned during this episode
 

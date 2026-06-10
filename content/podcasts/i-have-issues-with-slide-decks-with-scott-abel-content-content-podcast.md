@@ -16,6 +16,9 @@ description: Scott Abel, [The Content Wrangler](https://www.thecontentwrangler.c
 mp3File: Content_Content_podcast_Scott_Abel.mp3
 blubrryId: 145351348
 blubrryCache: 1747158801
+eleventyNavigation:
+  key: scott-abel-podcast
+  title: Scott Abel
 ---
 ## Mentioned during this episode
 

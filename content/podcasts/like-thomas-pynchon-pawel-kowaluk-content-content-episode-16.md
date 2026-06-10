@@ -14,6 +14,9 @@ description: Pawel Kowaluk, a technical writer, self-proclaimed [DITA geek](http
 mp3File: content_content_podcast_episode_16_-_pawel_kowaluk.mp3
 blubrryId: 145351340
 blubrryCache: 174715964
+eleventyNavigation:
+  key: pawel-kowaluk-podcast
+  title: Pawel Kowaluk
 ---
 
 

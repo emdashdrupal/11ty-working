@@ -8,6 +8,6 @@
   "categoryFontAwesomeIcon": "solid fa-podcast",
   "podHostID": "https://player.blubrry.com/id",
   "eleventyNavigation": {
-    "key": "Podcasts"
+    "key": "podcasts"
 }
 }

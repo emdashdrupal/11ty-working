@@ -13,6 +13,9 @@ description : A free-wheeling show starts off 2016 starring David Dylan Thomas, 
 mp3File: Curious_about_content_featuring_David_Dylan_Thomas_Content_Content_podcast_episode_7.mp3
 blubrryId: 145351330
 blubrryCache: 1747159732
+eleventyNavigation:
+  key: david-dylan-thomas-podcast
+  title: David Dylan Thomas
 ---
 
 ## Mentioned during this episode

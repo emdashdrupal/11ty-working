@@ -16,6 +16,9 @@ mp3File: content-content-podcast-patrick-bosek.mp3
 blubrryId: 145351370
 blubrryCache: 1747157976
 
+eleventyNavigation:
+  key: patrick-bosek-podcast
+  title: Patrick Bosek
 ---
 > This episode was recorded before Patrick's company changed its name to Heretto.
 

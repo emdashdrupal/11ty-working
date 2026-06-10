@@ -18,6 +18,9 @@ description : "Alan J. Porter, Head of Strategic Services Practice at [[A]](http
 mp3File: content_content_podcast-alan-porter.mp3
 blubrryId: 145351349
 blubrryCache: 1747158770
+eleventyNavigation:
+  key: alan-porter-podcast
+  title: Alan Porter
 ---
 Alan is also an accomplished author and critic of comics, pop culture, sci-fi, and more.
 

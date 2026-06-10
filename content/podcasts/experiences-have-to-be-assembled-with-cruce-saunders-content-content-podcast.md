@@ -13,6 +13,9 @@ description : In an intense episode focused on intelligent content, Cruce Saunde
 mp3File : Content_Content_podcast_Cruce-Saunders.mp3
 blubrryId: 145351347
 blubrryCache: 17470158821
+eleventyNavigation:
+  key: cruce-saunders-podcast
+  title: Cruce Saunders
 ---
 ## Mentioned during this episode
 

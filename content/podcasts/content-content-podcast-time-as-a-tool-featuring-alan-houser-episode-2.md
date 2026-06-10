@@ -8,6 +8,9 @@ description : Alan Houser, technical communication consultant and former Society
 mp3File: content-content-podcast-episode-2-alan-houser.mp3
 blubrryId: 145351324
 blubrryCache: 1747159834
+eleventyNavigation:
+  key: alan-houser-podcast
+  title: Alan Houser
 ---
 
 ## Mentioned during this episode
