@@ -1,4 +1,3 @@
-{%- from "layouts/partials/macros.njk" import dropdown, listItem -%}
 <div class="grid grid-cols-4 md:grid-cols-12 gap-4 max-w-4xl px-2">
     <div id="tagline" class="col-span-3 md:col-span-4">
         <a href="/" class="font-sans jet-200 font-semibold">
@@ -11,26 +10,6 @@
     </button>
     <div id="menubar" class="hidden md:block col-span-4 md:col-span-8 mt-2 sm:float-right">
         {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
-        {% set navPages = collections.all | eleventyNavigation %}
-        {{ navPages | dump | safe }}
-        <ul
-            class="md:grid md:grid-flow-col md:auto-cols-auto gap-2 items-start md:items-center md:justify-end"
-            aria-label="Main navigation menu"
-            role="menubar">
-            {{ dropdown('blogDropdown', 'Blog', collections.blog, '/static-site-transformation/') }}
-            {{ listItem('/podcasts/', 'Podcast') }}
-            {{ dropdown('skillsDropdown', 'Skills', collections.skills, '/skills/') }}
-            {{ listItem('/about/about-ed-marsh/', 'About') }}
-            {{ listItem('https://linkedin.com/in/edmarsh', 'LinkedIn') }}
-            {{ listItem('https://github.com/emdashdrupal/11ty-working', 'GitHub') }}
-            <li class="relative hover:jet-200">
-                <button id="searchToggle" class="inline-flex items-center" aria-expanded="false" aria-controls="search">
-                    <i class="fa-solid fa-search text-2xl"></i>
-                    <span class="sr-only">Toggle search</span>
-                </button>
-                <div id="search" class="hidden absolute right-0 top-full mt-2 w-64 rounded-sm shadow-lg"></div>
-            </li>
-            {{ listItem('/contact/', 'Contact Ed') }}
-        </ul>
+        {{ collections.all | eleventyNavigation(eleventyNavigation.key) | safe }}
     </div>
 </div>

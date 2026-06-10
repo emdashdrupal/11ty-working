@@ -5,8 +5,6 @@ tags : content-strategy
 featured : true
 featuredOrder : 2
 FontAwesomeIcon : solid fa-file-waveform
-eleventyNavigation:
-  parent: Blog
 ---
 
 When you start with a decade-old information architecture that evolved to include podcasts, it shouldn't be surprising that very few parts of that structure end up in a new site.
