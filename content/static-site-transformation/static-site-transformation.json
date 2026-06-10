@@ -6,8 +6,7 @@
     "category": "Static site transformation",
     "categoryFontAwesomeIcon": "solid fa-truck-fast",
     "date": "Last Modified",
-    eleventyNavigation:
-  parent: Blog
-  key: static-site-transformation
-
+    "eleventyNavigation": {
+        "parent": "static-site-transformation"
+    }
 }

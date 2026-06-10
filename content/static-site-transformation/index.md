@@ -4,6 +4,7 @@ description: This series documents my experience moving my legacy self-hosted Wo
 tags : blog
 layout : layouts/grid.njk
 eleventyNavigation:
-  key: Blog
-  order: 80
+  key: static-site-transformation
+  title: "Static Site Transformation"
+  parent: Blog
 ---
