@@ -271,49 +271,6 @@ ul li:not(#menubar>ul>li):not(div>ul>div>li):not(.dropdown) {
     font-family: var(--sans-serif);
 }
 
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: var(--whitish);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 0.5rem;
-    margin-top: 0.25rem;
-    z-index: 50;
-    padding: 0.5rem 0;
-}
-
-.dropdown-menu::before {
-    content: '';
-    position: absolute;
-    top: -10px;
-    left: 0;
-    right: 0;
-    height: 10px;
-}
-
-.dropdown-menu a {
-    color: var(--jet-500);
-    padding: 0.5rem;
-    text-decoration: none;
-    display: block;
-    transition: all 0.2s ease;
-}
-
-.dropdown-menu a:hover {
-    background-color: var(--success-600);
-    color: var(--jet-200);
-    border-radius: 4px;
-}
-
-.dropdown:hover .dropdown-menu,
-.dropdown-menu:hover {
-    display: block;
-    z-index: 100;
-}
-
-
 /* Utility Classes */
 .sr-only {
     border: 0;
@@ -429,41 +386,7 @@ article img:hover {
     vertical-align: text-top;
 }
 
-/* Navigation links with specific suffixes do not have underlines */
-a[id$="-button"],
-a[id$="-item"],
-a[id$="-menu"] {
-    text-decoration: none;
-}
-
-.nav-item {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Menu Mechanics */
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: var(--whitish);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 10;
-}
-
-/* Show the dropdown menu when hovering over the parent */
-.has-dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-/* Submenu styles */
-.dropdown-menu .has-submenu > .dropdown-menu {
-    left: 100%;
-    top: 0;
-}
-
-    /* Base Navbar Styling */
+/* Base Navbar Styling */
 .navbar {
   background-color: #333;
 }
@@ -511,6 +434,12 @@ a[id$="-menu"] {
 /* Show Menu on Hover (Desktop) */
 .has-dropdown:hover .dropdown-menu {
   display: block;
+}
+
+/* Submenu styles */
+.dropdown-menu .has-submenu > .dropdown-menu {
+    left: 100%;
+    top: 0;
 }
 
 /* Show Menu via Class (For JavaScript Toggle) */
