@@ -481,7 +481,7 @@ a[id$="-menu"] {
   padding: 15px 20px;
   color: white;
   text-decoration: none;
-  background: none;
+  background-color: #333;
   border: none;
   font: inherit;
   cursor: pointer;
