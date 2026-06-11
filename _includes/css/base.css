@@ -199,17 +199,14 @@ th {
 ul {
     margin: 0;
     list-style-position: unset;
-    list-style-type: none;
 }
 
-ul li:not(#menubar>ul>li):not(div>ul>div>li):not(.dropdown) {
-    font-family: var(--sans-serif);
+ul li:not(#menubar>ul>li):not(#menubar>ul>li>ul>li):not(#menubar>ul>li>ul>li>ul>li):not(div>ul>div>li):not(.dropdown) {
+    font-family: var(--serif);
     font-optical-sizing: auto;
     line-height: 1.5rem;
-    list-style-type: none;
+    list-style-type: square;
     color: black;
-    margin-top: 0.75rem;
-    margin-left: 3%;
 }
 
 #menubar,
@@ -220,6 +217,7 @@ ul li:not(#menubar>ul>li):not(div>ul>div>li):not(.dropdown) {
     line-height: 1.2rem;
     list-style-type: none;
     list-style-position: unset;
+    text-align: left;
 }
 
 /* Component Styles - Grouped by component */
