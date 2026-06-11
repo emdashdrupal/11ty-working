@@ -12,7 +12,7 @@
     --pagefind-ui-text-hover: var(--jet-200);
     --pagefind-ui-background: var(--bg-whitish);
     --pagefind-ui-border: var(--jet-300);
-    --pagefind-ui-border-radius: 2px
+    --pagefind-ui-border-radius: 2px;
     --pagefind-ui-tag: yellow;
     --pagefind-ui-border-width: 2px;
     --pagefind-ui-shadow: 0;
@@ -21,7 +21,6 @@
     --sans-serif: Barlow, Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --serif: "Besley", serif;
 
-    /* Background and text color utility classes for medium blue */
     .bg-medium-blue,
     .text-medium-blue {
         background-color: var(--medium-blue);
@@ -49,7 +48,6 @@
     --success-900: #f5fef6;
 }
 
-/* Pagefind UI Search Input Styles */
 .pagefind-ui__search-input {
     background-color: var(--bg-whitish);
     border: 1px solid var(--jet-400);
@@ -58,12 +56,377 @@
 }
 
 /* Base Elements - Alphabetical */
-/* Links within paragraphs, spans and list items are underlined for clarity */
 p>a,
 span>a,
 li>a {
     text-decoration: underline;
     list-style-type: none;
+}
+
+a[id$="-button"],
+a[id$="-item"],
+a[id$="-menu"] {
+    text-decoration: none;
+}
+
+a:hover,
+footer>div>p>a:hover {
+    background-color: var(--success-800);
+    color: var(--jet-200);
+}
+
+blockquote {
+    border-left: 3px solid var(--green-blue);
+    margin: 1rem 0;
+    padding-left: 1rem;
+}
+
+blockquote::before {
+    color: var(--medium-blue);
+    content: "> Note";
+    font-size: 1.2rem;
+    font-style: normal;
+}
+
+blockquote p {
+    color: var(--jet-200);
+    font-family: var(--sans-serif);
+    font-size: 1.0rem;
+    font-style: normal;
+    line-height: 1.4rem;
+}
+
+button {
+    box-shadow: 1.5px 1px 1.5px var(--jet-600);
+}
+
+button:hover {
+    background-color: var(--success-500);
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    color: var(--jet);
+}
+
+
+code[class*="language-"],
+pre[class*="language-"] {
+    font-family: var(--monospace);
+    white-space: pre;
+    text-wrap: wrap;
+}
+
+:not(pre)>code[class*="language-"] {
+    padding: .1em;
+    border-radius: .3em;
+    white-space: pre;
+    text-wrap: wrap;
+}
+
+h1 {
+    font-family: var(--sans-serif);
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 1.95rem;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: var(--sans-serif);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0;
+}
+
+h2>a {
+    font-family: var(--sans-serif);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--medium-blue)
+}
+
+
+h3 {
+    font-family: var(--sans-serif);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 0.75rem;
+}
+
+h4 {
+    font-family: var(--sans-serif);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+ol li {
+    font-family: var (--serif);
+    font-optical-sizing: auto;
+    list-style-type: decimal;
+    margin-bottom: 0.6rem;
+    margin-left: 1%;
+}
+
+p {
+    color: #000;
+    font-family: var(--serif);
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    margin: 0.75rem 0
+}
+
+pre,
+code,
+font-mono {
+    font-family: var(--monospace);
+    margin: 0;
+    padding: 0;
+    tab-size: 2;
+}
+
+table {
+    margin-top: 2%;
+}
+
+th {
+    font-family: var(--sans-serif);
+    font-weight: 600;
+    text-align: left;
+}
+
+ul {
+    margin: 0;
+    list-style-position: unset;
+    list-style-type: none;
+}
+
+ul li:not(#menubar>ul>li):not(div>ul>div>li):not(.dropdown) {
+    font-family: var(--sans-serif);
+    font-optical-sizing: auto;
+    line-height: 1.5rem;
+    list-style-type: none;
+    color: black;
+    margin-top: 0.75rem;
+    margin-left: 3%;
+}
+
+#menubar,
+#menubar>ul>li,
+#menubar>ul>li>ul>li {
+    font-family: var(--sans-serif);
+    font-size: 1rem;
+    line-height: 1.2rem;
+    list-style-type: none;
+    list-style-position: unset;
+}
+
+/* Component Styles - Grouped by component */
+/* Cards */
+.card-description {
+    font-family: var(--serif);
+}
+
+.card-description a {
+    color: var(--medium-blue);
+}
+
+
+/* Code Block Copy Button */
+.code-wrapper {
+    position: relative;
+}
+
+.copy-button {
+    background-color: var(--medium-blue);
+    border-radius: 0.25rem;
+    color: var(--whitish);
+    cursor: pointer;
+    opacity: 0;
+    padding: 0.25rem 0.5rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.code-wrapper:hover .copy-button {
+    opacity: 1;
+}
+
+.copy-button:hover {
+    background-color: var(--green-blue);
+}
+
+.copy-button.copied {
+    background-color: var(--success);
+    color: var(--jet);
+}
+
+/* Dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: var(--sans-serif);
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--whitish);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    margin-top: 0.25rem;
+    z-index: 50;
+    padding: 0.5rem 0;
+}
+
+.dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+
+.dropdown-menu a {
+    color: var(--jet-500);
+    padding: 0.5rem;
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--success-600);
+    color: var(--jet-200);
+    border-radius: 4px;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown-menu:hover {
+    display: block;
+    z-index: 100;
+}
+
+
+/* Utility Classes */
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.font-sans,
+.dropdown-toggle {
+    font-family: var(--sans-serif);
+}
+
+.icon {
+    color: var(--success-500);
+    text-shadow: 1.25px 1px var(--jet-400);
+}
+
+footer>div>p {
+    color: var(--jet-200);
+}
+
+footer>div>p>a {
+    color: var(--jet-900);
+}
+
+
+.description>p {
+    font-family: var(--sans-serif);
+    font-size: 1.1rem;
+    line-height: 1.55rem;
+    margin: 1rem 0;
+}
+
+.header-anchor {
+    text-decoration: none;
+
+}
+
+.header-anchor::after {
+    content: " #";
+    color: var(--jet-700);
+    font-size: 0.8rem;
+
+}
+
+.header-anchor:hover:after {
+    text-decoration: none;
+    content: " \002693";
+}
+
+/* Search styles */
+#search {
+    transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+}
+
+#search.hidden {
+    opacity: 0;
+    transform: scale(0.95);
+    pointer-events: none;
+}
+
+#search:not(.hidden) {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#searchToggle {
+    transition: color 0.2s ease-out;
+}
+
+.pagefind-ui--reset {
+    background-color: white;
+}
+
+
+/* * Dialog styles */
+dialog.image-dialog {
+    padding: 0;
+    background: transparent;
+    border: none;
+    max-width: 90vw;
+    max-height: 90vh;
+}
+
+dialog.image-dialog::backdrop {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+dialog.image-dialog img {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+}
+
+/* Add hover effect to article images */
+article img {
+    transition: transform 0.2s ease;
+}
+
+article img:hover {
+    transform: scale(1.02);
+}
+
+#next-previous>div {
+    margin: 0;
+    padding: 0;
+    vertical-align: text-top;
 }
 
 /* Navigation links with specific suffixes do not have underlines */
