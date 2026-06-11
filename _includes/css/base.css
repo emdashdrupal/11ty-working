@@ -21,6 +21,7 @@
     --sans-serif: Barlow, Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --serif: "Besley", serif;
 
+    /* Background and text color utility classes for medium blue */
     .bg-medium-blue,
     .text-medium-blue {
         background-color: var(--medium-blue);
@@ -48,6 +49,7 @@
     --success-900: #f5fef6;
 }
 
+/* Pagefind UI Search Input Styles */
 .pagefind-ui__search-input {
     background-color: var(--bg-whitish);
     border: 1px solid var(--jet-400);
@@ -56,6 +58,7 @@
 }
 
 /* Base Elements - Alphabetical */
+/* Links within paragraphs, spans and list items are underlined for clarity */
 p>a,
 span>a,
 li>a {
@@ -63,24 +66,28 @@ li>a {
     list-style-type: none;
 }
 
+/* Navigation links with specific suffixes do not have underlines */
 a[id$="-button"],
 a[id$="-item"],
 a[id$="-menu"] {
     text-decoration: none;
 }
 
+/* Hover effect for all links and footer links */
 a:hover,
 footer>div>p>a:hover {
     background-color: var(--success-800);
     color: var(--jet-200);
 }
 
+/* Blockquote Styles */
 blockquote {
     border-left: 3px solid var(--green-blue);
     margin: 1rem 0;
     padding-left: 1rem;
 }
 
+/* Custom content for blockquotes to indicate note */
 blockquote::before {
     color: var(--medium-blue);
     content: "> Note";
@@ -88,6 +95,7 @@ blockquote::before {
     font-style: normal;
 }
 
+/* Paragraph styling within blockquotes */
 blockquote p {
     color: var(--jet-200);
     font-family: var(--sans-serif);
@@ -96,10 +104,12 @@ blockquote p {
     line-height: 1.4rem;
 }
 
+/* Button Styles */
 button {
     box-shadow: 1.5px 1px 1.5px var(--jet-600);
 }
 
+/* Hover effect for buttons */
 button:hover {
     background-color: var(--success-500);
     border-radius: 6px;
@@ -204,12 +214,14 @@ ul {
 
 ul li:not(#menubar>ul>li):not(div>ul>div>li):not(.dropdown) {
     font-family: var(--sans-serif);
+    text-decoration: none;
     font-optical-sizing: auto;
     line-height: 1.5rem;
     list-style-type: none;
     color: black;
     margin-top: 0.75rem;
     margin-left: 3%;
+    display: flex;
 }
 
 #menubar,
@@ -220,24 +232,31 @@ ul li:not(#menubar>ul>li):not(div>ul>div>li):not(.dropdown) {
     line-height: 1.2rem;
     list-style-type: none;
     list-style-position: unset;
+    text-decoration: none;
+    display: flex;
 }
 
 /* Component Styles - Grouped by component */
-/* Cards */
+
+/* Card Description Styles */
+/* Applies serif font to card descriptions */
 .card-description {
     font-family: var(--serif);
 }
 
+/* Links within card descriptions use medium blue color */
 .card-description a {
     color: var(--medium-blue);
 }
 
 
 /* Code Block Copy Button */
+/* Container for code blocks with copy functionality */
 .code-wrapper {
     position: relative;
 }
 
+/* Copy button styling */
 .copy-button {
     background-color: var(--medium-blue);
     border-radius: 0.25rem;
@@ -251,26 +270,31 @@ ul li:not(#menubar>ul>li):not(div>ul>div>li):not(.dropdown) {
     transition: opacity 0.2s ease-in-out;
 }
 
+/* Show copy button on hover over code block */
 .code-wrapper:hover .copy-button {
     opacity: 1;
 }
 
+/* Hover effect for copy button */
 .copy-button:hover {
     background-color: var(--green-blue);
 }
 
+/* Copied state styling for copy button */
 .copy-button.copied {
     background-color: var(--success);
     color: var(--jet);
 }
 
 /* Dropdown menu */
+/* Container for dropdown menus */
 .dropdown {
     position: relative;
     display: inline-block;
     font-family: var(--sans-serif);
 }
 
+/* Styles for the dropdown menu itself */
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -282,8 +306,11 @@ ul li:not(#menubar>ul>li):not(div>ul>div>li):not(.dropdown) {
     margin-top: 0.25rem;
     z-index: 50;
     padding: 0.5rem 0;
+    text-decoration: none;
+    display: flex;
 }
 
+/* Pseudo-element to create a visual arrow above the dropdown */
 .dropdown-menu::before {
     content: '';
     position: absolute;
@@ -293,20 +320,24 @@ ul li:not(#menubar>ul>li):not(div>ul>div>li):not(.dropdown) {
     height: 10px;
 }
 
+/* Styles for links within the dropdown menu */
 .dropdown-menu a {
     color: var(--jet-500);
     padding: 0.5rem;
     text-decoration: none;
     display: block;
     transition: all 0.2s ease;
+    display: flex;
 }
 
+/* Hover effect for items in the dropdown menu */
 .dropdown-menu a:hover {
     background-color: var(--success-600);
     color: var(--jet-200);
     border-radius: 4px;
 }
 
+/* Show the dropdown menu when hovering over the parent or the menu itself */
 .dropdown:hover .dropdown-menu,
 .dropdown-menu:hover {
     display: block;
