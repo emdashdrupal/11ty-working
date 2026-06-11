@@ -386,8 +386,8 @@ article img:hover {
     vertical-align: text-top;
 }
 
-/* Base Navbar Styling */
-.navbar {
+/* Base Navbar Styling - Background only on menu bar */
+#menubar {
   background-color: #333;
 }
 .nav-list {
@@ -400,7 +400,8 @@ article img:hover {
   position: relative;
 }
 .nav-item a, .dropdown-toggle {
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 15px 20px;
   color: white;
   text-decoration: none;
@@ -408,6 +409,15 @@ article img:hover {
   border: none;
   font: inherit;
   cursor: pointer;
+  height: 48px;
+  line-height: 1.5rem;
+}
+
+/* Arrow on same line as link text */
+.nav-item .arrow {
+  display: inline-block;
+  margin-left: 0.25rem;
+  font-size: 0.75rem;
 }
 
 /* Dropdown Menu Mechanics */
@@ -425,7 +435,10 @@ article img:hover {
   z-index: 10;
 }
 .dropdown-item a {
-  padding: 12px 20px;
+  display: block;
+  padding: 15px 20px;
+  height: 48px;
+  line-height: 1.5rem;
 }
 .dropdown-item a:hover {
   background-color: #555;
