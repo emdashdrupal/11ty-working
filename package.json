@@ -16,9 +16,10 @@
         "test:modular": "node test-modularization.js",
         "generate-sitemap": "node generate-sitemap.js",
         "minify": "npm run minify-css && npm run minify-js && npm run minify-html",
-        "minify-css": "postcss _includes/css/tw.css -o _site/assets/css/tw.css --use autoprefixer cssnano --env production",
+        "minify-css": "postcss _includes/css/tw.css _includes/css/base.css -o _site/assets/css/tw.css --use autoprefixer cssnano --env production",
         "minify-js": "terser _includes/js/*.js -o _site/assets/js/main.js --compress --mangle",
-        "minify-html": "html-minifier-terser --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true _site/**/*.html -o _site/**/*.html"
+        "minify-html": "html-minifier-terser --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true _site/**/*.html -o _site/**/*.html",
+        "preview": "npx @11ty/eleventy --serve"
     },
     "keywords": [],
     "author": "",
