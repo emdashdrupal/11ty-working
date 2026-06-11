@@ -8,19 +8,7 @@
         <i class="fa-solid fa-bars text-2xl"></i>
         <span class="sr-only">Toggle menu</span>
     </button>
-    <div id="menubar" class="hidden md:block col-span-4 md:col-span-8 mt-2 sm:float-right">
-        <ul class="gap-2 items-start md:items-center md:justify-end"
-            aria-label="Main navigation menu"
-            role="menubar">
-        <li class="hidden">{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}</li>
-         <li class="relative hover:jet-200">
-                <button id="searchToggle" class="inline-flex items-center" aria-expanded="false" aria-controls="search">
-                    <i class="fa-solid fa-search text-2xl"></i>
-                    <span class="sr-only">Toggle search</span>
-                </button>
-                <div id="search" class="hidden absolute right-0 top-full mt-2 w-64 rounded-sm shadow-lg"></div>
-            </li>
-    </div>
+    
     {% set navPages = collections.all | eleventyNavigation %}
 
 <nav class="navbar" aria-label="Main Navigation">
