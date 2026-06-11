@@ -4,15 +4,14 @@
             Successful technical content through community building
         </a>
     </div>
-    <button id="menuToggle" class="md:hidden col-span-1 justify-self-end" aria-expanded="false" aria-controls="menubar">
-        <i class="fa-solid fa-bars text-2xl"></i>
-        <span class="sr-only">Toggle menu</span>
-    </button>
-    
     {% set navPages = collections.all | eleventyNavigation %}
 
 <nav class="navbar" aria-label="Main Navigation">
   <ul class="nav-list">
+    <button id="menuToggle" class="md:hidden col-span-1 justify-self-end" aria-expanded="false" aria-controls="menubar">
+        <i class="fa-solid fa-bars text-2xl"></i>
+        <span class="sr-only">Toggle menu</span>
+    </button>
     {%- for entry in navPages %}
       {% set hasChildren = entry.children | length > 0 %}
       <li class="nav-item{% if hasChildren %} has-dropdown{% endif %}">
