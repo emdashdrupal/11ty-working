@@ -221,9 +221,6 @@ blockquote p {
    Base button styling with hover effects for interactive feedback.
    ========================================================================== */
 
-button {
-    box-shadow: 1.5px 1px 1.5px var(--jet-600);  /* Subtle depth/shadow */
-}
 
 /* --------------------------------------------------------------------------
    BUTTON HOVER - Active state feedback
@@ -232,10 +229,10 @@ button {
    and enhanced shadow to indicate interactivity.
    -------------------------------------------------------------------------- */
 button:hover {
-    background-color: var(--success-500);  /* Green tint on hover */
-    border-radius: 6px;                    /* Softer corners when active */
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);  /* Deeper shadow for lift effect */
-    color: var(--jet);                     /* Dark text maintains contrast */
+   /* background-color: var(--success-500);   Green tint on hover */
+   /* border-radius: 6px;                     Softer corners when active */
+   /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);   Deeper shadow for lift effect */
+    color: var(--success-100);                     /* Dark text maintains contrast */
 }
 
 /* ==========================================================================
@@ -736,12 +733,12 @@ article img:hover {
   padding: 15px 20px;                 /* Comfortable click target */
   color: white;                      /* Light text on dark bg */
   text-decoration: none;             /* No underline */
-  background-color: #333;            /* Match navbar background */
   border: none;                      /* Remove button border */
   font: inherit;                     /* Inherit navbar font settings */
   cursor: pointer;                   /* Hand cursor */
   height: 48px;                      /* Fixed nav bar height */
   line-height: 1.5rem;               /* Consistent line height */
+  text-align: left;
 }
 
 /* --------------------------------------------------------------------------
@@ -753,7 +750,7 @@ article img:hover {
 .nav-item .arrow {
   display: inline-block;              /* Sized element, inline flow */
   margin-left: 0.25rem;              /* Small gap from link text */
-  font-size: 0.75rem;                /* Smaller than nav text */
+  font-size: 0.5rem;                /* Smaller than nav text */
 }
 
 /* ==========================================================================
