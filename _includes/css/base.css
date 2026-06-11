@@ -169,10 +169,14 @@ a[id$="-menu"] {
    Hover effect provides visual feedback. Using success-800 (light green)
    creates a subtle highlight without overwhelming the content.
    -------------------------------------------------------------------------- */
-a:hover,
+a:hover, a:hover:not(.nav-item),
 footer>div>p>a:hover {
     background-color: var(--success-800);  /* Light green hover highlight */
     color: var(--jet-200);                 /* Dark text for contrast */
+}
+
+.nav-item > a:hover  {
+    background-color: white;
 }
 
 /* ==========================================================================
@@ -229,7 +233,7 @@ blockquote p {
    and enhanced shadow to indicate interactivity.
    -------------------------------------------------------------------------- */
 button:hover {
-   /* background-color: var(--success-500);   Green tint on hover */
+   background-color: var(--success-500);   /* Green tint on hover */
    /* border-radius: 6px;                     Softer corners when active */
    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);   Deeper shadow for lift effect */
     color: var(--success-100);                     /* Dark text maintains contrast */
@@ -701,7 +705,7 @@ article img:hover {
    MENUBAR CONTAINER - Dark background container
    ========================================================================== */
 #menubar {
-  background-color: #333;             /* Dark grey navbar background */
+  background-color: rgba(51, 51, 51, 0.32);  /* Dark grey navbar background with transparency */
 }
 
 /* --------------------------------------------------------------------------
@@ -714,6 +718,9 @@ article img:hover {
   padding: 0;                         /* Reset padding */
 }
 
+.nav-item a:hover, .nav-item .has-dropdown a:hover  {
+    background-color: var(--success-600);
+}
 /* --------------------------------------------------------------------------
    NAV ITEM - Individual menu item container
    ========================================================================== */
