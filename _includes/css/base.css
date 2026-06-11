@@ -539,15 +539,18 @@ ul li:not(#menubar>ul>li):not(#menubar>ul>li>ul>li):not(#menubar>ul>li>ul>li>ul>
    ICON STYLING - Decorative icons
    ========================================================================== */
 .icon {
-    color: var(--success-500);        /* Green tint for icons */
-    text-shadow: 1.25px 1px var(--jet-400);  /* Subtle shadow for depth */
+    color: var(--jet-500);        /* Green tint for icons */
 }
 
 /* --------------------------------------------------------------------------
    FOOTER STYLING - Page footer elements
    ========================================================================== */
+footer {
+    background-color: var(--jet-500);  /* Lighter mid-tone jet - more inviting than near-black */
+}
+
 footer>div>p {
-    color: var(--jet-200);            /* Dark text on light footer bg */
+    color: white;                     /* White text for contrast on lighter footer */
 }
 
 footer>div>p>a {
@@ -704,9 +707,9 @@ article img:hover {
 /* --------------------------------------------------------------------------
    MENUBAR CONTAINER - Dark background container
    ========================================================================== */
-#menubar {
-  background-color: rgba(51, 51, 51, 0.32);  /* Dark grey navbar background with transparency */
-}
+   #menubar {
+     background-color: rgba(103, 139, 177, 0.95);  /* Lighter medium-blue navbar - more inviting */
+   }
 
 /* --------------------------------------------------------------------------
    NAV LIST - Flexbox horizontal layout
@@ -772,7 +775,7 @@ article img:hover {
   position: absolute;                 /* Position relative to .nav-item */
   top: 100%;                          /* Directly below parent */
   left: 0;                            /* Left-aligned with parent */
-  background-color: #444;             /* Slightly lighter than navbar */
+  background-color: #8fa3c0;          /* Lighter blue-grey dropdown - more inviting */
   min-width: 200px;                   /* Minimum width for content */
   list-style: none;                   /* No bullets */
   padding: 0;                         /* Reset padding */
@@ -795,7 +798,7 @@ article img:hover {
    DROPDOWN ITEM HOVER - Visual feedback
    ========================================================================== */
 .dropdown-item a:hover {
-  background-color: #555;             /* Lighter on hover */
+  background-color: #7a8fab;          /* Lighter blue-grey hover - more inviting */
 }
 
 /* ==========================================================================
