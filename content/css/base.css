@@ -1,0 +1,895 @@
+/* ==========================================================================
+   BASE.CSS - Core Stylesheet
+   ==========================================================================
+   This file contains:
+   1. CSS Custom Properties (Variables) - Colors, Fonts, Scales
+   2. Pagefind Search UI Overrides
+   3. Base Element Styles - Headings, Links, Lists, etc.
+   4. Component Styles - Cards, Code Blocks, Dropdowns
+   5. Utility Classes
+   6. Navigation Bar Styling
+
+   Note: Some variables reference external definitions (Tailwind or other stylesheets):
+   - --green-blue, --success, --bg-whitish defined elsewhere
+   ========================================================================== */
+
+/* ==========================================================================
+   CSS CUSTOM PROPERTIES (VARIABLES)
+   ==========================================================================
+   Centralized design tokens for consistent theming. Organized alphabetically
+   within categories for easy maintenance and lookup.
+   ========================================================================== */
+
+:root {
+    /* ----------------------------------------------------------------------
+       COLORS - Base Palette (Alphabetical)
+       ----------------------------------------------------------------------
+       OPTION B: Soft Modern Blue — Lighter, airier, more approachable.
+       High contrast for accessibility while maintaining a friendly feel.
+       ---------------------------------------------------------------------- */
+    --blue: #3B82F6;                 /* Primary - bright sky blue (main accent) */
+    --green-blue: #059669;           /* Success/emerald green for positive states */
+    --jet: #000000;                  /* Pure black - maximum contrast text */
+    --text: #000000;                 /* Alias for pure black text (WCAG AAA) */
+    --light-blue: #1D4ED8;           /* Secondary - deeper blue for hover/active */
+    --medium-blue: #EFF6FF;          /* Surface - light blue-tinted background (header/footer) */
+    --whitish: #FFFFFF;              /* Pure white main background */
+
+    /* Additional palette colors */
+    --accent-purple: #A855F7;        /* Purple accent for highlights/buttons */
+    --text-secondary: #374151;       /* Dark gray for secondary text */
+
+    /* ----------------------------------------------------------------------
+       PAGEFIND SEARCH UI VARIABLES
+       ----------------------------------------------------------------------
+       Pagefind is a static site search library. These variables customize its
+       appearance to match the site's design system.
+       Note: Some values reference external variables (defined in Tailwind).
+       ---------------------------------------------------------------------- */
+    --pagefind-ui-primary: #eeeeee;           /* Primary accent for search UI */
+    --pagefind-ui-text: var(--jet-500);       /* Main text color - from jet scale */
+    --pagefind-ui-text-hover: var(--jet-200); /* Hover state text - darker */
+    --pagefind-ui-background: var(--bg-whitish); /* Background (external var) */
+    --pagefind-ui-border: var(--jet-300);      /* Border color from jet scale */
+    --pagefind-ui-border-radius: 2px;          /* Slight rounded corners */
+    --pagefind-ui-tag: yellow;                 /* Tag/highlight background */
+    --pagefind-ui-border-width: 2px;           /* Thicker borders for visibility */
+    --pagefind-ui-shadow: 0;                   /* No shadow - flat design */
+
+    /* ----------------------------------------------------------------------
+       FONTS - Type Scale (Alphabetical)
+       ----------------------------------------------------------------------
+       Font families with fallback stacks. Google Fonts are loaded externally.
+       ---------------------------------------------------------------------- */
+    --monospace: "Reddit Mono", Consolas, Courier, monospace;  /* Code/terminal font */
+    --sans-serif: Barlow, Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; /* UI/body text */
+    --serif: "Besley", serif;                                    /* Article/prose content */
+
+    /* ----------------------------------------------------------------------
+       DYNAMIC COLOR CLASSES (Inline Styles)
+       ----------------------------------------------------------------------
+       These classes are defined inside :root to apply the same color to both
+       background and text variants. Useful for theme switching or dynamic
+       class application via JavaScript.
+       ---------------------------------------------------------------------- */
+    .bg-medium-blue,
+    .text-medium-blue {
+        background-color: var(--medium-blue); /* Applies medium blue as background */
+    }
+
+    /* ==========================================================================
+       COLOR SCALES - Graded Value Systems (Grouped)
+       ==========================================================================
+       Pre-defined color scales for consistent lightness/darkness progression.
+       Format: --{name}-{100-900} where 100 = darkest, 900 = lightest.
+
+       This system allows predictable hover states, disabled states, and
+       accessibility-compliant contrast ratios without manual color picking.
+       ========================================================================== */
+
+    /* ----------------------------------------------------------------------
+       JET SCALE - Dark Grey/Blue Scale (100=darkest to 900=lightest)
+       ----------------------------------------------------------------------
+       Primary neutral scale for text hierarchy, backgrounds, and borders.
+       Used extensively throughout the site for consistent tonal variation.
+       ---------------------------------------------------------------------- */
+    --jet-100: #0c0b0e;   /* Near black - deepest shadows/text on light bg */
+    --jet-200: #18161b;   /* Very dark - primary text, footer backgrounds */
+    --jet-300: #242129;   /* Dark - borders, secondary backgrounds */
+    --jet-400: #302b37;   /* Medium-dark - hover states, muted elements */
+    --jet-500: #3c3744;   /* Mid-tone - default text color */
+    --jet-600: #635c71;   /* Medium-light - disabled text, subtle borders */
+    --jet-700: #8a819d;   /* Light-medium - placeholder text */
+    --jet-800: #b2acc3;   /* Light - light UI elements */
+    --jet-900: #d9d6e1;   /* Very light - subtle highlights */
+
+    /* ----------------------------------------------------------------------
+       SUCCESS SCALE - Green Scale (100=darkest to 900=lightest)
+       ----------------------------------------------------------------------
+       Semantic green scale for success states, positive feedback, and
+       completion indicators. Higher values create pastel backgrounds.
+       ---------------------------------------------------------------------- */
+    --success-100: #26f03c;   /* Vibrant green - active success state */
+    --success-200: #4cf25d;   /* Bright green - hover states */
+    --success-300: #71f47e;   /* Medium green - icons, accents */
+    --success-400: #97f69f;   /* Soft green - subtle highlights */
+    --success-500: #bef9c6;   /* Pastel green - success backgrounds */
+    --success-600: #cdfad2;   /* Light pastel - hover backgrounds */
+    --success-700: #dcfbde;   /* Very light - disabled success */
+    --success-800: #ebfdeb;   /* Almost white - subtle overlays */
+    --success-900: #f5fef6;   /* Near white - minimal tint */
+}
+
+/* ==========================================================================
+   PAGEFIND SEARCH INPUT OVERRIDES
+   ==========================================================================
+   Direct styling of the Pagefind search input element to match site aesthetics.
+   These override Pagefind's default styles for a cleaner, integrated look.
+   ========================================================================== */
+
+.pagefind-ui__search-input {
+    background-color: var(--bg-whitish);  /* Off-white background (external var) */
+    border: 1px solid var(--jet-400);     /* Subtle dark border */
+    border-radius: 1px;                   /* Minimal rounding - sharp aesthetic */
+    font-size: 0.8rem;                    /* Compact size for search bar */
+}
+
+/* ==========================================================================
+   BASE ELEMENT STYLES (Alphabetical by Selector)
+   ==========================================================================
+   Fundamental HTML element styling. These provide the baseline appearance
+   before component-specific styles are applied.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   LINKS - Underline links within inline text contexts
+   --------------------------------------------------------------------------
+   Links inside paragraphs, spans, and list items get underlines to clearly
+   indicate they're clickable. This follows readability best practices for
+   inline content where link appearance isn't button-like.
+   -------------------------------------------------------------------------- */
+p>a,
+span>a,
+li>a {
+    text-decoration: underline;  /* Visual indicator of clickability */
+    list-style-type: none;       /* Remove bullets when links are in lists */
+}
+
+/* --------------------------------------------------------------------------
+   BUTTON-LIKE LINKS - No underline for navigation/action links
+   --------------------------------------------------------------------------
+   Links with IDs ending in "-button", "-item", or "-menu" are styled as
+   buttons or nav items, so they don't need underlines. The ID pattern
+   matching ($=) provides a programmatic way to target these elements.
+   -------------------------------------------------------------------------- */
+a[id$="-button"],
+a[id$="-item"],
+a[id$="-menu"] {
+    text-decoration: none;  /* Clean appearance for button-like links */
+}
+
+/* --------------------------------------------------------------------------
+   LINK HOVER STATES - Interactive feedback
+   --------------------------------------------------------------------------
+   Hover effect provides visual feedback. Using success-800 (light green)
+   creates a subtle highlight without overwhelming the content.
+   -------------------------------------------------------------------------- */
+a:hover, a:hover:not(.nav-item),
+footer>div>p>a:hover {
+    background-color: var(--success-800);  /* Light green hover highlight */
+    color: var(--jet-200);                 /* Dark text for contrast */
+}
+
+.nav-item > a:hover  {
+    background-color: white;
+}
+
+/* ==========================================================================
+   BLOCKQUOTES - Note/Callout Boxes
+   ==========================================================================
+   Styled as informational callouts with a left border and decorative prefix.
+   Commonly used for tips, warnings, or highlighted information.
+   ========================================================================== */
+
+blockquote {
+    /* Note: --green-blue is defined externally (likely Tailwind) */
+    border-left: 3px solid var(--green-blue);  /* Accent border on left */
+    margin: 1rem 0;                            /* Vertical spacing */
+    padding-left: 1rem;                        /* Space between border and content */
+}
+
+/* --------------------------------------------------------------------------
+   BLOCKQUOTE PREFIX - Decorative "> Note" label
+   --------------------------------------------------------------------------
+   Uses ::before pseudo-element to inject content without HTML markup.
+   Creates a visual "note box" appearance.
+   -------------------------------------------------------------------------- */
+blockquote::before {
+    color: var(--medium-blue);     /* Subtle blue for the prefix */
+    content: "> Note";             /* Injected text content */
+    font-size: 1.2rem;             /* Slightly larger than body text */
+    font-style: normal;            /* Override any italic inheritance */
+}
+
+/* --------------------------------------------------------------------------
+   BLOCKQUOTE CONTENT - Inner paragraph styling
+   --------------------------------------------------------------------------
+   Ensures blockquote paragraphs have consistent, readable appearance.
+   -------------------------------------------------------------------------- */
+blockquote p {
+    color: var(--jet-200);        /* Dark text for readability */
+    font-family: var(--sans-serif); /* Sans-serif for UI-like appearance */
+    font-size: 1.0rem;            /* Standard reading size */
+    font-style: normal;           /* Upright text */
+    line-height: 1.4rem;          /* Comfortable reading rhythm */
+}
+
+/* ==========================================================================
+   BUTTONS - Interactive Elements
+   ==========================================================================
+   Base button styling with hover effects for interactive feedback.
+   ========================================================================== */
+
+
+/* --------------------------------------------------------------------------
+   BUTTON HOVER - Active state feedback
+   --------------------------------------------------------------------------
+   Hover state provides multiple visual cues: color change, rounded corners,
+   and enhanced shadow to indicate interactivity.
+   -------------------------------------------------------------------------- */
+button:hover {
+   background-color: var(--success-500);   /* Green tint on hover */
+   /* border-radius: 6px;                     Softer corners when active */
+   /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);   Deeper shadow for lift effect */
+}
+
+/* ==========================================================================
+   CODE HIGHLIGHTING (Prism.js / Highlight.js)
+   ==========================================================================
+   Styles for syntax-highlighted code blocks and inline code. Compatible with
+   popular JavaScript highlighting libraries that use class patterns like
+   "language-javascript" or "language-python".
+   ========================================================================== */
+
+code[class*="language-"],
+pre[class*="language-"] {
+    font-family: var(--monospace);  /* Monospace for code readability */
+    white-space: pre;               /* Preserve whitespace and line breaks */
+    text-wrap: wrap;                /* Allow long lines to wrap (modern CSS) */
+}
+
+/* --------------------------------------------------------------------------
+   INLINE CODE - Code within flowing text
+   --------------------------------------------------------------------------
+   The :not(pre)> selector targets code elements that are NOT inside <pre> tags,
+   i.e., inline code snippets embedded in paragraphs.
+   -------------------------------------------------------------------------- */
+:not(pre)>code[class*="language-"] {
+    padding: .1em;                  /* Minimal breathing room */
+    border-radius: .3em;            /* Slight rounding for visual softness */
+    white-space: pre;               /* Preserve formatting */
+    text-wrap: wrap;                /* Prevent horizontal scroll on long code */
+}
+
+/* ==========================================================================
+   HEADINGS - Hierarchical Text Structure (h1-h4)
+   ==========================================================================
+   Progressive sizing and spacing to establish visual hierarchy. All headings
+   use sans-serif for distinction from body prose (serif).
+   ========================================================================== */
+
+h1 {
+    font-family: var(--sans-serif);  /* Distinct from body text */
+    font-weight: 700;                /* Bold - strongest emphasis */
+    font-size: 1.75rem;              /* Largest heading size */
+    line-height: 1.95rem;            /* Tight line height for compact appearance */
+    margin: 0;                       /* Reset default browser margins */
+    padding: 0;                      /* Reset default padding */
+}
+
+h2 {
+    font-family: var(--sans-serif);
+    font-size: 1.5rem;               /* Progressively smaller than h1 */
+    font-weight: 700;                /* Same weight as h1 for consistency */
+    margin-top: 1rem;                /* Space before heading */
+    margin-bottom: 0.5rem;           /* Less space after - content follows closely */
+    padding: 0;
+    color: var(--text-secondary);
+}
+
+/* --------------------------------------------------------------------------
+   H2 LINKS - Clickable section headers
+   --------------------------------------------------------------------------
+   When h2 contains a link (e.g., anchor links, navigation), maintain heading
+   appearance while adding color to indicate clickability.
+   -------------------------------------------------------------------------- */
+h2>a {
+    font-family: var(--sans-serif);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-secondary)        /* Blue indicates interactivity */
+}
+
+h3 {
+    font-family: var(--sans-serif);
+    font-size: 1.2rem;               /* Medium heading size */
+    font-weight: 700;
+    margin-top: 0.75rem;             /* Moderate spacing */
+}
+
+h4 {
+    font-family: var(--sans-serif);
+    font-size: 1rem;                 /* Smallest standard heading */
+    font-weight: 600;                /* Slightly lighter weight */
+}
+
+/* ==========================================================================
+   LISTS - Ordered and Unordered
+   ==========================================================================
+   List styling for content organization. Different styles for navigation vs.
+   content lists to distinguish purpose visually.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   ORDERED LISTS - Numbered sequences
+   --------------------------------------------------------------------------
+   Uses serif font to match prose content. Optical sizing improves readability
+   at various sizes (font-feature-settings alternative).
+   -------------------------------------------------------------------------- */
+ol li {
+    font-family: var(--serif);       /* Match body text style */
+    font-optical-sizing: auto;       /* Browser-optimized glyph selection */
+    list-style-type: decimal;        /* Standard 1, 2, 3 numbering */
+    margin-bottom: 0.6rem;           /* Space between items */
+    margin-left: 1%;                 /* Slight indentation from edge */
+}
+
+/* --------------------------------------------------------------------------
+   PARAGRAPHS - Body text blocks
+   --------------------------------------------------------------------------
+   Primary prose styling using serif font for readability in long-form content.
+   -------------------------------------------------------------------------- */
+p {
+    color: #000;                     /* Black text for maximum contrast */
+    font-family: var(--serif);       /* Serif for reading comfort */
+    font-size: 0.9rem;               /* Slightly smaller than base - readable */
+    line-height: 1.4rem;             /* Generous leading for readability */
+    margin: 0.75rem 0                /* Vertical rhythm spacing */
+}
+
+/* --------------------------------------------------------------------------
+   PRE/CODE/FONT-MONO - Monospace text containers
+   --------------------------------------------------------------------------
+   Consistent monospace styling with tab-size set to 2 spaces (common in code).
+   Note: font-mono is a HTML element, not standard - may be custom.
+   -------------------------------------------------------------------------- */
+pre,
+code,
+font-mono {
+    font-family: var(--monospace);   /* Monospace for alignment/readability */
+    margin: 0;                       /* Reset margins */
+    padding: 0;                      /* Reset padding */
+    tab-size: 2;                     /* Tabs render as 2 spaces */
+}
+
+/* --------------------------------------------------------------------------
+   TABLES - Data presentation
+   ========================================================================== */
+table {
+    margin-top: 2%;                  /* Space above table from content */
+}
+
+th {
+    font-family: var(--sans-serif);  /* Sans-serif for header distinction */
+    font-weight: 600;                /* Semi-bold for emphasis */
+    text-align: left;                /* Left-aligned (modern, readable) */
+}
+
+/* --------------------------------------------------------------------------
+   UNORDERED LISTS - Bulleted content
+   ========================================================================== */
+ul {
+    margin: 0;                       /* Reset default margins */
+    list-style-position: unset;      /* Use browser default (outside) */
+}
+
+/* --------------------------------------------------------------------------
+   COMPLEX UL LI SELECTOR - Content list items (excluding navigation)
+   ==========================================================================
+   This highly specific selector targets regular content list items while
+   EXCLUDING:
+   - #menubar>ul>li (top-level nav)
+   - #menubar>ul>li>ul>li (dropdown items level 1)
+   - #menubar>ul>li>ul>li>ul>li (dropdown items level 2)
+   - div>ul>div>li (special container lists)
+   - .dropdown (dropdown menu items)
+
+   The :not() chaining ensures navigation and special UI lists don't inherit
+   content list styling.
+   ========================================================================== */
+ul li:not(#menubar>ul>li):not(#menubar>ul>li>ul>li):not(#menubar>ul>li>ul>li>ul>li):not(div>ul>div>li):not(.dropdown) {
+    font-family: var(--serif);       /* Match prose content */
+    font-optical-sizing: auto;       /* Optimized glyph rendering */
+    line-height: 1.5rem;             /* Comfortable reading height */
+    list-style-type: square;         /* Square bullets (distinct from ordered) */
+    color: black;                    /* High contrast text */
+}
+
+/* --------------------------------------------------------------------------
+   MENUBAR LISTS - Navigation styling override
+   ==========================================================================
+   Targets the main navigation bar and its nested dropdown levels. Uses
+   sans-serif for UI consistency, removes bullets, left-aligns text.
+   ========================================================================== */
+#menubar,
+#menubar>ul>li,
+#menubar>ul>li>ul>li {
+    font-family: var(--sans-serif);  /* UI-appropriate font */
+    font-size: 1rem;                 /* Standard nav size */
+    line-height: 1.2rem;             /* Compact for navigation bar */
+    list-style-type: none;           /* No bullets in navigation */
+    list-style-position: unset;      /* Default positioning */
+    text-align: left;                /* Left-aligned menu items */
+}
+
+/* ==========================================================================
+   COMPONENT STYLES - Grouped by Component
+   ==========================================================================
+   Reusable UI components with their own styling concerns.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   CARDS - Content containers
+   ========================================================================== */
+.card-description {
+    font-family: var(--serif);       /* Serif for readable descriptions */
+}
+
+.card-description a {
+    color: var(--medium-blue);       /* Blue links within card descriptions */
+}
+
+/* ==========================================================================
+   CODE BLOCK COPY BUTTON - Interactive feature
+   ==========================================================================
+   Adds a copy-to-clipboard button that appears on hover over code blocks.
+   Works with JavaScript (copyCode.js) for functionality.
+   ========================================================================== */
+
+.code-wrapper {
+    position: relative;              /* Establish positioning context for absolute child */
+}
+
+.copy-button {
+    background-color: var(--medium-blue);  /* Blue button background */
+    border-radius: 0.25rem;            /* Slightly rounded corners */
+    color: var(--whitish);             /* Light text on dark bg */
+    cursor: pointer;                   /* Hand cursor indicates clickability */
+    opacity: 0;                        /* Hidden by default */
+    padding: 0.25rem 0.5rem;           /* Compact button size */
+    position: absolute;                /* Position within .code-wrapper */
+    right: 0.5rem;                     /* Align to right edge */
+    top: 0.5rem;                       /* Align to top edge */
+    transition: opacity 0.2s ease-in-out;  /* Smooth fade in/out */
+}
+
+/* --------------------------------------------------------------------------
+   COPY BUTTON HOVER - Reveal on code block hover
+   ========================================================================== */
+.code-wrapper:hover .copy-button {
+    opacity: 1;                       /* Fade in when hovering code block */
+}
+
+.copy-button:hover {
+    background-color: var(--green-blue);  /* Color change (external var) */
+}
+
+/* --------------------------------------------------------------------------
+   COPY BUTTON - Copied State
+   ==========================================================================
+   Applied via JavaScript after successful copy operation. Provides visual
+   feedback that content was copied to clipboard.
+   ========================================================================== */
+.copy-button.copied {
+    background-color: var(--success);  /* Green success state (external var) */
+    color: var(--jet);                 /* Dark text for contrast */
+}
+
+/* ==========================================================================
+   DROPDOWN MENU - Navigation component
+   ==========================================================================
+   Base dropdown container styling. Used in navigation for multi-level menus.
+   ========================================================================== */
+.dropdown {
+    position: relative;               /* Context for absolute positioned menu */
+    display: inline-block;            /* Fits content, sits inline with text */
+    font-family: var(--sans-serif);   /* UI-appropriate font */
+}
+
+/* ==========================================================================
+   UTILITY CLASSES - Reusable helpers
+   ==========================================================================
+   Small, single-purpose classes for common styling needs. Following utility-
+   first principles where appropriate without full Tailwind adoption.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   SCREEN READER ONLY - Accessibility helper
+   ==========================================================================
+   Hides content visually while keeping it accessible to screen readers.
+   Essential for aria-labels, skip links, and other accessibility features.
+   Uses the "clip" technique which is performant and widely supported.
+   -------------------------------------------------------------------------- */
+.sr-only {
+    border: 0;                        /* Remove borders */
+    clip: rect(0, 0, 0, 0);           /* Clip to invisible rectangle (legacy) */
+    height: 1px;                      /* Minimal height */
+    margin: -1px;                     /* Negative margin pulls element out of flow */
+    overflow: hidden;                 /* Hide overflow content */
+    padding: 0;                       /* No padding */
+    position: absolute;               /* Remove from visual flow */
+    white-space: nowrap;              /* Prevent wrapping */
+    width: 1px;                       /* Minimal width */
+}
+
+/* --------------------------------------------------------------------------
+   FONT UTILITY - Force sans-serif on any element
+   ========================================================================== */
+.font-sans,
+.dropdown-toggle {
+    font-family: var(--sans-serif);   /* Override inherited font */
+}
+
+/* --------------------------------------------------------------------------
+   ICON STYLING - Decorative icons
+   ========================================================================== */
+.icon {
+    color: var(--blue);        /* Green tint for icons */
+}
+
+/* --------------------------------------------------------------------------
+   FOOTER STYLING - Light background matching header
+   ========================================================================== */
+footer {
+    background-color: var(--medium-blue);  /* Same light surface as header (#EFF6FF) */
+}
+
+footer>div>p {
+    color: var(--text-secondary);          /* Dark gray text on light bg */
+}
+
+footer>div>p>a {
+    color: var(--jet-900);            /* Lighter links in footer */
+}
+
+/* ==========================================================================
+   HEADER / NAVBAR OVERRIDES - Light theme adjustments for Tailwind classes
+   ========================================================================== */
+
+/* Override Tailwind bg-medium-blue on main-navbar div */
+#main-navbar {
+    background-color: var(--medium-blue) !important;  /* Light surface (#EFF6FF) */
+}
+
+/* Tagline link - dark text instead of white */
+#tagline a {
+    color: var(--text) !important;                    /* Black text */
+}
+
+/* ==========================================================================
+   BREADCRUMB STYLING - Navigation trail
+   ========================================================================== */
+.breadcrumb-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.breadcrumb-list li {
+    font-size: 0.875rem;
+}
+
+.breadcrumb-list li:not(:last-child)::after {
+    content: "/";
+    margin-left: 0.5rem;
+    color: var(--text-secondary);
+}
+
+.breadcrumb-list a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.breadcrumb-list a:hover {
+    color: var(--blue);
+    text-decoration: underline;
+}
+
+/* --------------------------------------------------------------------------
+   DESCRIPTION TEXT - Product/feature descriptions
+   ========================================================================== */
+.description>p {
+    font-family: var(--sans-serif);   /* Sans for UI-like descriptions */
+    font-size: 1.1rem;                /* Slightly larger than body */
+    line-height: 1.55rem;             /* Generous leading */
+    margin: 1rem 0;                   /* Balanced spacing */
+}
+
+/* ==========================================================================
+   HEADER ANCHOR LINKS - "Edit this page" style links
+   ==========================================================================
+   Adds anchor symbols (#) next to headings that become clickable links.
+   On hover, transforms to an up-arrow (↑) indicating "scroll to top".
+   ========================================================================== */
+
+.header-anchor {
+    text-decoration: none;            /* No underline - subtle appearance */
+}
+
+/* --------------------------------------------------------------------------
+   ANCHOR SYMBOL - Default state shows "#"
+   ========================================================================== */
+.header-anchor::after {
+    content: " #";                    /* Hash symbol */
+    color: var(--jet-700);            /* Muted color - not distracting */
+    font-size: 0.8rem;                /* Smaller than heading */
+}
+
+/* --------------------------------------------------------------------------
+   ANCHOR HOVER - Transforms to up-arrow (Unicode U+2193 = ↓, but shown as ↑)
+   ========================================================================== */
+.header-anchor:hover:after {
+    text-decoration: none;            /* Ensure no underline */
+    content: " \002693";              /* Unicode hex for down arrow (↓) */
+}
+
+/* ==========================================================================
+   SEARCH STYLES - Toggle and animation
+   ==========================================================================
+   Styles for the search interface toggle and hidden/visible states. Uses CSS
+   transitions for smooth animations between states.
+   ========================================================================== */
+
+#search {
+    transition: opacity 0.2s ease-out, transform 0.2s ease-out;  /* Smooth transitions */
+}
+
+/* --------------------------------------------------------------------------
+   SEARCH HIDDEN STATE - Collapsed search interface
+   ========================================================================== */
+#search.hidden {
+    opacity: 0;                       /* Fully transparent */
+    transform: scale(0.95);           /* Slightly shrunk */
+    pointer-events: none;             /* Not interactive when hidden */
+}
+
+/* --------------------------------------------------------------------------
+   SEARCH VISIBLE STATE - Expanded search interface
+   ========================================================================== */
+#search:not(.hidden) {
+    opacity: 1;                       /* Fully opaque */
+    transform: scale(1);              /* Normal size */
+}
+
+/* --------------------------------------------------------------------------
+   SEARCH TOGGLE BUTTON - Color transition on interaction
+   ========================================================================== */
+#searchToggle {
+    transition: color 0.2s ease-out;  /* Smooth color changes */
+}
+
+/* --------------------------------------------------------------------------
+   PAGEFIND RESET - Override Pagefind's default background
+   ========================================================================== */
+.pagefind-ui--reset {
+    background-color: white;          /* Clean white background */
+}
+
+/* ==========================================================================
+   DIALOG STYLES - Image lightbox/modal
+   ==========================================================================
+   Styles for the HTML <dialog> element used as an image viewer/lightbox.
+   Works with imageExpand.js for functionality.
+   ========================================================================== */
+
+dialog.image-dialog {
+    padding: 0;                       /* No internal padding */
+    background: transparent;           /* Transparent - only image visible */
+    border: none;                     /* Remove default dialog border */
+    max-width: 90vw;                  /* Max 90% viewport width */
+    max-height: 90vh;                 /* Max 90% viewport height */
+}
+
+/* --------------------------------------------------------------------------
+   DIALOG BACKDROP - Dark overlay behind modal
+   ========================================================================== */
+dialog.image-dialog::backdrop {
+    background: rgba(0, 0, 0, 0.8);   /* Semi-transparent black overlay */
+}
+
+/* --------------------------------------------------------------------------
+   DIALOG IMAGE - Full-size image display
+   ========================================================================== */
+dialog.image-dialog img {
+    max-width: 90vw;                  /* Fit within viewport */
+    max-height: 90vh;                 /* Fit within viewport */
+    object-fit: contain;              /* Maintain aspect ratio */
+}
+
+/* ==========================================================================
+   ARTICLE IMAGE HOVER - Subtle zoom effect
+   ==========================================================================
+   Adds interactive feedback to images within article content. The transform
+   creates a subtle "lift" effect on hover.
+   ========================================================================== */
+
+article img {
+    transition: transform 0.2s ease;  /* Smooth transform animation */
+}
+
+article img:hover {
+    transform: scale(1.02);           /* 2% enlargement - subtle zoom */
+}
+
+/* ==========================================================================
+   NEXT/PREVIOUS NAVIGATION - Pagination controls
+   ==========================================================================
+   Resets margins and padding on navigation container divs for tight layout.
+   vertical-align ensures proper alignment with inline content.
+   ========================================================================== */
+
+#next-previous>div {
+    margin: 0;                        /* No outer spacing */
+    padding: 0;                       /* No inner spacing */
+    vertical-align: text-top;         /* Align to top of text line */
+}
+
+/* ==========================================================================
+   NAVBAR STYLING - Main navigation bar
+   ==========================================================================
+   Navigation bar with dropdown support. Background only on menu bar area,
+   not full-width page background. Includes hover-based dropdown activation
+   for desktop and class-based toggle for mobile (via JavaScript).
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   MENUBAR CONTAINER - Light background (no more dark oppressive header!)
+   ========================================================================== */
+   #menubar {
+     background-color: var(--medium-blue);  /* Light blue-tinted surface (#EFF6FF) */
+   }
+
+/* --------------------------------------------------------------------------
+   NAV LIST - Flexbox horizontal layout
+   ========================================================================== */
+.nav-list {
+  display: flex;                      /* Horizontal flex layout */
+  list-style: none;                   /* Remove bullets */
+  margin: 0;                          /* Reset margins */
+  padding: 0;                         /* Reset padding */
+}
+
+.nav-item a:hover, .nav-item .has-dropdown a:hover  {
+    background-color: var(--success-600);
+}
+/* --------------------------------------------------------------------------
+   NAV ITEM - Individual menu item container
+   ========================================================================== */
+.nav-item {
+  position: relative;                 /* Context for dropdown positioning */
+}
+
+/* --------------------------------------------------------------------------
+   NAV LINKS & DROPDOWN TOGGLES - Styled as buttons
+   ==========================================================================
+   Nav links and dropdown toggles share styling to appear uniform. Uses
+   flexbox for vertical centering of text/icons within the nav bar height.
+   ========================================================================== */
+.nav-item a, .dropdown-toggle {
+  display: flex;                      /* Flex for alignment */
+
+  padding: 15px 20px;                 /* Comfortable click target */
+  color: var(--text-secondary);      /* Dark gray text on light bg */
+  text-decoration: none;             /* No underline */
+  border: none;                      /* Remove button border */
+  font: inherit;                     /* Inherit navbar font settings */
+  cursor: pointer;                   /* Hand cursor */
+  /*height: 48px;                       Fixed nav bar height */
+  line-height: 1.5rem;               /* Consistent line height */
+  text-align: left;
+}
+
+/* --------------------------------------------------------------------------
+   NAV ARROW - Dropdown indicator arrow
+   ==========================================================================
+   Small arrow icon placed inline with link text to indicate dropdown menu.
+   Uses inline-block for proper sizing and margin-left for spacing from text.
+   ========================================================================== */
+.nav-item .arrow {
+  display: inline-block;              /* Sized element, inline flow */
+  margin-left: 0.25rem;              /* Small gap from link text */
+  font-size: 0.5rem;                /* Smaller than nav text */
+}
+
+/* ==========================================================================
+   DROPDOWN MENU MECHANICS - Hidden menu that appears on interaction
+   ==========================================================================
+   The dropdown-menu is absolutely positioned relative to its .nav-item parent.
+   Hidden by default (display: none), shown via hover or JavaScript class.
+   ========================================================================== */
+
+.dropdown-menu {
+  display: none;                      /* Hidden by default */
+  position: absolute;                 /* Position relative to .nav-item */
+  top: 100%;                          /* Directly below parent */
+  left: 0;                            /* Left-aligned with parent */
+  background-color: var(--whitish);   /* White dropdown background */
+  min-width: 200px;                   /* Minimum width for content */
+  list-style: none;                   /* No bullets */
+  padding: 0;                         /* Reset padding */
+  margin: 0;                          /* Reset margins */
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);  /* Softer drop shadow for depth */
+  border: 1px solid #DBEAFE;          /* Subtle blue-tinted border */
+  z-index: 10;                        /* Above other content */
+  border-radius: 8px;                 /* Rounded corners for modern feel */
+}
+
+/* --------------------------------------------------------------------------
+   DROPDOWN ITEMS - Individual menu entries
+   ========================================================================== */
+.dropdown-item a {
+  display: block;                     /* Full-width clickable area */
+
+  height: 48px;                       /* Consistent height */
+  line-height: 1.5rem;                /* Consistent line height */
+  color: var(--text-secondary);       /* Dark gray text on white bg */
+  padding: 0 20px;                    /* Horizontal padding for click area */
+}
+
+/* --------------------------------------------------------------------------
+   DROPDOWN ITEM HOVER - Visual feedback with primary blue
+   ========================================================================== */
+.dropdown-item a:hover {
+  background-color: var(--blue);      /* Primary blue hover (#3B82F6) */
+  color: white;                       /* White text on blue bg */
+}
+
+/* ==========================================================================
+   DROPDOWN ACTIVATION - Two methods for showing menus
+   ==========================================================================
+   Method 1: Hover (Desktop) - CSS-only, no JavaScript required
+   Method 2: Class Toggle (Mobile/JS) - JavaScript adds .is-open class
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   HOVER ACTIVATION - Desktop dropdown behavior
+   ========================================================================== */
+.has-dropdown:hover .dropdown-menu {
+  display: block;                     /* Show menu on hover */
+}
+
+/* --------------------------------------------------------------------------
+   SUBMENU STYLING - Nested dropdowns (multi-level)
+   ==========================================================================
+   Submenus appear to the right of their parent menu (left: 100%) rather than
+   below (top: 100%). This creates a cascading horizontal effect for deep menus.
+   ========================================================================== */
+.dropdown-menu .has-submenu > .dropdown-menu {
+    left: 100%;                       /* Position to the right of parent */
+    top: 0;                           /* Align tops */
+}
+
+/* --------------------------------------------------------------------------
+   CLASS-BASED ACTIVATION - JavaScript toggle (mobile/accessibility)
+   ==========================================================================
+   When JavaScript adds .is-open class (e.g., on mobile tap or keyboard nav),
+   the dropdown menu displays. This provides programmatic control beyond hover.
+   ========================================================================== */
+.has-dropdown.is-open .dropdown-menu {
+  display: block;                     /* Show when class is present */
+}
