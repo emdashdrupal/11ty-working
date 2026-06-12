@@ -544,7 +544,7 @@ ul li:not(#menubar>ul>li):not(#menubar>ul>li>ul>li):not(#menubar>ul>li>ul>li>ul>
    ICON STYLING - Decorative icons
    ========================================================================== */
 .icon {
-    color: var(--jet-500);        /* Green tint for icons */
+    color: var(--blue);        /* Green tint for icons */
 }
 
 /* --------------------------------------------------------------------------
@@ -574,6 +574,40 @@ footer>div>p>a {
 /* Tagline link - dark text instead of white */
 #tagline a {
     color: var(--text) !important;                    /* Black text */
+}
+
+/* ==========================================================================
+   BREADCRUMB STYLING - Navigation trail
+   ========================================================================== */
+.breadcrumb-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.breadcrumb-list li {
+    font-size: 0.875rem;
+}
+
+.breadcrumb-list li:not(:last-child)::after {
+    content: "/";
+    margin-left: 0.5rem;
+    color: var(--text-secondary);
+}
+
+.breadcrumb-list a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.breadcrumb-list a:hover {
+    color: var(--blue);
+    text-decoration: underline;
 }
 
 /* --------------------------------------------------------------------------
