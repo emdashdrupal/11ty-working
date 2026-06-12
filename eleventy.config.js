@@ -199,7 +199,10 @@ eleventyConfig.addFilter("shouldShowDate", function(page) {
   });
 
   // ===== CSS PROCESSING WITH POSTCSS =====
-  // Transform CSS files through autoprefixer + cssnano only (skip tailwindcss since our CSS doesn't use @tailwind directives)
+  // Transform CSS files through purgecss + autoprefixer + cssnano
+  // PurgeCSS removes unused Tailwind classes (can reduce tw.css by 80-90%)
+  const purgecss = require('@fullhuman/postcss-purgecss');
+  
   eleventyConfig.addTransform("postcss-css", async function(content, outputPath) {
     // Only process .css files in output
     if (!outputPath || !outputPath.endsWith('.css')) {
@@ -212,10 +215,35 @@ eleventyConfig.addFilter("shouldShowDate", function(page) {
     }
 
     try {
-      const result = await postcss([
+      const plugins = [
         require('autoprefixer'), 
         require('cssnano')({ preset: 'default' })
-      ]).process(content, { 
+      ];
+      
+      // Add PurgeCSS only for tw.css (the Tailwind file)
+      if (outputPath.includes('tw.css')) {
+        plugins.unshift(
+          purgecss({
+            content: [
+              '_site/**/*.html',
+              'content/**/*.md',
+              'content/**/*.njk'
+            ],
+            defaultExtractor: (content) => {
+              // Extract class names from HTML, markdown, and Nunjucks templates
+              return content.match(/[^\s"'<>]+/g) || [];
+            },
+            safelist: [
+              // Safelist common patterns that might be dynamically added
+              /pagefind-/,  // Pagefind search UI classes
+              /^pf-/,       // Pagefind prefix
+              /\/\/.*$/,    // Comments
+            ]
+          })
+        );
+      }
+      
+      const result = await postcss(plugins).process(content, { 
         from: undefined,
         to: outputPath,
         map: false

@@ -1,16 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "content/**/*.{njk,md,html}",
-    "./src/**/*.svg",
-    "_includes/**/*.{njk,md,html}",
+    './content/**/*.md',
+    './content/**/*.njk',
+    './_includes/**/*.njk',
+    './_includes/**/*.html'
   ],
   theme: {
     extend: {},
   },
-  plugins: [
-    require("@tailwindcss/typography"),
-    // ...
-  ],
-
-};
+  plugins: [],
+  corePlugins: {
+    preflight: false, // Disable Tailwind's reset since we have base.css
+  }
+}
