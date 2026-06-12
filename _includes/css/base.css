@@ -398,16 +398,13 @@ ul {
    ==========================================================================
    This highly specific selector targets regular content list items while
    EXCLUDING:
-   - #menubar>ul>li (top-level nav)
-   - #menubar>ul>li>ul>li (dropdown items level 1)
-   - #menubar>ul>li>ul>li>ul>li (dropdown items level 2)
+   - #menubar>ul>li (nav items)
    - div>ul>div>li (special container lists)
-   - .dropdown (dropdown menu items)
 
    The :not() chaining ensures navigation and special UI lists don't inherit
    content list styling.
    ========================================================================== */
-ul li:not(#menubar>ul>li):not(#menubar>ul>li>ul>li):not(#menubar>ul>li>ul>li>ul>li):not(div>ul>div>li):not(.dropdown) {
+ul li:not(#menubar>ul>li):not(div>ul>div>li) {
     font-family: var(--serif);       /* Match prose content */
     font-optical-sizing: auto;       /* Optimized glyph rendering */
     line-height: 1.5rem;             /* Comfortable reading height */
@@ -418,12 +415,11 @@ ul li:not(#menubar>ul>li):not(#menubar>ul>li>ul>li):not(#menubar>ul>li>ul>li>ul>
 /* --------------------------------------------------------------------------
    MENUBAR LISTS - Navigation styling override
    ==========================================================================
-   Targets the main navigation bar and its nested dropdown levels. Uses
-   sans-serif for UI consistency, removes bullets, left-aligns text.
+   Targets the main navigation bar. Uses sans-serif for UI consistency,
+   removes bullets, left-aligns text.
    ========================================================================== */
 #menubar,
-#menubar>ul>li,
-#menubar>ul>li>ul>li {
+#menubar>ul>li {
     font-family: var(--sans-serif);  /* UI-appropriate font */
     font-size: 1rem;                 /* Standard nav size */
     line-height: 1.2rem;             /* Compact for navigation bar */
@@ -496,17 +492,6 @@ ul li:not(#menubar>ul>li):not(#menubar>ul>li>ul>li):not(#menubar>ul>li>ul>li>ul>
 }
 
 /* ==========================================================================
-   DROPDOWN MENU - Navigation component
-   ==========================================================================
-   Base dropdown container styling. Used in navigation for multi-level menus.
-   ========================================================================== */
-.dropdown {
-    position: relative;               /* Context for absolute positioned menu */
-    display: inline-block;            /* Fits content, sits inline with text */
-    font-family: var(--sans-serif);   /* UI-appropriate font */
-}
-
-/* ==========================================================================
    UTILITY CLASSES - Reusable helpers
    ==========================================================================
    Small, single-purpose classes for common styling needs. Following utility-
@@ -535,8 +520,7 @@ ul li:not(#menubar>ul>li):not(#menubar>ul>li>ul>li):not(#menubar>ul>li>ul>li>ul>
 /* --------------------------------------------------------------------------
    FONT UTILITY - Force sans-serif on any element
    ========================================================================== */
-.font-sans,
-.dropdown-toggle {
+.font-sans {
     font-family: var(--sans-serif);   /* Override inherited font */
 }
 
@@ -752,17 +736,16 @@ article img:hover {
 /* ==========================================================================
    NAVBAR STYLING - Main navigation bar
    ==========================================================================
-   Navigation bar with dropdown support. Background only on menu bar area,
-   not full-width page background. Includes hover-based dropdown activation
-   for desktop and class-based toggle for mobile (via JavaScript).
+   Simple horizontal navigation bar without dropdowns. Background only on menu
+   bar area, not full-width page background.
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
-   MENUBAR CONTAINER - Light background (no more dark oppressive header!)
+   MENUBAR CONTAINER - Light background
    ========================================================================== */
-   #menubar {
-     background-color: var(--medium-blue);  /* Light blue-tinted surface (#EFF6FF) */
-   }
+#menubar {
+  background-color: var(--medium-blue);  /* Light blue-tinted surface (#EFF6FF) */
+}
 
 /* --------------------------------------------------------------------------
    NAV LIST - Flexbox horizontal layout
@@ -774,23 +757,20 @@ article img:hover {
   padding: 0;                         /* Reset padding */
 }
 
-.nav-item a:hover, .nav-item .has-dropdown a:hover  {
-    background-color: var(--success-600);
-}
 /* --------------------------------------------------------------------------
    NAV ITEM - Individual menu item container
    ========================================================================== */
 .nav-item {
-  position: relative;                 /* Context for dropdown positioning */
+  position: relative;                 /* Context for positioning */
 }
 
 /* --------------------------------------------------------------------------
-   NAV LINKS & DROPDOWN TOGGLES - Styled as buttons
+   NAV LINKS - Styled as buttons
    ==========================================================================
-   Nav links and dropdown toggles share styling to appear uniform. Uses
-   flexbox for vertical centering of text/icons within the nav bar height.
+   Nav links styled uniformly with flexbox for vertical centering of text
+   within the nav bar height.
    ========================================================================== */
-.nav-item a, .dropdown-toggle {
+.nav-item a {
   display: flex;                      /* Flex for alignment */
 
   padding: 15px 20px;                 /* Comfortable click target */
@@ -799,97 +779,13 @@ article img:hover {
   border: none;                      /* Remove button border */
   font: inherit;                     /* Inherit navbar font settings */
   cursor: pointer;                   /* Hand cursor */
-  /*height: 48px;                       Fixed nav bar height */
   line-height: 1.5rem;               /* Consistent line height */
   text-align: left;
 }
 
 /* --------------------------------------------------------------------------
-   NAV ARROW - Dropdown indicator arrow
-   ==========================================================================
-   Small arrow icon placed inline with link text to indicate dropdown menu.
-   Uses inline-block for proper sizing and margin-left for spacing from text.
+   NAV LINK HOVER - Visual feedback
    ========================================================================== */
-.nav-item .arrow {
-  display: inline-block;              /* Sized element, inline flow */
-  margin-left: 0.25rem;              /* Small gap from link text */
-  font-size: 0.5rem;                /* Smaller than nav text */
-}
-
-/* ==========================================================================
-   DROPDOWN MENU MECHANICS - Hidden menu that appears on interaction
-   ==========================================================================
-   The dropdown-menu is absolutely positioned relative to its .nav-item parent.
-   Hidden by default (display: none), shown via hover or JavaScript class.
-   ========================================================================== */
-
-.dropdown-menu {
-  display: none;                      /* Hidden by default */
-  position: absolute;                 /* Position relative to .nav-item */
-  top: 100%;                          /* Directly below parent */
-  left: 0;                            /* Left-aligned with parent */
-  background-color: var(--whitish);   /* White dropdown background */
-  min-width: 200px;                   /* Minimum width for content */
-  list-style: none;                   /* No bullets */
-  padding: 0;                         /* Reset padding */
-  margin: 0;                          /* Reset margins */
-  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);  /* Softer drop shadow for depth */
-  border: 1px solid #DBEAFE;          /* Subtle blue-tinted border */
-  z-index: 10;                        /* Above other content */
-  border-radius: 8px;                 /* Rounded corners for modern feel */
-}
-
-/* --------------------------------------------------------------------------
-   DROPDOWN ITEMS - Individual menu entries
-   ========================================================================== */
-.dropdown-item a {
-  display: block;                     /* Full-width clickable area */
-
-  height: 48px;                       /* Consistent height */
-  line-height: 1.5rem;                /* Consistent line height */
-  color: var(--text-secondary);       /* Dark gray text on white bg */
-  padding: 0 20px;                    /* Horizontal padding for click area */
-}
-
-/* --------------------------------------------------------------------------
-   DROPDOWN ITEM HOVER - Visual feedback with primary blue
-   ========================================================================== */
-.dropdown-item a:hover {
-  background-color: var(--blue);      /* Primary blue hover (#3B82F6) */
-  color: white;                       /* White text on blue bg */
-}
-
-/* ==========================================================================
-   DROPDOWN ACTIVATION - Two methods for showing menus
-   ==========================================================================
-   Method 1: Hover (Desktop) - CSS-only, no JavaScript required
-   Method 2: Class Toggle (Mobile/JS) - JavaScript adds .is-open class
-   ========================================================================== */
-
-/* --------------------------------------------------------------------------
-   HOVER ACTIVATION - Desktop dropdown behavior
-   ========================================================================== */
-.has-dropdown:hover .dropdown-menu {
-  display: block;                     /* Show menu on hover */
-}
-
-/* --------------------------------------------------------------------------
-   SUBMENU STYLING - Nested dropdowns (multi-level)
-   ==========================================================================
-   Submenus appear to the right of their parent menu (left: 100%) rather than
-   below (top: 100%). This creates a cascading horizontal effect for deep menus.
-   ========================================================================== */
-.dropdown-menu .has-submenu > .dropdown-menu {
-    left: 100%;                       /* Position to the right of parent */
-    top: 0;                           /* Align tops */
-}
-
-/* --------------------------------------------------------------------------
-   CLASS-BASED ACTIVATION - JavaScript toggle (mobile/accessibility)
-   ==========================================================================
-   When JavaScript adds .is-open class (e.g., on mobile tap or keyboard nav),
-   the dropdown menu displays. This provides programmatic control beyond hover.
-   ========================================================================== */
-.has-dropdown.is-open .dropdown-menu {
-  display: block;                     /* Show when class is present */
+.nav-item a:hover {
+  background-color: var(--success-600);  /* Light green hover highlight */
 }

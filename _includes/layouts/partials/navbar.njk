@@ -7,42 +7,16 @@
     {% set navPages = collections.all | eleventyNavigation %}
 
 <nav id="menubar" class="navbar col-span-1 md:col-span-8" aria-label="Main Navigation">
+  <button id="menuToggle" class="md:hidden col-span-1 justify-self-end" aria-expanded="false" aria-controls="menubar">
+      <i class="fa-solid fa-bars text-2xl"></i>
+      <span class="sr-only">Toggle menu</span>
+  </button>
   <ul class="nav-list">
-    <button id="menuToggle" class="md:hidden col-span-1 justify-self-end" aria-expanded="false" aria-controls="menubar">
-        <i class="fa-solid fa-bars text-2xl"></i>
-        <span class="sr-only">Toggle menu</span>
-    </button>
     {%- for entry in navPages %}
-      {% set hasChildren = entry.children | length > 0 %}
-      <li class="nav-item{% if hasChildren %} has-dropdown{% endif %}">
-        {% if hasChildren %}
-          <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true">
-            {{ entry.title }} <span class="arrow" aria-hidden="true">&#9654;</span>
-          </button>
-          <ul class="dropdown-menu">
-            {%- for child in entry.children %}
-              <li class="dropdown-item{% if child.children %} has-submenu{% endif %}">
-                {% if child.children %}
-                  <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true">
-                    {{ child.title }}</span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    {%- for subChild in child.children %}
-                      <li class="dropdown-item">
-                        <a href="{{ subChild.url | url }}">{{ subChild.title }}</a>
-                      </li>
-                    {%- endfor %}
-                  </ul>
-                {% else %}
-                  <a href="{{ child.url | url }}">{{ child.title }}</a>
-                {% endif %}
-              </li>
-            {%- endfor %}
-          </ul>
-        {% else %}
+            
+        <li class="nav-item">
           <a href="{{ entry.url | url }}">{{ entry.title }}</a>
-        {% endif %}
-      </li>
+        </li>
     {%- endfor %}
   </ul>
 </nav>
