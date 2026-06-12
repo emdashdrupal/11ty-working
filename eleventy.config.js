@@ -2,6 +2,8 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight"); // Plugin for syntax highlighting in code blocks
 const { feedPlugin } = require("@11ty/eleventy-plugin-rss"); // Plugin for generating RSS feeds
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation"); //navbar
+// PostCSS for CSS processing and minification
+const postcss = require('postcss');
 // Markdown plugins
 const markdownIt = require("markdown-it"); // Markdown parser
 const anchor = require("markdown-it-anchor"); // Plugin to add anchor links to headings
@@ -185,6 +187,46 @@ eleventyConfig.addFilter("shouldShowDate", function(page) {
   eleventyConfig.addPlugin(syntaxHighlight, config.syntaxHighlight); // Add syntax highlighting
   eleventyConfig.addPlugin(feedPlugin, config.feed); // Add RSS feed generation
 
+  // ===== CSS TEMPLATE FORMAT SETUP =====
+  // Register CSS as a template format that passes through content but applies transforms
+  eleventyConfig.addTemplateFormats("css");
+  eleventyConfig.setLibrary("css", () => {
+    return {
+      render: async function(content) {
+        return content; // Return as-is, transform will handle PostCSS processing
+      }
+    };
+  });
+
+  // ===== CSS PROCESSING WITH POSTCSS =====
+  // Transform CSS files through autoprefixer + cssnano only (skip tailwindcss since our CSS doesn't use @tailwind directives)
+  eleventyConfig.addTransform("postcss-css", async function(content, outputPath) {
+    // Only process .css files in output
+    if (!outputPath || !outputPath.endsWith('.css')) {
+      return content;
+    }
+    
+    // Skip external CSS (pagefind, etc.)
+    if (outputPath.includes('pagefind') || outputPath.includes('node_modules')) {
+      return content;
+    }
+
+    try {
+      const result = await postcss([
+        require('autoprefixer'), 
+        require('cssnano')({ preset: 'default' })
+      ]).process(content, { 
+        from: undefined,
+        to: outputPath,
+        map: false
+      });
+      return result.css;
+    } catch (error) {
+      console.error(`PostCSS error processing ${outputPath}:`, error.message);
+      return content;
+    }
+  });
+
   // ===== GLOBAL DATA =====
   try {
     // Make presentations data available globally
@@ -203,8 +245,8 @@ eleventyConfig.addFilter("shouldShowDate", function(page) {
 
   // ===== PASSTHROUGH FILE COPIES =====
   // Copy these files/directories as-is to the output directory
+  // Note: CSS is NOT included here - it's processed through PostCSS transform above
   eleventyConfig.addPassthroughCopy({
-    "_includes/css/": "css", // CSS files
     "assets/": "assets", // Asset files (images, etc.)
     "_includes/js": "js/", // JavaScript files
     "podcast.xml": "podcast.xml", // Podcast feed
@@ -234,6 +276,6 @@ eleventyConfig.addFilter("shouldShowDate", function(page) {
     },
     markdownTemplateEngine: "njk", // Process markdown files with Nunjucks
     htmlTemplateEngine: "njk", // Process HTML files with Nunjucks
-    templateFormats: ["md", "njk", "html"], // File formats to process
+    templateFormats: ["md", "njk", "html", "css"], // File formats to process (including CSS)
   };
 };
