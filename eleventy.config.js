@@ -21,7 +21,7 @@ const config = {
 
   // Syntax highlighting configuration
   syntaxHighlight: {
-    templateFormats: ["njk", "md"], // Apply to these file formats
+    templateFormats: ["njk", "md", "html", "css", "javascript", "yml", "yaml", "json", "xml"], // Apply to these file formats
     alwaysWrapLineHighlights: false, // Don't wrap line highlights
     trim: true // Trim whitespace
   },
@@ -202,13 +202,13 @@ eleventyConfig.addFilter("shouldShowDate", function(page) {
   // Transform CSS files through purgecss + autoprefixer + cssnano
   // PurgeCSS removes unused Tailwind classes (can reduce tw.css by 80-90%)
   const purgecss = require('@fullhuman/postcss-purgecss');
-  
+
   eleventyConfig.addTransform("postcss-css", async function(content, outputPath) {
     // Only process .css files in output
     if (!outputPath || !outputPath.endsWith('.css')) {
       return content;
     }
-    
+
     // Skip external CSS (pagefind, etc.)
     if (outputPath.includes('pagefind') || outputPath.includes('node_modules')) {
       return content;
@@ -216,10 +216,10 @@ eleventyConfig.addFilter("shouldShowDate", function(page) {
 
     try {
       const plugins = [
-        require('autoprefixer'), 
+        require('autoprefixer'),
         require('cssnano')({ preset: 'default' })
       ];
-      
+
       // Add PurgeCSS only for tw.css (the Tailwind file)
       if (outputPath.includes('tw.css')) {
         plugins.unshift(
@@ -242,8 +242,8 @@ eleventyConfig.addFilter("shouldShowDate", function(page) {
           })
         );
       }
-      
-      const result = await postcss(plugins).process(content, { 
+
+      const result = await postcss(plugins).process(content, {
         from: undefined,
         to: outputPath,
         map: false
