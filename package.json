@@ -16,7 +16,7 @@
         "test:modular": "node test-modularization.js",
         "generate-sitemap": "node generate-sitemap.js",
         "minify": "npm run minify-css && npm run minify-js && npm run minify-html",
-        "minify-css": "postcss _includes/css/tw.css -o _site/css/tw.css --use tailwindcss autoprefixer cssnano && postcss _includes/css/base.css -o _site/css/base.css --use tailwindcss autoprefixer cssnano",
+        "minify-css": "postcss _includes/css/tw.css -o _site/css/tw.css && postcss _includes/css/base.css -o _site/css/base.css",
         "minify-js": "terser _includes/js/*.js -o _site/assets/js/main.js --compress --mangle",
         "minify-html": "html-minifier-terser --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true _site/**/*.html -o _site/**/*.html",
         "preview": "npx @11ty/eleventy --serve"
@@ -35,6 +35,7 @@
     },
     "devDependencies": {
         "@11ty/eleventy-navigation": "^0.3.5",
+        "@fullhuman/postcss-purgecss": "^8.0.0",
         "@stackbit/cms-git": "^0.0.14",
         "@stackbit/types": "^2.1.14",
         "@tailwindcss/typography": "^0.5.16",
