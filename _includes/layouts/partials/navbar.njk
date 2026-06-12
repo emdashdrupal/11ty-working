@@ -6,18 +6,17 @@
     </div>
     {% set navPages = collections.all | eleventyNavigation %}
 
-<nav id="menubar" class="navbar col-span-1 md:col-span-8" aria-label="Main Navigation">
-  <button id="menuToggle" class="md:hidden col-span-1 justify-self-end" aria-expanded="false" aria-controls="menubar">
-      <i class="fa-solid fa-bars text-2xl"></i>
-      <span class="sr-only">Toggle menu</span>
-  </button>
-  <ul class="nav-list">
-    {%- for entry in navPages %}
-            
-        <li class="nav-item">
-          <a href="{{ entry.url | url }}">{{ entry.title }}</a>
-        </li>
-    {%- endfor %}
-  </ul>
-</nav>
+    <nav id="menubar" class="navbar col-span-1 md:col-span-8" aria-label="Main Navigation">
+        <button id="menuToggle" class="md:hidden col-span-1 justify-self-end" aria-expanded="false" aria-controls="menubar">
+            <i class="fa-solid fa-bars text-2xl"></i>
+            <span class="sr-only">Toggle menu</span>
+        </button>
+        <ul class="nav-list">
+            {%- for entry in navPages %}
+                <li class="nav-item">
+                    <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+                </li>
+            {%- endfor %}
+        </ul>
+    </nav>
 </div>
