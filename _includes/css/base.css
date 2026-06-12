@@ -24,15 +24,20 @@
     /* ----------------------------------------------------------------------
        COLORS - Base Palette (Alphabetical)
        ----------------------------------------------------------------------
-       Primary color values used throughout the site. These are referenced by
-       other components to maintain visual consistency.
+       OPTION B: Soft Modern Blue — Lighter, airier, more approachable.
+       High contrast for accessibility while maintaining a friendly feel.
        ---------------------------------------------------------------------- */
-    --blue: #1e90ff;              /* Bright blue accent color */
-    --grey-green: #96a396;        /* Muted grey-green for subtle elements */
-    --jet: #3c3744ff;             /* Dark charcoal - primary text/background */
-    --light-blue: #0074D9;        /* Vibrant blue for highlights */
-    --medium-blue: #678bb1;       /* Desaturated blue for secondary elements */
-    --whitish: #f7f7f8;           /* Off-white background color */
+    --blue: #3B82F6;                 /* Primary - bright sky blue (main accent) */
+    --green-blue: #059669;           /* Success/emerald green for positive states */
+    --jet: #000000;                  /* Pure black - maximum contrast text */
+    --text: #000000;                 /* Alias for pure black text (WCAG AAA) */
+    --light-blue: #1D4ED8;           /* Secondary - deeper blue for hover/active */
+    --medium-blue: #EFF6FF;          /* Surface - light blue-tinted background (header/footer) */
+    --whitish: #FFFFFF;              /* Pure white main background */
+
+    /* Additional palette colors */
+    --accent-purple: #A855F7;        /* Purple accent for highlights/buttons */
+    --text-secondary: #374151;       /* Dark gray for secondary text */
 
     /* ----------------------------------------------------------------------
        PAGEFIND SEARCH UI VARIABLES
@@ -236,7 +241,6 @@ button:hover {
    background-color: var(--success-500);   /* Green tint on hover */
    /* border-radius: 6px;                     Softer corners when active */
    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);   Deeper shadow for lift effect */
-    color: var(--success-100);                     /* Dark text maintains contrast */
 }
 
 /* ==========================================================================
@@ -290,6 +294,7 @@ h2 {
     margin-top: 1rem;                /* Space before heading */
     margin-bottom: 0.5rem;           /* Less space after - content follows closely */
     padding: 0;
+    color: var(--text-secondary);
 }
 
 /* --------------------------------------------------------------------------
@@ -302,7 +307,7 @@ h2>a {
     font-family: var(--sans-serif);
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--medium-blue)        /* Blue indicates interactivity */
+    color: var(--text-secondary)        /* Blue indicates interactivity */
 }
 
 h3 {
@@ -543,18 +548,32 @@ ul li:not(#menubar>ul>li):not(#menubar>ul>li>ul>li):not(#menubar>ul>li>ul>li>ul>
 }
 
 /* --------------------------------------------------------------------------
-   FOOTER STYLING - Page footer elements
+   FOOTER STYLING - Light background matching header
    ========================================================================== */
 footer {
-    background-color: var(--jet-500);  /* Lighter mid-tone jet - more inviting than near-black */
+    background-color: var(--medium-blue);  /* Same light surface as header (#EFF6FF) */
 }
 
 footer>div>p {
-    color: white;                     /* White text for contrast on lighter footer */
+    color: var(--text-secondary);          /* Dark gray text on light bg */
 }
 
 footer>div>p>a {
     color: var(--jet-900);            /* Lighter links in footer */
+}
+
+/* ==========================================================================
+   HEADER / NAVBAR OVERRIDES - Light theme adjustments for Tailwind classes
+   ========================================================================== */
+
+/* Override Tailwind bg-medium-blue on main-navbar div */
+#main-navbar {
+    background-color: var(--medium-blue) !important;  /* Light surface (#EFF6FF) */
+}
+
+/* Tagline link - dark text instead of white */
+#tagline a {
+    color: var(--text) !important;                    /* Black text */
 }
 
 /* --------------------------------------------------------------------------
@@ -705,10 +724,10 @@ article img:hover {
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
-   MENUBAR CONTAINER - Dark background container
+   MENUBAR CONTAINER - Light background (no more dark oppressive header!)
    ========================================================================== */
    #menubar {
-     background-color: rgba(103, 139, 177, 0.95);  /* Lighter medium-blue navbar - more inviting */
+     background-color: var(--medium-blue);  /* Light blue-tinted surface (#EFF6FF) */
    }
 
 /* --------------------------------------------------------------------------
@@ -739,14 +758,14 @@ article img:hover {
    ========================================================================== */
 .nav-item a, .dropdown-toggle {
   display: flex;                      /* Flex for alignment */
-  align-items: center;                /* Vertically center content */
+
   padding: 15px 20px;                 /* Comfortable click target */
-  color: white;                      /* Light text on dark bg */
+  color: var(--text-secondary);      /* Dark gray text on light bg */
   text-decoration: none;             /* No underline */
   border: none;                      /* Remove button border */
   font: inherit;                     /* Inherit navbar font settings */
   cursor: pointer;                   /* Hand cursor */
-  height: 48px;                      /* Fixed nav bar height */
+  /*height: 48px;                       Fixed nav bar height */
   line-height: 1.5rem;               /* Consistent line height */
   text-align: left;
 }
@@ -775,13 +794,15 @@ article img:hover {
   position: absolute;                 /* Position relative to .nav-item */
   top: 100%;                          /* Directly below parent */
   left: 0;                            /* Left-aligned with parent */
-  background-color: #8fa3c0;          /* Lighter blue-grey dropdown - more inviting */
+  background-color: var(--whitish);   /* White dropdown background */
   min-width: 200px;                   /* Minimum width for content */
   list-style: none;                   /* No bullets */
   padding: 0;                         /* Reset padding */
   margin: 0;                          /* Reset margins */
-  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);  /* Drop shadow for depth */
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);  /* Softer drop shadow for depth */
+  border: 1px solid #DBEAFE;          /* Subtle blue-tinted border */
   z-index: 10;                        /* Above other content */
+  border-radius: 8px;                 /* Rounded corners for modern feel */
 }
 
 /* --------------------------------------------------------------------------
@@ -789,16 +810,19 @@ article img:hover {
    ========================================================================== */
 .dropdown-item a {
   display: block;                     /* Full-width clickable area */
-  padding: 15px 20px;                 /* Match nav item padding */
+
   height: 48px;                       /* Consistent height */
   line-height: 1.5rem;                /* Consistent line height */
+  color: var(--text-secondary);       /* Dark gray text on white bg */
+  padding: 0 20px;                    /* Horizontal padding for click area */
 }
 
 /* --------------------------------------------------------------------------
-   DROPDOWN ITEM HOVER - Visual feedback
+   DROPDOWN ITEM HOVER - Visual feedback with primary blue
    ========================================================================== */
 .dropdown-item a:hover {
-  background-color: #7a8fab;          /* Lighter blue-grey hover - more inviting */
+  background-color: var(--blue);      /* Primary blue hover (#3B82F6) */
+  color: white;                       /* White text on blue bg */
 }
 
 /* ==========================================================================
