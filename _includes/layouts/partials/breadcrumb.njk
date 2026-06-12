@@ -1,3 +1,17 @@
 <div aria-label="breadcrumb" class="mx-auto rounded-b-md border-6 mb-4 px-4 bg-gray-200 max-w-4xl align-top shadow-md">
-    {{ collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) | safe }}
+    {% set breadcrumbItems = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
+    {% if breadcrumbItems and breadcrumbItems.length > 0 %}
+        <nav aria-label="Breadcrumb">
+            <ol class="breadcrumb-list" itemscope itemtype="http://schema.org/BreadcrumbList">
+                {% for item in breadcrumbItems %}
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a href="{{ item.url }}" itemprop="item">
+                            <span itemprop="name">{{ item.title }}</span>
+                        </a>
+                        <meta itemprop="position" content="{{ loop.index }}">
+                    </li>
+                {% endfor %}
+            </ol>
+        </nav>
+    {% endif %}
 </div>
