@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "npx @11ty/eleventy --serve --quiet",
+        "start": "npm run build && npm run postbuild && npx @11ty/eleventy --serve",
         "build": "npx @11ty/eleventy && npm run minify-css",
         "postbuild": "npm run generate-sitemap && npx -y pagefind --site _site && cp sitemap.xml _site/",
         "clean": "rm -rf _site",
@@ -32,6 +32,7 @@
         "eleventy-plugin-time-to-read": "^1.3.0",
         "markdown-it": "^14.1.0",
         "markdown-it-link-attributes": "^4.0.1",
+        "pagefind": "^1.5.2",
         "postcss-cli": "^11.0.1"
     },
     "devDependencies": {
