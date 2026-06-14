@@ -72,10 +72,6 @@
        background and text variants. Useful for theme switching or dynamic
        class application via JavaScript.
        ---------------------------------------------------------------------- */
-    .bg-medium-blue,
-    .text-medium-blue {
-        background-color: var(--medium-blue); /* Applies medium blue as background */
-    }
 
     /* ==========================================================================
        COLOR SCALES - Graded Value Systems (Grouped)
