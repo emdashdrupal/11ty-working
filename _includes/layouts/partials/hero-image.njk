@@ -1,7 +1,7 @@
 {% if item.data.FontAwesomeIcon or FontAwesomeIcon %}
     <a href="{{ item.url }}">
         <div
-            class="icon fa-{{ item.data.FontAwesomeIcon or FontAwesomeIcon }} text-4xl"
+            class="icon fa-{{ item.data.FontAwesomeIcon or FontAwesomeIcon }} text-2xl"
             aria-label="icon-representing-{{ item.data.title | slugify}}"
             title="Icon representing {{ item.data.title }}"
         ></div>
@@ -20,5 +20,5 @@
             alt="Content Content podcast with Ed Marsh"
             title="Content Content podcast with Ed Marsh"
         {% endif %}
-        class="w-full h-48 border-4 shadow-md"/>
+        class="w-full h-48 border-4 shadow-sm"/>
 {% endif %}
