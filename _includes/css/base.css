@@ -237,7 +237,7 @@ blockquote p {
    Hover state provides multiple visual cues: color change, rounded corners,
    and enhanced shadow to indicate interactivity.
    -------------------------------------------------------------------------- */
-button:hover, a > button:hover {
+button:hover {
    background-color: var(--accent-purple);   /* Green tint on hover */
    /* border-radius: 6px;                     Softer corners when active */
    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);   Deeper shadow for lift effect */
