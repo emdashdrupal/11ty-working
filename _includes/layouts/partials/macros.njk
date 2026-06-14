@@ -99,10 +99,10 @@
             <figure class="hero flex mx-auto" role="img" aria-label="{% if heroImage %}Hero-image-for-{{ title | slugify }}{% endif %}">
                 {{ heroImage | safe }}
             </figure>
-            <h2 id="card-title-{{ title | slugify }}" class="card-title leading-8">
+            <h2 id="card-title-{{ title | slugify }}" class="card-title">
                 <a href="{{ url }}" aria-label="Read-more-about-{{ title | slugify }}">{{ title | safe }}</a>
             </h2>
-            <div class="card-description flex-grow mb-4">
+            <div class="card-description flex-grow">
                 {{ description | markdown | safe }}
             </div>
             <p>{{ renderButton(url, buttonText, title) }}</p>

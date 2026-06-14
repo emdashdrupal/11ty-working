@@ -294,6 +294,7 @@ h2 {
     margin-top: 1rem;                /* Space before heading */
     margin-bottom: 0.5rem;           /* Less space after - content follows closely */
     padding: 0;
+    line-height: 1.7rem;
     color: var(--text-secondary);
 }
 
@@ -307,6 +308,7 @@ h2>a {
     font-family: var(--sans-serif);
     font-size: 1.5rem;
     font-weight: 700;
+    line-height: 1.7rem;
     color: var(--text-secondary)        /* Blue indicates interactivity */
 }
 
