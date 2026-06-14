@@ -36,7 +36,7 @@
         <ul class="dropdown-menu bg-slate-50" role="menu" aria-labelledby="{{ id | slugify }}-button">
             {% set sortedItems = items | sort(false, false, "data.featuredOrder") %}
             {% for item in sortedItems %}
-                <li role="menuitem" class="block w-full jet- hover:bg-medium-blue" id="{{ id }}-menu">
+                <li role="menuitem" class="block w-full hover:bg-medium-blue" id="{{ id }}-menu">
                     <a href="{{ item.url | url }}" class="font-sans" role="none" tabindex="-1" data-index="{{ loop.index0 }}">
                         {{ item.data.title }}
                     </a>
@@ -80,7 +80,7 @@
 {% endmacro %}
 {% macro renderButton(url, buttonText, title = "") %}
     <a href="{{ url }}" role="button" class="font-sans hover:bg-[#A855F7]" {% if title %} aria-label="Learn-more-about-{{ title | slugify }}" {% else %} aria-label="{{ buttonText | slugify }}" {% endif %} title="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
-        <button type="button" {% if collections.podcasts %} download {% endif %} class="p-2 rounded-lg transition-transform transform mt-0 jet-100 bg-medium-blue hover-bg[#A855F7]" aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
+        <button type="button" {% if collections.podcasts %} download {% endif %} class="p-2 rounded-lg transition-transform transform mt-0 jet-100  hover-bg[#A855F7]" aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
             <span class="sr-only">
                 {% if title %}Learn more about {{ title }}
                 {% else %}
