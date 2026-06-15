@@ -1,5 +1,5 @@
 {
-    "buttonText": "Learn more",
+    "buttonText": "Learn more →",
     "collectionName": "skills",
     "layout": "layouts/details.njk",
     "tags": "skills",

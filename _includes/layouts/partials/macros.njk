@@ -79,9 +79,8 @@
     </div>
 {% endmacro %}
 {% macro renderButton(url, buttonText, title = "") %}
-
-    <a href="{{ url }}" role="button" class="font-sans" {% if title %} aria-label="Learn-more-about-{{ title | slugify }}" {% else %} aria-label="{{ buttonText | slugify }}" {% endif %} title="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
-<button type="button" {% if collections.podcasts %} download {% endif %} class="p-2 rounded-lg transition-transform transform mt-0 hover:bg[#A855F7]" aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
+    <a href="{{ url }}" role="button" class="font-sans bg-medium-blue border-2" {% if title %} aria-label="Learn-more-about-{{ title | slugify }}" {% else %} aria-label="{{ buttonText | slugify }}" {% endif %} title="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
+<button type="button" {% if collections.podcasts %} download {% endif %} class="bg-medium-blue p-2 rounded-lg transition-transform transform mt-0 hover:bg[#A855F7] border-8" aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
                 <span class="sr-only">
                 {% if title %}Learn more about {{ title }}
                 {% else %}
@@ -101,7 +100,7 @@
                 {{ heroImage | safe }}
             </figure>
             <h2 id="card-title-{{ title | slugify }}" class="card-title">
-                <a href="{{ url }}" aria-label="Read-more-about-{{ title | slugify }}">{{ title | safe }}</a>
+                <a href="{{ url }}" aria-label="Read-more-about-{{ title | slugify }};">{{ title | safe }}</a>
             </h2>
             <div class="card-description flex-grow">
                 {{ description | markdown | safe }}
