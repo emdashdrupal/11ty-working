@@ -1,5 +1,5 @@
 {
-    "buttonText": "Read more",
+    "buttonText": "Read more →",
     "collectionName": "blog",
     "tags": "blog",
     "layout": "layouts/details.njk",
