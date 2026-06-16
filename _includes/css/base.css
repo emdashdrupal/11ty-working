@@ -10,7 +10,7 @@
    6. Navigation Bar Styling
 
    Note: Some variables reference external definitions (Tailwind or other stylesheets):
-   - --green-blue, --success, --bg-whitish defined elsewhere
+   - --green-blue, --bg-whitish defined elsewhere
    ========================================================================== */
 
 /* ==========================================================================
@@ -28,7 +28,6 @@
        High contrast for accessibility while maintaining a friendly feel.
        ---------------------------------------------------------------------- */
     --blue: #3B82F6;                 /* Primary - bright sky blue (main accent) */
-    --green-blue: #059669;           /* Success/emerald green for positive states */
     --jet: #000000;                  /* Pure black - maximum contrast text */
     --text: #000000;                 /* Alias for pure black text (WCAG AAA) */
     --light-blue: #1D4ED8;           /* Secondary - deeper blue for hover/active */
@@ -98,24 +97,7 @@
     --jet-700: #8a819d;   /* Light-medium - placeholder text */
     --jet-800: #b2acc3;   /* Light - light UI elements */
     --jet-900: #d9d6e1;   /* Very light - subtle highlights */
-
-    /* ----------------------------------------------------------------------
-       SUCCESS SCALE - Green Scale (100=darkest to 900=lightest)
-       ----------------------------------------------------------------------
-       Semantic green scale for success states, positive feedback, and
-       completion indicators. Higher values create pastel backgrounds.
-       ---------------------------------------------------------------------- */
-    --success-100: #26f03c;   /* Vibrant green - active success state */
-    --success-200: #4cf25d;   /* Bright green - hover states */
-    --success-300: #71f47e;   /* Medium green - icons, accents */
-    --success-400: #97f69f;   /* Soft green - subtle highlights */
-    --success-500: #bef9c6;   /* Pastel green - success backgrounds */
-    --success-600: #cdfad2;   /* Light pastel - hover backgrounds */
-    --success-700: #dcfbde;   /* Very light - disabled success */
-    --success-800: #ebfdeb;   /* Almost white - subtle overlays */
-    --success-900: #f5fef6;   /* Near white - minimal tint */
 }
-
 /* ==========================================================================
    PAGEFIND SEARCH INPUT OVERRIDES
    ==========================================================================
@@ -173,7 +155,7 @@ a[id$="-menu"] {
 a:hover, a:hover:not(.nav-item),
 footer>div>p>a:hover {
     background-color: var(--accent-purple);  /* Light green hover highlight */
-    color: var(--jet-200);                 /* Dark text for contrast */
+   /*  color: var(--jet-200);                 Dark text for contrast */
 }
 
 .nav-item > a:hover  {
@@ -189,7 +171,7 @@ footer>div>p>a:hover {
 
 blockquote {
     /* Note: --green-blue is defined externally (likely Tailwind) */
-    border-left: 3px solid var(--green-blue);  /* Accent border on left */
+    border-left: 3px solid var(--medium-blue);  /* Accent border on left */
     margin: 1rem 0;                            /* Vertical spacing */
     padding-left: 1rem;                        /* Space between border and content */
 }
@@ -479,7 +461,7 @@ ul li:not(#menubar>ul>li):not(div>ul>div>li) {
 }
 
 .copy-button:hover {
-    background-color: var(--green-blue);  /* Color change (external var) */
+    background-color: var(--medium-blue);  /* Color change (external var) */
 }
 
 /* --------------------------------------------------------------------------
@@ -544,9 +526,6 @@ footer>div>p {
     color: var(--text-secondary);          /* Dark gray text on light bg */
 }
 
-footer>div>p>a {
-    color: var(--jet-900);            /* Lighter links in footer */
-}
 
 /* ==========================================================================
    HEADER / NAVBAR OVERRIDES - Light theme adjustments for Tailwind classes
@@ -592,7 +571,7 @@ footer>div>p>a {
 }
 
 .breadcrumb-list a:hover {
-    color: var(--blue);
+    color: var(--accent-purple);
     text-decoration: underline;
 }
 
