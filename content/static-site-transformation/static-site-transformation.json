@@ -1,8 +1,8 @@
 {
     "buttonText": "Read more →",
     "collectionName": "blog",
-    "tags": "blog",
-    "layout": "layouts/details.njk",
+    "tags": ["blog"],
+    "layout": "layouts/grid.njk",
     "category": "Static site transformation",
     "categoryFontAwesomeIcon": "solid fa-truck-fast",
     "date": "Last Modified",
