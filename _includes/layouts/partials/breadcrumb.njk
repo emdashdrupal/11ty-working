@@ -6,8 +6,8 @@
             <span class="fa-{{ categoryFontAwesomeIcon }} mx-2 text-grey-green"></span>
         {%- endif -%}
         {# If the current page URL contains "blog", link to the blog category path. Otherwise use the top-level category path. #}
-        {%- if page and page.url and 'blog' in page.url -%}
-            <a href="/blog/{{ category | slugify }}">{{ category|trim }}</a>
+        {%- if page and page.url and '/blog/' in page.url -%}
+            <a href="/blog">Blog</a>
         {%- else -%}
             <a href="/{{ category | slugify }}">{{ category|trim }}</a>
         {%- endif -%}
