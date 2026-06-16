@@ -5,6 +5,7 @@ FontAwesomeIcon: solid fa-recycle
 eleventyNavigation:
   key: ssg-reusable-content
   title: Reusing content with SSGs
+  parent: Blog
 
 ---
 

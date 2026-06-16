@@ -1,12 +1,15 @@
 ---
 title : Golb
 description: yeh
-tags : "skills, static site transformation"
+tags :
+  - blog
+  - static-site-transformation
+collectionName: blog
 layout: "layouts/grid.njk"
 buttonText : "Learn more"
 date : 2026-06-15
 eleventyNavigation:
-  key: blog
+  key: Blog
   title: Blog
   order: 40
 ---

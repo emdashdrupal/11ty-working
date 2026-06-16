@@ -79,10 +79,12 @@ module.exports = function (eleventyConfig) {
         const keyPath = key.split(".");
         let data = item;
         for (const path of keyPath) {
-          if (!data || typeof data !== "object") return false;
+          // Safely check if data is an object before accessing properties
+          if (data === null || typeof data !== "object") return false;
           data = data[path];
         }
-        return data === value;
+        // Safely compare values, handling undefined/null cases
+        return data == value; // Use loose equality for flexible value comparison
       });
     } catch (error) {
       console.error(`Error in filterBy filter: ${error.message}`);
