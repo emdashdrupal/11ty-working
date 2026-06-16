@@ -127,16 +127,16 @@ a[id$="-menu"] {
    --------------------------------------------------------------------------
    Hover effect provides visual feedback.
    -------------------------------------------------------------------------- */
-a:hover, a:hover:not(.nav-item),
+a:hover,
 footer>div>p>a:hover {
     background-color: var(--accent-purple-light);  /* Light purple hover highlight */
    /*  color: var(--jet-200);                 Dark text for contrast */
 }
 
-.nav-item > a:hover  {
+/* .nav-item > a:hover  {
     background-color: white;
 }
-
+ */
 /* ==========================================================================
    BLOCKQUOTES - Note/Callout Boxes
    ==========================================================================
