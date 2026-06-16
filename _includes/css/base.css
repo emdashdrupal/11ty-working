@@ -58,22 +58,6 @@
     --sans-serif: Barlow, Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; /* UI/body text */
     --serif: "Besley", serif;                                    /* Article/prose content */
 
-    /* ----------------------------------------------------------------------
-       JET SCALE - Dark Grey/Blue Scale (100=darkest to 900=lightest)
-       ----------------------------------------------------------------------
-       Primary neutral scale for text hierarchy, backgrounds, and borders.
-       Used extensively throughout the site for consistent tonal variation.
-       ---------------------------------------------------------------------- */
-    --jet-100: #0c0b0e;   /* Near black - deepest shadows/text on light bg */
-    --jet-200: #18161b;   /* Very dark - primary text, footer backgrounds */
-    --jet-300: #242129;   /* Dark - borders, secondary backgrounds */
-    --jet-400: #302b37;   /* Medium-dark - hover states, muted elements */
-    --jet-500: #3c3744;   /* Mid-tone - default text color */
-    --jet-600: #635c71;   /* Medium-light - disabled text, subtle borders */
-    --jet-700: #8a819d;   /* Light-medium - placeholder text */
-    --jet-800: #b2acc3;   /* Light - light UI elements */
-    --jet-900: #d9d6e1;   /* Very light - subtle highlights */
-}
 /* ==========================================================================
    PAGEFIND SEARCH INPUT OVERRIDES
    ==========================================================================
