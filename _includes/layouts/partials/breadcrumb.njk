@@ -5,7 +5,12 @@
         {%- if categoryFontAwesomeIcon -%}
             <span class="fa-{{ categoryFontAwesomeIcon }} mx-2 text-grey-green"></span>
         {%- endif -%}
-        <a href="/{{ category | slugify }}">{{ category|trim }}</a>
+        {# If the current page URL contains "blog", link to the blog category path. Otherwise use the top-level category path. #}
+        {%- if page and page.url and 'blog' in page.url -%}
+            <a href="/blog/{{ category | slugify }}">{{ category|trim }}</a>
+        {%- else -%}
+            <a href="/{{ category | slugify }}">{{ category|trim }}</a>
+        {%- endif -%}
     {%- endif -%}
     <span class="fa-solid fa-chevron-right mx-2 text-sm jet-700"></span>
     <span class="text-gray-600" aria-current="page">
