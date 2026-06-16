@@ -30,7 +30,7 @@ I designed three main content types (page types):
 
 Making this actually happen involved a *lot* of experimenting. While I was building out the site there were grid template pages for each of those content types. Eventually I made the grid collection-agnostic.
 
-Once I grasped *how* to use content programmatically, it opened my eyes to how much [reusable structures like metadata](/static-site-transformation/content-reuse) make a difference in how content is sorted, filtered, and displayed.
+Once I grasped *how* to use content programmatically, it opened my eyes to how much [reusable structures like metadata](/blog/static-site-transformation/content-reuse) make a difference in how content is sorted, filtered, and displayed.
 
 Taking an active development role made it clear to me how structuring your content helps your developers and your readers. Abstracting my content taught me:
 
