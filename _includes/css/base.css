@@ -26,14 +26,11 @@
        High contrast for accessibility while maintaining a friendly feel.
        ---------------------------------------------------------------------- */
     --blue: #3B82F6;                 /* Primary - bright sky blue (main accent) */
-    --jet: #000000;                  /* Pure black - maximum contrast text */
-    --text: #000000;                 /* Alias for pure black text (WCAG AAA) */
     --light-blue: #1D4ED8;           /* Secondary - deeper blue for hover/active */
     --medium-blue: #EFF6FF;          /* Surface - light blue-tinted background (header/footer) */
     --whitish: #FFFFFF;              /* Pure white main background */
     --accent-purple-light: rgba(169, 85, 247, 0.565);  /* Purple accent for highlights/buttons */
     --accent-purple: #a955f7;
-    --text-secondary: #374151;       /* Dark gray for secondary text */
 
     /* ----------------------------------------------------------------------
        PAGEFIND SEARCH UI VARIABLES
@@ -60,24 +57,6 @@
     --monospace: "Reddit Mono", Consolas, Courier, monospace;  /* Code/terminal font */
     --sans-serif: Barlow, Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; /* UI/body text */
     --serif: "Besley", serif;                                    /* Article/prose content */
-
-    /* ----------------------------------------------------------------------
-       DYNAMIC COLOR CLASSES (Inline Styles)
-       ----------------------------------------------------------------------
-       These classes are defined inside :root to apply the same color to both
-       background and text variants. Useful for theme switching or dynamic
-       class application via JavaScript.
-       ---------------------------------------------------------------------- */
-
-    /* ==========================================================================
-       COLOR SCALES - Graded Value Systems (Grouped)
-       ==========================================================================
-       Pre-defined color scales for consistent lightness/darkness progression.
-       Format: --{name}-{100-900} where 100 = darkest, 900 = lightest.
-
-       This system allows predictable hover states, disabled states, and
-       accessibility-compliant contrast ratios without manual color picking.
-       ========================================================================== */
 
     /* ----------------------------------------------------------------------
        JET SCALE - Dark Grey/Blue Scale (100=darkest to 900=lightest)
@@ -166,7 +145,7 @@ footer>div>p>a:hover {
    ========================================================================== */
 
 blockquote {
-    /* Note: --green-blue is defined externally (likely Tailwind) */
+
     border-left: 3px solid var(--medium-blue);  /* Accent border on left */
     margin: 1rem 0;                            /* Vertical spacing */
     padding-left: 1rem;                        /* Space between border and content */
