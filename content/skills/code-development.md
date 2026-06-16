@@ -22,7 +22,7 @@ Here's how I've used code to solve content problems:
 - Designed and built [contentcontent.info](https://web.archive.org/web/20210121085031/http://contentcontent.info/) &mdash; a decade-long technical content aggregator &mdash; using Drupal CMS.
 - Helped establish the Drupal CMS Northern NJ user group as a founding member.
 - Built edmarsh.com from scratch using WordPress in 2008.
-- Transformed edmarsh.com to [run on a static site generator](/static-site-transformation/) in 2025.
+- Transformed edmarsh.com to [run on a static site generator](/blog/static-site-transformation/) in 2025.
 - Defined Jira user story guidelines that were adopted division-wide within three months of onboarding.
 - Wrote Jira user stories and epics following [Gherkin language principles](https://cucumber.io/docs/gherkin/).
 - Worked with Kanban and story boards.
