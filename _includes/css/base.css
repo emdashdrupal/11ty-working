@@ -172,7 +172,7 @@ a[id$="-menu"] {
    -------------------------------------------------------------------------- */
 a:hover, a:hover:not(.nav-item),
 footer>div>p>a:hover {
-    background-color: var(--success-800);  /* Light green hover highlight */
+    background-color: var(--accent-purple);  /* Light green hover highlight */
     color: var(--jet-200);                 /* Dark text for contrast */
 }
 

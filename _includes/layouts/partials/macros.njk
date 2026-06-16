@@ -29,7 +29,7 @@
 {% endmacro %}
 {% macro dropdown(id, label, items, homepageUrl) %}
     <li class="dropdown rounded-sm">
-        <a href="{{ homepageUrl }}" id="{{ id }}-button" class="md:px-3 hover:bg-success-800 rounded-sm" aria-expanded="false" aria-haspopup="true" aria-controls="{{ id }}-menu">
+        <a href="{{ homepageUrl }}" id="{{ id }}-button" class="md:px-3 ounded-sm" aria-expanded="false" aria-haspopup="true" aria-controls="{{ id }}-menu">
             {{ label }}
             <span class="ml-1 hidden md:inline">&#9654;</span>
         </a>
@@ -46,7 +46,7 @@
     </li>
 {% endmacro %}
 {%- macro listItem(url, label) -%}
-    {% set classList %} hover:transition-colors hover:bg-success-200 rounded-sm font-sans
+    {% set classList %} hover:transition-colors rounded-sm font-sans
     {% if label == "LinkedIn" %}
         fa-brands fa-linkedin text-2xl
     {% elif label == "GitHub" %}
