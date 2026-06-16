@@ -20,12 +20,12 @@ const today = new Date().toISOString().split('T')[0];
 
 // Main sections of the site
 const mainSections = [
-  { path: '/', priority: defaultPriority.home, changefreq: 'weekly' },
+  { path: '/', priority: defaultPriority.home, changefreq: 'monthly' },
   { path: '/about/about-ed-marsh/', priority: defaultPriority.section, changefreq: 'monthly' },
   { path: '/contact/', priority: defaultPriority.section, changefreq: 'monthly' },
   { path: '/skills/', priority: defaultPriority.section, changefreq: 'monthly' },
   { path: '/podcasts/', priority: defaultPriority.section, changefreq: 'monthly' },
-  { path: '/static-site-transformation/', priority: defaultPriority.section, changefreq: 'weekly' }
+  { path: 'blog/**', priority: defaultPriority.section, changefreq: 'weekly' }
 ];
 
 // Function to extract date from frontmatter
