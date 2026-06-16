@@ -40,10 +40,7 @@
        Note: Some values reference external variables (defined in Tailwind).
        ---------------------------------------------------------------------- */
     --pagefind-ui-primary: #eeeeee;           /* Primary accent for search UI */
-    --pagefind-ui-text: var(--jet-500);       /* Main text color - from jet scale */
-    --pagefind-ui-text-hover: var(--jet-200); /* Hover state text - darker */
     --pagefind-ui-background: var(--bg-whitish); /* Background (external var) */
-    --pagefind-ui-border: var(--jet-300);      /* Border color from jet scale */
     --pagefind-ui-border-radius: 2px;          /* Slight rounded corners */
     --pagefind-ui-tag: yellow;                 /* Tag/highlight background */
     --pagefind-ui-border-width: 2px;           /* Thicker borders for visibility */
