@@ -4,11 +4,15 @@
     {% set filtered_collections = collections[collectionName] %}
     {% if collectionName == "skills" %}
         {% for item in filtered_collections | sort(false, false, "data.featuredOrder") %}
-            {% include "layouts/partials/card.njk" %}
+            {% if not item.inputPath or not item.inputPath.endsWith('/index.md') %}
+                {% include "layouts/partials/card.njk" %}
+            {% endif %}
         {% endfor %}
     {% else %}
         {% for item in filtered_collections | sort(false, false, "data.date") | reverse %}
-            {% include "layouts/partials/card.njk" %}
+            {% if not item.inputPath or not item.inputPath.endsWith('/index.md') %}
+                {% include "layouts/partials/card.njk" %}
+            {% endif %}
         {% endfor %}
     {% endif %}
 </div>
