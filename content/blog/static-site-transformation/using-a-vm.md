@@ -42,7 +42,7 @@ The good news is that if you do this in a VM, it's far easier to recover without
 
 Fast-forward a year and Kubuntu is now my daily OS. Once you get over the learning curve, you'll find Linux desktops are much more customizable than Windows.
 
-![Customized Kubuntu desktop](../../assets/images/kubuntu-desktop-customization.png)
+![Customized Kubuntu desktop](/assets/images/kubuntu-desktop-customization.png)
 
 I only boot into Windows to play motorsport games with a sim-racing rig. Everything else &mdash; including my [favorite city-building game](https://www.paradoxinteractive.com/games/cities-skylines-ii/about) &mdash; runs great in Linux. I've even created my own Linux-based homelab.
 
