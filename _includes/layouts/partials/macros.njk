@@ -29,7 +29,7 @@
 {% endmacro %}
 {% macro dropdown(id, label, items, homepageUrl) %}
     <li class="dropdown rounded-sm">
-        <a href="{{ homepageUrl }}" id="{{ id }}-button" class="md:px-3 ounded-sm" aria-expanded="false" aria-haspopup="true" aria-controls="{{ id }}-menu">
+        <a href="{{ homepageUrl }}" id="{{ id }}-button" class="md:px-3 rounded-sm" aria-expanded="false" aria-haspopup="true" aria-controls="{{ id }}-menu">
             {{ label }}
             <span class="ml-1 hidden md:inline">&#9654;</span>
         </a>
@@ -53,7 +53,7 @@
         fa-brands fa-github text-2xl
     {% elif label == "Contact Ed" %}
         md:bg-green-200 md:rounded-md md:border-1 md:border-gray-900 md:transition-colors
-        md:duration-600 md:align-top md:whitespace-nowrap hover:bg-green-400 md:border-white-100 md:hover:shadow-md md:p-2
+        md:duration-600 md:align-top md:whitespace-nowrap md:border-white-100 md:hover:shadow-md md:p-2
     {% endif %}
     {% endset %}
     <li class="rounded-sm font-sans">
@@ -80,7 +80,7 @@
 {% endmacro %}
 {% macro renderButton(url, buttonText, title = "") %}
     <a href="{{ url }}" role="button" class="font-sans bg-medium-blue border-2" {% if title %} aria-label="Learn-more-about-{{ title | slugify }}" {% else %} aria-label="{{ buttonText | slugify }}" {% endif %} title="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
-<button type="button" {% if collections.podcasts %} download {% endif %} class="bg-medium-blue p-2 rounded-lg transition ease-in-out mt-0 hover:bg[#A855F7] border-8" aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
+<button type="button" {% if collections.podcasts %} download {% endif %} class="bg-medium-blue p-2 rounded-lg transition ease-in-out mt-0 border-8" aria-label="{% if title %}Learn more about {{ title }}{% else %}{{ buttonText }}{% endif %}">
                 <span class="sr-only">
                 {% if title %}Learn more about {{ title }}
                 {% else %}

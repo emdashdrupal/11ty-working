@@ -9,8 +9,6 @@
    5. Utility Classes
    6. Navigation Bar Styling
 
-   Note: Some variables reference external definitions (Tailwind or other stylesheets):
-   - --green-blue, --bg-whitish defined elsewhere
    ========================================================================== */
 
 /* ==========================================================================
@@ -33,9 +31,8 @@
     --light-blue: #1D4ED8;           /* Secondary - deeper blue for hover/active */
     --medium-blue: #EFF6FF;          /* Surface - light blue-tinted background (header/footer) */
     --whitish: #FFFFFF;              /* Pure white main background */
-
-    /* Additional palette colors */
-    --accent-purple: #A855F7;        /* Purple accent for highlights/buttons */
+    --accent-purple-light: rgba(169, 85, 247, 0.565);  /* Purple accent for highlights/buttons */
+    --accent-purple: #a955f7;
     --text-secondary: #374151;       /* Dark gray for secondary text */
 
     /* ----------------------------------------------------------------------
@@ -149,12 +146,11 @@ a[id$="-menu"] {
 /* --------------------------------------------------------------------------
    LINK HOVER STATES - Interactive feedback
    --------------------------------------------------------------------------
-   Hover effect provides visual feedback. Using success-800 (light green)
-   creates a subtle highlight without overwhelming the content.
+   Hover effect provides visual feedback.
    -------------------------------------------------------------------------- */
 a:hover, a:hover:not(.nav-item),
 footer>div>p>a:hover {
-    background-color: var(--accent-purple);  /* Light green hover highlight */
+    background-color: var(--accent-purple-light);  /* Light purple hover highlight */
    /*  color: var(--jet-200);                 Dark text for contrast */
 }
 
@@ -571,7 +567,7 @@ footer>div>p {
 }
 
 .breadcrumb-list a:hover {
-    color: var(--accent-purple);
+    color: var(--accent-purple-light);
     text-decoration: underline;
 }
 
