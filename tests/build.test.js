@@ -84,7 +84,7 @@ describe("Site Build", () => {
     const feedContent = fs.readFileSync(feedPath, "utf8");
     expect(feedContent).toContain("<?xml");
     expect(feedContent).toContain("<rss");
-    expect(feedContent).toContain("Content Content podcast");
+    expect(feedContent).toContain("Ed Marsh.com");
   });
 
   test("sitemap is copied", () => {
