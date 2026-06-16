@@ -45,7 +45,7 @@
     --pagefind-ui-tag: yellow;                 /* Tag/highlight background */
     --pagefind-ui-border-width: 2px;           /* Thicker borders for visibility */
     --pagefind-ui-shadow: 0;                   /* No shadow - flat design */
-}
+
     /* ----------------------------------------------------------------------
        FONTS - Type Scale (Alphabetical)
        ----------------------------------------------------------------------
@@ -54,7 +54,7 @@
     --monospace: "Reddit Mono", Consolas, Courier, monospace;  /* Code/terminal font */
     --sans-serif: Barlow, Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; /* UI/body text */
     --serif: "Besley", serif;                                    /* Article/prose content */
-
+}
 /* ==========================================================================
    PAGEFIND SEARCH INPUT OVERRIDES
    ==========================================================================
@@ -120,33 +120,10 @@ blockquote {
     border-left: 3px solid var(--medium-blue);  /* Accent border on left */
     margin: 1rem 0;                            /* Vertical spacing */
     padding-left: 1rem;                        /* Space between border and content */
-}
-
-/* --------------------------------------------------------------------------
-   BLOCKQUOTE PREFIX - Decorative "> Note" label
-   --------------------------------------------------------------------------
-   Uses ::before pseudo-element to inject content without HTML markup.
-   Creates a visual "note box" appearance.
-   -------------------------------------------------------------------------- */
-blockquote::before {
-    color: var(--medium-blue);     /* Subtle blue for the prefix */
-    content: "> Note";             /* Injected text content */
-    font-size: 1.2rem;             /* Slightly larger than body text */
-    font-style: normal;            /* Override any italic inheritance */
-}
-
-/* --------------------------------------------------------------------------
-   BLOCKQUOTE CONTENT - Inner paragraph styling
-   --------------------------------------------------------------------------
-   Ensures blockquote paragraphs have consistent, readable appearance.
-   -------------------------------------------------------------------------- */
-blockquote p {
-    color: var(--jet-200);        /* Dark text for readability */
-    font-family: var(--sans-serif); /* Sans-serif for UI-like appearance */
     font-size: 1.0rem;            /* Standard reading size */
-    font-style: normal;           /* Upright text */
     line-height: 1.4rem;          /* Comfortable reading rhythm */
 }
+
 
 /* ==========================================================================
    BUTTONS - Interactive Elements
@@ -222,7 +199,6 @@ h2 {
     margin-bottom: 0.5rem;           /* Less space after - content follows closely */
     padding: 0;
     line-height: 1.7rem;
-    color: var(--text-secondary);
 }
 
 /* --------------------------------------------------------------------------
@@ -236,7 +212,7 @@ h2>a {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.7rem;
-    color: var(--text-secondary)        /* Blue indicates interactivity */
+
 }
 
 h3 {
@@ -283,7 +259,7 @@ p {
     font-size: 1rem;
     font-family: var(--serif);       /* Serif for reading comfort */
     line-height: 1.4rem;             /* Generous leading for readability */
-    margin: 0.75rem 0                /* Vertical rhythm spacing */
+    margin: 0.75rem 0;               /* Vertical rhythm spacing */
 }
 
 /* --------------------------------------------------------------------------
@@ -468,10 +444,6 @@ footer {
     background-color: var(--medium-blue);  /* Same light surface as header (#EFF6FF) */
 }
 
-footer>div>p {
-    color: var(--text-secondary);          /* Dark gray text on light bg */
-}
-
 
 /* ==========================================================================
    HEADER / NAVBAR OVERRIDES - Light theme adjustments for Tailwind classes
@@ -507,11 +479,9 @@ footer>div>p {
 .breadcrumb-list li:not(:last-child)::after {
     content: "/";
     margin-left: 0.5rem;
-    color: var(--text-secondary);
 }
 
 .breadcrumb-list a {
-    color: var(--text-secondary);
     text-decoration: none;
     transition: color 0.2s ease;
 }
@@ -701,7 +671,6 @@ article img:hover {
   display: flex;                      /* Flex for alignment */
 
   padding: 15px 20px;                 /* Comfortable click target */
-  color: var(--text-secondary);      /* Dark gray text on light bg */
   text-decoration: none;             /* No underline */
   border: none;                      /* Remove button border */
   font: inherit;                     /* Inherit navbar font settings */
