@@ -122,21 +122,11 @@ a[id$="-menu"] {
     text-decoration: none;  /* Clean appearance for button-like links */
 }
 
-/* --------------------------------------------------------------------------
-   LINK HOVER STATES - Interactive feedback
-   --------------------------------------------------------------------------
-   Hover effect provides visual feedback.
-   -------------------------------------------------------------------------- */
-a:hover,
-footer>div>p>a:hover {
-    background-color: var(--accent-purple-light);  /* Light purple hover highlight */
-   /*  color: var(--jet-200);                 Dark text for contrast */
-}
 
-/* .nav-item > a:hover  {
-    background-color: white;
+a:hover {
+    background-color: var(--accent-purple-light);  /* Light purple hover highlight */
+
 }
- */
 /* ==========================================================================
    BLOCKQUOTES - Note/Callout Boxes
    ==========================================================================
