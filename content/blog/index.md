@@ -1,6 +1,6 @@
 ---
-title : Golb
-description: yeh
+title : Blog
+description: I updated and simplified my old WordPress site using AI and the Eleventy static site generator.
 tags :
   - blog
   - static-site-transformation
