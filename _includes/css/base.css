@@ -423,18 +423,12 @@ ul li:not(#menubar>ul>li):not(div>ul>div>li) {
     width: 1px;                       /* Minimal width */
 }
 
-/* --------------------------------------------------------------------------
-   FONT UTILITY - Force sans-serif on any element
-   ========================================================================== */
-.font-sans {
-    font-family: var(--sans-serif);   /* Override inherited font */
-}
 
 /* --------------------------------------------------------------------------
    ICON STYLING - Decorative icons
    ========================================================================== */
 .icon {
-    color: var(--blue);        /* Green tint for icons */
+    color: var(--medium-blue);
 }
 
 /* --------------------------------------------------------------------------
