@@ -29,7 +29,7 @@
     --light-blue: #1D4ED8;           /* Secondary - deeper blue for hover/active */
     --medium-blue: #EFF6FF;          /* Surface - light blue-tinted background (header/footer) */
     --whitish: #FFFFFF;              /* Pure white main background */
-    --accent-purple-light: rgba(169, 85, 247, 0.565);  /* Purple accent for highlights/buttons */
+    --accent-purple-light: rgba(169, 85, 247, 0.2);  /* Purple accent for highlights/buttons */
     --accent-purple: #a955f7;
 
     /* ----------------------------------------------------------------------
