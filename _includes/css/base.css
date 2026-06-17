@@ -295,7 +295,6 @@ th {
    ========================================================================== */
 ul {
     margin: 0;                       /* Reset default margins */
-    list-style-position: inside;
 }
 
 ul li {
