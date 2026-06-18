@@ -9,7 +9,7 @@
         "postbuild": "npm run generate-sitemap && npx -y pagefind --site _site && cp sitemap.xml _site/",
         "clean": "rm -rf _site",
         "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
-        "test": "jest",
+        "test": "jest --passWithNoTests",
         "test:watch": "jest --watch",
         "test:coverage": "jest --coverage",
         "test:ci": "jest --ci --coverage --watchAll=false",

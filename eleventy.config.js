@@ -102,7 +102,7 @@ module.exports = function (eleventyConfig) {
       rel: "noopener",
     },
   };
-  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(mila, milaOptions));
+  md.use(mila, milaOptions);
 
   // Limit array to specified number of items
   eleventyConfig.addFilter("limit", (array, limit) =>
@@ -146,6 +146,7 @@ module.exports = function (eleventyConfig) {
 
   // Determine if date should be shown based on URL
   eleventyConfig.addFilter("shouldShowDate", function(page) {
+    if (!page || typeof page.url !== "string") return false;
     if (page.data && page.data.showDate === false) return false;
 
     // URLs to exclude from showing dates
@@ -169,11 +170,14 @@ module.exports = function (eleventyConfig) {
 
   // ===== CSS TEMPLATE FORMAT SETUP =====
   eleventyConfig.addTemplateFormats("css");
-  eleventyConfig.setLibrary("css", () => ({
-    render: async function(content) {
-      return content;
+  eleventyConfig.addExtension("css", {
+    outputFileExtension: "css",
+    compile: async function(inputContent) {
+      return async function() {
+        return inputContent;
+      };
     }
-  }));
+  });
 
   // ===== CSS PROCESSING WITH POSTCSS =====
   const postcss = require('postcss');
@@ -257,7 +261,7 @@ module.exports = function (eleventyConfig) {
       input: "content",
       includes: "../_includes",
       output: "_site",
-      data: "_data",
+      data: "../_data",
     },
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
