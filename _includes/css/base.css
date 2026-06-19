@@ -645,6 +645,7 @@ article img:hover {
   list-style: none;                   /* Remove bullets */
   margin: 0;                          /* Reset margins */
   padding: 0;                         /* Reset padding */
+  flex-wrap: wrap;                    /* Ensure items can wrap if needed */
 }
 
 /* --------------------------------------------------------------------------
@@ -663,7 +664,7 @@ article img:hover {
 .nav-item a {
   display: flex;                      /* Flex for alignment */
 
-  padding: 15px 20px;                 /* Comfortable click target */
+  padding: 10px 10px;                 /* Reduced padding to fit more items on one line */
   text-decoration: none;             /* No underline */
   border: none;                      /* Remove button border */
   font: inherit;                     /* Inherit navbar font settings */
