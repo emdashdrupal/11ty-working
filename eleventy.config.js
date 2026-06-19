@@ -181,7 +181,6 @@ module.exports = function (eleventyConfig) {
 
   // ===== CSS PROCESSING WITH POSTCSS =====
   const postcss = require('postcss');
-  const purgecss = require('@fullhuman/postcss-purgecss');
 
   eleventyConfig.addTransform("postcss-css", async function(content, outputPath) {
     if (!outputPath || !outputPath.endsWith('.css')) {
@@ -197,23 +196,6 @@ module.exports = function (eleventyConfig) {
         require('autoprefixer'),
         require('cssnano')({ preset: 'default' })
       ];
-
-      if (outputPath.includes('tw.css')) {
-        plugins.unshift(
-          purgecss({
-            content: [
-              '_site/**/*.html',
-              'content/**/*.md',
-              'content/**/*.njk'
-            ],
-            defaultExtractor: (content) => content.match(/[^\s"'<>]+/g) || [],
-            safelist: [
-              /pagefind-/,
-              /^pf-/,
-            ]
-          })
-        );
-      }
 
       const result = await postcss(plugins).process(content, {
         from: undefined,

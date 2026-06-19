@@ -530,24 +530,7 @@ footer {
    ========================================================================== */
 
 #search {
-    transition: opacity 0.2s ease-out, transform 0.2s ease-out;  /* Smooth transitions */
-}
-
-/* --------------------------------------------------------------------------
-   SEARCH HIDDEN STATE - Collapsed search interface
-   ========================================================================== */
-#search.hidden {
-    opacity: 0;                       /* Fully transparent */
-    transform: scale(0.95);           /* Slightly shrunk */
-    pointer-events: none;             /* Not interactive when hidden */
-}
-
-/* --------------------------------------------------------------------------
-   SEARCH VISIBLE STATE - Expanded search interface
-   ========================================================================== */
-#search:not(.hidden) {
-    opacity: 1;                       /* Fully opaque */
-    transform: scale(1);              /* Normal size */
+    /* No custom base styles needed, managed by Tailwind */
 }
 
 /* --------------------------------------------------------------------------
@@ -645,6 +628,7 @@ article img:hover {
   list-style: none;                   /* Remove bullets */
   margin: 0;                          /* Reset margins */
   padding: 0;                         /* Reset padding */
+  flex-wrap: wrap;                    /* Ensure items can wrap if needed */
 }
 
 /* --------------------------------------------------------------------------
@@ -663,7 +647,7 @@ article img:hover {
 .nav-item a {
   display: flex;                      /* Flex for alignment */
 
-  padding: 15px 20px;                 /* Comfortable click target */
+  padding: 10px 10px;                 /* Reduced padding to fit more items on one line */
   text-decoration: none;             /* No underline */
   border: none;                      /* Remove button border */
   font: inherit;                     /* Inherit navbar font settings */
