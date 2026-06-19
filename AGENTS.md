@@ -19,6 +19,7 @@ This file contains instructions and tips for AI agents working with this codebas
 ## Building the Project
 - Build the project using the command: `npm run build`
 - Start a local preview server: `npm run start` or `npm run preview`
+- You can also serve the site locally with auto-reload by running `npx @11ty/eleventy --serve`.
 
 ## Testing
 - The project uses Jest for testing.
