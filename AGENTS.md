@@ -8,7 +8,7 @@ This file contains instructions and tips for AI agents working with this codebas
 - It uses Tailwind CSS and PostCSS for styling.
 
 ## Project Structure
-- `content/`: Contains the main content files (Markdown and Nunjucks) for the site, organized by sections (e.g., `blog/`, `podcasts/`, `skills/`). This is the input directory for Eleventy.
+- `content/`: Contains the main content files (Markdown) for the site, organized by sections (e.g., `blog/`, `podcasts/`, `skills/`). This is the input directory for Eleventy.
 - `_includes/`: Contains site layouts, partials, CSS, and JS files used by the templates.
 - `_data/`: Global data files (e.g., JSON) injected into templates.
 - `_site/`: The output directory where the built static site is generated (ignored by Git).
@@ -28,7 +28,7 @@ This file contains instructions and tips for AI agents working with this codebas
 - *Note:* Test failures (such as performance tests) may be temporarily ignored to unblock builds.
 
 ## Common Workflows
-- **Adding new pages/content**: Create a new `.md` or `.njk` file within the appropriate subdirectory in `content/` (e.g., `content/blog/new-post.md`). Use frontmatter to define layouts and tags.
+- **Adding new pages/content**: Create a new `.md` file within the appropriate subdirectory in `content/` (e.g., `content/blog/new-post.md`). Use frontmatter to define layouts and tags.
 - **Managing content collections**: The site uses tags to group content into collections like `blog`, `podcasts`, and `skills`. Add the relevant tag to a file's frontmatter to include it in a collection.
 - **Modifying templates**: Edit the Nunjucks layouts located in `_includes/layouts/`. Ensure any changes remain compatible with the variables injected by Eleventy.
 
