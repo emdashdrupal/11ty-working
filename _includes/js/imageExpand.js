@@ -19,7 +19,9 @@ document.addEventListener('DOMContentLoaded', () => {
             expandedImg.title = img.title;
             
             // Clear and update dialog content
-            dialog.innerHTML = '';
+            while (dialog.firstChild) {
+                dialog.removeChild(dialog.firstChild);
+            }
             dialog.appendChild(expandedImg);
             
             // Show dialog
