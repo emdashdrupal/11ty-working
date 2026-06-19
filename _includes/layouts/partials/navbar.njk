@@ -18,19 +18,19 @@
                 </li>
             {%- endfor %}
             <li class="nav-item mx-2">
-                <a href="https://github.com/edmarsh" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                    <i class="fa-brands fa-github text-xl"></i>
-                </a>
-            </li>
-            <li class="nav-item mx-2">
                 <a href="https://linkedin.com/in/edmarsh" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                     <i class="fa-brands fa-linkedin text-xl"></i>
                 </a>
             </li>
+            <li class="nav-item mx-2">
+                <a href="https://github.com/emdashdrupal" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fa-brands fa-github text-xl"></i>
+                </a>
+            </li>
         </ul>
         <div class="flex items-center group relative ml-2">
-            <i class="fa-solid fa-magnifying-glass text-xl cursor-pointer"></i>
-            <div id="search" class="w-0 overflow-hidden transition-all duration-300 ease-in-out group-hover:w-48 focus-within:w-48 absolute right-0 top-full mt-2 bg-white shadow-lg z-50">
+            <i class="fa-solid fa-magnifying-glass text-xl cursor-pointer p-2"></i>
+            <div id="search" class="opacity-0 pointer-events-none transform scale-95 group-hover:opacity-100 group-hover:pointer-events-auto group-hover:scale-100 focus-within:opacity-100 focus-within:pointer-events-auto focus-within:scale-100 transition-all duration-300 ease-in-out absolute right-0 top-full mt-2 bg-white shadow-lg z-50 p-2 rounded-md min-w-[300px]">
                 <pagefind-modal-trigger></pagefind-modal-trigger>
                 <pagefind-modal></pagefind-modal>
             </div>
