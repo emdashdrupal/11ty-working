@@ -427,7 +427,7 @@ ul li:not(#menubar>ul>li):not(div>ul>div>li) {
    ICON STYLING - Decorative icons
    ========================================================================== */
 .icon {
-    color: var(--medium-blue);
+    color: var(--light-blue);
 }
 
 /* --------------------------------------------------------------------------
