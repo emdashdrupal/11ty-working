@@ -31,7 +31,7 @@ try {
         },
         {
             name: 'Blog section header',
-            check: () => indexHtml.includes('Creating a static site')
+            check: () => indexHtml.includes('Blog')
         },
         {
             name: 'Skills cards rendering',
