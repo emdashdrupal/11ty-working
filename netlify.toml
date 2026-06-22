@@ -37,6 +37,6 @@
   [plugins.inputs]
     skipPatterns = [
       "https://fonts.gstatic.com",
-      "https://fonts.gstatic.com/*",
-      "https://fonts.googleapis.com/*"
+      "https://fonts.gstatic.com/.*",
+      "https://fonts.googleapis.com/.*"
     ]
