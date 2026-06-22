@@ -7,10 +7,16 @@ module.exports = {
     './_includes/**/*.html'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['var(--sans-serif)'],
+        serif: ['var(--serif)'],
+        mono: ['var(--monospace)'],
+      }
+    },
   },
   plugins: [],
   corePlugins: {
-    preflight: false, // Disable Tailwind's reset since we have base.css
+    preflight: true, // Disable Tailwind's reset since we have base.css
   }
 }
