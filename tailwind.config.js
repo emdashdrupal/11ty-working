@@ -7,7 +7,13 @@ module.exports = {
     './_includes/**/*.html'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['var(--sans-serif)'],
+        serif: ['var(--serif)'],
+        mono: ['var(--monospace)'],
+      }
+    },
   },
   plugins: [],
   corePlugins: {
