@@ -4,36 +4,38 @@
             Successful technical content through community building
         </a>
     </div>
-    {% set navPages = collections.all | eleventyNavigation %}
 
-    <nav id="menubar" class="navbar col-span-1 md:col-span-8 flex flex-row justify-end items-center" aria-label="Main Navigation">
-        <button id="menuToggle" class="md:hidden col-span-1 justify-self-end" aria-expanded="false" aria-controls="menubar">
+    <div class="col-span-1 md:hidden flex justify-end items-center">
+        <button id="menuToggle" class="p-2" aria-expanded="false" aria-controls="menubar">
             <i class="fa-solid fa-bars text-2xl"></i>
             <span class="sr-only">Toggle menu</span>
         </button>
-        <ul class="nav-list flex items-center">
+    </div>
+
+    {% set navPages = collections.all | eleventyNavigation %}
+
+    <nav id="menubar" class="navbar hidden md:flex col-span-4 md:col-span-8 flex-col md:flex-row justify-end items-start md:items-center" aria-label="Main Navigation">
+        <ul class="nav-list flex flex-col md:flex-row items-start md:items-center w-full md:w-auto">
             {%- for entry in navPages %}
-                <li class="nav-item">
+                <li class="nav-item w-full md:w-auto">
                     <a href="{{ entry.url | url }}">{{ entry.title }}</a>
                 </li>
             {%- endfor %}
-            <li class="nav-item mx-2">
-                <a href="https://linkedin.com/in/edmarsh" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <li class="nav-item flex flex-row items-center mx-2">
+                <a href="https://linkedin.com/in/edmarsh" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="p-2">
                     <i class="fa-brands fa-linkedin text-xl"></i>
                 </a>
-            </li>
-            <li class="nav-item mx-2">
-                <a href="https://github.com/emdashdrupal" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/emdashdrupal" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="p-2">
                     <i class="fa-brands fa-github text-xl"></i>
                 </a>
+                <div class="flex items-center group relative">
+                    <i class="fa-solid fa-magnifying-glass text-xl cursor-pointer p-2"></i>
+                    <div id="search" class="opacity-0 pointer-events-none transform scale-95 group-hover:opacity-100 group-hover:pointer-events-auto group-hover:scale-100 focus-within:opacity-100 focus-within:pointer-events-auto focus-within:scale-100 transition-all duration-300 ease-in-out absolute right-0 top-full mt-2 bg-white shadow-lg z-50 p-2 rounded-md min-w-[300px]">
+                        <pagefind-modal-trigger></pagefind-modal-trigger>
+                        <pagefind-modal></pagefind-modal>
+                    </div>
+                </div>
             </li>
         </ul>
-        <div class="flex items-center group relative ml-2">
-            <i class="fa-solid fa-magnifying-glass text-xl cursor-pointer p-2"></i>
-            <div id="search" class="opacity-0 pointer-events-none transform scale-95 group-hover:opacity-100 group-hover:pointer-events-auto group-hover:scale-100 focus-within:opacity-100 focus-within:pointer-events-auto focus-within:scale-100 transition-all duration-300 ease-in-out absolute right-0 top-full mt-2 bg-white shadow-lg z-50 p-2 rounded-md min-w-[300px]">
-                <pagefind-modal-trigger></pagefind-modal-trigger>
-                <pagefind-modal></pagefind-modal>
-            </div>
-        </div>
     </nav>
 </div>
