@@ -11,6 +11,6 @@ module.exports = {
   },
   plugins: [],
   corePlugins: {
-    preflight: false, // Disable Tailwind's reset since we have base.css
+    preflight: true, // Disable Tailwind's reset since we have base.css
   }
 }
