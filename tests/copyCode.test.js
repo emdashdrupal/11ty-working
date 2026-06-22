@@ -1,5 +1,3 @@
-require('@testing-library/jest-dom');
-
 // Mock clipboard API
 Object.assign(navigator, {
   clipboard: {

@@ -1,5 +1,3 @@
-require('@testing-library/jest-dom');
-
 describe('Mobile Menu Toggle', () => {
   let menuToggle;
   let menubar;

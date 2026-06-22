@@ -1,5 +1,3 @@
-require('@testing-library/jest-dom');
-
 describe('Image Expand', () => {
   let images;
 
