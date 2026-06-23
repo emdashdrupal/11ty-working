@@ -48,10 +48,12 @@ function getDateFromFile(filePath) {
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const { data } = matter(fileContent);
 
-    // 1. Priority: Frontmatter date
-    if (data.date) {
+    // 1. Priority: Frontmatter date (if it's a valid date string/object)
+    if (data.date && data.date !== 'Last Modified') {
       const date = new Date(data.date);
-      return date.toISOString().split('T')[0];
+      if (!isNaN(date.getTime())) {
+        return date.toISOString().split('T')[0];
+      }
     }
 
     // 2. Secondary: Git commit date (stable across checkouts)
