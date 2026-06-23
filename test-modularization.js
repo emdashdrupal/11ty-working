@@ -44,6 +44,10 @@ try {
         {
             name: 'No unrendered Nunjucks syntax',
             check: () => !indexHtml.match(/\{\{[^}]*\}\}/) && !indexHtml.match(/\{%[^%]*%\}/)
+        },
+        {
+            name: 'No podcast landing page card on homepage',
+            check: () => !indexHtml.includes('card-title-content-content-podcast-the-people-behind-the-content')
         }
     ];
 
