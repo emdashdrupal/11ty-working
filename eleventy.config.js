@@ -149,15 +149,19 @@ module.exports = function (eleventyConfig) {
     if (!page || typeof page.url !== "string") return false;
     if (page.data && page.data.showDate === false) return false;
 
-    // URLs to exclude from showing dates
-    const excludedUrls = ["/", "/about/", "/contact/", "/skills/"];
-
-    // Check for exact URL matches
+    // 1. Exclude exact URL matches for site root and landing pages
+    const excludedUrls = ["/", "/about/", "/contact/", "/skills/", "/blog/", "/podcasts/"];
     if (excludedUrls.includes(page.url)) return false;
 
-    // Check for URL patterns (sections to exclude) - covers subpages
-    const excludedPatterns = ["/about/", "/contact/", "/skills/"];
-    if (excludedPatterns.some(pattern => page.url.startsWith(pattern))) return false;
+    // 2. Exclude all content in specific sections (including subpages)
+    const excludedSections = ["/about/", "/contact/", "/skills/"];
+    if (excludedSections.some(pattern => page.url.startsWith(pattern))) return false;
+
+    // 3. Exclude index files for blog and podcasts (landing and sub-index pages)
+    const isIndexFile = page.inputPath && page.inputPath.endsWith("index.md");
+    if (isIndexFile && (page.url.startsWith("/blog/") || page.url.startsWith("/podcasts/"))) {
+      return false;
+    }
 
     return true;
   });
