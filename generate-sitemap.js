@@ -15,17 +15,17 @@ const defaultPriority = {
   post: 0.7
 };
 
-// Current date in YYYY-MM-DD format for files without dates
+// Current date in YYYY-MM-DD format for fallback if everything else fails
 const today = new Date().toISOString().split('T')[0];
 
-// Main sections of the site
-const mainSections = [
+// Configuration for specific paths
+const pathConfigs = [
   { path: '/', priority: defaultPriority.home, changefreq: 'monthly' },
-  { path: '/about/about-ed-marsh/', priority: defaultPriority.section, changefreq: 'monthly' },
+  { path: '/about/', priority: defaultPriority.section, changefreq: 'monthly' },
   { path: '/contact/', priority: defaultPriority.section, changefreq: 'monthly' },
   { path: '/skills/', priority: defaultPriority.section, changefreq: 'monthly' },
   { path: '/podcasts/', priority: defaultPriority.section, changefreq: 'monthly' },
-  { path: '/blog/**', priority: defaultPriority.section, changefreq: 'weekly' }
+  { path: '/blog/', priority: defaultPriority.section, changefreq: 'weekly' }
 ];
 
 // Function to extract date from frontmatter
@@ -52,19 +52,22 @@ function getDateFromFile(filePath) {
 // Function to determine URL from file path
 function getUrlFromFilePath(filePath) {
   // Remove content directory and file extension
-  let url = filePath.replace(contentDir + '/', '').replace(/\.(md|njk|html)$/, '');
+  let relativePath = filePath.replace(contentDir + '/', '');
+  let url = relativePath.replace(/\.(md|njk|html)$/, '');
 
   // Handle index files
-  if (url.endsWith('/index')) {
-    url = url.replace('/index', '/');
-  }
-
-  // Ensure URL starts and ends with slash
-  if (!url.startsWith('/')) {
-    url = '/' + url;
-  }
-  if (!url.endsWith('/') && !path.extname(url)) {
-    url = url + '/';
+  if (url === 'index') {
+    url = '/';
+  } else if (url.endsWith('/index')) {
+    url = '/' + url.replace('/index', '/');
+  } else {
+    // Ensure URL starts and ends with slash
+    if (!url.startsWith('/')) {
+      url = '/' + url;
+    }
+    if (!url.endsWith('/')) {
+      url = url + '/';
+    }
   }
 
   return url;
@@ -74,53 +77,40 @@ function getUrlFromFilePath(filePath) {
 function getPriority(url) {
   if (url === '/') return defaultPriority.home;
 
-  // Check if it's a main section
-  const section = mainSections.find(section => section.path === url);
-  if (section) return section.priority;
+  // Check if it's in our explicit path configs
+  const config = pathConfigs.find(c => c.path === url);
+  if (config) return config.priority;
 
-  // Check if it's a direct child of a main section
-  const parentSection = mainSections.find(section =>
-    url.startsWith(section.path) && url.split('/').length === section.path.split('/').length + 1
-  );
-  if (parentSection) return defaultPriority.page;
+  // Check if it's a direct child of a main section (e.g., /blog/some-post/)
+  const parts = url.split('/').filter(Boolean);
+  if (parts.length === 1) return defaultPriority.section;
+  if (parts.length === 2) return defaultPriority.page;
 
   return defaultPriority.post;
 }
 
 // Function to determine change frequency
 function getChangeFreq(url) {
-  if (url === '/') return 'weekly';
-
-  const section = mainSections.find(section => section.path === url);
-  if (section) return section.changefreq;
+  const config = pathConfigs.find(c => c.path === url);
+  if (config) return config.changefreq;
 
   return defaultChangeFreq;
 }
 
 // Generate sitemap entries
 function generateSitemapEntries() {
-  const entries = [];
+  const entriesMap = new Map();
 
-  // Add main sections first
-  mainSections.forEach(section => {
-    entries.push({
-      loc: siteUrl + section.path,
-      lastmod: today,
-      changefreq: section.changefreq,
-      priority: section.priority
-    });
-  });
-
-  // Find all content files
-  const contentFiles = glob.sync(`${contentDir}/**/*.{md,njk,html}`, { ignore: `${contentDir}/**/index.{md,njk,html}` });
+  // Find all content files including index files
+  const contentFiles = glob.sync(`${contentDir}/**/*.{md,njk,html}`);
 
   // Process each file
   contentFiles.forEach(file => {
     try {
-      // Skip files with eleventyExcludeFromCollections: true
       const fileContent = fs.readFileSync(file, 'utf8');
       const { data } = matter(fileContent);
 
+      // Skip files with eleventyExcludeFromCollections: true
       if (data.eleventyExcludeFromCollections === true) {
         return;
       }
@@ -130,23 +120,32 @@ function generateSitemapEntries() {
       const priority = getPriority(url);
       const changefreq = getChangeFreq(url);
 
-      entries.push({
-        loc: siteUrl + url,
-        lastmod,
-        changefreq,
-        priority
-      });
+      // Avoid duplicates, keep the one with the most recent date if multiple files map to same URL (unlikely but safe)
+      if (!entriesMap.has(url) || entriesMap.get(url).lastmod < lastmod) {
+        entriesMap.set(url, {
+          loc: siteUrl + url,
+          lastmod,
+          changefreq,
+          priority
+        });
+      }
     } catch (error) {
       console.error(`Error processing ${file}: ${error.message}`);
     }
   });
 
-  return entries;
+  return Array.from(entriesMap.values());
 }
 
 // Generate sitemap XML
 function generateSitemap() {
   const entries = generateSitemapEntries();
+
+  // Sort entries by priority descending, then by loc
+  entries.sort((a, b) => {
+    if (b.priority !== a.priority) return b.priority - a.priority;
+    return a.loc.localeCompare(b.loc);
+  });
 
   let xml = '<?xml version="1.0" encoding="utf-8"?>\n';
   xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
@@ -156,14 +155,14 @@ function generateSitemap() {
     xml += `    <loc>${entry.loc}</loc>\n`;
     xml += `    <lastmod>${entry.lastmod}</lastmod>\n`;
     xml += `    <changefreq>${entry.changefreq}</changefreq>\n`;
-    xml += `    <priority>${entry.priority}</priority>\n`;
+    xml += `    <priority>${entry.priority.toFixed(1)}</priority>\n`;
     xml += '  </url>\n';
   });
 
   xml += '</urlset>';
 
   fs.writeFileSync(outputFile, xml);
-  console.log(`Sitemap generated at ${outputFile}`);
+  console.log(`Sitemap generated at ${outputFile} with ${entries.length} entries.`);
 }
 
 // Run the generator

@@ -27,3 +27,6 @@ coverage/
 *.log
 .nyc_output/
 package-lock.json
+
+# Generated files
+sitemap.xml
