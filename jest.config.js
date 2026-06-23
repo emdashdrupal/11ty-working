@@ -3,6 +3,7 @@ module.exports = {
   testMatch: [
     '**/tests/**/*.test.js'
   ],
+  setupFilesAfterEnv: ['./tests/setupTests.js'],
   collectCoverageFrom: [
     'eleventy.config.js',
     '_includes/js/**/*.js',
