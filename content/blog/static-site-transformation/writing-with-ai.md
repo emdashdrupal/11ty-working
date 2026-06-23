@@ -7,7 +7,7 @@ featuredOrder: 2
 eleventyNavigation:
   key: writing-with-ai
   title: Writing documentation with AI
-date: '2026-06-22'
+date: '2025-09-23'
 ---
 
 The answer for coders is *not yet*. For those on the more creative end, including technical writers, it's a bit more grey.

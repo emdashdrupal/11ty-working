@@ -1,14 +1,13 @@
 ---
 title: Creating reusable content for static site generators (SSGs)
-description: >-
-  I modularized my content to display it in the right place at the right
+description: I modularized my content to display it in the right place at the right
   time&mdash;a major tenet of content strategy.
 FontAwesomeIcon: solid fa-recycle
 eleventyNavigation:
   key: ssg-reusable-content
   title: Reusing content with SSGs
   parent: Blog
-date: '2026-06-22'
+date: '2025-02-23'
 ---
 
 ## What is reusable content?
