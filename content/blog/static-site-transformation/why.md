@@ -3,6 +3,7 @@ title : 'The why: Behind my SSG conversion project'
 description: I put myself in *every* role of building out a website to better understand how content is programmatically consumed and displayed.
 FontAwesomeIcon: solid fa-person-circle-question
 date: 2025-03-01
+featured: true
 eleventyNavigation:
   key: the-why
   title: Why I did this SSG conversion project
