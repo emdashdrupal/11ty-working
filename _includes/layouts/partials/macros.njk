@@ -102,7 +102,7 @@
             <h2 id="card-title-{{ title | slugify }}" class="card-title">
                 <a href="{{ url | url }}" aria-label="Read-more-about-{{ title | slugify }};">{{ title | safe }}</a>
             </h2>
-            <div class="card-description flex-grow">
+            <div class="card-description flex-grow font-sans">
                 {{ description | markdown | safe }}
             </div>
             <p>{{ renderButton(url, buttonText, title) }}</p>
