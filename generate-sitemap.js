@@ -1,7 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
-const glob = require('glob');
+const { globSync } = require('glob');
+const { execSync } = require('child_process');
 
 // Configuration
 const siteUrl = 'https://edmar.sh';
@@ -15,73 +16,88 @@ const defaultPriority = {
   post: 0.7
 };
 
-// Current date in YYYY-MM-DD format for fallback if everything else fails
+// Current date in YYYY-MM-DD format for fallback
 const today = new Date().toISOString().split('T')[0];
 
-// Configuration for specific paths
+// Configuration for specific paths to ensure they get the right priority and changefreq
 const pathConfigs = [
   { path: '/', priority: defaultPriority.home, changefreq: 'monthly' },
-  { path: '/about/', priority: defaultPriority.section, changefreq: 'monthly' },
+  { path: '/about/about-ed-marsh/', priority: defaultPriority.section, changefreq: 'monthly' },
   { path: '/contact/', priority: defaultPriority.section, changefreq: 'monthly' },
   { path: '/skills/', priority: defaultPriority.section, changefreq: 'monthly' },
   { path: '/podcasts/', priority: defaultPriority.section, changefreq: 'monthly' },
   { path: '/blog/', priority: defaultPriority.section, changefreq: 'weekly' }
 ];
 
-// Function to extract date from frontmatter
+// Function to get last commit date from Git
+function getGitDate(filePath) {
+  try {
+    const gitDate = execSync(`git log -1 --format=%as -- "${filePath}"`, { encoding: 'utf8' }).trim();
+    if (gitDate && /^\d{4}-\d{2}-\d{2}$/.test(gitDate)) {
+      return gitDate;
+    }
+  } catch (e) {
+    // Git might fail in some environments or if file is untracked
+  }
+  return null;
+}
+
+// Function to extract date from frontmatter or Git
 function getDateFromFile(filePath) {
   try {
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const { data } = matter(fileContent);
 
+    // 1. Priority: Frontmatter date
     if (data.date) {
-      // Convert date to YYYY-MM-DD format
       const date = new Date(data.date);
       return date.toISOString().split('T')[0];
     }
 
-    // If no date in frontmatter, use file modification date
+    // 2. Secondary: Git commit date (stable across checkouts)
+    const gitDate = getGitDate(filePath);
+    if (gitDate) return gitDate;
+
+    // 3. Fallback: File modification date
     const stats = fs.statSync(filePath);
     return new Date(stats.mtime).toISOString().split('T')[0];
   } catch (error) {
-    console.error(`Error processing ${filePath}: ${error.message}`);
+    console.error(`Error processing date for ${filePath}: ${error.message}`);
     return today;
   }
 }
 
 // Function to determine URL from file path
 function getUrlFromFilePath(filePath) {
-  // Remove content directory and file extension
-  let relativePath = filePath.replace(contentDir + '/', '');
-  let url = relativePath.replace(/\.(md|njk|html)$/, '');
+  const relativePath = path.relative(contentDir, filePath);
+  const parsed = path.parse(relativePath);
+
+  let urlPath = path.join(parsed.dir, parsed.name).replace(/\\/g, '/');
 
   // Handle index files
-  if (url === 'index') {
-    url = '/';
-  } else if (url.endsWith('/index')) {
-    url = '/' + url.replace('/index', '/');
-  } else {
-    // Ensure URL starts and ends with slash
-    if (!url.startsWith('/')) {
-      url = '/' + url;
-    }
-    if (!url.endsWith('/')) {
-      url = url + '/';
-    }
+  if (parsed.name === 'index') {
+    urlPath = parsed.dir;
+  }
+  // Handle case where filename matches directory name (e.g., contact/contact.md -> /contact/)
+  else if (path.basename(parsed.dir) === parsed.name) {
+    urlPath = parsed.dir;
   }
 
-  return url;
+  // Normalize slashes
+  if (!urlPath || urlPath === '.') {
+    return '/';
+  }
+
+  return `/${urlPath}/`;
 }
 
 // Function to determine priority based on path
 function getPriority(url) {
   if (url === '/') return defaultPriority.home;
 
-  // Check if it's in our explicit path configs
   const config = pathConfigs.find(c => c.path === url);
   if (config) return config.priority;
 
-  // Check if it's a direct child of a main section (e.g., /blog/some-post/)
   const parts = url.split('/').filter(Boolean);
   if (parts.length === 1) return defaultPriority.section;
   if (parts.length === 2) return defaultPriority.page;
@@ -100,17 +116,13 @@ function getChangeFreq(url) {
 // Generate sitemap entries
 function generateSitemapEntries() {
   const entriesMap = new Map();
+  const contentFiles = globSync(`${contentDir}/**/*.{md,njk,html}`);
 
-  // Find all content files including index files
-  const contentFiles = glob.sync(`${contentDir}/**/*.{md,njk,html}`);
-
-  // Process each file
   contentFiles.forEach(file => {
     try {
       const fileContent = fs.readFileSync(file, 'utf8');
       const { data } = matter(fileContent);
 
-      // Skip files with eleventyExcludeFromCollections: true
       if (data.eleventyExcludeFromCollections === true) {
         return;
       }
@@ -120,7 +132,6 @@ function generateSitemapEntries() {
       const priority = getPriority(url);
       const changefreq = getChangeFreq(url);
 
-      // Avoid duplicates, keep the one with the most recent date if multiple files map to same URL (unlikely but safe)
       if (!entriesMap.has(url) || entriesMap.get(url).lastmod < lastmod) {
         entriesMap.set(url, {
           loc: siteUrl + url,
@@ -141,7 +152,6 @@ function generateSitemapEntries() {
 function generateSitemap() {
   const entries = generateSitemapEntries();
 
-  // Sort entries by priority descending, then by loc
   entries.sort((a, b) => {
     if (b.priority !== a.priority) return b.priority - a.priority;
     return a.loc.localeCompare(b.loc);
@@ -165,5 +175,4 @@ function generateSitemap() {
   console.log(`Sitemap generated at ${outputFile} with ${entries.length} entries.`);
 }
 
-// Run the generator
 generateSitemap();
