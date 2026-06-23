@@ -12,7 +12,7 @@ eleventyNavigation:
   key: podcasting-skill
   title: Podcasting
   parent: skills
-date: '2026-06-22'
+date: '2025-09-25'
 ---
 Podcasts are a terrifically friendly and informative way to get your message out. With over seven years of experience in podcasting, and numerous presentations about the value of podcasting, let's consider this as part of your [content strategy](/skills/content-strategy/).
 

@@ -10,7 +10,7 @@ eleventyNavigation:
   key: tech-writing-skill
   title: Technical writing
   parent: skills
-date: '2026-06-22'
+date: '2025-09-25'
 ---
 
 - **Detective**: Tracking down information across wikis, SharePoint, Confluence, legacy systems, and Subject Matter Experts (SMEs).

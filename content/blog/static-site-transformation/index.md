@@ -9,5 +9,5 @@ eleventyNavigation:
   key: static-site-transformation
   title: Static Site Transformation
   parent: Blog
-date: '2026-06-22'
+date: '2025-09-25'
 ---

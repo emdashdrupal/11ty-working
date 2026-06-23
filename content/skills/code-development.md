@@ -11,7 +11,7 @@ eleventyNavigation:
   key: coding-experience
   title: Coding experience
   parent: skills
-date: '2026-06-22'
+date: '2025-09-25'
 ---
 Here's how I've used code to solve content problems:
 

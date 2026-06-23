@@ -12,7 +12,7 @@ eleventyNavigation:
   key: metrics-skill
   title: Metrics and data
   parent: skills
-date: '2026-06-22'
+date: '2025-09-25'
 ---
  Measuring how your content performs can help your organization:
 

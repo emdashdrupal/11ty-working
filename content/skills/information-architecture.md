@@ -12,7 +12,7 @@ eleventyNavigation:
   key: info-architecture-skill
   title: Information architecture
   parent: skills
-date: '2026-06-22'
+date: '2025-09-25'
 ---
 The way you present and organize your content says a lot to your clients and customers. Giving structure to your organization's content ensures:
 

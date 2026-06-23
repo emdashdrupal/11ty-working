@@ -9,7 +9,7 @@ FontAwesomeIcon: solid fa-person-circle-question
 eleventyNavigation:
   key: About
   order: 80
-date: '2026-06-22'
+date: '2025-09-25'
 ---
 I'm a proud New Jersey native, and I'm passionate about:
 

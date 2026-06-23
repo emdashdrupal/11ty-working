@@ -11,7 +11,7 @@ eleventyNavigation:
   key: ai-usage-skill
   title: AI usage
   parent: skills
-date: '2026-06-22'
+date: '2025-09-25'
 ---
 Here's how I've used AI:
 

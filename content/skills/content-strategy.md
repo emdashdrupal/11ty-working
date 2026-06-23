@@ -12,7 +12,7 @@ eleventyNavigation:
   key: content-strategy-skill
   title: Content strategy
   parent: skills
-date: '2026-06-22'
+date: '2025-09-25'
 ---
 Let's be honest. Most organizations' content is scattered across Confluence pages, SharePoint, your company's intranet, hundreds of repositories, help systems which may or may not be current, knowledge management systems, Word documents, and more.
 

@@ -12,7 +12,7 @@ eleventyNavigation:
   key: community-building
   title: Community building
   parent: skills
-date: '2026-06-22'
+date: '2025-09-25'
 ---
 I have a history of finding those people and encouraging them to be champions for high-quality content that's an asset to your firm.
 
