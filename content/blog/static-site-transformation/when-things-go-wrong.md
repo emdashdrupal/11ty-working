@@ -1,13 +1,13 @@
 ---
-title : When your content strategy goes wrong
-description : Writing this blog post wasn't part of my plan.
-FontAwesomeIcon : solid fa-car-burst
-featured : true
-featuredOrder : 0
+title: When your content strategy goes wrong
+description: Writing this blog post wasn't part of my plan.
+FontAwesomeIcon: solid fa-car-burst
+featured: true
+featuredOrder: 0
 eleventyNavigation:
   key: strategy-goes-wrong
   title: When the content strategy goes wrong
-
+date: '2025-11-19'
 ---
 
 A major part of my post-launch content strategy was releasing blog posts on a regular cadence to drive traffic. As I built my site, I documented the process through partially written Markdown files. I stored these blog post stubs in a `DONT-DELETE` branch in my Git repository. Not quite best practice, but also not unusual to those who have had to clean up obsolete branches.

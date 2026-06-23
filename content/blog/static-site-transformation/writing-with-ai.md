@@ -1,13 +1,13 @@
 ---
-title: 'Asking AI to write documentation'
-description: 'I decided to see if AI was going to take my job.'
+title: Asking AI to write documentation
+description: I decided to see if AI was going to take my job.
 FontAwesomeIcon: solid fa-keyboard
 featured: true
 featuredOrder: 2
 eleventyNavigation:
   key: writing-with-ai
   title: Writing documentation with AI
-
+date: '2025-09-23'
 ---
 
 The answer for coders is *not yet*. For those on the more creative end, including technical writers, it's a bit more grey.

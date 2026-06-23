@@ -1,15 +1,16 @@
 ---
 title: Technical writing
-description: Technical writers are a Venn diagram of detective, translator, and librarian.
-FontAwesomeIcon : "solid fa-paragraph"
+description: 'Technical writers are a Venn diagram of detective, translator, and librarian.'
+FontAwesomeIcon: solid fa-paragraph
 featured: true
 featuredOrder: 3
-categories: "technical-writing"
+categories: technical-writing
 cover: content-lifecycle-create.png
 eleventyNavigation:
   key: tech-writing-skill
   title: Technical writing
   parent: skills
+date: '2025-09-25'
 ---
 
 - **Detective**: Tracking down information across wikis, SharePoint, Confluence, legacy systems, and Subject Matter Experts (SMEs).

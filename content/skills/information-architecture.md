@@ -1,7 +1,9 @@
 ---
 title: Information architecture
-description: Like a house, content needs architecture and structure. I can guide you toward effective information architecture.
-FontAwesomeIcon: "solid fa-sitemap"
+description: >-
+  Like a house, content needs architecture and structure. I can guide you toward
+  effective information architecture.
+FontAwesomeIcon: solid fa-sitemap
 categories: information-architecture
 featured: true
 featuredOrder: 1
@@ -10,6 +12,7 @@ eleventyNavigation:
   key: info-architecture-skill
   title: Information architecture
   parent: skills
+date: '2025-09-25'
 ---
 The way you present and organize your content says a lot to your clients and customers. Giving structure to your organization's content ensures:
 

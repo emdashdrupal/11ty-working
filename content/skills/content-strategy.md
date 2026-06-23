@@ -1,6 +1,8 @@
 ---
 title: Content strategy
-description : Is your content working for your organization? I can help you find out, and improve your entire content experience.
+description: >-
+  Is your content working for your organization? I can help you find out, and
+  improve your entire content experience.
 FontAwesomeIcon: solid fa-handshake
 featured: true
 featuredOrder: 0
@@ -10,6 +12,7 @@ eleventyNavigation:
   key: content-strategy-skill
   title: Content strategy
   parent: skills
+date: '2025-09-25'
 ---
 Let's be honest. Most organizations' content is scattered across Confluence pages, SharePoint, your company's intranet, hundreds of repositories, help systems which may or may not be current, knowledge management systems, Word documents, and more.
 

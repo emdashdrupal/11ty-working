@@ -1,6 +1,8 @@
 ---
-title : Metrics and data
-description: Every organization wants to know how its content performs. I have extensive experience implementing and monitoring content metrics.
+title: Metrics and data
+description: >-
+  Every organization wants to know how its content performs. I have extensive
+  experience implementing and monitoring content metrics.
 FontAwesomeIcon: solid fa-magnifying-glass-chart
 categories: metrics
 cover: content-lifecycle-measure.png
@@ -10,6 +12,7 @@ eleventyNavigation:
   key: metrics-skill
   title: Metrics and data
   parent: skills
+date: '2025-09-25'
 ---
  Measuring how your content performs can help your organization:
 
