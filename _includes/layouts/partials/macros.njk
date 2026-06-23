@@ -14,7 +14,12 @@
         <p class="description">{{ description | safe }}</p>
         <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
             {% if collectionName == "podcasts" %}
-                {% set itemsToShow = collections[collectionName] | sort(false, false, "data.date") | reverse %}
+                {% set itemsToShow = [] %}
+                {% for item in collections[collectionName] | sort(false, false, "data.date") | reverse %}
+                    {% if not item.inputPath or not item.inputPath.endsWith('/index.md') %}
+                        {% set itemsToShow = (itemsToShow.push(item), itemsToShow) %}
+                    {% endif %}
+                {% endfor %}
             {% else %}
                 {% set featured = collections[collectionName] | filterBy("data.featured", true) %}
                 {% set itemsToShow = featured | sort(false, false, "data.featuredOrder") %}
