@@ -1,7 +1,9 @@
 ---
-title : Podcasting
-description: As a host, producer, and guest, I've learned the importance of podcasting as part of your content offerings.
-FontAwesomeIcon : solid fa-podcast
+title: Podcasting
+description: >-
+  As a host, producer, and guest, I've learned the importance of podcasting as
+  part of your content offerings.
+FontAwesomeIcon: solid fa-podcast
 categories: podcasting
 cover: content-lifecycle-create.png
 featured: false
@@ -10,6 +12,7 @@ eleventyNavigation:
   key: podcasting-skill
   title: Podcasting
   parent: skills
+date: '2026-06-22'
 ---
 Podcasts are a terrifically friendly and informative way to get your message out. With over seven years of experience in podcasting, and numerous presentations about the value of podcasting, let's consider this as part of your [content strategy](/skills/content-strategy/).
 

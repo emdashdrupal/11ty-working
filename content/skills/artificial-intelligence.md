@@ -1,6 +1,8 @@
 ---
 title: AI usage
-description: I run LLMs locally to understand how they work and how I can best leverage it for my clients and users.
+description: >-
+  I run LLMs locally to understand how they work and how I can best leverage it
+  for my clients and users.
 FontAwesomeIcon: solid fa-terminal
 categories: artificial-intelligence
 featured: true
@@ -9,6 +11,7 @@ eleventyNavigation:
   key: ai-usage-skill
   title: AI usage
   parent: skills
+date: '2026-06-22'
 ---
 Here's how I've used AI:
 

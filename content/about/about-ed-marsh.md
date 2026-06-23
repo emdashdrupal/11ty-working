@@ -1,11 +1,15 @@
 ---
-title: "Ed Marsh: technical communicator, content strategist, podcaster, mentor"
-description:  I've always been curious about technology. As a kid, I was the one who pushed all the buttons to see what would happen. That curiosity led to some scolding and an award-winning career in technical communication.
+title: 'Ed Marsh: technical communicator, content strategist, podcaster, mentor'
+description: >-
+  I've always been curious about technology. As a kid, I was the one who pushed
+  all the buttons to see what would happen. That curiosity led to some scolding
+  and an award-winning career in technical communication.
 layout: layouts/details.njk
 FontAwesomeIcon: solid fa-person-circle-question
 eleventyNavigation:
   key: About
   order: 80
+date: '2026-06-22'
 ---
 I'm a proud New Jersey native, and I'm passionate about:
 

@@ -1,11 +1,13 @@
 {
     "buttonText": "Read more →",
     "collectionName": "blog",
-    "tags": ["blog"],
+    "tags": [
+        "blog"
+    ],
     "layout": "layouts/details.njk",
     "category": "Static site transformation",
     "categoryFontAwesomeIcon": "solid fa-truck-fast",
-    "date": "Last Modified",
+    "date": "2026-06-22",
     "eleventyNavigation": {
         "parent": "static-site-transformation"
     }

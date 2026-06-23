@@ -43,11 +43,8 @@ function getGitDate(filePath) {
 }
 
 // Function to extract date from frontmatter or Git
-function getDateFromFile(filePath) {
+function getDateFromFile(filePath, data) {
   try {
-    const fileContent = fs.readFileSync(filePath, 'utf8');
-    const { data } = matter(fileContent);
-
     // 1. Priority: Frontmatter date (if it's a valid date string/object)
     if (data.date && data.date !== 'Last Modified') {
       const date = new Date(data.date);
@@ -130,7 +127,7 @@ function generateSitemapEntries() {
       }
 
       const url = getUrlFromFilePath(file);
-      const lastmod = getDateFromFile(file);
+      const lastmod = getDateFromFile(file, data);
       const priority = getPriority(url);
       const changefreq = getChangeFreq(url);
 

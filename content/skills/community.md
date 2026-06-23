@@ -1,6 +1,8 @@
 ---
 title: Community building
-description: I excel at engaging the people in your organization who understand the benefits of good content to retain institutional knowledge.
+description: >-
+  I excel at engaging the people in your organization who understand the
+  benefits of good content to retain institutional knowledge.
 FontAwesomeIcon: solid fa-people-group
 featured: false
 featuredOrder: 6
@@ -10,6 +12,7 @@ eleventyNavigation:
   key: community-building
   title: Community building
   parent: skills
+date: '2026-06-22'
 ---
 I have a history of finding those people and encouraging them to be champions for high-quality content that's an asset to your firm.
 
