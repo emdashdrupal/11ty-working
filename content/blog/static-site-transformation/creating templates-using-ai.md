@@ -2,7 +2,6 @@
 title: Creating website templates using AI
 description : "I used Google Gemini, GitHub Copilot, and locally running large language models (LLMs) to help create templates for my static site."
 FontAwesomeIcon: 'solid fa-brain'
-featured: true
 date: 2026-05-15
 eleventyNavigation:
   key: ai-creating-templates
