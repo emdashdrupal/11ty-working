@@ -237,7 +237,11 @@ module.exports = function (eleventyConfig) {
   const collections = ["skills", "podcasts", "blog"];
   collections.forEach((collection) => {
     eleventyConfig.addCollection(collection, (collectionApi) =>
-      collectionApi.getAll().filter((item) => item.data.tags?.includes(collection))
+      collectionApi.getAll().filter((item) => {
+        const isTargetCollection = item.data.tags?.includes(collection);
+        const isIndexPage = item.inputPath && item.inputPath.endsWith("/index.md");
+        return isTargetCollection && !isIndexPage;
+      })
     );
   });
 
