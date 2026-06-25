@@ -75,7 +75,8 @@ module.exports = function (eleventyConfig) {
       const parts = new Intl.DateTimeFormat('en-US', {
         year: 'numeric',
         month: normalizedFormat === "YYYY-MM-DD" ? '2-digit' : 'short',
-        day: '2-digit'
+        day: '2-digit',
+        timeZone: 'UTC'
       }).formatToParts(d);
       const hash = parts.reduce((acc, part) => ({ ...acc, [part.type]: part.value }), {});
       return `${hash.year}-${hash.month}-${hash.day}`;
