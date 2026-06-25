@@ -20,14 +20,14 @@ const defaultPriority = {
 const today = new Date().toISOString().split('T')[0];
 
 // Configuration for specific paths to ensure they get the right priority and changefreq
-const pathConfigs = [
-  { path: '/', priority: defaultPriority.home, changefreq: 'monthly' },
-  { path: '/about/about-ed-marsh/', priority: defaultPriority.section, changefreq: 'monthly' },
-  { path: '/contact/', priority: defaultPriority.section, changefreq: 'monthly' },
-  { path: '/skills/', priority: defaultPriority.section, changefreq: 'monthly' },
-  { path: '/podcasts/', priority: defaultPriority.section, changefreq: 'monthly' },
-  { path: '/blog/', priority: defaultPriority.section, changefreq: 'weekly' }
-];
+const pathConfigs = new Map([
+  ['/', { priority: defaultPriority.home, changefreq: 'monthly' }],
+  ['/about/about-ed-marsh/', { priority: defaultPriority.section, changefreq: 'monthly' }],
+  ['/contact/', { priority: defaultPriority.section, changefreq: 'monthly' }],
+  ['/skills/', { priority: defaultPriority.section, changefreq: 'monthly' }],
+  ['/podcasts/', { priority: defaultPriority.section, changefreq: 'monthly' }],
+  ['/blog/', { priority: defaultPriority.section, changefreq: 'weekly' }]
+]);
 
 // Function to get last commit date from Git
 function getGitDate(filePath) {
@@ -92,9 +92,7 @@ function getUrlFromFilePath(filePath) {
 
 // Function to determine priority based on path
 function getPriority(url) {
-  if (url === '/') return defaultPriority.home;
-
-  const config = pathConfigs.find(c => c.path === url);
+  const config = pathConfigs.get(url);
   if (config) return config.priority;
 
   const parts = url.split('/').filter(Boolean);
@@ -106,7 +104,7 @@ function getPriority(url) {
 
 // Function to determine change frequency
 function getChangeFreq(url) {
-  const config = pathConfigs.find(c => c.path === url);
+  const config = pathConfigs.get(url);
   if (config) return config.changefreq;
 
   return defaultChangeFreq;
