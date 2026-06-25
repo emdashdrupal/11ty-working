@@ -90,24 +90,32 @@ function getUrlFromFilePath(filePath) {
   return `/${urlPath}/`;
 }
 
-// Function to determine priority based on path
-function getPriority(url) {
+// Function to determine path configuration (priority and changefreq)
+function getPathConfig(url) {
   const config = pathConfigs.get(url);
-  if (config) return config.priority;
+
+  if (config) {
+    return {
+      priority: config.priority,
+      changefreq: config.changefreq
+    };
+  }
 
   const parts = url.split('/').filter(Boolean);
-  if (parts.length === 1) return defaultPriority.section;
-  if (parts.length === 2) return defaultPriority.page;
+  let priority;
 
-  return defaultPriority.post;
-}
+  if (parts.length === 1) {
+    priority = defaultPriority.section;
+  } else if (parts.length === 2) {
+    priority = defaultPriority.page;
+  } else {
+    priority = defaultPriority.post;
+  }
 
-// Function to determine change frequency
-function getChangeFreq(url) {
-  const config = pathConfigs.get(url);
-  if (config) return config.changefreq;
-
-  return defaultChangeFreq;
+  return {
+    priority,
+    changefreq: defaultChangeFreq
+  };
 }
 
 // Generate sitemap entries
@@ -126,8 +134,7 @@ function generateSitemapEntries() {
 
       const url = getUrlFromFilePath(file);
       const lastmod = getDateFromFile(file, data);
-      const priority = getPriority(url);
-      const changefreq = getChangeFreq(url);
+      const { priority, changefreq } = getPathConfig(url);
 
       if (!entriesMap.has(url) || entriesMap.get(url).lastmod < lastmod) {
         entriesMap.set(url, {
