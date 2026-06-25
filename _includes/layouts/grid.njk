@@ -1,7 +1,12 @@
 {% include "layouts/partials/header.njk" %}
 <div class="grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1">
     {% set collectionName = collectionName %}
-    {% set filtered_collections = collections[collectionName] %}
+    {% if category %}
+        {% set filtered_collections = collections[collectionName] | filterBy("data.category", category) %}
+    {% else %}
+        {% set filtered_collections = collections[collectionName] %}
+    {% endif %}
+
     {% if collectionName == "skills" %}
         {% for item in filtered_collections | sort(false, false, "data.featuredOrder") %}
             {% if not item.inputPath or not item.inputPath.endsWith('/index.md') %}

@@ -58,7 +58,7 @@
 ## AI-Enhanced Development & Modern Technical Skills
 
 - [Content Strategy for Static Site Generators](https://edmar.sh/blog/static-site-transformation/content-strategy-for-ssgs/): Strategy for static site content.
-- [Static Site Transformation Project](https://edmar.sh/static-site-transformation/): Complete documentation of building this portfolio site from scratch using AI-assisted development while maintaining editorial control.
+- [Static Site Transformation Project](https://edmar.sh/blog/static-site-transformation/): Complete documentation of building this portfolio site from scratch using AI-assisted development while maintaining editorial control.
 - [AI in Technical Writing](https://edmar.sh/blog/static-site-transformation/writing-with-ai/): AI’s role in technical documentation.
 - [Choosing a Static Site Generator](https://edmar.sh/blog/static-site-transformation/choosing-static-site-generator/): Guide to selecting a static site generator.
 - [Static Site Transformation – Motivation](https://edmar.sh/blog/static-site-transformation/why/): Motivations and goals for static site transformation.

@@ -4,7 +4,9 @@ description: >-
   This series documents my experience moving my legacy self-hosted WordPress
   site to a static site generator (SSG).
 tags: blog
-layout: /layouts/details.njk
+layout: layouts/grid.njk
+collectionName: blog
+category: Static site transformation
 eleventyNavigation:
   key: static-site-transformation
   title: Static Site Transformation
