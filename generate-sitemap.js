@@ -20,14 +20,14 @@ const defaultPriority = {
 const today = new Date().toISOString().split('T')[0];
 
 // Configuration for specific paths to ensure they get the right priority and changefreq
-const pathConfigs = [
-  { path: '/', priority: defaultPriority.home, changefreq: 'monthly' },
-  { path: '/about/about-ed-marsh/', priority: defaultPriority.section, changefreq: 'monthly' },
-  { path: '/contact/', priority: defaultPriority.section, changefreq: 'monthly' },
-  { path: '/skills/', priority: defaultPriority.section, changefreq: 'monthly' },
-  { path: '/podcasts/', priority: defaultPriority.section, changefreq: 'monthly' },
-  { path: '/blog/', priority: defaultPriority.section, changefreq: 'weekly' }
-];
+const pathConfigs = new Map([
+  ['/', { priority: defaultPriority.home, changefreq: 'monthly' }],
+  ['/about/about-ed-marsh/', { priority: defaultPriority.section, changefreq: 'monthly' }],
+  ['/contact/', { priority: defaultPriority.section, changefreq: 'monthly' }],
+  ['/skills/', { priority: defaultPriority.section, changefreq: 'monthly' }],
+  ['/podcasts/', { priority: defaultPriority.section, changefreq: 'monthly' }],
+  ['/blog/', { priority: defaultPriority.section, changefreq: 'weekly' }]
+]);
 
 // Function to get last commit date from Git
 function getGitDate(filePath) {
@@ -90,26 +90,32 @@ function getUrlFromFilePath(filePath) {
   return `/${urlPath}/`;
 }
 
-// Function to determine priority based on path
-function getPriority(url) {
-  if (url === '/') return defaultPriority.home;
+// Function to determine path configuration (priority and changefreq)
+function getPathConfig(url) {
+  const config = pathConfigs.get(url);
 
-  const config = pathConfigs.find(c => c.path === url);
-  if (config) return config.priority;
+  if (config) {
+    return {
+      priority: config.priority,
+      changefreq: config.changefreq
+    };
+  }
 
   const parts = url.split('/').filter(Boolean);
-  if (parts.length === 1) return defaultPriority.section;
-  if (parts.length === 2) return defaultPriority.page;
+  let priority;
 
-  return defaultPriority.post;
-}
+  if (parts.length === 1) {
+    priority = defaultPriority.section;
+  } else if (parts.length === 2) {
+    priority = defaultPriority.page;
+  } else {
+    priority = defaultPriority.post;
+  }
 
-// Function to determine change frequency
-function getChangeFreq(url) {
-  const config = pathConfigs.find(c => c.path === url);
-  if (config) return config.changefreq;
-
-  return defaultChangeFreq;
+  return {
+    priority,
+    changefreq: defaultChangeFreq
+  };
 }
 
 // Generate sitemap entries
@@ -128,8 +134,7 @@ function generateSitemapEntries() {
 
       const url = getUrlFromFilePath(file);
       const lastmod = getDateFromFile(file, data);
-      const priority = getPriority(url);
-      const changefreq = getChangeFreq(url);
+      const { priority, changefreq } = getPathConfig(url);
 
       if (!entriesMap.has(url) || entriesMap.get(url).lastmod < lastmod) {
         entriesMap.set(url, {
