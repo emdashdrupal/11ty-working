@@ -179,4 +179,16 @@ function generateSitemap() {
   console.log(`Sitemap generated at ${outputFile} with ${entries.length} entries.`);
 }
 
-generateSitemap();
+if (require.main === module) {
+  generateSitemap();
+}
+
+module.exports = {
+  getGitDate,
+  getDateFromFile,
+  getUrlFromFilePath,
+  getPriority,
+  getChangeFreq,
+  generateSitemapEntries,
+  generateSitemap
+};
