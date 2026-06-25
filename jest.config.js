@@ -1,9 +1,10 @@
 module.exports = {
+  rootDir: '.',
   testEnvironment: 'jsdom',
   testMatch: [
     '**/tests/**/*.test.js'
   ],
-  setupFilesAfterEnv: ['./tests/setupTests.js'],
+  setupFilesAfterEnv: ['<rootDir>/tests/setupTests.js'],
   collectCoverageFrom: [
     'eleventy.config.js',
     '_includes/js/**/*.js',
