@@ -19,6 +19,49 @@ const defaultPriority = {
 // Current date in YYYY-MM-DD format for fallback
 const today = new Date().toISOString().split('T')[0];
 
+// Cache for git dates
+let gitDatesCache = null;
+
+/**
+ * Function to load all git dates at once
+ * @param {string} dir The directory to get git dates for
+ * @returns {Map<string, string>} A map of file paths to their last commit dates
+ */
+function loadGitDates(dir = contentDir) {
+  if (gitDatesCache) return gitDatesCache;
+
+  gitDatesCache = new Map();
+  try {
+    // Run git log once to get the last commit date for all files in specified directory
+    // Format: DATE:YYYY-MM-DD followed by files changed in that commit
+    // We use reverse chronological order (default) so the first time a file appears, it's its latest change.
+    const output = execSync(`git log --format="DATE:%as" --name-only -- "${dir}"`, { encoding: 'utf8' });
+    const lines = output.split('\n');
+    let currentDate = null;
+
+    for (const line of lines) {
+      const trimmedLine = line.trim();
+      if (!trimmedLine) continue;
+
+      if (trimmedLine.startsWith('DATE:')) {
+        currentDate = trimmedLine.substring(5);
+      } else if (currentDate) {
+        // Normalize path to use forward slashes for consistency across platforms
+        const normalizedPath = trimmedLine.split(path.sep).join('/');
+        // If we haven't seen this file yet, the first time it appears in git log
+        // is its most recent modification date.
+        if (!gitDatesCache.has(normalizedPath)) {
+          gitDatesCache.set(normalizedPath, currentDate);
+        }
+      }
+    }
+  } catch (e) {
+    // Git might fail in some environments (e.g., CI without git history, or non-git environments)
+    console.warn(`Warning: Could not load git dates for ${dir}. Falling back to file modification times.`);
+  }
+  return gitDatesCache;
+}
+
 // Configuration for specific paths to ensure they get the right priority and changefreq
 const pathConfigs = new Map([
   ['/', { priority: defaultPriority.home, changefreq: 'monthly' }],
@@ -31,15 +74,10 @@ const pathConfigs = new Map([
 
 // Function to get last commit date from Git
 function getGitDate(filePath) {
-  try {
-    const gitDate = execSync(`git log -1 --format=%as -- "${filePath}"`, { encoding: 'utf8' }).trim();
-    if (gitDate && /^\d{4}-\d{2}-\d{2}$/.test(gitDate)) {
-      return gitDate;
-    }
-  } catch (e) {
-    // Git might fail in some environments or if file is untracked
-  }
-  return null;
+  const cache = loadGitDates();
+  // Ensure the path is normalized for cache lookup
+  const normalizedPath = filePath.split(path.sep).join('/');
+  return cache.get(normalizedPath) || null;
 }
 
 // Function to extract date from frontmatter or Git
@@ -194,6 +232,7 @@ if (require.main === module) {
 }
 
 module.exports = {
+  loadGitDates,
   getGitDate,
   getDateFromFile,
   getUrlFromFilePath,
