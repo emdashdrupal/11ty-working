@@ -75,8 +75,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("filterBy", function (array, key, value) {
     if (!array || !key) return [];
     try {
+      const keyPath = key.split(".");
       return array.filter((item) => {
-        const keyPath = key.split(".");
         let data = item;
         for (const path of keyPath) {
           // Safely check if data is an object before accessing properties
