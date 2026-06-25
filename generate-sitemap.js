@@ -118,6 +118,16 @@ function getPathConfig(url) {
   };
 }
 
+// Function to get priority for a URL (for testing)
+function getPriority(url) {
+  return getPathConfig(url).priority;
+}
+
+// Function to get changefreq for a URL (for testing)
+function getChangeFreq(url) {
+  return getPathConfig(url).changefreq;
+}
+
 // Generate sitemap entries
 function generateSitemapEntries() {
   const entriesMap = new Map();
