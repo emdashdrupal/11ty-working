@@ -17,6 +17,7 @@ jest.mock('fs', () => ({
 }));
 
 const {
+  loadGitDates,
   getGitDate,
   getDateFromFile,
   getUrlFromFilePath,
@@ -29,46 +30,65 @@ describe('Sitemap Generator', () => {
 
   beforeEach(() => {
     jest.clearAllMocks();
+    // Reset the cache before each test
+    // We can do this by re-requiring the module or by exposing a reset function,
+    // but here we can just clear the module cache if needed.
+    // However, since we are mocking execSync, we can just ensure it returns what we want.
+    jest.resetModules();
   });
 
   describe('getGitDate', () => {
-    it('returns a valid date string from git', () => {
-      execSync.mockReturnValue('2023-10-27\n');
+    it('returns a valid date string from git cache', () => {
+      const { getGitDate } = require('../generate-sitemap.js');
+      const { execSync } = require('child_process');
+      execSync.mockReturnValue('DATE:2023-10-27\ntest.md\n');
       expect(getGitDate('test.md')).toBe('2023-10-27');
     });
 
     it('returns null when git command fails', () => {
+      const { getGitDate } = require('../generate-sitemap.js');
+      const { execSync } = require('child_process');
       execSync.mockImplementation(() => {
         throw new Error('git error');
       });
       expect(getGitDate('test.md')).toBeNull();
     });
 
-    it('returns null when git returns invalid format', () => {
-      execSync.mockReturnValue('not-a-date\n');
+    it('returns null when file is not in git cache', () => {
+      const { getGitDate } = require('../generate-sitemap.js');
+      const { execSync } = require('child_process');
+      execSync.mockReturnValue('DATE:2023-10-27\nother.md\n');
       expect(getGitDate('test.md')).toBeNull();
     });
   });
 
   describe('getDateFromFile', () => {
     it('prioritizes frontmatter date', () => {
+      const { getDateFromFile } = require('../generate-sitemap.js');
       const data = { date: '2023-01-01' };
       expect(getDateFromFile('test.md', data)).toBe('2023-01-01');
     });
 
     it('falls back to Git date if frontmatter date is missing', () => {
+      const { getDateFromFile } = require('../generate-sitemap.js');
+      const { execSync } = require('child_process');
       const data = {};
-      execSync.mockReturnValue('2023-10-27\n');
+      execSync.mockReturnValue('DATE:2023-10-27\ntest.md\n');
       expect(getDateFromFile('test.md', data)).toBe('2023-10-27');
     });
 
     it('falls back to Git date if frontmatter date is "Last Modified"', () => {
+      const { getDateFromFile } = require('../generate-sitemap.js');
+      const { execSync } = require('child_process');
       const data = { date: 'Last Modified' };
-      execSync.mockReturnValue('2023-10-27\n');
+      execSync.mockReturnValue('DATE:2023-10-27\ntest.md\n');
       expect(getDateFromFile('test.md', data)).toBe('2023-10-27');
     });
 
     it('falls back to fs.statSync mtime if Git date is unavailable', () => {
+      const { getDateFromFile } = require('../generate-sitemap.js');
+      const { execSync } = require('child_process');
+      const fs = require('fs');
       const data = {};
       execSync.mockImplementation(() => { throw new Error(); });
       fs.statSync.mockReturnValue({ mtime: new Date('2023-05-20') });
