@@ -3,11 +3,8 @@ import re
 import yaml
 
 # Get list of markdown files from uploads directory
-uploads_dir = 'content/blog/static-site-transformation'
-files = [os.path.join(uploads_dir, f) for f in os.listdir(uploads_dir) if f.endswith('.md')]
-
-# Also include the blog index to resolve 'Blog' parent references
-files.append('content/blog/index.md')
+uploads_dir = 'content/static-site-transformation'
+files = [f for f in os.listdir(uploads_dir) if f.endswith('.md')]
 
 print("=== Navigation Validation Script ===\n")
 
@@ -47,7 +44,8 @@ def parse_frontmatter(file_path):
 
 # Collect all navigation entries
 all_navigation_entries = []
-for full_path in files:
+for file in files:
+    full_path = os.path.join(uploads_dir, file)
     result = parse_frontmatter(full_path)
     if result:
         all_navigation_entries.append(result)
@@ -101,3 +99,4 @@ print(f"Unique keys defined: {len(all_keys)}")
 if missing_parents:
     print(f"Issues found: {len(missing_parents)} page(s) with invalid parent references")
 
+# Create
