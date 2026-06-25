@@ -2,6 +2,12 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const { feedPlugin } = require("@11ty/eleventy-plugin-rss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+
+// CSS Processing
+const postcss = require('postcss');
+const autoprefixer = require('autoprefixer');
+const cssnano = require('cssnano');
+
 // Markdown plugins
 const markdownIt = require("markdown-it");
 const anchor = require("markdown-it-anchor");
@@ -48,6 +54,12 @@ const config = {
 const md = new markdownIt(config.markdown).use(anchor, {
   permalink: anchor.permalink.headerLink(),
 });
+
+// Pre-initialize PostCSS plugins for performance
+const postcssPlugins = [
+  autoprefixer,
+  cssnano({ preset: 'default' })
+];
 
 module.exports = function (eleventyConfig) {
   // ===== FILTERS =====
@@ -184,8 +196,6 @@ module.exports = function (eleventyConfig) {
   });
 
   // ===== CSS PROCESSING WITH POSTCSS =====
-  const postcss = require('postcss');
-
   eleventyConfig.addTransform("postcss-css", async function(content, outputPath) {
     if (!outputPath || !outputPath.endsWith('.css')) {
       return content;
@@ -196,12 +206,7 @@ module.exports = function (eleventyConfig) {
     }
 
     try {
-      const plugins = [
-        require('autoprefixer'),
-        require('cssnano')({ preset: 'default' })
-      ];
-
-      const result = await postcss(plugins).process(content, {
+      const result = await postcss(postcssPlugins).process(content, {
         from: undefined,
         to: outputPath,
         map: false
