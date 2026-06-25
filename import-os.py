@@ -3,38 +3,41 @@ import re
 import yaml
 
 # Get list of markdown files from uploads directory
-uploads_dir = 'content/static-site-transformation'
+uploads_dir = 'content/blog/static-site-transformation'
 files = [f for f in os.listdir(uploads_dir) if f.endswith('.md')]
 
 print("=== Navigation Validation Script ===\n")
 
 # Function to extract frontmatter and navigation data
 def parse_frontmatter(file_path):
+    """Parses frontmatter from a file and returns navigation data."""
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
 
         # Extract frontmatter (between ---)
         frontmatter_match = re.search(r'^---\n(.*?)\n---', content, re.DOTALL)
+        if not frontmatter_match:
+            return None
 
-        if frontmatter_match:
-            frontmatter_content = frontmatter_match.group(1)
-            try:
-                # Try to parse as YAML
-                parsed_fm = yaml.safe_load(frontmatter_content)
+        frontmatter_content = frontmatter_match.group(1)
+        try:
+            # Try to parse as YAML
+            parsed_fm = yaml.safe_load(frontmatter_content)
+        except yaml.YAMLError as e:
+            print(f"YAML parsing error in {os.path.basename(file_path)}: {e}")
+            return None
 
-                # Check for eleventyNavigation
-                if 'eleventyNavigation' in parsed_fm:
-                    nav_data = parsed_fm['eleventyNavigation']
-                    return {
-                        'file': os.path.basename(file_path),
-                        'key': nav_data.get('key'),
-                        'parent': nav_data.get('parent')
-                    }
-            except yaml.YAMLError as e:
-                print(f"YAML parsing error in {os.path.basename(file_path)}: {e}")
+        # Check for eleventyNavigation
+        if not parsed_fm or 'eleventyNavigation' not in parsed_fm:
+            return None
 
-        return None
+        nav_data = parsed_fm['eleventyNavigation']
+        return {
+            'file': os.path.basename(file_path),
+            'key': nav_data.get('key'),
+            'parent': nav_data.get('parent')
+        }
     except Exception as e:
         print(f"Error reading {file_path}: {e}")
         return None
