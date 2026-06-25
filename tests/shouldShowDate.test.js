@@ -45,7 +45,7 @@ describe('shouldShowDate filter', () => {
 
   test('should return false for blog sub-index pages', () => {
     expect(shouldShowDate({ url: '/blog/llms/', inputPath: './content/blog/llms/index.md' })).toBe(false);
-    expect(shouldShowDate({ url: '/blog/static-site-transformation/', inputPath: './content/blog/static-site-transformation/index.md' })).toBe(false);
+    expect(shouldShowDate({ url: '/blog/static-site-transformation/', inputPath: 'content/blog/static-site-transformation/index.md' })).toBe(false);
   });
 
   test('should return true for blog posts', () => {

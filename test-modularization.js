@@ -64,7 +64,7 @@ try {
     console.log('\n3️⃣ Testing individual pages...');
 
     const skillsHtml = fs.readFileSync('_site/skills/index.html', 'utf8');
-    const blogHtml = fs.readFileSync('_site/static-site-transformation/index.html', 'utf8');
+    const blogHtml = fs.readFileSync('_site/blog/static-site-transformation/index.html', 'utf8');
 
     if (skillsHtml.includes('card') && skillsHtml.length > 1000) {
         console.log('✅ Skills index page renders correctly');
