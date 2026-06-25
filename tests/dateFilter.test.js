@@ -64,7 +64,6 @@ describe('date filter', () => {
   });
 
   test('handles ISO date strings', () => {
-    // 2023-05-15 as a string is interpreted as UTC by the Date constructor
     expect(dateFilter("2023-05-15", "YYYY-MM-DD")).toBe("2023-05-15");
     expect(dateFilter("2023-05-15T12:00:00Z", "YYYY-MMM-DD")).toBe("2023-May-15");
   });
@@ -86,7 +85,6 @@ describe('date filter', () => {
   });
 
   test('ensures timezone independence (UTC)', () => {
-    // Using TZ environment variable to simulate different timezones
     const originalTZ = process.env.TZ;
     try {
       process.env.TZ = 'America/New_York';
