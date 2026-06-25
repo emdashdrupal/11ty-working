@@ -58,10 +58,11 @@ module.exports = function (eleventyConfig) {
     if (!date) return "";
     const d = new Date(date);
     if (isNaN(d.getTime())) return date;
-    if (format === "YYYY-MM-DD" || format === "YYYY-MMM-DD") {
+    const normalizedFormat = typeof format === 'string' ? format.replace(/\s+/g, '') : format;
+    if (normalizedFormat === "YYYY-MM-DD" || normalizedFormat === "YYYY-MMM-DD") {
       const parts = new Intl.DateTimeFormat('en-US', {
         year: 'numeric',
-        month: format === "YYYY-MM-DD" ? '2-digit' : 'short',
+        month: normalizedFormat === "YYYY-MM-DD" ? '2-digit' : 'short',
         day: '2-digit'
       }).formatToParts(d);
       const hash = parts.reduce((acc, part) => ({ ...acc, [part.type]: part.value }), {});
