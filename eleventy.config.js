@@ -62,6 +62,15 @@ const postcssPlugins = [
 ];
 
 module.exports = function (eleventyConfig) {
+  // ===== HELPERS =====
+  // Helper to normalize categories and check for matches
+  const normalizeAndCheckCategories = (itemCategories, filterCategories) => {
+    if (!itemCategories || !filterCategories) return false;
+    const normalizedItemCats = Array.isArray(itemCategories) ? itemCategories : [itemCategories];
+    const normalizedFilterCats = Array.isArray(filterCategories) ? filterCategories : [filterCategories];
+    return normalizedFilterCats.some(cat => normalizedItemCats.includes(cat));
+  };
+
   // ===== FILTERS =====
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
@@ -131,24 +140,15 @@ module.exports = function (eleventyConfig) {
   // Filter items by category (supports single category or array of categories)
   eleventyConfig.addFilter("filterByCategory", (items, category) => {
     if (!items || !category) return [];
-    const categories = Array.isArray(category) ? category : [category];
-
-    return items.filter(item => {
-      if (!item.categories) return false;
-      const itemCategories = Array.isArray(item.categories) ? item.categories : [item.categories];
-      return categories.some(cat => itemCategories.includes(cat));
-    });
+    return items.filter(item => normalizeAndCheckCategories(item.categories, category));
   });
 
   // Filter tools by category (handles both category and categories properties)
   eleventyConfig.addFilter("filterToolsByCategory", (tools, category) => {
     if (!tools || !category) return [];
-    const categories = Array.isArray(category) ? category : [category];
-
     return tools.filter(tool => {
       const toolCategories = tool.categories || tool.category || [];
-      const normalizedToolCats = Array.isArray(toolCategories) ? toolCategories : [toolCategories];
-      return categories.some(cat => normalizedToolCats.includes(cat));
+      return normalizeAndCheckCategories(toolCategories, category);
     });
   });
 
