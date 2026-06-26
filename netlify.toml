@@ -1,21 +1,3 @@
-[functions]
-
-  [functions.emails]
-  included_files = [
-    "./emails/**"
-  ]
-
-[context]
-
-  [context.production]
-
-    [context.production.functions]
-
-      [context.production.functions.emails]
-      included_files = [
-        "./emails/**"
-      ]
-
 [[redirects]]
   from = "/podcast"
   to = "/podcasts"
@@ -25,11 +7,11 @@
   to = "/podcasts"
 
 [[redirects]]
-  from = "/*professional-technical-writing-examples"
+  from = "/professional-technical-writing-examples"
   to = "/blog/static-site-transformation"
 
 [[redirects]]
-  from = "/*contact-ed-marsh-information-architect-technical-writer"
+  from = "/contact-ed-marsh-information-architect-technical-writer"
   to = "/contact"
 
 [[plugins]]
