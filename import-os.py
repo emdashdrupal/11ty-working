@@ -60,7 +60,7 @@ for entry in all_navigation_entries:
     print()
 
 # Identify missing parent keys
-all_keys = [entry['key'] for entry in all_navigation_entries if entry['key']]
+all_keys = {entry['key'] for entry in all_navigation_entries if entry['key']}
 missing_parents = []
 
 print("Checking for Missing Parent Keys:")
