@@ -55,4 +55,22 @@ describe('filterBy filter', () => {
     const array = [{ id: 1 }, { id: '1' }];
     expect(filterBy(array, 'id', 1)).toEqual([{ id: 1 }, { id: '1' }]);
   });
+
+  test('handles errors gracefully', () => {
+    const consoleSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+    const array = [
+      {
+        get data() {
+          throw new Error('Test error');
+        }
+      }
+    ];
+
+    const result = filterBy(array, 'data.test', true);
+
+    expect(result).toEqual([]);
+    expect(consoleSpy).toHaveBeenCalledWith(expect.stringContaining('Error in filterBy filter: Test error'));
+
+    consoleSpy.mockRestore();
+  });
 });
