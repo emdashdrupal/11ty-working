@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
 const { globSync } = require('glob');
-const { execSync } = require('child_process');
+const { execFileSync } = require('child_process');
 
 // Configuration
 const siteUrl = 'https://edmar.sh';
@@ -35,7 +35,7 @@ function loadGitDates(dir = contentDir) {
     // Run git log once to get the last commit date for all files in specified directory
     // Format: DATE:YYYY-MM-DD followed by files changed in that commit
     // We use reverse chronological order (default) so the first time a file appears, it's its latest change.
-    const output = execSync(`git log --format="DATE:%as" --name-only -- "${dir}"`, { encoding: 'utf8' });
+    const output = execFileSync('git', ['log', '--format=DATE:%as', '--name-only', '--', dir], { encoding: 'utf8' });
     const lines = output.split('\n');
     let currentDate = null;
 

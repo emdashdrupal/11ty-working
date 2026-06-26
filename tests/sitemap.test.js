@@ -1,4 +1,4 @@
-const { execSync } = require('child_process');
+const { execFileSync } = require('child_process');
 const fs = require('fs');
 
 // We need to mock child_process before requiring generate-sitemap.js
@@ -6,7 +6,7 @@ const fs = require('fs');
 // but actually we wrapped it in require.main === module.
 
 jest.mock('child_process', () => ({
-  execSync: jest.fn()
+  execFileSync: jest.fn()
 }));
 
 jest.mock('fs', () => ({
@@ -33,22 +33,22 @@ describe('Sitemap Generator', () => {
     // Reset the cache before each test
     // We can do this by re-requiring the module or by exposing a reset function,
     // but here we can just clear the module cache if needed.
-    // However, since we are mocking execSync, we can just ensure it returns what we want.
+    // However, since we are mocking execFileSync, we can just ensure it returns what we want.
     jest.resetModules();
   });
 
   describe('getGitDate', () => {
     it('returns a valid date string from git cache', () => {
       const { getGitDate } = require('../generate-sitemap.js');
-      const { execSync } = require('child_process');
-      execSync.mockReturnValue('DATE:2023-10-27\ntest.md\n');
+      const { execFileSync } = require('child_process');
+      execFileSync.mockReturnValue('DATE:2023-10-27\ntest.md\n');
       expect(getGitDate('test.md')).toBe('2023-10-27');
     });
 
     it('returns null when git command fails', () => {
       const { getGitDate } = require('../generate-sitemap.js');
-      const { execSync } = require('child_process');
-      execSync.mockImplementation(() => {
+      const { execFileSync } = require('child_process');
+      execFileSync.mockImplementation(() => {
         throw new Error('git error');
       });
       expect(getGitDate('test.md')).toBeNull();
@@ -56,8 +56,8 @@ describe('Sitemap Generator', () => {
 
     it('returns null when file is not in git cache', () => {
       const { getGitDate } = require('../generate-sitemap.js');
-      const { execSync } = require('child_process');
-      execSync.mockReturnValue('DATE:2023-10-27\nother.md\n');
+      const { execFileSync } = require('child_process');
+      execFileSync.mockReturnValue('DATE:2023-10-27\nother.md\n');
       expect(getGitDate('test.md')).toBeNull();
     });
   });
@@ -71,33 +71,34 @@ describe('Sitemap Generator', () => {
 
     it('falls back to Git date if frontmatter date is missing', () => {
       const { getDateFromFile } = require('../generate-sitemap.js');
-      const { execSync } = require('child_process');
+      const { execFileSync } = require('child_process');
       const data = {};
-      execSync.mockReturnValue('DATE:2023-10-27\ntest.md\n');
+      execFileSync.mockReturnValue('DATE:2023-10-27\ntest.md\n');
       expect(getDateFromFile('test.md', data)).toBe('2023-10-27');
     });
 
     it('falls back to Git date if frontmatter date is "Last Modified"', () => {
       const { getDateFromFile } = require('../generate-sitemap.js');
-      const { execSync } = require('child_process');
+      const { execFileSync } = require('child_process');
       const data = { date: 'Last Modified' };
-      execSync.mockReturnValue('DATE:2023-10-27\ntest.md\n');
+      execFileSync.mockReturnValue('DATE:2023-10-27\ntest.md\n');
       expect(getDateFromFile('test.md', data)).toBe('2023-10-27');
     });
 
     it('falls back to fs.statSync mtime if Git date is unavailable', () => {
       const { getDateFromFile } = require('../generate-sitemap.js');
-      const { execSync } = require('child_process');
+      const { execFileSync } = require('child_process');
       const fs = require('fs');
       const data = {};
-      execSync.mockImplementation(() => { throw new Error(); });
+      execFileSync.mockImplementation(() => { throw new Error(); });
       fs.statSync.mockReturnValue({ mtime: new Date('2023-05-20') });
       expect(getDateFromFile('test.md', data)).toBe('2023-05-20');
     });
 
     it('returns today as ultimate fallback on error', () => {
       const data = {};
-      execSync.mockImplementation(() => { throw new Error(); });
+      const { execFileSync } = require('child_process');
+      execFileSync.mockImplementation(() => { throw new Error(); });
       fs.statSync.mockImplementation(() => { throw new Error('stat error'); });
 
       const consoleSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
