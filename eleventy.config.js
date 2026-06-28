@@ -262,7 +262,6 @@ module.exports = function (eleventyConfig) {
     "_includes/js": "js/",
     "podcast.xml": "podcast.xml",
     "llms.txt": "llms.txt",
-    "netlify.toml": "netlify.toml",
   });
 
   // ===== COLLECTIONS =====
