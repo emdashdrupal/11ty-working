@@ -62,6 +62,8 @@ const postcssPlugins = [
 ];
 
 module.exports = function (eleventyConfig) {
+  const isDevelopment = process.env.ELEVENTY_RUN_MODE === 'serve' || process.env.NODE_ENV === 'test';
+
   // ===== HELPERS =====
   // Helper to normalize categories and check for matches
   const normalizeAndCheckCategories = (itemCategories, filterCategories) => {
@@ -109,7 +111,11 @@ module.exports = function (eleventyConfig) {
         return data == value; // Use loose equality for flexible value comparison
       });
     } catch (error) {
-      console.error(`Error in filterBy filter: ${error.message}`);
+      const errorMessage = `Error in filterBy filter (key: "${key}", value: "${value}"): ${error.message}`;
+      console.error(errorMessage);
+      if (isDevelopment) {
+        throw new Error(errorMessage);
+      }
       return [];
     }
   });
