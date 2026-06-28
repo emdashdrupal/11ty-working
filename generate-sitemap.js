@@ -92,7 +92,7 @@ function getDateFromFile(filePath, data) {
     }
 
     // 2. Secondary: Git commit date (stable across checkouts)
-    const gitDate = getGitDate(filePath);
+    const gitDate = module.exports.getGitDate(filePath);
     if (gitDate) return gitDate;
 
     // 3. Fallback: File modification date
