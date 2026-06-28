@@ -8,6 +8,9 @@ const postcss = require('postcss');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 
+// Security
+const sanitizeHtml = require('sanitize-html');
+
 // Markdown plugins
 const markdownIt = require("markdown-it");
 const anchor = require("markdown-it-anchor");
@@ -135,6 +138,29 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("markdown", (content) => {
     if (!content) return "";
     return md.render(String(content));
+  });
+
+  // Render markdown content as inline HTML
+  eleventyConfig.addFilter("markdownInline", (content) => {
+    if (!content) return "";
+    return md.renderInline(String(content));
+  });
+
+  // Sanitize HTML content
+  eleventyConfig.addFilter("sanitize", (content) => {
+    if (!content) return "";
+    return sanitizeHtml(content, {
+      allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img', 'iframe', 'details', 'summary', 'h1', 'h2']),
+      allowedAttributes: {
+        ...sanitizeHtml.defaults.allowedAttributes,
+        'img': ['src', 'alt', 'title', 'class', 'style', 'width', 'height', 'data-*'],
+        'iframe': ['src', 'title', 'scrolling', 'frameborder', 'allowtransparency', 'style', 'name', 'id'],
+        'a': ['href', 'name', 'target', 'rel', 'class', 'aria-*', 'data-*'],
+        'span': ['class'],
+        '*': ['id', 'class', 'aria-*', 'data-*']
+      },
+      allowedIframeHostnames: ['widgets.blubrry.com', 'player.blubrry.com']
+    });
   });
 
   // Filter items by category (supports single category or array of categories)

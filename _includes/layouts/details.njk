@@ -18,7 +18,7 @@
     </div>
     <div id="content-start">
         {%- if content -%}
-            {{ content | safe | trim }}
+            {{ content | sanitize | safe | trim }}
         {%- endif -%}
     </div>
     {%- set pageCategory = categories -%}
