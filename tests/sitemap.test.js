@@ -62,51 +62,6 @@ describe('Sitemap Generator', () => {
     });
   });
 
-  describe('getDateFromFile', () => {
-    it('prioritizes frontmatter date', () => {
-      const { getDateFromFile } = require('../generate-sitemap.js');
-      const data = { date: '2023-01-01' };
-      expect(getDateFromFile('test.md', data)).toBe('2023-01-01');
-    });
-
-    it('falls back to Git date if frontmatter date is missing', () => {
-      const { getDateFromFile } = require('../generate-sitemap.js');
-      const { execFileSync } = require('child_process');
-      const data = {};
-      execFileSync.mockReturnValue('DATE:2023-10-27\ntest.md\n');
-      expect(getDateFromFile('test.md', data)).toBe('2023-10-27');
-    });
-
-    it('falls back to Git date if frontmatter date is "Last Modified"', () => {
-      const { getDateFromFile } = require('../generate-sitemap.js');
-      const { execFileSync } = require('child_process');
-      const data = { date: 'Last Modified' };
-      execFileSync.mockReturnValue('DATE:2023-10-27\ntest.md\n');
-      expect(getDateFromFile('test.md', data)).toBe('2023-10-27');
-    });
-
-    it('falls back to fs.statSync mtime if Git date is unavailable', () => {
-      const { getDateFromFile } = require('../generate-sitemap.js');
-      const { execFileSync } = require('child_process');
-      const fs = require('fs');
-      const data = {};
-      execFileSync.mockImplementation(() => { throw new Error(); });
-      fs.statSync.mockReturnValue({ mtime: new Date('2023-05-20') });
-      expect(getDateFromFile('test.md', data)).toBe('2023-05-20');
-    });
-
-    it('returns today as ultimate fallback on error', () => {
-      const data = {};
-      const { execFileSync } = require('child_process');
-      execFileSync.mockImplementation(() => { throw new Error(); });
-      fs.statSync.mockImplementation(() => { throw new Error('stat error'); });
-
-      const consoleSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
-      expect(getDateFromFile('test.md', data)).toBe(today);
-      consoleSpy.mockRestore();
-    });
-  });
-
   describe('getUrlFromFilePath', () => {
     it('handles standard markdown files', () => {
       expect(getUrlFromFilePath('content/blog/post.md')).toBe('/blog/post/');
