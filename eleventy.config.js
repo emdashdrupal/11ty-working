@@ -150,14 +150,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("sanitize", (content) => {
     if (!content) return "";
     return sanitizeHtml(content, {
-      allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img', 'iframe', 'details', 'summary', 'h1', 'h2']),
+      allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img', 'iframe', 'details', 'summary', 'h1', 'h2', 'div', 'span']),
       allowedAttributes: {
         ...sanitizeHtml.defaults.allowedAttributes,
-        'img': ['src', 'alt', 'title', 'class', 'style', 'width', 'height', 'data-*'],
-        'iframe': ['src', 'title', 'scrolling', 'frameborder', 'allowtransparency', 'style', 'name', 'id'],
-        'a': ['href', 'name', 'target', 'rel', 'class', 'aria-*', 'data-*'],
-        'span': ['class'],
-        '*': ['id', 'class', 'aria-*', 'data-*']
+        '*': ['id', 'class', 'aria-*', 'data-*'],
+        'img': ['src', 'alt', 'title', 'style', 'width', 'height'],
+        'iframe': ['src', 'title', 'scrolling', 'frameborder', 'allowtransparency', 'style', 'name'],
+        'a': ['href', 'name', 'target', 'rel']
       },
       allowedIframeHostnames: ['widgets.blubrry.com', 'player.blubrry.com']
     });
@@ -262,6 +261,7 @@ module.exports = function (eleventyConfig) {
     "_includes/js": "js/",
     "podcast.xml": "podcast.xml",
     "llms.txt": "llms.txt",
+    "netlify.toml": "netlify.toml",
   });
 
   // ===== COLLECTIONS =====

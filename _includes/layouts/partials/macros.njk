@@ -108,7 +108,7 @@
                 <a href="{{ url | url }}" aria-label="Read-more-about-{{ title | slugify }};">{{ title | markdownInline | sanitize | safe }}</a>
             </h2>
             <div class="card-description flex-grow">
-                {{ description | markdown | safe }}
+                {{ description | markdown | sanitize | safe }}
             </div>
             <p>{{ renderButton(url, buttonText, title) }}</p>
         </div>
