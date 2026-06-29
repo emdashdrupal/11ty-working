@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="generator" content="{{ eleventy.generator }}">
-        <meta name="description" content="{{ description | safe }}">
+        <meta name="description" content="{{ description }}">
         <!-- Facebook Meta Tags -->
         <meta property="og:url" content="{{page.url}}">
         <meta property="og:type" content="website">
@@ -88,7 +88,7 @@
         {%- block content -%}
             <main class="container mx-auto py-1 px-4 md:px-6 max-w-4xl">
                 <article class="max-w-2xl">
-                    <h1>{{ title or metadata.title | markdown | safe | trim }}</h1>
+                    <h1>{{ (title or metadata.title) | markdownInline | sanitize | safe | trim }}</h1>
                     {%- if page.date and page | shouldShowDate -%}
                         <div id="dateline" class="italic text-sm mt-2">
                             Last updated: {{ page.date | date("YYYY-MMM-DD") }}
