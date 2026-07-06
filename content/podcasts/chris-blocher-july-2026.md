@@ -7,7 +7,7 @@ categories:
   - "technical writing"
 cover: chris-blocher.png
 coverAlt : Chris Blocher, content strategist and technical writer*
-description: "In this episode, Ed sits down with Rochester-based <a href=\"https://www.linkedin.com/in/chrisblocher\">content strategist and technical writer<\/a>Chris Blocher to explore how technical communicators are navigating the rapid evolution of generative AI. From accidental career paths in writing to building \"second brains\", they break down practical workflows, local vs. cloud LLMs, and why human expertise remains irreplaceable in an age of automation."
+description: "In this episode, Ed sits down with Rochester-based [content strategist and technical writer Chris Blocher](https://www.linkedin.com/in/chrisblocher) to explore how technical communicators are navigating the rapid evolution of generative AI. From accidental career paths in writing to building \"second brains\", they break down practical workflows, local vs. cloud LLMs, and why human expertise remains irreplaceable in an age of automation."
 mp3File: sharon-burton-march-2026.mp3
 blubrryId: 152751070
 blubrryCache: 1772759385
