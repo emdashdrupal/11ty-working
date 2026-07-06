@@ -273,7 +273,7 @@ module.exports = function (eleventyConfig) {
   const collections = ["skills", "podcasts", "blog"];
   collections.forEach((collection) => {
     eleventyConfig.addCollection(collection, (collectionApi) =>
-      collectionApi.getAll().filter((item) => item.data.tags?.includes(collection))
+      collectionApi.getFilteredByTag(collection)
     );
   });
 
