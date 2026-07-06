@@ -2,8 +2,6 @@
 title: Asking AI to write documentation
 description: I decided to see if AI was going to take my job.
 FontAwesomeIcon: solid fa-keyboard
-featured: true
-featuredOrder: 2
 eleventyNavigation:
   key: writing-with-ai
   title: Writing documentation with AI

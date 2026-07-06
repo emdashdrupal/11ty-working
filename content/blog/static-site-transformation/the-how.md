@@ -4,7 +4,6 @@ description: I started my information architecture with my existing WordPress si
   architecture. Then I started to put all the content pieces together.
 tags: content-strategy
 featured: true
-featuredOrder: 2
 FontAwesomeIcon: solid fa-file-waveform
 eleventyNavigation:
   key: the-how
