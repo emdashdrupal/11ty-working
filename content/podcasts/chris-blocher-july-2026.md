@@ -7,7 +7,7 @@ categories:
   - "technical writing"
 cover: chris-blocher.png
 coverAlt : Chris Blocher, content strategist and technical writer*
-description: "In this episode, Ed sits down with Rochester-based content strategist Chris Blocher to explore how technical communicators are navigating the rapid evolution of generative AI. From accidental career paths in writing to building \"second brains\", they break down practical workflows, local vs. cloud LLMs, and why human expertise remains irreplaceable in an age of automation."
+description: "In this episode, Ed sits down with Rochester-based <a href=\"https://www.linkedin.com/in/chrisblocher\">content strategist and technical writer<\/a>Chris Blocher to explore how technical communicators are navigating the rapid evolution of generative AI. From accidental career paths in writing to building \"second brains\", they break down practical workflows, local vs. cloud LLMs, and why human expertise remains irreplaceable in an age of automation."
 mp3File: sharon-burton-march-2026.mp3
 blubrryId: 152751070
 blubrryCache: 1772759385
@@ -46,13 +46,7 @@ eleventyNavigation:
 - [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/)
 - [Nielsen Norman Group](https://www.nngroup.com/)&thinsp;&mdash;&thinsp;UX/UI content research referenced as an advisory inspiration
 
-## Connect and follow
-
-- **Chris Blocher:** [LinkedIn](https://www.linkedin.com/in/chrisblocher) (Open calendar for quick chats!)
-- **Ed Marsh / Content Content Podcast:** [Website/Socials] *(Add your links here)*
-- **Humanizer Skill GitHub Repo:** *(Link to be added in episode description as noted by Ed)*
-
-*Thanks for listening! If you enjoyed this deep dive into AI workflows and content strategy, share it with a fellow technical communicator!*
+*Thanks for listening! If you enjoyed this deep dive into AI workflows and content strategy, share it with a fellow technical communicator*!
 
 ## Credits
 
