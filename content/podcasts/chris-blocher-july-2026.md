@@ -1,5 +1,5 @@
 ---
-title: "Human widget 3592 with Chris Blocher"
+title: "It's not Goodwill Hunting with Chris Blocher"
 date: 2026-07-08
 categories:
   - "podcast"
@@ -19,46 +19,34 @@ eleventyNavigation:
 
 ## Mentioned during this episode
 
-
-
-
----
-
-### 🛠️ Tools, Apps & Resources Mentioned
-
-#### AI platforms and models
+### AI platforms and models
 
 - [Claude / Anthropic](https://www.anthropic.com/claude)
 - [ChatGPT / OpenAI](https://openai.com/chatgpt)
 - [Google Gemini](https://gemini.google.com/) (formerly Bard)
 - [Microsoft Copilot](https://copilot.microsoft.com/)
 
-#### Local LLM runners and interfaces
+### Local LLM runners and interfaces
 
-- [LM Studio](https://lmstudio.ai/) – Desktop interface for running local models
-- [Ollama](https://ollama.com/) – CLI/local runner for open-source LLMs
-- [Open WebUI](https://openwebui.com/) – Chat interface compatible with Ollama & other backends
-- [AnythingLLM](https://anythingllm.com/) – Self-hosted vector store & RAG app
-- [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) – Open standard for connecting AI tools to external data/skills
+- [LM Studio](https://lmstudio.ai/)&thinsp;&mdash;&thinsp;Desktop interface for running local models
+- [Ollama](https://ollama.com/)&thinsp;&mdash;&thinsp;CLI/local runner for open-source LLMs
+- [Open WebUI](https://openwebui.com/)&thinsp;&mdash;&thinsp;Chat interface compatible with Ollama and other backends
+- [AnythingLLM](https://anythingllm.com/)&thinsp;&mdash;&thinsp;Self-hosted vector store and RAG app
+- [Model Context Protocol (MCP)](https://modelcontextprotocol.io/)&thinsp;&mdash;&thinsp;Open standard for connecting AI tools to external data/skills
 
-#### Note-taking and "second brain" tools
+### Note-taking and "second brain" tools
 
-- [Obsidian](https://obsidian.md/) – Markdown-based knowledge base with web clipper
-- [NotebookLM](https://notebooklm.google/) – Google’s AI-powered research & note tool
+- [Obsidian](https://obsidian.md/)&thinsp;&mdash;&thinsp;Markdown-based knowledge base with web clipper
+- [NotebookLM](https://notebooklm.google/)&thinsp;&mdash;&thinsp;Google’s AI-powered research and note tool
 - [Microsoft OneNote](https://www.onenote.com/)
 
-#### Writing, style, and prompts
+### Writing, style, and prompts
 
-- [Humanizer Skill (GitHub)](https://github.com/search?q=humanizer+skill+ai) – Repository mentioned for avoiding common "AI tells" in resumes & writing
+- [Humanizer Skill (GitHub)](https://github.com/blader/humanizer)&thinsp;&mdash;&thinsp;Repository mentioned for avoiding common "AI tells" in resumes and writing
 - [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/)
-- [Nielsen Norman Group](https://www.nngroup.com/) – UX/UI content research referenced as an advisory inspiration
+- [Nielsen Norman Group](https://www.nngroup.com/)&thinsp;&mdash;&thinsp;UX/UI content research referenced as an advisory inspiration
 
-**Experts & References Mentioned**
-
-- Christina Halverson, Conrad Godfordsen, Tom Johnson (API documentation), Jeff Su (Obsidian workflows)
-- *Note: Transcript references Andrej Karpathy in relation to Anthropic; for accuracy, Karpathy is known for his work at OpenAI/Tesla, while Anthropic was founded by Dario & Daniela Amodei.*
-
-### Connect and follow
+## Connect and follow
 
 - **Chris Blocher:** [LinkedIn](https://www.linkedin.com/in/chrisblocher) (Open calendar for quick chats!)
 - **Ed Marsh / Content Content Podcast:** [Website/Socials] *(Add your links here)*
