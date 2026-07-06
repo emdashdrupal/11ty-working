@@ -19,8 +19,8 @@
   [plugins.inputs]
     skipPatterns = [
       "https://fonts.gstatic.com",
-      "https://fonts.gstatic.com/.*",
-      "https://fonts.googleapis.com/.*",
-      "https://googletagmanager.com/.*",
-      "https://www.googletagmanager.com/.*"
+      "https://fonts.gstatic.com",
+      "https://fonts.googleapis.com",
+      "https://googletagmanager.com",
+      "https://www.googletagmanager.com"
     ]
