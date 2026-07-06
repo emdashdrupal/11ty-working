@@ -52,6 +52,6 @@ eleventyNavigation:
 
 - Intro voiceover by one of my best friends since high school, Corey Holtzberg at [Coho Studios](https://cohostudios.com).
 - Headshot by Michael Einreinhof of [Arclight Images](https://arclightimages.com).
-- Intro music bed: *Let's Relax* by [VGM Mark H](https://soundcloud.com/user-656562764)
+- Intro music bed: *Come On!* by [Luke Bergs and AgusAlvarez](https://www.lukebergsmusic.com).
   - Music promoted by <https://www.free-stock-music.com>
-  - Creative Commons / Attribution-NoDerivs 3.0 Unported (CC BY-ND 3.0) <https://creativecommons.org/licenses/by-nd/3.0/>
+  - Creative Commons /  [Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/)
