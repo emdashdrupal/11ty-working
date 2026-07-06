@@ -53,5 +53,5 @@ eleventyNavigation:
 - Intro voiceover by one of my best friends since high school, Corey Holtzberg at [Coho Studios](https://cohostudios.com).
 - Headshot by life-long friend Michael Einreinhof of [Arclight Images](https://arclightimages.com).
 - Intro music bed: *Come On!* by [Luke Bergs and AgusAlvarez](https://www.lukebergsmusic.com).
-  - Music promoted by <https://www.free-stock-music.com>
-  - Creative Commons /  [Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/)
+    - Music promoted by <https://www.free-stock-music.com>
+    - Creative Commons /  [Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/)
