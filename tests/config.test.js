@@ -72,7 +72,6 @@ describe('Eleventy Configuration', () => {
     expect(mockEleventyConfig.addPassthroughCopy).toHaveBeenCalledWith({
       "assets/": "assets",
       "_includes/js": "js/",
-      "podcast.xml": "podcast.xml",
       "llms.txt": "llms.txt",
       "netlify.toml": "netlify.toml",
     });
