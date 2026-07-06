@@ -316,6 +316,7 @@ ul li:not(#menubar>ul>li):not(div>ul>div>li) {
     font-optical-sizing: auto;       /* Optimized glyph rendering */
     line-height: 1.5rem;             /* Comfortable reading height */
     list-style-type: square;         /* Square bullets (distinct from ordered) */
+    list-style-position: inside;
     color: black;                    /* High contrast text */
 }
 
