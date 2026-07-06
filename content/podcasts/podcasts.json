@@ -9,7 +9,7 @@
   "podHostID": "https://player.blubrry.com/id",
   "itunesAuthor": "Ed Marsh",
   "itunesName": "Ed Marsh",
-  "itunesEmail": "ed@edmar.sh",
+  "itunesEmail": "podcasts@edmarsh.com",
   "itunesExplicit": "no",
   "eleventyNavigation": {
     "key": "podcasts"
