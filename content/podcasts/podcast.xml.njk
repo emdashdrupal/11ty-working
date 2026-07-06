@@ -1,0 +1,49 @@
+---
+layout: false
+permalink: /podcasts/podcast.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <atom:link href="https://edmar.sh/podcasts/podcast.xml" rel="self" type="application/rss+xml" />
+    <title>{{ title or "Content Content podcast" }}</title>
+    <link>https://edmar.sh/podcasts/</link>
+    <description>{{ description }}</description>
+    <language>en</language>
+    <copyright>&#169; {% year %} Ed Marsh</copyright>
+    <itunes:author>{{ itunesAuthor or "Ed Marsh" }}</itunes:author>
+    <itunes:summary>{{ description }}</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:owner>
+      <itunes:name>{{ itunesName or "Ed Marsh" }}</itunes:name>
+      <itunes:email>{{ itunesEmail or "ed@edmar.sh" }}</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>{{ itunesExplicit or "no" }}</itunes:explicit>
+    <itunes:image href="https://edmar.sh/assets/images/content-content-podcast-new-cover.png" />
+    <itunes:category text="Technology" />
+    <itunes:category text="Business">
+      <itunes:category text="Marketing" />
+    </itunes:category>
+    {%- for post in collections.podcasts | reverse -%}
+    {%- if post.data.mp3File -%}
+    {%- set absolutePostUrl -%}https://edmar.sh{{ post.url | url }}{%- endset -%}
+    <item>
+      <title>{{ post.data.title }}</title>
+      <link>{{ absolutePostUrl }}</link>
+      <itunes:author>{{ itunesAuthor or "Ed Marsh" }}</itunes:author>
+      <itunes:summary>{{ post.data.description }}</itunes:summary>
+      <description>{{ post.data.description }}</description>
+      <content:encoded><![CDATA[{{ post.templateContent | safe }}]]></content:encoded>
+      <enclosure url="https://content.blubrry.com/contentcontent/{{ post.data.mp3File }}" length="0" type="audio/mpeg" />
+      <guid isPermaLink="false">{{ absolutePostUrl }}</guid>
+      <pubDate>{{ post.date.toUTCString() }}</pubDate>
+      <itunes:explicit>{{ post.data.itunesExplicit or "no" }}</itunes:explicit>
+    </item>
+    {%- endif -%}
+    {%- endfor -%}
+  </channel>
+</rss>

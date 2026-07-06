@@ -3,6 +3,10 @@
   to = "/podcasts"
 
 [[redirects]]
+  from = "/podcast.xml"
+  to = "/podcasts/podcast.xml"
+
+[[redirects]]
   from = "/content-content-podcast"
   to = "/podcasts"
 

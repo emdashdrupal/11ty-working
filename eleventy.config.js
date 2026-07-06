@@ -265,7 +265,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "assets/": "assets",
     "_includes/js": "js/",
-    "podcast.xml": "podcast.xml",
     "llms.txt": "llms.txt",
     "netlify.toml": "netlify.toml",
   });
@@ -274,7 +273,7 @@ module.exports = function (eleventyConfig) {
   const collections = ["skills", "podcasts", "blog"];
   collections.forEach((collection) => {
     eleventyConfig.addCollection(collection, (collectionApi) =>
-      collectionApi.getAll().filter((item) => item.data.tags?.includes(collection))
+      collectionApi.getFilteredByTag(collection)
     );
   });
 
