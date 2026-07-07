@@ -1,6 +1,6 @@
 ---
 title: "It's not *Good Will Hunting* with Chris Blocher"
-date: 2026-07-08
+date: 2026-07-07
 categories:
   - "podcast"
   - "content strategy"
@@ -9,14 +9,15 @@ categories:
 cover: chris-blocher.png
 coverAlt : Chris Blocher, content strategist and technical writer*
 description: "In this episode, Ed talks to [content strategist and technical writer Chris Blocher](https://www.linkedin.com/in/chrisblocher). Chris' background spans academia, publishing, instructional design for Microsoft and Dell, and 18 years at Autodesk. They discuss how technical communicators are navigating the rapid evolution of generative AI, building \"second brains\", local vs. cloud LLMs, Ed rants about his rabbit holes, and why human expertise remains irreplaceable."
-mp3File: sharon-burton-march-2026.mp3
-blubrryId: 152751070
-blubrryCache: 1772759385
+mp3File: chris-blocher-content-content-june-2026.mp3
+blubrryId: 154268428
+blubrryCache: 1783441901
 eleventyNavigation:
   key: chris-blocher-podcast
   title: Chris Blocher
   parent: podcasts
 ---
+
 
 ## Mentioned during this episode
 

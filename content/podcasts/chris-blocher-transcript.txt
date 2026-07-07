@@ -1,0 +1,777 @@
+Ed Marsh (00:00)
+hello everyone. It's ⁓ it's Ed Marsh and ⁓ welcome to another episode of Content Content. I'm excited to talk to today's guest because we've met in the past couple of years, and I'm sure we're gonna have to talk about that, Chris, because I don't remember exactly how we met. But today's guest is Chris Blocher, who is newish friend of mine.
+
+And he is a technical writer and content strategist who is based in the Rochester, New York area. and for us down here near New York City, that's often considered upstate. But Chris, what's what's your opinion on that?
+
+Chris Blocher (00:32)
+So upstate is anything north of the thruway. So that's technically it. If you divide the state in half vertically, half upstate is above the thruway. South of the thruway can be downstate.
+
+Ed Marsh (00:38)
+Wait, I a new earth.
+
+I didn't realize the throughway didn't go all the way through the state.
+
+Chris Blocher (00:54)
+It does. It goes
+
+from New York City to Montreal and Albany to Buffalo and beyond.
+
+Ed Marsh (00:58)
+Mm-hmm.
+
+okay.
+
+Chris Blocher (01:04)
+that goes East West.
+
+Ed Marsh (01:06)
+Got it. Okay. So that's today's geography lesson.
+
+So Chris, why don't you tell us a little bit about you and what you do and what you've done and what you're doing.
+
+Chris Blocher (01:40)
+Sure, so from a historical perspective, I began as a content editor for a publishing company in Boston. They're now called read Elsevier and from there I moved into instructional design, working on certification courseware for. Microsoft and Dell and Adobe. And from there I wheeled my way into technical writing.
+
+⁓ You know, it's kind of weird because with an English degree, your parents always wonder what the hell you're going to do with it. And when you stumble into these content type roles, each content role just adds another layer to it, right? So initially, I was a layout and design person with cut and paste and using Aldous PageMaker on my Mac SC.
+
+Ed Marsh (02:22)
+Okay. wow. Yep.
+
+Chris Blocher (02:28)
+And then from there, we transformed into the business world where Windows was king and ⁓ did economic newsletters. And from there, we went into courseware. And from there, we went into technical writing at Autodesk. And I was there for 18 years. And from there, I evolved from technical writer into user assistance, into technical writing management, into content strategy.
+
+Ed Marsh (02:34)
+Mm-hmm.
+
+Chris Blocher (02:53)
+going from senior to principal and all of them. And it's just a matter of progression. And as you learn things, you apply things. And as you apply things, you realize you haven't learned anything yet.
+
+Ed Marsh (03:06)
+Isn't that the truth?
+
+Chris Blocher (03:07)
+And then from there I went into an AI company for the first time, a startup, and it was a bit of culture shock going from large company to a small company. That was a great experience. It was nice not to have to battle the silo dragons, as you know, in the larger companies. And then from there I am now back into courseware design, task writing, and concepts and so forth.
+
+Ed Marsh (03:34)
+that's cool. I didn't realize you had the breadth of the jobs you had and and roles you had.
+
+it's very interesting, that you kind of fell into this career because it seems like over the course of my podcast that there are so many people who literally just didn't know this job existed, and completely fell into it. And I'm one of them. Like I went to school
+
+to be a journalist. and I interviewed for a temp role and it was completely unrelated to technical writing. I had a sample of something I had written. And they're like, you'd be good for this technical writer assistant position. And I'm like, I don't know what that is, but okay. So I interviewed and got the job, and it turns out the offer was a hell of a lot more than anything a journalist would have been making. So that was thirty-two years ago. So
+
+Chris Blocher (04:06)
+Sure, let's go with it.
+
+Ed Marsh (04:15)
+How did you transition or how did you fall into it, I guess, is the question.
+
+Chris Blocher (04:19)
+So as an English major, so English major was my fall. I fell into being an English major, so I started out as a biology major until biochemistry knocked me out and then from there I went into psychology. I've always been fascinated by the brain and which helped with learning methodologies later, especially adult learning methodologies as they tend to be quite starkly different. And then from.
+
+Ed Marsh (04:38)
+Mm.
+
+Chris Blocher (04:45)
+there I went into education and I had a, as I was student observing for a day, ⁓ I had a student pull a knife on me and said, I don't want to babysit during, during my work job. So I decided from there to switch into English and the English I fell into simply because I had been taking all these core credits along those majors and I could still get an English degree and finish in four years. It's not like I, it's not like I planned to be an English major.
+
+Ed Marsh (04:54)
+Mm-hmm.
+
+Chris Blocher (05:14)
+And then, you know, when everybody asks you, what are you going to do with your English major? said, well, of course I'm going to, uh, teach. So I wanted to get my PhD in composition theory and my professor said, well, you won't be able to get into a doctoral program without literature. And, you know, I'm not a, I'm not a big reader. don't, I mean, I don't, I don't enjoy reading for, for entertainment. I enjoy reading to learn. And so I wound up.
+
+Getting going to the University of Maine for English. Literature for my Masters and I fell into a job that was being offered. It was a writing lab and they wanted me to set it up. They had all these Unix boxes that they needed to put together into a lab environment and so I did that. And we had a disagreement over hockey players.
+
+Ed Marsh (06:01)
+yeah.
+
+Chris Blocher (06:09)
+that came in, they were not very good at English. And when I explained that they should not be graduating, they didn't really appreciate that so much. And so we decided to leave the university of Maine and my entire teaching facet fell apart. I was so disgusted with the academic environment that.
+
+Ed Marsh (06:23)
+Right.
+
+Hm.
+
+Hmm.
+
+Chris Blocher (06:38)
+I mean, I loved University of Maine, don't get me wrong, but having seen a few other universities and the academic departments and the competitions and the odd things that happen, I was rather disillusioned. You know, it's not goodwill hunting, right? So the idea is that we want to get to profession that I can believe in and really work through. And so as I left, my dad said, I got you a job at the local newspaper.
+
+Ed Marsh (06:51)
+Mm.
+
+nice.
+
+Chris Blocher (07:07)
+And not so much he neglected to tell me it was a maintenance role. Yeah, and so that was rather incentivizing to continuing to move out I was in college relations at my undergrad and as I was leaving, I gave my job to a person who was a junior at the time. And that person, because I had went to grad school, had since gone to Boston, gotten this.
+
+Ed Marsh (07:11)
+jeez. wow, okay.
+
+Chris Blocher (07:31)
+desktop publishing job at read Elsevier currently now. And he offered me his job because he was moving on. And so we kind of flip-flopped there. And from there, we just kind of set off and launched. yeah, University of Maine just setting up the networking aspect of Unix machines. That really got me more interested in computers and documentation simply because documentation was so poor. that was AT &T that did that.
+
+Ed Marsh (07:48)
+Hmm.
+
+more things change, the more they stay the same. Yeah. I taught marching band on the side for 14 years while I was working. and thankfully I never had a knife pulled on me or any weapon that I can recall. so thankfully I had a little bit better ⁓ experience than you did. But funnily enough, when I was ready to graduate college, I'm like, you know, I went and I talked like, hey, maybe I can get a teaching certificate on the side kind of thing. and it turns out
+
+Chris Blocher (08:00)
+Indeed.
+
+nice
+
+Ed Marsh (08:21)
+I would have to go back and take some English courses and like go back and do Shakespeare and all that kind of the classics. And I'm like, like kinda like you, like, I don't do Shakespeare. Like, I'm nope, nope, nope, I'm not gonna do it. And I just I'm like, that makes this choice easier. So, you know, so I moved on and then that's where I was. but I'm sorry about your academic experience. I'm sure ⁓ some of the people who listen probably have similar experiences, unfortunately.
+
+But I know another guest, Sharon, has a very good situation, but she's also a part time, professor. well, we're glad you ended up in the right place then.
+
+Chris Blocher (08:50)
+Sure.
+
+Yeah, Shakespeare is the reason I drink coffee.
+
+Ed Marsh (09:00)
+I'd drink more beer if I had to read Shakespeare on a regular basis or or review papers on it, so
+
+Chris Blocher (09:03)
+Ha
+
+You have to balance your stimulants and your depressants.
+
+Ed Marsh (09:11)
+I yeah, and I'll just ⁓ avoid ⁓ Shakespeare altogether. Thank you.
+
+Chris Blocher (09:14)
+You're welcome.
+
+Although old English was kind of fun, I enjoyed reading old English with Chaucer
+
+Ed Marsh (09:21)
+yeah, I can't. I can't. can you remind me c how the hell did we meet? Was it at an online conference? Because know we were both looking for jobs at the same time. And I don't know how I think you reached out to me, and I don't know if it was because we met at a conference, a virtual conference, or if you had just reached out on LinkedIn and said, Hey, how are ya?
+
+Chris Blocher (09:34)
+Thanks. I think you presented it. Yeah. No.
+
+I think I saw you, could have been Content Wrangler ⁓ at some point. And when I enjoy one of those shows, I always reach out to the person who provided the information. And so I just reached out to you on LinkedIn and we just kind of started chatting back and forth and discovered we had a lot of common content interests.
+
+Ed Marsh (09:45)
+okay.
+
+Yeah. Okay. Thank you for reminding me of that. Yeah. what's cool about you is like we just clicked right off the bat, like we started having Zoom calls regularly. and what was interesting is you actually helped me along with my job search with a lot of websites and tips and stuff like that. And you started talking about AI really early on. and you pointed me in a lot of directions.
+
+Which has really kind of helped me and expanded my my understanding of how things work. most recently, and this is what we'll talk about in a little while, you actually gifted me a week of Claude, which reminds me that's free trial is ending today, so I have to cancel my account after we're done recording. But tell me how you I mean, you said you were involved in networking and that technology aspect really interested you. How did you fall into the AI rabbit hole?
+
+Chris Blocher (10:36)
+Yes, yes, please.
+
+Ed Marsh (10:47)
+You said you work for a startup, right?
+
+Chris Blocher (10:49)
+Yeah, so I worked for a startup just for about a year. The contract was foreign. What I was seeing was kind of fascinating to me, but before before even that contract, I mean, I was hearing all the rumblings about open AI and how they finally cracked the ability to generate.
+
+Ed Marsh (11:05)
+Mm-hmm.
+
+Chris Blocher (11:11)
+And so I thought, wow, that would be a game changer. And so I just constantly combed the stories, the news stories on the web. And we wound up just getting more and more down that rabbit hole. And it is a rabbit hole in many ways. But I had a lot of content use cases that I thought I could apply them to, a lot of terminology discrepancies, a lot of
+
+Ed Marsh (11:33)
+Okay.
+
+Chris Blocher (11:39)
+duplication was driving me crazy on all fronts. Content duplication in different silos, content duplication in our own groups. Those are the kinds of things that I tend to want to solve problems. So when I see a content process that is not as efficient as I think it could be, that was kind of my impetus for jumping into AI. Now, interestingly, since then, even when I think something is
+
+Ed Marsh (11:41)
+Mm.
+
+Chris Blocher (12:04)
+working well or the process is smooth. I enjoy using AI to be my antithesis, right? So I want them to look at it from different angles in what I call a walk around. So look at this process, show me the pros and cons of it. Where could we improve it? What is costly? You know, AI is is extremely costly as companies are learning all of these AI engineered.
+
+Layoffs will soon rebound, I'm sure, and we'll see people coming back because of the wild expense that's involved in it. People neglect that. So yeah, so AI just kind of... I was looking for a tool. That's all.
+
+Ed Marsh (12:47)
+Okay. And here you are.
+
+Chris Blocher (12:51)
+Here I am being confounded by AI daily.
+
+Ed Marsh (12:54)
+Yeah, tell me about it. I'm searching for a job again and I've you know, I've been going down a rabbit hole of, hey, create a re master resume from a bunch of my past resumes. ⁓ and then I'm like, okay, based I paste in a job description, and I'm like, based on these resumes on build me a job description or a resume, and then I go back and forth and I'm like, this is crap and this is wrong and this is inaccurate and this that and the other thing, and I've actually spent more time trying to figure out how to get a good resume than actually applying for jobs.
+
+Chris Blocher (13:03)
+Right.
+
+Ed Marsh (13:23)
+So I just kind of pivoted yesterday. I'm like, you know, I really gotta start looking for freaking jobs. So here I am.
+
+Chris Blocher (13:24)
+Yeah.
+
+Yeah, you kind of get into that. The tool is the job kind of approach. You know it was funny because. The job postings that are requiring AI skills. They use these screening. tiers that look for AI and disqualify you for using AI. So this it's this weird dichotomy. You need the skills we want the skills, but if you have the skills, our system is kicking you out.
+
+So there is that kind of tension is becoming. At least people are aware of that now, and so they're they're starting to lower the bar for AI screening until the writing samples and so forth coming. So that's that's kind of a fun thing. The other thing I want to bring up is that Scott Abel posted awhile ago, maybe a week or two ago about that very same thing. If you are a good writer and you use the rule of threes,
+
+You are actually disqualified because it's an AI tell. And so you wind up it's very, it's just, it's kind of that egg and chicken portion happening again. And it just constantly goes back and forth. So the tools are kind of confounding themselves at this point, which is fun to watch.
+
+Ed Marsh (14:44)
+I have to assume that the applicant tracking systems are using AI themselves. So okay, I'm kind of trying to fight fire with fire and and then to only to get rejected because I use em dashes and I'm like, I've used em dashes my entire career. Like it's alt oh one five one on Windows keypad. And I'm just ⁓ and you know, the N dash is one five zero.
+
+Chris Blocher (15:01)
+know, typography.
+
+Ed Marsh (15:06)
+You know, so I know these things and I even know them in in Markdown. Like I know how to write these things and like I'm very offended about the fact that AI has taken my dashes away from.
+
+Chris Blocher (15:17)
+Yeah, that's just, you know, it will ebb and flow as you know, but please don't put emojis in.
+
+Ed Marsh (15:22)
+God, no, no, no, that that annoys me. Like, okay, no. Like if I'm spitting out if you're spitting out a resume prompt, like don't put check boxes and emojis and happy faces. Like, no, no, no, no, no. ⁓ but I think Okay.
+
+Chris Blocher (15:33)
+Yeah, so I mean the humanizer skill will help with that. I mean,
+
+any writer should know about the humanizer skill. If you for Claude anyway, I don't know about the other AIs if it works for those, but. Just Google humanizer skill and you'll find the GitHub repository for it, but it includes a series of AI tells to avoid. If you don't use the humanizer scale, you can certainly add them to your own AI interface so that.
+
+They're avoided as you go forward. So you can, you can winnow those out. It's not that difficult.
+
+Ed Marsh (16:03)
+You're actually not the first person to recognize ⁓ to recommend Humanizer to me. And I'll put a link to the GitHub repo in the show notes. ⁓ so check that out. and I actually do have it working. ⁓ and cr you touched on this a little bit, so I'll take this moment to talk about it. for the past year and a half, I've been running all my LLMs locally. just for several reasons. First of all, to understand how the hell they work. second of all, because we all know that there are environmental
+
+problems with data centers and these GPUs running all the time. So I wanted to see just how much power, you know, these things are taking themselves. and then I think, you know, s so and just kind of to f understand on a fundamental level, I started building out a home lab and that was like the next natural progression. Like, and I just spent a whole day Monday trying to add open web UI to everything. And then I went from LM Studio to ollama because it was just easier. And I'm ranting and probably most people don't understand what the hell I just said.
+
+because I'm running MCP servers and I just wanted to tell you, and I wanted to talk about your your skill as well. ac the Claude skills actually do work in LM Studio and they do work locally. So I I can also put a link to the thing that I'm using ⁓ in LM Studio, which
+
+If you don't know what LM Studio it is, it's basically an interface and tuning system and a chatbot that lets you run local language or large language models locally. and I will tell you, and this is the interesting thing about my whole experiment, it's a heck of a lot slower running on your own machine than it is when you're typing a cloud a claude prompt or a chat GTP GPT prompt. So that was one of the in very interesting things. And I have a high-end gaming machine which with a
+
+GPU that is apparently perfect for running LLMs but to generate a resume now, it takes me like it takes like five minutes to think through it and go through it and everything. And it's just like so it is very interesting how much the performance difference is. But it's also nice for me personally to be able to have all my personal information running on my machine locally and not being pasted into Claude and G and Gemini and Chat GPT and who knows what they'll do with that data.
+
+Chris Blocher (17:47)
+Mm-hmm.
+
+Right. And the local LLMs we need to point out are free. you know, I mean, that's really when you're looking for work, every dollar counts. And, you know, it's important that you investigate those cost savings, especially when it'll provide you with a learning experience as well. I I use my local, I use LM Studio and the Gemma model to convert PDFs.
+
+Ed Marsh (18:13)
+Yes, that's also true.
+
+Okay.
+
+nice, okay.
+
+Chris Blocher (18:36)
+Over
+
+my career, I've collected PDFs of conferences, of books that I like, things like that. And I'm turning that into my second brain. And Andrei Karpathy, one of the co-founders of Anthropic, he recently
+
+gave out his secret of having a second brain. And you'll see a lot of YouTubers, including Matt Wolf, really latch onto it. And it essentially allows you to use all of your local information as a ⁓ searchable, rag database kind of retrieval, augmented generation.
+
+Ed Marsh (19:08)
+Mm-hmm.
+
+Yeah.
+
+you'd told me about Notebook LM a long time ago, but now I think you said you were using something called Notion, correct? Is that like is that one of your second brain tools?
+
+Chris Blocher (19:25)
+So I started really diving into using Notebook LM for personal things. So I was using Notebook LM, which is a Google tool, and it's free and you can pay up. But if you want to try it, Notebook LM is a great way to keep things somewhat private. If you trust Google's privacy policies, then you can trust Notebook LM.
+
+So I was experimenting a lot with it from a job search perspective. It is a great solution for generating customized resumes and by feeding it the job role, your history, your past resumes, your accomplishments and so forth. But it is locked into the web. so what I think they might have a desktop client now.
+
+Ed Marsh (20:08)
+Mm-hmm.
+
+Chris Blocher (20:13)
+after all this time, but anyway, it just wasn't working the way that I would like to work. So I decided to look for more local things. have my entire career. I've used notebook LMS since since I was an instructional designer. So I have decades of notebooks from there and they're locked in essentially to one one note, which is fine. I love one note. I think it's a fantastic product and I highly encourage using it if you have it.
+
+Ed Marsh (20:20)
+Okay.
+
+Mm.
+
+Chris Blocher (20:41)
+but this whole second brain process that has been of recent fame. One of the people that I've explored with is Jeff Su. He suggested using Obsidian. Now Obsidian is just a markdown. Well, it's not just, shouldn't undersell it. Obsidian is a free tool that you can use to
+
+take markdown notes. Their Web Clipper is amazing. You can clip job descriptions, you can clip articles, and you can build your second brain, right? So if it's a more flexible solution, it's not as boxed in as OneNote, and it is a little bit more intriguing to me for personal reasons than Notebook LM.
+
+Ed Marsh (21:35)
+And are you using anything like that in your professional day to day?
+
+Chris Blocher (21:41)
+I use Obsidian for my own notes that I take and ⁓ collecting things. In the professional side, they have a contract with Microsoft, so there's a lot of copilot ⁓ being used there. Copilot I enjoy. It's free and because I use the Edge browser, it is very accessible. But
+
+Ed Marsh (21:45)
+Okay.
+
+Okay.
+
+Chris Blocher (22:05)
+It is less observably useful than the Claude products are to me. So in Copilot, it's learning as it goes, right? There's not a lot of memory files you can immediately get to. One of the reasons that I used Obsidian is because I can use Claude to write.
+
+the markdown files for me, those first drafts, and I can observe those. Plus, it's readily and easily feedable to GitHub because it's the markdown format. GitHub has no issues with it. So it provides me with a better path to backup. It provides me with a better path to the second brain that we're developing. yeah, but I mean, from a Microsoft standpoint,
+
+I don't use Copilot in the applications. I think that is really limiting for me because I know these applications so well that I tend to do better than Copilot does with them. I know my workflow that Copilot doesn't actually know my workflow yet, although I assume that it will pick it up as we go. yeah, so you find your toolbox, right?
+
+Ed Marsh (23:07)
+Hmm.
+
+Yeah, and how did you go along those lines, how did you decide on Claude? Did you try other things and it just turned out that Claude worked? I know when I back in when I was rebuilding my website, I started with Google Bard because I'm a Google we're a Google family and I had access to it and then it became Gemini. I never went with Chat GPT because I always had a little creepy feeling about them, like I didn't really like that. and then Claude, you know, Claude seems has become the default, especially for people who write code.
+
+Chris Blocher (23:43)
+Yeah.
+
+Ed Marsh (23:50)
+and I know that you've used it for quite some time and you really like it. So how did you get there?
+
+Chris Blocher (23:55)
+Initially, I mentioned, OpenAI was kind of first to shine the light on generative AI for me, the first one that I saw. And so I, you you get on the waiting lists, right? And you kind of worked your way across. Bard was not far behind. And so we jumped into that and then co-pilot. So I kind of was racing all three. And I do this today. I still will give all three separate prompts.
+
+Ed Marsh (24:08)
+Yeah.
+
+Chris Blocher (24:22)
+And see what they tell me right and see what comes back because as you know. It feels like it's becoming commoditized. ⁓ You know, as is open AI releases this model and Anthropic releases that model and Microsoft is chasing them all Gemini is is still in that race, but. As you have experienced.
+
+Ed Marsh (24:33)
+For sure.
+
+Chris Blocher (24:48)
+⁓ My default of Sonnet I've had to pivot on because Sonnet for some reason has fallen apart on me. Sonnet just seems to have degraded to the point of it doesn't remember things anymore. There's a variety of reasons for that. It typically has to do with the upgrading of other models, takes away development resources, so they stop developing that particular model that you're using. So you're constantly chasing it.
+
+Yes, I use Claude. I started with OpenAI. There's the whole politics of it all. There's the environment of it all, which they all are guilty of. It's just that Anthropic tends to be more forthright about things. When there is an issue, they don't try to spin it. They tell you what it is.
+
+The other situations in the political climates I've settled into Claude for the time being simply because The trust level is higher Although I can't say that the sonnet thing was was very I still am NOT seeing any public Discussion about it other than on reddit about the the pain that it is causing
+
+And by pain, just mean it's annoying. It worked the other day. And that's part of the trick with all this, right? It is moving so fast that the personal skills you develop and the code skills that you develop are being affected by this speed. And so you need to constantly chase it.
+
+Ed Marsh (26:18)
+Yeah, for sure. And just for posterity's sake, Opus and Sonnet are two Claude local or large language models that are currently available in the Claude family. So so if you're listening to this five, ten years from now, which I doubt anybody would, but if you're wondering or what you want to know, you know, what what what the hell we're talking about, there are those are large language models that are built into to Claude.
+
+And what you said just now about how you've got to constantly chase things, like, you know, a couple of years ago when I was looking, I'm like, hey, maybe prompt engineering is a thing. This is cool. And I like, I've written my own custom prompts. I, you know, I basically took one of I took I created a local DevOps prompt and basically put in my entire network and my system, you know, what my computers are running, yada, yada, yada, my Nas. So that way I can go and just like select this.
+
+Chris Blocher (26:52)
+Yeah, of course.
+
+Ed Marsh (27:05)
+Basically persona and say, You're a DevOps ac expert and I can go and query and do it. So 'cause I did at l LM studio really doesn't have a lot of memory, like you said. Others don't, or like copilot. so that kinda helped and kind of but then like prompt engineering is no longer a thing. And then it was I think context or something like and it's just like like okay, never mind.
+
+Chris Blocher (27:23)
+Context engineering. still at
+
+the context engineering in a way because, and what you've learned, like I've had people backtrack on their, give it a persona, give it a role to play, right? It used to be what, you are an expert technical writer with 20 years experience, blah, blah, blah, and then you would do the rest. You'd provide the context and the outcomes that you'd like. And now they're the way that
+
+Ed Marsh (27:36)
+Hmm.
+
+Mm-hmm.
+
+Chris Blocher (27:48)
+things are evolving, say that you're limiting yourself. You're not giving AI its full breadth. By giving them a persona, you don't give them the creativity that they could bring to bear. And in some cases, that's exactly true. But in other cases, I still believe in the persona as well. Obviously, when you're a PRD or some other kind of technical spec, you do not want to let it get creative.
+
+Right. You want to lower the temperature down to 0.1 or 0 and go with it.
+
+Ed Marsh (28:22)
+Yeah, and it's interesting because like, you know, like you said, I've often pitted ⁓ you know, the LLMs against each other and against even my own local machine. And sometimes if you know, my local LLMs won't work and give me the right answer, I'll go and po post it or p you know into like Claude now. but it doesn't have that context and it kinda annoys the hell out of me. And like, so then I have to go and paste my prompt in with, you know, here's all my setup and everything. So it's like a lot of just like churn and it seems like it's starting to remember, but like
+
+Chris Blocher (28:46)
+Yeah.
+
+Ed Marsh (28:51)
+I've already got that set up. It's like it's it's annoying.
+
+Chris Blocher (28:53)
+Well,
+
+as I mentioned, they're kind of becoming commoditized. You can actually transport your context from one AI to the other now. So you can move between ChatGPT and Claude and Gemini and the other ones. You can export it and import it. it's not 100 % perfect, at least not in my experience. I've had a couple of gaps that I thought were very obvious, like entire
+
+Ed Marsh (28:56)
+Yeah.
+
+really?
+
+Chris Blocher (29:21)
+⁓ project gaps that I wanted to work on. I wanted to see if some other if a different AI could could do better. So it's not perfect, but the portability is growing because it has become an open standard. To do that, so that's good, so that's positive.
+
+Ed Marsh (29:34)
+Mm-hmm.
+
+And you talked about skills. Let's go back back to that for a second, because I know that you also created your own skill for technical writing and writing and PRDs generation stuff like that. And it seems like skills very quickly became a a standard, which is very interesting. And a skills file, basically, it's almost like a system prompt if we're it's just like kind of a markdown file that basically gives you commands and tells it what to do. So what is your, you know, what is your experience with that?
+
+Chris Blocher (29:48)
+Yeah.
+
+Yeah.
+
+It is.
+
+Yeah, it can be right. So mean a skill can be just a one single mark down for repeatable task that you do, but it's kind of is prompt engineering has moved context engineering skill. Engineering is kind of moved agent engineering, right? So it's kind of moved one up, whereas a skill is meant to do to one thing. An agent is allowed to coordinate skills and do things in a variety of ways.
+
+My the skill that I particularly developed was technical content design skill and. I was kind of challenged by the thought that we don't need personas anymore. I really I still believe that if you provide useful, well founded personas ⁓ or roles that that you will produce the results that you want a little more effectively.
+
+and efficiently as token burn is a real thing. If you've ever had to sit and wait until your next token session renews, you know what that means. But in my skill, I picked a lot of my heroes, my content heroes, Christina Halverson, Val Swisher, Conrad Godfordsen, all of these people that I admire because of the way that they represent content.
+
+Ed Marsh (30:58)
+Yeah.
+
+Chris Blocher (31:15)
+is built on their actual skills, right? I their skills are just wonderful and noteworthy. So in mine, for each type of technical writing and content design, I focused on particular people for that particular output that I wanted. For example, Nielsen Norman's UI content, they are my
+
+Ed Marsh (31:33)
+Mm.
+
+I saw that.
+
+Chris Blocher (31:44)
+go to people for that. And so I included them in the skill as kind of my advisory board. They're on the advisory board in my skill, if you will. so Tom Johnson for API, I'm terrible at API stuff. I'm not good at it, but I know what it's right, and I can tell how to read it and that kind of thing. But there's a lot of nuance there that I just would never have. So I included Tom Johnson.
+
+officially in my skill, simply because I admire all he does. I mean, they're there for everybody to see. It's just, it's not that I'm stealing work from them, right? I mean, that's not the point. The idea is to have the agent go, you know, what would Tom Johnson do in this case? And the results that I've had across the board for all of these has been very positive.
+
+Ed Marsh (32:20)
+Yeah, yeah.
+
+Chris Blocher (32:33)
+and intriguing and I want to explore them more. And I'll develop that skill as time goes on. Just for my own knowledge, you know, I gave it to you and a few of my friends just to kick the tires on, you know, by no means am I trying to sell it or am I trying to benefit from it in any way. It's really just a brain teaser for me.
+
+Ed Marsh (32:54)
+Yeah, I have played around with a little bit and it was nice. It's like, okay, that's kind of cool. I took a quick glance at the skills.md file and saw, you know, you know, you put your the people you mentioned in there, like, and that's something I never thought of. And that's really interesting. Like, okay, well, pull from, you know, I'd rather be writing.com or pull from Norman Neilman Group dot com or whatever their site is and like and and kind of aggregate that together to be like one huge professional brain.
+
+Chris Blocher (33:11)
+Mm-hmm.
+
+Ed Marsh (33:20)
+Is is a really interesting it's a really interesting thought.
+
+Chris Blocher (33:24)
+Yeah, I enjoy the thought exercise of it all, but as you know, it's these rabbit holes are very real and and it's easy to lose your path, right? I mean, you're in the dark woods. You're installing LM Studio and you want to know what models will run on my computer and you provide your computer overhead and settings and hardware requirements and it comes back with one and you install it and something fails in LM Studio.
+
+Ed Marsh (33:31)
+Yeah.
+
+Chris Blocher (33:54)
+You're not there to set up LM Studio. You're there to perform a particular task. But by the time, what the hell was I doing is a very real thing in these AI workflows. And that was when my hard drive died and ate all of my Claude co-work projects, I realized that not only would GitHub help me recover from situations like that, these day-to-day practical situations,
+
+Ed Marsh (33:57)
+Right.
+
+So
+
+Mm-hmm.
+
+Chris Blocher (34:22)
+But it's also a nice trail, what was I doing? What was that three months ago? Just go back to the history and GitHub and look at it. It's like, that's right, we did discuss that. And that's another reason why I appreciate Claude, whether it be Claude, chat, co-work, or code, the memory that it retains for you is accessible.
+
+Ed Marsh (34:29)
+Mm.
+
+Chris Blocher (34:43)
+You have a memory dot MD file. You can go back and look at it and read it. And if you want to clear it from memory, you go back and just delete it and it's there. And so that's because of Claude's. Exposure to markdown and the ability to correct things. You know if you're seeing a lot of dashes, you can go to your skill and edit the skill to say I mean don't do that.
+
+And so it puts in the hard command in front of it and says, I won't do it again kind of thing, because you know, there's, slippage, right? Based on the context of the chat and based on the context of the entire project and so forth. And, the way that Claude works at a, at a kind of system level, a project level, each layer is much like cascading style sheets. The memory in Claude files at each level supersedes the one above it.
+
+so you can really narrow it down as you go. So I have professional projects which use Microsoft Style Guide and I have personal projects, but I don't care about having a style guide at all. But those are the kinds of dialing it in that Claude allows me without forcing me to learn additional things. I know Mark down, you know, let's go with it.
+
+Ed Marsh (35:38)
+Mm-hmm.
+
+Yeah.
+
+Yeah, talking about rabbit holes. you know, once we talked about skills and I started looking into skills, and I'm like, well, I can't run that locally, so how what do I do about that? And it turns out there's actually an an MCP server that will enable the skills, and I mentioned it previously. So then I'm like, okay, well, this is cool. And I played with your skill and I play with another couple of skills, and then, you know, hey, I've got this thing, and I've been using this as a resume builder, so let me go so find some skills.
+
+That will help me with my resume. And I put a bunch in as like a whole big collection of that someone had in a GitHub repo and put it together and it put out garbage. Like it put out completely, it was like horrible. I'm like, and I started taking out particular skills that it had and just like narrowing it down to just like, hey, build a cover letter or re you know, rewrite my resume. And it was just like it was unusable. So I had to delete those really quick. But that took me, you know, several hours to go not only research and find one, but then, you know, trade out to figure out how it works.
+
+Chris Blocher (36:51)
+Right.
+
+Ed Marsh (36:54)
+And if it's doing a better job than what I already have. And then it was the point of, well, this one completely sucks. So now I've just deleted those things and I've ⁓ I spent my day doing that. So it's ⁓ you know, it's i i I mean, it's a fun rabbit hole, don't get me wrong, but it's like, well, what the hell did I just spend all that time for?
+
+Chris Blocher (37:11)
+Yeah, I mean just because there is a skill doesn't mean you should use it right? I garbage in garbage out is absolutely still the song of the day with and I should be very transparent about this
+
+So so these skill repositories and GitHub and elsewhere are really proliferating, right? And there have been occasions where inside of the skill there have been payloads that you don't want on your computer. So you know, it's just kind of a security setup. Usually whenever I do download a skill, which is not. Random anymore.
+
+Ed Marsh (37:41)
+Mm.
+
+Chris Blocher (37:51)
+It used to be, but very intentional. I always make sure I go to reputable sources. And then even then I download the skill and I'll run it through my virus protection. And I will also then ask Claude to look at the skill to see if there's anything dangerous about it. And I'm no security expert, but those are two tasks that I take very seriously whenever I borrow somebody's skill.
+
+Ed Marsh (38:14)
+Yeah, okay. So that yeah, that's interesting. you know, you're seeing this evolution and it seems like you're keeping up on the edge of this kind of stuff. And it seems like skills are already passé and prompt engineering went to context engineering, and now I don't even know if that's a thing. ⁓ so what are you seeing next? And where are you where are you seeing things evolve for for people like us? What should we be focusing on?
+
+Chris Blocher (38:38)
+⁓ Yeah. So a good prompt is still a good prompt. A good skill is still a good skill. The growth of all this going together and the learning curve of doing this is reducing at a rapid pace. Right? So if you feel like it's too late for me, I do not have the bandwidth or the desire to dig in on these things. It's coming back to you.
+
+Ed Marsh (38:42)
+Okay. Good.
+
+Chris Blocher (39:05)
+at a pace that is equal to the pace of just expansion, right? Can't read a news article at all anymore without talking about what valuation these companies have. We all know that there's going to be some kind of leveling, right? They cannot continue this growth in a productive way forever. So, you know, there will be the settling that will happen.
+
+And the idea is really just like it ever was is as you moved from different job titles to do the same job, then you want to make sure that you're just you're not doing anything different. You're still doing the same work. You're just using different tool set, right? And as long as you're open to learning, you're in good shape from a evolution perspective. You know, I don't review code anymore.
+
+Ed Marsh (39:59)
+Hm. Yeah.
+
+Chris Blocher (39:59)
+Claude does right? So
+
+when I do a pull request, I just let it go and the bot will look at it and tell me what I've done. Yeah, the ever present. I left a comma at the end of the last line in a JSON file. know that these these simple things that are hard to spy. That's the kind of stuff that AI is really good for. The trick to all of this is expertise, right? What is your expertise?
+
+Ed Marsh (40:09)
+no.
+
+Chris Blocher (40:24)
+Only with expertise will you know that something's We all know how confident these things can sound. And the real thing that unnerves me is passivity. You I mean, you just let it go, right? You don't review it. You just let it happen. That's the kind of thing that makes me nervous across the board, not just in content, but
+
+Ed Marsh (40:27)
+Yeah.
+
+Chris Blocher (40:46)
+in government in other areas, it's very easy to just throw your prompt in or trigger that skill and just take what it gives you. In many ways, it's subtle. Like you told the agent to make sure these three files are consistent. And you had just been
+
+Ed Marsh (40:55)
+For sure.
+
+Chris Blocher (41:06)
+painstakingly gone over what consistency means, what the guidelines are, what the rules are, when to apply them, when not to apply them. So you think you're set and for whatever reason, maybe the model changed a little bit, maybe you used low instead of medium on your model. That's a very obvious thing that I tend to fall into. There can be any number of reasons for it to give you a different answer every time.
+
+So just because it works doesn't mean it's going to work again. And I think that's really where all of this needs to go. It needs to go with improving consistency. Right? ⁓ You know, you remember the days where IT departments would not upgrade Windows at a certain pace or cadence. You know, just read an article out how certain critical systems are still running Windows 95 or Windows 8 or something like that.
+
+Ed Marsh (41:43)
+Hm. Yeah.
+
+Mm-hmm.
+
+Chris Blocher (42:00)
+That kind of lockdown will need to come with AI in some way, shape, or form so that you can get consistency or some other method of consistency that I have not yet thought of.
+
+Ed Marsh (42:17)
+Yeah, and I think I mean it seems like all of those things that we've talked about and the evolution of this, it's all going towards consistency. you know, and it seems like it's it seems like it's a lot of trialing failing, basically, since we've gone from, like I said, prompt to context to skills to system prompts to you know, to the next thing. And it's like all we're kind of doing is making sure it's standardized and not throwing out AI slop.
+
+Chris Blocher (42:42)
+Yeah, and I wouldn't say it's failing. I would say it's just it's evolving and you know there was the concept of fast failure. Four years ago, five years ago, six years ago. And so people realize that that's not really. A lifestyle, you know if in a career you don't want fast failure, because if you're failing fast all the time, you're failing all the time, right? So I mean, that's kind of what.
+
+Ed Marsh (42:51)
+Huh. Release and iterate.
+
+Yeah, something's wrong yet. Yeah.
+
+Chris Blocher (43:10)
+We see now there's, I think we're in a fast failure mode with AI and they will grow. It will evolve into a more mature discipline. You know, we're not here to write. We're not here to generate videos or podcasts or anything like that. We're here to share information with human beings. And however that is, whatever tools we need to use to do that.
+
+Ed Marsh (43:29)
+Mm-hmm.
+
+Chris Blocher (43:37)
+That's really why we play what we play, right? mean, why we do what we do. That's our genre.
+
+Ed Marsh (43:44)
+Yeah. So I mean, sounds like the overarching thing is, hey, you know, keep learn keep learning new skills, and that's something you should have been doing your entire career. And it seems like it's just it's on fast forward now. And that's what a it's it's like hard to keep up. Like you're ahead of me and I'm trying to do all this stuff locally. And then the next thing I know, it's like, well, now here's the next big thing, and here's the next like well, and we just talked about how Sonnet isn't responding how it used to or as accurately used to. So it's like
+
+Chris Blocher (43:53)
+Of course.
+
+Ed Marsh (44:13)
+It's just a lot to l it's l it's faster than ever. And that's what I think drives me crazy.
+
+Chris Blocher (44:18)
+Yeah, it's really having the ability to pivot and you notice locally things run slower. You but why did you do that to gain security to gain a backup? Perhaps to your online work, but the you know why you did it. Right, I mean, that's your expertise coming to the table saying I need this solution with these constraints with these benefits.
+
+Ed Marsh (44:36)
+Mm-hmm.
+
+Chris Blocher (44:45)
+and you applied it to the tools. That's the expertise that we all will need. And as I said, you just don't just learn the tools, learn the human skills. How do you gain influence? How do you do all the other things you need to do to get the job done? But you got to be able to be flexible and pivot when something's not working. Now, I didn't cry that Sonnet on it.
+
+Ed Marsh (44:50)
+Mm-hmm.
+
+Yeah, no.
+
+Chris Blocher (45:10)
+failing for me and for all I know, could be just me and you. Other people might be having great success with it. But the corresponding time is based on awareness, right? I was aware they came out with Opus 4.8 and how ironic that it would be right around the same time that Sonnet was starting to have issues for me. And so there's crumbs, there's evidence, but there's no smoking gun as you will.
+
+You know, from my perspective, it's just a matter of pivoting.
+
+Ed Marsh (45:43)
+I've been just been doing like pivoting rapid fire, trying to keep up with everything. ⁓ like I mentioned earlier, you had given me a c a free week of Claude to kind of see what it is. And because I've been running locally, I wanted to see what the difference is not only in performance, but what makes it mu makes it so popular.
+
+Incidentally, one of the things I found interesting is that it's got a lot more usability to it. and it's just a lot more functions that just don't come in with out-of-the-box kind of stuff. ⁓ but ironically, during my free trial, and thank you again, Chris, because you saved me, my local LM just stopped working I don't know if I changed a temperature or a a context length or something like that, but the models I use, and I use the Quen 3 models.
+
+Chris Blocher (46:09)
+Mm-hmm.
+
+Ed Marsh (46:25)
+and Quen 3.6 is actually really, really nice. It's an enemies just to see the the rapid change and and map model so quickly is crazy and it's mind blowing. and it's like a nuclear arms race. and we're all gonna pay for it in either tokens or you know, energy. Anyhow, that's a rant. but it saved me. Thankfully, I had that Claude account and I was able to like not worry about running out of tokens until 5 30 p.m. and
+
+Chris Blocher (46:49)
+All
+
+Ed Marsh (46:50)
+Basically got it working. ⁓
+
+Chris Blocher (46:50)
+right. All good.
+
+Ed Marsh (46:52)
+I don't think LLM's learning locally is for everybody. it's interesting to learn, and and especially for us as content people, see how it ingests and what it does with it. after seeing Claude
+
+and it pops like a bar of like multiple choice questions. And I'm like, holy crap, that's crazy. so I started ⁓ talking to Claude about that. And like, well, how do I get this running locally? I told it like, I've got this library of resumes,
+
+How do I take these together and put it in a memory kind of thing instead of me uploading my MD files or my PDF files every single time? And it basically told me, well, yeah, there's open web UI, but there's also this thing that called called anything LLM. And basically what it is is a vector store. I'm like, okay.
+
+Then I got open web UI working and I thought, hey, this is kind of cool because it did some of those things, like the pop-up questions, and it was a much nicer interface than LM Studio. But then I'm trying with this anything LLM and I finally got that working and I got the vector store and I've got my resumes in there. I'm like, okay, this is all working. And then I try to query it in open web UI. And it's like, I don't know what the hell you're talking about. And Claude's like,
+
+yeah, that's my mistake. Like I made a bad like you don't need anything LLM because it doesn't talk to open web UI at all. They're completely separate things. ⁓ And I'm like, okay, I just spent a day in a rabbit hole, and again, this is fun as hell, but ⁓ like it's like it was wrong and it told me like yeah, yeah, yeah, yeah. You know, you're right.
+
+Chris Blocher (48:06)
+Right.
+
+Ed Marsh (48:18)
+I was wrong.
+
+Chris Blocher (48:19)
+Well, you get to that point because you're gradually adding context to that thread, right? So typically what we forget is each time you go along in any kind of chat, that thread, you lose context because the context either gets compacted, which is what Claude does, or it just forgets, right? So one tip that I'll give you is create a handoff prompt.
+
+Ed Marsh (48:22)
+Yeah, fair.
+
+Okay.
+
+Chris Blocher (48:45)
+So as you notice more and more forgetfulness, you know that this chat is getting too long, right? So what you do is you just simply ask for a handoff prompt so that you can start a new chat without losing the important context. And it will give you the exact prompt to put into a new window.
+
+Ed Marsh (48:51)
+Okay, yeah.
+
+Okay. interesting.
+
+Chris Blocher (49:06)
+And
+
+it will. You've reset the entire context. It carries the context forward. Now don't just always take the prompt that it gives you. Say we also talked about this. We also talked about this. Those are important to me because what it's doing is it's picking things that it thinks is important and that those things may not be exactly the same things you think are important. So you can go back and forth a couple times on that prompt, but you'll experience a much better.
+
+Ed Marsh (49:14)
+Mm-hmm.
+
+Chris Blocher (49:33)
+discussion with better results. The other thing that I would suggest is a walk around, right? So we talked about a walk around earlier, but. Before I start anything I have I have a solution in mind. I always have a solution in mind and it's always the best possible solution in history, right? So I put the solution that I'm thinking about and I tell him why I would think the solution will work and then I just ask it to poke holes in it. And.
+
+Ed Marsh (49:34)
+Mm-hmm.
+
+Uh-huh.
+
+Mm-hmm.
+
+Chris Blocher (50:00)
+I tell it the tools that I want to use and at that point you're telling it exactly what to consider. And it can take those tools and it could have told you early on that well, you only need this because it has this overlap or you could have jumped in and said how does anything LM and in studio LM and Ollama and and all these other LM local things overlap. And it could have given you things, but you were experiencing that rabbit hole.
+
+Ed Marsh (50:23)
+Mm-hmm.
+
+Yep, yeah, for sure.
+
+Chris Blocher (50:29)
+and you just
+
+get down it, you know, and you forget it's like take a breath. And in some respects that token burnout, that session ending is helpful because it forces you to get out of it. Now I wish that Claude was a little more obvious in the way that it displays your token usage, because it only warns you at 90%. You're at 90%, like I'm in the middle of something big. can't, you know.
+
+Ed Marsh (50:40)
+Yeah.
+
+well, okay.
+
+Chris Blocher (50:56)
+So you have choices to either quit or or just go through the last 10%. In Claude code you can actually set up the status bar to show you your percentage being burned.
+
+Ed Marsh (51:07)
+Yeah, that's one of the things I like about the local LM Studio, especially tells you like how much your context you're using and how many tokens it uses and everything and how long it took. for most of the things I ask, it doesn't seem like it's a very high token count, but I guess it just it it it it adds up. But I think, you know, going back to what you're saying about the context is this learning experience for content folks like us, you know, for me, like you said, like, okay, like I've gone back and based on the questions it asks me.
+
+Chris Blocher (51:09)
+Yeah.
+
+Heads up. Yeah.
+
+Ed Marsh (51:33)
+I've gone back and revised my prompt or like if I'm gonna paste it out of my local machine into Claude or whatever, now I have a complete context thought through. Like you said, it's a conversation, but it helped you you know you have to know what the conversation ending is, like you said, and kind of work your way through it. But it's also been a nice learning experience on how to how it thinks and what you're supposed to say to it to get the results back.
+
+Chris Blocher (51:57)
+Yeah,
+
+well, treat AI like your audience. Right, whether it be Claude or whether it be chat GPT or whether it be Gemini or whatever you're using. And they lose. The thread as much as your audience would. Right, the the companies present this as as a chat, so you're having this conversation and you think it's just this blah blah blah. But at the end of the day, they're forgetting things you may have said.
+
+just like your audience would. So the more succinct, the more accurate, the more focused you can begin, the better you'll be. Number one, you won't burn the tokens as fast. But number two, you're getting down that conversation path quicker, and you're giving them the critical aspects that you need to give it. It's easy to expect, and this is where expertise comes in again. You can put in your generic prompt and you'll get a generic answer, but if you...
+
+Ed Marsh (52:33)
+Yeah.
+
+Chris Blocher (52:52)
+start supplementing it with detail, you'll get a better response. And much like a student, much like a coworker, much like a person who bought your product, I just want the answer.
+
+Ed Marsh (53:03)
+Yeah.
+
+Chris Blocher (53:05)
+And that's exactly AI behaves that way because everybody forgets AI was made by human based on human content. Based on human training. And once it started, it just started going, but it all began at a human level. So it has human issues.
+
+Ed Marsh (53:21)
+Yeah, so back to humans. What do you think? My my thought is that with everything that's going on and content creator ⁓ professionals getting laid off. And I know someone who was at Wix who was in the marketing department that got laid off. and it's just crazy. And I'm hoping, you know, like you said, it's an arms race and like tokens are becoming more expensive ⁓ than than humans are. And I've underst I understand that there were some companies that had token contests and some people were gaming it by putting the them against each other, and then they realized, my goodness, like I saw a headline about
+
+Chris Blocher (53:46)
+Yeah.
+
+Ed Marsh (53:50)
+How token usage cost them $500 million in a month, one company, because they had one of these contests, and people are like, wow, this is actually expensive. And that's one of why I'm one of the reasons why I'm canceling my Claude Pro after this, because I'm like, I don't probably need it right now. it's given me the context I need and it gives me a lot to think about. but what I'm hoping, Chris, and I hope you'll agree with me here, is that you know, we're seeing this all happen now, and that's just the human aspect of it with HR. Like,
+
+But all that content is going to be stale for a year or whatever. And I'm hoping that in a year when all this goes to hell and people are like, our users are complaining because the content that our your chat bot is feeding you is i obsolete and out of date and irrelevant. So I'm hoping that we as content people are going to be able to come in in a year from now and like charge double what we do now to kind of fix this mess. What do you think about that?
+
+Chris Blocher (54:43)
+I hope it won't take a year. But so. Yeah, I mean it's it's painful to watch because we've seen it all before. It's it's always been this cycle. I have been fortunate enough to see. Layout design transformed from wax paper machines layout on a board. Shoot it with a camera to page maker to.
+
+Ed Marsh (54:45)
+Yeah, agreed, agreed. That's that's my pessimistic view.
+
+Chris Blocher (55:12)
+all these other things, so now it's done digitally. And then it was putting people out of work, right? was putting these, we called them cutty pasties. They lost the work because they didn't want to learn the computer side of it. So this is just another cycle. That's all it is. It's a lot of, the hype is higher, I think, but you have to understand that generative AI generates based on existing content.
+
+Ed Marsh (55:24)
+Yeah, okay.
+
+Yeah.
+
+Chris Blocher (55:38)
+If nobody is writing accurate current content, then generative AI will not be able to succeed. So in the software arena, for example, you have to have the team work through a PRD, make sure the features are good, make sure they're desirable, code them. Now all of this can be done with AI. Yes, it's true.
+
+And you can even write your tool tips and you can write your documentation with AI. But somebody has to start.
+
+Ed Marsh (56:15)
+Mm-hmm.
+
+Chris Blocher (56:16)
+And from a content perspective, maybe we move upstream. You know, maybe we go into project management. Maybe we we become a design manager. You everybody laughs when I say content people are very suited to design manager and they are because content people tend to see the larger pictures, right? We know how the entire thing goes together because we write the entire manual. We write the entire.
+
+⁓ documentation set that goes with it, or we at least review the entire thing with our coworkers and so forth. A lot of designers are under the gun and they don't have time to look beyond their feature. If they've been there long enough, they'll have history to tell them where things are connected. anyway, the roles change, the work remains the same. The technology changes, the work remains the same. We are in the information dissemination business.
+
+Ed Marsh (56:55)
+Hmm.
+
+And there you go. Thanks, Chris. That was really interesting. ⁓ where can we find you or where can people find you if the they want to reach out? I know you're pretty active on LinkedIn.
+
+Chris Blocher (57:20)
+You can hit yeah.
+
+Yeah, you can hit me up on LinkedIn anytime. It's C blocker, BLOCHER and I'm happy to chat about any of this stuff. You know we have. We didn't touch on the second brain at all. We didn't touch on a few other things, so if you ever want to get together and talk about that later, we can do that as well. Or if anybody is interested, just hit me up and I'm happy to. To jump online for any short meetings.
+
+Ed Marsh (57:43)
+Chris has an open calendar, so it's like nice. It's like, Okay, Chris has got available here, here, here, let's go catch up. And I will ⁓ put time on our calendar soon, Chris.
+
+Chris Blocher (57:52)
+Thanks, I appreciate the opportunity.
+
+Ed Marsh (57:54)
+Thanks, Chris. Have a great day. Thanks everyone. See you next time.
+
