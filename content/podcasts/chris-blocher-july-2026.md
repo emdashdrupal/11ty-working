@@ -1,5 +1,5 @@
 ---
-title: "It's not Goodwill Hunting with Chris Blocher"
+title: "It's not *Goodwill Hunting* with Chris Blocher"
 date: 2026-07-08
 categories:
   - "podcast"
@@ -52,4 +52,4 @@ eleventyNavigation:
 
 - Intro voiceover by one of my best friends since high school, Corey Holtzberg at [Coho Studios](https://cohostudios.com).
 - Headshot by life-long friend Michael Einreinhof of [Arclight Images](https://arclightimages.com).
-- Intro music bed: *Come On!* by [Luke Bergs and AgusAlvarez](https://www.lukebergsmusic.com). Music promoted by [)free-stock-music](https://www.free-stock-music.com). [Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/)
+- Intro music bed: *Come On!* by [Luke Bergs and AgusAlvarez](https://www.lukebergsmusic.com). Music promoted by [free-stock-music](https://www.free-stock-music.com). [Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/)
