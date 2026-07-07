@@ -1,5 +1,5 @@
 ---
-title: "It's not *Goodwill Hunting* with Chris Blocher"
+title: "It's not *Good Will Hunting* with Chris Blocher"
 date: 2026-07-08
 categories:
   - "podcast"
