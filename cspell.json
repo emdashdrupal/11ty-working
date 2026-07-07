@@ -16,7 +16,8 @@
         "Secaucus"
     ],
     "ignoreWords": [
-        "goocal"
+        "goocal",
+        "Content Content"
     ],
     "import": []
 }
