@@ -8,7 +8,7 @@ categories:
   - "artificial intelligence"
 cover: chris-blocher.png
 coverAlt : Chris Blocher, content strategist and technical writer*
-description: "In this episode, Ed talks to [content strategist and technical writer Chris Blocher](https://www.linkedin.com/in/chrisblocher). Chris has a rich background spanning academia, publishing, instructional design for Microsoft and Dell, and 18 years at Autodesk. They discuss how technical communicators are navigating the rapid evolution of generative AI, building \"second brains\", local vs. cloud LLMs (Ed rants about shooting himself in his own foot), and why human expertise remains irreplaceable."
+description: "In this episode, Ed talks to [content strategist and technical writer Chris Blocher](https://www.linkedin.com/in/chrisblocher). Chris' background spans academia, publishing, instructional design for Microsoft and Dell, and 18 years at Autodesk. They discuss how technical communicators are navigating the rapid evolution of generative AI, building \"second brains\", local vs. cloud LLMs (Ed rants about his own rabbit holes), and why human expertise remains irreplaceable."
 mp3File: sharon-burton-march-2026.mp3
 blubrryId: 152751070
 blubrryCache: 1772759385
