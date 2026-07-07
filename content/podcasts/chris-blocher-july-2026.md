@@ -44,6 +44,7 @@ eleventyNavigation:
 
 ### Writing, style, and prompts
 
+- [Chris' technical content design skill](https://cblocher.github.io/assets/downloads/)
 - [Humanizer skill](https://github.com/blader/humanizer)&thinsp;&mdash;&thinsp;Repository mentioned for avoiding common "AI tells" in resumes and writing
 - [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/)
 
