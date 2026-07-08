@@ -1,5 +1,5 @@
 ---
-title: "It's not *Good Will Hunting* with Chris Blocher"
+title: "It's not \"Good Will Hunting\" with Chris Blocher"
 date: 2026-07-07
 categories:
   - "podcast"
@@ -8,7 +8,7 @@ categories:
   - "artificial intelligence"
 cover: chris-blocher.png
 coverAlt : Chris Blocher, content strategist and technical writer*
-description: "In this episode, Ed talks to [content strategist and technical writer Chris Blocher](https://www.linkedin.com/in/chrisblocher). Chris' background spans academia, publishing, instructional design for Microsoft and Dell, and 18 years at Autodesk. They discuss how technical communicators are navigating the rapid evolution of generative AI, building \"second brains\", local vs. cloud LLMs, Ed rants about his rabbit holes, and why human expertise remains irreplaceable."
+description: "In this episode, Ed talks to [content strategist and technical writer Chris Blocher](https://www.linkedin.com/in/chrisblocher). Chris' background spans academia, publishing, instructional design, technical writing, and content strategy. They discuss how technical communicators are navigating the rapid evolution of generative AI, building \"second brains\", local vs. cloud LLMs, Ed rants about his rabbit holes, and why human expertise remains irreplaceable."
 mp3File: chris-blocher-content-content-june-2026.mp3
 blubrryId: 154268428
 blubrryCache: 1783441901
