@@ -1,4 +1,3 @@
-const { execFileSync } = require('child_process');
 const fs = require('fs');
 
 // We need to mock child_process before requiring generate-sitemap.js
