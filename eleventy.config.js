@@ -71,9 +71,20 @@ module.exports = function (eleventyConfig) {
   // Helper to normalize categories and check for matches
   const normalizeAndCheckCategories = (itemCategories, filterCategories) => {
     if (!itemCategories || !filterCategories) return false;
-    const normalizedItemCats = Array.isArray(itemCategories) ? itemCategories : [itemCategories];
-    const normalizedFilterCats = Array.isArray(filterCategories) ? filterCategories : [filterCategories];
-    return normalizedFilterCats.some(cat => normalizedItemCats.includes(cat));
+
+    const itemIsArray = Array.isArray(itemCategories);
+    const filterIsArray = Array.isArray(filterCategories);
+
+    if (itemIsArray && filterIsArray) {
+      return filterCategories.some(cat => itemCategories.includes(cat));
+    }
+    if (itemIsArray) {
+      return itemCategories.includes(filterCategories);
+    }
+    if (filterIsArray) {
+      return filterCategories.includes(itemCategories);
+    }
+    return itemCategories === filterCategories;
   };
 
   // ===== FILTERS =====
