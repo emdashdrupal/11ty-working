@@ -17,9 +17,6 @@ jest.mock('fs', () => ({
 }));
 
 const {
-  loadGitDates,
-  getGitDate,
-  getDateFromFile,
   getUrlFromFilePath,
   getPriority,
   getChangeFreq
