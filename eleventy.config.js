@@ -64,6 +64,21 @@ const postcssPlugins = [
   cssnano({ preset: 'default' })
 ];
 
+// Pre-initialize and cache Intl.DateTimeFormat instances for performance
+const dtfNumeric = new Intl.DateTimeFormat('en-US', {
+  year: 'numeric',
+  month: '2-digit',
+  day: '2-digit',
+  timeZone: 'UTC'
+});
+
+const dtfShort = new Intl.DateTimeFormat('en-US', {
+  year: 'numeric',
+  month: 'short',
+  day: '2-digit',
+  timeZone: 'UTC'
+});
+
 module.exports = function (eleventyConfig) {
   const isDevelopment = process.env.ELEVENTY_RUN_MODE === 'serve' || process.env.NODE_ENV === 'test';
 
@@ -97,12 +112,8 @@ module.exports = function (eleventyConfig) {
     if (isNaN(d.getTime())) return date;
     const normalizedFormat = typeof format === 'string' ? format.replace(/\s+/g, '') : format;
     if (normalizedFormat === "YYYY-MM-DD" || normalizedFormat === "YYYY-MMM-DD") {
-      const parts = new Intl.DateTimeFormat('en-US', {
-        year: 'numeric',
-        month: normalizedFormat === "YYYY-MM-DD" ? '2-digit' : 'short',
-        day: '2-digit',
-        timeZone: 'UTC'
-      }).formatToParts(d);
+      const formatter = normalizedFormat === "YYYY-MM-DD" ? dtfNumeric : dtfShort;
+      const parts = formatter.formatToParts(d);
       const hash = parts.reduce((acc, part) => ({ ...acc, [part.type]: part.value }), {});
       return `${hash.year}-${hash.month}-${hash.day}`;
     }
