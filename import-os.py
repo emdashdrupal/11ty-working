@@ -2,6 +2,9 @@ import os
 import re
 import yaml
 
+# Compiled regular expression pattern for extracting frontmatter (between ---)
+FRONTMATTER_RE = re.compile(r'^---\n(.*?)\n---', re.DOTALL)
+
 # Get list of markdown files from uploads directory
 uploads_dir = 'content/blog/static-site-transformation'
 files = [os.path.join(uploads_dir, f) for f in os.listdir(uploads_dir) if f.endswith('.md')]
@@ -19,7 +22,7 @@ def parse_frontmatter(file_path):
             content = f.read()
 
         # Extract frontmatter (between ---)
-        frontmatter_match = re.search(r'^---\n(.*?)\n---', content, re.DOTALL)
+        frontmatter_match = FRONTMATTER_RE.search(content)
         if not frontmatter_match:
             return None
 
