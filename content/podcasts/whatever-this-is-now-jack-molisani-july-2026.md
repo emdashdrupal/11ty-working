@@ -1,5 +1,5 @@
 ---
-title: Whatver thius is now with Jack Molisani
+title: Whatver this is now with Jack Molisani
 date: 2026-08-17
 categories:
   - "podcast"
@@ -7,9 +7,9 @@ categories:
   - "technical writing"
   - "artificial intelligence"
   - "job search"
-cover: chris-blocher.png
+cover: JackMolisani_50x70.jpg
 coverAlt : Jack Molisani, owner of ProSpring Staffing and the Lavacon Content Strategy Conference
-description: "In this episode, Ed talks to [recruiter and conference organizer extraordinaire Jack Molisani](https://www.linkedin.com/in/jackmolisani). Jack talks about networking, finding a role in the world of AI, and something else."
+description: "In this episode, Ed talks to [recruiter and conference organizer extraordinaire Jack Molisani](https://www.linkedin.com/in/jackmolisani). Jack talks about the importance networking, finding a role in the world of AI, and how technical communicator and content strategists can do it right."
 mp3File: chris-blocher-content-content-june-2026.mp3
 blubrryId: 154268428
 blubrryCache: 1783441901
