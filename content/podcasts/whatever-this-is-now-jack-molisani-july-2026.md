@@ -8,7 +8,7 @@ categories:
   - "artificial intelligence"
   - "job search"
 cover: JackMolisani_50x70.jpg
-coverAlt : Jack Molisani, owner of ProSpring Staffing and the Lavacon Content Strategy Conference
+coverAlt : "Jack Molisani, owner of ProSpring Staffing and the Lavacon Content Strategy Conference
 description: "In this episode, Ed talks to [recruiter and conference organizer extraordinaire Jack Molisani](https://www.linkedin.com/in/jackmolisani). Jack talks about the changes in recruiting and conferences over the past nine years since [his last appearance](/podcasts/users-or-people-with-jack-molisani-content-content-episode-15/) on the podcast, how networking is still important when finding a role in the world of AI, and how technical communicator and content strategists can do it right."
 mp3File: chris-blocher-content-content-june-2026.mp3
 blubrryId: 154268428
@@ -25,6 +25,7 @@ Use the code CONTENTCONTENT to get $400 off your Lavacon 2026 ticket in Charlott
 
 - [Pro Spring Staffing](https://prospringstaffing.com)
 - [Lavacon conference](https://lavacon.org/)
+- [Acura IndyCar Grand Prix of Long Beach](https://gplb.com)
 - [DITAWorld conference](https://2027-adobe-dita-world.meetus.adobeevents.com/)
 - [Ed and Jack on closing DITAWorld 2026 panel](https://www.youtube.com/watch?v=xdtx9SC_5TY&list=PLcX4wj6qiUkA&index=23)
 - [Claude](https://claude.ai)
