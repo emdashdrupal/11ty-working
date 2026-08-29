@@ -9,9 +9,7 @@
     <figure class="hero flex justify-end float-right ml-2">
         {%- include 'layouts/partials/hero-image.njk' -%}
     </figure>
-    <div
-            id="podcast-player" class="my-10">
-        {# subscribe widget  #}
+    <div id="podcast-player">
         <iframe src="{{ podHostID }}/{{ blubrryId }}/?cache={{ blubrryCache }}#mode-Light&border-000000&progress-000000" title="{{ title }}" scrolling="no" frameborder="0"></iframe>
     {% endif %}
 </div>
@@ -20,10 +18,8 @@
     {%- if content -%}
         {{ content | sanitize | safe | trim }}
 
-
-
        {%- if collectionName =="podcasts" -%}
-        <h3>Subscribe to the Content Content podcast</h3>
+        <h2>Subscribe to the Content Content podcast</h2>
 
         <p><em>Thanks for listening!</em> If you enjoyed this podcast, subscribe and share it with a fellow technical communicator!</p>
         <iframe src='https://widgets.blubrry.com/32643/subscribe/' id='2140010353-subscribe-681e62658dec7' name='2140010353-subscribe-681e62658dec7' allowtransparency='true' style='background: none transparent; border: none; width: 100%; height: auto;'></iframe>
