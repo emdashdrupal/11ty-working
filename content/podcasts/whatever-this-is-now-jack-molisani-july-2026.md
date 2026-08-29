@@ -9,7 +9,7 @@ categories:
   - "job search"
 cover: JackMolisani_50x70.jpg
 coverAlt : Jack Molisani, owner of ProSpring Staffing and the Lavacon Content Strategy Conference
-description: "In this episode, Ed talks to [recruiter and conference organizer extraordinaire Jack Molisani](https://www.linkedin.com/in/jackmolisani). Jack talks about the changes in recruiting and conferences over the past nine years since his last appearance, how networking is still important when finding a role in the world of AI, and how technical communicator and content strategists can do it right."
+description: "In this episode, Ed talks to [recruiter and conference organizer extraordinaire Jack Molisani](https://www.linkedin.com/in/jackmolisani). Jack talks about the changes in recruiting and conferences over the past nine years since [his last appearance](podcasts/users-or-people-with-jack-molisani-content-content-episode-15.mp3) on the podcast, how networking is still important when finding a role in the world of AI, and how technical communicator and content strategists can do it right."
 mp3File: chris-blocher-content-content-june-2026.mp3
 blubrryId: 154268428
 blubrryCache: 1783441901
@@ -22,6 +22,7 @@ eleventyNavigation:
 Use the code CONTENTCONTENT to get $400 off your Lavacon 2026 ticket in Charlotte, North Carolina
 
 ## Mentioned during this episode
+
 
 
 *Thanks for listening!* If you enjoyed this podcast, share it with a fellow technical communicator!
