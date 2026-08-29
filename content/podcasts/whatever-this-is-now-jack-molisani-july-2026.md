@@ -24,9 +24,6 @@ Use the code CONTENTCONTENT to get $400 off your Lavacon 2026 ticket in Charlott
 ## Mentioned during this episode
 
 
-
-*Thanks for listening!* If you enjoyed this podcast, share it with a fellow technical communicator!
-
 ## Production credits
 
 - Intro voiceover by one of my best friends since high school, Corey Holtzberg at [Coho Studios](https://cohostudios.com).
