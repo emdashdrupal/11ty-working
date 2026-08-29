@@ -23,6 +23,18 @@ Use the code CONTENTCONTENT to get $400 off your Lavacon 2026 ticket in Charlott
 
 ## Mentioned during this episode
 
+- [Pro Spring Staffing](https://prospringstaffing.com)
+- [Lavacon conference](https://lavacon.org/)
+- [DITAWorld conference](https://2027-adobe-dita-world.meetus.adobeevents.com/)
+- [Ed and Jack on closing DITAWorld 2026 panel](https://www.youtube.com/watch?v=xdtx9SC_5TY&list=PLcX4wj6qiUkA&index=23)
+- [Claude](https://claude.ai)
+- [Gemini](https://gemini.google.com)
+- [Content Content podcast with Chris Blocher](/podcasts/chris-blocher-july-2026/)
+- [Jackie Damrau](https://www.linkedin.com/in/jackiedamrau)
+- [Heretto](https://heretto.com)
+- [Sharon Burton](/podcasts/sharon-burton-march-2026/)
+- [IXIASoft (MadCap IXIA CCMS)](https://www.madcapsoftware.com/products/ixia-ccms/)
+- [Phylise Banner](/podcasts/i-like-the-ms-with-phylise-banner-content-content-podcast/)
 
 ## Production credits
 
