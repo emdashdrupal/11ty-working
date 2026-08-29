@@ -19,7 +19,7 @@ eleventyNavigation:
   parent: podcasts
 ---
 
-Use the code CONTENTCONTENT to get $400 off your Lavacon 2026 ticket in Charlotte, North Carolina
+Use the code CONTENTCONTENT to get $400 off your Lavacon 2026 ticket in Charlotte, North Carolina!
 
 ## Mentioned during this episode
 
