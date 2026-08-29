@@ -21,14 +21,14 @@
         {{ content | sanitize | safe | trim }}
 
 
-        {%- endif -%}
-             {%- if collectionName =="podcasts" -%}
-     <h3>Subscribe to the Content Content podcast</h3>
 
-     <p><em>Thanks for listening!</em> If you enjoyed this podcast, subscribe and share it with a fellow technical communicator!</p>
+       {%- if collectionName =="podcasts" -%}
+        <h3>Subscribe to the Content Content podcast</h3>
 
-            <iframe src='https://widgets.blubrry.com/32643/subscribe/' id='2140010353-subscribe-681e62658dec7' name='2140010353-subscribe-681e62658dec7' allowtransparency='true' style='background: none transparent; border: none; width: 100%; height: auto;'></iframe>
-        {%- endif -%}
+        <p><em>Thanks for listening!</em> If you enjoyed this podcast, subscribe and share it with a fellow technical communicator!</p>
+        <iframe src='https://widgets.blubrry.com/32643/subscribe/' id='2140010353-subscribe-681e62658dec7' name='2140010353-subscribe-681e62658dec7' allowtransparency='true' style='background: none transparent; border: none; width: 100%; height: auto;'></iframe>
+      {%- endif -%}
+      {%- endif -%}
     </div>
     {%- set pageCategory = categories -%}
     {%- set filteredPresentations = presentations | filterByCategory(pageCategory) | default([]) -%}
