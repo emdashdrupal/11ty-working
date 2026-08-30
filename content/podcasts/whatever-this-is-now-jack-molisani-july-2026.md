@@ -1,5 +1,5 @@
 ---
-title: Whatever this is now with Jack Molisani
+title: Whatever this is now with Jack Molisani - Content Content podcast
 date: 2026-08-30
 categories:
   - "podcast"
