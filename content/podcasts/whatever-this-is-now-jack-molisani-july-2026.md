@@ -1,6 +1,6 @@
 ---
 title: Whatever this is now with Jack Molisani - Content Content podcast
-date: 2026-08-30
+date: 2026-08-31
 categories:
   - "podcast"
   - "content strategy"
