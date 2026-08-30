@@ -1,0 +1,1306 @@
+Ed Marsh (00:00)
+Hello everyone and welcome to another episode of Content Content. I am your host, Ed Marsh. before we start, I just want to give a shout out to the new voiceover in my opening I tried for years and years, and you know what, it just sounded terrible. And I have a friend who's a DJ down in Atlanta and does lots of voiceover work, and he offered to do it and finally I said, you know what, I'm not good at this. I'm gonna let you do it. So shout out to Corey Holtzberg.
+
+Of Co Ho Studios in Atlanta, Georgia. I've known him since my sophomore year high school. been in his wedding and just want to give him a shout out and thank him for those three or four minutes of voiceover work that you did. But today's guest is Jack Molisani, who probably to most people that have listened to the podcast doesn't need an introduction, but I'm gonna ask you to do an introduction anyhow, Jack.
+
+Jack Molisani (00:47)
+Well, thank you. Jack Molisani. I was born in a small town no. So I known for a few things. I produced the LavaCon Content Strategy Conference, which will be this October in Charlotte, North Carolina. And I also have Pro Spring Technical Staffing, a staffing agency that specializes in content professionals.
+
+Ed Marsh (01:07)
+Nice. And you're still in LA, right? 'Cause I know you're like in New Orleans all the time, so
+
+Jack Molisani (01:10)
+I have family in New Orleans. our
+
+Ed Marsh (01:12)
+Okay.
+
+Jack Molisani (01:12)
+the office is in Long Beach.
+
+Ed Marsh (01:14)
+Long Beach. Right. I think we talked about the Grand Prix the last time.
+
+Jack Molisani (01:17)
+Right.
+
+Ed Marsh (01:18)
+and yeah, I actually just looked it up and Jack was a guest on the podcast back in twenty seventeen. So so you know, it's been nine years, Jack. I'm sure we don't have anything to talk about.
+
+Jack Molisani (01:27)
+Not a thing. Nothing has changed.
+
+Ed Marsh (01:28)
+Not a thing. Not a thing.
+
+Jack Molisani (01:30)
+It's all the same.
+
+Ed Marsh (01:31)
+It's all exactly the same. So you know, tell us about what's going on now in the world. I know that you've done for a long time, you've done about how to get around applicant tracking systems and lots of presentations with your Pro Stings Pro Spring staffing. I'm gonna trip that up a couple of times today. your work with Pro String Pro Spring Staffing,
+
+Jack Molisani (01:53)
+There you go.
+
+Ed Marsh (01:54)
+to you know, to help technical writers and people like us get good jobs. So
+
+With the advent of AI and everything in the past nine years, like what are you seeing? 'Cause I know everyone in the world is asking the same question, like, is AI taking my job? I've been wondering the same question. So what are you what are you seeing?
+
+Jack Molisani (02:11)
+All right. So so many directions we can go in that question.
+
+Ed Marsh (02:16)
+We've got time.
+
+Jack Molisani (02:16)
+let's start with AI is not gonna take your job. All right. Now
+
+In okay, because I run the LavaCon conference, I get to interface with many, many people. And in one week, I was speaking with one company who did the whole AI initiative perfectly. Another company who did it horribly, and I'll tell you the difference. So the first company who did it well was Dell, based out of Texas, right? They had the content.
+
+Team on the AI planning committee from day one. How does content fit in the over data ecosystem? Right. Because there's lots of things that AI talks about, not just content, right? But we are part of that ecosystem. Right. And so and they're having a very, very successful rollout. In the same week, somebody came to me saying, they just laid off.
+
+A third of our writers gave us an AI and said, here, use this, with no input at all. Right? Guess which one's gonna be successful? Guess one which one's
+
+Ed Marsh (03:15)
+That sounds about right.
+
+Jack Molisani (03:18)
+gonna fall flat on their head. Right.
+
+Ed Marsh (03:19)
+Yeah
+
+Jack Molisani (03:22)
+and one of the what word am I searching for? Examples of how to do it badly by not having the content team part of the AI initiative is so often AI.
+
+When faced with multiple choices for maybe an answer to a question, they'll go with the answer that is most often found. Right? Well, if your developers are just grabbing documents out of SharePoint and throwing it to the LLM, the large
+
+Ed Marsh (03:45)
+Yeah.
+
+Jack Molisani (03:46)
+language model, well, what if the latest version of your document is the correct version, but the previous 10 volumes
+
+Are now outdated, it's going to go with the answer for the previous time because that's what it sees most often.
+
+Ed Marsh (03:58)
+Right, okay. Yeah.
+
+Jack Molisani (03:59)
+So without some sort of governance in place, without somebody telling what to feed the AI, then it be just comes like, okay, just let's dump a bunch of stuff in it, see what happens.
+
+Ed Marsh (04:09)
+Yeah. Yeah. And we were just in you and I both virtually attended Adobe DITA World Conference where a lot of the thing is just, you know, a lot of the talks and I didn't pay attention to a whole lot of it. I do recommend listening to the closing session because Jack and I are in it and it's a whole hell of a lot of fun. but it seems like you know, it's the same thing, like is AMI taking my job. And, you know, a lot of it is that you're still a need a human intervention in this somehow and some kind of governance. I think governance was a big thing.
+
+Course that makes sense being a DITA world where governance is baked into DITA. but I think you know that it is it seemed to be that we're not done just yet. We have to learn learn how to use the tools. And most recently I've been using A AI locally, and you know, I've been comparing it to output from Gemini and Claude and like pitting them against each other. And you know, st they still get stuff wrong. And so, you know, you know.
+
+What scares me personally is that people are going to take this as as gospel, like whatever the AI spits out. And I made this mistake with my last podcast recording where I fed it the transcription and said, Hey, you know, generate a a some show notes on this about my my guest, Chris Blocker. And he messaged me the next day after I posted and said, Hey, by the way, I never actually directly worked for these companies. I worked
+
+for contractors that work for them, but I never work for them directly. So it's like even I would am guilty of it. So I think that's
+
+Jack Molisani (05:32)
+Mm-hmm.
+
+Ed Marsh (05:32)
+where we need to understand that human in loop is still very important. Even with generating resumes, I've seen it just puts in crap that I'm like, no, I didn't actually do that kind of stuff. So it's very interesting. it's very interesting I'll regard it. I think you agree.
+
+Jack Molisani (05:47)
+Yep,
+
+absolutely. One of the stories I tell is for my conference we do have scholarships available. And especially if you're between employment at the time. so we get we have virtual passes and somebody emailed me asking if he could have, you know, a scholarship. The problem is the email just sounded wonky. Like there were phrases from my website dropped into the paragraph
+
+Ed Marsh (06:11)
+Ooh.
+
+Jack Molisani (06:12)
+somehow.
+
+Ed Marsh (06:12)
+Ooh.
+
+Jack Molisani (06:13)
+So one, I didn't know if this was actually a real person emailing me. Could have been a bot, you know, who knows? So
+
+Ed Marsh (06:19)
+Right.
+
+Jack Molisani (06:20)
+I wrote him back and I said, We do have scholarships. Unfortunately, we've already given them out this year. By the way, your email sounds like it was written by an AI. He goes, Yeah, it was. And he was so excited.
+
+Ed Marsh (06:32)
+Right, yeah, so proud of it.
+
+Jack Molisani (06:33)
+He was so proud of himself. But had he just emailed me in his own voice with his own words, I would have given him a scholarship.
+
+But his using AI cost him a scholarship because I didn't know who that was emailing me, right? Especially
+
+Ed Marsh (06:46)
+Right. Right.
+
+Jack Molisani (06:47)
+if you're a technical writer or some other content professional, I would expect you to command of the English language or any particular language you happen to be speaking would be one of your benefits, one of your trademarks. Yeah. You
+
+Ed Marsh (06:58)
+Yeah, one of your strong suits. Yeah. Yeah.
+
+Jack Molisani (07:01)
+know, it's like the cobbler's son has no shoes. You can't same
+
+Ed Marsh (07:04)
+Mm.
+
+Jack Molisani (07:04)
+Same thing, I could always tell when someone else has written your a resume for you or has written a cover letter for you because it just doesn't sound like a real person. And and
+
+Ed Marsh (07:14)
+Interesting.
+
+Jack Molisani (07:15)
+if we're content professionals, this is a sample of your work. Now,
+
+Ed Marsh (07:18)
+Right.
+
+Jack Molisani (07:19)
+if somebody has asked me now, well, should you use AI to write your resume or apply for a job? Well, my answer is if one of the things in the
+
+If you're applying for a job where you have to use AI or they want you to have experience using AI, you go, Great, I used AI to write this resume. Look how good a match I am. But if you're if you're going to like a bank or some regulated environment where you're not allowed to use
+
+Ed Marsh (07:44)
+Yeah.
+
+Jack Molisani (07:44)
+AI, well, now you are you misrepresenting yourself if you have someone else write your resume for you? Hmm.
+
+Ed Marsh (07:48)
+interesting. That's interesting.
+
+Wow, I hadn't considered that, especially in regulated environments. Because I've worked in regulated environments and I've been using AI to generate my resume from like a master resume. Also, I should say that you know, even though we're professional writers, my ego did take a hit when I submitted my resume to Jack once and he basically destroyed it for me. despite my my objections.
+
+He was he was actually right. and I emailed to let him know I was very angry at him for destroying my resume, but he was right. So and then I responded again later on and he said, Yeah, this is much better. So that human is still important no matter how much you rely on AI or don't rely on AI.
+
+Jack Molisani (08:32)
+Now I I use AI for certain things.
+
+Ed Marsh (08:35)
+Yeah.
+
+Jack Molisani (08:36)
+we I have a new company division of this Pro Spring where we're gonna go after computer forensic jobs, people who
+
+Ed Marsh (08:42)
+interesting.
+
+Jack Molisani (08:42)
+are and when companies sue each other and you have to say you go in there and look, you know, did they steal the the code or whatever? and we need a new logo and I asked Chat GPT to draft said, Here's my audience, here's the purpose, here's our website.
+
+you
+
+know, can you create a first draft of the the the logo? And he did a pretty good job. The problem was it could only generate a JPEG. So you couldn't scale it, you couldn't edit it, you couldn't do anything with it. So I gave it back to my graphic designer and said, use this concept, but redraw this for me. Take this up, put that in. So it was a really good first draft, but it
+
+Ed Marsh (09:16)
+Right.
+
+Jack Molisani (09:17)
+right and had 'cause I I I had my graphic designer come up with his own first draft. I like
+
+ChatGPT cheese better. The thing is, and this gets back to you, is this going to replace me? Well, why didn't he just use an AI to come up with ideas? I believe the term is ideation.
+
+Ed Marsh (09:33)
+Mm-hmm.
+
+Jack Molisani (09:34)
+Right? Give me some ideas. You know, what can we call this new thing? What can we which what could it look like? And then pick one and then have the human run with it. So instead of saying,
+
+Ed Marsh (09:42)
+Right.
+
+Jack Molisani (09:43)
+it's going to get rid of my job because I'm
+
+We don't need graphic designers anymore. That's not true. Especially if we're just using ideation, using AI f ideation.
+
+Ed Marsh (09:51)
+Yeah. I agree there. And I certainly have used it like in that way and thinking about it like, especially because I'm not a professional coder and I've been using it to you know, I use it to generate my website from a static set generator and all this other stuff. And it's just you're having a conversation with it and kind of working through the logic of it all. So, you know, it's it helps that way because it's always someone there, someone, and I put someone in quotes to to bounce ideas off of. And then finally, you know, it'll up my resume.
+
+But I'm gonna go through it and make sure that it's setic and especially summary, because it seems like the summary, it just even though I've got lots and lots of text in there and variations of a summary, it's just way too long and way too verbose and just a lot of stuff that doesn't belong there. So I agree with you for ideation, that it's a really, really good tool, especially for people like
+
+us.
+
+Jack Molisani (10:40)
+I'm gonna introduce you to Jackie Damrau, who is I think she and I are gonna do a whole class on this. She was using AI to vet companies, going, All right, here's a c a job posting. Is this a real company? Because there's a lot of people that
+
+Ed Marsh (10:55)
+Yeah.
+
+Jack Molisani (10:55)
+post bogus jobs, like recruiters are just mining resumes, right?
+
+Ed Marsh (11:00)
+Right.
+
+Jack Molisani (11:01)
+or who knows what.
+
+and she was actually using AI to actually vet is this a real company or not? Do you think I'd be a good match for this job or not? You know. And i yeah, I'm gonna introduce y'all. I think that that would be a whole podcast in and of itself.
+
+Ed Marsh (11:13)
+Well, tell me more about this because you said you were making a series out of it or like you've got a bunch of ideas. Like, let's let's go into this.
+
+Jack Molisani (11:17)
+Not a series.
+
+I don't have the slides up. I would have brought it up. And I'm just going by what she told me. And I said, that sounds good. some of the things she said she did is one really vetting what are the bogus jobs out there and which are real jobs. All right.
+
+Ed Marsh (11:34)
+Mm-hmm.
+
+Jack Molisani (11:34)
+One of the things she found was if the job isn't posted on a real company's website, like on John Deertractor.comslash.
+
+careers or something
+
+Ed Marsh (11:43)
+Right.
+
+Jack Molisani (11:44)
+that that's a clue if it's just sitting there all by itself with no domain attached to it, you know, like on Indeed or Dice or Monster.
+
+Ed Marsh (11:51)
+Mm-hmm.
+
+Jack Molisani (11:52)
+now a lot of people don't want you to know what company it's at because,
+
+Ed Marsh (11:56)
+Yeah.
+
+Jack Molisani (11:57)
+you know, especially if they're a recruiter, because you could go around them and apply for the job directly.
+
+Ed Marsh (12:02)
+Mm-hmm.
+
+Jack Molisani (12:04)
+but again, she and again, she can t talk more about this than I can.
+
+Also, there's quite a few. who was it? Patrick Bosek from I keep wanting to say Heretto
+
+Ed Marsh (12:16)
+Haretto yeah.
+
+Jack Molisani (12:17)
+was getting a lot of bogus job applicants that
+
+Ed Marsh (12:21)
+Huh.
+
+Jack Molisani (12:21)
+like their AIs pretending to be a person until finally he said, Listen, he was getting so many of these that he said, All right, you must come to our office in New York for an in person interview, even though it's a remote job.
+
+To get this job, you must show up in person. And he said the number of applications went down by eighty percent.
+
+Ed Marsh (12:36)
+Holy cow.
+
+Jack Molisani (12:37)
+Yeah.
+
+Ed Marsh (12:38)
+See, that's what concerns me about AI is that there's all this misinformation and disinformation and and ways that it can be exploited in really strange ways. And that's what you know, I know we can say it's a tool and us as content creators say it's a tool, but it's also it can be malicious, and that's what concerns me. But it that's also, you know, to go back to what you were saying is that about your expansion into forensics, digital forensics. Now will how much will AI
+
+affect that kind of investigation, especially if the if that fores forensic investigator has to go through like all the AI slop code to figure out if it was generated by an AI or human and how do you unwind all that stuff.
+
+Jack Molisani (13:17)
+Right. A lot of the forensic tools now are coming out with their embedded AI assistance. what's w
+
+Ed Marsh (13:22)
+Huh, of course they are.
+
+Jack Molisani (13:23)
+what's interesting about doing forensics is that it can either be really exciting or mind-numbingly boring. Right. So say you know, maybe the project name was Aardvark and said, Okay, we're gonna search for the word Aardvark, you might get twenty two thousand hits on the word Aardvark, right? So then you you you
+
+You either have to just go through them each one by itself and look is the you know, is that the right thing? Because you
+
+One thing that I've discovered that AI is in up till now have not been doing well. They're getting better is using synonyms, right? If I'm looking for stole,
+
+Ed Marsh (13:55)
+Hmm.
+
+Jack Molisani (13:56)
+you know, did they steal the code and someone said absconded with, an AI might not pick that up. But a human would, right? So you can't just leave it up to the AI. And I'll give you another example of this.
+
+Especially when talking about how to beat the dreaded applicant tracking system, where a friend of mine was a UI UX developer, user interface, a user
+
+Ed Marsh (14:13)
+Mm-hmm.
+
+Jack Molisani (14:14)
+experience, and she kept not getting interviews. And there's this one job she really wanted. And there are now tools, if you search for the internet for is my resume ATS friendly, there are
+
+Ed Marsh (14:25)
+Mm-hmm.
+
+Jack Molisani (14:25)
+websites where you can post the job, post your resume, and it will it will tell you how well the AI w thinks you match this job or not.
+
+And she did that and discovered that the reason she wasn't getting an interview is because th she was applying for a UI UX developer job, but her resume said UX UI developer. And the AI said, That's not a match.
+
+Now, any human would see the
+
+Ed Marsh (14:44)
+Yes.
+
+Jack Molisani (14:45)
+difference there's no difference between UIUX and UXUI. But if you're doing a plain old does this match? And the AI said no it doesn't and kicked her out.
+
+Ed Marsh (14:52)
+So how does this make your job how does this change your job now that you've got to contend with all this as a recruiter? Like your I mean, your job is literally to match up people with jobs. And I assume I mean, are you seeing an influx of AI resumes? Like, how is this affecting your business?
+
+Jack Molisani (15:10)
+If
+
+we just post the job on the internet, like or an indeed, we'll get hundreds of applicants. And I can't tell who is real or who's not. Right. So I tend to the thing is, because I'm I've been a tech writer, I I produce a conference content
+
+Ed Marsh (15:28)
+Right.
+
+Jack Molisani (15:28)
+strategy. I I know I know the business. I've been doing this for a long time, right? So
+
+One of my benefits that I bring to a company is just I know so many people between the STC, may it rest in peace. Right. Like
+
+Ed Marsh (15:38)
+Fair. Hm.
+
+Jack Molisani (15:40)
+you tell me I need a documentation manager in Milwaukee, I go Molly Barrett. I need a tech writer in Riverside, Sharon Burton, right? So one of the advantages that I bring is when someone I'll give you an example. IXIAsoft soft is a brand of content management system, right? Now owned by
+
+Madcap. But somewhere an organization, when they were trying to do a reduction force, they laid off their IXIAsoft database administrator with
+
+Ed Marsh (16:04)
+no.
+
+Jack Molisani (16:04)
+without telling the content team. And it came to a screeching halt about seven days later. The whole system crashed. And they needed an IXIAsoft database
+
+Ed Marsh (16:16)
+Yeah.
+
+Jack Molisani (16:17)
+administrator. There's not that many of them out there.
+
+Ed Marsh (16:19)
+Yeah.
+
+Jack Molisani (16:20)
+Right. And there's certainly not that many between jobs. I just happen to know one person and reached out to them and I said, you know. So this is when, here's a good side, alley one of the questions I get often asked is on LinkedIn, you can put open to work swoosh on your photo. And is that a good thing or is that a bad thing? One, some people think it makes you look desperate. Or two, you may not.
+
+If you're currently employed, you may not want your boss to know you're
+
+Ed Marsh (16:46)
+Right.
+
+Jack Molisani (16:46)
+looking. But I'll tell you, I had a contract came in about a year ago where they needed five tech writers remotely. and one of them had to be local. So I went into one of the databases, I went to LinkedIn and searched for a technical writer, Torrance, California, and got like 200 hits. And I scrolled through and it was a contract, right? So no one's gonna leave their job to take a six-month contract.
+
+Ed Marsh (17:11)
+Mm-hmm.
+
+Jack Molisani (17:11)
+But first thing I did is I looked for anybody who was open to work and found somebody who just got laid off and who was willing to take a contract while looking to for a new full time staff position. So in that case, it worked perfectly. Right. So your mileage may vary. do your own A B testing.
+
+Ed Marsh (17:25)
+interesting. So how do you mean that? Like if you're let's say I have a job and I'm wanting to be open to work or looking for a job, do you do it like for a day, like to a switch in on open to work or and see what happens? Like you're how do you how do you mean by this A B test?
+
+Jack Molisani (17:39)
+Mind you, I have not done this personally, right? But I can only speak from a recruiter that if
+
+You what? I'm not even gonna give an answer on that because again, it's the peop people's viewpoint on this are so diverse and dichotomous, right? Either for it or you're
+
+Ed Marsh (17:51)
+Okay. Mm-hmm.
+
+Jack Molisani (17:54)
+against it. Right. or how about this?
+
+Ed Marsh (17:56)
+Okay, really? wow, I didn't realise it was that controversial.
+
+Jack Molisani (17:58)
+Leave it off for a month, see how many job offers you get, right? Turn it on for a month and see how many offers you get. Now, downside is there are those opportunistic people where said, you're open to work.
+
+Why don't you hire me to be your job hunting consultant?
+
+Ed Marsh (18:12)
+I just had this.
+
+Jack Molisani (18:14)
+Yeah. Never pay someone to help you find a board job. It's right. So that's that's one of the downsides. So you have to do your cost benefit analysis.
+
+Ed Marsh (18:21)
+Yeah, I I think it's called a reverse recruiter and I read about it and someone reached out to me and was like, very strange. Like I looked him up and like reverse recruiter and I Googled him, like, wait, you want me to pay you to find a potential job that you're giving me vagaries about? No, I don't think so. So I think, you know, as a as someone who's been looking for a role, i it is a it is a mi and it is a mixed blessing because you're gonna get people reaching out to you from all over with, you know.
+
+you know, names that you may not be familiar with And then like last week, someone reached out to me for a role, got back to me, said, you know, basically the rate was not l high enough for what I was looking for. And then a couple of hours later, this a different person reached out for me with the same role. I think with the same rate, but not but you so that's what is cons what's confusing about the job market today is these
+
+ghost job or like, you know, like Jackie's filtering system and, you know, finding out if a job is real or not by going to the actual career site of of the company, it's just makes it so much harder because there's so much you can't trust, it seems like, anymore.
+
+Jack Molisani (19:22)
+Yep. Yeah, and any recruiter worth their salt would be compensated by the company, not by you.
+
+Ed Marsh (19:27)
+Right. So that's like it's definitely the re hey, if you want me to pay me to find a job, that's basically a a red flag, is what you're saying. Okay.
+
+Jack Molisani (19:35)
+Yeah. I've had candidates
+
+say, Yeah, you can place me in that company, but I want a kickback out of your commission.
+
+Ed Marsh (19:40)
+Ouch.
+
+Jack Molisani (19:40)
+Yeah, no. So I actually
+
+Ed Marsh (19:42)
+Ouch.
+
+Jack Molisani (19:43)
+that went into our agreement now with the company saying, you know, under no circumstances are we allowed to even appear to be anything such as a kickback or a bribe, or so even if someone says I would love to, but that's you know, our agreement prohibits that.
+
+It only happens once once every couple of years, but it does happen.
+
+Ed Marsh (20:01)
+People never cease to amaze me, Mr Molisani.
+
+so all right. So I know I mean we keep talking about this role thing, but I you I want to get to LavaCon obviously, because everything's affected there. But I know you've done a how to get past the applicant tracking system seminar for years now, I'm pretty sure. Like, how has that changed now with everything else? Like Chris and I talked last episode about, you know, hey, the ATS can tell if you're using AI, but seems like the ATSs are also using AI. So
+
+You know, it's again, it's another double edged sword and it's a lot of lot of, you know, lack of trust, I think.
+
+Jack Molisani (20:34)
+So
+
+how do I what's how do I want to answer this? Basically, you asked what's changed on how to beat the dreaded applicant tracking system is not much. It's actually
+
+Ed Marsh (20:45)
+Okay.
+
+Jack Molisani (20:45)
+more important it's more important now. And for your audience, either we can have a link to the last time we talked about this, or I've got a an article I wrote that we can link in the the notes.
+
+Ed Marsh (20:56)
+Yeah.
+
+Jack Molisani (20:57)
+but basically it's stop applying for jobs through applicant tracking systems.
+
+Ed Marsh (21:01)
+Yeah.
+
+Jack Molisani (21:01)
+You know
+
+I know five people last year who got jobs through personal referral and got those same people got zero interviews, not even zero interviews at all by applying for jobs online. And and it was funny, and I figured something out the other day. One of the reasons why, because I've when I post jobs, I get people who are not even remotely qualified applying for these jobs. You know, just you know.
+
+You must have 10 years experience with this and they've got zero, right? But people who are on unemployment have to show proof that they've applied for jobs, they're actively applying for work. So this
+
+Ed Marsh (21:35)
+Okay.
+
+Jack Molisani (21:36)
+at least gives them a paper trail saying, look, and I I'm applying for jobs. So
+
+That's why I don't spend a lot of time, you know, looking through every single resume. I do read them, I do, but I scan them to say, is is this person close? No. Okay, he's,
+
+Ed Marsh (21:48)
+Okay.
+
+Jack Molisani (21:49)
+you know. So that explains it. Takes the sting out of getting so many unqualified candidates. Right. And but another thing too, ever since the d the the advance of mobile, where you can create a profile on LinkedIn or Dice or Monster, and it used to be that.
+
+Anytime it's I see technical writer job, I pick up my phone and I swipe apply, apply, apply, apply, apply, apply. All right. Now you can set
+
+Ed Marsh (22:11)
+Yeah.
+
+Jack Molisani (22:11)
+up bots to do it for you. So now
+
+Ed Marsh (22:13)
+jeez.
+
+Jack Molisani (22:14)
+you have an AI saying anytime the word technical writer appears, submit me. And then you have the ATS automatically rejecting you. So now you got bots being submitting you and bots rejecting you. It's madness.
+
+Ed Marsh (22:24)
+I had a quote unquote interview with a bot via text last week from a large either human resources company or medical pr device provider and it was just very off putting and especially some of it was stuff that was already on my resume and it just like and then they asked me for feedback on it. I'm like, Well, I'm gonna tell you it sucked because you just sent me a text bot. Like no one you know, so it's it's just a frustrating time to be
+
+looking for roles. I guess no matter when it's looking you're looking for a role, it's frustrating. But
+
+Jack Molisani (22:52)
+Mm-hmm.
+
+Ed Marsh (22:53)
+you know, now with everything coming at you all at the same time, you know, it's hard to know which end is up. And I have a good good network, but you know, it's it still seems like it's a very difficult time.
+
+I know you said that, you know, that you were waiting for certain things to you know, s the war in Iraq or Iran rather, ending. And it seems is that mean that like companies are wait on in a wait and see kind of attitude?
+
+Jack Molisani (23:16)
+Big sigh. I think
+
+Yeah. I think look, one thing the the economy hates is uncertainty. Right. Last year we had tariffs, right? How am I s how can a company decide who to hire if they don't know if the price of their raw materials is gonna go up by fifty percent or eighty percent,
+
+Ed Marsh (23:35)
+Hmm.
+
+Jack Molisani (23:36)
+right? or if, you know, can people afford to buy luxury goods? Well, the luxury people are buying, no matter what. Let's just talk about the rest of us.
+
+Right. it's just hard to plan when there's so much quote unquote uncertainty, air quotes,
+
+Ed Marsh (23:51)
+Mm.
+
+Jack Molisani (23:52)
+in the market. Right. What's what's the what's the price of oil gonna do again? Right?
+
+Ed Marsh (23:57)
+Yeah.
+
+Jack Molisani (23:57)
+it's just just And so I think what's going on is companies are just kind of waiting to see when things are
+
+Ed Marsh (24:05)
+Okay.
+
+Jack Molisani (24:05)
+more stable. You know, what's gonna happen with the tariffs, what are gonna happen with the price of
+
+Groceries and gasoline, airfare, you know.
+
+Ed Marsh (24:15)
+Yeah, my wife's company is fully remote, but they have an annual annual get together somewhere. And it's in California this year at Disneyland, and we're in New Jersey, complete opposite side of the country, and
+
+Jack Molisani (24:26)
+Mm-hmm.
+
+Ed Marsh (24:26)
+they gave her some ridiculously low ball number for airfare, and she's like, There is no way I can make this work with that kind of budget. And it's just like, Okay, well I guess I'm not gonna go because I mean I don't wanna go to Disneyland to be honest with you, but
+
+you know, she wasn't gonna go 'cause she, you know, it's just not part of the budget.
+
+Jack Molisani (24:43)
+Right. And if such companies said, Okay, here's our annual event and okay, what's airfare now? Two hundred ninety nine? Great, we'll give everybody
+
+Ed Marsh (24:52)
+Right.
+
+Jack Molisani (24:53)
+two ninety nine. Well, try to find an airfare anywhere for two ninety nine, let alone,
+
+Ed Marsh (24:56)
+Yeah.
+
+Jack Molisani (24:56)
+you know. Yeah. So
+
+Ed Marsh (24:58)
+Yeah,
+
+it was like they give a total of six hundred dollars around trip. I'm like, I don't think you could do that in a normal year. And then I mean, I know they announced it a year in advance. Like, I'm sure they didn't anticipate, you know, a year from now that gas or air fuel prices were going to be so expensive. but still, it's just, you know, it's just yeah, go again about going back to the uncertainty of everything, all the things that are going on right now.
+
+Jack Molisani (25:19)
+Mm-hmm.
+
+Ed Marsh (25:19)
+Mm-hmm. So, and speaking of that, so let's go to the other half of your world, which
+
+You know, arguably most people I think would know you and which I guess this is a dumb question, but do people know you better for LavaCon or do they know you better as Jack the Recruiter from Pro Spring?
+
+Jack Molisani (25:32)
+Probably Lava Con more.
+
+Ed Marsh (25:33)
+Okay. I mean, it is a hell of a conference. unfortunately I haven't been in several years because I have immune system issues. So I haven't really much gone pretty much anywhere since COVID. but I'm curious, you know, especially because of that, you know, how you made it through the COVID years at LavaCon. I think you went virtual. but like, you know, you know, there's been several things since we spoke nine years ago that have affected world of conferences, not only, you know.
+
+COVID, but also, you know, all the current events and everything's that's happened since then.
+
+Jack Molisani (26:03)
+Right. Well
+
+One
+
+thing that I can start off with is that we've had a virtual track at LavaCon for over twelve, thirteen years now, where
+
+Ed Marsh (26:10)
+Yeah, okay.
+
+Jack Molisani (26:11)
+we live stream all the sessions in the grand ballroom. And we have a very robust Phylise Banner. There's our a virtual
+
+Ed Marsh (26:18)
+Yeah.
+
+Jack Molisani (26:19)
+experience designer. And we record all the breakout sessions. So you can watch those at your leisure, you know, when when you time. So we already had a exper a virtual experience designer on staff when we went to
+
+Ed Marsh (26:31)
+Okay.
+
+Jack Molisani (26:31)
+full sh
+
+Shutdown mode. Right. So at that point it was just in a I'm so tired of the verb pivoting. the latest one I like now is lift and shift. We're gonna lift and shift.
+
+Ed Marsh (26:42)
+no.
+
+Jack Molisani (26:43)
+But we were able to actually
+
+go 100% virtual for both years and was quite successful. and then we went back to in-person attendees in 2023.
+
+Ed Marsh (26:54)
+Okay.
+
+Jack Molisani (26:55)
+yeah. Now this is interesting. One of the things we did is because w in 2020 we're supposed to be in New Orleans. and so what we did is we shipped everybody who registered a
+
+A almost a shoebox size box. And New Orleans, the drink that the city's known for is the hurricane. It's basically a rum-based
+
+Ed Marsh (27:16)
+Mm-hmm.
+
+Jack Molisani (27:18)
+drink. So we found everybody we found plastic hurricane drink glasses. And in the box was the hurricane drink, a a packet of hurricane drink mix and a paper umbrella. So we could all we all toasted with our umbrella drinks virtually. And so we still had that.
+
+we were going to open the conference with a drum circle, which we did, and we shipped everybody at tambourine and the and and drumsticks
+
+Ed Marsh (27:41)
+Lord, Lord.
+
+Jack Molisani (27:42)
+and people got to parade around their house, you know, with the tambourine and their drinks, and we just made it like you were actually there. now.
+
+Ed Marsh (27:52)
+That is so very Jack.
+
+Jack Molisani (27:53)
+Yeah, that's part of my job I like. Now, in New Orleans, they canceled Mardi Gras the following year.
+
+Right? Because COVID hit right after Mardi Gras in 2020. So
+
+Ed Marsh (28:02)
+Okay.
+
+Jack Molisani (28:02)
+instead of normally you go to the parade and watch the floats go by, well, everyone decorated their houses and you drove past all the houses and it was a crew of house floats. And one of them decorated
+
+their their house with llamas. Right? I said, that's a good idea. Yeah.
+
+Ed Marsh (28:18)
+That's where that's come from.
+
+Jack Molisani (28:20)
+So then some
+
+Entrepreneurial farmer said, Hey, you want to spice up your Zoom meetings? Put a llama in your meeting. And they literally put a camera on their llama. And I was that's a great idea. So then I it's I think a habit, yes. So I know your audience can't see these, but we had our graphic designer draw two versions
+
+Ed Marsh (28:42)
+Nice.
+
+Jack Molisani (28:43)
+of llamas, and we these went in the experience box with a box of
+
+colored pencils and everyone at home got to color in the llamas and then we had a best llama contest and everyone h held these up to the camera and the audience voted on which one they liked best. We also did a name the llama contest. Some of the suggestions were the Dalai Lama,
+
+Ed Marsh (29:02)
+Nice.
+
+Jack Molisani (29:03)
+Barackalama. Someone someone said Jack
+
+Llamasani and Kevin goes, No, we're not naming the llama after Jack, his head's big enough as it is. So
+
+Ed Marsh (29:11)
+but
+
+Jack Molisani (29:11)
+the winning name was Earl, the no drama content llama.
+
+Ed Marsh (29:15)
+nice.
+
+Jack Molisani (29:16)
+And then I've seen organizations that will bring in a live llama into your conference. We have to do that.
+
+Ed Marsh (29:23)
+Of course you do.
+
+Jack Molisani (29:24)
+So we did. and there's two parts to this story in that one year at Lava Con we did speed networking. All you had to do is sit down at a table with your business card. And for those who don't have business cards, you check a box in the registration form, we'll print some for you. Right.
+
+Ed Marsh (29:38)
+Nice.
+
+Jack Molisani (29:38)
+And all you had to do is go, hi, I'm Jack from IBM, go around a table. You know, everyone else did that. Ten minutes later, you go to another table, do it again. How hard could this be? Apparently, I so traumatized the introverts making them talk to people.
+
+That what they wanted was a quiet room p with puppies.
+
+Ed Marsh (29:52)
+yeah.
+
+Jack Molisani (29:53)
+So ever since then we bring we bring in therapy dogs. And that's where the therapy dogs came in. And then
+
+Ed Marsh (29:57)
+Right. I knew that. Okay, that's why I came.
+
+Jack Molisani (29:59)
+we kind of extended that and added llamas on the next day. So now we have therapy dogs on Monday and therapy llamas on Tuesday.
+
+Ed Marsh (30:06)
+See, as an introvert, I can totally understand that. Concert conferences are exhausting and then have to be on like that. So I get the I get the puppies.
+
+Jack Molisani (30:13)
+Yeah, my favorite definition is an extrovert is someone who recharges their batteries being around people, and an introvert recharges their batteries being alone.
+
+Ed Marsh (30:22)
+I like being around people, but then I have to go home and not be around people.
+
+Jack Molisani (30:26)
+Right. Yeah. My director of operations is the same way. you know how like a normal battery just keeps going and then keeps gets less and less and less, less. But a n
+
+Ed Marsh (30:34)
+Mm-hmm.
+
+Jack Molisani (30:34)
+ICAD battery goes and stops.
+
+a n ICAD battery goes and stops. So my director of operations like that. He goes, goes and he goes, Okay, I'm done peopling. I need to be alone.
+
+Ed Marsh (30:42)
+Fair, fair, fair. So have you considered renaming the conference to Llamacon?
+
+Jack Molisani (30:46)
+We have, but we're so well known now as Lava. By the way, the
+
+Ed Marsh (30:49)
+yeah, fair.
+
+Jack Molisani (30:51)
+reason it's called LavaCon is because conference started in Hawaii.
+
+Ed Marsh (30:54)
+Right.
+
+Jack Molisani (30:55)
+Right? Well, you know this, but not everybody on the the
+
+Ed Marsh (30:57)
+That's true, yeah.
+
+Jack Molisani (30:57)
+podcast may know. yeah. So the conference started but so back when the STC Society for Technical Communication was still existing, someone pointed out I was at Leadership Day in nineteen ninety-eight, and someone pointed out it's a shame that none of the people in Doro
+
+go to their own regional conference if they live in the Pacific Rim countries, because the conference was always held in the mainland US. And someone kind of just threw
+
+out there, you know what? We should have a combined region seven and region eight conference hold at smack dab in the middle in Hawaii, because we had a chapter there. And I raised my hand and went, I'll run that one.
+
+Ed Marsh (31:27)
+Nice.
+
+Jack Molisani (31:27)
+And we had it in the fall of 2000. It was the STC Pan Pacific Conference, year 2000. Our break-even point was about 140 people, 570 showed up. Standing room only.
+
+Now mind you, this is before the dot com crash. It was hype before nine eleven, you know, times were better then. but at the end of the conference, everyone kept going, I can't wait till next year. I'm going, There is no next year. I can't wait
+
+till the next one. Went, hmm, maybe there's an opportunity here.
+
+Ed Marsh (31:51)
+Yeah. Nice.
+
+Jack Molisani (31:53)
+Yeah.
+
+So yeah, this is actually our twenty fourth year. Next year will be our twenty fifth ann twenty fifth anniversary. So we've survived
+
+Ed Marsh (31:59)
+wow wow
+
+Jack Molisani (32:01)
+two recessions, a dot com crash, a pandemic, and whatever this is now.
+
+Ed Marsh (32:05)
+Whatever this is, that's the title of this episode, I think.
+
+Jack Molisani (32:08)
+Yeah. Right?
+
+Ed Marsh (32:11)
+So this year, it's LavaCon is gonna be in Charlotte, North Carolina. Interesting choice.
+
+Jack Molisani (32:15)
+Charlotte, North Carolina. Yep, at the Law Meridian Hotel.
+
+Ed Marsh (32:17)
+and it's in October, correct?
+
+Jack Molisani (32:19)
+yeah. Twenty fourth, through twenty eighth? Yeah.
+
+Ed Marsh (32:23)
+Okay.
+
+Okay. now how has the presentations changed there? Now I know like con LavaCon is largely a content strategy conference, but tech writers and lots of people from around the all the different fields come together there. I mean, has there been over the past couple of years, has there been a big pivot towards the AI world, or is it kind of just like, you know, the kind of same presentations or, you know, how has how has things changed, if at all?
+
+Jack Molisani (32:46)
+So
+
+when AI f actually I was going back at some old looking at old programs and we've had AI sessions going back, I don't know, seven years now, eight years,
+
+Ed Marsh (32:56)
+wow.
+
+Jack Molisani (32:56)
+but it was one session, right?
+
+Ed Marsh (32:58)
+Okay.
+
+Jack Molisani (32:59)
+I remember like Cordoba, who's now writer.com, has been working on this for years. And and then when AI exploded, so one year almost every session in the program was AI. but a lot of that was
+
+Here's what you can do with an AI. and a lot of it was not theoretical, but no one was doing it yet. Right.
+
+Ed Marsh (33:18)
+Right.
+
+Jack Molisani (33:19)
+So fast forward a couple of years where we're now b y we're we for the past few years, I was calling this proof of concept. Let's try this, see what we can get. You know, where's the return on investment? You know,
+
+Ed Marsh (33:29)
+Okay. Hmm.
+
+Jack Molisani (33:30)
+Now, however, we're actually to the point where people are actually doing it. So we only have two we do we run five tracks and
+
+Ed Marsh (33:38)
+Mm-hmm.
+
+Jack Molisani (33:39)
+and two of them, only two of them this year aren't are on AI. So we have an AI track and a case studies track. Really people showing
+
+Ed Marsh (33:45)
+Okay.
+
+Jack Molisani (33:45)
+how they how are they actually using AI. And was
+
+Ed Marsh (33:48)
+Interesting. Okay.
+
+Jack Molisani (33:49)
+funny, one of my speakers previously found out that they were gonna be using AI, where in their
+
+Company wide Zoom call, I think it was, announced they wanted to lay off the entire technical writing department. And she found this out in as head of the department in the call.
+
+Ed Marsh (34:06)
+Ouch.
+
+Jack Molisani (34:06)
+Yep.
+
+Ed Marsh (34:07)
+As head of department, ugh.
+
+Jack Molisani (34:08)
+Yeah. So another reason why you should be in on these conversations way earlier, not waiting for
+
+Ed Marsh (34:16)
+Right.
+
+Jack Molisani (34:16)
+them to, you know. But a lot of what she did in her department is they were still tech writers, but she just re branded as prompt okay, now you're a prompt engineer. Right?
+
+Back up a step further. A lot of the vendors are saying, yeah, we've added AI to our systems, right? And because I'm a recruiter, I go to technical conferences to find programmers. And one exhibitor there says, they had a mortgage lending app, you know, to for mortgage applications. And they said, our application is now AI enabled. And I went, Really? Show me.
+
+And he typed in list all the dollar figures in this document. And it went and listed all the dollar figures. I go, that's not AI. That's the that's a what word did I call that? no, it's it's it's a macro. That's a macro. I can write that in Visual Basic in five minutes. Where's
+
+Ed Marsh (35:00)
+Regular expression? macro okay. Yeah.
+
+Jack Molisani (35:06)
+the AI? So I think a lot of people are just jumping on the AI bandwagon to say they're AI enabled, where it's not. Right?
+
+Ed Marsh (35:12)
+Yeah, well yeah.
+
+Jack Molisani (35:13)
+Now, here's a perfectly good use of AI. Take a company like Boeing that has millions of pages documentation, right?
+
+Ed Marsh (35:19)
+Mm-hmm.
+
+Jack Molisani (35:20)
+Have the AI crawl the entire documentation set, find out how many pages or topics are sufficiently similar that they can be combined and reused in both places or in multiple places, and eliminate the redundancies.
+
+Ed Marsh (35:30)
+Right.
+
+Jack Molisani (35:31)
+But that's not here's here's a 747, write the maintenance manual for me. An AI can't do that. Right?
+
+Ed Marsh (35:38)
+For yeah, for sure.
+
+Jack Molisani (35:39)
+now you it's what you know what it can do is index this document for me. No longer do I have to go through this manual and choose
+
+Ed Marsh (35:46)
+Mm.
+
+Jack Molisani (35:47)
+every word that I want to show up in the index. Right? Yeah.
+
+Ed Marsh (35:50)
+Okay. that's neat. That makes sense.
+
+Jack Molisani (35:54)
+That'd be great. Well you you still you still have to review it, right?
+
+Ed Marsh (35:57)
+Yeah.
+
+Jack Molisani (35:57)
+Right. or conditional text. say here's here's a page. Well
+
+Half of it belongs with this product, but half of it covers three products. Well, good. Well, have the AI identify that and then tag it with what product name is it is. So now, so we're now talking about metadata, right?
+
+Ed Marsh (36:15)
+Mm-hmm.
+
+Jack Molisani (36:16)
+Information about what you're writing about, which is needed if you're doing structured authoring.
+
+Ed Marsh (36:21)
+Right.
+
+Jack Molisani (36:21)
+So here's a document. Populate the metadata for me, and then let me go back and review it.
+
+Ed Marsh (36:26)
+Interesting, okay. Huh, okay.
+
+Jack Molisani (36:27)
+Right. Or
+
+if you're using a controlled vocabulary, right? All right, find me all the instances of do I say click, click on, you know, press,
+
+Ed Marsh (36:37)
+Right.
+
+Jack Molisani (36:38)
+you know, push, you know, make sure we're all using the same language, you know. It's basically applying a style guide to the document.
+
+Ed Marsh (36:44)
+Right,
+
+yeah, exactly.
+
+Jack Molisani (36:45)
+But if you have millions
+
+of pages to document you're not gonna go back and say, we're updating the style guide. Now I'm gonna go up update millions of pages of No. So there's there's things you can do with an AI for sure.
+
+Ed Marsh (36:54)
+Right. Yeah, for sure. but how like how will something like that affect translation memory? Because I know like, you know, typically English may or may not be the single source of truth, I we were worked for a medical device company who just transitioned to Ixia C CMS. and they were using DCL as part of, you know, who their translation memory to get and they're moving it all from Word and InDesign to to Ixia and DITA.
+
+so if you go through that, I mean you should have probably done this already, for the consistency, but we understand, you know, I call it content debt it's just like technical debt. It's a stuff you should get to, but you never do. But how will that affect something like translation memory where this stuff's been static more or less for X amount of years and usually they're just doing a delta? Now you're doing a much larger delta. Does that cost a lot more? Like, how does that do you know how that works?
+
+Jack Molisani (37:44)
+I don't, well but my exhibitors do.
+
+Ed Marsh (37:46)
+Hey, another reason to come to Lavacon in Charlotte in October.
+
+Jack Molisani (37:48)
+Right? Yeah.
+
+Yeah, we have exhibitors who do exactly that. And AI, you know, translation. And yeah. But I've never done that personally, so that that's not something I can
+
+Ed Marsh (38:01)
+Yeah.
+
+Jack Molisani (38:02)
+really talk to.
+
+Ed Marsh (38:02)
+Okay, that's fair.
+
+I
+
+Jack Molisani (38:04)
+so getting back to then you were talking about the program, the conference program.
+
+Ed Marsh (38:07)
+Mm-hmm.
+
+Jack Molisani (38:08)
+so I answered we're down to just two tracks on AI, but all the other stuff
+
+Ed Marsh (38:11)
+There, okay.
+
+Jack Molisani (38:12)
+is just as true today as it was 10 years ago. How do you build a business
+
+Ed Marsh (38:14)
+Mm-hmm.
+
+Jack Molisani (38:15)
+case for a content initiative? Right. What metrics should you track? Right?
+
+Ed Marsh (38:22)
+Yeah.
+
+Jack Molisani (38:22)
+If you're rolling out a new system, what's your success criteria? Is it reduced translation cost?
+
+That's one of the reasons
+
+Ed Marsh (38:26)
+Right.
+
+Jack Molisani (38:27)
+if you do them multiple languages. A CCMS is great for that, right? how do you handle poor performers? You know, how do you build a business case? You know, how do you migrate legacy content from unstructured to structured? You know, can an AI do that? Can do a lot of it, but you still need a human in the loop, right?
+
+Ed Marsh (38:44)
+Right.
+
+And there's always been like talks about, you know, proving your value and metrics do that a lot. So relevant more than ever, especially now.
+
+Jack Molisani (38:51)
+here's a a little pearl of wisdom to share. a lot of times, again, we want to prove our worth. And especially if you're applying for a job. And so many people have said, Well, you know, one way you could is called call deflection, to tech support call deflection. It's a lot
+
+Ed Marsh (39:07)
+Yeah.
+
+Jack Molisani (39:07)
+cheaper to have somebody look it up in a knowledge base than it is to pick up the phone and call tech support. Right? Well, has anybody
+
+Actually called your tech support team and say, what are the most frequently asked questions you're getting still? Maybe we could better address that in the documentation, right?
+
+Ed Marsh (39:21)
+Mm-hmm.
+
+Jack Molisani (39:22)
+But if nothing else, right? One of the things that I try to beat the drum for is positioning yourself as an integral part of the product development team, right? Just
+
+Ed Marsh (39:32)
+Mm-hmm.
+
+Jack Molisani (39:32)
+like the engineers are, just like the business analysts are, right? So say you work at
+
+Quicken, right? QuickBooks, and you know, do the user assistance for QuickBooks, right? Well, how much revenue did Quicken make off of QuickBooks last year? Right? So you could say I was part of the product development team that generated $2.5 million worth of revenue for my company last year. So even if you can't track your specific impact, right? Yeah, I I'm part of the
+
+Ed Marsh (39:52)
+Hm okay. interesting. Okay.
+
+Jack Molisani (40:02)
+You know, I'm documenting yeah a medical device, right? And that that line of medical devices generated six billion dollars worth of revenue for our company last year. I helped generate six point billion dollars in revenue for a company. It's true. Just
+
+Ed Marsh (40:18)
+Yeah, that's fair. That's fair, that's really interesting.
+
+Jack Molisani (40:21)
+If nothing else, yeah,
+
+especially if you're a publicly traded company, all that information is publicly available. Just grab your annual report.
+
+Ed Marsh (40:27)
+that yeah, that's true. Wow. Okay, that's pretty cool. I'm gonna fudge some numbers now. No, just kidding. I'm gonna enhance my resume and improve my value, Jack. Let's
+
+Jack Molisani (40:35)
+There you go.
+
+Ed Marsh (40:36)
+go with that.
+
+Jack Molisani (40:36)
+I
+
+I created a discount code for your listeners.
+
+Ed Marsh (40:39)
+hey, okay.
+
+Jack Molisani (40:39)
+So
+
+anyone can attend either virtually or in person using the referral code content content one word content content
+
+Ed Marsh (40:47)
+Who?
+
+Jack Molisani (40:47)
+four hundred dollars off registration.
+
+Ed Marsh (40:49)
+Hey, this is the first time anyone's ever doing that. That's pretty cool. Thank you.
+
+That's close enough.
+
+Jack Molisani (40:52)
+By the way, as a
+
+recruiter, like I said, one of the first places I look for people is my network, especially on LinkedIn.
+
+Ed Marsh (40:57)
+Mm-hmm.
+
+Jack Molisani (40:58)
+So if any of your audience is not already connected with me on LinkedIn, please do so. I'm the only Jack Molisani on LinkedIn.
+
+Ed Marsh (41:04)
+that's good to know. I am not the only Ed Marsh on LinkedIn. I am also not the only Ed Marsh that has a podcast. 'cause a lot of times I get I get requests for him for his podcast or back when I used Twitter, a lot of the stuff that he would put out would be people would retweet and or respond to me and I'm like, No, I'm not that Ed Marsh. I'm the other Ed Marsh.
+
+Yeah. So conference. October twenty seventh. Is that what you said? Twenty
+
+Jack Molisani (41:27)
+twenty five through twenty eight October.
+
+Ed Marsh (41:28)
+Okay, twenty-fifth through twenty-eighth. so hopefully we'll see you there. I know f people who are presenting. I'm sure, you know, as always, there's gonna be very, very interesting things going on because Jack is Jack. Jack, do we know next year? It's a twenty fifth anniversary you said. Do you know where we're gonna be next year or is that a secret?
+
+Jack Molisani (41:47)
+No, we're gonna be in Denver next year. one
+
+Ed Marsh (41:50)
+interesting.
+
+Jack Molisani (41:51)
+of the things we discovered is if we have it on the West Coast every year, people on the East Coast complain. If we hold it on the East Coast, people complain.
+
+Ed Marsh (41:57)
+Goes everyone.
+
+Jack Molisani (41:58)
+So what we've been doing is go going east, west, central.
+
+Ed Marsh (42:01)
+Okay.
+
+Jack Molisani (42:02)
+So this year we're in North Carolina, next year Denver, then Portland, and then after Portland is we're looking at New Orleans, and then
+
+twenty thirty we'll be
+
+Ed Marsh (42:11)
+Okay.
+
+Jack Molisani (42:12)
+back on the East Coast. So we're kind of just
+
+Ed Marsh (42:13)
+Interesting. Okay, cool.
+
+Jack Molisani (42:14)
+Yeah. We thought about
+
+doing going back to to Hawaii for our twenty fifth anniversary. Yeah,
+
+Ed Marsh (42:19)
+That's what I was gonna I figured maybe
+
+Jack Molisani (42:21)
+but when all the tariff stuff, God knows, and then
+
+Ed Marsh (42:25)
+plus airfare, what you talked about.
+
+Jack Molisani (42:27)
+and then the AI scare w we're all gonna lose our jobs to AI. So mm, this is probably not a good time to ask your boss to go to a conference in Hawaii.
+
+Ed Marsh (42:35)
+Yeah, yeah, that's actually a really good point. Huh.
+
+Jack Molisani (42:37)
+So we will get back
+
+at some point, but just not w have to wait 'til s the some of the craziness dies down. But we are going to turn Denver into Aloha Central for
+
+Ed Marsh (42:46)
+that's g boy. I I can't imagine what you have planned. I I I can't imagine that Kevin wants to know what you have planned.
+
+Jack Molisani (42:55)
+so Kevin is my director of operations and he's also my safety officer. so have you ever seen the arcade game whack-a-mole?
+
+Ed Marsh (43:04)
+Yes.
+
+Jack Molisani (43:04)
+So a little thing for the people who haven't, it's little things pop up and you have to hit it with a hammer, a mallet, right? I found a whack-a-mole bouncy house where someone stands up in the middle and you you have a
+
+blow up hammer you try to hem in when he's trying to grab balls. I went, Kevin, I found a whack-a-mole bouncy house. And he goes, No.
+
+No discussion. So as his gag Christmas gift last year, I got some plain pickleball paddles and I had them wood burned with Nope, maybe, and sure. So all you have to do is hold up a paddle now that says nope.
+
+Ed Marsh (43:34)
+there you go.
+
+Jack Molisani (43:35)
+Yeah.
+
+Ed Marsh (43:35)
+Ha ha.
+
+Jack Molisani (43:36)
+I
+
+also got a little button that you can record and when you hit the button it goes you were right. So
+
+Ed Marsh (43:40)
+see, I should have had that for your res for my resume reviv revision.
+
+Jack Molisani (43:43)
+Right. So yeah. So yep. So but yeah.
+
+Ed Marsh (43:45)
+Cool. S so where's
+
+the best place to find you now these days?
+
+Jack Molisani (43:49)
+LinkedIn probably I
+
+Ed Marsh (43:52)
+Okay.
+
+Jack Molisani (43:52)
+mean, l really, I'm the only I I don't know if there's another Jack Molisani anywhere. there probably is, but I'm definitely the first hit if you just Googled my name. Do you know what it's called when you Google your own name?
+
+Ed Marsh (44:03)
+Vanity search
+
+Jack Molisani (44:04)
+Ego surfing.
+
+Ed Marsh (44:04)
+Ego search.
+
+All right, everyone. Thank you. Thank Jax, thank again for coming. hey, again, if you want 10 per how much was it, 10% off the coupon?
+
+Jack Molisani (44:13)
+Four hundred dollars off.
+
+Ed Marsh (44:14)
+$400. use the offer code content content. that's a first for me. I'm kind of excited about that, to be honest with you. Jack, it's good to see you again. I'm sure this won't be the last time that you and I will speak together online. but for everyone else, thanks for listening, and we will see you next time.
+
+Jack Molisani (44:31)
+Ciao.
+

@@ -348,7 +348,7 @@ ul li:not(#menubar>ul>li):not(div>ul>div>li) {
 }
 
 .card-description a {
-    color: var(--medium-blue);       /* Blue links within card descriptions */
+    color: var(--accent-purple);
 }
 
 /* ==========================================================================
