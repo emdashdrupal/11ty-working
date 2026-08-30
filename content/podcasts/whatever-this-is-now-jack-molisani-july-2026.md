@@ -41,9 +41,4 @@ Use the code CONTENTCONTENT to get $400 off your Lavacon 2026 ticket in Charlott
 
 - Intro voiceover by one of my best friends since high school, Corey Holtzberg at [Coho Studios](https://cohostudios.com).
 - Headshot by life-long friend Michael Einreinhof of [Arclight Images](https://arclightimages.com).
-- Intro music bed: *Long Way to Go*
-
-  - Track ID: BIB_BIB_0129_00301
-  - Composer(s): Michael Lesirge (PRS) 100%, IPI 606048568
-  - Publisher: Bibliotheque Metro Park (BMI) 100%, IPI 201452719
-  - ISRC: QMGXA2059949
+- Intro music bed: *Long Way to Go*. Composer: Michael Lesirge. Publisher: Bibliotheque Metro Park (BMI).
