@@ -9,33 +9,22 @@ categories:
   - "medical editing"
 cover: kelly-schrank.jpg
 coverAlt : Kelly Schrank
-description: "In this episode, Ed talks to [recruiter and conference organizer extraordinaire Jack Molisani](https://www.linkedin.com/in/jackmolisani). Jack talks about the changes in recruiting and conferences over the past nine years since [his last appearance](/podcasts/users-or-people-with-jack-molisani-content-content-episode-15/) on the podcast, how networking is still important when finding a role in the world of AI, and how technical communicator and content strategists can do it right."
+description: "In this episode, Ed Marsh talks to Kelly Schrank, a medical editor and author known for her work on checklists and her involvement with the medical writing community. Kelly talks about her unique role as a medical editor&thinsp;&mdash;&thinsp;the first in that position to appear on the Content Content podcast&thinsp;&mdash;&thinsp;her book dedicated to the art and utility of checklists, and her packed schedule of AMWA National Conference appearances and fall conferences, all while dreaming of a quiet afternoon reading a book on her new screened porch."
 mp3File: jack-molisani-june-2026.mp3
 blubrryId: 155192798
 blubrryCache: 1788117059
 eleventyNavigation:
-  key: jack-molisani-podcast-2
-  title: Jack Molisani
+  key: kelly-schrank-podcast
+  title: Kelly Schrank
   parent: podcasts
 ---
 
-Use the code CONTENTCONTENT to get $400 off your Lavacon 2026 ticket in Charlotte, North Carolina!
-
 ## Mentioned during this episode
 
-- [Pro Spring Staffing](https://prospringstaffing.com)
-- [Lavacon conference](https://lavacon.org/)
-- [Acura IndyCar Grand Prix of Long Beach](https://gplb.com)
-- [DITAWorld conference](https://2027-adobe-dita-world.meetus.adobeevents.com/)
-- [Ed and Jack on closing DITAWorld 2026 panel](https://www.youtube.com/watch?v=xdtx9SC_5TY&list=PLcX4wj6qiUkA&index=23)
-- [Claude](https://claude.ai)
-- [Gemini](https://gemini.google.com)
-- [Content Content podcast with Chris Blocher](/podcasts/chris-blocher-july-2026/)
-- [Jackie Damrau](https://www.linkedin.com/in/jackiedamrau)
-- [Heretto](https://heretto.com)
-- [Sharon Burton](/podcasts/sharon-burton-march-2026/)
-- [IXIASoft (MadCap IXIA CCMS)](https://www.madcapsoftware.com/products/ixia-ccms/)
-- [Phylise Banner](/podcasts/i-like-the-ms-with-phylise-banner-content-content-podcast/)
+- **Kelly's book on checklists** – referenced multiple times; Ed expresses excitement to read it and apply its ideas to his own self-hosted to-do list
+- **AMWA (Association of Medical Writers and Scientists)** – Kelly mentions the upcoming AMWA National Conference in September
+- **Ed's self-hosted to-do list** – Ed jokes about wanting to see what Kelly can do with his checklist, to which she replies she definitely wants to see it.
+
 
 ## Production credits
 
