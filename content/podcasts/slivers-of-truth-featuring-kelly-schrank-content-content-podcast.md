@@ -21,9 +21,11 @@ eleventyNavigation:
 
 ## Mentioned during this episode
 
-- **Kelly's book on checklists** – referenced multiple times; Ed expresses excitement to read it and apply its ideas to his own self-hosted to-do list
+- [Clarity by design, comprehensive checklists and medical communication.]Ed expresses excitement to read it and apply its ideas to his own self-hosted to-do list
 - **AMWA (Association of Medical Writers and Scientists)** – Kelly mentions the upcoming AMWA National Conference in September
 - **Ed's self-hosted to-do list** – Ed jokes about wanting to see what Kelly can do with his checklist, to which she replies she definitely wants to see it.
+- [AMWA Canada](https://www.amwa-canada.ca/)
+- [Chartered Institute of Editing and Proofreading (CIEP)](https://www.ciep.uk/)
 
 
 ## Production credits
