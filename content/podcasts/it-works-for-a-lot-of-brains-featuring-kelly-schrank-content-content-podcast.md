@@ -21,6 +21,7 @@ eleventyNavigation:
 
 ## Mentioned during this episode
 
+- [Kelly Schrank's website](https://headbookworm.com)
 - [Clarity by design, comprehensive checklists and medical communication](https://bookshop.org/p/books/clarity-by-design-comprehensive-checklists-in-medical-communication-kelly-schrank/db7d5e814f819efc)
 - [Association of Medical Writers and Scientists (AMWA)](https://www.amwa.org/)
 - [AMWA Canada](https://www.amwa-canada.ca/)
