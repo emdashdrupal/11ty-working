@@ -107,13 +107,10 @@
                             Last updated: {{ page.date | date("YYYY-MMM-DD") }}
                         </div>
                     {% endif %}
-                        <div data-pagefind-weight="6" class="description font-sans">
-                            {%- if collectionName == "podcasts" and layout == "layouts/details.njk" -%}
-                                <figure class="hero float-right ml-2 max-w-xs">
-                                    {%- include 'layouts/partials/hero-image.njk' -%}
-                                </figure>
-                            {%- endif -%}
-                            {{ description | markdown | safe }}
-                        </div>
-
+                    {%- if description and layout != "layouts/index.njk" %}
+                        <div data-pagefind-weight="6" class="description font-sans">{{ description |
+                            markdown | safe }}{%- if collectionName == "podcasts" -%}<figure class="hero flex justify-end float-right ml-2">
+        {%- include 'layouts/partials/hero-image.njk' -%}
+    </figure>{%- endif -%}</div>
+                    {% endif %}
                 {%- endblock -%}
