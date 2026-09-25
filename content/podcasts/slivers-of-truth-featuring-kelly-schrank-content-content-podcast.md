@@ -21,11 +21,12 @@ eleventyNavigation:
 
 ## Mentioned during this episode
 
-- [Clarity by design, comprehensive checklists and medical communication.]Ed expresses excitement to read it and apply its ideas to his own self-hosted to-do list
-- **AMWA (Association of Medical Writers and Scientists)** – Kelly mentions the upcoming AMWA National Conference in September
-- **Ed's self-hosted to-do list** – Ed jokes about wanting to see what Kelly can do with his checklist, to which she replies she definitely wants to see it.
+- [Clarity by design, comprehensive checklists and medical communication](https://bookshop.org/p/books/clarity-by-design-comprehensive-checklists-in-medical-communication-kelly-schrank/db7d5e814f819efc)
+- [Association of Medical Writers and Scientists (AMWA)](https://www.amwa.org/)
 - [AMWA Canada](https://www.amwa-canada.ca/)
 - [Chartered Institute of Editing and Proofreading (CIEP)](https://www.ciep.uk/)
+- [Microsoft OneNote](https://onenote.com)
+- [Trello](https://trello.com)
 
 
 ## Production credits
