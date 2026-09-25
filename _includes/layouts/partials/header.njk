@@ -38,23 +38,27 @@
         </script>
 
         <!-- Google tag (gtag.js)-->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-863160P0NH"></script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VDL9G7YHY9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-863160P0NH"></script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VDL9G7YHY9"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
 
-  gtag('config', 'G-VDL9G7YHY9');
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+            gtag('config', 'G-VDL9G7YHY9');
+        </script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
 
-  gtag('config', 'G-863160P0NH');
-</script>
+            gtag('config', 'G-863160P0NH');
+        </script>
 
         <script src="/js/copyCode.js" defer></script>
         <script src="/js/imageExpand.js" defer></script>
@@ -103,8 +107,13 @@
                             Last updated: {{ page.date | date("YYYY-MMM-DD") }}
                         </div>
                     {% endif %}
-                    {%- if description and layout != "layouts/index.njk" %}
-                        <div data-pagefind-weight="6" class="description font-sans">{{ description |
-                            markdown | safe }}</div>
-                    {% endif %}
+                        <div data-pagefind-weight="6" class="description font-sans">
+                            {%- if collectionName == "podcasts" and layout == "layouts/details.njk" -%}
+                                <figure class="hero float-right ml-2 max-w-xs">
+                                    {%- include 'layouts/partials/hero-image.njk' -%}
+                                </figure>
+                            {%- endif -%}
+                            {{ description | markdown | safe }}
+                        </div>
+
                 {%- endblock -%}
