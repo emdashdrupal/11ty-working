@@ -107,7 +107,7 @@
                             Last updated: {{ page.date | date("YYYY-MMM-DD") }}
                         </div>
                     {% endif %}
-                    {%- if description and layout != "layouts/index.njk" or layout !="layouts/details.njk" -%}
+                    {%- if description and layout != "layouts/index.njk|layouts/details.njk" -%}
                         <div data-pagefind-weight="6" class="non-index-description font-sans">{{ description |
                             markdown | safe }}
                         </div>
