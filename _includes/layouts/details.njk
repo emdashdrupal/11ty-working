@@ -6,9 +6,6 @@
     <figure class="hero flex justify-end float-right ml-2">
         <img src="/assets/images/{{ cover or item.data.cover }}" title="{{ description or item.data.description }}" alt="{{ description or item.data.description }}" class="w-full h-48 border-4 shadow-md"></figure>
 {%- elif collectionName == "podcasts" -%}
-    <figure class="hero flex justify-end float-right ml-2">
-        {%- include 'layouts/partials/hero-image.njk' -%}
-    </figure>
     <div id="podcast-player">
         <iframe src="{{ podHostID }}/{{ blubrryId }}/?cache={{ blubrryCache }}#mode-Light&border-000000&progress-000000" title="{{ title }}" scrolling="no" width="100%" height="165px" frameborder="0"></iframe>
     {% endif %}
