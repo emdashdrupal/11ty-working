@@ -1,5 +1,5 @@
 ---
-title: Slivers of truth featuring Kelly Schrank - Content Content podcast
+title: It works for a lot of people's brains (like to check it off) featuring Kelly Schrank - Content Content podcast
 date: 2026-09-30
 categories:
   - "podcast"
