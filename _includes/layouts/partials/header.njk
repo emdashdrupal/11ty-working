@@ -108,7 +108,12 @@
                         </div>
                     {% endif %}
                     {%- if description and layout != "layouts/index.njk" -%}
-                        <div data-pagefind-weight="6" class="description font-sans">{{ description |
+                        <div data-pagefind-weight="6" class="non-index-description font-sans">{{ description |
+                            markdown | safe }}
+                        </div>
+                    {%- endif -%}
+                    {%- if description and layout =yeh?= "layouts/index.njk" -%}
+                        <div data-pagefind-weight="6" class="index-description font-sans">{{ description |
                             markdown | safe }}
                         </div>
                     {%- endif -%}
