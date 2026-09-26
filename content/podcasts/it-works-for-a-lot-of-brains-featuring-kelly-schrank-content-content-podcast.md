@@ -1,5 +1,5 @@
 ---
-title: It works for a lot of people's brains (like to check it off) featuring Kelly Schrank - Content Content podcast
+title: It works for a lot of people's brains featuring Kelly Schrank&thinsp;&mdash;&thinsp;Content Content podcast
 date: 2026-09-30
 categories:
   - "podcast"
@@ -9,7 +9,7 @@ categories:
   - "medical editing"
 cover: kelly-schrank.jpg
 coverAlt : Kelly Schrank
-description: "In this episode, Ed Marsh talks to Kelly Schrank, a medical editor and author known for her work on checklists and her involvement with the medical writing community. Kelly talks about her unique role as a medical editor&thinsp;&mdash;&thinsp;the first in that position to appear on the Content Content podcast&thinsp;&mdash;&thinsp;her book dedicated to the art and utility of checklists, and her packed schedule of AMWA National Conference appearances and fall conferences, all while dreaming of a quiet afternoon reading a book on her new screened porch."
+description: "In this episode, Ed Marsh talks to Kelly Schrank, a medical editor and author known for her work on checklists and her involvement with the medical writing community. Kelly talks about her unique role as a medical editor&thinsp;&mdash;&thinsp;the first in that position to appear on the Content Content podcast&thinsp;&mdash;&thinsp;her book dedicated to the art and utility of checklists, and her packed schedule, while dreaming of a quiet afternoon reading a book on her new screened porch."
 mp3File: jack-molisani-june-2026.mp3
 blubrryId: 155192798
 blubrryCache: 1788117059
