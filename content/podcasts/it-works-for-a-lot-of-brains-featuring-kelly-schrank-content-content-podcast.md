@@ -9,7 +9,7 @@ categories:
   - "medical editing"
 cover: kelly-schrank.jpg
 coverAlt : Kelly Schrank
-description: "Ed Marsh talks with Kelly Schrank, a medical editor and self-published author. Kelly talks about her unique role as technical communicator in the medical field, her book dedicated to the art and utility of checklists, and having a packed schedule while dreaming of reading a book on her new screened porch."
+description: "Ed Marsh talks with Kelly Schrank, a medical editor and self-published author. Kelly talks about her unique role as technical communicator in the medical field, her book dedicated to the art and utility of checklists, and having a packed schedule while dreaming of reading a book on her new screened-in porch."
 mp3File: jack-molisani-june-2026.mp3
 blubrryId: 155192798
 blubrryCache: 1788117059
