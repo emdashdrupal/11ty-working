@@ -1,0 +1,1655 @@
+Ed Marsh (00:00)
+Hello everyone, it's Ed Marsh and welcome to another episode of Content Content, the podcast with the people behind the content. And today my person behind the content is Kelly Schrank, who lives in Oneida, New York. And if you listened to my podcast with Chris Blocker a few weeks ago, we decided that I'm Kelly, I'm pretty sure that you are in upstate New York. Is that correct?
+
+Kelly Schrank (00:26)
+Yeah, I usually say central New York, but if you're from the city, you might call me upstate. Since you're from New Jersey, you're probably gonna say upstate, yeah. Yeah.
+
+Ed Marsh (00:29)
+Central. Okay. Yeah, exactly. From yeah, from down here you're definitely upstate. Yes. Yes.
+
+Ed Marsh (00:38)
+Kelly is Chuck Campbell's wife. who if you know the the five or the four bald men of techcom, it's Bernard, Jack, me, and Chuck. So I don't know if that's a good thing or a bad thing, Kelly, but that's that's how
+
+Kelly Schrank (00:56)
+Yeah.
+
+Ed Marsh (00:57)
+I'm labeling it.
+
+Kelly Schrank (00:58)
+It makes it interesting sometimes at the conferences for sure.
+
+Ed Marsh (01:01)
+Yeah, that's for sure.
+
+Ed Marsh (01:02)
+So Kelly is a medical editor, which is probably why we we should probably get to the fact that Kelly is a medical editor. And I think you're the first person I've had on my podcast who is in this kind of role. And that's particularly why I wanted to have you on. But also as I see in your background, I see copies of your book, which you will definitely talk about.
+
+Kelly Schrank (01:26)
+Yes.
+
+Ed Marsh (01:27)
+so I'm excited to talk about that because checklists
+
+Ed Marsh (01:29)
+Like I like to do lists and I like getting things done, but having a book on it might be really, really useful. So I'm interested in what you have to say about that stuff. And we'll get to that in a little bit.
+
+Kelly Schrank (01:40)
+Sure.
+
+Ed Marsh (01:41)
+But before that, why don't you give give everyone a little introduction onto who you are and what you do.
+
+Kelly Schrank (01:50)
+Well, I've been a technical editor, technical writer for almost thirty years, more than thirty years. I don't know. Who wants to count at this point, right?
+
+Ed Marsh (01:59)
+Yeah. Yeah,
+
+Ed Marsh (02:00)
+yeah. I I know my number and it's it's around there too.
+
+Kelly Schrank (02:03)
+Yeah, and I'm been a medical editor for about fifteen years. so, you know, starting out initially I was editing training manuals for steel mills, which is not typical.
+
+Ed Marsh (02:21)
+Training ma okay, yeah, that's not typical.
+
+Kelly Schrank (02:24)
+Yeah. you know, and then I I went into, you know, editing marketing materials for chemical detection devices, point of sale systems. I had a couple different jobs for stuff like that. and then I got this medical editing editing job and I've freelanced. I've usually a lot of times I'm, you know, in-house and I freelance on the side sometimes. So I've also done some technical writing in IT and cybersecurity.
+
+Kelly Schrank (02:54)
+you know, some of my freelancing kind of kind of bits. and right now I work as a medical editor in an agency doing you know for FreeD and editing, promotional and advertising materials. I've also worked in medical information in the pharma industry, where I've edited standard response letters, formulary dossiers,
+
+Kelly Schrank (03:22)
+Lots of slide decks. yeah.
+
+Ed Marsh (03:28)
+Yeah, I was doing my research and I'm like, okay. And I sent you an email, like, here's some little like a crib notes for our recording. I'm like, I definitely want to
+
+Kelly Schrank (03:33)
+Like what do you wanna talk about?
+
+Ed Marsh (03:35)
+talk about these things that you listed here.
+
+Kelly Schrank (03:38)
+Yeah.
+
+Ed Marsh (03:38)
+So you've done quite a bit. Like, I'm sorry, steel mills?
+
+Kelly Schrank (03:41)
+Yeah.
+
+Kelly Schrank (03:42)
+Steel mills, yeah. That's actually where I met Chuck that job. he was one of the SMEs.
+
+Ed Marsh (03:47)
+Okay, yeah.
+
+Ed Marsh (03:51)
+that's crazy. that's a cute story.
+
+Kelly Schrank (03:52)
+Yeah, he was one of the writers.
+
+Kelly Schrank (03:53)
+I I didn't edit his stuff that much. but
+
+Ed Marsh (03:57)
+Ha.
+
+Kelly Schrank (03:57)
+he knows what it's like to be edited by me on paper with a red pen. That's reaching way back.
+
+Ed Marsh (04:05)
+Yeah. Yes, indeed. Steel mills and what was it chemic
+
+Kelly Schrank (04:08)
+So yeah. So that was interesting. To learn about metallurgy,
+
+Kelly Schrank (04:12)
+that's like a whole different, you know.
+
+Ed Marsh (04:14)
+Like how did how did that happen? How did you get to work at a steel mill? Like that's not something you just walk into every day.
+
+Kelly Schrank (04:19)
+I didn't work at a steel mill, but I I worked at a company
+
+Kelly Schrank (04:22)
+that did training materials and
+
+Ed Marsh (04:24)
+Okay.
+
+Kelly Schrank (04:24)
+one of the clients was a steel mill and actually multiple steel mills. That was kind of like a business unit for them. And yeah, they also had the post office and they had some other kind of, you know, but it was all you know, manufacturing type,
+
+Ed Marsh (04:39)
+Okay.
+
+Kelly Schrank (04:40)
+you know, hard, hard work. People who do hard work, not sit at computers.
+
+Ed Marsh (04:45)
+Yeah, I can imagine. As
+
+Ed Marsh (04:47)
+someone who doesn't software, like, okay, steel mills and chemicals and medical, like I've done some device medical device documentation, but not to the extent that yeah, I'm sure you
+
+Kelly Schrank (04:54)
+Yeah, I've edited some stuff, yeah.
+
+Ed Marsh (04:57)
+have. So that's that's a heck of a background. Did you go to school for tech writing or
+
+Kelly Schrank (05:04)
+No, back then I had an English degree. Yeah, I had a minor in women's studies and creative writing. So not prepared for that at all. you know, but it was the job just said editor, and I was like, you know, I'd done some editing
+
+Ed Marsh (05:21)
+okay.
+
+Kelly Schrank (05:21)
+in college and stuff. I was like, okay, well, what is this? And so I was kind of they brought two of us on, like at a temp agency kind of situation, and the other one was editing the
+
+Kelly Schrank (05:32)
+SMEs like an English teacher would. And I was taking
+
+Ed Marsh (05:36)
+interesting.
+
+Kelly Schrank (05:37)
+more of a like a corporate kind of thought process to it, you know, just as as long as it could be understood. And how can we, you know, like more like a technical I didn't know what technical editing was at the time, but I was taking more I would just by my own brain, how my brain works. Like I was trying to make things more structured and you know, I was.
+
+Kelly Schrank (05:59)
+Yes, I know grammar and punctuation and all that, but it wasn't I wasn't trying to grade them like they were in school. Like I was just trying to help them make things clearer and easier for people to follow.
+
+Ed Marsh (06:16)
+Okay. Yeah, that makes a whole lot of sense. Yeah, I'm
+
+Kelly Schrank (06:17)
+That's interesting. Yeah.
+
+Ed Marsh (06:19)
+sure I've I mean, you've been through a diverse pling you've probably learned quite a few interesting and obscure things.
+
+Kelly Schrank (06:27)
+I mean, don't want all, being a technical
+
+Ed Marsh (06:28)
+Well f fair, fair.
+
+Kelly Schrank (06:30)
+writer, technical editor, being into medical editing, yeah, I mean I I've learned the the chemical detection devices was an interesting gig. they actually made little wipes that detect meth, like methamphetamines and stuff. And
+
+Ed Marsh (06:46)
+Okay, yeah. inter yeah.
+
+Kelly Schrank (06:49)
+so that was interesting to kind of get into the the the chemistry of of that kind of stuff and and how do they promote it and
+
+Kelly Schrank (06:56)
+Yeah, I went to a trade show once and they show they had like a space that looked like a meth lab, you know, like that you got to look at. And that was kind of interesting. Yeah.
+
+Ed Marsh (07:08)
+was that like breaking bad? Was it like breaking bad like in a basement or underneath So it wasn't the for breaking bad though then, right? No, okay. Okay.
+
+Kelly Schrank (07:13)
+It was way before breaking bad, but yeah. Way before that. Yeah, yeah. Way before breaking bad, but yes.
+
+Kelly Schrank (07:23)
+Similar situation. And no that's what it was for. Let's kinda find out. You know, you could if you were in a hotel room, you could do you'd use the little wipe on your
+
+Kelly Schrank (07:34)
+on your coffee machine, make sure nobody had made meth with the coffee machine or something, you know, like but the the CEO of the company was always coming up with these like
+
+Kelly Schrank (07:43)
+Scenarios. That's interesting.
+
+Ed Marsh (07:47)
+Yeah, that's some obscure things that most people won't experience in their career, Kelly.
+
+Kelly Schrank (07:51)
+Yeah. Yeah.
+
+Ed Marsh (07:54)
+So then how did you get into the medical world?
+
+Kelly Schrank (07:58)
+So funny because you know, I'd been a technical editor for for 15 years at that point. And I was looking for I'd I'd been laid off from the the chemical detection place. And I actually looked in the was looking in the newspaper. It was online, but it was still a newspaper ad for a job for an editor.
+
+Ed Marsh (08:17)
+No.
+
+Kelly Schrank (08:19)
+And that was how I ended up finding it. And and there, I think that they had never had a medical.
+
+Kelly Schrank (08:27)
+editor there before. They'd never had an editor in the medical information world with them. And so they saw that I'd done technical editing in a lot of places where there were no other technical editors. I was just kind of having to make my own
+
+Ed Marsh (08:41)
+Okay.
+
+Kelly Schrank (08:41)
+way and figure things out. I had to create a style guide if I wanted one. I had to, you know I was the only person and I was, you know, kind of that lone writer, only an editor kind of situation. And so they
+
+Ed Marsh (08:53)
+Yep.
+
+Kelly Schrank (08:53)
+knew I could start with nothing.
+
+Kelly Schrank (08:56)
+and get the job
+
+Ed Marsh (08:57)
+Hmm.
+
+Kelly Schrank (08:58)
+done. So that was I think why they brought me on.
+
+Ed Marsh (09:03)
+Okay. Yeah. Well, I mean, at least your career seems kind of consistent. Like you were English major and you weren't became an editor because you had an editor for you know, a position for an editor, and turns out you were pretty good at it, and then you became a medical editor. So that's that's a pretty cool c career progression. I mean, consistent, but but yeah, a lot. And like unfortunately
+
+Kelly Schrank (09:23)
+A lot a lot of different things.
+
+Ed Marsh (09:26)
+we don't have too many technical editors anymore. But I mean, I guess maybe we do in
+
+Ed Marsh (09:31)
+in medical and and then hardware or, you know, chemical detection. But we don't seem to have too many technical editors in the software world anymore.
+
+Kelly Schrank (09:42)
+No, that was something I would go to S S T C conferences and you could see that we were all kind of dwindling. How many people were
+
+Ed Marsh (09:49)
+Ooh yeah.
+
+Kelly Schrank (09:50)
+just editors versus would be a writer slash editor where they'd have to peer edit and they'd have to do other things like that. But in medical there's like there's just like a lot of details and there's a lot of
+
+Ed Marsh (10:03)
+Okay.
+
+Kelly Schrank (10:04)
+information you have to get right. I'm constantly checking.
+
+Kelly Schrank (10:09)
+content against the prescribing information to make sure that it's current with the most cur
+
+Ed Marsh (10:14)
+Okay.
+
+Kelly Schrank (10:15)
+that it's current with the most recent prescribing information. And so that kind of detail, being able to check like those little things, means there are actually a lot of editors in pharma.
+
+Ed Marsh (10:28)
+Okay. Yeah, I guess that makes sense. Cause especially with right you're you're such a highly regulated environment.
+
+Kelly Schrank (10:33)
+Yes.
+
+Ed Marsh (10:34)
+like I was in I was in I only had a six month contract for a medical device, but I learned a lot in that six months, you know, about like labeling and what labeling is and
+
+Kelly Schrank (10:41)
+Yes.
+
+Ed Marsh (10:43)
+you know, IFUs and everything, but obviously not to the extent that you have, but you've made at least over a fifteen year career out of that. How does have you been with the same company or how have you how have you how
+
+Kelly Schrank (10:55)
+No.
+
+Ed Marsh (10:55)
+have you made that longevity?
+
+Kelly Schrank (10:57)
+Yeah, the the first company that I started with, I was there for about eight years and then I got out of there and tried the freelancing and I I did some different things with with that. I've been where I am now for over four years. and I was actually
+
+Ed Marsh (11:14)
+Okay.
+
+Kelly Schrank (11:15)
+gonna keep freelancing and I was just I was at a the stage where I'm like, Okay, like do I freelance or do I find a job? But I needed, you know, some something substantial.
+
+Kelly Schrank (11:27)
+my financial picture. And so I was kind of looking
+
+Ed Marsh (11:29)
+Yep. Say yep.
+
+Kelly Schrank (11:30)
+for like, you know, either a a anchor client is what a lot of us call it. You know, somebody who brings in a good amount of your money, maybe you know, half the money you have coming in, or a job. And so I happen to find this job and it's it's actually worked out pretty well. It's pretty
+
+Kelly Schrank (11:51)
+it's not as stressful as most agency pharma agency jobs, so I
+
+Ed Marsh (11:55)
+Okay.
+
+Kelly Schrank (11:56)
+still have a little room for you know, freelancing and because I'm remote obviously I don't waste a lot of time commuting and yeah. So
+
+Ed Marsh (12:02)
+you are mod okay. Yeah, that's
+
+Ed Marsh (12:06)
+nice. I wasn't sure like, you know, big I wasn't sure if Oneida was like a or that area was was big on medical or st well, steel mills and chemicals, I guess.
+
+Kelly Schrank (12:13)
+No.
+
+Kelly Schrank (12:15)
+No, none of those actually. Those I was living in different places for all those. Yeah.
+
+Ed Marsh (12:17)
+no kidding. okay. Okay.
+
+Kelly Schrank (12:20)
+I've all yeah, I haven't been here all this time. So I mean I grew up here and then I went away and now I've come back, but you know, all those jobs I wasn't here.
+
+Ed Marsh (12:24)
+okay. So now I know. Gotcha. Okay.
+
+Ed Marsh (12:31)
+That makes a lot of sense. Okay. Well, that's I mean, still hell of a career. Yeah. Yeah.
+
+Kelly Schrank (12:33)
+Yeah. There's a little bit of pharma here, but nothing that I can do.
+
+Ed Marsh (12:38)
+Yeah, I can imagine. so in your bio or what I want to talk about is, and and you've kind of touched on this, but standard response letters, hundreds of slide decks, over 35 formulary dossiers.
+
+Ed Marsh (12:51)
+A handful of FAQs and over thirty manuscripts for journals. Now, how do you go fifteen years with a I want to start with this? How do you go fifteen years and only write a handful of FAQs? okay.
+
+Kelly Schrank (13:05)
+I'm not in techcom. You know, I'm more 'cause it's it's
+
+Kelly Schrank (13:08)
+it's a different it's a different thing altogether. Yeah. We we don't have very many F F AQs. And right now I I
+
+Ed Marsh (13:15)
+Thank goodness.
+
+Kelly Schrank (13:16)
+what I'm doing right now, we don't I never see anything like an FAQ. and this is a different area. Like when I was doing all the stuff that you just read off, that was when I was in medical information. And what they do in medical information is if a healthcare provider has a question
+
+Kelly Schrank (13:35)
+about a drug, they can call the drug company, there's a special number for the healthcare providers, and they could talk to a pharmacist. And the reason I've you know edited thousands of SRs, standard response letters, is because every time they ask a question, they are given a standard response that's been approved and goes through a process.
+
+Ed Marsh (13:54)
+Okay.
+
+Kelly Schrank (13:57)
+and so there's a lot of questions that people ask about all the different drugs and it was
+
+Kelly Schrank (14:02)
+It was a big pharma company, they had a lot of established drugs. so that was why there were thousands of those. there weren't there aren't that many formulary dossiers because each drug only needs one or two dossiers because it talks everything about that particular drug.
+
+Ed Marsh (14:21)
+Okay.
+
+Kelly Schrank (14:22)
+you know, a lot of the SRs are basically, you know, all that content is going into the dossier. So there's
+
+Kelly Schrank (14:29)
+We had one that was like three hundred pages. I mean, it can be like a really, you know, lengthy document. But at the time I was gonna go freelance and I thought that that would be my specialty. Like I knew all about the dossier the formulary dossier format and I thought it was you know, but
+
+Ed Marsh (14:46)
+Right.
+
+Kelly Schrank (14:46)
+but there's only so many of them. So there wasn't really a a lot of people that needed help with it. And even if they
+
+Kelly Schrank (14:54)
+did need help with it. They didn't know they needed help with it. They thought what they were doing
+
+Ed Marsh (14:57)
+Well, yeah.
+
+Kelly Schrank (14:58)
+was fine. So I couldn't make a thing of it. Yeah. So that was why
+
+Ed Marsh (15:00)
+So you definitely intact them then.
+
+Kelly Schrank (15:03)
+that said thirty five and the other one said thousands, you know, because it's you just don't need as many.
+
+Ed Marsh (15:10)
+So I mean, I have no idea what a formulary dossier is and it sounds like
+
+Kelly Schrank (15:14)
+Yeah.
+
+Ed Marsh (15:15)
+it's basically everything that you that a maybe a pharmacist or a doctor would want to know. Can you tell us a little bit more about that?
+
+Kelly Schrank (15:20)
+It's too much for yeah, it's not for the it's
+
+Kelly Schrank (15:22)
+it's actually for the people who decide what drugs go on your formulary at your insurance company. So if you have, you know, insurance,
+
+Ed Marsh (15:29)
+wow.
+
+Kelly Schrank (15:32)
+if you've ever looked at, you know, you know, should I if i you know, can I get this prescription instead of that prescription? Like maybe you want the brand name instead of the generic. it your formulary would tell you at what level that they're gonna cover it for you.
+
+Kelly Schrank (15:51)
+And they make the decisions on that based on these formulary dossiers. And some negotiations between companies and and the between the insurance
+
+Ed Marsh (15:59)
+Hmm. Hmm.
+
+Kelly Schrank (16:01)
+companies and the pharma companies. And one of the things in the dossiers that's different than what's in the standard responses is where they say, well, if you had a population and they all had, you know, high blood pressure and they needed to take this drug, our drug would, you know, be cheaper than this drug, or they would get better.
+
+Kelly Schrank (16:21)
+outcomes with our drug than with one of our competitors' drugs. So it just it goes through and compares itself to all the other drugs that are out there that do the same thing and tries to convince the insurance companies and the big hospital systems to put their drug on the formulary as opposed to other people's drugs.
+
+Ed Marsh (16:43)
+No well, I I mean it scratches the the surface, I'm sure. it it it makes things more clear, but it you know, it's it's clear as mud, I guess, is what you say. Like it makes a whole lot of sense,
+
+Kelly Schrank (16:52)
+It's still a lot, yeah.
+
+Ed Marsh (16:54)
+but there yeah, there's still a lot in main, you know, the the the the politics of it all. Yeah. Yeah.
+
+Kelly Schrank (16:56)
+Yeah. Again it's like this little thing that I
+
+Kelly Schrank (16:59)
+work on, like it's like so specific.
+
+Ed Marsh (17:03)
+I mean, that's the thing. I mean, we all do illistal specific things and you're part of the bigger piece of the puzzle. So it's interesting to learn about the bigger piece of the puzzle and you know, what this is means and you know, what our insurance company is seeing and what they're negotiating. so I find that interesting, especially as someone who has had drugs well who had drugs no, that's not what I wanna say, Kelly.
+
+Ed Marsh (17:31)
+You know, who've ha I I've had medications refused, I guess, because of a med a formulary dossier. So now I understand why.
+
+Kelly Schrank (17:39)
+Yeah, your formulary probably had it on tier five instead of tier one and you want it you know, you it needs to be on tier one for them to cover it. Something like that. Yeah.
+
+Ed Marsh (17:49)
+So I mean, as technical communicators and medical and editors, you know, what I'm hearing is there's a lot of repetition with your with your standard response letters and probably with this formulary stuff as well. Like, is there like what tools are you using to create this stuff or what are the writers using to create this stuff? And is it like anything near structured authoring or is it just kind of word and Wild West?
+
+Kelly Schrank (18:14)
+Well, I think where I am right now is they're basically creative agencies. So they're using InDesign and
+
+Ed Marsh (18:23)
+Mm.
+
+Kelly Schrank (18:23)
+we're proofing and editing things in Acrobat. So there's
+
+Ed Marsh (18:28)
+Okay.
+
+Kelly Schrank (18:29)
+none of that. we do use Promo Mats, Viva Vault Promomats if you've heard of Vault before, that's it's a pretty big company that in the pharma industry especially.
+
+Kelly Schrank (18:43)
+that but it's only a document management system. it allows you
+
+Ed Marsh (18:47)
+Okay. Hmm.
+
+Kelly Schrank (18:48)
+to do reviews and approvals, you know, the medical legal regulatory review that all all documents need to go through in a pharma company are it takes place in Promo Mats. And then in this particular job, I not only proof and edit things before they go into the medical legal regulatory regulatory review.
+
+Kelly Schrank (19:12)
+But I also anchor them, which means I anchor within Promo Mats the content to its reference to the the data that supports it. and that's
+
+Ed Marsh (19:23)
+Okay,
+
+Kelly Schrank (19:24)
+a a very technical thing. And there are s a lot, you know, I've met some medical editors that they don't do that in their jobs. which my technical background is helpful. You know, I'm good
+
+Ed Marsh (19:35)
+Yeah, I can yeah, I can imagine.
+
+Kelly Schrank (19:36)
+I'm good with software, I'm good with systems. So that was
+
+Kelly Schrank (19:41)
+One way I got into the job that I'm in right now, I think, is because I know how to manage these kind of systems. And I'd use Promo Mats before at a previous not yeah, a previous job. So
+
+Ed Marsh (19:52)
+Now Robert's using I mean again, I was only six months at a medical device company, but we were using Polarion or is that Tech's case? Do you know of Polarion? No. And there was something else
+
+Kelly Schrank (20:01)
+No, I haven't heard that one.
+
+Ed Marsh (20:02)
+that had I mean a s and s similar I think similar system as to what you were talking about. Yeah, review cycle and publishing
+
+Kelly Schrank (20:06)
+Yeah, for the review cycle. Yeah.
+
+Ed Marsh (20:09)
+and all that kind of stuff and very highly regulated, but you know.
+
+Kelly Schrank (20:13)
+Yeah. Well and in
+
+Kelly Schrank (20:14)
+e medical devices are not even as highly regulated as pharmaceutical drugs. They they have a little more they're a little more loosey
+
+Ed Marsh (20:22)
+I'm so sorry.
+
+Kelly Schrank (20:24)
+goosey than, you know, the stuff that I've worked with.
+
+Ed Marsh (20:27)
+Really?
+
+Kelly Schrank (20:28)
+Yeah, I mean you think it's like, whoa, but like I'm in like it's like even more.
+
+Ed Marsh (20:34)
+Okay.
+
+Kelly Schrank (20:35)
+d I think just because it's more established
+
+Kelly Schrank (20:38)
+And so the FDA
+
+Ed Marsh (20:38)
+Yeah.
+
+Kelly Schrank (20:39)
+has had it had a chance to put its little hands everywhere and and kind of make make us have to have like these really, really tight systems for things. but I was
+
+Ed Marsh (20:50)
+So what are the ch Go ahead.
+
+Kelly Schrank (20:52)
+I was gonna ask I was gonna ask answer the rest of the question there. because you because which you said something in the email about Word, a PowerPoint, you know,
+
+Ed Marsh (21:00)
+Mm-hmm.
+
+Kelly Schrank (21:01)
+and when I was in the medical information side, the standard responses were in Word.
+
+Kelly Schrank (21:05)
+Because they were very simple documents. They didn't have any formatting. and the people that who were who were writing them were standard were SMEs, subject matter experts. They were
+
+Ed Marsh (21:14)
+Mm-hmm. Mm-hmm.
+
+Kelly Schrank (21:16)
+pharmacists. They were pharm Ds were writing the standard response
+
+Ed Marsh (21:19)
+Okay.
+
+Kelly Schrank (21:20)
+letters. So they're not so always so great. They're not always so great
+
+Kelly Schrank (21:25)
+with software and fa you know, fancy kind of software and stuff. They're not writers
+
+Ed Marsh (21:28)
+Yeah.
+
+Kelly Schrank (21:29)
+so much. You know, they're they're they were hired for their.
+
+Kelly Schrank (21:34)
+you know, pharmaceutical experience, their Pharm D. so they it worked in PowerPoint a lot. They worked in Word. So just to answer again.
+
+Ed Marsh (21:43)
+I mean it sounds yeah.
+
+Kelly Schrank (21:45)
+And that was, you know, that was fifteen years ago, 10 years ago. I mean, it was I think some of them might it might depend on which big pharma you're with, whether they have systems
+
+Ed Marsh (21:57)
+Mm-hmm.
+
+Kelly Schrank (21:58)
+like you're talking, you know, that you're thinking, you know, comp component content management systems and things like that.
+
+Kelly Schrank (22:04)
+I haven't experienced that that much. Like when I was at a contract at a big pharma company, they were trying to bring in Docuvera. and they were struggling. And I left and took this job
+
+Ed Marsh (22:22)
+nice.
+
+Kelly Schrank (22:24)
+because I I wasn't sure how successful they were gonna be. but I I hope they were. I I I hope it all went well. But
+
+Kelly Schrank (22:34)
+Yeah. So just to answer your you know, your software questions or more fully.
+
+Ed Marsh (22:39)
+No, that makes sense. And
+
+Ed Marsh (22:41)
+it's inter I mean, the medical device company that I was working with was going from Word and InDesign to a C CMS. So it sounds like it's an area ripe for structure and ripe for component content management system, but I'm guessing there's probably not much of an appetite for that in that world.
+
+Kelly Schrank (22:59)
+It's it's more difficult. Yeah. You know, and it I'm the whole a I'm not sure how the whole AI thing is gonna go. I I
+
+Ed Marsh (23:07)
+Yeah.
+
+Kelly Schrank (23:08)
+you know, haven't had a lot of fun with that yet. we were told that where I am now that there's a tool we can use that'll help us a little bit, but I haven't haven't really got to play with it yet.
+
+Ed Marsh (23:24)
+Okay. I mean that okay, well that checks off that question because it seems like since I rebooted my podcast, every everything is about AI. So you know what? You haven't touched
+
+Kelly Schrank (23:31)
+It really is.
+
+Ed Marsh (23:32)
+it yet, and I agree. Like I wasn't you know, with with my contract position, I was helping migrate to the C CMS. Like there was no AI. It was no it was, you know, it was just here you convert it and you use oxygen and you use Word and you use whatever tools we have, but there was definitely no AI and it was kind of refreshing actually.
+
+Kelly Schrank (23:52)
+Yeah. I am I am coming upon it with some freelance work though, and it's it's burned me
+
+Ed Marsh (23:57)
+Yeah.
+
+Kelly Schrank (23:58)
+a little bit.
+
+Kelly Schrank (24:01)
+Had do you wanna hear the story? Okay.
+
+Ed Marsh (24:01)
+Yes. of course I do. But
+
+Ed Marsh (24:05)
+this is all about
+
+Kelly Schrank (24:07)
+So I was asked to write an article for a medical journal. not a med I don't want to say journal, it's it's more of a magazine, it's for physicians, it's a physician's magazine.
+
+Ed Marsh (24:17)
+Okay.
+
+Kelly Schrank (24:19)
+And the guy he thought he would help me by having copilot kind of get an outline
+
+Kelly Schrank (24:28)
+together and co pilot prov provided some references and none of them were real.
+
+Ed Marsh (24:36)
+no no
+
+Kelly Schrank (24:38)
+some of them had like slivers of truth. They might have the authors, 'cause maybe those authors talk about things like what we're talking about. but the title would be d sometimes it would be totally made up. Like and I would ask it. I I would you know, in my own, I'm like looking for it and of course the AI summary and in Chrome is saying, well, what are you looking for? And I'm like
+
+Kelly Schrank (25:06)
+This I want to find this. And
+
+Ed Marsh (25:08)
+Yeah.
+
+Kelly Schrank (25:09)
+it's like I I think it was fabricated. AI told me it was fabricated. Because it was just it was just such a nightmare. So don't trust it.
+
+Ed Marsh (25:21)
+Yeah.
+
+Kelly Schrank (25:22)
+'Cause it it basically it would take an author, it would take a journal, it would it would make up a title that sounds like what you want it to be. I was able to find things that were similar by different people or with different titles or you know, but I don't know if it was more work to try to play around with what I was given and try to make it into something,
+
+Ed Marsh (25:46)
+Right.
+
+Kelly Schrank (25:47)
+or if I should have started some from scratch.
+
+Ed Marsh (25:49)
+Yeah.
+
+Kelly Schrank (25:50)
+You know, and now that I'm in
+
+Kelly Schrank (25:52)
+Trying to rewrite it and then I'm also trying because he gave me some kind of, you know, start of a draft, and now I'm trying to find the references that support the you know, the points that he wants to make, and I can't always make them, you know, and so I'm rewriting and it's just like this complicated. It just made it like really complicated.
+
+Ed Marsh (26:14)
+Yeah, yeah.
+
+Ed Marsh (26:15)
+A a lot of back and f unnecessary back and forth, it sounds like.
+
+Kelly Schrank (26:18)
+Yeah. And then I had and in the same week I had another client who had submitted an article to a journal, a medical journal, and had it unsubmitted, they didn't say rejected, but unsubmitted because it had too much AI. Like they could tell that they had you they
+
+Ed Marsh (26:41)
+Too much, AI.
+
+Kelly Schrank (26:42)
+had used AI to a percentage that was more than the journal would allow.
+
+Kelly Schrank (26:48)
+And sent it back to us. And then I was like, So did you guys use it? And she goes, Well, yeah, I'm English is a second language. So I was trying
+
+Ed Marsh (26:56)
+Yeah. yeah, okay.
+
+Kelly Schrank (26:59)
+to get it to smooth things out for me and this and that. And the worst thing, what's burning me as as a professional, is that I didn't reali I didn't see it. Like it wasn't
+
+Ed Marsh (27:11)
+Because how would you know?
+
+Kelly Schrank (27:12)
+you know, but sometimes the thing that it the the other
+
+Kelly Schrank (27:17)
+story I told you, I could tell. Like he didn't tell me he used AI. And I was like, he
+
+Ed Marsh (27:20)
+Yeah. But you could tell.
+
+Kelly Schrank (27:23)
+he used AI. Like I could tell by the way it was written. But hers I couldn't. And I was just like, this I don't know you know. So it really makes you like, what am I doing like with my life and what and how are how is this gonna work going forward?
+
+Ed Marsh (27:40)
+Yeah, I've been working a lot with local LLMs and having it build resumes and this, that, and the other thing and and vibe code and stuff. But you see, and I've talked about this pretty much every episode because it screwed me so many times, even just with my personal stuff, that I'm like, well, yeah, I can kind of trust this, but I know how wrong it can be because I'm running it from like bare metal. So, you know, and I've heard of like there were lawsuits or, you know.
+
+Ed Marsh (28:08)
+criminal cases or whatever that like they lawyers used AI to to cite things cases that didn't actually exist. And it's just that's what frightens me about this stuff. Like between medical and lawyer Yeah, yeah, exactly. I can see
+
+Kelly Schrank (28:18)
+Yeah. I could totally see that. After what I just after last week for
+
+Kelly Schrank (28:24)
+me, I could totally see when that happens. Yeah.
+
+Ed Marsh (28:28)
+Okay, well now I understand we why we've sched rescheduled a few times.
+
+Kelly Schrank (28:33)
+Yeah, that was yeah. Work work has been really busy, so
+
+Ed Marsh (28:39)
+Is it good busy or just like crazy busy? Or good?
+
+Kelly Schrank (28:42)
+It was cra there
+
+Kelly Schrank (28:43)
+was about six weeks there. We had a couple of label updates and so it was just it we had someone start on a new team at the same time as we had a safety safety label update and then we had another label update and we had another label. They just kept like compounding upon themselves and it's just it was just six weeks of a lot of just just starting early and leaving late
+
+Kelly Schrank (29:09)
+and
+
+Kelly Schrank (29:10)
+You know, j and and that's not normally what working for the agency that I work for, it's not normally like that. It's normally a nice
+
+Ed Marsh (29:15)
+Okay. Okay.
+
+Kelly Schrank (29:17)
+a nice I don't want to say relaxing, it's always stressful, but like I
+
+Ed Marsh (29:22)
+Yeah, yeah, right. Yeah.
+
+Kelly Schrank (29:23)
+enjoy work so I don't you know, but it's like a normal day and it was not normal for like six weeks and I was just really stressed out. But
+
+Ed Marsh (29:30)
+Yep, I get it. Yeah. Like, you know, I
+
+Ed Marsh (29:33)
+was consul you know, when I was consulting for the medical device companies, like there were you know, I was working eight hours a day, but a lot of those eight hour days were harder than other days. So so I get it. Like
+
+Kelly Schrank (29:43)
+Yeah. Yeah, it was it was
+
+Kelly Schrank (29:45)
+a full i if it was only an eight hour day, it was f every moment was full. But
+
+Ed Marsh (29:50)
+Yep.
+
+Kelly Schrank (29:51)
+a lot of times it would be a ten hour day or a twelve hour day and that was and just over and over and it it's like, and you're from the northeast. It's summer. I wanna go outside. Right? I mean today
+
+Ed Marsh (30:04)
+Yeah, yeah.
+
+Kelly Schrank (30:05)
+it's kinda rainy, so I you know, I don't mind it today, but like other, you know, there were a lot of nice days where I was like
+
+Kelly Schrank (30:12)
+My mom's pool's calling to me and
+
+Kelly Schrank (30:16)
+I have a new screened porch at my house and I just wanted to enjoy summer, you know. So
+
+Ed Marsh (30:24)
+Yeah, I get it. I totally get it. so one of the things I mean, you're I want to talk about one of your credentials, and I want to know how you become a certified editor in the life sciences from the board of editors in life sciences. Like, first of all, what the hell does that mean? And second of all, how do you become certified with something like that?
+
+Kelly Schrank (30:48)
+Yeah, I mean you do things like I do. you know, especially the manuscript
+
+Ed Marsh (30:54)
+Okay.
+
+Kelly Schrank (30:55)
+editing. It's it's it's a lot of manuscript editors. People who edit articles for scientific and medical journals are are a lot of times who gets the ELS certificate. But it's basically a test. you
+
+Ed Marsh (31:10)
+Okay.
+
+Kelly Schrank (31:10)
+you just take a test and you get you pass, or maybe you take it again and then you pass.
+
+Ed Marsh (31:19)
+Okay.
+
+Kelly Schrank (31:19)
+And you get it. you have to have a certain number of ex years of experience before you apply for it. and it's not I mean I used AMA manual of style all day in medical editing,
+
+Ed Marsh (31:35)
+Okay.
+
+Kelly Schrank (31:36)
+but it's not specific to a style guide because a lot of people use the Council of Science editors style guide, some
+
+Ed Marsh (31:42)
+Okay.
+
+Kelly Schrank (31:42)
+people use AP, some people use Chicago.
+
+Kelly Schrank (31:48)
+But so it's not specific to a style guide, but it's the kind of scenarios that you might find because it's multiple choice. So it's the kind of scenarios you might find as a manuscript
+
+Ed Marsh (31:57)
+Okay. Mm-hmm.
+
+Kelly Schrank (31:59)
+editor and what would you do and you know it could be ethics or it could be punctuation, it could be grammar, it could be, you know, just clarity kind of things. So you just take a test and then you can become a member of Bell's and they have
+
+Kelly Schrank (32:16)
+Little events and things and you can hang out with other editors.
+
+Ed Marsh (32:20)
+Okay. Now
+
+Ed Marsh (32:22)
+how I mean it, you know, with certification, we had STC certification, which unfortunately you know, is is no longer. but there's always been like a numerous amount of certifications that you can get as a technical writer. Now, is there a numerous technical communication?
+
+Kelly Schrank (32:36)
+No.
+
+Ed Marsh (32:38)
+Okay, so it's pretty much just this one.
+
+Kelly Schrank (32:40)
+Yeah, I mean it somebody okay, so in the US I would say it's kinda the I as far I think it's the only game in town. but
+
+Ed Marsh (32:50)
+Okay, okay. Which makes it easier.
+
+Kelly Schrank (32:53)
+Editors Canada does have their own things. I'm not up to date with it. So, you know, they they
+
+Ed Marsh (33:02)
+Fair, okay.
+
+Kelly Schrank (33:03)
+do have some and then there's also the Chartered Institute of Editorial
+
+Kelly Schrank (33:09)
+Professional? Something like that. C I E P and they're in Europe.
+
+Ed Marsh (33:14)
+Okay.
+
+Kelly Schrank (33:15)
+So they have and I've heard they have a very robust program and they move you up through the ranks of different levels of editors and stuff.
+
+Ed Marsh (33:22)
+okay, interesting. Okay.
+
+Kelly Schrank (33:24)
+Like there's a whole thing to it. But again, I'm a I'm US based and I haven't really gone through either one of those. So
+
+Ed Marsh (33:34)
+Yeah, I've the the medical device company I worked for kind of cursed the Canadian regulations pretty frequently 'cause they seem to be much more strict than the than the US ones.
+
+Kelly Schrank (33:45)
+interesting. Yeah. And I know the the European is is different, you know, so it's like you try to get things ready
+
+Ed Marsh (33:52)
+Different.
+
+Kelly Schrank (33:53)
+for FDA and you get r things ready for Europe and it's a whole different I think they ask for different things and I work on some global jobs at work and from my perspective they're chaos, but maybe.
+
+Kelly Schrank (34:10)
+Maybe they're strict over there.
+
+Ed Marsh (34:12)
+Okay, so since you're talking about chaos, let's
+
+Kelly Schrank (34:14)
+Ha
+
+Ed Marsh (34:15)
+talk about clarity by design, comprehensive checklists and medical communication. And again, I see your purple cover in the background, which pops nicely with your you know, your gray background there. I'm like, Okay, well, this is well staged, Kelly. So
+
+Kelly Schrank (34:30)
+Thank you. Yeah. Yeah. So, you know, I was a technical editor for a long time, and then I got into medical editing, and it was a lot. There's a lot to
+
+Ed Marsh (34:41)
+Yeah.
+
+Kelly Schrank (34:42)
+remember. There's a lot to do. it just seemed you know, a lot stricter about things. There was more consequences if you, you know, didn't follow.
+
+Ed Marsh (34:53)
+Mm.
+
+Kelly Schrank (34:55)
+you know, f styles, if you didn't spell out abbreviations, if you
+
+Ed Marsh (34:59)
+Okay.
+
+Kelly Schrank (35:00)
+if you if you didn't you know and like I've used a lot of systems, you know, that I'm putting documents into and things. And so what I ended up coming up with w are what I call comprehensive checklists. And they they bring in elements of like style sheets that some people might have.
+
+Ed Marsh (35:24)
+Okay.
+
+Kelly Schrank (35:24)
+get formatting options, they ha you know, it would have for any put in I also try to be very specific to a task. So you would have a comprehensive checklist for a specific task so that you could put in
+
+Ed Marsh (35:39)
+Make sense.
+
+Kelly Schrank (35:40)
+very detailed instructions if you needed it for how to do it. And I have you know how to do whatever the task is. because I find a lot of times it's
+
+Kelly Schrank (35:53)
+There's systems that I have to work in that have all these little fiddly things that you need to keep track of. even in my freelance work, it's like, well, what does this client want? How do they want
+
+Ed Marsh (36:03)
+Mm-hmm.
+
+Kelly Schrank (36:04)
+it? You know, I can put all these kind of little details into the checklist. And when I get done with it, I test it and I go through it again and make sure that it's really efficient for what I do. And this is kind of where the tech writer part of me comes in.
+
+Ed Marsh (36:20)
+Mm-hmm, mm-hmm, mm-hmm.
+
+Kelly Schrank (36:21)
+is just putting
+
+Ed Marsh (36:21)
+Yep.
+
+Kelly Schrank (36:22)
+all this structure into how I do a task in order to be more efficient
+
+Ed Marsh (36:25)
+Yeah.
+
+Kelly Schrank (36:26)
+So it it it all kind of started because in two thousand ten was when I became a medical editor. And in two thousand
+
+Ed Marsh (36:34)
+Okay.
+
+Kelly Schrank (36:35)
+ten I went to the American Medical Writers Association, which is kind of my new home, especially with STC being gone.
+
+Ed Marsh (36:43)
+I see okay. Yeah.
+
+Kelly Schrank (36:44)
+you know, I s I I go to the con I usually almost always go to the national conference, sometimes I go to regional conferences with these peop you know, with the with the AMWA people and
+
+Kelly Schrank (36:56)
+In two thousand eleven I went and I did a round table on
+
+Kelly Schrank (37:00)
+checklists. And I didn't know what I was I mean, I was a new medical editor and I I
+
+Ed Marsh (37:05)
+Right.
+
+Kelly Schrank (37:06)
+was just I'd wanted to talk to other people about it. And I had some things to say and I did a little bit of research, but like I wanted to see w was so new to me and like what you know, it was and that was the start of it.
+
+Ed Marsh (37:16)
+Well, it makes sense. It's a round table. Yeah, that's cool.
+
+Kelly Schrank (37:18)
+Yeah, so I talked to other people and found out why they use checklists, who doesn't use you know, and just at that point I wasn't
+
+Kelly Schrank (37:26)
+evangelist like I am now, you know. Then I
+
+Ed Marsh (37:28)
+Ha ha ha
+
+Kelly Schrank (37:29)
+was just like trying to figure it out, you know. but now I've gotten to the you know, point obviously where I try to convince everybody, but
+
+Kelly Schrank (37:39)
+You know.
+
+Ed Marsh (37:39)
+So convince us.
+
+Kelly Schrank (37:42)
+I just I just think that knowing, you know, what you're gonna do when you sit down and that you have a process that's efficient, that it has all the details you need, it just I feel like it transforms your work day. It just it just makes work
+
+Ed Marsh (38:01)
+Mm-hmm.
+
+Kelly Schrank (38:02)
+so much easier because when I sit down to do a task, I know exactly what I'm gonna do. I know the first thing to do, I don't have to think about it.
+
+Kelly Schrank (38:10)
+And when I'm done, I know that I've done everything I want to do because I've checked everything off on my checklist. And it just gives me that peace of mind to know that I've done everything I want to do
+
+Ed Marsh (38:24)
+Right.
+
+Kelly Schrank (38:24)
+and I've done it as quickly but as thoroughly as I can. yeah. So
+
+Ed Marsh (38:34)
+Now, I mean, and it totally makes sense. And as a tech writer, you know, we we thrive on structure, you know, and and and reuse. So, you know, I mean, it makes a whole hell of a lot of sense. so how do you like what happens? You know, you've got your checklist and you've got a whole book on it, but like what happens if something throws your checklist off? Like someone throws on a meeting or something goes south, or you know.
+
+Ed Marsh (39:01)
+Like labeling just all of a sudden says, crap, we have to make another change here. Like what happens when the checklist goes wrong? Or does it
+
+Kelly Schrank (39:08)
+Well I
+
+Ed Marsh (39:09)
+or or things break up the checklist, not the checklist goes wrong, I should clarify.
+
+Kelly Schrank (39:14)
+mean I'm constantly updating the checklists that I have.
+
+Ed Marsh (39:17)
+Okay. Okay.
+
+Kelly Schrank (39:18)
+So it's you know, and I'm I'm and I just I use them I create in Word, I just print out on paper.
+
+Ed Marsh (39:25)
+Okay.
+
+Kelly Schrank (39:26)
+I like that I like to check it off, you know,
+
+Ed Marsh (39:29)
+Yeah.
+
+Kelly Schrank (39:29)
+it feels really good. and it also if things do if I do get interrupted, I know where I was because I checked off this, I checked off that,
+
+Ed Marsh (39:37)
+You checked it off.
+
+Kelly Schrank (39:38)
+and then I'm like,
+
+Kelly Schrank (39:39)
+Okay, I have to switch gears, do something else. I come back, I know exactly where I was. Especially if you make it detailed enough. You know, if it's if it really is step by step of what you have to do with a task, then you can really walk away and come back to it and know where it is. Your brain and your brain loves this kind of stuff. You know, your brain loves to be able like, I have this task. I I gotta do this first. I gotta do this next. Like it just I mean.
+
+Kelly Schrank (40:09)
+It may not work for everybody's brains, but
+
+Ed Marsh (40:11)
+Mm-hmm.
+
+Kelly Schrank (40:11)
+I talk to a lot of people and it works for a lot of people's brains. So
+
+Ed Marsh (40:17)
+So so can you give us an example of like the level of a detail for something that would be on your checklist?
+
+Kelly Schrank (40:26)
+Yeah, I mean, for instance, I have something that I call that that we I mean, what I do is called the check changes. That means that the designers have made a change to InDesign and they've given you a new proof. And so I'm looking at the proof against what I told them the changes that they needed to make. And so I would say something like, you know, I'm gonna open up both ac both PDFs.
+
+Kelly Schrank (40:55)
+Check. I'm you know, I'm gonna check that all the changes were made, check, I have to put my reviewed stamp on it, check. I may
+
+Ed Marsh (41:07)
+Okay.
+
+Kelly Schrank (41:07)
+have things like, you know, make sure that the PI hasn't changed, check. I might have, you know, other systematic things. I mean, I try to make it kind of every step in the process. It especially works well, I think, for editors.
+
+Kelly Schrank (41:24)
+I do do it for writing tasks, I do do it for business tasks, but I do find especially that it's helpful for editing tasks because there just are a lot of things that we have to check. Like I have some little notes on there about like, make sure these little style things are are right or wrong. And I I like to show what want to see. So if I'm saying like
+
+Kelly Schrank (41:49)
+You know, in this in this term it needs to be spelled like this. I'm gonna show you exactly how it should be spelled. I'm not just gonna say I'm
+
+Ed Marsh (41:55)
+Yeah, okay.
+
+Kelly Schrank (41:56)
+not gonna say, make sure the terms are spelled correctly. Or my something that I say in in my
+
+Ed Marsh (42:00)
+okay. So you get that detailed. Okay. Wow.
+
+Kelly Schrank (42:03)
+in my trainings is I always say like I don't s I don't ever say check the headings. Like 'cause that's not helpful to me because I
+
+Ed Marsh (42:09)
+That's too vague, yeah.
+
+Kelly Schrank (42:10)
+have I have a lot of you know
+
+Kelly Schrank (42:12)
+Especially when I'm freelancing, I've got a lot of different clients, they all have different things.
+
+Ed Marsh (42:15)
+Mm-hmm.
+
+Kelly Schrank (42:16)
+Like I don't want to look at the style guide to know what it is. I just put the kind of things that I have
+
+Ed Marsh (42:23)
+Okay.
+
+Kelly Schrank (42:23)
+to check regularly on the checklist. I try to put and it's still it's just a page, two page, maybe three, if it's if it's a really involved task.
+
+Ed Marsh (42:34)
+Okay.
+
+Kelly Schrank (42:35)
+you know, but I just find that that level of detail, I'm not having to open a style guide and open
+
+Kelly Schrank (42:41)
+you know, look at the templates and look at this and look at the you know, I'm not
+
+Ed Marsh (42:44)
+Mm.
+
+Kelly Schrank (42:45)
+I'm trying to put everything in one place for that particular task, which if you make the checklist specific to a task, that doesn't end up being that overwhelming.
+
+Ed Marsh (42:57)
+Right. So that's your kind of your single source of truth, is your checklist. Uhhuh. That makes a whole lot of sense.
+
+Kelly Schrank (43:00)
+Yes, for that task. And I'll have a in even
+
+Kelly Schrank (43:04)
+the tasks, like I have different even in this job, I have different brands as we call different kind of products, different products. And sometimes
+
+Ed Marsh (43:12)
+Mm-hmm.
+
+Kelly Schrank (43:13)
+they have different checklists because they do things differently in the different brands. So I have a lot of I have like
+
+Ed Marsh (43:19)
+So you've got a whole completely flexible
+
+Kelly Schrank (43:21)
+fifteen checklists or something. Yeah. For this job. Yeah.
+
+Ed Marsh (43:24)
+only fifteen, huh?
+
+Kelly Schrank (43:28)
+Yeah.
+
+Kelly Schrank (43:29)
+What's it?
+
+Ed Marsh (43:29)
+Well that's I mean,
+
+Ed Marsh (43:30)
+that's kinda cool. I mean I would think that, you know, with checklists you would have you know, I mean, I assume there's a ton of variations on those fifteen I like templates, I guess. Is that what you how we look at
+
+Kelly Schrank (43:40)
+Yeah, although yeah. You could you could call that a t a template for sure.
+
+Ed Marsh (43:44)
+Hmm.
+
+Ed Marsh (43:46)
+And I it sounds like I mean it sounds you I mean you're doing this in Word and printing it out and checking it off, which is cool. Like makes total sense, but I it sounds like this is something that is would be more or less tool agnostic. So you could do this in one note, you
+
+Kelly Schrank (43:58)
+Yeah, for sure. And I I
+
+Ed Marsh (44:00)
+can do this in whatever.
+
+Kelly Schrank (44:01)
+I do talk to people. Some people like to use Excel, which Excel makes me a little crazy, but if
+
+Kelly Schrank (44:07)
+if that helps you, then that's fine. I have used OneNote for for some check
+
+Ed Marsh (44:13)
+Mm-hmm.
+
+Kelly Schrank (44:14)
+it does have a checklist function in there if there's things that you know I am checklisting in in OneNote if I'm already in there for other things. I know that
+
+Kelly Schrank (44:25)
+Yeah, like Trello has a checklist function.
+
+Ed Marsh (44:27)
+Okay.
+
+Kelly Schrank (44:27)
+There's some other you know, some other software that has checklist functions that you could use. Some I have had I I am all about paper, but I have had people tell me that they don't use paper and they have very good reasons because you could spill things on the checklist or you could lose
+
+Kelly Schrank (44:45)
+the checklist or you you know, it's like, okay, that's you know, I respect that. You've got your reasons. I mean if you have enough screens, you could
+
+Kelly Schrank (44:54)
+It it probably you probably still get that sense of satisfaction, you know, clicking the little checklist button and you know, keeping keeping it all electronic. That's fine. You know, I'm not I'm not gonna judge about that, you know. I want you to use checklists, but I I don't care how. You know, I'm gonna help you try to make
+
+Ed Marsh (45:13)
+Right. So this is even
+
+Kelly Schrank (45:14)
+the best, you know, that you can, but I'm not gonna be too picky about how.
+
+Ed Marsh (45:19)
+Right, but this could even be something that, you know, and it's checklists, so it can even be conceivably used in something like Jira and it's just like you customize it for your team or the way that you work kind of thing. So you can fold this pretty much anywhere, it sounds like.
+
+Kelly Schrank (45:34)
+Yeah, I think so. And you know, when I when I was at that in initial medical editing job, we did end up growing the team. Like if initially I was the only person and then there were four of us, I think. And we did work together on checklists, which I think is a really good exercise. So we were all using
+
+Ed Marsh (45:50)
+Okay, cool. Ooh, yeah.
+
+Kelly Schrank (45:52)
+the same checklist and being consistent in what we were catching. And the exercise of making us work on the checklist together actually brought up some things that
+
+Kelly Schrank (46:03)
+People had never thought to mention, they had little tips and tricks that they just they just assumed
+
+Ed Marsh (46:08)
+That's so cool.
+
+Kelly Schrank (46:09)
+everybody had done you know, everybody did that that way. And then next thing you know, we're all more efficient because we've, you know, worked on these checklists together and then
+
+Ed Marsh (46:18)
+Nice.
+
+Kelly Schrank (46:19)
+of course we're more consistent 'cause we were all editing the same kind of things.
+
+Ed Marsh (46:24)
+So then you can check off building a checklist community.
+
+Kelly Schrank (46:28)
+I guess. Yeah. I do have some community. I mean the book does have interviews with checklist specialists, other people who are as excited about checklists as I am, so
+
+Ed Marsh (46:42)
+wow. Okay. Well, then we have to check this out so that way we can see who the checklick checklist experts are and follow them on LinkedIn, besides Kelly.
+
+Kelly Schrank (46:50)
+Right.
+
+Ed Marsh (46:52)
+so you know, we touched about AI, and I was I found when I was doing my research for you, something from the AAI AIIP connections blog, written by well, it doesn't have the byline right here. but I'm seeing since we talked about AI.
+
+Ed Marsh (47:11)
+this review is kind of of your book of your your webinar. is Kelly touched on AI's role in all of this with appropriate nuance. AI may eventually help users build comprehensive checklists by capturing tasks as they happened, but she is clear that AI should collaborate with us, not take over. So can you talk a little bit more about that and what that means?
+
+Kelly Schrank (47:34)
+Yeah, I mean I do have one contact who was wanting to have a checklist for a particular task that she does. And she actually asked Claude to help her create the checklist. And so she talked with Claude about some of the you know what she needed to do, and it kind of gave her a start, and then she you know, she prompted at some other things that she needed, and so
+
+Kelly Schrank (48:02)
+At the end she ended up with a checklist with that after you know her little back and forth with Claude. You know.
+
+Ed Marsh (48:09)
+Hm yeah.
+
+Kelly Schrank (48:12)
+so I mean that's one way to do a lot of people, you know, we're writers, right? We're scared of the blank page, like we don't know how to get started.
+
+Ed Marsh (48:20)
+Yeah.
+
+Kelly Schrank (48:22)
+And so that was her way to kind of get over that and and and you know, kind of,
+
+Ed Marsh (48:26)
+Enter okay.
+
+Kelly Schrank (48:27)
+you know, leapfrog over
+
+Kelly Schrank (48:29)
+The blank page, you know, the the fear of the blank page. And then also, I mean, I have examples on my website. There's examples in the book. but she had a a different
+
+Ed Marsh (48:38)
+Okay.
+
+Kelly Schrank (48:39)
+kind of task that's not in there yet. But I think I'm gonna
+
+Ed Marsh (48:43)
+Yet.
+
+Kelly Schrank (48:44)
+and if I wanna interview interview her for the next edition of the book, which because the book
+
+Ed Marsh (48:48)
+Yeah, gonna say volume two.
+
+Kelly Schrank (48:49)
+is self-published, I can, you know, put that together pretty
+
+Ed Marsh (48:52)
+Right.
+
+Kelly Schrank (48:53)
+quickly and get a new version out. So I'll probably have
+
+Kelly Schrank (48:57)
+her checklist that she's created and then an interview with her and I have a few other people that I'm kinda working on that I'll get some some more interviews, some more checklists in the next edition.
+
+Ed Marsh (49:10)
+So what was that experience like of publishing your own book?
+
+Kelly Schrank (49:14)
+It's
+
+Kelly Schrank (49:17)
+A lot of people say this and you don't believe it until you're doing it, that
+
+Ed Marsh (49:21)
+Yeah.
+
+Kelly Schrank (49:22)
+that marketing the book is harder than writing it.
+
+Ed Marsh (49:26)
+I this
+
+Ed Marsh (49:26)
+is w yeah. This is why I'm never gonna write a book.
+
+Kelly Schrank (49:29)
+Yeah. So I mean, because I've been talking about this since two thousand eleven. So I you know, I
+
+Ed Marsh (49:34)
+Yeah.
+
+Kelly Schrank (49:35)
+have slide decks, I have notes, I have handouts, I had you know, I had a lot of s stuff to start with. And the book is not, you know, it's just a little it's just a little guy.
+
+Ed Marsh (49:48)
+Hif.
+
+Kelly Schrank (49:48)
+It's just as big as it needs to be, honestly.
+
+Ed Marsh (49:51)
+Right.
+
+Kelly Schrank (49:52)
+You know? and so I had a lot of the materials. It was just a matter of me
+
+Kelly Schrank (49:59)
+sitting down and you know putting it into the right format and then and I got a book coach to be to help me kind of walk through and I was you know just kind of doing it on my own mo mostly. I did end up getting a book designer because I wanted it to look nice, you know, better
+
+Ed Marsh (50:22)
+Okay.
+
+Kelly Schrank (50:22)
+better than can I mean the
+
+Ed Marsh (50:25)
+da da yeah, that looks nice. I see
+
+Ed Marsh (50:27)
+it's like just not words on a page. It's
+
+Kelly Schrank (50:30)
+Yeah,
+
+Kelly Schrank (50:30)
+it's it and it's funny because I I did a Kindle Flash sale last week. And so you could s you could see what people's checklist look like.
+
+Ed Marsh (50:42)
+cool, okay.
+
+Kelly Schrank (50:43)
+it's very so it's kind of graphical. I tried to make it very approachable.
+
+Ed Marsh (50:47)
+Nice.
+
+Kelly Schrank (50:47)
+with the book designer and she did the cover as well. just trying to to spark something with people, you know. I I just didn't
+
+Ed Marsh (50:56)
+Mm-hmm.
+
+Kelly Schrank (50:57)
+want it to be
+
+Kelly Schrank (50:59)
+It didn't need to be boring. I wanted it to be fun. If you come s if you
+
+Ed Marsh (51:03)
+Yeah.
+
+Kelly Schrank (51:03)
+if you come see me talk, you know, at a conference or something, like I'm not like sitting there telling you to use checklists. Like I'm like having fun, right? Like
+
+Ed Marsh (51:14)
+Yeah.
+
+Kelly Schrank (51:14)
+so I wanted the book to be fun too.
+
+Ed Marsh (51:17)
+Well, yeah, you're fun and you know, even yeah, I mean you're you made it clear that you're fun and like, you know, I know you before this, so I know you're a good person and fun person, but like your enthusiasm comes through. So you know, you're you've got passion for checklists. So are do you have webinars? Do you have press I mean in terms of the marketing now early, are you like going out there and presenting and doing webinars and stuff that people can go and watch or follow along?
+
+Kelly Schrank (51:41)
+Yeah, I do have s I have a YouTube channel. I have some stuff on there. I am gonna be speaking at the AMWA National Conference. I have a round table on the checklist and I have another it's I have I'm on a panel with about AI and editing, like so I think I'm
+
+Ed Marsh (52:04)
+Okay.
+
+Kelly Schrank (52:04)
+I'm the not
+
+Kelly Schrank (52:07)
+I'm the one who's saying that the we need to keep the humans in it, I think is my part. That we're not gonna let AI do everything. but I also have one coming up in September. at the the ACES. ACES is gonna have a virtual conference. I'll be speaking at that spring. I was everywhere. I was in person,
+
+Ed Marsh (52:30)
+Hmm.
+
+Kelly Schrank (52:31)
+I was doing a lot of virtual things like that. You know, I had done that AAIP, that was one of the virtual ones, but I'd
+
+Kelly Schrank (52:37)
+gone to to up to Editors Canada and went and talked about it there and I've done I did a few of the AMWA regional conferences and I think I had eight or nine speaking engagements in the spring conference season.
+
+Ed Marsh (52:53)
+Wow. Holy cow.
+
+Kelly Schrank (52:54)
+So I was out out and about, yeah, quite a bit. I don't think
+
+Ed Marsh (52:57)
+How? Good for you.
+
+Kelly Schrank (52:59)
+I have enough PTO to do much more. So
+
+Kelly Schrank (53:04)
+so I just have the AMWA National Conference and that one in September coming up in the fall. In the fall conference. Yeah.
+
+Ed Marsh (53:08)
+Well that sounds like quite a bit, so you know, y maybe you deserve a little break there, Kelly.
+
+Kelly Schrank (53:16)
+I was like, I'm gonna just read a book on my new screened porch and I'm just gonna relax. And
+
+Ed Marsh (53:25)
+Yeah.
+
+Kelly Schrank (53:26)
+then work was like, no, you're not.
+
+Ed Marsh (53:29)
+Yeah. Yeah. That's yeah, that sounds about right. So
+
+Kelly Schrank (53:33)
+Yeah.
+
+Ed Marsh (53:34)
+why don't can you tell us where we can find you, where we can reach out to you, how we can contact you and more most importantly, how do we find the book?
+
+Kelly Schrank (53:44)
+Book is on Amazon. There's a there's an ebook and there's a paperback. and I'm on bookshop. I have my own little what do they call it? A booksh. It's a bookshelf on the bookshop. I on bookshop
+
+Ed Marsh (54:01)
+Okay.
+
+Kelly Schrank (54:02)
+dot org. I I'll have to I gotta remember what that what is called. But I have my own where I've gathered my book and other books similar. I have Medcom books and then I have Techcom books.
+
+Kelly Schrank (54:14)
+that I've kind of gathered just curated, I guess. A little bookshelf for people. Yeah, we'll put that in the
+
+Ed Marsh (54:19)
+All right, we we need to put that in the show notes for sure. Like game I what you would say, yeah, for sure.
+
+Kelly Schrank (54:24)
+Yeah. and my website, headbookworm dot com. you can order it from me directly and I'll sign it and send it to you with a bookmark. So
+
+Ed Marsh (54:34)
+I saw that. I'm like, that's a cool idea. Like to go along with the marketing aspect. I'm like, I can get a signed copy. Like, that's kind
+
+Kelly Schrank (54:41)
+Yeah.
+
+Ed Marsh (54:41)
+of cool.
+
+Kelly Schrank (54:42)
+yeah. Well now you're gonna get one
+
+Ed Marsh (54:45)
+darn it, what am I gonna do with that? You've made checklists exciting, Kelly. That's pretty damn cool. So
+
+Kelly Schrank (54:52)
+Thank you. I'm trying.
+
+Ed Marsh (54:55)
+so yeah, is there anything else that you wanted to promote or talk about or you know, when I guess the question is when is the second edition coming out?
+
+Kelly Schrank (55:04)
+That's a good question, you know. With as busy as I've been, I I have two I have two things kind of going around my head. One, and I've kind of made the plans for the second edition of the Medcom version,
+
+Ed Marsh (55:16)
+Okay.
+
+Kelly Schrank (55:17)
+with the people that are, you know, that I've already talked to and I want to do interviews and get some more checklists in there. But I'm also thinking of one that's not so specific to Medcom because I think people are turned off by it.
+
+Kelly Schrank (55:33)
+if they're in techcom or if they're in some other editing
+
+Ed Marsh (55:33)
+Hmm. Okay, yeah. All right.
+
+Kelly Schrank (55:38)
+kind of world, you know, like I went to ACES and there were a lot of fiction editors and there were nonfiction but not medical, like and people are kind of like, medcom, it's not my thing. So I'm thinking about
+
+Ed Marsh (55:50)
+Mm, I get it.
+
+Kelly Schrank (55:51)
+one that's more generic. So that one is l even more like I don't know when that when or how I'm gonna do that one.
+
+Ed Marsh (56:02)
+Mm-hmm.
+
+Kelly Schrank (56:03)
+I'd think I'd probably have another edition of the Medcom one before AMWA, which is in November. So probably October, yeah.
+
+Ed Marsh (56:10)
+wow, okay. wow. Holy crap, you don't stop. Like
+
+Ed Marsh (56:14)
+sit in your porch.
+
+Kelly Schrank (56:16)
+Exactly. I should, but
+
+Ed Marsh (56:19)
+All right. And on that note I'm gonna let you go sit on your porch. So we'll put links to everything and in the show notes so that way you can just click and find out about all the things that Kelly's doing in the book and you know, we'll let you know when the next edition of book is coming out. So Kelly, thanks. This was you know, I expect it
+
+Kelly Schrank (56:37)
+Thank you.
+
+Ed Marsh (56:38)
+to be a good time and expect it to be fun, but like you again, you made checklists exciting. Like
+
+Kelly Schrank (56:43)
+Thank you.
+
+Ed Marsh (56:44)
+I'm even more excited about checklists and I have my own self hosted to do list, but like
+
+Ed Marsh (56:48)
+Now I'm gonna read the book and see what I can do with checklist.
+
+Kelly Schrank (56:51)
+Yeah, I definitely wanna see your checklist.
+
+Ed Marsh (56:54)
+no, that's not gonna happen, sorry.
+
+Kelly Schrank (57:00)
+speaking, you know, checklist. So
+
+Ed Marsh (57:03)
+All right.
+
+Ed Marsh (57:04)
+Well, I'm gonna have to create a checklist just to show you a checklist. But thanks again. this
+
+Kelly Schrank (57:07)
+Thank you.
+
+Ed Marsh (57:08)
+was great fun. and you know, we'll see you all next time. Thank you so much.
+
+Kelly Schrank (57:13)
+Thank you. Appreciate it.

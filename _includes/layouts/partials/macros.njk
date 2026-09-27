@@ -96,7 +96,7 @@
         </button>
     </a>
 {% endmacro %}
-{% macro card(url, title, description, pubDate, buttonText, heroImage) %}
+{% macro card(url, title, description, pubDate, buttonText, heroImage, isPodcast = false) %}
     <div
             class="card flex flex-col rounded-md h-full p-2 border-gray-500 border-4 sm:border-2"
             aria-labelledby="card-title-{{ title | slugify }}">
@@ -108,7 +108,9 @@
                 <a href="{{ url | url }}" aria-label="Read-more-about-{{ title | slugify }};">{{ title | markdownInline | sanitize | safe }}</a>
             </h2>
             <div class="card-description flex-grow">
-                <span class="italic">Published: {{ pubDate | date("DD-MMM-YYYY") | sanitize | safe }}</span>
+                {% if isPodcast %}
+                    <span class="italic font-xs">Published: {{ pubDate | date("DD-MMM-YYYY") | sanitize | safe }}</span>
+                {% endif %}
                 {{ description | markdown | sanitize | safe }}
             </div>
             <p>{{ renderButton(url, buttonText, title) }}</p>
