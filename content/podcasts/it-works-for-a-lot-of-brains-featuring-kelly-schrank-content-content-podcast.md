@@ -1,6 +1,6 @@
 ---
 title: It works for a lot of people's brains with Kelly Schrank
-date: 2026-09-30
+date: 2026-09-27
 categories:
   - "podcast"
   - "content strategy"

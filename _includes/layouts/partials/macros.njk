@@ -109,7 +109,7 @@
             </h2>
             <div class="card-description flex-grow">
                 {% if isPodcast %}
-                    <span class="italic font-xs">Published: {{ pubDate | date("DD-MMM-YYYY") | sanitize | safe }}</span>
+                    <p class="italic m-0" style="font-size:0.8rem">Published {{ pubDate | date("DD-MMM-YYYY") | sanitize | safe }}</p>
                 {% endif %}
                 {{ description | markdown | sanitize | safe }}
             </div>
