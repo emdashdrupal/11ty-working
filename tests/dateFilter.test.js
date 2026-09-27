@@ -84,6 +84,25 @@ describe('date filter', () => {
     });
   });
 
+  test('formats date as DD-MMM-YYYY', () => {
+    const date = new Date(Date.UTC(2026, 8, 30)); // Sept 30, 2026 UTC
+    expect(dateFilter(date, "DD-MMM-YYYY")).toBe("30 Sep. 2026");
+
+    const date2 = new Date(Date.UTC(2023, 0, 5)); // Jan 5, 2023 UTC
+    expect(dateFilter(date2, "DD-MMM-YYYY")).toBe("5 Jan. 2023");
+  });
+
+  test('formats all months correctly in DD-MMM-YYYY', () => {
+    const months = [
+      'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+      'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
+    ];
+    months.forEach((month, index) => {
+      const date = new Date(Date.UTC(2023, index, 15));
+      expect(dateFilter(date, "DD-MMM-YYYY")).toBe(`15 ${month}. 2023`);
+    });
+  });
+
   test('ensures timezone independence (UTC)', () => {
     const originalTZ = process.env.TZ;
     try {
