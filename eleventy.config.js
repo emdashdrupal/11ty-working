@@ -78,6 +78,13 @@ const dtfShort = new Intl.DateTimeFormat('en-US', {
   day: '2-digit',
   timeZone: 'UTC'
 });
+const dtfDisplay = new Intl.DateTimeFormat('en-US', {
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric',
+  timeZone: 'UTC'
+});
+
 
 module.exports = function (eleventyConfig) {
   const isDevelopment = process.env.ELEVENTY_RUN_MODE === 'serve' || process.env.NODE_ENV === 'test';
@@ -111,10 +118,15 @@ module.exports = function (eleventyConfig) {
     const d = new Date(date);
     if (isNaN(d.getTime())) return date;
     const normalizedFormat = typeof format === 'string' ? format.replace(/\s+/g, '') : format;
-    if (normalizedFormat === "YYYY-MM-DD" || normalizedFormat === "YYYY-MMM-DD") {
-      const formatter = normalizedFormat === "YYYY-MM-DD" ? dtfNumeric : dtfShort;
+    if (normalizedFormat === "YYYY-MM-DD" || normalizedFormat === "YYYY-MMM-DD" || normalizedFormat === "DD-MMM-YYYY") {
+      const formatter = normalizedFormat === "YYYY-MM-DD" ? dtfNumeric : normalizedFormat === "YYYY-MMM-DD" ? dtfShort : dtfDisplay;
       const parts = formatter.formatToParts(d);
       const hash = parts.reduce((acc, part) => ({ ...acc, [part.type]: part.value }), {});
+      if (normalizedFormat === "DD-MMM-YYYY") {
+        // Add a period after the abbreviated month if it doesn't already have one
+        const month = hash.month.endsWith('.') ? hash.month : `${hash.month}.`;
+        return `${hash.day} ${month} ${hash.year}`;
+      }
       return `${hash.year}-${hash.month}-${hash.day}`;
     }
     return date;
