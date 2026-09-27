@@ -9,7 +9,7 @@ categories:
   - "medical editing"
 cover: kelly-schrank.jpg
 coverAlt : Kelly Schrank
-description: "Ed Marsh talks with Kelly Schrank, a medical editor and self-published author. Kelly talks about her unique role as technical communicator in the medical field, her book dedicated to the art and utility of checklists, and having a packed schedule while dreaming of reading a book on her new screened-in porch."
+description: "Ed Marsh talks with Kelly Schrank, a medical editor and self-published author. Kelly talks about her unique role as an editor with a technical communication background in the medical field, her book dedicated to the art and utility of checklists, and having a packed schedule while dreaming of reading a book on her new screened-in porch."
 mp3File: jack-molisani-june-2026.mp3
 blubrryId: 155192798
 blubrryCache: 1788117059
@@ -22,8 +22,8 @@ eleventyNavigation:
 ## Mentioned during this episode
 
 - [Kelly Schrank's website](https://headbookworm.com)
-- [Kelly's YouTube channel](https://www.youtube.com/@ChecklistSpecialist)
-- [Kelly's book: *Clarity by design, comprehensive checklists and medical communication*](https://bookshop.org/p/books/clarity-by-design-comprehensive-checklists-in-medical-communication-kelly-schrank/db7d5e814f819efc)
+- [Kelly Schrank's YouTube channel](https://www.youtube.com/@ChecklistSpecialist)
+- [Kelly Schrank's book: *Clarity by design, comprehensive checklists and medical communication*](https://bookshop.org/p/books/clarity-by-design-comprehensive-checklists-in-medical-communication-kelly-schrank/db7d5e814f819efc)
 - [Breaking Bad (TV series)](https://en.wikipedia.org/wiki/Breaking_Bad)
 - [Association of Medical Writers and Scientists (AMWA)](https://www.amwa.org/)
 - [AMWA Canada](https://www.amwa-canada.ca/)
