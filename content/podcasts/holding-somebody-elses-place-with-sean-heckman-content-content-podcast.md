@@ -19,9 +19,6 @@ eleventyNavigation:
   parent:  podcasts
 ---
 
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
-
 
 Learn what it's like to drive across the USA for 30+ days interviewing racing legends, while running a content creation business that caters to small businesses. Find out why Sean calls a "sport with science, technology, and a lot of nonsense" his home.
 

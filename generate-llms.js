@@ -76,26 +76,42 @@ function copyMarkdownFilesToBuild(outDir = '_site') {
 
   const files = globSync(`${contentDir}/**/*.md`);
   files.forEach(file => {
-    const fileContent = fs.readFileSync(file, 'utf8');
+    let fileContent = fs.readFileSync(file, 'utf8');
     const { data } = matter(fileContent);
 
     if (data.eleventyExcludeFromCollections === true) {
       return;
     }
 
+    // Prepend/insert markdown directive for agent-facing .md files in build output
+    const directive = '> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).\n\n';
+    if (!fileContent.includes('https://edmar.sh/llms.txt')) {
+      if (fileContent.startsWith('---')) {
+        const secondDash = fileContent.indexOf('---', 3);
+        if (secondDash !== -1) {
+          const endOfFrontmatter = secondDash + 3;
+          fileContent = fileContent.slice(0, endOfFrontmatter) + '\n\n' + directive + fileContent.slice(endOfFrontmatter).trimStart();
+        } else {
+          fileContent = directive + fileContent;
+        }
+      } else {
+        fileContent = directive + fileContent;
+      }
+    }
+
     const urlPath = getUrlFromFilePath(file);
     if (urlPath === '/') {
-      fs.copyFileSync(file, path.join(outDir, 'index.md'));
+      fs.writeFileSync(path.join(outDir, 'index.md'), fileContent);
     } else {
       const relPath = urlPath.slice(1); // remove leading slash
       const dirPath = path.join(outDir, relPath);
       fs.mkdirSync(dirPath, { recursive: true });
-      fs.copyFileSync(file, path.join(dirPath, 'index.md'));
+      fs.writeFileSync(path.join(dirPath, 'index.md'), fileContent);
 
       // Also copy as /path.md (without trailing slash)
       const altFilePath = path.join(outDir, relPath.slice(0, -1) + '.md');
       fs.mkdirSync(path.dirname(altFilePath), { recursive: true });
-      fs.copyFileSync(file, altFilePath);
+      fs.writeFileSync(altFilePath, fileContent);
     }
   });
 

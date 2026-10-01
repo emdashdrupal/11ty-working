@@ -8,9 +8,6 @@ eleventyNavigation:
 date: '2025-09-23'
 ---
 
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
-
 The answer for coders is *not yet*. For those on the more creative end, including technical writers, it's a bit more grey.
 
 I've always [dabbled in code](https://edmar.sh/skills/code-development/), but had difficulty expressing the logic in my head in code. So I asked AI to do a tech writer's job and document the code for my site.

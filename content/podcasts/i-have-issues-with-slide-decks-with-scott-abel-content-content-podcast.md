@@ -21,9 +21,6 @@ eleventyNavigation:
   title: Scott Abel
   parent:  podcasts
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 ## Mentioned during this episode
 
 - [Ann Rockley](http://rockley.com/)

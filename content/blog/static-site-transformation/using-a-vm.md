@@ -10,9 +10,6 @@ eleventyNavigation:
 date: '2026-03-07'
 ---
 
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
-
 I've experimented with Linux for decades. I played around with [Red Hat Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) in the early 2000s at my first tech writing job. I *tried* to understand [OpenSUSE](https://www.opensuse.org/) on my [HP 2140 Netbook](https://www.wired.com/2009/01/hp-netbook-review) back in 2009 (I installed Ubuntu instead pretty quickly). I even [gave a presentation about VMs](https://www.slideshare.net/slideshow/creating-a-drupal-sandbox-using-virtualbox-and-drupal-quickstart/28217861) back in 2010. So when I decided to rebuild my website, I knew I wanted to develop it in a Linux desktop virtual environment on a virtual machine (VM). Why?
 
 - I love Windows and always have, but I had concerns about trying to configure my bread-and-butter machine to work with things I wasn't yet comfortable with. This compartmentalization let me break things and start over without interrupting my day-to-day.

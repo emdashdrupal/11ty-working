@@ -9,7 +9,4 @@ eleventyNavigation:
   order: 70
   title: Skills
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 ![Content lifecycle diagram](https://edmar.sh/assets/images/content-lifecycle.png)

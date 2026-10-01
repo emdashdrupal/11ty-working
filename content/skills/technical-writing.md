@@ -13,9 +13,6 @@ eleventyNavigation:
 date: '2025-09-25'
 ---
 
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
-
 - **Detective**: Tracking down information across wikis, SharePoint, Confluence, legacy systems, and Subject Matter Experts (SMEs).
 - **Librarian**: Knowing what information is available, what information users *actually* need, and where to find it.
 - **Translator**: Tech writers interact with a bunch of folks with differing commands of the English language, as well as those whose priority or focus isn't on the writing. We get it, we're all busy. That's where tech writers and editors come in.

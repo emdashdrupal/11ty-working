@@ -19,9 +19,6 @@ eleventyNavigation:
   title: MJ Babic
   parent:  podcasts
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 MJ's had a diverse career, from marketing, feature articles, science journals, and tech writing. But her plan is "helping people complete their tasks with digital products", and to "bring good writing to whatever corner I'm working in at the moment".
 
 ## Mentioned during this episode

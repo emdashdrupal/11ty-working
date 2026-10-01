@@ -17,9 +17,6 @@ eleventyNavigation:
   title: Ann Rockley
   parent:  podcasts
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 ## Mentioned during this episode
 
 - [Society for Technical Communication (STC)](https://www.stc.org)

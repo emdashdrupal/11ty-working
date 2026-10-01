@@ -17,9 +17,6 @@ eleventyNavigation:
   title: Allie Proff
   parent:  podcasts
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 ## Mentioned during this episode
 
 - [Allie on Twitter](https://twitter.com/allieproff)

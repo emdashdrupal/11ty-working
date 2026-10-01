@@ -16,9 +16,6 @@ eleventyNavigation:
   title: Sarah O'Keefe
   parent:  podcasts
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 ## Mentioned during this episode
 
 

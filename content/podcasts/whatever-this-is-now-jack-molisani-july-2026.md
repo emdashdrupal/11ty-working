@@ -19,9 +19,6 @@ eleventyNavigation:
   parent: podcasts
 ---
 
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
-
 Use the code CONTENTCONTENT to get $400 off your Lavacon 2026 ticket in Charlotte, North Carolina!
 
 ## Mentioned during this episode

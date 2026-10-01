@@ -14,9 +14,6 @@ eleventyNavigation:
   title: Sara Feldman
   parent:  podcasts
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 ## Mentioned during this episode
 
 - [ESET software](https://www.slideshare.net/theedmarsh/timeless-techcomm-tips-stc-new-england-interchange-keynote-2020)

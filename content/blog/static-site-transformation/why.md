@@ -9,9 +9,6 @@ eleventyNavigation:
   title: Why I did this SSG conversion project
 
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 I started this project as a strategic effort to create a portfolio highlighting my technical writing and content strategy skills. I didn't have any recent writing samples to share with potential employers or clients due to intellectual property (IP) laws, which I take seriously. The public-facing samples I *did* have were woefully out-of-date, as was my WordPress site. I didn't realize *just* how out-of-date the site was until I got deep into this project. I needed to redesign not only the site, but its content.
 
 This was a rare greenfield opportunity to:

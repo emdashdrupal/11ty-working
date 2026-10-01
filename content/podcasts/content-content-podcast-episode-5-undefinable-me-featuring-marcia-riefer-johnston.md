@@ -16,9 +16,6 @@ eleventyNavigation:
   title: Marcia Riefer-Johnston
   parent:  podcasts
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 ## Mentioned during this episode
 
 - [Undefinable Me: The Story of a 13-Year-Old Girl from the Inner City Who Codes](http://www.mtv.com/news/2226440/teen-programmer-speech/)

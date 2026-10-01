@@ -19,9 +19,6 @@ eleventyNavigation:
   parent:  podcasts
 ---
 
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
-
 Viqui is also an accomplished 'bad-ass bass player' and a self-proclaimed techcomm evangelist.
 
 ## Mentioned during this episode

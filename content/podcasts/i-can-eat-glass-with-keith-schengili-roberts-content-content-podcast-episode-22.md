@@ -19,9 +19,6 @@ eleventyNavigation:
   title: Keith Schengili-Roberts
   parent:  podcasts
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 ## Mentioned during this episode
 
 - [I can eat glass test](https://en.wikipedia.org/wiki/I_Can_Eat_Glass)  [Delrina](https://en.wikipedia.org/wiki/Delrina)

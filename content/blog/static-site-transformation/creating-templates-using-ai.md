@@ -9,9 +9,6 @@ eleventyNavigation:
 
 ---
 
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
-
 When converting my site to a static site generator (SSG), I learned they require templates to convert my Markdown files to HTML based on the associated template. Templates also enforce structure and allow dynamic content.
 
 I didn't know a thing about templating languages, so I turned to large language models (LLMs) to help me write code for the templates on my site. There are many templating languages, but I chose [Nunjucks](https://mozilla.github.io/nunjucks/) basically because it was the default for a lot of the Eleventy documentation. Nunjucks is based on [Jinja](https://jinja.palletsprojects.com/en/stable/).

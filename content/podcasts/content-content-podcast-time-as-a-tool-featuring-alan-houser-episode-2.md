@@ -14,9 +14,6 @@ eleventyNavigation:
   parent:  podcasts
 ---
 
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
-
 ## Mentioned during this episode
 
 - [Content Content 1 featuring Sharon Burton](https://edmar.sh/podcasts/introducing-the-content-content-podcast/ "Introducing the Content Content podcast&thinsp;&mdash;&thinsp;Offices without tarantulas with Sharon Burton")

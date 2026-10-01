@@ -13,9 +13,6 @@ eleventyNavigation:
   title: Sharon Burton (2015)
   parent:  podcasts
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 ## Mentioned during this episode
 
 - [SharonBurton.com](http://sharonburton.com "Sharon Burton's web site")

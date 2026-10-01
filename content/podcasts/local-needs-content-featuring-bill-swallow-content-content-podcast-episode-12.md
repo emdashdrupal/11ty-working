@@ -21,9 +21,6 @@ eleventyNavigation:
   parent:  podcasts
 ---
 
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
-
 Released on [International Podcast Day!](https://internationalpodcastday.com/)
 
 ## Mentioned during this episode

@@ -16,9 +16,6 @@ eleventyNavigation:
   title: Alyssa Fox
   parent:  podcasts
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 We also discuss managing people "fairly, not equally", why content strategy is difficult, multinational technical communication teams, fashion, and more.
 
 ## Mentioned during this episode

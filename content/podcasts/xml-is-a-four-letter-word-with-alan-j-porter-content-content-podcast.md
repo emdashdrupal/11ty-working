@@ -23,9 +23,6 @@ eleventyNavigation:
   title: Alan Porter
   parent:  podcasts
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 Alan is also an accomplished author and critic of comics, pop culture, sci-fi, and more.
 
 ## Mentioned during this episode

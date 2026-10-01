@@ -16,9 +16,6 @@ eleventyNavigation:
   title: Sharon Burton (2026)
   parent:  podcasts
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 Sharon was the [very first Content Content guest](https://edmar.sh/podcasts/introducing-the-content-content-podcast/) in 2015. She's a content strategist, technical writing professor at the University of California Riverside, and editor of the book *Women in Technical Communication: From typewriters to touchscreens, a history by the women who did the work*. Sharon's book is available at:
 
 - [XMLPress](https://xmlpress.net/2026/03/02/women-in-technical-communication/)

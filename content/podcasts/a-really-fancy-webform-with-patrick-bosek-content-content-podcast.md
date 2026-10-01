@@ -21,9 +21,6 @@ eleventyNavigation:
   title: Patrick Bosek
   parent:  podcasts
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 > This episode was recorded before Patrick's company changed its name to Heretto.
 
 ## Mentioned during this episode

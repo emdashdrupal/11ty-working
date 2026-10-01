@@ -13,5 +13,3 @@ eleventyNavigation:
   title: Blog
   order: 40
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).

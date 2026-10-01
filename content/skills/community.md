@@ -14,9 +14,6 @@ eleventyNavigation:
   parent: skills
 date: '2025-09-25'
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 I have a history of finding those people and encouraging them to be champions for high-quality content that's an asset to your firm.
 
 ## Stakeholder management

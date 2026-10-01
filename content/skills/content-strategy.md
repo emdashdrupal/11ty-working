@@ -14,9 +14,6 @@ eleventyNavigation:
   parent: skills
 date: '2025-09-25'
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 Let's be honest. Most organizations' content is scattered across Confluence pages, SharePoint, your company's intranet, hundreds of repositories, help systems which may or may not be current, knowledge management systems, Word documents, and more.
 
 Content strategy means the right content in the right format at the right time in the right place. Do you really want to "throw AI" at it without understanding the complexity and the true costs?

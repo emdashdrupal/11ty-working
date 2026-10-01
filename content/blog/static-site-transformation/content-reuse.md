@@ -10,9 +10,6 @@ eleventyNavigation:
 date: '2025-02-23'
 ---
 
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
-
 ## What is reusable content?
 
 In a structured authoring environment, such as those that use [Darwin Information Typing Architecture (DITA)](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture), an XML-based authoring language, you can set up [*content reuse*](https://www.oxygenxml.com/doc/versions/27.1/ug-editor/topics/eppo-pathfinder-reuse.html), or *snippets*. Instead of copying and pasting sections into different files, you create a file that contains that small piece of content. You reference that file where it's needed, like an include or import file.

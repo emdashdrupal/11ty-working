@@ -14,9 +14,6 @@ eleventyNavigation:
   parent: skills
 date: '2025-09-25'
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 Podcasts are a terrifically friendly and informative way to get your message out. With over seven years of experience in podcasting, and numerous presentations about the value of podcasting, let's consider this as part of your [content strategy](https://edmar.sh/skills/content-strategy/).
 
 ## Examples

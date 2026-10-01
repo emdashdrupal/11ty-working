@@ -13,9 +13,6 @@ eleventyNavigation:
   title: Danielle Villegas
   parent:  podcasts
 ---
-
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
 ## Mentioned during this episode
 
 - [techcommgeekmom on Twitter](http://twitter.com/techcommgeekmom "techcommgeekmom on Twitter")

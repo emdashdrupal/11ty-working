@@ -11,9 +11,6 @@ eleventyNavigation:
 date: '2025-02-02'
 ---
 
-> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
-
-
 When you start with a decade-old information architecture that evolved to include podcasts, it shouldn't be surprising that very few parts of that structure end up in a new site.
 
 I quickly decided it wasn't worth maintaining my old personal and professional blog posts. Most were outdated and not helpful to the portfolio I wanted the site to be.
