@@ -10,6 +10,9 @@ eleventyNavigation:
 
 
 ---
+
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
 ## Determining personas
 
 The first question of technical writing is *who is the user*? The users you identify inform and guide your content strategy. In my case, my users include:

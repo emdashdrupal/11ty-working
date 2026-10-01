@@ -11,6 +11,9 @@ eleventyNavigation:
   order: 80
 date: '2025-09-25'
 ---
+
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
 I'm a proud New Jersey native, and I'm passionate about:
 
 - Proper punctuation (especially the em dash &mdash;, semicolon, and ellipsis&hellip;).

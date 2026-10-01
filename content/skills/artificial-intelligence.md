@@ -13,6 +13,9 @@ eleventyNavigation:
   parent: skills
 date: '2025-09-25'
 ---
+
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
 Here's how I've used AI:
 
 - Created custom prompts for things like my home network, resume reviews, technical writer assistant, and more.

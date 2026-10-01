@@ -18,6 +18,9 @@ eleventyNavigation:
   title: Cruce Saunders
   parent:  podcasts
 ---
+
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
 ## Mentioned during this episode
 
 - [Joe Gollner](http://www.gollner.ca/)

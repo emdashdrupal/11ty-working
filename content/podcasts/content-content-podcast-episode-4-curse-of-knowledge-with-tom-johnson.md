@@ -19,6 +19,9 @@ eleventyNavigation:
   parent:  podcasts
 ---
 
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
+
 ## Mentioned during this episode
 
 - [Tom's web site - I'd rather be writing](http://idratherbewriting.com/)

@@ -16,6 +16,9 @@ eleventyNavigation:
   title: Marcia Riefer-Johnston
   parent:  podcasts
 ---
+
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
 ## Mentioned during this episode
 
 - [Undefinable Me: The Story of a 13-Year-Old Girl from the Inner City Who Codes](http://www.mtv.com/news/2226440/teen-programmer-speech/)
@@ -31,7 +34,7 @@ eleventyNavigation:
 
 - [You Can Say That Again](http://www.amazon.com/You-Can-Say-That-Again-ebook/dp/B00VSBRB0M) on Amazon
 
-- [Content Content podcast episode 1 with Sharon Burton](/podcasts/introducing-the-content-content-podcast/)
+- [Content Content podcast episode 1 with Sharon Burton](https://edmar.sh/podcasts/introducing-the-content-content-podcast/)
 
 - [Scott Abel](https://thecontentwrangler.com)
 
@@ -55,7 +58,7 @@ eleventyNavigation:
 
 - [Robert Rose](http://robertrose.me/)
 
-- [Content Content podcast episode 3 with Danielle Villegas](/podcasts/content-content-podcast-fire-fingers-featuring-danielle-villegas-episode-3/)
+- [Content Content podcast episode 3 with Danielle Villegas](https://edmar.sh/podcasts/content-content-podcast-fire-fingers-featuring-danielle-villegas-episode-3/)
 
 - [Dair Communications](http://www.daircomm.com/)
 

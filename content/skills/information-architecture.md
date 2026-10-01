@@ -14,6 +14,9 @@ eleventyNavigation:
   parent: skills
 date: '2025-09-25'
 ---
+
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
 The way you present and organize your content says a lot to your clients and customers. Giving structure to your organization's content ensures:
 
 - Your reputation is bolstered by high-quality content.

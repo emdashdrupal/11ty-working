@@ -20,6 +20,9 @@ eleventyNavigation:
   parent:  podcasts
 ---
 
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
+
 
 > After recording, we became aware that Pawel left the Soap! Conference team after one year. To further clarify, Pawel did not have a role in the formation of MeetContent, though he is an active member of the community. Content Content regrets any confusion or offense to those involved.
 
@@ -31,7 +34,7 @@ eleventyNavigation:
 - [International Technical Communication Qualifications Foundation (ITCQF)](http://itcqf.org)
 - [Thomas Pynchon](https://en.wikipedia.org/wiki/Thomas_Pynchon)
 - [Poland Madcap Flare User Group](https://www.meetup.com/Poland-MadCap-Flare-User-Group/)
-- [Users or people with Jack Molisani](/podcasts/users-or-people-with-jack-molisani-content-content-episode-15/)
+- [Users or people with Jack Molisani](https://edmar.sh/podcasts/users-or-people-with-jack-molisani-content-content-episode-15/)
 - [Markdown](https://en.wikipedia.org/wiki/Markdown)
 - ["Life begins when you step out of your comfort zone"- Pam Noreault](https://twitter.com/edmarsh/status/861946935112077312)
 - [Daniel Pink's theory of motivation](https://www.tutor2u.net/business/reference/motivation-pink-three-elements-of-intrinsic-motivation)

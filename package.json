@@ -6,7 +6,7 @@
     "scripts": {
         "start": "npm run build && npm run postbuild && npx @11ty/eleventy --serve",
         "build": "npx @11ty/eleventy && npm run minify-css",
-        "postbuild": "npm run generate-sitemap && npx -y pagefind --site _site && cp sitemap.xml _site/",
+        "postbuild": "npm run generate-sitemap && npm run generate-llms && npx -y pagefind --site _site && cp sitemap.xml _site/",
         "clean": "rm -rf _site",
         "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
         "test": "jest --passWithNoTests",

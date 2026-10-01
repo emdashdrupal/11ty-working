@@ -18,11 +18,14 @@ eleventyNavigation:
   parent:  podcasts
 ---
 
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
+
 ## Mentioned during this episode
 
 - [Alisa's business - Clarifying Complex Ideas](https://clarifyingcomplexideas.com/)
 - [Alisa on Twitter](https://twitter.com/clearwriter)
 - [American Medical Writers Association](https://www.amwa.org/)
 - [Melissa Breker](https://twitter.com/melissabreker?lang=en)
-- [Content Content podcast with Ben Woelk](/podcasts/off-wall-presentations-featuring-ben-woelk-content-content-podcast-episode-11/)
-- [Content Content podcast with Andrea Ames](/podcasts/installation-not-user-task-featuring-andrea-ames-content-content-podcast-episode-21)
+- [Content Content podcast with Ben Woelk](https://edmar.sh/podcasts/off-wall-presentations-featuring-ben-woelk-content-content-podcast-episode-11/)
+- [Content Content podcast with Andrea Ames](https://edmar.sh/podcasts/installation-not-user-task-featuring-andrea-ames-content-content-podcast-episode-21)

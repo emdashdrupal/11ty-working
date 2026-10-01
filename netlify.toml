@@ -18,6 +18,22 @@
   from = "/contact-ed-marsh-information-architect-technical-writer"
   to = "/contact"
 
+[[edge_functions]]
+  path = "/*"
+  function = "content-negotiation"
+
+[[headers]]
+  for = "/*.md"
+  [headers.values]
+    Content-Type = "text/markdown; charset=utf-8"
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
+  for = "/llms.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
 [[plugins]]
   package = "netlify-plugin-checklinks"
   [plugins.inputs]

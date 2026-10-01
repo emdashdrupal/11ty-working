@@ -19,6 +19,9 @@ eleventyNavigation:
   parent:  podcasts
 ---
 
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
+
 ## Mentioned during this episode
 
 - [Dave's _Developing Philly_ documentary webseries](http://developingphilly.com/)

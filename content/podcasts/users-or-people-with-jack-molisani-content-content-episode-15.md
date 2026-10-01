@@ -22,6 +22,9 @@ eleventyNavigation:
   title: Jack Molisani
   parent:  podcasts
 ---
+
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
 ## Mentioned during this episode
 
 - [Jack on Twitter](https://twitter.com/jackmolisani)

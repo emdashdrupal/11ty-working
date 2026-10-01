@@ -8,9 +8,12 @@ eleventyNavigation:
 date: '2025-09-23'
 ---
 
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
+
 The answer for coders is *not yet*. For those on the more creative end, including technical writers, it's a bit more grey.
 
-I've always [dabbled in code](/skills/code-development/), but had difficulty expressing the logic in my head in code. So I asked AI to do a tech writer's job and document the code for my site.
+I've always [dabbled in code](https://edmar.sh/skills/code-development/), but had difficulty expressing the logic in my head in code. So I asked AI to do a tech writer's job and document the code for my site.
 
 My first forays into large language models were with Google Gemini (n&#233;e Bard). I asked how to write code for automation tasks in Windows Powershell and Python. Fast-forward a year or two, and GitHub Copilot is baked into VS Code.
 

@@ -14,6 +14,9 @@ eleventyNavigation:
   parent: skills
 date: '2025-09-25'
 ---
+
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
 I have a history of finding those people and encouraging them to be champions for high-quality content that's an asset to your firm.
 
 ## Stakeholder management
@@ -36,4 +39,4 @@ I have a long track record successfully interacting with:
 - Started a regular "content creators catchup" that brought cross-divisional tech writers, UXers, and others involved with content across the firm together to share and learn.
 - Created custom monthly metric emails to let stakeholders know how their content is performing, and where there may be gaps or opportunities.
 - Spoken at user groups and conferences.
-- Created a [pioneering podcast](/podcasts/) to give back to the technical writing community.
+- Created a [pioneering podcast](https://edmar.sh/podcasts/) to give back to the technical writing community.

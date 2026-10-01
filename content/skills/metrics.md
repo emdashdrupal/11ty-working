@@ -14,6 +14,9 @@ eleventyNavigation:
   parent: skills
 date: '2025-09-25'
 ---
+
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
  Measuring how your content performs can help your organization:
 
 - Plan

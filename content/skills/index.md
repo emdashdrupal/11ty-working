@@ -1,6 +1,6 @@
 ---
 title : Ed Marsh creates content and community. What can he do for you?
-description: "Content is easy to create, but it's complex to coordinate, organize, and maintain. ![Content lifecycle diagram](/assets/images/content-lifecycle.png)"
+description: "Content is easy to create, but it's complex to coordinate, organize, and maintain. ![Content lifecycle diagram](https://edmar.sh/assets/images/content-lifecycle.png)"
 tags : "skills"
 layout: "layouts/grid.njk"
 buttonText : "Learn more"
@@ -9,4 +9,7 @@ eleventyNavigation:
   order: 70
   title: Skills
 ---
-![Content lifecycle diagram](/assets/images/content-lifecycle.png)
+
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
+![Content lifecycle diagram](https://edmar.sh/assets/images/content-lifecycle.png)

@@ -18,6 +18,9 @@ eleventyNavigation:
   parent:  podcasts
 ---
 
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
+
 Andrea is the CEO of [Idyll Point Group](https://idyllpointgroup.com), after a long stint in content strategy and content experience strategy at IBM.
 
 ## Mentioned during this episode

@@ -11,6 +11,9 @@ eleventyNavigation:
 date: '2025-02-02'
 ---
 
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
+
 When you start with a decade-old information architecture that evolved to include podcasts, it shouldn't be surprising that very few parts of that structure end up in a new site.
 
 I quickly decided it wasn't worth maintaining my old personal and professional blog posts. Most were outdated and not helpful to the portfolio I wanted the site to be.
@@ -30,7 +33,7 @@ I designed three main content types (page types):
 
 Making this actually happen involved a *lot* of experimenting. While I was building out the site there were grid template pages for each of those content types. Eventually I made the grid collection-agnostic.
 
-Once I grasped *how* to use content programmatically, it opened my eyes to how much [reusable structures like metadata](/blog/static-site-transformation/content-reuse) make a difference in how content is sorted, filtered, and displayed.
+Once I grasped *how* to use content programmatically, it opened my eyes to how much [reusable structures like metadata](https://edmar.sh/blog/static-site-transformation/content-reuse) make a difference in how content is sorted, filtered, and displayed.
 
 Taking an active development role made it clear to me how structuring your content helps your developers and your readers. Abstracting my content taught me:
 
@@ -44,4 +47,4 @@ Taking an active development role made it clear to me how structuring your conte
 
 My wife is a developer and accessibility advocate. As a technical communicator, I wanted my site to be accessible to everyone. I was also able to programmatically use my metadata to populate `<alt>` tags. I used the [WAVE browser plugin](https://wave.webaim.org/extension/) to test my pages and ensure they were accessible.
 
-![Screenshot of WAVE accessibility plugin results](/assets/images/wave-plugin-screenshot.png)
+![Screenshot of WAVE accessibility plugin results](https://edmar.sh/assets/images/wave-plugin-screenshot.png)

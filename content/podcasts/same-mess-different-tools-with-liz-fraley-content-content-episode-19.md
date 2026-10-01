@@ -18,6 +18,9 @@ eleventyNavigation:
   title: Liz Fraley
   parent:  podcasts
 ---
+
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
 ## Mentioned during this episode
 
 
@@ -41,5 +44,5 @@ eleventyNavigation:
 - [Ixiasoft](http://www.ixiasoft.com/en/)
 - [STC Summit](https://summit.stc.org)
 - [Scott Prentice](http://leximation.com/aboutscott.php)
-- [Alan Houser](/podcasts/content-content-podcast-time-as-a-tool-featuring-alan-houser-episode-2/)
+- [Alan Houser](https://edmar.sh/podcasts/content-content-podcast-time-as-a-tool-featuring-alan-houser-episode-2/)
 - [George Lakoff - _Moral Politics_](https://www.amazon.com/Moral-Politics-Liberals-Conservatives-Think/dp/0226467716)

@@ -23,6 +23,9 @@ eleventyNavigation:
   title: Alan Porter
   parent:  podcasts
 ---
+
+> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).
+
 Alan is also an accomplished author and critic of comics, pop culture, sci-fi, and more.
 
 ## Mentioned during this episode
@@ -35,5 +38,5 @@ Alan is also an accomplished author and critic of comics, pop culture, sci-fi, a
 - [Caterpillar](https://www.cat.com/en_US.html)
 - [Concorde](https://en.wikipedia.org/wiki/Concorde)
 - [Alan's Open Wheel podcast](https://whiterocket.podbean.com/e/open-wheel-2018-year-end-review-f1-indycar)
-- [Napoleons and Shakespeares with Teresa Meek &#8211; Content Content podcast episode 14](/podcasts/napoleons-shakespeares-teresa-meek-content-content-podcast-14/)
-- [Experiences have to be assembled with Cruce Saunders &#8211; Content Content podcast](/podcasts/experiences-have-to-be-assembled-with-cruce-saunders-content-content-podcast/)
+- [Napoleons and Shakespeares with Teresa Meek &#8211; Content Content podcast episode 14](https://edmar.sh/podcasts/napoleons-shakespeares-teresa-meek-content-content-podcast-14/)
+- [Experiences have to be assembled with Cruce Saunders &#8211; Content Content podcast](https://edmar.sh/podcasts/experiences-have-to-be-assembled-with-cruce-saunders-content-content-podcast/)
