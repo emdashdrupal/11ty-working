@@ -113,7 +113,7 @@
                                     {%- include 'layouts/partials/hero-image.njk' -%}
                                 </figure>
                             {%- endif -%}
-                            {{ description | markdown | safe }}
+                            {{ description | markdown | sanitize | safe }}
                         </div>
 
                 {%- endblock -%}
