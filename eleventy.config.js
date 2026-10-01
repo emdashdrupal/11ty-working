@@ -301,6 +301,7 @@ module.exports = function (eleventyConfig) {
     "_includes/js": "js/",
     "llms.txt": "llms.txt",
     "netlify.toml": "netlify.toml",
+    "content/": "content",
   });
 
   // ===== COLLECTIONS =====

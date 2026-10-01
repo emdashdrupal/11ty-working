@@ -74,6 +74,7 @@ describe('Eleventy Configuration', () => {
       "_includes/js": "js/",
       "llms.txt": "llms.txt",
       "netlify.toml": "netlify.toml",
+      "content/": "content",
     });
   });
 

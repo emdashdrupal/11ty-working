@@ -14,6 +14,7 @@
         "test:coverage": "jest --coverage",
         "test:ci": "jest --ci --coverage --watchAll=false",
         "test:modular": "node test-modularization.js",
+        "generate-llms": "node generate-llms.js",
         "generate-sitemap": "node generate-sitemap.js",
         "minify": "npm run minify-css && npm run minify-js && npm run minify-html",
         "minify-css": "postcss _includes/css/tw.css -o _site/css/tw.css && postcss _includes/css/base.css -o _site/css/base.css",
