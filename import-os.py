@@ -62,20 +62,28 @@ for entry in all_navigation_entries:
     print(f"    Parent: {entry['parent']}")
     print()
 
-# Identify missing parent keys
+# Identify missing parent keys and self-references in a single pass
 all_keys = {entry['key'] for entry in all_navigation_entries if entry['key']}
 missing_parents = []
+self_references = []
 
-print("Checking for Missing Parent Keys:")
 for entry in all_navigation_entries:
+    key = entry['key']
     parent_key = entry['parent']
+
     if parent_key and parent_key not in all_keys:
         missing_parents.append({
             'file': entry['file'],
             'parent_referenced': parent_key,
-            'key_used': entry['key']
+            'key_used': key
         })
-        print(f"  ❌ {entry['file']} references non-existent parent: '{parent_key}'")
+
+    if key and parent_key == key:
+        self_references.append(entry)
+
+print("Checking for Missing Parent Keys:")
+for issue in missing_parents:
+    print(f"  ❌ {issue['file']} references non-existent parent: '{issue['parent_referenced']}'")
 
 if not missing_parents:
     print("  ✓ All parent references are valid")
@@ -86,11 +94,8 @@ else:
 
 # Check for circular references by looking at self-references
 print("\nChecking for Self-References:")
-self_references = []
-for entry in all_navigation_entries:
-    if entry['key'] and entry['parent'] == entry['key']:
-        self_references.append(entry)
-        print(f"  ❌ {entry['file']} has itself as parent")
+for entry in self_references:
+    print(f"  ❌ {entry['file']} has itself as parent")
 
 if not self_references:
     print("  ✓ No self-references found")
