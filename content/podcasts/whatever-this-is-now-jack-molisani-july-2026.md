@@ -9,7 +9,7 @@ categories:
   - "job search"
 cover: JackMolisani_50x70.jpg
 coverAlt : Jack Molisani, owner of ProSpring Staffing and the Lavacon Content Strategy Conference
-description: "In this episode, Ed talks to [recruiter and conference organizer extraordinaire Jack Molisani](https://www.linkedin.com/in/jackmolisani). Jack talks about the changes in recruiting and conferences over the past nine years since [his last appearance](/podcasts/users-or-people-with-jack-molisani-content-content-episode-15/) on the podcast, how networking is still important when finding a role in the world of AI, and how technical communicator and content strategists can do it right."
+description: "In this episode, Ed talks to [recruiter and conference organizer extraordinaire Jack Molisani](https://www.linkedin.com/in/jackmolisani). Jack talks about the changes in recruiting and conferences over the past nine years since [his last appearance](https://edmar.sh/podcasts/users-or-people-with-jack-molisani-content-content-episode-15/) on the podcast, how networking is still important when finding a role in the world of AI, and how technical communicator and content strategists can do it right."
 mp3File: jack-molisani-june-2026.mp3
 blubrryId: 155192798
 blubrryCache: 1788117059
@@ -30,12 +30,12 @@ Use the code CONTENTCONTENT to get $400 off your Lavacon 2026 ticket in Charlott
 - [Ed and Jack on closing DITAWorld 2026 panel](https://www.youtube.com/watch?v=xdtx9SC_5TY&list=PLcX4wj6qiUkA&index=23)
 - [Claude](https://claude.ai)
 - [Gemini](https://gemini.google.com)
-- [Content Content podcast with Chris Blocher](/podcasts/chris-blocher-july-2026/)
+- [Content Content podcast with Chris Blocher](https://edmar.sh/podcasts/chris-blocher-july-2026/)
 - [Jackie Damrau](https://www.linkedin.com/in/jackiedamrau)
 - [Heretto](https://heretto.com)
-- [Sharon Burton](/podcasts/sharon-burton-march-2026/)
+- [Sharon Burton](https://edmar.sh/podcasts/sharon-burton-march-2026/)
 - [IXIASoft (MadCap IXIA CCMS)](https://www.madcapsoftware.com/products/ixia-ccms/)
-- [Phylise Banner](/podcasts/i-like-the-ms-with-phylise-banner-content-content-podcast/)
+- [Phylise Banner](https://edmar.sh/podcasts/i-like-the-ms-with-phylise-banner-content-content-podcast/)
 
 ## Production credits
 

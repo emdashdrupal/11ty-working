@@ -69,11 +69,11 @@ Here's an example of how this content works programmatically. This code generate
 ```
 
 Here's what two cards look like side-by-side:
-![Example result of card code](/assets/images/grid-cards-example.png)
+![Example result of card code](https://edmar.sh/assets/images/grid-cards-example.png)
 
 ## Auto-generated, context-sensitive links
 
-The [content stategy](/blog/static-site-transformation/content-strategy-for-ssgs) for my [skills pages](/skills) was to display the relevant tools and presentations for each skill. These started as bulleted lists, but it quickly became obvious that copying and pasting relevant bullets on each page wasn't sustainable.
+The [content stategy](https://edmar.sh/blog/static-site-transformation/content-strategy-for-ssgs) for my [skills pages](https://edmar.sh/skills) was to display the relevant tools and presentations for each skill. These started as bulleted lists, but it quickly became obvious that copying and pasting relevant bullets on each page wasn't sustainable.
 
 Since there's no database behind a static site generator, I created two `json` files that enforce structure while remaining expandable. The first file contained information about my presentations, webinars, and guest appearances. This `json` file contained titles, year (or years) of the item, a relevant link, the category or categories for each, the location or event venue, and type (webinar, in-person, panel discussion, podcast guest or host, etc.). Here's an example:
 
@@ -143,4 +143,4 @@ Then I created templates that render these structures, achieving a single source
 
 I can now programmatically populate my skills pages with the relevant presentations and tools:
 
-![Screen shot of relevant tools and presentations displayed on a web page](/assets/images/programmatic-columns.png)
+![Screen shot of relevant tools and presentations displayed on a web page](https://edmar.sh/assets/images/programmatic-columns.png)

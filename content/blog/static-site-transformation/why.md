@@ -22,13 +22,13 @@ This was a rare greenfield opportunity to:
 
 ## Background
 
-I knew from an early age I'd be involved in writing in some way. I interviewed friends on cassette in elementary school. I had my own 'zine. But since the days of the Commodore VIC-20, I've always been [curious about and dabbled in software development](/skills/code-development/). I started building websites in 1996, which led me to a Drupal site, and also a WordPress personal site I built in 2008:
+I knew from an early age I'd be involved in writing in some way. I interviewed friends on cassette in elementary school. I had my own 'zine. But since the days of the Commodore VIC-20, I've always been [curious about and dabbled in software development](https://edmar.sh/skills/code-development/). I started building websites in 1996, which led me to a Drupal site, and also a WordPress personal site I built in 2008:
 
-![Screenshot of my WordPress homepage as of 1 May 2025 with outdated design](/assets/images/edmarsh-dot-com-homepage-1-may-2025.png)
+![Screenshot of my WordPress homepage as of 1 May 2025 with outdated design](https://edmar.sh/assets/images/edmarsh-dot-com-homepage-1-may-2025.png)
 
 That site and its scope expanded when I started my podcast in 2015:
 
-![Legacy podcast landing page](/assets/images/edmarsh-dot-com-podcast-page-1-may-2025.png)
+![Legacy podcast landing page](https://edmar.sh/assets/images/edmarsh-dot-com-podcast-page-1-may-2025.png)
 
 When I decided to take this project on, getting hands-on appealed to me.
 
@@ -37,7 +37,7 @@ When I decided to take this project on, getting hands-on appealed to me.
 - Update a 10-year-old design.
 - Retire a complex WordPress site that didn't get much traffic and needed maintenance.
 - "Quickly" revamp my website to increase my chances at getting hired.
-- Add value by developing with SSGs, which isn't a skill a lot of technical writers have. SSGs&thinsp;&mdash;&thinsp;like [Eleventy that I chose](/blog/static-site-transformation/choosing-static-site-generator)&thinsp;&mdash;&thinsp;display the content that technical writers create.
+- Add value by developing with SSGs, which isn't a skill a lot of technical writers have. SSGs&thinsp;&mdash;&thinsp;like [Eleventy that I chose](https://edmar.sh/blog/static-site-transformation/choosing-static-site-generator)&thinsp;&mdash;&thinsp;display the content that technical writers create.
 - Learn newer technologies such as Nunjucks templating, that ended up leveraging old tech I'm familiar with like HTML and CSS.
 
 ## Content goals
@@ -54,13 +54,13 @@ When I decided to take this project on, getting hands-on appealed to me.
 
 My [web host (mddhosting)](https://www.mddhosting.com) is great and worth the cost while I was actively updating the site. I no longer needed the complexity and related costs of it, so my goals were to reduce my financial and labor costs:
 
-- Minimize the overhead of maintaining a content management system. I no longer needed the complexity of a self-managed WordPress site. I hadn't blogged in some time, and my [podcast](/podcasts/) has been on hiatus since 2022. Maintenance included:
+- Minimize the overhead of maintaining a content management system. I no longer needed the complexity of a self-managed WordPress site. I hadn't blogged in some time, and my [podcast](https://edmar.sh/podcasts/) has been on hiatus since 2022. Maintenance included:
   - Keeping up with plugin updates.
   - WordPress updates.
   - Processing the hundreds of spam comments that came through every day.
 - Reduce hosting costs. SSGs don't require heavy infrastructure such as a database, so they can be hosted in places that WordPress sites can't. This gave me flexibility to move to a zero- or low-cost host. That *doesn't* mean there are zero costs to hosting the site:
   - My existing site host was also my mail server, so I had to find and set up my own mail hosting. To add to the frustration, my first choice was too difficult to set up. So far, Zoho Mail has been great.
-  - Upgrading my podcast hosting. My podcast archive puts me at the limit of free disk space and bandwidth on GitHub, so I had to offload that to a paid service. The upside to this is I get [metrics](/skills/metrics/) I wouldn't if they were self-hosted.
+  - Upgrading my podcast hosting. My podcast archive puts me at the limit of free disk space and bandwidth on GitHub, so I had to offload that to a paid service. The upside to this is I get [metrics](https://edmar.sh/skills/metrics/) I wouldn't if they were self-hosted.
   - Downsizing from a web host I'd undergrown meant I could re-allocate those resources.
 
 While this solution is cheaper in long-term costs, there was considerable investment in upskilling, setting up infrastructure, creating templates, and making mistakes. I took on mail server costs and administration (which so far has been minimal).

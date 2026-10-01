@@ -36,4 +36,4 @@ I have a long track record successfully interacting with:
 - Started a regular "content creators catchup" that brought cross-divisional tech writers, UXers, and others involved with content across the firm together to share and learn.
 - Created custom monthly metric emails to let stakeholders know how their content is performing, and where there may be gaps or opportunities.
 - Spoken at user groups and conferences.
-- Created a [pioneering podcast](/podcasts/) to give back to the technical writing community.
+- Created a [pioneering podcast](https://edmar.sh/podcasts/) to give back to the technical writing community.

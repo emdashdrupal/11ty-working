@@ -14,11 +14,11 @@ eleventyNavigation:
   parent: skills
 date: '2025-09-25'
 ---
-Podcasts are a terrifically friendly and informative way to get your message out. With over seven years of experience in podcasting, and numerous presentations about the value of podcasting, let's consider this as part of your [content strategy](/skills/content-strategy/).
+Podcasts are a terrifically friendly and informative way to get your message out. With over seven years of experience in podcasting, and numerous presentations about the value of podcasting, let's consider this as part of your [content strategy](https://edmar.sh/skills/content-strategy/).
 
 ## Examples
 
-- Created, hosted, scheduled, recorded, edited, produced, published, promoted, and reviewed metrics for the [Content Content podcast](/podcasts/), interviewing leaders in technical communication, information architecture, content strategy, and more.
+- Created, hosted, scheduled, recorded, edited, produced, published, promoted, and reviewed metrics for the [Content Content podcast](https://edmar.sh/podcasts/), interviewing leaders in technical communication, information architecture, content strategy, and more.
 - Host of [LavaCon content strategy conference podcast](https://lavacon.org/category/podcast/).
 - Guest:
   - [Content Strategy Experts](https://www.scriptorium.com/2018/02/full-transcript-podcasting-strategy-podcast-guest-ed-marsh/).

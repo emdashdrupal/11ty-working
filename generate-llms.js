@@ -42,9 +42,82 @@ function cleanDescription(desc) {
   return cleaned;
 }
 
+function getUrlFromFilePath(filePath) {
+  const relativePath = path.relative(contentDir, filePath);
+  const parsed = path.parse(relativePath);
+
+  let urlPath = path.join(parsed.dir, parsed.name).replace(/\\/g, '/');
+
+  if (parsed.name === 'index') {
+    urlPath = parsed.dir;
+  } else if (path.basename(parsed.dir) === parsed.name) {
+    urlPath = parsed.dir;
+  }
+
+  if (!urlPath || urlPath === '.') {
+    return '/';
+  }
+
+  return `/${urlPath}/`;
+}
+
 function getMarkdownUrl(filePath) {
-  const normalized = filePath.split(path.sep).join('/');
-  return `${siteUrl}/${normalized}`;
+  const urlPath = getUrlFromFilePath(filePath);
+  if (urlPath === '/') {
+    return `${siteUrl}/index.md`;
+  }
+  return `${siteUrl}${urlPath}index.md`;
+}
+
+function copyMarkdownFilesToBuild(outDir = '_site') {
+  if (!fs.existsSync(outDir)) {
+    return;
+  }
+
+  const files = globSync(`${contentDir}/**/*.md`);
+  files.forEach(file => {
+    let fileContent = fs.readFileSync(file, 'utf8');
+    const { data } = matter(fileContent);
+
+    if (data.eleventyExcludeFromCollections === true) {
+      return;
+    }
+
+    // Prepend/insert markdown directive for agent-facing .md files in build output
+    const directive = '> For the complete documentation index, see [llms.txt](https://edmar.sh/llms.txt).\n\n';
+    if (!fileContent.includes('https://edmar.sh/llms.txt')) {
+      if (fileContent.startsWith('---')) {
+        const secondDash = fileContent.indexOf('---', 3);
+        if (secondDash !== -1) {
+          const endOfFrontmatter = secondDash + 3;
+          fileContent = fileContent.slice(0, endOfFrontmatter) + '\n\n' + directive + fileContent.slice(endOfFrontmatter).trimStart();
+        } else {
+          fileContent = directive + fileContent;
+        }
+      } else {
+        fileContent = directive + fileContent;
+      }
+    }
+
+    const urlPath = getUrlFromFilePath(file);
+    if (urlPath === '/') {
+      fs.writeFileSync(path.join(outDir, 'index.md'), fileContent);
+    } else {
+      const relPath = urlPath.slice(1); // remove leading slash
+      const dirPath = path.join(outDir, relPath);
+      fs.mkdirSync(dirPath, { recursive: true });
+      fs.writeFileSync(path.join(dirPath, 'index.md'), fileContent);
+
+      // Also copy as /path.md (without trailing slash)
+      const altFilePath = path.join(outDir, relPath.slice(0, -1) + '.md');
+      fs.mkdirSync(path.dirname(altFilePath), { recursive: true });
+      fs.writeFileSync(altFilePath, fileContent);
+    }
+  });
+
+  if (fs.existsSync(outputFile)) {
+    fs.copyFileSync(outputFile, path.join(outDir, 'llms.txt'));
+  }
 }
 
 function generateLlmsTxt() {
@@ -192,6 +265,7 @@ function main() {
   const content = generateLlmsTxt();
   fs.writeFileSync(outputFile, content);
   console.log(`Generated ${outputFile}`);
+  copyMarkdownFilesToBuild();
 }
 
 if (require.main === module) {
@@ -201,5 +275,6 @@ if (require.main === module) {
 module.exports = {
   cleanDescription,
   getMarkdownUrl,
-  generateLlmsTxt
+  generateLlmsTxt,
+  copyMarkdownFilesToBuild
 };

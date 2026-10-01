@@ -21,9 +21,9 @@ Content strategy means the right content in the right format at the right time i
 The best place to start is with a content audit. I *love* content audits. Let me help you and show you how to:
 
 - Understand what content assets you have, where they are, and the formats they're in.
-- Use [metrics](/skills/metrics/) to guide your strategy.
+- Use [metrics](https://edmar.sh/skills/metrics/) to guide your strategy.
 - Define a common language through a style guide.
-- Define structure through [information architecture](/skills/information-architecture/).
+- Define structure through [information architecture](https://edmar.sh/skills/information-architecture/).
 - Govern and maintain your content.
 
 ## Governance
@@ -36,7 +36,7 @@ The content your organization generates needs a goal, organization, style, and g
 - Content duplication makes it impossible for your employees, clients, and users to find the single source of truth.
 - Productivity declines because your employees are searching multiple places.
 
-Here's a free, [two-page checklist](/assets/pdfs/website-review-checklist.pdf) to ensure your site's content is best portraying your company's best side. [Contact me](/contact/) if you want to learn more!
+Here's a free, [two-page checklist](https://edmar.sh/assets/pdfs/website-review-checklist.pdf) to ensure your site's content is best portraying your company's best side. [Contact me](https://edmar.sh/contact/) if you want to learn more!
 
 ## Examples
 

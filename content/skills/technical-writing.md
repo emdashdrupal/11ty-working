@@ -17,7 +17,7 @@ date: '2025-09-25'
 - **Librarian**: Knowing what information is available, what information users *actually* need, and where to find it.
 - **Translator**: Tech writers interact with a bunch of folks with differing commands of the English language, as well as those whose priority or focus isn't on the writing. We get it, we're all busy. That's where tech writers and editors come in.
 
-![Venn diagram](/assets/images/tech-writer-venn.png)
+![Venn diagram](https://edmar.sh/assets/images/tech-writer-venn.png)
 
 ## Transforming technical communication for modern organizations
 
@@ -38,9 +38,9 @@ I've created:
 ## Strategic content leadership
 
 - Transform complex technical information into clear, user-focused documentation.
-- Implement data-driven [content strategies](/skills/content-strategy/) that align with business objectives.
+- Implement data-driven [content strategies](https://edmar.sh/skills/content-strategy/) that align with business objectives.
 - Build and maintain robust content governance frameworks.
-- Design a scalable [information architecture](/skills/information-architecture) that grows with your organization.
+- Design a scalable [information architecture](https://edmar.sh/skills/information-architecture) that grows with your organization.
 - Associate Fellow, Society for Technical Communication (STC).
 - Award-winning newsletter editor for STC NY Metro Chapter.
 - Award-winning designer and contributor of a company's first full-color printed publication.

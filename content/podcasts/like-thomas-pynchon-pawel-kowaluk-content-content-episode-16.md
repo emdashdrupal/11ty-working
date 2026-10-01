@@ -31,7 +31,7 @@ eleventyNavigation:
 - [International Technical Communication Qualifications Foundation (ITCQF)](http://itcqf.org)
 - [Thomas Pynchon](https://en.wikipedia.org/wiki/Thomas_Pynchon)
 - [Poland Madcap Flare User Group](https://www.meetup.com/Poland-MadCap-Flare-User-Group/)
-- [Users or people with Jack Molisani](/podcasts/users-or-people-with-jack-molisani-content-content-episode-15/)
+- [Users or people with Jack Molisani](https://edmar.sh/podcasts/users-or-people-with-jack-molisani-content-content-episode-15/)
 - [Markdown](https://en.wikipedia.org/wiki/Markdown)
 - ["Life begins when you step out of your comfort zone"- Pam Noreault](https://twitter.com/edmarsh/status/861946935112077312)
 - [Daniel Pink's theory of motivation](https://www.tutor2u.net/business/reference/motivation-pink-three-elements-of-intrinsic-motivation)

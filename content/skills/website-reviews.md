@@ -17,4 +17,4 @@ eleventyNavigation:
   parent: skills
 date: '2025-09-25'
 ---
-Use this [free, two-page checklist](/assets/pdfs/website-review-checklist.pdf) to ensure your web presence and its content are working for your organization. [Contact me](/contact/) if you want to learn more or take a deeper dive with a content audit!
+Use this [free, two-page checklist](https://edmar.sh/assets/pdfs/website-review-checklist.pdf) to ensure your web presence and its content are working for your organization. [Contact me](https://edmar.sh/contact/) if you want to learn more or take a deeper dive with a content audit!

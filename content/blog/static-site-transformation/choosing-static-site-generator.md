@@ -9,7 +9,7 @@ eleventyNavigation:
   key: choosing-static-site-generator
   title: Choosing a Static Site Generator
 ---
-When rebuilding my site, it made sense to use an SSG because it's fast, self-contained, and relevant to what we do as technical communicators. The WordPress site I had for over a decade not longer served my purpose&mdash;both technologically and maintenance. The WordPress world also evolved too far for my limited PHP skills from a decade ago to 'just tweak'. I no longer needed the WordPress complexity, infrastructure, features, and plugins that require maintenance. Using an SSG also fit my [cost reduction goal](/blog/static-site-transformation/why/).
+When rebuilding my site, it made sense to use an SSG because it's fast, self-contained, and relevant to what we do as technical communicators. The WordPress site I had for over a decade not longer served my purpose&mdash;both technologically and maintenance. The WordPress world also evolved too far for my limited PHP skills from a decade ago to 'just tweak'. I no longer needed the WordPress complexity, infrastructure, features, and plugins that require maintenance. Using an SSG also fit my [cost reduction goal](https://edmar.sh/blog/static-site-transformation/why/).
 
 The good news is there are a lot of static site generators to choose from, and that they all work similarly. The bad news is there are a lot of static site generators to choose from, and that they all work similarly. Once you learn the basic principles, it's easier to figure out the nuances of each SSG and decide which is best for you.
 
@@ -29,7 +29,7 @@ The important part to understand is that the SSG is just a generator. There are 
 
 I had time, so I watched videos, read tutorials and blogs, looked up the pros and cons of templating approaches, and the SSG choice itself. I started to learn with the [Hugo SSG](https://gohugo.io/). Eventually I moved to [Eleventy (11ty)](https://eleventy.dev). Why? Not surprisingly, a *lack of documentation*.
 
-Eleventy's docs aren't much better, but its infrastructure is more open. Since I didn't know anything about Eleventy, I stayed with its default [Nunjucks templating language](https://mozilla.github.io/nunjucks/), which ultimately renders the HTML in your output. It's based on the [Liquid templating language](https://liquidjs.com/index.html) so there was a lot of history and documentation to refer to. Amusingly, I found during the process that [Tom Johnson referenced Liquid](/podcasts/content-content-podcast-episode-4-curse-of-knowledge-with-tom-johnson/) in our podcast together almost 10 years ago.
+Eleventy's docs aren't much better, but its infrastructure is more open. Since I didn't know anything about Eleventy, I stayed with its default [Nunjucks templating language](https://mozilla.github.io/nunjucks/), which ultimately renders the HTML in your output. It's based on the [Liquid templating language](https://liquidjs.com/index.html) so there was a lot of history and documentation to refer to. Amusingly, I found during the process that [Tom Johnson referenced Liquid](https://edmar.sh/podcasts/content-content-podcast-episode-4-curse-of-knowledge-with-tom-johnson/) in our podcast together almost 10 years ago.
 
 ## Lessons learned
 
